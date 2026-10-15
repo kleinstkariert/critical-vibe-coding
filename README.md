@@ -14,7 +14,7 @@ Planning, file management, and research for the Interface Cultures seminar **Cri
 ## Layout
 
 - `course/00-brief.md` — seminar brief supplied for this workspace
-- `research/` — source-checked notes for course decisions
+- `research/obsidian-vs-joplin-hermes-llmwiki.md` — Obsidian vs Joplin for Hermes Agent and an LLM Wiki
 
 ## Agent notes
 
