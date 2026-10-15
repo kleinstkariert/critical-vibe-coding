@@ -1,0 +1,11 @@
+.obsidian/
+.trash/
+*.tmp
+Thumbs.db
+Desktop.ini
+*conflicted copy*
+~$*
+.env
+.env.*
+*.pem
+credentials.json
