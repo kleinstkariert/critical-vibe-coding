@@ -9,3 +9,8 @@ Desktop.ini
 .env.*
 *.pem
 credentials.json
+
+# Teacher / private — do not publish on the course GitHub
+StudentList.md
+course/emails/
+.cursor/
