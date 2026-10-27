@@ -18,7 +18,11 @@ First **technical** session after the socio-political opener (session 1). Instal
 
 ## Check-in
 
-One sentence from last week’s outdoor/lecture themes. Who already has Obsidian installed?
+Listen only — [[../course-rhythm#check-in-every-session]]. (Obsidian install status can appear in the AI-since-last-met answer.)
+
+## Student input
+
+Group G1 (~15 min): harness / structure — [[../course-rhythm]]
 
 ## Teacher input — Part A: Harness (general)
 

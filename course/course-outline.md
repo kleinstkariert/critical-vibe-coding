@@ -20,7 +20,7 @@ Hands-on seminar: students build and run a personal LLM-agent setup while unpack
 
 “Vibe coding” is not taught as a frictionless shortcut. The course asks when AI helps, when it wastes time, which models and infrastructures fit a task, and how authorship, labour, platform dependency, and ecology shift when an **agent** sits between you and the stack. The agent itself is treated as interface material for media-art practice, not only as a means to an output.
 
-Each class opens with a short check-in. Students give short inputs on tools and themes. Midpoint and final centre on a **working personal setup** plus a critical reflection tied to artistic practice.
+Each class opens with a **listen-only check-in** (morning + AI since last meeting; 30–60 s/person). From session 2, one student **pair** (~15 min) presents from the repo. Sessions 2–11 keep **≥45 min technical** time (long DIY at home). Full rhythm: [[course-rhythm]]. Midpoint and final centre on a **working personal setup** plus a critical reflection tied to artistic practice.
 
 *requirement (brief):* visual/node environments, GUI tools, text coding, and 3D/CAD; criteria for useful vs unnecessary AI; proprietary cloud vs local/open infra; shared space for hopes, fears, and authorship questions.
 
@@ -53,21 +53,21 @@ Students will be able to:
 
 | Week | Topic | What this session covers |
 |---|---|---|
-| 1 | Welcome + landscape | Outdoor/check-in; political-economic framing; setup proposal. [[sessions/01-welcome-and-landscape]] · lecture [[lectures/01-welcome-landscape-lecture]] |
-| 2 | Harness + wiki architecture | **Agent = Model + Harness** (general), then LLM Wiki / Obsidian structure. [[sessions/02-agent-harness-and-wiki-architecture]] · [[what-is-harness]] |
-| 3 | Models, prompting, install | Model landscape; prompting; install agents; academic AI honesty. [[sessions/03-models-prompting-install]] · [[prompting-and-model-choice]] · [[academic-ai-austria]] · [[../research/local-gpu-hardware-for-llms]] |
-| 4 | Wiki practice + phone + Discord | Personalise agent; phone sync; Discord bridge. [[sessions/04-knowledge-base-phone-discord]] |
-| 5 | MCP and tools (incl. 3D/CAD) | One interface to many systems; **agent ↔ CAD / 3D**. [[sessions/05-mcp-and-tools]] |
-| 6 | Agent as interface | Setup/skills/tools as artistic material. [[sessions/06-agent-as-interface]] |
-| 7 | Agents across creative stacks | Code, node, GUI, **3D/CAD**, fab. [[sessions/07-agents-across-creative-stacks]] |
-| 8 | Midpoint | Working setup demo + project proposal. [[sessions/08-midpoint-demo-and-proposal]] |
-| 9 | Authorship, labour, platforms | Ghost work, style/IP, platform dependency; EU/AT regulation pointer. [[sessions/09-authorship-labour-platforms]] · [[eu-ai-act-and-datenschutz]] |
-| 10 | Local ecology, when not | Local/open infra; ecology; refuse AI; data location. [[sessions/10-local-ecology-when-not]] · [[eu-ai-act-and-datenschutz]] |
-| 11 | Studio build | Build, break, document. [[sessions/11-studio-build]] |
-| 12 | Peer critique | Setup and project together. [[sessions/12-peer-critique]] |
+| 1 | Welcome + landscape | Outdoor/check-in; drivers/visions/fears/regulation; bubble seed; setup proposal. [[sessions/01-welcome-and-landscape]] · [[visions-fears-regulation]] · [[lectures/01-welcome-landscape-lecture]] |
+| 2 | Harness + wiki architecture | **Agent = Model + Harness**, then LLM Wiki / Obsidian. [[sessions/02-agent-harness-and-wiki-architecture]] · [[what-is-harness]] |
+| 3 | Models, prompting, install | Landscape; chat vs reasoning; prompting; **cloud** Hermes install; academic AI honesty. [[sessions/03-models-prompting-install]] · [[prompting-and-model-choice]] · [[academic-ai-austria]] |
+| 4 | Local hardware + open LLMs | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, open models vs RAM. [[sessions/04-local-hardware-and-open-llms]] · [[howto-local-llm-hardware]] · [[../research/local-gpu-hardware-for-llms]] |
+| 5 | Wiki practice + phone + Discord | Personalise agent; phone sync; Discord bridge. [[sessions/05-knowledge-base-phone-discord]] |
+| 6 | MCP and tools (incl. 3D/CAD) | One interface to many systems; **agent ↔ CAD / 3D**. [[sessions/06-mcp-and-tools]] |
+| 7 | Agent as interface | Setup/skills/tools as artistic material. [[sessions/07-agent-as-interface]] |
+| 8 | Agents across creative stacks | Code, node, GUI, **3D/CAD**, fab. [[sessions/08-agents-across-creative-stacks]] |
+| 9 | Midpoint | Working setup demo + project proposal. [[sessions/09-midpoint-demo-and-proposal]] |
+| 10 | Authorship, labour, platforms | Ghost work, style/IP, platform dependency; EU/AT pointer. [[sessions/10-authorship-labour-platforms]] · [[eu-ai-act-and-datenschutz]] |
+| 11 | Ecology, when not | Data-centre siting/energy; refuse AI; data location (*how* to build local → session 04). [[sessions/11-local-ecology-when-not]] · [[../research/data-centers-energy-ecology-economy]] |
+| 12 | Studio + peer critique | Build/break/document + critique setup+project. [[sessions/12-studio-and-peer-critique]] |
 | 13 | Final presentations | Architecture + use + reflection. [[sessions/13-final-presentations]] |
 
-*technical suggestion:* Compress 11+12 if the semester is shorter; keep 1–3 (socio → harness → install) and midpoint (8) fixed.
+Rhythm / crowding / 10 student pairs: [[course-rhythm]]. Keep 1–4 (socio → harness → install → local) and midpoint (9) fixed.
 
 ---
 
@@ -85,7 +85,9 @@ Install guides (Windows / macOS / Linux): [[howto-hermes-setup]] · [[howto-obsi
 
 Creative AI tool survey (extra): [[ai-tools-creative-processes]]
 
-Local hardware for larger models (extra): [[../research/local-gpu-hardware-for-llms]]
+Local hardware (session 04): [[../research/local-gpu-hardware-for-llms]] · [[howto-local-llm-hardware]]
+
+Class rhythm: [[course-rhythm]]
 
 Student materials pack (do not share full vault): [[student-share-structure]]
 
@@ -99,8 +101,9 @@ Full list: [[references]]. Critical sessions lean on free-to-read pieces listed 
 |---|---|
 | LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) |
 | Political economy / bubble | Course research note [[../research/ai-bubble-productivity-datacenter]]; Tooze / BIS as cited there |
-| Authorship & labour | Session 8 table |
-| Ecology / when not | Session 9 table |
+| Authorship & labour | Session 9 table · jobs evidence [[../research/ai-jobs-rising-tide-productivity]] |
+| Ecology / data centres / when not | Session 11 + [[../research/data-centers-energy-ecology-economy]]; IEA; Be Smart overview video |
+| Local hardware / open weights | Session 04 + [[../research/local-gpu-hardware-for-llms]] · [[howto-local-llm-hardware]] |
 
 Peer-course patterns (not required texts): HKUST AMCC6500; Birkbeck Critical and Creative AI; HM Munich *Our Br00d* — see [[timeline#peer-courses-web-research-2026-10-18]].
 

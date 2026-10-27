@@ -36,12 +36,15 @@ Short syllabus sheet: [[course-outline]]
 What is a harness: [[what-is-harness]]  
 Prompting + model choice: [[prompting-and-model-choice]]  
 Academic AI Austria: [[academic-ai-austria]]  
+Drivers / visions / fears / regulation (Session 01, 10–15 min): [[visions-fears-regulation]]  
+AI jobs — rising tide, Canaries, productivity × experience: [[../research/ai-jobs-rising-tide-productivity]]  
 EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]  
 AI creative tools survey: [[ai-tools-creative-processes]]  
 Session 01 lecture draft: [[lectures/01-welcome-landscape-lecture]]  
 Session 02 harness + wiki: [[sessions/02-agent-harness-and-wiki-architecture]]  
 Local GPU / Apple / DGX research: [[../research/local-gpu-hardware-for-llms]]  
-Bubble / productivity / DC research: [[../research/ai-bubble-productivity-datacenter]]  
+Bubble / productivity / DC financing: [[../research/ai-bubble-productivity-datacenter]]  
+Data centres — energy, ecology, US/world economy (Session 11): [[../research/data-centers-energy-ecology-economy]]  
 Student share structure: [[student-share-structure]]  
 Presentation style: [[presentation-style]]
 
@@ -66,6 +69,10 @@ Presentation style: [[presentation-style]]
 | AI Just Unlocked UNLIMITED Knowledge! Hermes & LLMWiki | https://www.youtube.com/watch?v=YUz2CLLmdjA | Hermes + wiki skill hype/overview — critique the claims in class |
 | Building an LLM Wiki in Obsidian (Beomsu Koh) | https://www.youtube.com/watch?v=sQSFeqeLKtU | Live Obsidian session |
 | I Built Karpathy’s LLM Wiki in Obsidian | https://www.youtube.com/watch?v=bgXEDymiZCc | Obsidian practice narrative |
+| Be Smart — *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Session 10 prep overview (energy, water, neighbours); handout [[../research/data-centers-energy-ecology-economy]] |
+| Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [[visions-fears-regulation]] |
+| Jacob Coxon — *Existential Threat of AI from the Inside* (Daily Show) | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01: utopia vs incentives / misuse — teacher clip |
+| Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [[visions-fears-regulation]] |
 
 ## MCP
 
@@ -100,7 +107,7 @@ Full mapping: [[timeline]]
 
 ## Critical readings — primary, free to read (sessions 5, 8, 9)
 
-Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched the description). No paywalled-only items. Session tables: [[sessions/09-authorship-labour-platforms]] · [[sessions/10-local-ecology-when-not]].
+Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched the description). No paywalled-only items. Session tables: [[sessions/10-authorship-labour-platforms]] · [[sessions/11-local-ecology-when-not]].
 
 ## Agent harness
 

@@ -1,6 +1,7 @@
 ---
 title: Local hardware for larger LLMs
 date: 2026-10-20
+updated: 2026-10-27
 tags:
   - research
   - hardware
@@ -10,16 +11,19 @@ tags:
 
 # Local hardware for larger LLMs
 
-Research note for Critical Vibe Coding. Labels: *verified fact* | *street-price estimate* | *technical suggestion*.  
-Prices move weekly — re-check before telling students a number. Currency roughly **USD street / MSRP class, mid–late 2026** unless noted.
+Research note + setup map for Critical Vibe Coding. Labels: *verified fact* | *street-price estimate* | *technical suggestion* | *nuance*.  
+Prices move weekly — re-check before telling students a number. Currency roughly **USD/EUR street / MSRP class, mid–late 2026** unless noted.
 
-Use in: session [[../course/sessions/03-models-prompting-install]] (landscape) · [[../course/sessions/10-local-ecology-when-not]] (local as choice) · lecture [[../course/lectures/01-welcome-landscape-lecture]] (preview only).
+**Session home:** [[../course/sessions/04-local-hardware-and-open-llms]] · student howto [[../course/howto-local-llm-hardware]]  
+Also pointed from: session [[../course/sessions/03-models-prompting-install]] (preview) · [[../course/sessions/11-local-ecology-when-not]] (ecology choice, not build guide) · [[../course/prompting-and-model-choice]] §§6–7.
+
+Hermes docs (software side): [Local Models](https://hermes-agent.nousresearch.com/docs/user-guide/local-models) · [Ollama guide](https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup) · [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
 
 ---
 
-## What “larger model” means for memory
+## 1. What “fits” — memory math
 
-Rule of thumb for **weights only** (plus KV-cache / context needs more):
+Rule of thumb for **weights only** (KV-cache / long context needs more):
 
 | Precision | Approx. GB per billion parameters |
 |---|---|
@@ -27,138 +31,164 @@ Rule of thumb for **weights only** (plus KV-cache / context needs more):
 | 8-bit | ~1 GB |
 | 4-bit (Q4) | ~0.5 GB |
 
-Examples (*order of magnitude*):
-
 | Model class | Q4 weights | Practical machine memory |
 |---|---|---|
 | 7–9B | ~4–6 GB | Laptop GPU / 16–24 GB unified OK |
 | 27–34B | ~16–20 GB | 24 GB discrete GPU or 32–48 GB unified |
-| 70B | ~40–44 GB | **≥48–64 GB** usable GPU/unified; 128 GB comfortable |
-| 70B Q8 / larger MoE | 80 GB+ | 96–192 GB unified or multi-GPU |
+| 70B | ~40–44 GB | **≥48–64 GB** usable; 128 GB comfortable |
+| 70B Q8 / large MoE | 80 GB+ | 96–192 GB unified or multi-GPU |
 
-*nuance:* Advertised RAM ≠ usable for weights. Discrete GPUs lose some VRAM to the display driver; unified-memory machines share RAM with the OS (often plan ~70–80% of the sticker for the model).
+*nuance:* Advertised RAM ≠ usable for weights. Discrete GPUs lose VRAM to the display driver; unified-memory machines share RAM with the OS (plan ~70–80% of sticker for the model). Hermes Local Models prices catalog builds against your machine and prefers ≥4-bit.
 
-Inference stack examples: **llama.cpp / Ollama / LM Studio** (easy); **vLLM / TensorRT-LLM** (NVIDIA serving); **MLX** (Apple). Training/LoRA is a harder memory problem than chat inference.
-
----
-
-## Path A — Self-built NVIDIA (discrete GPU)
-
-Best when you want **CUDA**, maximum tok/s per euro at mid size, and are willing to assemble a PC.
-
-### Typical build tiers (*street-price estimate*)
-
-| Tier | Example GPU | VRAM | Fits (Q4 chat, rough) | GPU street | Whole PC ballpark |
-|---|---|---|---|---|---|
-| Entry local | RTX 4060 / 4060 Ti | 8–16 GB | 7–13B comfortable | €300–500 | €900–1 400 |
-| Sweet spot used/new | RTX 3090 / 4090 | 24 GB | ~30–34B; 70B only with offload (slow) | 3090 used varies; 4090 often €1 500–2 200 | €2 000–3 500 |
-| Current high consumer | RTX 5090 | 32 GB | larger 30B-class; 70B still tight | check live | €3 000–4 500+ |
-| Multi-GPU | 2×24–48 GB | 48–96 GB pool | 70B Q4 if software supports split | 2× GPU + big PSU | €4 000–8 000+ |
-
-**Build checklist**
-
-- PSU headroom (4090-class ~450 W TDP + CPU); quality cables  
-- Case airflow; GPU length  
-- Fast NVMe for model files (70B Q4 is tens of GB on disk)  
-- Linux or Windows; Linux usually nicer for CUDA servers  
-- Power / heat / noise — studio apartments matter  
-
-**Pros:** Fast for models that fit in VRAM; CUDA ecosystem.  
-**Cons:** VRAM ceiling per card; multi-GPU complexity; power draw; Austria/EU electricity cost for always-on.
-
-Links: [NVIDIA GeForce](https://www.nvidia.com/en-us/geforce/) · community trackers e.g. [llmhardware.io/compare](https://llmhardware.io/compare)
+Inference stacks: **llama.cpp / Ollama / LM Studio** (easy) · **Hermes managed llama.cpp** · **vLLM / TensorRT-LLM** (NVIDIA serve) · **MLX** (Apple).
 
 ---
 
-## Path B — Ready-made NVIDIA “AI PCs”
+## 2. Path A — Ready-made: unified / coherent memory
 
-### NVIDIA DGX Spark (GB10, deskside)
+These machines **share one big memory pool** between CPU and GPU (or GPU-coherent fabric). That is why a 128 GB box can load models a 24 GB GeForce cannot — even if peak FLOPS look lower.
 
-- **What:** Small deskside / workstation-class box, **128 GB** unified LPDDR5x, Grace Blackwell GB10, DGX OS (Ubuntu), CUDA / TensorRT-LLM path.  
-- **MSRP class:** often cited around **~$4 000–4 700** (confirm on [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) / local reseller).  
-- **Fits:** 70B Q4 comfortably in memory terms; bandwidth (~273 GB/s class) is **lower** than top Apple Ultra — expect solid CUDA workflow, not always the tok/s king vs Mac Studio.  
-- **Pros:** Official NVIDIA stack; less DIY; path toward networked Spark setups in docs.  
-- **Cons:** Price; Linux-first; less “normal laptop” than a Mac.
-
-### Other NVIDIA / OEM
-
-- Older **DGX Station** / enterprise boxes: budget usually **beyond student/artist** (tens of k€).  
-- OEM “AI mini PCs” with mobile Blackwell/Ada — verify real VRAM/unified numbers, not marketing FLOPS.
-
----
-
-## Path C — Apple Silicon (unified memory)
-
-Apple does **not** have a separate GPU VRAM pool the way discrete NVIDIA cards do. CPU + GPU share **unified memory**. For local LLMs this is the feature: a **128 GB Mac Studio** can load model weights that a 24 GB GeForce cannot, using MLX / llama.cpp Metal / Ollama.
+### A1 — Apple Silicon (Mac mini / Studio)
 
 | Config (examples) | Unified memory | Rough fit | Price class (*estimate*) |
 |---|---|---|---|
-| Mac mini M4 Pro | 24–64 GB | 7–34B; 70B Q4 only at high memory configs | check Apple |
-| Mac Studio M4 Max | up to ~128 GB class | 70B Q4 comfortable at 64–128 GB | often ~$2 k–$4 k+ depending on RAM |
-| Mac Studio M4 Ultra | high bandwidth (~800 GB/s class), large RAM options | 70B Q8 experiments; larger quants | often **$5 k–$9 k+** fully loaded |
+| Mac mini M4/M5 Pro | 24–64 GB | 7–34B; 70B Q4 only at high RAM | check Apple |
+| Mac Studio Max | up to ~128 GB | 70B Q4 comfortable at 64–128 GB | often ~$2 k–$5 k+ |
+| Mac Studio Ultra | high bandwidth (often **≫** Spark), large RAM | 70B Q8 / larger experiments | often **$5 k–$9 k+** |
 
-*verified direction:* Higher **memory bandwidth** on Ultra vs DGX Spark is why many tok/s comparisons favour Mac for pure local chat; NVIDIA wins on CUDA training/serving ecosystem.
+- Stack: **MLX**, Ollama Metal, llama.cpp Metal, Hermes `backend: metal`.  
+- **Pros:** Quiet, efficient, artists often already on Mac; soldered RAM → buy enough on day one.  
+- **Cons:** No CUDA; some training stacks second-class.
 
-**Pros:** Quiet, low power, strong laptop/desktop continuity, easy for artists already on Mac.  
-**Cons:** No CUDA; some Python ML stacks are second-class; RAM soldered (buy the memory you need on day one).
+Links: [Mac Studio](https://www.apple.com/mac-studio/) · [MLX](https://github.com/ml-explore/mlx)
 
-Links: [Apple Mac Studio](https://www.apple.com/mac-studio/) · MLX: https://github.com/ml-explore/mlx
+### A2 — NVIDIA DGX Spark (GB10)
+
+- **What:** Deskside box, **64 or 128 GB** coherent unified LPDDR5x, Grace Blackwell GB10, DGX OS (Ubuntu), CUDA / NIM path. ~240 W class, ~1.2 kg.  
+- **MSRP class:** launched ~**$3 999**; later listings often ~**$4 699** (confirm [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)).  
+- **Bandwidth:** ~**273 GB/s** — solid, often **below** top Mac Ultra for pure chat tok/s; wins on **CUDA** fine-tune / serve ecosystem.  
+- **Networking:** ConnectX-7; docs describe clustering **up to four** Sparks for larger / multi-agent workloads (NVIDIA Sync).  
+- **Fits:** 70B Q4 in memory terms; marketing cites up to ~200B-class at aggressive quants — treat as *claim*, verify for your stack.
+
+### A3 — Other ready-mades
+
+| Box | Role | Caution |
+|---|---|---|
+| OEM “AI mini PCs” (ASUS Ascent-class, etc.) | Spark-like GB10 partners | Check real unified GB, not FLOPS slides |
+| Jetson AGX Thor (128 GB class) | **Robotics / edge deploy**, not a cheaper Spark | Same bandwidth class ≠ desktop LLM value; street price can exceed Spark |
+| AMD Ryzen AI Max+ 395 + 128 GB mini PCs | Capacity competitor ~$2–3.5 k | ROCm/Vulkan more brittle than CUDA/MLX |
 
 ---
 
-## Path D — AMD unified / Strix Halo mini PCs
+## 3. Path B — Self-built discrete GPU (single card)
 
-Examples: mini PCs with **Ryzen AI Max+ 395** and **128 GB** LPDDR5x (~$2 000–3 500 class).  
+Best €/tok/s when the **model fits in one card’s VRAM**.
 
-- Memory capacity competes with Spark/Mac for *loading* 70B Q4.  
-- Software (ROCm / Vulkan llama.cpp) is more brittle than CUDA or MLX.  
-- *technical suggestion:* Interesting if budget-constrained and Linux-curious; not the class default.
+| Tier | Example GPU | VRAM | Fits (Q4, rough) | GPU street | Whole PC ballpark |
+|---|---|---|---|---|---|
+| Entry | RTX 4060 / 4060 Ti | 8–16 GB | 7–13B | €300–500 | €900–1 400 |
+| Sweet used/new | RTX 3090 / 4090 | 24 GB | ~30–34B; 70B only with offload | 3090 used varies; 4090 €1.5–2.2 k | €2–3.5 k |
+| Current high | RTX 5090 | 32 GB | larger 30B; 70B still tight | check live | €3–4.5 k+ |
+
+**Build checklist:** PSU headroom · case airflow · GPU length · fast NVMe · Linux preferred for servers · noise/heat/electricity (AT/EU kWh).
+
+Ollama NVIDIA support table (compute capability / drivers): https://docs.ollama.com/gpu
 
 ---
 
-## Path E — Don’t buy: rent or share
+## 4. Path C — DIY multi-GPU “rack” / workstation
 
-| Option | When |
+### What multi-GPU actually does (*verified direction*)
+
+**It does not merge VRAM into one Apple-style unified pool.** Software **splits** the model:
+
+| Mode | Idea | Interconnect |
+|---|---|---|
+| **Pipeline / layer split** (llama.cpp default `-sm layer`) | Each GPU holds a contiguous slice of layers; activations pass GPU→GPU | Works fine over **PCIe**; NVLink optional |
+| **Tensor parallel** (vLLM `--tensor-parallel-size N`; llama.cpp `-sm tensor` experimental) | Each layer’s matrices split across GPUs; more communication per token | Prefers **NVLink** / fast fabric; PCIe works but slower |
+
+So **2×24 GB ≈ 48 GB of weight capacity**, not “one 48 GB GPU.”
+
+### Hardware for a 2–4 GPU rig (*street-price estimate*)
+
+| Part | Guidance |
 |---|---|
-| Cloud GPU hour (RunPod, Vast, Lambda, etc.) | Occasional 70B experiments |
-| University / lab machine | If access exists — say so clearly in class |
-| Class one shared box | *technical suggestion:* one DGX Spark or 4090 workstation in the studio for booked slots |
-| Strong cloud API + small local model | Default for most students |
+| **GPUs** | Matched VRAM ideal. Popular: **2× RTX 3090 24 GB** (used; last GeForce with consumer NVLink bridge) · 2× 4090/5090 (PCIe only — NVIDIA dropped NVLink on 40/50 consumer) · workstation A6000-class if budget allows |
+| **Motherboard** | Enough **full-length** PCIe slots at good lane width (x16/x8/x8/x8). Check bifurcation; avoid “x4 decorative” slots for heavy cards. NVIDIA playbook: [Build a Multi-GPU AI PC](https://build.nvidia.com/playbooks/multi-gpu) |
+| **PSU** | Sum TDP + CPU + 20–30% headroom; quality cables; often **1200–1600 W** for dual 4090-class |
+| **Case / cooling** | Open-air or large tower; GPU spacing; dust; noise |
+| **CPU / RAM** | Enough host RAM for KV spill / OS (64–128 GB system RAM common on serious rigs) |
+| **Storage** | Fast NVMe; 70B Q4 is tens of GB per quant |
+| **Ballpark** | Dual 3090 used workstation often **€3–6 k**; dual 4090 new **€5–9 k+**; 4-GPU / enterprise beyond most students |
 
-Ecology session: local always-on 4090 can lose to shared efficient inference if utilisation is low — measure use, don’t moralise hardware alone.
+### How to connect and “sync” memory
+
+1. Install drivers; confirm all cards: `nvidia-smi` · topology: `nvidia-smi topo -m`  
+2. **Ollama:** auto-spreads when one GPU is too small; limit with `CUDA_VISIBLE_DEVICES` (https://docs.ollama.com/gpu)  
+3. **llama.cpp:**  
+   - Layer: `llama-server -m model.gguf -ngl all -sm layer`  
+   - Unequal cards: `-ts 2,1` style proportions  
+   - Docs: https://github.com/ggml-org/llama.cpp/blob/master/docs/multi-gpu.md  
+4. **vLLM:** `vllm serve MODEL --tensor-parallel-size 2` (or pipeline parallel if no NVLink)  
+5. Point Hermes at OpenAI-compatible URL (`http://localhost:11434/v1` or llama-server `:8080/v1`)
+
+*nuance:* NVLink helps **tensor-parallel throughput** more than single-user layer-split chat. For art-studio “one agent” workloads, **layer split over PCIe** is usually enough.
+
+### Tutorials (bookmark)
+
+| Resource | URL |
+|---|---|
+| llama.cpp multi-GPU | https://github.com/ggml-org/llama.cpp/blob/master/docs/multi-gpu.md |
+| CanItRun — split modes & NVLink (2026) | https://canitrun.dev/guides/multi-gpu-setups/ |
+| MyAIHardware — vLLM + llama.cpp | https://www.myaihardware.com/tutorial/multi-gpu-setup |
+| LLM Hardware Guide — multi-GPU | https://llmhardwareguide.com/multi-gpu-llm |
+| NVIDIA multi-GPU PC playbook | https://build.nvidia.com/playbooks/multi-gpu |
+| Ollama GPU docs | https://docs.ollama.com/gpu |
+| Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |
 
 ---
 
-## Decision guide for students
+## 5. Open downloadable models — what makes sense
+
+Prefer **instruct / tool-calling** builds for Hermes agents (plain chat models cannot drive tools reliably). Names age — check Ollama library / Hugging Face / Hermes catalog at class time.
+
+| Hardware you have | Sensible open models (*examples*) | Role |
+|---|---|---|
+| 8–16 GB VRAM / 16–24 GB unified | Qwen3 4–8B, Llama 3.x 8B, Gemma 2 9B, Phi-class | Daily chat; light agent if tool-tuned |
+| 24 GB / 32–48 GB unified | Qwen3 14–32B, Gemma 27–31B tool models, DeepSeek-R1 **distill 14–32B** | Strong local agent; toggle thinking |
+| 48–64 GB (2×24 or 64 GB unified) | 70B Q4 (Llama 3.3 70B, Qwen2.5/3 70B-class) | Serious offline; slower on dual consumer |
+| 128 GB unified (Spark / Mac / mini-PC) | 70B Q4–Q8; some MoE / 100B+ at Q4 | Comfortable large local; cluster Sparks for bigger |
+| CPU-only | ≤3–8B Q4 | Learning only; slow agent prefill |
+
+**Hermes-specific:** Desktop **Local Models** auto-picks quant vs your GPU; curated catalog + Hugging Face GGUF. Manual Ollama: raise context (`num_ctx` ≥ 64k for agent work), keep-alive, tool-capable model — see Hermes Ollama guide.
+
+**Thinking models:** Use instruct default; enable thinking only for hard tasks ([[../course/prompting-and-model-choice#5-thinking-on--off--save-monologue-tokens]]).
+
+---
+
+## 6. Decision guide (students)
 
 | Goal | Prefer |
 |---|---|
-| Learn agents + wiki, little money | Cloud API + laptop; no GPU purchase |
-| Private / offline 7–13B | Any recent laptop; or used 3060/4060 |
-| Serious local 70B chat | Mac Studio 64–128 GB **or** DGX Spark **or** multi-GPU NVIDIA |
-| CUDA training / fine-tune | NVIDIA self-build or Spark |
-| Quiet desk, Apple already home | Mac Studio / Mac mini high RAM |
-| Lowest €/GB to *load* large quants | Watch used 3090 pairs vs mini-PC 128 GB deals |
+| Learn agents + wiki, little money | Cloud API + laptop; **no** GPU purchase |
+| Private / offline 7–13B | Laptop or used 3060/4060; Hermes Local / Ollama |
+| Quiet desk, already on Mac | High-RAM Mac mini/Studio + MLX/Ollama |
+| CUDA fine-tune / serve | Self-build NVIDIA or DGX Spark |
+| Load 70B without DIY pain | Spark 128 GB **or** Mac Studio 64–128 GB **or** dual 24 GB |
+| Lowest €/GB to *load* | Watch used 3090 pairs vs 128 GB mini-PC deals |
+| Occasional big model | Rent GPU hour (RunPod / Vast / …) |
+
+**Course rule:** Buying hardware is **never** required. Session 04 teaches *how*; ecology session asks *whether*.
 
 ---
 
-## Course placement (*technical suggestion*)
+## 7. Sources (re-check before lecture)
 
-| Session | What to cover |
-|---|---|
-| **03** | 10 min landscape: cloud vs local vs EU host; point here; no one must buy |
-| **10** | Local as political/aesthetic choice; power; when renting wins |
-| **11 studio** | Optional bookable machine if the department can host one |
-
-Do **not** make purchasing hardware a course requirement.
-
----
-
-## Sources (re-check before lecture)
-
-- NVIDIA DGX Spark product page: https://www.nvidia.com/en-us/products/workstations/dgx-spark/  
+- NVIDIA DGX Spark: https://www.nvidia.com/en-us/products/workstations/dgx-spark/  
 - Apple Mac Studio: https://www.apple.com/mac-studio/  
-- Comparative write-ups (street prices, May–Oct 2026): https://gpuinsights.net/unified-memory-ai-showdown-2026/ · https://www.compute-market.com/blog/nvidia-dgx-spark-vs-mac-studio-m4-max-local-ai-2026 · https://llmhardware.io/compare  
+- Ollama GPU: https://docs.ollama.com/gpu  
+- Hermes Local Models / Ollama: links at top  
+- Comparative landscape write-ups (volatile): https://llmhardware.io/compare · https://presenc.ai/research/local-llm-hardware-landscape-2026  
 - VRAM rules of thumb: https://www.compute-market.com/tools/vram-requirements  
 
-*todo:* add Austrian/EU shop links and watt-cost example (kWh × hours × €) before session 10.
+*todo:* Austrian/EU shop links + kWh cost example before ecology session.

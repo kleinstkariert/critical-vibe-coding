@@ -21,15 +21,18 @@ Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you 
 
 ---
 
-## Install order (do this before / during week 3)
+## Install order (before / during weeks 2–4)
 
-1. **Obsidian** — vault in a folder that can sync to your phone → [howto-obsidian-setup-and-sync.md](howto-obsidian-setup-and-sync.md)  
-2. Note which **LLM access** you already have (subscription, campus chat, none). Campus academic AI often has **no API for agents** → [academic-ai-austria.md](academic-ai-austria.md)  
-3. **Hermes Agent** — point it at your vault path → [howto-hermes-setup.md](howto-hermes-setup.md) (Windows / macOS / Linux)  
-4. Skim **harness** idea → [what-is-harness.md](what-is-harness.md) (session 2 goes deep)  
-5. Optional: prompting + how to pick models → [prompting-and-model-choice.md](prompting-and-model-choice.md)
+1. **Obsidian** — vault that can sync to your phone → [howto-obsidian-setup-and-sync.md](howto-obsidian-setup-and-sync.md)  
+2. Note which **LLM access** you already have. Campus academic AI often has **no API for agents** → [academic-ai-austria.md](academic-ai-austria.md)  
+3. **Hermes Agent** (cloud model OK first) → [howto-hermes-setup.md](howto-hermes-setup.md)  
+4. Skim **harness** → [what-is-harness.md](what-is-harness.md) (session 2)  
+5. Prompting / model choice → [prompting-and-model-choice.md](prompting-and-model-choice.md)  
+6. Optional **local** models / hardware → [howto-local-llm-hardware.md](howto-local-llm-hardware.md) (session 4)
 
 Keep API keys out of synced notes.
+
+**Every class:** listen-only check-in (morning + AI since last met). From week 2: one student pair presents ~15 min — see [course-rhythm.md](course-rhythm.md).
 
 ---
 
@@ -40,10 +43,15 @@ Keep API keys out of synced notes.
 | What happens each week? | [timeline.md](timeline.md) · [course-outline.md](course-outline.md) · [sessions/](sessions/) |
 | Midpoint / final deliverables? | [timeline.md](timeline.md) (milestones) |
 | Readings & links? | [references.md](references.md) |
+| Drivers / visions / fears (Session 01 talk)? | [visions-fears-regulation.md](visions-fears-regulation.md) |
+| AI and jobs (tide / early career / junior gains)? | [../research/ai-jobs-rising-tide-productivity.md](../research/ai-jobs-rising-tide-productivity.md) |
 | EU AI Act / Datenschutz? | [eu-ai-act-and-datenschutz.md](eu-ai-act-and-datenschutz.md) |
-| Local GPU / Mac / DGX? | [../research/local-gpu-hardware-for-llms.md](../research/local-gpu-hardware-for-llms.md) |
+| Local GPU / Mac / DGX / multi-GPU (Session 04)? | [../research/local-gpu-hardware-for-llms.md](../research/local-gpu-hardware-for-llms.md) · [howto-local-llm-hardware.md](howto-local-llm-hardware.md) |
+| Check-in + student input schedule? | [course-rhythm.md](course-rhythm.md) |
+| Data centres / energy / ecology (Session 11)? | [../research/data-centers-energy-ecology-economy.md](../research/data-centers-energy-ecology-economy.md) |
+| MCP / CAD tools? | [what-is-mcp.md](what-is-mcp.md) · [sessions/06-mcp-and-tools.md](sessions/06-mcp-and-tools.md) |
+| AI bubble / CapEx finance? | [../research/ai-bubble-productivity-datacenter.md](../research/ai-bubble-productivity-datacenter.md) |
 | Creative tools (Meshy, Weave, …)? | [ai-tools-creative-processes.md](ai-tools-creative-processes.md) |
-| MCP / CAD tools? | [what-is-mcp.md](what-is-mcp.md) · [sessions/05-mcp-and-tools.md](sessions/05-mcp-and-tools.md) |
 
 ---
 

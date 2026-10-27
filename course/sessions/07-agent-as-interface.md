@@ -1,9 +1,9 @@
 ---
-title: Session 06 — Agent as interface
-session: 6
+title: Session 07 — Agent as interface
+session: 7
 ---
 
-# Session 06 — The agent as interface
+# Session 07 — The agent as interface
 
 Parent: [[../timeline]]
 

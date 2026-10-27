@@ -14,6 +14,8 @@ tags:
 
 Research date: 2026-10-18. Placed in the vault from the Downloads summary the same day. Labels: *verified fact* | *nuance / caveat* | *technical suggestion*.
 
+**Ecology / siting twin (course):** for *where* centres are built, planned vs energized capacity, energy mix, water, and US/world economic meaning — see [[data-centers-energy-ecology-economy]] (Session 10 home; Session 01 seed). This note stays on **finance, productivity, and CapEx risk**; that note on **grids, emissions, and communities**. Shared hinge: announcement pipelines ≠ operating megawatts (productive-bubble frame still applies).
+
 Cross-check against primary sources (BIS 137, Takshashila 2026-21, DeLong, Tooze Chartbook, UMD, TUM/ESPI, Princeton Bendheim). Body below is the original discussion summary, lightly annotated only where links needed correction.
 
 ## Cross-check (2026-10-18)
@@ -418,6 +420,8 @@ It is more often about:
 ---
 
 # 10. Data-Center Financing
+
+*Course cross-ref:* physical siting, electricity, ecology, and US concentration — [[data-centers-energy-ecology-economy]]. The financing risks below are the money-side of the same build-out.
 
 ## Stijn Van Nieuwerburgh
 

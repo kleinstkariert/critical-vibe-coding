@@ -13,7 +13,9 @@ tags:
 
 English course note. **Primary official pages are often German** — links below stay in the original language. This is orientation for artists/students, not legal advice.
 
-Use with: session 1 (regulation discourse) · session [[sessions/09-authorship-labour-platforms]] · session [[sessions/10-local-ecology-when-not]] · [[academic-ai-austria]].
+Use with: Session 01 talk [[visions-fears-regulation]] (what regulation can/cannot do — 10–15 min spine) · session [[sessions/10-authorship-labour-platforms]] · session [[sessions/11-local-ecology-when-not]] · [[academic-ai-austria]].
+
+This note is the **how the EU/AT rules look** layer. The visions handout is the **political frame** (utopia/x-risk rhetoric, amplifier debate, credibility marketing). Do not duplicate both in one sitting.
 
 Labels: *verified fact* | *claim* | *technical suggestion*.
 

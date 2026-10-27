@@ -1,9 +1,9 @@
 ---
-title: Session 05 — MCP and tools
-session: 5
+title: Session 06 — MCP and tools
+session: 6
 ---
 
-# Session 05 — MCP and tools — one interface to many systems
+# Session 06 — MCP and tools — one interface to many systems
 
 Parent: [[../timeline]] · Outline: [[../course-outline]]
 

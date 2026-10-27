@@ -20,23 +20,24 @@ Style: [[../presentation-style]] (agent skill: `schaufler-presentation-style`) �
 | Source | Role |
 |---|---|
 | [[../../research/ai-bubble-productivity-datacenter]] | Bubble / circular finance / productive bubble frame |
-| Vault clippings (teacher only — not in student kit) | Tooze Ep. 250/260, Acemoglu MIT Sloan, Verdegem commons, Luddite guide… under `KnowledgeBaseObsidian/Clippings/` |
+| [[../../research/data-centers-energy-ecology-economy]] | Ecology seed only in block 5; full teach in Session 11 |
+| Vault clippings (teacher only — not in student kit) | Tooze Ep. 250/260, Acemoglu MIT Sloan, Verdegem, Be Smart transcript… under `KnowledgeBaseObsidian/Clippings/` |
 | [[../course-outline]] | Twin tracks, deliverables |
 
 ---
 
 ## Timing (*technical suggestion*)
 
-~45–55 min + Q&A after each block. Do not race all eight blocks equally — **#2 and #4 get the most airtime**.
+~45–55 min + Q&A after each block. Do not race all blocks equally — **#2 (technical), #3 (visions), #4 (bubble)** get the most airtime.
 
 | Block | Min | Priority |
 |---|---|---|
 | 1 Scope | 4 | medium |
 | 2 What LLMs / agents are | 12 | **high** |
-| 3 Why they exist | 6 | medium |
-| 4 Bubble / economy | 12 | **high** |
-| 5 Ecology / labour | 6 | medium |
-| 6 Regulation discourse | 4 | short |
+| 3 Drivers / visions / fears / regulation | 10–15 | **high** — script [[../visions-fears-regulation]] |
+| 4 Bubble / economy | 10–12 | **high** |
+| 5 Ecology / labour (seed) | 5 | medium — deep dive Session 11 |
+| 6 Regulation | — | folded into #3; law note [[../eu-ai-act-and-datenschutz]] |
 | 7 Media-art workflows | 5 | medium |
 | 8 Default setup | 5 | practical |
 
@@ -53,7 +54,7 @@ This seminar has **two tracks every week**:
 
 A third thread: the **agent as interface**. The setup (skills, tools, knowledge) is artistic material, not only the pretty output.
 
-Midpoint (session 7): demo the setup + short proposal. Final (session 12): architecture + one use + short reflection — not a polished exhibition by default.
+Midpoint (session 9): demo the setup + short proposal. Final (session 13): architecture + one use + short reflection — not a polished exhibition by default.
 
 ### Image suggestions
 
@@ -107,7 +108,7 @@ What they are **bad at alone**: ground truth, long-horizon accountability, fabri
 |---|---|
 | **Filesystem tools** | Read/write a folder (Obsidian vault). Enough for a wiki. |
 | **Skills** | Written procedures the agent should follow (`SCHEMA.md`, lint, ingest…). |
-| **MCP** | Protocol so an agent can call *other apps* (browser, calendar, Blender, Fusion…) as tool kitchens — [[../what-is-mcp]], session [[../sessions/05-mcp-and-tools]] |
+| **MCP** | Protocol so an agent can call *other apps* (browser, calendar, Blender, Fusion…) as tool kitchens — [[../what-is-mcp]], session [[../sessions/06-mcp-and-tools]] |
 | **Harness** | Everything that isn’t the model (tools, files, schema, loops) — [[../what-is-harness]], session [[../sessions/02-agent-harness-and-wiki-architecture]] |
 
 Metaphor you already use: **waiter (host) / kitchen (MCP server) / dish (tool result)**.
@@ -138,28 +139,27 @@ Deep dive later: [[../../research/local-gpu-hardware-for-llms]] · sessions 3 + 
 
 ---
 
-## Block 3 — Why they exist (economy + technical)
+## Block 3 — Drivers, visions, fears, regulation (10–15 min)
 
-### Say — two parallel stories
+**Primary talk script:** [[../visions-fears-regulation]] — use that handout’s four beats; do not improvise a second structure.
 
-**Technical drivers (*verified direction*):** scaling laws (more compute + data → better benchmarks, with diminishing returns and data constraints); open-source tooling; GPUs as general accelerators; productization of chat (2022–).
+### Spine (mirror the handout)
 
-**Economic / political drivers (*claim* — label aloud):**
+1. **Drivers** — growth treadmill after PC/internet/mobile; data + compute ready; monetise the archive; race incentives (Coxon). Technical scaling in parallel.  
+2. **Two industry stories** — abundance / UBI–UHI rhetoric (Musk, Altman — *is* a real discourse, not delivered policy) **and** x-risk / misuse (same scene). Stewart: pick a lane; capitalism→“socialism” gag.  
+3. **Amplifier vs power** — Ismail’s amplifier is useful; social science: not neutral, amplifies hierarchy, who owns the knob (Zajko / Crawford).  
+4. **Regulation** — uses, data, liability yes; global off-switch no; credibility marketing. Point to [[../eu-ai-act-and-datenschutz]] — do not teach the Act here.
 
-> Large platforms already accumulated behavioural and textual data. LLMs are a way to **monetise that archive** as a product with a promised productivity market — while locking users into APIs, clouds, and ecosystems.
-
-Contrast: open weights (US / Chinese / EU projects) as a **counter-market** and as geopolitics (export controls, domestic stacks).
-
-Verdegem (clipping): AI as GPT (general-purpose technology) under Big Tech concentration — commons as alternative governance frame.  
-Path: `Clippings/Dismantling AI capitalism…`
+Teacher clips (vault): Coxon Daily Show; Stewart monologue; Ismail response — paths in the handout.
 
 ### Image suggestions
 
 | Slide | Image idea |
 |---|---|
-| Monetise the archive | Server farm + stock ticker / Bloomberg terminal aesthetic — **or** Gursky-like photo of accumulation (your Mass of Money talk already uses Gursky for capital) |
-| Open vs closed | Two logos walls carefully: closed APIs vs Hugging Face / ModelScope-style open catalogs — avoid implying one “wins” |
-| Claim label | Slide with only the word **CLAIM** and the monetisation sentence | Forces honesty |
+| Growth treadmill | Three icons: PC → phone → GPU rack (no stock “brain”) |
+| Double message | Split slide: “Star Trek” / “% extinction” — typographic only |
+| Amplifier | Fire / gain knob — then “who owns it?” |
+| Regulation | One sentence: “Uses & data — not maths” |
 
 ---
 
@@ -225,16 +225,19 @@ Use as: *serious economists disagree on magnitude and timing* — not as “AI d
 
 ## Block 5 — Ecological and social implications
 
+**Deep handout (Session 10, not this lecture):** [[../../research/data-centers-energy-ecology-economy]] · CapEx twin: [[../../research/ai-bubble-productivity-datacenter]]
+
 ### Ecology
 
-- Training vs **inference**: students’ daily use is mostly inference; still scales with tokens and video/image models (Luccioni et al.; IEA *Energy and AI* — session 10).
-- Water, land, grid connections, who lives next to the campus.
-- Space data centres: mention only as hype contrast — research note §11–13 (UMD skeptical / TUM-ESPI optimistic); not the centre of this lecture.
+- Training vs **inference**: students’ daily use is mostly inference; still scales with tokens and video/image models (Luccioni et al.; IEA *Energy and AI* — session 11).
+- One slide seed: data centres are **local** (grid, water, neighbours) even when national electricity shares look “small”; US holds ~45% of global DC electricity (IEA 2024). Optional later: Be Smart *The Real Cost of AI Will Shock You*.
+- Water, land, grid connections, who lives next to the campus — name the question; do not teach scopes 1–3 here.
+- Space data centres: mention only as hype contrast — bubble research note §11–13 (UMD skeptical / TUM-ESPI optimistic); not the centre of this lecture.
 
 ### Labour / jobs
 
 - Separate **macro claims** (IMF/McKinsey headlines) from **observed** shifts in creative freelance rates, student anxiety, studio expectations.
-- Ghost work: annotation, moderation, eval farms (session 8 deep dive).
+- Ghost work: annotation, moderation, eval farms (session 10 deep dive).
 - Acemoglu: inequality and welfare can move differently from GDP.
 
 ### Image suggestions
@@ -249,25 +252,7 @@ Use as: *serious economists disagree on magnitude and timing* — not as “AI d
 
 ## Block 6 — Regulation discourse
 
-### Say
-
-Regulation can protect people **and** function as **credibility marketing**: “we are so powerful we need laws” sells capability. Watch for:
-
-- Safety theatre vs enforceable audits  
-- Barriers that entrench incumbents (compliance cost)  
-- Export controls as industrial policy  
-
-Tooze Ep. 260 clipping (AI regulation) as optional teacher prep — do not assign.
-
-Course note (EN) + Austrian official links (DE): [[../eu-ai-act-and-datenschutz]]  
-RTR KI-Servicestelle: https://www.rtr.at/rtr/service/ki-servicestelle/ki-servicestelle.de.html  
-DSB KI & Datenschutz: https://dsb.gv.at/kuenstlichebrintelligenz/kuenstliche-intelligenz-datenschutz
-
-### Image suggestions
-
-| Slide | Image idea |
-|---|---|
-| | EU AI Act PDF cover / parliament chamber — or a single sentence on black |
+**Folded into Block 3.** Full beat: [[../visions-fears-regulation]] § Beat 4. Law orientation: [[../eu-ai-act-and-datenschutz]]. Tooze Ep. 260 (AI regulation) optional teacher prep only.
 
 ---
 
@@ -281,7 +266,7 @@ DSB KI & Datenschutz: https://dsb.gv.at/kuenstlichebrintelligenz/kuenstliche-int
 | Taste flattening | Same Midjourney look; same “helpful” prose voice |
 | Authorship | Who signed the work if the agent wrote the patch? |
 | New interfaces | Agent + wiki + MCP as the piece (session 5) |
-| Refusal | Knowing when **not** to use AI is a skill (session 10) |
+| Refusal | Knowing when **not** to use AI is a skill (Session 11) |
 
 Link outdoor themes back: fears/hopes from Part A.
 

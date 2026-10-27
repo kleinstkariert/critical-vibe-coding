@@ -1,9 +1,9 @@
 ---
-title: Session 04 — Knowledge base, phone, Discord
-session: 4
+title: Session 05 — Knowledge base, phone, Discord
+session: 5
 ---
 
-# Session 04 — Knowledge base, personalise agent, phone + Discord
+# Session 05 — Knowledge base practice, phone + Discord
 
 Parent: [[../timeline]]
 

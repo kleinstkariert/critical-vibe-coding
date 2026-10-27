@@ -1,9 +1,9 @@
 ---
-title: Session 07 — Agents across creative stacks
-session: 7
+title: Session 08 — Agents across creative stacks
+session: 8
 ---
 
-# Session 07 — Agents across creative stacks
+# Session 08 — Agents across creative stacks
 
 Parent: [[../timeline]]
 
@@ -45,7 +45,7 @@ Preferred: someone shows Open Claude / Copilot in VS Code, or a node-tool workfl
 |---|---|
 | Where comparison pages live; frontmatter fields | [[../llm-wiki-standard-files]] |
 | Lint before the midpoint | [[../what-is-lint]] |
-| MCP + **CAD/3D** bridge table (session 5) | [[05-mcp-and-tools]] |
+| MCP + **CAD/3D** bridge table (session 6) | [[06-mcp-and-tools]] |
 | Harness / wiki architecture (session 2) | [[02-agent-harness-and-wiki-architecture]] · [[../what-is-harness]] |
 | AI tools survey (Meshy, Weave, Flora, Fuser, …) | [[../ai-tools-creative-processes]] |
 | Hermes MCP — attaching a stack-specific tool server | https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp |

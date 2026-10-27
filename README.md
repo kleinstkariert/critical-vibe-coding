@@ -59,6 +59,7 @@ Details: [`course/timeline.md`](course/timeline.md) · [`course/course-outline.m
 | What is **lint** (LLM Wiki)? | [`course/what-is-lint.md`](course/what-is-lint.md) |
 | Wiki standard files | [`course/llm-wiki-standard-files.md`](course/llm-wiki-standard-files.md) |
 | Academic AI (Austria) | [`course/academic-ai-austria.md`](course/academic-ai-austria.md) |
+| Drivers / visions / fears / regulation | [`course/visions-fears-regulation.md`](course/visions-fears-regulation.md) |
 | EU AI Act + Datenschutz | [`course/eu-ai-act-and-datenschutz.md`](course/eu-ai-act-and-datenschutz.md) |
 | Creative AI tools survey | [`course/ai-tools-creative-processes.md`](course/ai-tools-creative-processes.md) |
 | Local GPU / Apple / DGX hardware | [`research/local-gpu-hardware-for-llms.md`](research/local-gpu-hardware-for-llms.md) |
@@ -70,7 +71,9 @@ Details: [`course/timeline.md`](course/timeline.md) · [`course/course-outline.m
 | Note | File |
 |---|---|
 | Structure / harness vs model quality | [`research/structure-vs-model-quality.md`](research/structure-vs-model-quality.md) |
-| AI bubble, productivity, data centres | [`research/ai-bubble-productivity-datacenter.md`](research/ai-bubble-productivity-datacenter.md) |
+| AI bubble, productivity, data centres (finance) | [`research/ai-bubble-productivity-datacenter.md`](research/ai-bubble-productivity-datacenter.md) |
+| AI jobs — rising tide / Canaries / junior productivity | [`research/ai-jobs-rising-tide-productivity.md`](research/ai-jobs-rising-tide-productivity.md) |
+| Data centres — energy, ecology, US/world economy | [`research/data-centers-energy-ecology-economy.md`](research/data-centers-energy-ecology-economy.md) |
 | Karpathy LLM Wiki | [`research/karpathy-llm-wiki-and-openclaw.md`](research/karpathy-llm-wiki-and-openclaw.md) |
 
 ---

@@ -1,9 +1,9 @@
 ---
-title: Session 09 — Authorship, labour, platforms
-session: 9
+title: Session 10 — Authorship, labour, platforms
+session: 10
 ---
 
-# Session 09 — Authorship, labour, ghost work, platform dependency
+# Session 10 — Authorship, labour, ghost work, platform dependency
 
 Parent: [[../timeline]]
 
@@ -34,12 +34,17 @@ Peer echo: [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Cou
 
 EU / Austrian regulation orientation (AI Act + Datenschutz; EN note, DE links): [[../eu-ai-act-and-datenschutz]]
 
+Session 01 already framed **industry utopia (UBI/UHI) vs social fears** and the amplifier debate — [[../visions-fears-regulation]]. Here: labour / authorship / platforms as the lived version of those fears.
+
+**Jobs / automation evidence (teach or assign):** [[../../research/ai-jobs-rising-tide-productivity]] — MIT rising tide vs crashing wave; Stanford *Canaries* (early-career hiring); junior vs senior productivity charts (Demirer / Brynjolfsson–Li–Raymond / Peng).
+
 ## Optional reading (pick one; all free to read)
 
 URLs checked 2026-10-18 (*verified fact*). Short list on purpose — see [[../references]] for the full set.
 
 | Reading | Why here |
 |---|---|
+| Course handout — AI jobs / rising tide / junior productivity | [[../../research/ai-jobs-rising-tide-productivity]] — MIT FutureTech; Stanford Canaries; Copilot RCTs |
 | Kate Crawford & Vladan Joler, *Anatomy of an AI System* (2018) — https://anatomyof.ai/ | One consumer agent (Amazon Echo) mapped as labour, data and material extraction; the “clean chat UI” argument in one diagram |
 | Crawford & Joler, *Calculating Empires* (2023) — https://calculatingempires.net/ | Interactive long-timeline of technology and power; useful for the “platform dependency is old” angle |
 | U.S. Copyright Office, *Copyright and Artificial Intelligence* (Part 2: Copyrightability, 2025-01-29; Part 3: Training, pre-publication 2025-05-09) — https://www.copyright.gov/ai/ | A regulator’s primary position on who can author an AI-assisted work; US-only, use as contrast to EU/Austrian practice |
@@ -55,7 +60,7 @@ URLs checked 2026-10-18 (*verified fact*). Short list on purpose — see [[../re
 ## Homework
 
 - 1–2 page reflection OR wiki page: authorship statement for their project
-- Prep ecology / local-infra questions for session 10
+- Prep ecology / local-infra questions for Session 11
 
 ## Materials / References
 

@@ -68,6 +68,10 @@ CriticalVibeCoding-Students/          ← share this folder only
     academic-ai-austria.md
     eu-ai-act-and-datenschutz.md
     local-gpu-hardware-for-llms.md    ← from research/ (student-safe copy)
+    data-centers-energy-ecology-economy.md  ← Session 10 handout (student-safe)
+    ai-jobs-rising-tide-productivity.md     ← Session 01 seed / Session 09 (student-safe)
+    ai-bubble-productivity-datacenter.md    ← optional; or 2-page extract
+    visions-fears-regulation.md       ← Session 01 talk (10–15 min)
     presentation-style.md             ← optional
   lectures/                           ← only if you want them to see notes
     01-welcome-landscape-lecture.md   ← or export PDF without teacher-only paths
@@ -79,8 +83,9 @@ CriticalVibeCoding-Students/          ← share this folder only
 **Do not put in the student kit**
 
 - `course/emails/`, admission criteria with names  
-- Full `research/ai-bubble-productivity-datacenter.md` if you consider it prep-only — *or* put a **2-page handout** extract instead  
-- Vault `Clippings/` wholesale (Tooze transcripts, etc.) — link URLs in references  
+- Full bubble research note if you consider it prep-only — *or* a **2-page extract**; prefer shipping [[../research/data-centers-energy-ecology-economy]] for Session 11  
+- Vault `Clippings/` wholesale (Tooze / Be Smart full transcripts, etc.) — link URLs in references; Be Smart video URL is enough for students  
+
 - `.cursor/`, agent stores, personal Nextcloud other projects  
 - High-res talk photo archives from `_QUADRATURE/…`
 

@@ -11,7 +11,7 @@ tags:
 
 Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *verified fact* (URL checked 2026-10-18) | *technical suggestion*.
 
-Use with: [[sessions/05-mcp-and-tools]] (agent ↔ CAD/3D) · [[sessions/07-agents-across-creative-stacks]] · [[course-outline]].
+Use with: [[sessions/06-mcp-and-tools]] (agent ↔ CAD/3D) · [[sessions/08-agents-across-creative-stacks]] · [[course-outline]].
 
 ---
 
@@ -83,7 +83,7 @@ Peer-course list (HKUST AMCC6500) clusters these similarly — see [[course-outl
 
 ## CAD / DCC with agent bridges (MCP)
 
-Full teaching table lives in [[sessions/05-mcp-and-tools]]. Short index:
+Full teaching table lives in [[sessions/06-mcp-and-tools]]. Short index:
 
 | App | MCP status (2026-10-18) |
 |---|---|

@@ -1,9 +1,9 @@
 ---
-title: Session 08 — Midpoint demo and proposal
-session: 8
+title: Session 09 — Midpoint demo and proposal
+session: 9
 ---
 
-# Session 08 — Midpoint: working setup demo + project proposal
+# Session 09 — Midpoint: working setup demo + project proposal
 
 Parent: [[../timeline]]
 
@@ -15,13 +15,13 @@ Parent: [[../timeline]]
 
 ## Check-in
 
-Energy check before demos; timebox rules.
+Listen only — [[../course-rhythm#check-in-every-session]]. Then energy/timebox rules for demos.
 
 ## Format (suggested)
 
 Per student (~8–12 min including feedback):
 
-1. **Setup walkthrough** — vault layout (`SCHEMA.md`, `index.md`, `log.md`, `raw/` — [[../llm-wiki-standard-files]]), schema/skills, model, tools/MCP (session 5 diagram); harness from session 2, phone/Discord if any
+1. **Setup walkthrough** — vault layout (`SCHEMA.md`, `index.md`, `log.md`, `raw/` — [[../llm-wiki-standard-files]]), schema/skills, model, tools/MCP (session 6 diagram); harness from session 2, phone/Discord if any; local path if any (session 4)
 2. **Lint report** (*requirement*) — show the most recent **lint** entry in `log.md` (Hermes: `## [date] lint | N issues found`) or the Obsidian plugin’s health scan, **or** explain why lint is still pending (no ingests yet, setup broke, plugin not installed…). What lint is and is not: [[../what-is-lint]]. Read the report as a studio critique of the knowledge base, not as a grade.
 3. **Live micro-task** — agent does something real (ingest, query, edit, tool call)
 4. **Proposal** — how *agent as interface* appears in a project (not only “AI will generate my visuals”)
@@ -38,7 +38,7 @@ Inspired by the [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%
 ## Homework
 
 - Update schema from feedback; fix at least the high-severity lint issues (or write into `SCHEMA.md` why they stay)
-- Choose focus theme for sessions 8–9 reading/discussion (labour vs ecology vs regulation) and pick **one** optional reading from the session 8 or 9 list
+- Choose focus theme for sessions 10–11 (labour vs ecology vs regulation) and pick **one** optional reading from those session lists
 
 ## Materials / References
 
