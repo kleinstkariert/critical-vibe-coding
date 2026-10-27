@@ -23,7 +23,7 @@ Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you 
 
 ## Install order (before / during weeks 2–4)
 
-1. **Obsidian** — vault that can sync to your phone → [howto-obsidian-setup-and-sync.md](howto-obsidian-setup-and-sync.md)  
+1. Knowledge store with **phone sync** — default Obsidian; **alternatives allowed** → [knowledge-store-options.md](knowledge-store-options.md) · [howto-obsidian-setup-and-sync.md](howto-obsidian-setup-and-sync.md)  
 2. Note which **LLM access** you already have. Campus academic AI often has **no API for agents** → [academic-ai-austria.md](academic-ai-austria.md)  
 3. **Hermes Agent** (cloud model OK first) → [howto-hermes-setup.md](howto-hermes-setup.md)  
 4. Skim **harness** → [what-is-harness.md](what-is-harness.md) (session 2)  
@@ -32,7 +32,7 @@ Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you 
 
 Keep API keys out of synced notes.
 
-**Every class:** listen-only check-in (morning + AI since last met). From week 2: one student pair presents ~15 min — see [course-rhythm.md](course-rhythm.md).
+**Every class:** 10:00–12:00; listen-only check-in (morning + AI since last met). From week 2: one student pair (~15 min) on a **humanities** question — see [course-rhythm.md](course-rhythm.md).
 
 ---
 

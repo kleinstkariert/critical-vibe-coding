@@ -15,12 +15,16 @@ Merged former studio + critique weeks so the semester can host **session 04 (loc
 - Document architecture as you go (final needs it)  
 - Critique **setup and project together**; tighten demos for final  
 
-## Class rhythm
+## Clock
 
-1. **Check-in** (listen only) — blockers welcome in the AI-since-last-met answer  
-2. **No rotating 15 min theory input** this week (studio) — optional: one pair shares a 5 min “blocker of the week”  
-3. Studio (≥45 min technical)  
-4. Peer critique rounds  
+| Clock | Block |
+|---|---|
+| **10:00–10:15** | Check-in (listen only) |
+| **10:15–10:55** | Studio stations |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Peer critique rounds |
+
+No rotating humanities pair this week (optional 5 min “blocker of the week” only).
 
 ## Studio stations
 

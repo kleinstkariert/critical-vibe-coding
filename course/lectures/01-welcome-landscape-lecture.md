@@ -21,14 +21,13 @@ Style: [[../presentation-style]] (agent skill: `schaufler-presentation-style`) �
 |---|---|
 | [[../../research/ai-bubble-productivity-datacenter]] | Bubble / circular finance / productive bubble frame |
 | [[../../research/data-centers-energy-ecology-economy]] | Ecology seed only in block 5; full teach in Session 11 |
-| Vault clippings (teacher only — not in student kit) | Tooze Ep. 250/260, Acemoglu MIT Sloan, Verdegem, Be Smart transcript… under `KnowledgeBaseObsidian/Clippings/` |
 | [[../course-outline]] | Twin tracks, deliverables |
 
 ---
 
 ## Timing (*technical suggestion*)
 
-~45–55 min + Q&A after each block. Do not race all blocks equally — **#2 (technical), #3 (visions), #4 (bubble)** get the most airtime.
+Part B roughly **11:00–11:55** inside the 10:00–12:00 slot ([[../sessions/01-welcome-and-landscape]]). Q&A after each block. Do not race all blocks equally — **#2 (technical), #3 (visions), #4 (bubble)** get the most airtime. Prefer shorter notes over exhaustive coverage; priorities come from the instructor.
 
 | Block | Min | Priority |
 |---|---|---|
@@ -300,7 +299,7 @@ Student-facing materials live in a **small share pack**, not the whole vault —
 
 ### Homework (repeat aloud)
 
-- Install Obsidian; vault in syncable place  
+- Knowledge store with phone sync — default Obsidian; alternatives OK — [[../knowledge-store-options]] · [[../howto-obsidian-setup-and-sync]]  
 - Note existing LLM access  
 - Optional: Karpathy gist or beginner video — [[../references]]
 

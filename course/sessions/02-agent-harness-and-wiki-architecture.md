@@ -5,26 +5,38 @@ session: 2
 
 # Session 02 — Agent harness → LLM Wiki / Obsidian structure
 
-Parent: [[../timeline]] · Outline: [[../course-outline]]
+Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
-First **technical** session after the socio-political opener (session 1). Install comes next (session 3); phone/Discord practice in session 4.
+First **practice** (technical) session after session 1. Student pair brings a **humanities** question first; harness teaching is yours. Install = session 3; phone/Discord = session 5.
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
 - Define **harness** in plain language: Agent = Model + Harness
 - Map harness parts to what students will actually configure (not vendor mythology)
-- Then specialise: **LLM Wiki + Obsidian** as the durable filesystem half of our harness
+- Then specialise: **LLM Wiki + knowledge store** as the durable filesystem half of our harness
 - Leave with a mental diagram they can redraw for midpoint / final
+
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G1 — humanities (skill loss / authorship / who is sold as the user) — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — harness (general) |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Teacher — LLM Wiki / store structure + diagram practice |
 
 ## Check-in
 
-Listen only — [[../course-rhythm#check-in-every-session]]. (Obsidian install status can appear in the AI-since-last-met answer.)
+Listen only — [[../course-rhythm#1-check-in-every-session]].
 
-## Student input
+## Student input (theory / humanities)
 
-Group G1 (~15 min): harness / structure — [[../course-rhythm]]
+Pair G1 (~15 min): **not** “what is a harness.” Themes from [[../visions-fears-regulation]] / session-1 check-in — e.g. skill loss, authorship when tools act, who pays/profits. Full map: [[../course-rhythm#3-student-inputs-sessions-2-11]].
 
-## Teacher input — Part A: Harness (general)
+## Teacher input — Part A: Harness (general) — *practice*
 
 Course note: [[../what-is-harness]]  
 Read (teacher / optional students): [LangChain — *The Anatomy of an Agent Harness*](https://www.langchain.com/blog/the-anatomy-of-an-agent-harness) (2026-03-10).

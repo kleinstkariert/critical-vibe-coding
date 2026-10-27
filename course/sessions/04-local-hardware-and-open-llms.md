@@ -15,14 +15,21 @@ After cloud install (session 3). **Buying hardware is optional** — this sessio
 - Match **open model size** to memory; leave with a personal “fits / doesn’t fit” note
 - Connect Hermes / Ollama / MLX to whatever they actually own (often: laptop + small model)
 
-## Class rhythm (*requirement*)
+## Clock
 
-1. **Check-in** (listen only) — [[../course-rhythm#check-in-every-session]]  
-2. **Student input** (~15 min) — Group assigned to this theme (hardware or model-scaling)  
-3. Teacher framing (~20 min)  
-4. **Technical** (≥45 min)
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G3 — datacenter communities / who can afford “local” — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — memory math + hardware paths |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Practical tracks A/B/C below |
 
-## Teacher input (~20 min)
+## Student input (theory / humanities)
+
+Pair G3: neighbours of the campus (grid, water, land); energy justice; local privacy as privilege — [[../visions-fears-regulation]] · [[../../research/data-centers-energy-ecology-economy]] (seed). **Not** a GPU shopping list.
+
+## Teacher input (~20 min) — *practice*
 
 1. Memory math (Q4 ≈ 0.5 GB/B params) — board table from [[../../research/local-gpu-hardware-for-llms]]  
 2. **Unified memory** (Apple, Spark) vs **VRAM** (GeForce) vs **multi-GPU split** (layer/tensor — not one big VRAM)  

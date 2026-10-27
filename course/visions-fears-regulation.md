@@ -22,7 +22,6 @@ Labels: *verified fact* | *claim* | *nuance*.
 | What EU/AT law actually does | [[eu-ai-act-and-datenschutz]] · Session [[sessions/10-authorship-labour-platforms]] |
 | Ghost labour / platforms | Session [[sessions/10-authorship-labour-platforms]] |
 
-Teacher vault (not student kit): Coxon + Ismail + Stewart clips under `KnowledgeBaseObsidian/Clippings/`.
 
 ---
 

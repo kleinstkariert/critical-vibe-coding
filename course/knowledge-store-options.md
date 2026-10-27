@@ -4,7 +4,7 @@
 
 **Requirement (owner, 2026-10-15):** **Phone sync is mandatory.** A knowledge base that only lives on the laptop is not enough for today’s normal practice (read/capture on the phone, work on the PC).
 
-**Course decision (updated):** For students → **Obsidian + personal cloud (e.g. Nextcloud)** so phone sync works **without** each person running a server. Joplin is not kept just for MCP. SilverBullet stays interesting for a personal open-source stack **if** you host a Server; it is **not** the class default because phone UI expects that Server.
+**Course decision (updated):** **Default** = Obsidian + personal cloud (e.g. Nextcloud) so phone sync works **without** each person running a server. **Alternatives are allowed** if they meet phone sync + agent-readable notes (see options below). Joplin is awkward for the LLM Wiki file pattern. SilverBullet fits if you host a Server.
 
 | Stack piece | Open source? | Phone sync without own server? |
 |-------------|--------------|--------------------------------|
@@ -90,7 +90,6 @@ Docs: https://silverbullet.md/ · Folders: https://docs.silverbullet.md/Folder
 ### Pros
 - Free app; strong free sync (including **Nextcloud / WebDAV**).
 - From 3.7: built-in **MCP server** (agent tools while the app/API is running).
-- Good teaching example of “database + agent interface” — but we have other MCP exercises for that.
 
 ### Cons
 - **Not** a plain folder wiki for Hermes file tools; sync folder must not be hand-edited.

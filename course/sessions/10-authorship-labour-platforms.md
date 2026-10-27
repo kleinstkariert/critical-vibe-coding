@@ -5,7 +5,9 @@ session: 10
 
 # Session 10 — Authorship, labour, ghost work, platform dependency
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
@@ -13,13 +15,23 @@ Parent: [[../timeline]]
 - Look at invisible labour (annotation, moderation) and platform lock-in
 - Connect to students’ own setups (whose model, whose ToS, whose data)
 
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G9 — ghost work / authorship / platforms — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — debate prompts + EU/AT pointer |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Discussion / reading-based seminar + link to own setup |
+
 ## Check-in
 
-Did anyone feel “less author” or “more author” after midpoint demos?
+Listen only — [[../course-rhythm#1-check-in-every-session]].
 
-## Student input
+## Student input (theory / humanities)
 
-Rotating presentation slot (style transfer / copyright / studio labour — cohort choice).
+Pair G9: ghost work, authorship, platform ToS — use session reading table.
 
 ## Teacher input / debate
 

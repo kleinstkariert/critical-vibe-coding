@@ -1,11 +1,13 @@
 ---
-title: Session 08 — Agents across creative stacks
+title: Session 08 - Agents across creative stacks
 session: 8
 ---
 
-# Session 08 — Agents across creative stacks
+# Session 08 - Agents across creative stacks
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] ? Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00-12:00.
 
 ## Goals
 
@@ -13,42 +15,40 @@ Parent: [[../timeline]]
 - Practice: one small task in a stack the student actually uses
 - Criteria: when the agent helps vs when it wastes time
 
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00-10:20** | Check-in (listen only) |
+| **10:20-10:35** | Student pair G7 - creative labour / junior roles / tool lock-in - [[../course-rhythm]] ? [[../../research/ai-jobs-rising-tide-productivity]] |
+| **10:35-10:55** | Teacher - translation problems across stacks |
+| **10:55-11:05** | Break |
+| **11:05-12:00** | One small task in *your* stack + when to turn the agent off |
+
 ## Check-in
 
-Where did the agent help last week? Where did you turn it off?
+Listen only - [[../course-rhythm#1-check-in-every-session]].
 
-## Student input
+## Student input (theory / humanities)
 
-Preferred: someone shows Open Claude / Copilot in VS Code, or a node-tool workflow, or CAD assist — whatever exists in the cohort.
+Pair G7: creative labour, freelance pressure, junior roles, deskilling claims - not a Copilot feature tour (demo only if it serves the labour question).
 
-## Teacher input
+## Teacher input (*practice*)
 
-- Translation problems: natural language → patch / script / constraint solver
+- Translation problems: natural language to patch / script / constraint solver
 - Debugging with agents without losing understanding
 - File-based stacks (code, markdown) vs opaque GUIs
-- Risk of “vibe” without verification in fabrication / safety-critical steps
+- Risk of "vibe" without verification in fabrication / safety-critical steps
+- Bridge from session [[06-mcp-and-tools]] CAD/3D table
 
 ## Practical
 
-- Pick one real task from own practice
-- Agent-assisted attempt + 10-minute unaided control (or reverse)
-- Write both outcomes into the wiki with a short comparison — *technical suggestion:* file it under `comparisons/` with `sources:` pointing at the task files, so it shows up in `index.md` and survives the next lint ([[../llm-wiki-standard-files]])
+One micro-task in a stack they use; log help vs waste in `comparisons/`.
 
-## Homework
-
-- Midpoint prep: working setup ready to demo; ½–1 page proposal draft
-- Run one **lint** pass before session 7 so there is a report to show ([[../what-is-lint]])
-
-## Materials / References
+## Materials
 
 | What | Link |
 |---|---|
-| Where comparison pages live; frontmatter fields | [[../llm-wiki-standard-files]] |
-| Lint before the midpoint | [[../what-is-lint]] |
-| MCP + **CAD/3D** bridge table (session 6) | [[06-mcp-and-tools]] |
-| Harness / wiki architecture (session 2) | [[02-agent-harness-and-wiki-architecture]] · [[../what-is-harness]] |
-| AI tools survey (Meshy, Weave, Flora, Fuser, …) | [[../ai-tools-creative-processes]] |
-| Hermes MCP — attaching a stack-specific tool server | https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp |
-| Peer pattern — [Gray Area Creative Code Intensive](https://grayarea.org/course/creative-code-intensive/) puts “generative text with LLMs” *after* craft fundamentals; we invert the order, so this session is where craft re-enters | [[../timeline]] |
-
-*todo (teacher):* prioritise demos from the session-3 survey; CAD/MCP starters are listed in session 5.
+| Creative tools survey | [[../ai-tools-creative-processes]] |
+| MCP + CAD/3D | [[06-mcp-and-tools]] |
+| Jobs / tide research | [[../../research/ai-jobs-rising-tide-productivity]] |

@@ -14,7 +14,7 @@ Draft. Dates TBD. Labels: *requirement* | *technical suggestion* | *todo*.
 ## Short syllabus sheet
 
 Public / handout-style outline: [[course-outline]]  
-**Class rhythm** (check-in, 10 student pairs, ≥45 min tech): [[course-rhythm]]
+**Class rhythm** (10:00–12:00, check-in, humanities pair inputs, ≥45 min tech): [[course-rhythm]]
 
 Creative AI tool survey: [[ai-tools-creative-processes]]
 
@@ -52,11 +52,13 @@ Students learn to build and run their own powerful LLM-agent setups while unpack
 
 ## Opening ritual (*requirement*)
 
-Every class: **listen-only check-in** — (1) How was your morning? (2) What did you do with AI since we last met, how was your experience? Max 30–60 s/person. Full rules + 10× student-input map: [[course-rhythm]].
+**Slot:** 10:00–12:00 (120 min) + 5–10 min break. Session files list **clock times**.
 
-From session 2: one **pair** (~15 min) presents from the repo (theory before practice topics).
+Every class: **listen-only check-in** — (1) How was your morning? (2) What did you do with AI since we last met, how was your experience? Max 30–60 s/person.
 
-Sessions 2–11: leave **≥45 minutes** for technical work (session 1 exempt). Long DIY → homework.
+From session 2: one **pair** (~15 min) — **humanities / political-economy** questions (ecology, bias, flattening, labour…). Technical teaching is the **teacher** block after that. Full map: [[course-rhythm]].
+
+Sessions 2–11: **≥45 minutes** technical practice after the break (session 1 exempt). Long DIY → homework.
 
 ## Session map (13 meetings)
 

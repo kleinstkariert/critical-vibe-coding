@@ -5,23 +5,37 @@ session: 3
 
 # Session 03 — Model landscape, prompting, install agents
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
 - Compare open-source, Chinese, local-GPU, EU-hosted, and academic Austrian AI options (clarity on what students can use)
-- Show real practitioner setups (schemes from contacts — *todo*)
-- Prompting habits that matter for agents, not only chat — ICAO clearances + tip list with research *why* ([[../prompting-and-model-choice]])
-- Chat / instruct vs **reasoning** models; when thinking-on is worth the monologue tokens; thinking-off / effort knobs (OpenRouter, Ollama, Gemini budget 0) — same handout §§4–6
-- Evidence: skillset / knowledge base vs. raw model quality
-- Get agents installing on student machines (**cloud / API first**; local hardware = session 04)
-- Confirm **10 student pairs** + input slots ([[../course-rhythm]])
+- Prompting habits for agents — ICAO clearances + tip list ([[../prompting-and-model-choice]])
+- Chat / instruct vs **reasoning**; thinking-off knobs — handout §§4–6
+- Evidence: skillset / knowledge base vs raw model quality
+- Get agents installing (**cloud / API first**; local hardware = session 04)
+
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G2 — bias / corpus / taste flattening — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — model landscape + prompting (incl. reasoning knobs) |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Install Hermes → vault smoke test |
 
 ## Check-in
 
-Listen only — [[../course-rhythm#check-in-every-session]] (morning + AI since last met). Friction/sync can appear in the AI answer.
+Listen only — [[../course-rhythm#1-check-in-every-session]].
 
-## Input — systems landscape
+## Student input (theory / humanities)
+
+Pair G2: bias / whose training data? flattening toward popular voice/style? closed vs open as power — not a model-shopping talk.
+
+## Teacher — systems landscape (*practice*)
 
 Cover, with honest access notes:
 
@@ -33,13 +47,11 @@ Cover, with honest access notes:
 - **Austrian academic AI** — usually **no agent API key**; HPC / AI Factory ≠ daily Hermes backend — [[../academic-ai-austria]] (*say explicitly what students can/cannot use*)
 - Privacy / AI Act pointer: [[../eu-ai-act-and-datenschutz]]
 
-## Input — practitioner setups
+## Teacher — practitioner setups (*if ready*)
 
-Introduce 2–4 setup schemes collected from people in the field (diagrams preferred).
+Introduce 2–4 setup schemes from the field (diagrams preferred) when available.
 
-*todo before this class:* chase contacts for schemes — see [[../timeline#teacher-todo-setup-schemes--prep]].
-
-## Input — prompting + knowledge vs model
+## Teacher — prompting + knowledge vs model
 
 - **Prompting handout** (ICAO tips + chat packs → agent briefs + reasoning/thinking): [[../prompting-and-model-choice]]  
 - Hermes ICAO skills: `icao-prompting` · `icao-project-comms` (vault `KnowledgeBaseObsidian/skills/`)  

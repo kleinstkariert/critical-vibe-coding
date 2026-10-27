@@ -5,7 +5,9 @@ session: 9
 
 # Session 09 — Midpoint: working setup demo + project proposal
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00. Demos dominate; optional short humanities beat only.
 
 ## Goals
 
@@ -13,9 +15,19 @@ Parent: [[../timeline]]
 - Pitch how the setup enters an art / semester project
 - Peer feedback; adjust trajectory for second half
 
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:15** | Check-in (listen only; slightly shorter) |
+| **10:15–10:25** | Optional pair G8 — one critical question from *their* setup (or skip) |
+| **10:25–10:55** | Demos round 1 |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Demos round 2 + wrap |
+
 ## Check-in
 
-Listen only — [[../course-rhythm#check-in-every-session]]. Then energy/timebox rules for demos.
+Listen only — [[../course-rhythm#1-check-in-every-session]]. Then timebox rules for demos.
 
 ## Format (suggested)
 

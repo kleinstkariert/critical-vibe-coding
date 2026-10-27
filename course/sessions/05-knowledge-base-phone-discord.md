@@ -5,21 +5,33 @@ session: 5
 
 # Session 05 — Knowledge base practice, phone + Discord
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
-- Student or student-group input (from homework)
-- **Practice** the wiki/harness structure from session 2 (not re-teach from zero): personalise schema, first ingest
-- Practical: finish agent setup; phone sync; Discord (preferred over Telegram) chat bridge on phones
+- Personalise schema; first ingest (wiki/harness from session 2 — not re-teach from zero)
+- Phone sync; Discord bridge (preferred over Telegram) where feasible
+- Knowledge store may be Obsidian **or** another option — [[../knowledge-store-options]]
+
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G4 — knowledge, memory, surveillance — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — personalisation / SCHEMA / lint cycle |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Phone sync + Discord practical |
 
 ## Check-in
 
-Who has a working agent? Who is stuck on sync? Emotional temperature after living with the tools for a week.
+Listen only — [[../course-rhythm#1-check-in-every-session]]. Sync blockers can appear in the AI answer.
 
-## Student input
+## Student input (theory / humanities)
 
-Slot for presentation(s) assigned in session 3.
+Pair G4: personal knowledge as power/memory; what should stay human-authored; surveillance of notes.
 
 ## Teacher input — personalisation & practice
 

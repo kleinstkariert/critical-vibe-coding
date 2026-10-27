@@ -5,7 +5,9 @@ session: 7
 
 # Session 07 — The agent as interface
 
-Parent: [[../timeline]]
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
@@ -13,15 +15,25 @@ Parent: [[../timeline]]
 - Look at art / research examples where conversation, tools, or agent behaviour *are* the work
 - Students sketch how their setup could enter a semester project
 
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G6 — taste flattening / setup as artwork — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — agent as interface framing + examples |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Sketch: how *your* setup enters a project |
+
 ## Check-in
 
-What part of your setup already feels like “yours”? What still feels like a borrowed chatbot?
+Listen only — [[../course-rhythm#1-check-in-every-session]].
 
-## Student input
+## Student input (theory / humanities)
 
-Optional: chatbot-as-art or interactive agent project someone knows.
+Pair G6: taste flattening; authorship aesthetics; critical references where the agent/setup *is* the work.
 
-## Teacher input — agent as interface
+## Teacher input — agent as interface (*practice* / studio framing)
 
 Prompts for discussion and mini-lecture:
 

@@ -20,7 +20,7 @@ Hands-on seminar: students build and run a personal LLM-agent setup while unpack
 
 “Vibe coding” is not taught as a frictionless shortcut. The course asks when AI helps, when it wastes time, which models and infrastructures fit a task, and how authorship, labour, platform dependency, and ecology shift when an **agent** sits between you and the stack. The agent itself is treated as interface material for media-art practice, not only as a means to an output.
 
-Each class opens with a **listen-only check-in** (morning + AI since last meeting; 30–60 s/person). From session 2, one student **pair** (~15 min) presents from the repo. Sessions 2–11 keep **≥45 min technical** time (long DIY at home). Full rhythm: [[course-rhythm]]. Midpoint and final centre on a **working personal setup** plus a critical reflection tied to artistic practice.
+Each class is **10:00–12:00** (120 min, short break). Opens with a **listen-only check-in**. From session 2, one student **pair** (~15 min) brings a **humanities** question; teacher leads **technical practice** after. Full rhythm + clocks: [[course-rhythm]]. Midpoint and final: **working personal setup** + critical reflection.
 
 *requirement (brief):* visual/node environments, GUI tools, text coding, and 3D/CAD; criteria for useful vs unnecessary AI; proprietary cloud vs local/open infra; shared space for hopes, fears, and authorship questions.
 

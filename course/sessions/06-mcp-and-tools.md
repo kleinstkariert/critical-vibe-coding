@@ -5,23 +5,35 @@ session: 6
 
 # Session 06 — MCP and tools — one interface to many systems
 
-Parent: [[../timeline]] · Outline: [[../course-outline]]
+Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
 
 ## Goals
 
 - Understand MCP as a protocol (not a model, not sync)
 - Attach at least one useful tool kitchen to the student agent
 - Contrast: filesystem wiki tools vs MCP for apps that are not folders
-- Connect the agent to **3D / CAD** stacks named in the course brief (*requirement*: visual/node, GUI, text code, **3D/CAD**)
-- Optional peek: Nextcloud as **one** MCP exposing many apps (mail, calendar, Deck, files…) — *technical suggestion*, not required student infra
+- Connect the agent to **3D / CAD** stacks (*requirement*)
+- Optional: Nextcloud as **one** MCP — *technical suggestion*, not required infra
+
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G5 — platform dependency / agency when tools chain — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — MCP concept + waiter/kitchen |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Attach one kitchen (browser / CAD / …) |
 
 ## Check-in
 
-Phone sync status; Discord bridge; wiki ingest stories; which creative apps do you already use (code / node / CAD / 3D)?
+Listen only — [[../course-rhythm#1-check-in-every-session]].
 
-## Student input (optional)
+## Student input (theory / humanities)
 
-Someone demos a tool integration they already use — browser, git, calendar, or a CAD/3D bridge if available.
+Pair G5: platform dependency when tools chain; agency vs convenience. Optional short demo only if it serves that question.
 
 ## Teacher input
 
