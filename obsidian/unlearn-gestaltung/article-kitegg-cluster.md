@@ -36,6 +36,18 @@ tags:
 - Teaching UX is **JupyterLab + custom LLP services**, not agent loop + Obsidian wiki + MCP.
 - Article’s STS/infrastructure theory is denser than Session 01’s political-economy blocks (bubble, regulation, ecology seed) — complementary, different register.
 
+## Crosswalk to CVC landscape (Session 01)
+
+| Koch claim (this article) | CVC place to teach / complicate |
+|---|---|
+| Cloud capital / switching costs (Varoufakis) | Block 2 local vs cloud table; Block 4 hyperscaler lock-in |
+| Ecology: PUE/offsets insufficient; make energy *local and visible* | Block 5 seed — GW Ranch / DC photos; Session 11 handout |
+| Infrastructure as STS (Star/Ruhleder); AI as tech + institutions + ideology | Block 3 amplifier / who owns the knob (`visions-fears-regulation`) |
+| Public money should build public capacity | Contrast with student personal-stack homework (Block 8) |
+| NVIDIA lock-in acknowledged | Local hardware research note; Session 04 |
+
+Teacher clips that sit next to this essay (vault `Clippings/`): Tooze AI arms race; “Real Cost of AI”; Acemoglu economics — political-economy counterpoint, not a KITeGG summary.
+
 ## Related
 
-- [[article-how-to-kitegg]] · [[diy-compute]] · [[comparison-vs-cvc]]
+- [[article-how-to-kitegg]] · [[diy-compute]] · [[systems-labs-overview]] · [[comparison-vs-cvc]] · [[00-index]]

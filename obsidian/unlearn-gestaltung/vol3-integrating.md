@@ -30,6 +30,17 @@ tags:
 - **Research-as-art / alternative research formats** are a named third of Vol. 3; CVC critical track is weekly but less publication-oriented.
 - **Striking:** Vol. 3 treats **reproducible institutional platform engineering** (Kubernetes cluster case study) as aesthetic-education research; CVC treats **harness + wiki** as the student-facing architecture.
 
+## Unlearn ↔ CVC regulation / ecology spine
+
+Vol. 3’s closing questions (training-data assumptions; when not to use; shape vs consume) pair cleanly with:
+
+1. `course/visions-fears-regulation` — industry double message + amplifier + what regulation can bind.
+2. `course/eu-ai-act-and-datenschutz` — uses/data/liability orientation (not maths-in-a-bottle).
+3. Session 11 ecology handout + vault clipping *The Real Cost of AI Will Shock You* — popular energy narrative; keep *claim* vs *verified fact* labels.
+4. Koch cluster essay ecology paragraphs — institutional anti-greenwash (see [[article-kitegg-cluster]]).
+
+Do not paste those course notes into this folder — link out via [[00-index]] crosswalk.
+
 ## Related notes
 
-- [[article-kitegg-cluster]] · [[article-how-to-kitegg]] · [[diy-compute]] · [[comparison-vs-cvc]]
+- [[article-kitegg-cluster]] · [[article-how-to-kitegg]] · [[diy-compute]] · [[comparison-vs-cvc]] · [[00-index]]

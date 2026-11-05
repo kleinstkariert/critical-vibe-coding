@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Build Session 01 welcome/landscape lecture deck (PPTX → LibreOffice ODP)."""
+"""Build Session 01 welcome/landscape lecture deck (PPTX → LibreOffice ODP).
+
+Structure follows course/lectures/01-welcome-landscape-lecture.md blocks 1–8.
+Visual direction: Scandinavian-minimal — cool neutrals, whitespace, restrained type.
+Argument lives in speaker notes. No gag slides.
+"""
 from __future__ import annotations
 
 import sys
@@ -9,7 +14,7 @@ from pptx import Presentation
 from pptx.dml.color import RGBColor
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.text import PP_ALIGN
-from pptx.util import Inches, Pt
+from pptx.util import Inches, Pt, Emu
 
 ROOT = Path(__file__).resolve().parent
 IMG = ROOT / "images"
@@ -18,16 +23,21 @@ OUT_PPTX = ROOT / "01-welcome-landscape.pptx"
 # Widescreen 16:9
 W, H = Inches(13.333), Inches(7.5)
 
-BG = RGBColor(0x12, 0x12, 0x12)
-FG = RGBColor(0xF2, 0xF0, 0xEB)
-MUTED = RGBColor(0xB8, 0xB4, 0xAC)
-ACCENT = RGBColor(0xC4, 0x5C, 0x26)  # warm earth, not purple
-CLAIM = RGBColor(0xD9, 0xA4, 0x41)
+# Scandinavian-minimal palette (cool neutrals — not purple, not cream/terracotta)
+BG = RGBColor(0xF4, 0xF5, 0xF7)          # cool light grey
+BG_SOFT = RGBColor(0xE8, 0xEA, 0xEE)
+FG = RGBColor(0x1C, 0x1F, 0x24)           # near-black
+MUTED = RGBColor(0x6B, 0x73, 0x80)        # slate
+ACCENT = RGBColor(0x3D, 0x5A, 0x66)       # muted blue-grey
+LINE = RGBColor(0xC5, 0xCB, 0xD3)
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
-SOFT = RGBColor(0x2A, 0x2A, 0x28)
+SCRIM = RGBColor(0x14, 0x16, 0x1A)
+
+FONT_DISPLAY = "Calibri Light"
+FONT_BODY = "Calibri"
 
 
-def set_run(run, size=28, bold=False, color=FG, font="Georgia"):
+def set_run(run, size=28, bold=False, color=FG, font=FONT_BODY):
     run.font.size = Pt(size)
     run.font.bold = bold
     run.font.color.rgb = color
@@ -40,17 +50,30 @@ def add_notes(slide, text: str):
     notes.text = text.strip()
 
 
-def blank_slide(prs):
+def blank_slide(prs, bg=BG):
     layout = prs.slide_layouts[6]  # blank
     slide = prs.slides.add_slide(layout)
     shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, W, H)
     shape.fill.solid()
-    shape.fill.fore_color.rgb = BG
+    shape.fill.fore_color.rgb = bg
     shape.line.fill.background()
     return slide
 
 
-def add_textbox(slide, left, top, width, height, text, *, size=28, bold=False, color=FG, align=PP_ALIGN.LEFT, font="Georgia"):
+def add_textbox(
+    slide,
+    left,
+    top,
+    width,
+    height,
+    text,
+    *,
+    size=28,
+    bold=False,
+    color=FG,
+    align=PP_ALIGN.LEFT,
+    font=FONT_BODY,
+):
     box = slide.shapes.add_textbox(left, top, width, height)
     tf = box.text_frame
     tf.word_wrap = True
@@ -62,7 +85,19 @@ def add_textbox(slide, left, top, width, height, text, *, size=28, bold=False, c
     return box
 
 
-def add_multiline(slide, left, top, width, height, lines, *, size=22, color=FG, font="Georgia", spacing=True):
+def add_multiline(
+    slide,
+    left,
+    top,
+    width,
+    height,
+    lines,
+    *,
+    size=20,
+    color=FG,
+    font=FONT_BODY,
+    spacing=True,
+):
     box = slide.shapes.add_textbox(left, top, width, height)
     tf = box.text_frame
     tf.word_wrap = True
@@ -70,14 +105,81 @@ def add_multiline(slide, left, top, width, height, lines, *, size=22, color=FG, 
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
         p.alignment = PP_ALIGN.LEFT
         if spacing:
-            p.space_after = Pt(10)
+            p.space_after = Pt(12)
         run = p.add_run()
         run.text = line
         set_run(run, size=size, bold=False, color=color, font=font)
     return box
 
 
-def picture_cover(slide, path: Path, credit: str | None = None):
+def hairline(slide, top=Inches(1.15)):
+    line = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.75), top, Inches(1.4), Emu(4000))
+    line.fill.solid()
+    line.fill.fore_color.rgb = ACCENT
+    line.line.fill.background()
+
+
+def typographic_slide(
+    slide,
+    kicker: str,
+    title: str,
+    body_lines: list[str] | None = None,
+    tag: str | None = None,
+):
+    if kicker:
+        add_textbox(
+            slide,
+            Inches(0.75),
+            Inches(0.55),
+            Inches(11.5),
+            Inches(0.35),
+            kicker,
+            size=13,
+            color=ACCENT,
+            font=FONT_BODY,
+        )
+    hairline(slide)
+    add_textbox(
+        slide,
+        Inches(0.75),
+        Inches(1.45),
+        Inches(11.8),
+        Inches(1.35),
+        title,
+        size=36,
+        bold=False,
+        color=FG,
+        font=FONT_DISPLAY,
+    )
+    if tag:
+        add_textbox(
+            slide,
+            Inches(0.75),
+            Inches(2.85),
+            Inches(11),
+            Inches(0.35),
+            tag,
+            size=12,
+            bold=True,
+            color=MUTED,
+            font=FONT_BODY,
+        )
+    if body_lines:
+        y = Inches(3.35) if tag else Inches(3.05)
+        add_multiline(
+            slide,
+            Inches(0.75),
+            y,
+            Inches(11.5),
+            Inches(3.6),
+            body_lines,
+            size=18,
+            color=MUTED,
+            font=FONT_BODY,
+        )
+
+
+def picture_cover(slide, path: Path, credit: str | None = None, dark_scrim=True):
     """Full-bleed cover image + bottom scrim for title/credit."""
     from PIL import Image
 
@@ -88,41 +190,52 @@ def picture_cover(slide, path: Path, credit: str | None = None):
     pw, ph = int(iw * scale), int(ih * scale)
     left = int((slide_w - pw) / 2)
     top = int((slide_h - ph) / 2)
-    pic = slide.shapes.add_picture(str(path), left, top, width=pw, height=ph)
+    slide.shapes.add_picture(str(path), left, top, width=pw, height=ph)
 
-    bar = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, Inches(5.4), W, Inches(2.1))
-    bar.fill.solid()
-    bar.fill.fore_color.rgb = RGBColor(0x0A, 0x0A, 0x0A)
-    bar.line.fill.background()
+    if dark_scrim:
+        bar = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, Inches(5.35), W, Inches(2.15))
+        bar.fill.solid()
+        bar.fill.fore_color.rgb = SCRIM
+        bar.line.fill.background()
     if credit:
         add_textbox(
             slide,
-            Inches(0.5),
+            Inches(0.55),
             Inches(6.95),
-            Inches(12.3),
-            Inches(0.4),
+            Inches(12.2),
+            Inches(0.35),
             credit,
-            size=11,
+            size=10,
             color=MUTED,
-            font="Calibri",
+            font=FONT_BODY,
         )
-    return pic
 
 
 def title_on_image(slide, title: str, subtitle: str | None = None):
-    add_textbox(slide, Inches(0.5), Inches(5.55), Inches(12.3), Inches(0.9), title, size=36, bold=True, color=WHITE)
+    add_textbox(
+        slide,
+        Inches(0.55),
+        Inches(5.5),
+        Inches(12.2),
+        Inches(0.85),
+        title,
+        size=32,
+        bold=False,
+        color=WHITE,
+        font=FONT_DISPLAY,
+    )
     if subtitle:
-        add_textbox(slide, Inches(0.5), Inches(6.35), Inches(12.3), Inches(0.5), subtitle, size=18, color=MUTED, font="Calibri")
-
-
-def typographic_slide(slide, kicker: str, title: str, body_lines: list[str] | None = None, tag: str | None = None):
-    if kicker:
-        add_textbox(slide, Inches(0.7), Inches(0.55), Inches(11.5), Inches(0.4), kicker, size=14, color=ACCENT, font="Calibri")
-    add_textbox(slide, Inches(0.7), Inches(1.2), Inches(11.8), Inches(1.4), title, size=40, bold=True, color=FG)
-    if tag:
-        add_textbox(slide, Inches(0.7), Inches(2.6), Inches(4), Inches(0.35), tag, size=12, bold=True, color=CLAIM, font="Calibri")
-    if body_lines:
-        add_multiline(slide, Inches(0.7), Inches(3.1), Inches(11.5), Inches(3.5), body_lines, size=22, color=MUTED, font="Calibri")
+        add_textbox(
+            slide,
+            Inches(0.55),
+            Inches(6.3),
+            Inches(12.2),
+            Inches(0.45),
+            subtitle,
+            size=16,
+            color=MUTED,
+            font=FONT_BODY,
+        )
 
 
 def build():
@@ -130,26 +243,27 @@ def build():
     prs.slide_width = W
     prs.slide_height = H
 
+    # ── Block 1 — Scope ──────────────────────────────────────────────
     # 1 Title
     s = blank_slide(prs)
     picture_cover(
         s,
-        IMG / "01-datacenter-aisle-cyrusone.jpg",
-        "CyrusOne Carrollton interior — CyrusOne Inc. / CC BY-SA 3.0",
+        IMG / "13-meta-el-paso-contentstack.jpg",
+        "Meta El Paso data-center campus (press / Contentstack CDN) — teaching use; see ATTRIBUTION.md",
     )
     title_on_image(s, "Critical Vibe Coding", "Session 01 — Welcome & landscape")
     add_notes(
         s,
         "Part B classroom input after outdoor check-in.\n"
-        "Open with optional video snip (session file). Then Q&A after each block.\n"
-        "Priority airtime: technical layers (#2), visions/fears (#3), bubble (#4).",
+        "Priority airtime: Block 2 (technical), Block 3 (visions/fears/regulation), Block 4 (bubble).\n"
+        "Q&A after each block. Source: course/lectures/01-welcome-landscape-lecture.md",
     )
 
     # 2 Twin tracks
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 1 — Scope",
+        "Block 1 — Scope · ~4 min",
         "Two tracks. Neither optional.",
         [
             "Technical — leave with a working personal agent setup",
@@ -160,22 +274,24 @@ def build():
     add_notes(
         s,
         "Ask: Who came mostly for the install, who mostly for the politics?\n"
-        "Midpoint (s9): demo + short proposal. Final (s13): architecture + one use + reflection.",
+        "Midpoint (s9): demo + short proposal. Final (s13): architecture + one use + reflection.\n"
+        "Neither track is optional.",
     )
 
+    # ── Block 2 — What LLMs / agents are ─────────────────────────────
     # 3 Layers
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 2 — Vocabulary",
+        "Block 2 — What LLMs and agents are · ~12 min · high priority",
         "Model ⊂ Product ⊂ Agent",
         [
-            "Model — trained network, tokens → tokens (weights)",
+            "Model — trained network, tokens → tokens (weights on disk / GPU)",
             "Product / chat — UI + safety + memory + billing around a model",
             "Agent — loop that calls tools, reads/writes files, follows skills",
-            "One-liner: chat answers; an agent acts (with permission and tools).",
+            "Chat answers. An agent acts — with your permission and tools.",
         ],
-        tag="keep this vocabulary all semester",
+        tag="Keep this vocabulary all semester",
     )
     add_notes(
         s,
@@ -183,40 +299,46 @@ def build():
         "Q: Where is authorship if the agent writes half the patch?",
     )
 
-    # 4 Training / inference / hallucination
+    # 4 Training / inference
     s = blank_slide(prs)
     picture_cover(
         s,
         IMG / "08-hpc-datacenter-energy-gov.jpg",
         "HPC data center — U.S. Department of Energy / public domain",
     )
-    title_on_image(s, "Training → inference", "Fluent continuation ≠ truth")
+    title_on_image(s, "Training → inference", "Fluent continuation is not truth")
     add_notes(
         s,
         "verified fact / teaching model (simplified):\n"
-        "1 Training — next-token prediction; parameters store regularities, not a fact DB.\n"
-        "2 Inference — prompt tokenized; model samples a continuation.\n"
+        "1 Training — next-token prediction; parameters store regularities, not a fact database.\n"
+        "2 Inference — prompt tokenized; the model samples a continuation.\n"
         "3 Context window — working memory of this call.\n"
         "4 Hallucination — fluency ≠ truth; agents worsen this if they write files without verify.\n"
         "Good at: draft, translate formalisms, summarize, structure, boilerplate.\n"
         "Bad alone: ground truth, long-horizon accountability, unstated artistic intent.",
     )
 
-    # 5 Context + why files
+    # 5 Context + files
     s = blank_slide(prs)
-    picture_cover(
+    typographic_slide(
         s,
-        IMG / "03-sticky-notes-wall.jpg",
-        "Sticky notes — ProjectManhattan / CC BY-SA 3.0",
+        "Block 2 — Context",
+        "Context is finite",
+        [
+            "Longer context = more compute per turn = more € and watts",
+            "A 200-page vault does not fit in every call",
+            "Pattern: small schema + index + pull only relevant pages",
+            "That is the LLM Wiki habit (Karpathy gist) — Session 02 deepens it",
+        ],
     )
-    title_on_image(s, "Context is finite", "Why agents need files (and a wiki habit)")
     add_notes(
         s,
-        "English ≈ 0.75 words/token; longer context = more € and watts.\n"
-        "A 200-page vault does not fit every call → small schema + index + pull relevant pages (LLM Wiki / Karpathy gist).",
+        "English ≈ 0.75 words/token; code denser.\n"
+        "Why agents need files: overflow forces drop or summarize.\n"
+        "Image alternative if wanted: sticky-notes overflow (03) — keep typographic for calm Scandinavian beat.",
     )
 
-    # 6 Tools / skills / MCP
+    # 6 Tools / skills / MCP / harness
     s = blank_slide(prs)
     typographic_slide(
         s,
@@ -225,8 +347,8 @@ def build():
         [
             "Filesystem tools — read/write a vault (enough for a wiki)",
             "Skills — written procedures the agent should follow",
-            "MCP — protocol to call other apps as tool kitchens",
-            "Harness — everything that isn’t the model",
+            "MCP — protocol so an agent can call other apps as tool kitchens",
+            "Harness — everything that is not the model",
             "Metaphor: waiter (host) / kitchen (MCP server) / dish (result)",
         ],
     )
@@ -243,7 +365,7 @@ def build():
         IMG / "02-gpu-cluster-nvidia-tesla.jpg",
         "Tesla / NVIDIA GPU cluster — ChrisDag / CC BY 2.0",
     )
-    title_on_image(s, "Local vs cloud", "Privacy, lock-in, hardware € — one slide")
+    title_on_image(s, "Local vs cloud", "Privacy, lock-in, hardware cost — one slide")
     add_notes(
         s,
         "Cloud API: strong models, little hardware — lock-in, logging, price, jurisdiction.\n"
@@ -251,139 +373,284 @@ def build():
         "Deep dive: research/local-gpu-hardware-for-llms · sessions 3 + 10.",
     )
 
-    # 8 Why now — CLAIM
+    # ── Block 3 — Drivers / visions / fears / regulation ─────────────
+    # 8 Drivers
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 3 — Drivers / visions / fears",
+        "Block 3 — Drivers, visions, fears, regulation · 10–15 min · high priority",
         "Why now?",
         [
             "CLAIM — next growth platform after PC → internet → mobile",
-            "Data + compute were already ready; race incentives matter",
-            "Two industry stories: abundance talk AND x-risk talk — often same scene",
-            "Amplifier ≠ neutral tool — who owns the knob?",
+            "Data and compute were already ready; race incentives matter",
+            "Script: course/visions-fears-regulation — four beats only",
+            "Do not teach the EU AI Act here — point to eu-ai-act-and-datenschutz",
         ],
-        tag="CLAIM · see visions-fears-regulation handout",
+        tag="CLAIM · political-economy frame",
     )
     add_notes(
         s,
-        "Primary script: course/visions-fears-regulation — four beats only.\n"
-        "Drivers (Coxon). Double message (Stewart). Amplifier (Ismail / Zajko / Crawford).\n"
-        "Regulation: uses & data & liability — not a global off-switch; watch regulation-as-marketing.\n"
-        "Do not teach EU AI Act here — point to eu-ai-act-and-datenschutz.",
+        "Primary script: course/visions-fears-regulation.\n"
+        "Beat 1 Drivers (Coxon): growth treadmill + data/compute + race — not “we asked for utopia.”\n"
+        "Technical scaling is real and parallel to the money story.",
     )
 
-    # 9 Double message typographic
+    # 9 Two industry stories (serious — lecture frames sci-fi vs doom discourse)
     s = blank_slide(prs)
-    add_textbox(s, Inches(0.7), Inches(0.55), Inches(11), Inches(0.4), "Block 3 — Two industry stories", size=14, color=ACCENT, font="Calibri")
-    add_textbox(s, Inches(0.7), Inches(2.2), Inches(5.5), Inches(1.2), "Star Trek", size=44, bold=True, color=FG, align=PP_ALIGN.CENTER)
-    add_textbox(s, Inches(7.0), Inches(2.2), Inches(5.5), Inches(1.2), "% extinction", size=44, bold=True, color=FG, align=PP_ALIGN.CENTER)
     add_textbox(
         s,
-        Inches(0.7),
-        Inches(4.5),
-        Inches(12),
-        Inches(1.2),
-        "Pick a lane — or name the contradiction.",
-        size=24,
+        Inches(0.75),
+        Inches(0.55),
+        Inches(11.5),
+        Inches(0.35),
+        "Block 3 — Two industry stories",
+        size=13,
+        color=ACCENT,
+        font=FONT_BODY,
+    )
+    hairline(s)
+    add_textbox(
+        s,
+        Inches(0.75),
+        Inches(1.6),
+        Inches(5.5),
+        Inches(1.0),
+        "Abundance rhetoric",
+        size=28,
+        color=FG,
+        font=FONT_DISPLAY,
+        align=PP_ALIGN.LEFT,
+    )
+    add_textbox(
+        s,
+        Inches(7.0),
+        Inches(1.6),
+        Inches(5.5),
+        Inches(1.0),
+        "Existential risk rhetoric",
+        size=28,
+        color=FG,
+        font=FONT_DISPLAY,
+        align=PP_ALIGN.LEFT,
+    )
+    # vertical divider
+    div = s.shapes.add_shape(
+        MSO_SHAPE.RECTANGLE, Inches(6.55), Inches(1.55), Emu(2500), Inches(3.2)
+    )
+    div.fill.solid()
+    div.fill.fore_color.rgb = LINE
+    div.line.fill.background()
+    add_multiline(
+        s,
+        Inches(0.75),
+        Inches(2.8),
+        Inches(5.4),
+        Inches(2.8),
+        [
+            "UBI / UHI talk, “age of abundance”",
+            "Real discourse — not delivered policy",
+            "Musk, Altman, Ismail responses",
+        ],
+        size=16,
         color=MUTED,
-        align=PP_ALIGN.CENTER,
-        font="Calibri",
+    )
+    add_multiline(
+        s,
+        Inches(7.0),
+        Inches(2.8),
+        Inches(5.4),
+        Inches(2.8),
+        [
+            "Loss of control, misuse, race under-funds safety",
+            "Same industry scene often carries both stories",
+            "Credibility problem if both are sold at once",
+        ],
+        size=16,
+        color=MUTED,
     )
     add_notes(
         s,
-        "Utopia rhetoric (UBI/UHI, abundance) is real discourse, not delivered policy.\n"
-        "Same industry also sells existential risk. Stewart: credibility problem.\n"
-        "Keep social/institutional fear stack for this course (labour, lock-in, ecology).",
+        "Lecture frames positive sci-fi futures vs doom futures as industry discourse — keep serious.\n"
+        "Utopia rhetoric (UBI/UHI, abundance) is real discourse, not a funded social contract.\n"
+        "Same scene also sells existential risk. Stewart: pick a lane / credibility problem.\n"
+        "This course spends more time on the social/institutional fear stack (labour, lock-in, ecology).\n"
+        "Clips (teacher): Coxon Daily Show; Stewart monologue — paths in visions-fears-regulation.",
     )
 
-    # 10 Bubble thesis — three boxes
+    # 10 Amplifier
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 4 — Economy",
-        "Bubble ≠ useless technology",
+        "Block 3 — Amplifier vs power",
+        "Who owns the gain knob?",
+        [
+            "Ismail: AI as amplifier — useful language",
+            "Social science: not neutral; amplifies hierarchy; feedback loops",
+            "A tutor-bot for a student ≠ a hyperscaler with weights, cloud, and lobbying",
+            "“Depends how you use it” is incomplete for platforms that reorganise labour and grids",
+        ],
+    )
+    add_notes(
+        s,
+        "Ismail amplifier / fire metaphor — then complicate with Crawford / Zajko.\n"
+        "Class line: Amplifier is useful if you always ask who owns the gain knob.",
+    )
+
+    # 11 Regulation (Block 6 folded here)
+    s = blank_slide(prs)
+    typographic_slide(
+        s,
+        "Block 3 (+6) — Regulation",
+        "Uses and data — not mathematics",
+        [
+            "Regulation can constrain uses, liability, data, markets",
+            "It cannot put the maths back in the bottle",
+            "Watch credibility marketing: safety theatre + fundraising",
+            "Law orientation: course/eu-ai-act-and-datenschutz (not taught in this hour)",
+        ],
+        tag="OPEN QUESTION for the room",
+    )
+    add_notes(
+        s,
+        "Beat 4 from visions-fears-regulation. Folded from Block 6 per lecture.md.\n"
+        "Ask: what would a credible local rule look like for your studio practice?\n"
+        "GDPR stays in parallel with the AI Act — verified fact from DSB position in the law note.",
+    )
+
+    # ── Block 4 — Bubble / economy ───────────────────────────────────
+    # 12 Thesis
+    s = blank_slide(prs)
+    typographic_slide(
+        s,
+        "Block 4 — Economic background · 10–12 min · high priority",
+        "Bubble does not mean useless technology",
         [
             "1 Financial bubble — investors overpay / lose money",
             "2 Productive investment boom — overbuild can leave usable infra (Perez…)",
             "3 Technological dead end — infra ages into scrap",
             "Open question: end-user demand once circular loops are stripped out?",
         ],
-        tag="THESIS",
+        tag="THESIS · research/ai-bubble-productivity-datacenter",
     )
     add_notes(
         s,
-        "Core sentence from lecture draft: speculative finance, circular investment, and REAL infrastructure can coexist.\n"
-        "Research: research/ai-bubble-productivity-datacenter.\n"
+        "Core sentence: speculative finance, circular investment, and REAL infrastructure can coexist.\n"
         "Q: If investors lose money but GPUs remain, who benefited?",
     )
 
-    # 11 BIS numbers
+    # 13 BIS numbers
     s = blank_slide(prs)
-    add_textbox(s, Inches(0.7), Inches(0.5), Inches(12), Inches(0.4), "Block 4 — Circularity · verified fact · BIS Bulletin 137 (1 Oct 2026)", size=14, color=ACCENT, font="Calibri")
-    add_textbox(s, Inches(0.7), Inches(1.6), Inches(12), Inches(1.0), "28.7%", size=72, bold=True, color=FG)
-    add_textbox(s, Inches(0.7), Inches(2.7), Inches(12), Inches(0.5), "of AI firms’ investment deal value (2021–25) targeted other AI firms", size=18, color=MUTED, font="Calibri")
-    add_textbox(s, Inches(0.7), Inches(3.5), Inches(12), Inches(0.7), "55.2%  incoming from other AI firms", size=28, bold=True, color=FG)
-    add_textbox(s, Inches(0.7), Inches(4.3), Inches(12), Inches(0.7), "46.4%  of AI-to-AI deal value also had supplier–customer links", size=28, bold=True, color=FG)
-    add_textbox(s, Inches(0.7), Inches(5.5), Inches(12), Inches(0.8), "Interdependence ≠ all demand is fake. (Interpretation from research note.)", size=18, color=CLAIM, font="Calibri")
+    add_textbox(
+        s,
+        Inches(0.75),
+        Inches(0.5),
+        Inches(12),
+        Inches(0.4),
+        "Block 4 — Circularity · verified fact · BIS Bulletin 137 (1 Oct 2026)",
+        size=13,
+        color=ACCENT,
+        font=FONT_BODY,
+    )
+    hairline(s, top=Inches(1.0))
+    add_textbox(s, Inches(0.75), Inches(1.5), Inches(12), Inches(0.9), "28.7%", size=64, color=FG, font=FONT_DISPLAY)
+    add_textbox(
+        s,
+        Inches(0.75),
+        Inches(2.45),
+        Inches(12),
+        Inches(0.45),
+        "of AI firms’ investment deal value (2021–25) targeted other AI firms",
+        size=16,
+        color=MUTED,
+        font=FONT_BODY,
+    )
+    add_textbox(s, Inches(0.75), Inches(3.3), Inches(12), Inches(0.55), "55.2%  incoming from other AI firms", size=26, color=FG, font=FONT_DISPLAY)
+    add_textbox(
+        s,
+        Inches(0.75),
+        Inches(4.0),
+        Inches(12),
+        Inches(0.55),
+        "46.4%  of AI-to-AI deal value also had supplier–customer links",
+        size=26,
+        color=FG,
+        font=FONT_DISPLAY,
+    )
+    add_textbox(
+        s,
+        Inches(0.75),
+        Inches(5.2),
+        Inches(12),
+        Inches(0.7),
+        "Interdependence is not proof that all demand is fake.",
+        size=18,
+        color=ACCENT,
+        font=FONT_BODY,
+    )
     add_notes(
         s,
-        "Quote three BIS bullets; source in footnote aloud.\n"
-        "Tooze (Chartbook / Ones and Tooze Ep. 250): skeptical political-economy reading — concentrated capex, codependent hyperscalers.\n"
+        "Quote three BIS bullets; source aloud.\n"
+        "Tooze (Chartbook / Ones and Tooze Ep. 250 clipping): skeptical political-economy — concentrated capex, codependent hyperscalers.\n"
         "Q: Where does your ChatGPT subscription sit in that circular diagram?",
     )
 
-    # 12 Acemoglu + US/CN
+    # 14 Productivity + ecosystems
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 4 — Productivity & ecosystems",
-        "~1% GDP order of magnitude?",
+        "Block 4 — Productivity and ecosystems",
+        "Modest macro effect — contested timing",
         [
-            "Acemoglu: nontrivial but modest macro effect over ~10 years — vs 7%+ consultancy headlines",
+            "Acemoglu: nontrivial but modest macro GDP effect over ~10 years (~1% order) vs 7%+ consultancy headlines",
             "Serious economists disagree on magnitude and timing — not “AI does nothing”",
-            "US hyperscalers — capex race, closed APIs, CUDA, private credit into DCs",
+            "US hyperscalers — capex race, closed APIs, CUDA, private credit into data centres",
             "Chinese open-ish weights — fast release, exportable weights",
             "EU / academic — hosting jurisdiction; say clearly if students cannot use campus AI",
         ],
-        tag="CLAIM vs bank/consultancy headlines",
     )
     add_notes(
         s,
         "Update Austrian academic AI access sentence before class (academic-ai-austria).\n"
-        "Optional productive-bubble historical image next slide.",
+        "Vault clipping: A new look at the economics of AI (Acemoglu / MIT Sloan).",
     )
 
-    # 13 Productive bubble / railway
+    # 15 Productive bubble / historical
     s = blank_slide(prs)
     picture_cover(
         s,
         IMG / "07-metropolitan-railway-map-1867.jpg",
         "Metropolitan Railway map, c. 1867 — public domain",
     )
-    title_on_image(s, "Productive bubbles leave tracks", "Installation phases outlive the speculation")
+    title_on_image(s, "Productive bubbles leave tracks", "Installation phases can outlive the speculation")
     add_notes(
         s,
-        "Perez / DeLong / Takshashila frame: overbuild can still leave usable infrastructure.\n"
-        "Contrast with technological dead end. Capex photo bridge to ecology.",
+        "Perez / DeLong / Takshashila: overbuild can still leave usable infrastructure.\n"
+        "Contrast with technological dead end. Bridge to ecology / real build-out next.",
     )
 
-    # 14 Ecology
+    # ── Block 5 — Ecology / labour seed ──────────────────────────────
+    # 16 GW Ranch — PROMINENT (Sebastian favourite)
     s = blank_slide(prs)
     picture_cover(
         s,
-        IMG / "06-datacenter-cooling-tower.jpg",
-        "Data-center cooling tower, Mesa AZ — Rsparks3 / CC0",
+        IMG / "11-gw-ranch-heise.jpg",
+        "GW Ranch render — via heise online (Amazon / Pacifico Energy AI campus + gas generation, Texas) · ATTRIBUTION.md",
     )
-    title_on_image(s, "Ecology seed", "Local grids, water, neighbours — deep dive Session 11")
+    title_on_image(
+        s,
+        "Real build-out at campus scale",
+        "Ecology seed · local grids, water, emissions, neighbours — deep dive Session 11",
+    )
     add_notes(
         s,
-        "Training vs inference: students mostly inference; still scales with tokens / video.\n"
+        "PROMINENT image (Sebastian). GW Ranch: off-grid gas generation planned for hyperscale AI — Heise reporting on Amazon/Pacifico plans in Texas.\n"
+        "Use as scale + ecology bridge: training vs inference; students mostly inference; still scales with tokens/video.\n"
         "US ~45% of global DC electricity (IEA 2024). Name water/land/grid/who lives next door — no scopes 1–3 lecture here.\n"
-        "Space data centres: hype contrast only.",
+        "Space data centres: hype contrast only.\n"
+        "Research: data-centers-energy-ecology-economy · Session 11.",
     )
 
-    # 15 Labour
+    # 17 Labour
     s = blank_slide(prs)
     picture_cover(
         s,
@@ -396,75 +663,67 @@ def build():
         "Separate macro claims (IMF/McKinsey) from observed creative freelance shifts and student anxiety.\n"
         "Ghost work: annotation, moderation, eval farms — Session 10.\n"
         "Acemoglu: inequality/welfare can move differently from GDP.\n"
-        "Empty follow-up: student anxiety slide is a question only if needed.",
+        "Jobs seed only: rising tide + early-career canary — research/ai-jobs-rising-tide-productivity.",
     )
 
-    # 16 Regulation as marketing
+    # ── Block 7 — Media-art workflows ────────────────────────────────
+    # 18 Media-art stakes
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 3 / 6 — Regulation",
-        "Uses & data — not maths",
+        "Block 7 — Media-art workflows · ~5 min",
+        "Speed · flattening · authorship · interface · refusal",
         [
-            "Regulation can constrain uses, liability, data, markets",
-            "It cannot put the maths back in the bottle",
-            "Watch credibility marketing: utopia slides + safety theatre + fundraising",
-            "Law orientation later: EU AI Act & Datenschutz note",
+            "More iterations — less sitting with a bad idea",
+            "Taste flattening — same generative look, same helpful prose voice",
+            "Authorship — who signed the work if the agent wrote the patch?",
+            "New interfaces — agent + wiki + MCP as the piece (Session 05)",
+            "Refusal — knowing when not to use AI is a skill (Session 11)",
         ],
-        tag="OPEN QUESTION for the room",
     )
     add_notes(
         s,
-        "Folded from Block 6 into Block 3 per lecture draft.\n"
-        "Ask: what would a credible local rule look like for your studio practice?",
+        "Link outdoor Part A themes back. Prefer own installation photos when available.\n"
+        "Block 6 regulation already covered inside Block 3.",
     )
 
-    # 17 Media-art stakes
-    s = blank_slide(prs)
-    picture_cover(
-        s,
-        IMG / "09-eqiad-server-aisle.jpg",
-        "Wikimedia EQIAD cluster — Rob Halsell / CC BY-SA 3.0",
-    )
-    title_on_image(s, "Media-art stakes", "Speed · flattening · authorship · interface · refusal")
-    add_notes(
-        s,
-        "Pressures: more iterations / less sitting with a bad idea; Midjourney sameness; who signed the patch;\n"
-        "agent+wiki+MCP as the piece (session 5); knowing when NOT to use AI (Session 11).\n"
-        "Prefer own installation photos when available. Link outdoor Part A themes back.",
-    )
-
-    # 18 Default stack + homework
+    # ── Block 8 — Default setup ──────────────────────────────────────
+    # 19 Default stack
     s = blank_slide(prs)
     typographic_slide(
         s,
-        "Block 8 — Default setup (preview)",
+        "Block 8 — Default setup · ~5 min",
         "Obsidian · Hermes · Wiki habits",
         [
             "1 Knowledge store with phone sync (default Obsidian; alternatives OK)",
             "2 Hermes Agent pointed at that vault",
             "3 Harness + LLM Wiki habits — next class",
             "4 Models: whatever you already pay for / can access",
-            "Homework: course GitHub · note LLM access · optional Karpathy gist",
+            "Homework: note LLM access · optional Karpathy gist · course materials",
         ],
     )
     add_notes(
         s,
         "Repeat homework aloud. Student share pack, not whole vault.\n"
+        "howto-obsidian-setup-and-sync · howto-hermes-setup · llm-wiki-standard-files.\n"
         "Next: harness after a student humanities input.",
     )
 
-    # 19 Closing Q
+    # 20 Close
     s = blank_slide(prs)
-    picture_cover(
+    typographic_slide(
         s,
-        IMG / "04-messy-desk.jpg",
-        "Messy desk — Sugar Pond / CC BY-SA 2.0",
+        "Close",
+        "What stays with you from Part A?",
+        [
+            "Bring one fear and one hope into the stack",
+            "Open questions feed later input nodes",
+            "11:55–12:00 — homework and close",
+        ],
     )
-    title_on_image(s, "What stays with you from Part A?", "Bring one fear and one hope into the stack")
     add_notes(
         s,
-        "Close: collect open questions for later input nodes. 11:55–12:00 homework + close.",
+        "Collect open questions. Do not race leftover blocks — priorities were #2, #3, #4.",
     )
 
     prs.save(OUT_PPTX)

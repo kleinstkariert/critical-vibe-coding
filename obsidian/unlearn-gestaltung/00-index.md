@@ -1,6 +1,7 @@
 ---
 title: un/learn Gestaltung — research index
 date: 2026-11-04
+updated: 2026-11-05
 tags:
   - research
   - kitegg
@@ -13,8 +14,11 @@ tags:
 Condensed notes from the [un/learn ai](https://unlearn.gestaltung.ai/) publication series (KITeGG, five Gestaltungshochschulen, BMBF + RLP). Kept in a **separate** Obsidian folder so they are not mixed into CVC lecture notes.
 
 **Folder path (this vault / repo):** `obsidian/unlearn-gestaltung/`  
-**Absolute path on this machine:** `c:\Users\sebas\Nextcloud\_InterfaceCultures\CriticalVibeCoding\obsidian\unlearn-gestaltung`  
-**In open Obsidian vault (junction):** `Interface Cultures/CriticalVibeCoding/obsidian/unlearn-gestaltung/`
+**Absolute path on this machine:** `C:\Users\sebas\Nextcloud\_InterfaceCultures\CriticalVibeCoding\obsidian\unlearn-gestaltung`  
+**Open in Obsidian (junction):** `Interface Cultures/CriticalVibeCoding/obsidian/unlearn-gestaltung/00-index`  
+Vault root: `Hermes-Agent-Base/KnowledgeBaseObsidian` → folder **Interface Cultures** → **CriticalVibeCoding** (junction to the git repo) → **obsidian** → **unlearn-gestaltung**.
+
+> If the nodes do not appear: confirm git branch `cursor/session01-slideshow-unlearn-596b` is checked out under `_InterfaceCultures\CriticalVibeCoding`, then reopen or Quick Switcher to `00-index`. Do **not** look under `Teaching/CriticalVibeCoding` (that is a different Nextcloud folder).
 
 ## Sources processed
 
@@ -48,6 +52,25 @@ API used for article bodies: `https://pub-llm.staging-unlearn.gestaltung.ai/docu
 ### Course contrast
 
 - [[comparison-vs-cvc]] — striking differences + **scale** contrast vs Critical Vibe Coding
+
+## CVC vault crosswalk (related, not copied)
+
+Use these course / vault notes alongside KITeGG — they stay in their canonical homes; this folder only links.
+
+| Theme | Canonical note / clipping | Session 01 use |
+|---|---|---|
+| Drivers / utopia / x-risk / amplifier / regulation frame | `course/visions-fears-regulation.md` | Block 3 script |
+| EU AI Act + GDPR/DSG parallel | `course/eu-ai-act-and-datenschutz.md` | Point only in S01; teach later |
+| Lecture blocks 1–8 | `course/lectures/01-welcome-landscape-lecture.md` | Deck source of truth |
+| Bubble / circular finance | `research/ai-bubble-productivity-datacenter.md` | Block 4 |
+| Ecology / DC energy | `research/data-centers-energy-ecology-economy.md` | Block 5 seed → Session 11 |
+| Jobs / rising tide | `research/ai-jobs-rising-tide-productivity.md` | Seed in visions handout |
+| Coxon / Stewart industry double message | vault `Clippings/Jacob Coxon…` · `Clippings/Jon Stewart Is Right About AI…` | Teacher clips |
+| Ismail “amplifier” response | linked from visions handout (YouTube) | Beat 3 |
+| Tooze AI arms race / regulation | `Clippings/Adam Tooze on the AI Arms Race…` · `…AI Regulation Ep. 260` | Teacher prep |
+| Acemoglu productivity | `Clippings/A new look at the economics of AI` | Block 4 counterweight |
+| “Real cost of AI” ecology video | `Clippings/The Real Cost of AI Will Shock You` | Optional Session 11 |
+| AI bubble debate | `Clippings/Is There an A.I. Bubble…` | Optional Block 4 |
 
 ## Project in one line
 
