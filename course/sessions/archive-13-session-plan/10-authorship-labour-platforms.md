@@ -1,0 +1,83 @@
+---
+title: Session 10 — Authorship, labour, platforms
+session: 10
+---
+
+# Session 10 — Authorship, labour, ghost work, platform dependency
+
+Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
+
+**Slot:** 10:00–12:00.
+
+## Goals
+
+- Debate who authors work made with agents
+- Look at invisible labour (annotation, moderation) and platform lock-in
+- Connect to students’ own setups (whose model, whose ToS, whose data)
+
+## Clock
+
+| Clock | Block |
+|---|---|
+| **10:00–10:20** | Check-in (listen only) |
+| **10:20–10:35** | Student pair G9 — ghost work / authorship / platforms — [[../course-rhythm]] |
+| **10:35–10:55** | Teacher — debate prompts + EU/AT pointer |
+| **10:55–11:05** | Break |
+| **11:05–12:00** | Discussion / reading-based seminar + link to own setup |
+
+## Check-in
+
+Listen only — [[../course-rhythm#1-check-in-every-session]].
+
+## Student input (theory / humanities)
+
+Pair G9: ghost work, authorship, platform ToS — use session reading table.
+
+## Teacher input / debate
+
+Prompts:
+
+- Authorship vs. accountability when the agent edits the wiki
+- Ghost labour and global supply chains behind “clean” chat UIs
+- Platform dependency: what breaks if a vendor changes pricing or policy?
+- Education and creative labour: deskilling vs. re-skilling claims
+
+Peer echo: [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) weeks on ghost labour / data enclosure; [Birkbeck Critical and Creative AI](https://www.bbk.ac.uk/courses/modules/sc04/SC04023S7) on automation and creative labour ([[../timeline]]).
+
+EU / Austrian regulation orientation (AI Act + Datenschutz; EN note, DE links): [[../eu-ai-act-and-datenschutz]]
+
+Session 01 already framed **industry utopia (UBI/UHI) vs social fears** and the amplifier debate — [[../visions-fears-regulation]]. Here: labour / authorship / platforms as the lived version of those fears.
+
+**Jobs / automation evidence (teach or assign):** [[../../research/ai-jobs-rising-tide-productivity]] — MIT rising tide vs crashing wave; Stanford *Canaries* (early-career hiring); junior vs senior productivity charts (Demirer / Brynjolfsson–Li–Raymond / Peng).
+
+## Optional reading (pick one; all free to read)
+
+URLs checked 2026-10-18 (*verified fact*). Short list on purpose — see [[../references]] for the full set.
+
+| Reading | Why here |
+|---|---|
+| Course handout — AI jobs / rising tide / junior productivity | [[../../research/ai-jobs-rising-tide-productivity]] — MIT FutureTech; Stanford Canaries; Copilot RCTs |
+| Kate Crawford & Vladan Joler, *Anatomy of an AI System* (2018) — https://anatomyof.ai/ | One consumer agent (Amazon Echo) mapped as labour, data and material extraction; the “clean chat UI” argument in one diagram |
+| Crawford & Joler, *Calculating Empires* (2023) — https://calculatingempires.net/ | Interactive long-timeline of technology and power; useful for the “platform dependency is old” angle |
+| U.S. Copyright Office, *Copyright and Artificial Intelligence* (Part 2: Copyrightability, 2025-01-29; Part 3: Training, pre-publication 2025-05-09) — https://www.copyright.gov/ai/ | A regulator’s primary position on who can author an AI-assisted work; US-only, use as contrast to EU/Austrian practice |
+| Cory Doctorow, *Tiktok’s enshittification* (2023-01-21) — https://pluralistic.net/2023/01/21/potemkin-ai/ | The platform-lifecycle argument behind “what breaks if the vendor changes pricing or policy” |
+| Billy Perrigo / TIME, *OpenAI Used Kenyan Workers on Less Than $2 Per Hour…* (2023-01-18) — https://time.com/6247678/openai-chatgpt-kenya-workers/ | Reporting on Sama / toxic-text labelling for OpenAI — ghost labour behind a “clean” chat product. **Content warning** (graphic material). PDF mirror if paywall: https://cse.buffalo.edu/mlsoc/assets/files/openai_kenyan_worker.pdf |
+| Data Workers’ Inquiry — https://data-workers.org/ (method: https://data-workers.org/about/the-method/) | Worker-led inquiries into annotation and moderation; pair with TIME for “reporting vs workers speaking” |
+
+## Practical
+
+- Add a short “provenance” note to the personal wiki: which model, which tools, what human decisions — *technical suggestion:* this is what the page frontmatter already carries in part (`sources:`, `confidence:`, `contested:` — [[../llm-wiki-standard-files]]); add a human-written `provenance.md` for what frontmatter cannot say (who decided, who was paid, where the model ran)
+- Optional: refuse one convenient cloud feature for a week and document the cost
+
+## Homework
+
+- 1–2 page reflection OR wiki page: authorship statement for their project
+- Prep ecology / local-infra questions for Session 11
+
+## Materials / References
+
+| What | Link |
+|---|---|
+| Optional readings | table above |
+| Frontmatter fields the agent writes (`sources`, `confidence`, `contested`) | [[../llm-wiki-standard-files]] |
+| Peer syllabi — HKUST (ghost labour, data enclosure), Birkbeck (creative labour) | [[../references]] · [[../timeline]] |
