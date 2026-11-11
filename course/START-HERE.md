@@ -15,13 +15,12 @@ Folder map under `course/`:
 
 | Folder | Contents |
 |---|---|
-| `syllabus/` | Outline, timeline, rhythm, references, brief, admission |
+| `syllabus/` | Outline, timeline, rhythm, references, brief |
 | `sessions/` | Eight session notes (+ archive of the old 13-session cuts) |
 | `setup/` | Hermes, Obsidian, SilverBullet, hardware, wiki, academic AI |
 | `concepts/` | Harness, MCP, lint, prompting |
 | `topics/` | Visions/fears, EU AI Act, creative tools |
 | `lectures/` | Session 01 lecture notes, deep dives, current slideshow |
-| `teacher/` | Teacher prep (not for student share) |
 
 ---
 

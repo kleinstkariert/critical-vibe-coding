@@ -17,10 +17,10 @@ Related: [[knowledge-store-options]] · [[what-is-mcp]] · [[../../research/obsi
 2. Also install the **mobile** app (iOS / Android) if you use a phone.
 3. Create a **vault** = a normal folder of files on disk.
 4. Prefer one clear place the phone can sync to, e.g.:
-   - Teacher (Windows): `C:\Users\sebas\Nextcloud\KnowledgeBaseObsidian`
-   - macOS: `/Users/you/Nextcloud/KnowledgeBaseObsidian` or iCloud only if **Mac ↔ iPhone** (see §2)
-   - Linux: `~/Nextcloud/KnowledgeBaseObsidian` (or Syncthing folder)
-   - Students: vault inside Nextcloud, Dropbox, etc.
+   - Windows: `C:\Users\you\Nextcloud\MyVault`
+   - macOS: `/Users/you/Nextcloud/MyVault` or iCloud only if **Mac ↔ iPhone** (see §2)
+   - Linux: `~/Nextcloud/MyVault` (or Syncthing folder)
+   - Or any cloud folder your phone can sync (Nextcloud, Dropbox, …)
 5. Notes are `.md` files. Agents (Hermes, Cursor, …) can read/write this folder with filesystem tools — Obsidian does not need to be open for that.
 
 **Tip:** Keep a separate vault (or top-level folder) for an LLM Wiki so course/research agent edits do not mix with diary notes.

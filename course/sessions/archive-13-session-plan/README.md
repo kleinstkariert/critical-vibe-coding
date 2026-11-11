@@ -28,6 +28,6 @@ New map: [[../../course-outline]] · [[../../timeline]] · [[../../course-rhythm
 | 10 Authorship, labour, platforms | [[10-authorship-labour-platforms]] (here) | Labour taught in Session 01 Block 6; privacy and data as the student input in **07**; provenance note in **04** |
 | 11 Ecology, when not | [[11-local-ecology-when-not]] (here) | Ecology taught in Session 01 Block 5; student input "ecology of AI" in **06**; refusal and kill switch as optional practice in **06** |
 | 12 Studio and peer critique | [[12-studio-and-peer-critique]] (here) | Studio time folded into **07**; peer critique into **04** and **08** |
-| 13 Final presentations | `../08-final-presentations.md` | **08**, renamed (proposal, awaiting Sebastian's approval) |
+| 13 Final presentations | `../08-final-presentations.md` | **08**, renamed (proposal) |
 
 Do not delete these files. If a cut topic returns, move it back with `git mv` and update the map.

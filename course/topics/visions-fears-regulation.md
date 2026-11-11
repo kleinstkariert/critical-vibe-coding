@@ -170,7 +170,7 @@ That is the classic **tool** argument with a sharper word.
 
 1. Stewart “pick a lane” / capitalism→socialism gag — monologue https://www.youtube.com/watch?v=S18jxWZntUo  
 2. Coxon on utopia as cover for ambition — https://www.youtube.com/watch?v=lnLDjXy2kRA (~18:05)  
-3. Skip full Ismail in class; assign or skim as teacher prep — https://www.youtube.com/watch?v=ionrjPXLIYg  
+3. Ismail long talk (optional deeper listen, not required in class) — https://www.youtube.com/watch?v=ionrjPXLIYg  
 
 ---
 

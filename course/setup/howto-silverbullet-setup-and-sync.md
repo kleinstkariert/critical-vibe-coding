@@ -54,7 +54,7 @@ services:
     restart: unless-stopped
     environment:
       # Single-space auth example — change these!
-      SB_USER: "sebastian:CHANGE_ME"
+      SB_USER: "you:CHANGE_ME"
     volumes:
       - ./data:/data
     ports:
@@ -74,7 +74,7 @@ mkdir -p data
 docker run -d --restart unless-stopped \
   --name silverbullet \
   -p 3000:3000 \
-  -e SB_USER=sebastian:CHANGE_ME \
+  -e SB_USER=you:CHANGE_ME \
   -v ./data:/data \
   ghcr.io/silverbulletmd/silverbullet:latest
 ```

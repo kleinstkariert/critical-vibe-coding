@@ -140,14 +140,10 @@ Limits and privacy: 20 requests per minute and 50 per day on a free account. The
 
 ## 4. Point Hermes at your Obsidian vault
 
-Teacher vault on Windows (*verified fact* for this workspace):
-
-`C:\Users\sebas\Nextcloud\KnowledgeBaseObsidian`
-
 | Platform | Env file | Example absolute paths |
 |---|---|---|
-| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\Users\sebas\Nextcloud\KnowledgeBaseObsidian` |
-| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/KnowledgeBaseObsidian` or `/home/you/Nextcloud/...` |
+| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\Users\you\Nextcloud\MyVault` |
+| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/MyVault` or `/home/you/Nextcloud/MyVault` |
 
 ```env
 # Absolute paths — no $variables inside paths Hermes file tools will use

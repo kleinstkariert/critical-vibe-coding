@@ -686,7 +686,7 @@ def build(out: Path = OUT_PPTX):
         "Write down which AI access you already have.",
         "Read Karpathy's LLM Wiki note. → If you do not want to use AI: You can do research, investigative work on AI and input lectures.",
         "Next week: Setup guide - Karpathy & the harness, after a student humanities input.",
-    ], note="Say the homework aloud. Students get the share pack, not the teacher vault (course/student-share-structure.md).")
+    ], note="Say the homework aloud. Point students at the course GitHub pack (START-HERE).")
     text_slide(prs, 8, "Student inputs: choose a topic", [
         "**02** Flattening: AI kills the underground and it kills diversity – how, why?",
         "**03** Closed or open weights: who holds the power?",

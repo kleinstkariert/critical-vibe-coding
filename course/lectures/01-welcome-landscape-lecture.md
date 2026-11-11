@@ -298,8 +298,6 @@ Practical. **Deep dive with the diagram explained part by part:** [[01-welcome-l
 4. **Model**: whatever access you prefer: [[../prompting-and-model-choice]] · campus access: [[../academic-ai-austria]] · local later: [[../howto-local-llm-hardware]]. Free start: **Nemotron 3 Ultra through OpenRouter's free tier** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
 5. **Harness** (next session): [[../what-is-harness]] · [[../sessions/02-agent-harness-and-wiki-architecture]] · tools and MCP: [[../what-is-mcp]] · checking the wiki: [[../what-is-lint]].
 
-Students get a small share pack, not the teacher vault: [[../student-share-structure]].
-
 ### Homework (say aloud)
 
 - Bookmark or clone the course GitHub: [[../START-HERE]].
@@ -322,7 +320,7 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 ### Practices for this semester (closing slide, no block title)
 
-A provenance note per project: which model, which tools, who decided (how), where it ran (local, cloud...): a protocol for Sebastian. Personal ethics: what the agent may touch, remember, and what to refuse; your own manifesto on AI. Practical and theoretical work: use this class to work on your projects with an agent, or use it for research.
+A provenance note per project: which model, which tools, who decided (how), where it ran (local, cloud...). Personal ethics: what the agent may touch, remember, and what to refuse; your own manifesto on AI. Practical and theoretical work: use this class to work on your projects with an agent, or use it for research.
 
 Q&A: Which part of your practice would you never hand to an agent?
 
@@ -338,14 +336,3 @@ Q&A: Which part of your practice would you never hand to an agent?
 | Image | `04-messy-desk.jpg`: every vault starts like this |
 
 No credits slide: each image slide carries its credit line.
-
----
-
-## Teacher prep still open
-
-- [ ] Update the capex table and chart in [[01-welcome-landscape-deep-dives/bubble-economy]] after the next earnings round (`make_images.py`).
-- [ ] Check the Tooze quote against the audio (about 32:33 to 34:18) before quoting it verbatim.
-- [ ] Update the Austrian campus AI access sentence after [[../academic-ai-austria]] and AI:AT contacts.
-- [ ] Decide which outdoor themes to quote back in Block 7.
-- [ ] Re-clip Tooze *Boom, Bubble, Burst?* (`L4--A3hhOws`) if needed.
-- [ ] Confirm group size for the student inputs (five slots: groups of four for about 20 students).

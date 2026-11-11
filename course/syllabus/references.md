@@ -45,7 +45,6 @@ Session 02 harness + wiki: [[sessions/02-agent-harness-and-wiki-architecture]]
 Local GPU / Apple / DGX research: [[../../research/local-gpu-hardware-for-llms]]  
 Bubble / productivity / DC financing: [[../../research/ai-bubble-productivity-datacenter]]  
 Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [[../../research/data-centers-energy-ecology-economy]]  
-Student share structure: [[student-share-structure]]  
 Presentation style: [[presentation-style]]
 
 ## Obsidian auto LLM Wiki plugin

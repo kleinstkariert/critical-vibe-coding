@@ -52,12 +52,6 @@ Bridge to the practical: a coding agent reads your whole project folder. What do
 
 One task in a stack the student uses, ideally a piece of the final project. Log help versus waste in `comparisons/`, and update the provenance note.
 
-## Open for Sebastian
-
-- [ ] Confirm the focus: coding with agents (this proposal), or another topic
-- [ ] Which coding tool to demo (Hermes itself, Cursor, Claude Code, VS Code + Continue)
-- [ ] Whether creative stacks beyond code (node, CAD, fab) stay in, or move to the finals
-
 ## Materials
 
 | What | Link |
