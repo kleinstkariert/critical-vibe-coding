@@ -34,7 +34,7 @@ Prompting + model choice: [[prompting-and-model-choice]]
 
 **Student start page:** [[START-HERE]]
 
-**GitHub is the course pack** (public). Teams / UFG for announcements. [[platform-and-course-site]] · [[student-share-structure]]
+**GitHub is the course pack** (public). Teams / UFG for announcements.
 
 Presentation style: [[presentation-style]]
 
@@ -98,10 +98,6 @@ Decision of 9 Nov 2026: eight sessions. Cut sessions are archived, not deleted: 
 | [HKUST AMCC5170](https://amc.hkust.edu.hk/upload/2025-26%20Spring%20Course%20Info/26Spring_AMCC5170_Outline.pdf) | Generative → agents → ethics |
 | [UCLA, Cultural Automation II](https://pkmital.com/home/teaching/ucla-cultural-automation-with-machine-learning-ii/) | Critical + agents labs |
 
-## Instructor prep
-
-[[todo-teacher-prep]]
-
 ## Core teaching links (LLM Wiki)
 
 | Topic | Note |
@@ -123,14 +119,11 @@ Primary URLs: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e
 ## Still missing (open)
 
 - [ ] Exact semester calendar / room / ECTS / grading weights
-- [ ] Session 07 focus and Session 08 format: Sebastian to approve the proposals
+- [ ] Session 07 focus and Session 08 format (proposals in the session files)
 - [ ] Student group size for the five input slots
 - [x] Reading list: [[references]] · Session 01 deep dives
 - [ ] Model cost guidance for students
-- [x] Student-facing cloud/git structure: [[student-share-structure]]
-- [ ] Create `CriticalVibeCoding-Students` kit
 - [ ] Shared class wiki versus personal vaults
-- [ ] Guest list / NDA for private setup schemes
 - [x] Local hardware session + multi-GPU / open-model map: Session 03
 - [x] Check-in + student groups in structure: [[course-rhythm]]
 - [x] Eight-session restructure (9 Nov 2026)

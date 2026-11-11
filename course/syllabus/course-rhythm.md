@@ -13,8 +13,6 @@ tags:
 
 **Slot:** **120 minutes**, **10:00 to 12:00**, with a **5 to 10 minute break**. Session files list **clock times** (not only durations).
 
-Teacher-only prep (not in this public repo): Obsidian vault `Teaching/CriticalVibeCoding/`.
-
 ---
 
 ## 1. Check-in (every session)
@@ -45,9 +43,9 @@ Teacher-only prep (not in this public repo): Obsidian vault `Teaching/CriticalVi
 
 ## 3. Student inputs (Sessions 02, 03, 05, 06, 07)
 
-Topics are fixed by Sebastian (9 Nov 2026) and chosen by the groups at the end of Session 01.
+Topics are fixed (9 Nov 2026) and chosen by the groups at the end of Session 01.
 
-- **Five input slots** for about 20 students → **groups of four** (or two pairs sharing one slot). *Flag for Sebastian:* confirm group size once enrolment is known.
+- **Five input slots** for about 20 students → **groups of four** (or two pairs sharing one slot). Exact group size may change with enrolment.
 - One group per class, after the check-in
 - About **15 minutes** (target **10:20 to 10:35**), then discussion
 - Use course research + [[references]], not only YouTube. Students who do not want to use AI can do research and investigative work for the input.
@@ -114,5 +112,3 @@ Eight sessions are tight. Session 02 (harness + wiki + landscape + install) and 
 | Medium | MCP + creative stacks, coding | 05, 07 |
 | Medium | Prompting / reasoning | 03 |
 | Lower in-class | Multi-GPU shopping | 03 homework |
-
-**Agents drafting lectures:** priorities come from Sebastian. Ask if unclear; prefer shorter over exhaustive.

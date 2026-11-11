@@ -114,7 +114,7 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 - Lecture: [[../lectures/01-welcome-landscape-lecture]]
 - Deep dives: [[../lectures/01-welcome-landscape-deep-dives/bubble-economy]] · [[../lectures/01-welcome-landscape-deep-dives/ecology]] · [[../lectures/01-welcome-landscape-deep-dives/labour]] · [[../lectures/01-welcome-landscape-deep-dives/media-art-workflows]] · [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] · [[../lectures/01-welcome-landscape-deep-dives/default-setup]]
 - Deck: `course/lectures/01-welcome-landscape-slideshow/`
-- [[../00-brief]] · [[../Questions CVC]] · [[../course-outline]] · [[../course-rhythm]]
-- [[../visions-fears-regulation]] · [[../eu-ai-act-and-datenschutz]]
+- [[../syllabus/00-brief]] · [[../syllabus/course-outline]] · [[../syllabus/course-rhythm]]
+- [[../topics/visions-fears-regulation]] · [[../topics/eu-ai-act-and-datenschutz]]
 - [[../../research/ai-bubble-productivity-datacenter]] · [[../../research/data-centers-energy-ecology-economy]]
-- [[../knowledge-store-options]] · [[../student-share-structure]]
+- [[../setup/knowledge-store-options]]

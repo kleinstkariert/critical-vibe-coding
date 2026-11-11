@@ -27,7 +27,7 @@ Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | Phone sync + Discord practical, then one MCP server |
 
-*Crowding (flag for Sebastian):* phone, Discord and MCP in one practical is a lot. Suggested split: everyone does phone sync; then each student picks Discord **or** one MCP server.
+Phone, Discord and MCP in one practical is a lot. Split: everyone does phone sync; then each student picks Discord **or** one MCP server.
 
 ## Check-in
 

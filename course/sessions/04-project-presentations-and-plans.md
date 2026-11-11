@@ -41,13 +41,7 @@ Per student (about 5 to 8 min including feedback, for about 20 students):
 
 Inspired by the [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) midterm proposal review pattern ([[../timeline]]).
 
-*Flag for Sebastian:* with about 20 students, 5 to 8 minutes each fills the session. If the group is larger, split into two parallel rooms or shorten to 4 minutes.
-
-## Teacher role
-
-- Catch missing safety (secrets in the vault, double sync, two writers on the same pages: Hermes *and* the Obsidian plugin)
-- Check the three backbone files exist and are used
-- Push vague proposals toward concrete interface decisions
+With about 20 students, 5 to 8 minutes each fills the session. If the group is larger, parallel rooms or shorter slots may be needed.
 
 ## Homework
 

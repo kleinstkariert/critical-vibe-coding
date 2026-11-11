@@ -74,8 +74,6 @@ Introduce 2–4 setup schemes from the field (diagrams preferred) when available
 How-to: [[../howto-hermes-setup]] · [[../howto-obsidian-setup-and-sync]]  
 Hardware: [[../../research/local-gpu-hardware-for-llms]]  
 Academic AI: [[../academic-ai-austria]]  
-Student kit (not full vault): [[../student-share-structure]]
-
 ## Homework / student inputs
 
 Pair roster and themes: [[../course-rhythm#2-student-inputs-from-session-2]]. Optional extra demos (not instead of the roster): VS Code Copilot/Continue, git for vaults, a local model already running, Discord bridge.

@@ -86,8 +86,6 @@ Local hardware (Session 03): [[../../research/local-gpu-hardware-for-llms]] · [
 
 Class rhythm: [[course-rhythm]]
 
-Student materials pack (do not share the full vault): [[student-share-structure]]
-
 ---
 
 ## Core readings (short)
@@ -110,7 +108,7 @@ Peer-course patterns (not required texts): HKUST AMCC6500; Birkbeck Critical and
 ## Still open (*todo*)
 
 - Exact calendar, room, ECTS, grading weights
-- Session 07 focus (proposal: coding with agents) and Session 08 (proposal: finals): Sebastian to approve
+- Session 07 focus (proposal: coding with agents) and Session 08 (proposal: finals)
 - Student group size for the five input slots
 - Model cost guidance for students
 - Whether a shared class wiki sits beside personal vaults

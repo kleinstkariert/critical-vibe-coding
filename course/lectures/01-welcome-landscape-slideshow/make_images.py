@@ -3,7 +3,6 @@
 
 Writes into images/:
   14-llm-wiki-annotated.png            LLM Wiki diagram with a plain-language note next to each part
-  26-agent-loop-actian-bw.png          Actian agent-loop diagram, converted to black and white (not in the deck now)
   27-standard-vs-course-setup.png      where things live: standard cloud setup versus the course setup
   28-bigtech-capex-chart.png           capital spending of Amazon, Alphabet, Microsoft, Meta
   29-shiller-cape-chart.png            Shiller CAPE ratio since 1881 (needs xlrd)
@@ -26,7 +25,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
 IMG = ROOT / "images"
@@ -34,7 +33,6 @@ UA = {"User-Agent": "Mozilla/5.0 (CVC course deck builder)"}
 FONTS = Path("C:/Windows/Fonts")
 W, H = 1920, 1080
 
-ACTIAN_URL = "https://www.actian.com/wp-content/uploads/2026/09/actian-vector-ai-db-hero.png"
 SHILLER_URL = "http://www.econ.yale.edu/~shiller/data/ie_data.xls"
 MULTPL_URL = "https://www.multpl.com/shiller-pe/table/by-month"
 RAILROAD_MAP_PAGE = ("File:Railroad map of the United States, showing the through lines of communication from the "
@@ -61,19 +59,6 @@ def font(size: int, light: bool = True):
         if p.exists():
             return ImageFont.truetype(str(p), size)
     return ImageFont.load_default()
-
-
-# --- 26: agent loop -------------------------------------------------------
-
-def agent_loop():
-    im = Image.open(io.BytesIO(fetch(ACTIAN_URL))).convert("L")
-    im = ImageOps.autocontrast(im, cutoff=1)
-    im = im.point(lambda v: 0 if v < 40 else v)
-    canvas = Image.new("L", (W, H), 0)
-    scale = min((H - 80) / im.height, (W - 80) / im.width)
-    im = im.resize((int(im.width * scale), int(im.height * scale)), Image.LANCZOS)
-    canvas.paste(im, ((W - im.width) // 2, (H - im.height) // 2))
-    canvas.save(IMG / "26-agent-loop-actian-bw.png", optimize=True)
 
 
 # --- 27: standard setup versus course setup ---------------------------------
@@ -491,7 +476,7 @@ def mag7_chart():
 if __name__ == "__main__":
     import sys
     chart_style()
-    jobs = {"agent_loop": agent_loop, "setup_comparison": setup_comparison, "wiki_annotated": wiki_annotated,
+    jobs = {"setup_comparison": setup_comparison, "wiki_annotated": wiki_annotated,
             "us_railroad_map": us_railroad_map, "capex_chart": capex_chart, "shiller_cape_chart": shiller_cape_chart,
             "bis_labour_share_chart": bis_labour_share_chart, "hype_cycle_chart": hype_cycle_chart,
             "gdp_tech_capex_chart": gdp_tech_capex_chart, "mag7_chart": mag7_chart}

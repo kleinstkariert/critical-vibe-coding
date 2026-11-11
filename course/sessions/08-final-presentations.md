@@ -1,7 +1,7 @@
 ---
 title: Session 08. Final presentations and closing check-in (proposal)
 session: 8
-status: proposal, awaiting Sebastian's approval
+status: proposal
 updated: 2026-11-10
 ---
 
@@ -9,7 +9,7 @@ updated: 2026-11-10
 
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 
-**Status: proposal.** Inferred from the course structure and from Sebastian's Session 01 slide ("Final, Session 8: architecture, one use, reflection"). Awaiting his approval.
+**Status: proposal.** Session 01 framing: architecture, one use, reflection.
 
 **Slot:** 10:00 to 12:00. No student input this session.
 

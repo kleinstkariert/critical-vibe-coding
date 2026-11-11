@@ -69,18 +69,6 @@ FAQ: https://ai-at.eu/en/faq/
 
 ---
 
-## Teacher todos (*todo*)
-
-- [ ] **Contact AI Factory Austria** — email `info@ai-at.eu`: Can Interface Cultures / Kunstuniversität Linz students or a course project get **AI for Science** or Development access? Is there any **inference API / shared endpoint** suitable for teaching agents, or only batch HPC? Ask for onboarding kit + timelines.
-- [ ] **Contact Kunstuni / UFG IT or digital teaching** — Is there a campus AI chat? Any API? Terms for student artwork / personal data?
-- [ ] **Contact ASC** (`support@asc.ac.at`) — Conditions for non-partner art university (pay-per-use? teaching project?).
-- [ ] After answers: rewrite the one-sentence “student access” line in session 2 and [[todo-teacher-prep]].
-- [ ] If an academic endpoint appears: document how (or whether) Hermes can point at a custom OpenAI-compatible base URL — see Hermes provider docs.
-
-Also listed in [[todo-teacher-prep]].
-
----
-
 ## Classroom talking points
 
 1. Academic ≠ automatically agent-ready.  

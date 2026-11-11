@@ -32,7 +32,7 @@ First **practice** session after Session 01. A student group opens with the **fl
 | **11:05 to 11:15** | Teacher: model landscape and the free model |
 | **11:15 to 12:00** | Install Hermes, connect the free model, vault smoke test |
 
-*Crowding (flag for Sebastian):* harness, wiki structure, landscape and install in one morning is dense. If the install runs long, the diagram practice moves to homework.
+If the install runs long, the diagram practice moves to homework.
 
 ## Check-in
 
@@ -174,8 +174,6 @@ From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]
 6. Optional: create a `SCHEMA.md` stub with three lines: may edit / must ask / never touch.
 
 If the install fails, label Model versus Harness on a product the student already uses (ChatGPT versus Cursor versus a local GGUF in a random UI) and sketch the future vault folders on paper. Finish the install as homework.
-
-Student kit (not the full vault): [[../student-share-structure]]
 
 ## Homework
 
