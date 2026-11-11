@@ -1,4 +1,4 @@
-﻿.obsidian/
+.obsidian/
 .trash/
 *.tmp
 Thumbs.db
@@ -11,7 +11,11 @@ Desktop.ini
 .env.*
 *.pem
 credentials.json
+
+# Local deck archives (keep off GitHub; current pptx/odp only in repo)
 course/lectures/01-welcome-landscape-slideshow/archive/
+
+# Teacher / private: do not publish on the course GitHub
 StudentList.md
 course/emails/
 .cursor/
