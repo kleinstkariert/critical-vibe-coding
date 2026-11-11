@@ -38,6 +38,8 @@ Prompting + model choice: [[prompting-and-model-choice]]
 Academic AI Austria: [[academic-ai-austria]]  
 Drivers / visions / fears / regulation (Session 01, 10–15 min): [[visions-fears-regulation]]  
 AI jobs — rising tide, Canaries, productivity × experience: [[../../research/ai-jobs-rising-tide-productivity]]  
+AI, brains, critical thinking (MIT EEG + recent clippings): [[../../research/ai-brains-critical-thinking]]  
+Curated vault clipping links (scan 2026-11-11): [[links-from-clippings]]  
 EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]  
 AI creative tools survey: [[ai-tools-creative-processes]]  
 Session 01 lecture draft: [[lectures/01-welcome-landscape-lecture]]  
@@ -72,6 +74,25 @@ Presentation style: [[presentation-style]]
 | Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [[visions-fears-regulation]] |
 | Jacob Coxon — *Existential Threat of AI from the Inside* (Daily Show) | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01: utopia vs incentives / misuse — teacher clip |
 | Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [[visions-fears-regulation]] |
+| HealthyGamerGG — *How AI is Killing Your Potential* | https://www.youtube.com/watch?v=BzsLbHoNXTs | Optional prep: MIT “brain rust” framing — pair with [[../../research/ai-brains-critical-thinking]] |
+| Huberman Lab Clips — *Mental Health Risks of Using AI* (Dr K) | https://www.youtube.com/watch?v=sqYLH72eCg0 | Optional; sycophancy / psychosis risk — content warning |
+| Ezra Klein Show — *Is There an A.I. Bubble? A Debate.* | https://www.youtube.com/watch?v=9GLdGc9OX-A | Session 01 bubble / CapEx debate |
+| Richard Campbell — *After the AI Hype* (2026) | https://www.youtube.com/watch?v=uWnUnMphmPM | Skeptical build-out keynote |
+| YouTube — *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [[what-is-mcp]] |
+| YouTube — *Stop Prompting Claude. Use Karpathy's Method Instead.* | https://www.youtube.com/watch?v=7zZy1QTvokM | STE / aircraft-manual prompting beat |
+
+## Cognition / critical thinking (AI and brains)
+
+Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [[../../research/ai-brains-critical-thinking]]. Full curated link list: [[links-from-clippings]].
+
+| Source | URL | One-line note |
+|---|---|---|
+| Kosmyna et al., *Your Brain on ChatGPT* (arXiv:2506.08872, 2025) | https://arxiv.org/abs/2506.08872 | MIT Media Lab EEG essay study; preprint; order-of-use matters |
+| MIT Media Lab publication page | https://www.media.mit.edu/publications/your-brain-on-chatgpt/ | Author abstract; peer-review caveat |
+| Lee et al., CHI 2025 (Microsoft + CMU) | https://dl.acm.org/doi/full/10.1145/3706598.3713778 | AI confidence ↔ less critical thinking (self-report survey) |
+| Lacuna — *AI and Critical Thinking: The Research* (2026-10-08) | https://learnwithlacuna.com/articles/ai-critical-thinking-research | Careful secondary read of Lee / Kosmyna / Fan / Gerlich |
+| Abrams / APA Monitor (2026-07) — *How AI is reshaping human skills and thinking* | https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking | Structured vs passive use; skill decay examples |
+| Haber — *Emerging realities of AI and mental health* | https://pmc.ncbi.nlm.nih.gov/articles/PMC13576966/ | Therapy bots, sycophancy, delusional spirals |
 
 ## MCP
 
@@ -113,6 +134,7 @@ Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched t
 | Source | URL |
 |---|---|
 | LangChain — *The Anatomy of an Agent Harness* (2026-03-10) | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
+| Zyte — *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ |
 | Course note | [[what-is-harness]] |
 | Session 02 | [[sessions/02-agent-harness-and-wiki-architecture]] |
 | Structure vs model quality (research check, SE + RAG) | [[../../research/structure-vs-model-quality]] |
@@ -153,3 +175,5 @@ Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched t
 | Knowledge store options | [[knowledge-store-options]] |
 | Karpathy vs OpenClaw research | [[../../research/karpathy-llm-wiki-and-openclaw]] |
 | Obsidian vs Joplin | [[../../research/obsidian-vs-joplin-hermes-llmwiki]] |
+| AI / brains / critical thinking | [[../../research/ai-brains-critical-thinking]] |
+| Vault clippings → student links | [[links-from-clippings]] |

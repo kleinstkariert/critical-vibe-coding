@@ -55,7 +55,8 @@ Keep API keys out of synced notes.
 |---|---|
 | What happens each week? | [timeline.md](syllabus/timeline.md) · [course-outline.md](syllabus/course-outline.md) · [sessions/](sessions/) |
 | Midpoint / final deliverables? | [timeline.md](syllabus/timeline.md) (milestones) |
-| Readings & links? | [references.md](syllabus/references.md) |
+| Readings & links? | [references.md](syllabus/references.md) · [links-from-clippings.md](syllabus/links-from-clippings.md) |
+| AI and critical thinking / brains? | [../research/ai-brains-critical-thinking.md](../research/ai-brains-critical-thinking.md) |
 | Drivers / visions / fears (Session 01 talk)? | [visions-fears-regulation.md](topics/visions-fears-regulation.md) |
 | AI and jobs (tide / early career / junior gains)? | [../research/ai-jobs-rising-tide-productivity.md](../research/ai-jobs-rising-tide-productivity.md) |
 | EU AI Act / Datenschutz? | [eu-ai-act-and-datenschutz.md](topics/eu-ai-act-and-datenschutz.md) |
