@@ -1,0 +1,18 @@
+﻿.obsidian/
+.trash/
+*.tmp
+Thumbs.db
+Desktop.ini
+*conflicted copy*
+~$*
+.~lock.*
+*_Old.pptx
+.env
+.env.*
+*.pem
+credentials.json
+course/lectures/01-welcome-landscape-slideshow/archive/
+StudentList.md
+course/emails/
+.cursor/
+hardware-procurement/
