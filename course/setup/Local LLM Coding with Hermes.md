@@ -390,6 +390,9 @@ It reduces risk when you configure it correctly.
 
 Hermes supports Docker as an execution backend.[2][5]
 
+To turn the Docker terminal backend on inside Hermes: [[howto-hermes-docker-sandbox]]  
+Official Hermes Docker page: https://hermes-agent.nousresearch.com/docs/user-guide/docker
+
 ### Docker installation
 
 Use the official Docker installation guide for your operating system:
