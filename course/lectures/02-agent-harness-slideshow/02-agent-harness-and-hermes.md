@@ -486,7 +486,8 @@ Docker does not provide perfect security.
 
 Use it with limited mounts, non-root users, and network controls.
 
-[[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]
+Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
+[[howto-hermes-docker-sandbox]] · [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]
 
 ---
 
