@@ -30,7 +30,7 @@ Labels: *verified fact* | *technical suggestion* | *course position*.
 | **Knowledge store** | A folder of plain Markdown notes, synced to your phone. Default: Obsidian. Alternatives are fine if they keep plain files. | [[../../howto-obsidian-setup-and-sync]] · options: [[../../knowledge-store-options]] · SilverBullet: [[../../howto-silverbullet-setup-and-sync]] |
 | **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [[../../howto-hermes-setup]] |
 | **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. | [[../../llm-wiki-standard-files]] · background: [[../../../research/karpathy-llm-wiki-and-openclaw]] |
-| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [[../../prompting-and-model-choice]] · Austrian academic access: [[../../academic-ai-austria]] · local hardware: [[../../howto-local-llm-hardware]] |
+| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [[../../setup/Prompting Guide for Critical Vibe Coding]] · Austrian academic access: [[../../setup/academic-ai-austria]] · local hardware: [[../../setup/howto-local-llm-hardware]] |
 | **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [[../../what-is-harness]] · [[../../sessions/02-agent-harness-and-wiki-architecture]] |
 
 Related: [[../../concepts/what-is-mcp]] (Model Context Protocol: connecting the agent to other apps, Session 05) · [[../../concepts/what-is-lint]] (checking the wiki) · Obsidian versus Joplin: [[../../../research/obsidian-vs-joplin-hermes-llmwiki]].

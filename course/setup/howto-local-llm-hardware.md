@@ -104,7 +104,7 @@ NVLink (mostly older 3090 / workstation) helps tensor-parallel serving; **layer 
 | 48 GB (e.g. 2×24) | 70B Q4 split |
 | 64–128 GB unified | 70B Q4–Q8 comfortable |
 
-Thinking **off** for daily agent work — [[prompting-and-model-choice]].
+Thinking **off** for daily agent work — [[Prompting Guide for Critical Vibe Coding#28-chat-versus-reasoning-models]].
 
 ---
 

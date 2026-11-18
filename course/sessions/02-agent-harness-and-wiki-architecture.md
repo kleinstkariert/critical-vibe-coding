@@ -148,7 +148,7 @@ Students redraw this in their own words for homework.
 
 From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]). Ten minutes, honest access notes:
 
-- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [[../prompting-and-model-choice]].
+- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [[../setup/Prompting Guide for Critical Vibe Coding]].
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
 - **Local**: preview only. Hardware paths and memory math: Session [[03-hardware-open-models-prompting|03]].
 - **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [[../academic-ai-austria]]. Say explicitly what students can and cannot use.
@@ -200,7 +200,7 @@ If the install fails, label Model versus Harness on a product the student alread
 | Hermes install (Desktop + CLI) | [[../setup/howto-hermes-setup]] |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free model (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
-| Model choice, academic access | [[../prompting-and-model-choice]] · [[../academic-ai-austria]] |
+| Model choice, academic access | [[../setup/Prompting Guide for Critical Vibe Coding]] · [[../setup/academic-ai-austria]] |
 | Flattening deep dive (student input) | [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] |
 | Session 01 lecture (model versus product versus agent) | [[../lectures/01-welcome-landscape-lecture]] |
 | Presentation style | [[../presentation-style]] |

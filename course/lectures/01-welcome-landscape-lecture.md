@@ -295,7 +295,7 @@ Practical. **Deep dive with the diagram explained part by part:** [[01-welcome-l
 1. **Knowledge store** with phone sync. Default Obsidian: [[../howto-obsidian-setup-and-sync]]. Alternatives: [[../knowledge-store-options]] · SilverBullet: [[../howto-silverbullet-setup-and-sync]].
 2. **Hermes Agent** pointed at that folder: [[../howto-hermes-setup]] (Windows, macOS, Linux). Installed together in Session 02.
 3. **LLM Wiki** structure (sources, wiki, schema): [[../llm-wiki-standard-files]] · [[../../research/karpathy-llm-wiki-and-openclaw]] · Obsidian versus Joplin: [[../../research/obsidian-vs-joplin-hermes-llmwiki]].
-4. **Model**: whatever access you prefer: [[../prompting-and-model-choice]] · campus access: [[../academic-ai-austria]] · local later: [[../howto-local-llm-hardware]]. Free start: **Nemotron 3 Ultra through OpenRouter's free tier** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
+4. **Model**: whatever access you prefer: [[../setup/Prompting Guide for Critical Vibe Coding]] · campus access: [[../setup/academic-ai-austria]] · local later: [[../setup/howto-local-llm-hardware]]. Free start: **Nemotron 3 Ultra through OpenRouter's free tier** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
 5. **Harness** (next session): [[../what-is-harness]] · [[../sessions/02-agent-harness-and-wiki-architecture]] · tools and MCP: [[../what-is-mcp]] · checking the wiki: [[../what-is-lint]].
 
 ### Homework (say aloud)
@@ -313,7 +313,7 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 | Session | Topic | Question for the group | Starting points |
 |---|---|---|---|
 | **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [[01-welcome-landscape-deep-dives/flattening-and-the-norm]] |
-| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [[../prompting-and-model-choice]] · [[../../research/local-gpu-hardware-for-llms]] |
+| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [[../setup/Prompting Guide for Critical Vibe Coding]] · [[../../research/local-gpu-hardware-for-llms]] |
 | **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [[../visions-fears-regulation]] |
 | **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [[01-welcome-landscape-deep-dives/ecology]] · [[../../research/data-centers-energy-ecology-economy]] |
 | **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [[../eu-ai-act-and-datenschutz]] · [[01-welcome-landscape-deep-dives/default-setup]] §3 |

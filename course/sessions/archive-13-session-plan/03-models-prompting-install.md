@@ -12,8 +12,8 @@ Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 ## Goals
 
 - Compare open-source, Chinese, local-GPU, EU-hosted, and academic Austrian AI options (clarity on what students can use)
-- Prompting habits for agents — ICAO clearances + tip list ([[../prompting-and-model-choice]])
-- Chat / instruct vs **reasoning**; thinking-off knobs — handout §§4–6
+- Prompting habits for agents — [[../../setup/Prompting Guide for Critical Vibe Coding]]
+- Chat / instruct vs **reasoning**; thinking-off knobs — guide §28
 - Evidence: skillset / knowledge base vs raw model quality
 - Get agents installing (**cloud / API first**; local hardware = session 04)
 
@@ -39,13 +39,13 @@ Pair G2: bias / whose training data? flattening toward popular voice/style? clos
 
 Cover, with honest access notes:
 
-- Proprietary cloud (OpenAI, Anthropic, etc.) — choose by strengths: [[../prompting-and-model-choice]] (Azure catalog, Kaggle Game Arena)
-- **Reasoning vs chat** — default instruct/flash with thinking **off**; escalate for hard multi-step; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`) — [[../prompting-and-model-choice#4-chat-llms-vs-reasoning-models]]
+- Proprietary cloud (OpenAI, Anthropic, etc.) — choose by strengths: [[../../setup/Prompting Guide for Critical Vibe Coding]] (Azure catalog, Kaggle Game Arena)
+- **Reasoning vs chat** — default instruct/flash with thinking **off**; escalate for hard multi-step; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`) — [[../../setup/Prompting Guide for Critical Vibe Coding#28-chat-versus-reasoning-models]]
 - Open weights / Chinese model ecosystems (examples current at teaching time) — good source of toggleable thinking + local 8B class
-- Local models **preview only** (~5–10 min) — deep dive next week [[04-local-hardware-and-open-llms]] · [[../../research/local-gpu-hardware-for-llms]] · [[../prompting-and-model-choice#6-cheap--local-lightweight-options]]
+- Local models **preview only** (~5–10 min) — deep dive next week [[04-local-hardware-and-open-llms]] · [[../../research/local-gpu-hardware-for-llms]] · [[../../setup/howto-local-llm-hardware]]
 - Servers hosting models in Europe
-- **Austrian academic AI** — usually **no agent API key**; HPC / AI Factory ≠ daily Hermes backend — [[../academic-ai-austria]] (*say explicitly what students can/cannot use*)
-- Privacy / AI Act pointer: [[../eu-ai-act-and-datenschutz]]
+- **Austrian academic AI** — usually **no agent API key**; HPC / AI Factory ≠ daily Hermes backend — [[../../setup/academic-ai-austria]] (*say explicitly what students can/cannot use*)
+- Privacy / AI Act pointer: [[../../topics/eu-ai-act-and-datenschutz]]
 
 ## Teacher — practitioner setups (*if ready*)
 
@@ -53,15 +53,15 @@ Introduce 2–4 setup schemes from the field (diagrams preferred) when available
 
 ## Teacher — prompting + knowledge vs model
 
-- **Prompting handout** (ICAO tips + chat packs → agent briefs + reasoning/thinking): [[../prompting-and-model-choice]]  
-- Hermes ICAO skills: `icao-prompting` · `icao-project-comms` (vault `KnowledgeBaseObsidian/skills/`)  
+- **Prompting guide** (chat packs → agent briefs + reasoning/thinking + STE80): [[../../setup/Prompting Guide for Critical Vibe Coding]]
+- ICAO prompting skills are retired. Use STE80 and plain English status words (guide §§26 to 27).
 
   OpenAI Academy: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role
-- Agent habits: goals, constraints, file paths, “do not invent”, verify
-- **Structure / harness vs model quality** — [[../../research/structure-vs-model-quality]] · [[../what-is-harness]] · session [[02-agent-harness-and-wiki-architecture]]
-- *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a Token Cost knob (Tip C), not a status symbol
-- Preview standard wiki files: [[../llm-wiki-standard-files]] · lint: [[../what-is-lint]]
-- Link: [[../knowledge-store-options]], [[../../research/obsidian-vs-joplin-hermes-llmwiki]], [[../references]]
+- Agent habits: goals, constraints, file paths, “do not invent”, verify; Hermes context: [[../../setup/agents-md-template]]
+- **Structure / harness vs model quality** — [[../../research/structure-vs-model-quality]] · [[../../concepts/what-is-harness]] · session [[../02-agent-harness-and-wiki-architecture]]
+- *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a Token Cost knob, not a status symbol
+- Preview standard wiki files: [[../../setup/llm-wiki-standard-files]] · lint: [[../../concepts/what-is-lint]]
+- Link: [[../../setup/knowledge-store-options]], [[../../research/obsidian-vs-joplin-hermes-llmwiki]], [[../../syllabus/references]]
 
 ## Practical
 
@@ -71,20 +71,20 @@ Introduce 2–4 setup schemes from the field (diagrams preferred) when available
 - Optional: same micro-task on two models (Game Arena / catalog pick) → log in `comparisons/`
 - Optional: **thinking on vs off** on one model (Ollama `--think=false` or OpenRouter `reasoning.effort: none`) — same hard question; note latency / tokens / quality
 
-How-to: [[../howto-hermes-setup]] · [[../howto-obsidian-setup-and-sync]]  
+How-to: [[../../setup/howto-hermes-setup]] · [[../../setup/howto-obsidian-setup-and-sync]]  
 Hardware: [[../../research/local-gpu-hardware-for-llms]]  
-Academic AI: [[../academic-ai-austria]]  
+Academic AI: [[../../setup/academic-ai-austria]]  
 ## Homework / student inputs
 
-Pair roster and themes: [[../course-rhythm#2-student-inputs-from-session-2]]. Optional extra demos (not instead of the roster): VS Code Copilot/Continue, git for vaults, a local model already running, Discord bridge.
+Pair roster and themes: [[../../syllabus/course-rhythm#2-student-inputs-from-session-2]]. Optional extra demos (not instead of the roster): VS Code Copilot/Continue, git for vaults, a local model already running, Discord bridge.
 
 ## Materials
 
 | What | Link |
 |---|---|
-| Prompting + model choice | [[../prompting-and-model-choice]] |
-| Academic AI (Austria) | [[../academic-ai-austria]] |
-| EU AI Act + Datenschutz | [[../eu-ai-act-and-datenschutz]] |
+| Prompting guide | [[../../setup/Prompting Guide for Critical Vibe Coding]] |
+| Academic AI (Austria) | [[../../setup/academic-ai-austria]] |
+| EU AI Act + Datenschutz | [[../../topics/eu-ai-act-and-datenschutz]] |
 | Local hardware | [[../../research/local-gpu-hardware-for-llms]] |
-| Harness / MCP preview | [[../what-is-harness]] · [[../what-is-mcp]] (session 5) |
+| Harness / MCP preview | [[../../concepts/what-is-harness]] · [[../../concepts/what-is-mcp]] (session 5) |
 | Setup schemes | folder TBD |

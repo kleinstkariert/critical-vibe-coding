@@ -22,7 +22,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
 | Weekly session notes | [`course/sessions/`](course/sessions/) |
 | References & readings | [`course/syllabus/references.md`](course/syllabus/references.md) |
-| Prompting + choosing models | [`course/concepts/prompting-and-model-choice.md`](course/concepts/prompting-and-model-choice.md) |
+| Prompting + choosing models | [`course/setup/Prompting Guide for Critical Vibe Coding.md`](course/setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 
 ---
 

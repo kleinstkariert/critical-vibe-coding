@@ -121,7 +121,7 @@ Lacuna (and APA) correctly re-anchor the debate:
 | Structured prompts over "do the whole essay" | APA / Gerlich: deliberate use can raise quality of thought |
 | Label *claim* vs *verified fact* in every research note | Course style; also the metacognitive habit Fan says AI skips |
 
-Related course files: [[../course/concepts/prompting-and-model-choice]] · [[../course/topics/visions-fears-regulation]] · [[../course/syllabus/links-from-clippings]]
+Related course files: [[../course/setup/Prompting Guide for Critical Vibe Coding]] · [[../course/topics/visions-fears-regulation]] · [[../course/syllabus/links-from-clippings]]
 
 ---
 
