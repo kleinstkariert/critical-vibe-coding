@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Smoke test folder">
+  <rect width="1600" height="900" fill="#000000"/>
+
+  <rect x="200" y="160" width="520" height="560" rx="12" fill="#141414" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="460" y="260" fill="#f2f2f2" font-family="Consolas, Menlo, monospace" font-size="36" font-weight="700" text-anchor="middle">test/</text>
+  <text x="460" y="380" fill="#b0b0b0" font-family="Consolas, Menlo, monospace" font-size="34" text-anchor="middle">old-note.md</text>
+  <rect x="280" y="440" width="360" height="160" rx="8" fill="#0a0a0a" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="460" y="535" fill="#f2f2f2" font-family="Consolas, Menlo, monospace" font-size="34" font-weight="700" text-anchor="middle">new-file.md</text>
+  <text x="1100" y="400" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Smoke test</text>
+  <text x="1100" y="480" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" text-anchor="middle">one new file appears</text>
+  <text x="800" y="820" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" text-anchor="middle">Safe diagram · no live terminal screenshot</text>
+</svg>

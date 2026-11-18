@@ -15,6 +15,10 @@ This deck teaches the setup path for today. You can follow it without other note
 
 ---
 
+![[01-hermes-terminal-banner.svg]]
+
+---
+
 # Today
 
 |Time|Activity|
@@ -48,6 +52,10 @@ Use this working method:
 - Limit access.
 - Check the result & review the effect.
 - Keep human control.
+---
+
+![[02-user-agent-tools-result.svg]]
+
 ---
 
 
@@ -86,6 +94,10 @@ Course note: [[what-is-harness]]
 
 ---
 
+![[03-harness-model-plus-parts.svg]]
+
+---
+
 # Thin harness vs thick harness
 
 | Kind | What you get | Example |
@@ -95,6 +107,10 @@ Course note: [[what-is-harness]]
 
 Hermes is a thick harness. Cursor Agent and Claude Code are also thick harnesses, built more for IDE coding.
 They focus on different workflows.
+
+---
+
+![[04-thin-vs-thick.svg]]
 
 ---
 
@@ -120,6 +136,10 @@ A harness defines what the agent can do.
 It also defines what the agent cannot do.
 
 ---
+
+![[05-goal-context-action-verification.svg]]
+
+---
 # Suggested harness flow
 
 [User]  The user defines the task.
@@ -136,6 +156,10 @@ It also defines what the agent cannot do.
 ↓ 
 [Creative or technical result] 
 
+
+---
+
+![[06-suggested-harness-actors.svg]]
 
 ---
 
@@ -156,6 +180,10 @@ The agent needs:
 A larger model cannot repair missing project information.
 A smaller model cannot solve every difficult task.
 Use model quality and harness quality together.
+
+---
+
+![[07-bigger-model-vs-context.svg]]
 
 ---
 
@@ -180,6 +208,10 @@ Give the agent only the relevant information.
 Do not give it the complete vault by default.
 
 [[llm-wiki-standard-files]] · [[knowledge-store-options]]
+
+---
+
+![[08-llm-wiki-tree.svg]]
 
 ---
 
@@ -245,6 +277,10 @@ They do not replace operating-system permissions or sandboxing.
 
 ---
 
+![[09-obsidian-note-beside-folders.svg]]
+
+---
+
 # Hermes
 
 **Hermes Agent** is an open-source agent from Nous Research (MIT licence).
@@ -262,6 +298,10 @@ It can:
 **Hermes Desktop** is a native app UI for the **same** agent. It feels closer to Cursor or Claude Cowork than a raw terminal.
 
 Install: [[howto-hermes-setup]] · Desktop: https://hermes-agent.nousresearch.com/desktop
+
+---
+
+![[22-hermes-mark.svg]]
 
 ---
 
@@ -302,6 +342,10 @@ Examples of skill topics: verified coding, wiki lint, research, deploy steps.
 Browse skills: `/skills` or `hermes skills list`  
 Install: `hermes skills install …`  
 Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills · [[howto-hermes-efficient-coding]]
+
+---
+
+![[15-skills-folders.svg]]
 
 ---
 
@@ -375,6 +419,10 @@ Local inference mainly reduces the risk of sending code to a cloud model provide
 
 ---
 
+![[16-security-allowed-blocked.svg]]
+
+---
+
 # Docker sandbox
 
 Docker runs software inside a container.
@@ -387,6 +435,10 @@ Use it with limited mounts, non-root users, and network controls.
 
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
 [[howto-hermes-docker-sandbox]] · [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]
+
+---
+
+![[17-docker-sandbox-boundary.svg]]
 
 ---
 
@@ -412,6 +464,10 @@ Main options for this course:
 The next slides say what changes for security, data, and local models in each place.
 
 Laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+
+---
+
+![[13-hermes-run-locations.svg]]
 
 ---
 
@@ -473,6 +529,10 @@ Compare products: https://hermes-agent.nousresearch.com/compare
 
 ---
 
+![[14-hermes-model-different-machines.svg]]
+
+---
+
 # Personal laptop
 
 If your main machine is a laptop, treat these as standing checks:
@@ -500,6 +560,18 @@ A **model provider** is the service or program that runs the model.
 | **Academic AU chat** | Campus chat UIs often have **no** agent API key. Do not expect Hermes to “just use” them. |
 
 Honesty note: [[academic-ai-austria]]
+
+---
+
+![[10-cloud-laptop-internet-provider.svg]]
+
+---
+
+![[11-hosted-open-weight.svg]]
+
+---
+
+![[12-local-laptop-model.svg]]
 
 ---
 
@@ -534,6 +606,10 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
 
 ---
 
+![[18-local-gpu-model-hermes.svg]]
+
+---
+
 # Subscription / API key
 
 Hermes Agent is free and open source. **Model use** is separate. You need a provider.
@@ -549,6 +625,10 @@ Or pick a provider in the UI / with `hermes model` (OpenRouter, Anthropic, OpenA
 **Class free smoke test:** OpenRouter model `nvidia/nemotron-3-ultra-550b-a55b:free`
 
 Put keys only in Hermes `.env` (Windows: `%LOCALAPPDATA%\hermes\.env`). Never put keys in the vault.
+
+---
+
+![[19-cloud-key-secret-store.svg]]
 
 ---
 
@@ -631,6 +711,10 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 
 ---
 
+![[20-smoke-test-folder.svg]]
+
+---
+
 # Practical · Homework
 
 **In class:** install Hermes Desktop or CLI → model/key → vault path → one smoke-test note.
@@ -646,6 +730,10 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 
 ---
 
+![[21-full-system.svg]]
+
+---
+
 # References
 
 - [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]] · [[howto-hermes-efficient-coding]]
@@ -655,3 +743,4 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 - Comparison: [[hermes-vs-coding-agents]] · OpenCode: [[howto-opencode-setup]] · [[howto-hermes-opencode-pairing]]
 - Desktop: https://hermes-agent.nousresearch.com/desktop
 - CSS: `cvc-slides.css` (vault snippet)
+- Image pauses attribution: [[ATTRIBUTION]]
