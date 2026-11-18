@@ -15,7 +15,7 @@ Complement to [[howto-hermes-setup]]. That guide installs Hermes. This guide set
 
 Labels: *technical suggestion* | *verified fact*. Writing style target: STE ~80%.
 
-Related: [[../sessions/02-agent-harness-and-wiki-architecture]] · vault overview `Local LLM Coding with Hermes.md` · [[howto-local-llm-hardware]]
+Related: [[../sessions/02-agent-harness-and-wiki-architecture]] · [[Local LLM Coding with Hermes]] · [[howto-local-llm-hardware]] · [[agents-md-template]] · course root `AGENTS.md`
 
 ---
 
@@ -31,6 +31,24 @@ You want the agent to:
 6. Stop for human review of the Git diff.
 
 This matches harness practice (rules + mechanical checks), not "better prompting alone".
+
+### Harness loop (short)
+
+```text
+task → plan → one edit → verify → repair (≤3) → Git diff → human approve
+```
+
+If verify fails three times, stop and report. Do not keep guessing.
+
+### Modes (state one at the start of a task)
+
+| Mode | When | Extra rules |
+|---|---|---|
+| **coding** | Features, experiments, class exercises | Small slices; run verify after each slice |
+| **production** | Shared repos, demos, anything you ship | No drive-by refactors; full verify; human approval before push |
+| **hybrid** | Research notes + code in one session | Keep vault/wiki notes out of the code tree unless the task says to commit them |
+
+Put the mode line in `AGENTS.md` or in the first chat message. Template: [[agents-md-template]].
 
 ---
 
@@ -229,15 +247,33 @@ Session 02 places the same bet: **wiki + schema + tools** before model shopping.
 
 ## 9. Checklist
 
-- [ ] Hermes install done ([[howto-hermes-setup]])
+- [ ] Hermes install done ([[howto-hermes-setup]]), Desktop or CLI
 - [ ] Model has tool calling + large enough context
-- [ ] `AGENTS.md` (or `.hermes.md`) at repo root
+- [ ] `AGENTS.md` (or `.hermes.md`) at repo root ([[agents-md-template]])
 - [ ] One verify command the agent must run
 - [ ] Repair limit stated (default: 3)
+- [ ] Mode stated: coding / production / hybrid
 - [ ] Secrets out of the vault
 - [ ] Backend chosen for this machine (`local` vs Docker)
 - [ ] Third-party skills reviewed
 - [ ] You reviewed the Git diff before accepting work
+
+## 10. Measurement checklist (did the harness help?)
+
+Use this after a coding session (*technical suggestion*):
+
+| Check | Pass if |
+|---|---|
+| Plan first | Agent produced a ≤5-step plan before edits |
+| Scope | Diff touches only agreed paths |
+| Verify | Project checks ran after meaningful edits |
+| Evidence | Completion claim includes command output |
+| Repair limit | Stopped by attempt 3 on the same failure |
+| Human gate | You read the Git diff before merge/push |
+| Secrets | No keys landed in notes or commits |
+| Mode | coding / production / hybrid was explicit |
+
+If most rows fail, fix `AGENTS.md` and `scripts/verify` before you chase a bigger model.
 
 ---
 

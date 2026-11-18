@@ -45,7 +45,7 @@ LangChain, *Anatomy of an Agent Harness* (2026)
 
 Hermes = thick harness (same family as Cursor Agent, Claude Code).
 
-Course note: `what-is-harness.md`
+Course note: [[what-is-harness]]
 
 ---
 
@@ -53,11 +53,13 @@ Course note: `what-is-harness.md`
 
 Open-source agent (Nous Research, MIT).
 
+**Hermes Desktop** = native GUI for the same agent (closer to Cursor / Cowork than CLI alone).
+
 Providers · terminal · files · skills · memory · sandboxes · messaging.
 
 Not the same as **Hermes 4** chat models.
 
-Install: [[../../setup/howto-hermes-setup]]
+Install: [[howto-hermes-setup]] · Desktop: https://hermes-agent.nousresearch.com/desktop
 
 ---
 
@@ -69,7 +71,7 @@ Browse: `/skills` · Install: `hermes skills install …`
 
 Review third-party skills before install. Skills Guard exists for a reason.
 
-Guide: hermes-agent.nousresearch.com/docs/guides/work-with-skills
+Guide: hermes-agent.nousresearch.com/docs/guides/work-with-skills · [[howto-hermes-efficient-coding]]
 
 ---
 
@@ -81,7 +83,7 @@ Guide: hermes-agent.nousresearch.com/docs/guides/work-with-skills
 - Keys in Hermes env, never in synced notes
 - Approvals · repair limits · review the Git diff
 
-Docs: hermes-agent.nousresearch.com/docs/user-guide/security
+Overview: [[Local LLM Coding with Hermes]] · Docs: hermes-agent.nousresearch.com/docs/user-guide/security
 
 ---
 
@@ -100,7 +102,7 @@ Then: models, local setup, chat links, install.
 | Local | Privacy experiments · Session 03 |
 | Academic AU chat | Often **no** agent API key |
 
-Honesty: [[../../setup/academic-ai-austria]]
+Honesty: [[academic-ai-austria]]
 
 ---
 
@@ -112,7 +114,7 @@ Honesty: [[../../setup/academic-ai-austria]]
 
 Need: tool calling + context ≥64k.
 
-Hardware: [[../../setup/howto-local-llm-hardware]]
+Hardware: [[howto-local-llm-hardware]]
 
 ---
 
@@ -151,26 +153,24 @@ Docs: hermes-agent.nousresearch.com/docs/user-guide/messaging/
 4. Battery, heat, disk, sync fights
 5. Separate agent-writable folders from private notes
 
-Guide: secure-hermes-on-a-work-machine (Hermes docs)
+Guide: secure-hermes-on-a-work-machine (Hermes docs) · [[howto-obsidian-setup-and-sync]]
 
 ---
 
 # Practical · Homework
 
-**In class:** install Hermes → model/key → vault path → one smoke-test note.
+**In class:** install Hermes Desktop or CLI → model/key → vault path → one smoke-test note.
 
 **Homework:** finish install · Model/Harness/Wiki diagram · skim Karpathy gist **or** LangChain harness article.
 
-[[../../setup/howto-hermes-setup]] · [[../../setup/howto-hermes-efficient-coding]]
+[[howto-hermes-setup]] · [[howto-hermes-efficient-coding]] · [[agents-md-template]]
 
 ---
 
 # References
 
-- Hermes docs · providers · skills · security
-- Karpathy LLM Wiki gist
-- LangChain harness anatomy
-- Harness engineering README (jrenaldi79)
-- Session: [[../../sessions/02-agent-harness-and-wiki-architecture]]
-- Comparison (optional): [[02-hermes-vs-coding-agents]]
+- [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]] · [[howto-hermes-efficient-coding]]
+- Karpathy LLM Wiki gist · LangChain harness anatomy
+- Session: [[02-agent-harness-and-wiki-architecture]]
+- Comparison (optional): [[02-hermes-vs-coding-agents]] · [[hermes-vs-coding-agents]]
 - CSS: `cvc-slides.css` (vault snippet)

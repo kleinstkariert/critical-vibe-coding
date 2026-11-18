@@ -15,7 +15,7 @@ css: cvc-slides
 
 They are not the same product. Pick by job.
 
-Note: [[../../concepts/hermes-vs-coding-agents]]
+Note: [[hermes-vs-coding-agents]]
 
 ---
 
@@ -27,6 +27,8 @@ Note: [[../../concepts/hermes-vs-coding-agents]]
 
 **Cowork:** knowledge work, not multi-file software shipping.
 
+Desktop GUI for Hermes: [[howto-hermes-setup]] · hermes-agent.nousresearch.com/desktop
+
 ---
 
 # MCP · creative tools
@@ -37,7 +39,7 @@ Hermes: MCP client (and can serve MCP). Built for many softwares, not only an ID
 
 Cursor / Claude Code: strong MCP inside the coding loop.
 
-Course bet: agents across tools, not only in the editor.
+Course bet: agents across tools, not only in the editor. See [[what-is-mcp]]
 
 ---
 
@@ -69,13 +71,15 @@ Coding agents: weak as a phone-first assistant.
 
 **Cursor / Claude Code = coding intensifier** when the repo is the work.
 
+Modes on coding tasks: coding / production / hybrid · [[howto-hermes-efficient-coding]] · [[agents-md-template]]
+
 Do not claim Hermes beats Cursor at IDE coding. Claim control, openness, and multi-tool reach.
 
 ---
 
 # Sources (sparse)
 
-- MindStudio: Hermes vs Claude Code
-- YouTube: `ubxDCAtYQwE`
+- [[hermes-vs-coding-agents]] (full note)
+- MindStudio: Hermes vs Claude Code · YouTube `ubxDCAtYQwE`
 - hermes-agent.nousresearch.com/compare
 - Claude Cowork help · Anthropic Cowork vs Code guide
