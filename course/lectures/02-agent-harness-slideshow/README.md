@@ -4,9 +4,11 @@ Markdown deck for the Obsidian **core Slides** plugin (`---` between slides), wi
 
 | File | Role |
 |---|---|
-| `02-agent-harness-and-hermes.md` | Teaching deck: day timeline + expanded Hermes setup (Command Palette → **Start presentation**) |
-| `02-hermes-vs-coding-agents.md` | Optional comparison deck (Hermes vs Cowork-style vs Cursor / Claude Code). Same CSS. |
+| `02-agent-harness-and-hermes.md` | Teaching deck: day timeline + Hermes setup (Command Palette → **Start presentation**) |
 | `cvc-slides.css` | Reveal.js styles: copy to vault `.obsidian/snippets/cvc-slides.css` and enable under Appearance → CSS snippets |
+
+Comparison concept (not a deck): [[../../concepts/hermes-vs-coding-agents]]  
+OpenCode: [[../../setup/howto-opencode-setup]] · [[../../setup/howto-hermes-opencode-pairing]]
 
 ## Font size (master knob)
 

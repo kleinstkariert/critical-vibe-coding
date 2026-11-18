@@ -14,7 +14,7 @@ tags:
 
 Fair comparison for Critical Vibe Coding. Labels: *verified fact* | *claim* | *technical suggestion*.
 
-Related: [[what-is-harness]] · [[what-is-mcp]] · [[../setup/howto-hermes-setup]] · [[../setup/howto-hermes-efficient-coding]] · slides [[../lectures/02-agent-harness-slideshow/02-hermes-vs-coding-agents]]
+Related: [[what-is-harness]] · [[what-is-mcp]] · [[../setup/howto-hermes-setup]] · [[../setup/howto-hermes-efficient-coding]] · [[../setup/howto-opencode-setup]] · [[../setup/howto-hermes-opencode-pairing]] · slides [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]]
 
 ---
 

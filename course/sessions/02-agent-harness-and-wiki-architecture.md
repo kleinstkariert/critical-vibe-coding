@@ -194,7 +194,8 @@ If the install fails, label Model versus Harness on a product the student alread
 | Karpathy research note | [[../../research/karpathy-llm-wiki-and-openclaw]] |
 | Hermes install | [[../howto-hermes-setup]] · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 | Hermes efficient coding (harness tips) | [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] |
-| Hermes vs coding agents (comparison) | [[../concepts/hermes-vs-coding-agents]] · slides [[../lectures/02-agent-harness-slideshow/02-hermes-vs-coding-agents]] |
+| Hermes vs coding agents (comparison) | [[../concepts/hermes-vs-coding-agents]] |
+| OpenCode setup and Hermes pairing | [[../setup/howto-opencode-setup]] · [[../setup/howto-hermes-opencode-pairing]] |
 | Session 02 Obsidian slides | [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]] |
 | Architecture overview | [[../setup/Local LLM Coding with Hermes]] |
 | Hermes install (Desktop + CLI) | [[../setup/howto-hermes-setup]] |

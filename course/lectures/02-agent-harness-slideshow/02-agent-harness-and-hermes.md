@@ -46,8 +46,7 @@ Use this working method:
 
 - Define the task.
 - Limit access.
-- Check the result.
-- Review the effect.
+- Check the result & review the effect.
 - Keep human control.
 ---
 
@@ -137,35 +136,6 @@ It also defines what the agent cannot do.
 ↓ 
 [Creative or technical result] 
 
----
-
-# Our suggested harness
-
-```text
-[User]
-   ↓
-[Hermes]
-   ↓
-[Rules and skills]
-   ↓
-[Selected model]
-   ↓
-[Files and tools]
-   ↓
-[Verification]
-   ↓
-[Creative or technical result]
-```
-
----
-
-# Our suggested harness
-
-The user defines the task.
-The harness manages access and actions.
-The model produces responses and tool requests.
-Verification checks the result.
-The user approves important work.
 
 ---
 
@@ -182,10 +152,6 @@ The agent needs:
 - Useful tools.
 - Good feedback.
 - Reliable checks.
-
----
-
-# Why structure matters
 
 A larger model cannot repair missing project information.
 A smaller model cannot solve every difficult task.
@@ -237,14 +203,14 @@ vault/
 
 # File roles
 
-SCHEMA.md: Rules for structure and use.
-index.md: Map of important content.
-log.md: Record of events and changes.
-raw/: Original source material.
-entities/: People, tools, groups, or places.
-concepts/: Ideas and definitions.
-comparisons/: Structured comparisons.
-queries/: Research questions and tasks.
+**SCHEMA.md:** Rules for structure and use.
+**index.md:** Map of important content.
+**log.md:** Record of events and changes.
+**raw/:** Original source material.
+**entities/:** People, tools, groups, or places.
+**concepts/:** Ideas and definitions.
+**comparisons/:** Structured comparisons.
+**queries/:** Research questions and tasks.
 
 [[llm-wiki-standard-files]]
 
@@ -297,6 +263,18 @@ It can:
 
 Install: [[howto-hermes-setup]] · Desktop: https://hermes-agent.nousresearch.com/desktop
 
+---
+
+# Hermes and OpenCode
+
+Hermes is a **multipurpose** tool. It is strong for **24/7 assist** and **MCP** work.
+
+For **deep repo development**, a coding agent is better. **OpenCode** is the open-source coding agent that fills that gap.
+
+Use them together: plan and stay connected in Hermes. Hand hard coding work to OpenCode. Bring results back.
+
+- OpenCode setup: [[howto-opencode-setup]]
+- Pairing: [[howto-hermes-opencode-pairing]]
 
 ---
 
@@ -520,7 +498,7 @@ For Hermes agent work, prefer models that:
 
 A clever chat model that cannot call tools well will feel broken inside Hermes.
 
-Session 03 goes deeper into hardware and prompting.
+Session 03 goes deeper into hardware and prompting but also into the universe of models.
 
 ---
 
@@ -624,7 +602,7 @@ Class smoke test uses the vault path in `.env`. Container mount rules are extra 
 
 ---
 
-# Install order (today)
+# Install order
 
 1. Install **Hermes Desktop** (or CLI if Desktop is not available).
 2. Configure a **model** (Portal, OpenRouter free path, or your key).
@@ -659,6 +637,6 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 - [[what-is-harness]] · [[what-is-mcp]] · [[academic-ai-austria]] · [[howto-local-llm-hardware]]
 - Karpathy LLM Wiki gist · LangChain harness anatomy
 - Session: [[02-agent-harness-and-wiki-architecture]]
-- Comparison: [[02-hermes-vs-coding-agents]] · [[hermes-vs-coding-agents]]
+- Comparison: [[hermes-vs-coding-agents]] · OpenCode: [[howto-opencode-setup]] · [[howto-hermes-opencode-pairing]]
 - Desktop: https://hermes-agent.nousresearch.com/desktop
 - CSS: `cvc-slides.css` (vault snippet)
