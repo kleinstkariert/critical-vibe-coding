@@ -1,22 +1,23 @@
 /* Critical Vibe Coding: Obsidian core Slides (reveal.js)
    Copy into the vault: .obsidian/snippets/cvc-slides.css
    Enable: Settings → Appearance → CSS snippets → cvc-slides
-   Knobs: .reveal font-size is the master scale. H1/H2/table sizes are em of that.
+   Tuned for denser teaching text on 16:9 without clipping.
+   If a slide still overflows, split the markdown. Do not shrink below readable size.
 */
 
 .reveal {
   --cvc-slide-bg: #000000;
   --cvc-slide-fg: #f2f2f2;
-  --cvc-slide-muted: #a8a8a8;
+  --cvc-slide-muted: #b0b0b0;
   --cvc-slide-line: #333333;
   --cvc-slide-link: #c8c8c8;
 
   background: var(--cvc-slide-bg);
   color: var(--cvc-slide-fg);
-  /* Master scale. Obsidian default is ~2.5em and overflows. Aim ~32px body. */
-  font-size: 32px;
+  /* Master scale for teaching density on 16:9 */
+  font-size: 26px;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 .reveal .slides {
@@ -25,68 +26,72 @@
 
 .reveal .slides section,
 .reveal .slides > section {
-  padding: 1.1em 1.4em;
+  padding: 0.85em 1.15em;
   box-sizing: border-box;
 }
 
-/* Titles: readable, not a hero banner */
 .reveal h1 {
-  font-size: 1.35em;
+  font-size: 1.28em;
   font-weight: 600;
-  line-height: 1.15;
-  margin: 0 0 0.45em;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
   text-transform: none;
   letter-spacing: -0.01em;
   color: var(--cvc-slide-fg);
 }
 
 .reveal h2 {
-  font-size: 0.95em;
+  font-size: 0.92em;
   font-weight: 500;
-  line-height: 1.2;
-  margin: 0 0 0.55em;
+  line-height: 1.25;
+  margin: 0 0 0.45em;
   text-transform: none;
   color: var(--cvc-slide-muted);
 }
 
 .reveal h3 {
-  font-size: 0.8em;
+  font-size: 0.78em;
   font-weight: 500;
-  margin: 0 0 0.4em;
+  margin: 0 0 0.35em;
   text-transform: none;
   color: var(--cvc-slide-muted);
 }
 
-.reveal p,
+.reveal p {
+  font-size: 0.88em;
+  line-height: 1.4;
+  margin: 0.28em 0;
+}
+
 .reveal li {
-  font-size: 0.9em;
-  line-height: 1.35;
-  margin: 0.25em 0;
+  font-size: 0.86em;
+  line-height: 1.38;
+  margin: 0.18em 0;
 }
 
 .reveal ul,
 .reveal ol {
-  margin: 0.35em 0 0.35em 1.1em;
+  margin: 0.3em 0 0.35em 1.05em;
   padding: 0;
 }
 
 .reveal li + li {
-  margin-top: 0.2em;
+  margin-top: 0.18em;
 }
 
 .reveal blockquote {
-  margin: 0.4em 0;
-  padding: 0.35em 0 0.35em 0.7em;
+  margin: 0.35em 0;
+  padding: 0.3em 0 0.3em 0.65em;
   border-left: 3px solid var(--cvc-slide-line);
   background: transparent;
   box-shadow: none;
   width: auto;
-  font-size: 0.9em;
-  line-height: 1.35;
+  font-size: 0.88em;
+  line-height: 1.4;
 }
 
 .reveal blockquote p {
-  margin: 0.15em 0;
+  margin: 0.12em 0;
 }
 
 .reveal strong {
@@ -101,37 +106,36 @@
 }
 
 .reveal code {
-  font-size: 0.82em;
+  font-size: 0.8em;
   background: #1a1a1a;
   color: #f0f0f0;
-  padding: 0.05em 0.25em;
+  padding: 0.04em 0.22em;
   border-radius: 2px;
 }
 
 .reveal pre {
-  font-size: 0.7em;
-  max-height: 55vh;
+  font-size: 0.68em;
+  max-height: 48vh;
   overflow: auto;
   background: #141414;
-  padding: 0.5em 0.65em;
-  margin: 0.4em 0;
+  padding: 0.45em 0.55em;
+  margin: 0.35em 0;
   box-shadow: none;
   width: 100%;
 }
 
-/* Tables must shrink with the slide, not clip */
 .reveal table {
-  font-size: 0.72em;
+  font-size: 0.68em;
   width: 100%;
-  margin: 0.45em 0;
+  margin: 0.4em 0;
   border-collapse: collapse;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .reveal th,
 .reveal td {
   border: 1px solid var(--cvc-slide-line);
-  padding: 0.28em 0.45em;
+  padding: 0.22em 0.38em;
   vertical-align: top;
   text-align: left;
 }
