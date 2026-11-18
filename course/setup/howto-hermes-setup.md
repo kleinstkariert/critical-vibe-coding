@@ -2,11 +2,13 @@
 
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 
-Related: [[howto-obsidian-setup-and-sync]] · [[knowledge-store-options]] · [[what-is-mcp]] · [[../../research/karpathy-llm-wiki-and-openclaw]]
+Related: [[howto-obsidian-setup-and-sync]] · [[knowledge-store-options]] · [[what-is-mcp]] · [[howto-hermes-efficient-coding]] · [[agents-md-template]] · [[Local LLM Coding with Hermes]] · [[../../research/karpathy-llm-wiki-and-openclaw]]
 
 *requirement:* phone sync of the **notes** is via Obsidian + cloud (see Obsidian how-to). Hermes usually runs on the **computer** and edits the local vault folder. The phone does not need Hermes installed.
 
-Official install matrix: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+Official install matrix: https://hermes-agent.nousresearch.com/docs/getting-started/installation  
+Hermes Desktop product page: https://hermes-agent.nousresearch.com/desktop  
+Desktop docs: https://hermes-agent.nousresearch.com/docs/user-guide/desktop
 
 ---
 
@@ -15,22 +17,31 @@ Official install matrix: https://hermes-agent.nousresearch.com/docs/getting-star
 | | |
 |---|---|
 | **Hermes Agent** | Tool-using agent: files, terminal, skills, optional MCP |
-| **Hermes 4 models** | Separate chat/reasoning models — Portal docs say **not** ideal as the agent’s tool-calling model |
+| **Hermes Desktop** | Native GUI for the **same** agent (sessions, skills, memory, tools). Closer to Cursor / Claude Cowork as an app surface than the terminal alone |
+| **Hermes 4 models** | Separate chat/reasoning models. Portal docs say they are **not** ideal as the agent’s tool-calling model |
 | **LLM Wiki skill** | Karpathy-style folder wiki (`WIKI_PATH`) |
 | **Obsidian skill** | Same folder via `OBSIDIAN_VAULT_PATH` + file tools |
 
 Docs: https://hermes-agent.nousresearch.com/docs/
 
+Architecture / security overview (course): [[Local LLM Coding with Hermes]]
+
 ---
 
 ## 2. Install by platform
 
+*technical suggestion for class:* install **Hermes Desktop** when your OS supports it. You get a GUI agent workspace (chat, skills, tools) without living only in the terminal. CLI still works and shares the same config.
+
 ### Windows
 
-#### Option A — Desktop installer
-Download Hermes Desktop from the Nous site and run the installer (CLI + desktop). Opens with Windows App Installer (`.appinstaller` / MSIX).
+#### Option A. Hermes Desktop (recommended UI)
 
-#### Option B — CLI only (PowerShell)
+1. Open https://hermes-agent.nousresearch.com/desktop and download the Windows package, **or** install from the Microsoft Store listing linked there.
+2. Open the `.appinstaller` / MSIX with **Windows App Installer** (signed bundle). MSIX Desktop needs a recent Windows 11 build for the Store/MSIX path; source CLI still supports Windows 10.
+3. First launch uses the same Hermes home as the CLI: `%LOCALAPPDATA%\hermes\`.
+4. Optional: if you already installed CLI only, run `hermes desktop` to build/launch the desktop shell against your existing config.
+
+#### Option B. CLI only (PowerShell)
 
 ```powershell
 iex (irm https://hermes-agent.nousresearch.com/install.ps1)
@@ -49,14 +60,15 @@ Default data home: `%LOCALAPPDATA%\hermes\`
 
 ### macOS
 
-*verified fact (Hermes install docs, 2026-10-18):* Desktop package is **Apple Silicon only**. Intel Macs are not a supported Desktop platform — use the CLI script or another machine.
+*verified fact (Hermes install docs, 2026-10-18):* Desktop package is **Apple Silicon only**. Intel Macs are not a supported Desktop platform: use the CLI script or another machine.
 
-#### Option A — Desktop (Apple Silicon)
-1. Download the macOS package from the Hermes site.
+#### Option A. Hermes Desktop (Apple Silicon, recommended UI)
+1. Download the macOS package from https://hermes-agent.nousresearch.com/desktop
 2. Open the DMG → copy `Hermes.app` to Applications.
 3. First launch may need System Settings → Privacy & Security approval if Gatekeeper blocks an unidentified developer build (follow on-screen / Nous notes).
+4. Same agent core as CLI: config, keys, sessions, skills.
 
-#### Option B — CLI (Apple Silicon or when Desktop is unavailable)
+#### Option B. CLI (Apple Silicon or when Desktop is unavailable)
 
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
@@ -82,7 +94,7 @@ hermes desktop
 
 ### Linux
 
-CLI is the primary path (Desktop may be available via source/`hermes desktop` depending on release — prefer the documented script first).
+CLI is the primary path (Desktop may be available via source/`hermes desktop` depending on release: prefer the documented script first).
 
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
@@ -95,9 +107,9 @@ hermes --help
 **Docker** (server / headless): see Hermes docs for the image and mounted data dir (`/opt/data/` pattern). Useful if the agent should live on a VPS with a synced vault.
 
 Default data home: `~/.hermes/`  
-Nix/NixOS: best-effort flake path in docs — not the class default.
+Nix/NixOS: best-effort flake path in docs: not the class default.
 
-**WSL2:** use the Linux/macOS install script inside WSL; point vault paths at a Windows folder only if you understand the mount path (`/mnt/c/...`) and sync/locking costs — *technical suggestion:* keep vault + Hermes both inside WSL **or** both on Windows native, not half-and-half.
+**WSL2:** use the Linux/macOS install script inside WSL; point vault paths at a Windows folder only if you understand the mount path (`/mnt/c/...`) and sync/locking costs. *technical suggestion:* keep vault + Hermes both inside WSL **or** both on Windows native, not half-and-half.
 
 ---
 
@@ -119,7 +131,7 @@ Or configure another provider:
 hermes model
 ```
 
-You need **some** API / Portal access — Hermes itself is free/MIT; model usage is separate.
+You need **some** API / Portal access. Hermes itself is free/MIT; model usage is separate.
 
 ### Free option used in class (Session 02)
 
@@ -146,7 +158,7 @@ Limits and privacy: 20 requests per minute and 50 per day on a free account. The
 | macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/MyVault` or `/home/you/Nextcloud/MyVault` |
 
 ```env
-# Absolute paths — no $variables inside paths Hermes file tools will use
+# Absolute paths. Do not put $variables inside paths Hermes file tools will use.
 OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault
 WIKI_PATH=/absolute/path/to/your/vault
 ```
@@ -155,23 +167,34 @@ WIKI_PATH=/absolute/path/to/your/vault
 
 - Use a **real absolute path**. File tools do not expand `$OBSIDIAN_VAULT_PATH` in path arguments.
 - For a dedicated LLM Wiki inside the vault later, set both paths to e.g. `.../KnowledgeBaseObsidian/wiki` (create that folder first). Hybrid pattern: agent owns `wiki/`, you own artistic project notes elsewhere.
-- Restart Hermes after changing `.env`.
+- Restart Hermes (or Desktop) after changing `.env`.
+
+### Vault path vs AgentShare (two layers)
+
+| Layer | What students do in class | Safer hardening later |
+|---|---|---|
+| **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` / `WIKI_PATH` at the vault (or `wiki/`) so Hermes can edit notes | Narrow to an agent-writable subfolder when you are ready |
+| **Docker / sandbox mounts** | Optional. Overview [[Local LLM Coding with Hermes]] recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
+
+Class smoke test uses the vault path in `.env`. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [[howto-obsidian-setup-and-sync]].
 
 Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian  
 LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
 
 ---
 
-## 5. First run
+## 5. First run (CLI or Desktop)
 
-```bash
-hermes
-```
-
-Or Desktop if installed:
+**Desktop (GUI closer to Cursor / Cowork):** open Hermes Desktop from the Start menu / Applications, or:
 
 ```bash
 hermes desktop
+```
+
+**CLI:**
+
+```bash
+hermes
 ```
 
 Try: ask it to list notes in the vault, or to create a test page under a folder you agree is agent-writable (e.g. `wiki/`).
@@ -180,11 +203,51 @@ Try: ask it to list notes in the vault, or to create a test page under a folder 
 
 ---
 
+## 5b. Skills (short)
+
+Skills are on-demand instruction packages (`SKILL.md`).
+
+```bash
+hermes skills list
+hermes skills browse
+hermes skills install official/research/arxiv   # example
+```
+
+In chat: `/skills`. Review third-party skills before install.  
+Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills  
+Coding harness + skill links: [[howto-hermes-efficient-coding]] · template: [[agents-md-template]]
+
+---
+
+## 5c. Messaging gateway (optional, Session 05+)
+
+```bash
+hermes gateway setup
+```
+
+Supported in Hermes docs include Telegram, Discord, Matrix, Signal (`signal-cli`), and others.  
+Always set allowlists / pairing on a personal laptop.  
+Index: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/  
+Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
+
+---
+
+## 5d. Security (minimum)
+
+- Do not run as root. Do not expose the gateway publicly.
+- Keys only in Hermes `.env`, never in synced vault notes.
+- Prefer Docker / sandbox for untrusted code. Local backend = **no** isolation.
+- Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
+- Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  
+- Academic chat portals are usually **not** an agent API: [[academic-ai-austria]]
+
+---
+
 ## 6. LLM Wiki layout (when you turn it on)
 
 ```text
 wiki/   (or whole vault if WIKI_PATH = vault)
-  SCHEMA.md   (or AGENTS.md / CLAUDE.md — co-evolve with the agent)
+  SCHEMA.md   (or AGENTS.md / CLAUDE.md; co-evolve with the agent)
   index.md
   log.md
   raw/          # immutable sources
@@ -214,13 +277,14 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 ## 8. Checklist
 
-- [ ] `hermes` works in a **new** terminal after install
-- [ ] Model / Portal configured (`hermes setup --portal` or `hermes model`)
+- [ ] Hermes Desktop **or** `hermes` CLI works after install (new terminal if CLI)
+- [ ] Model / Portal configured (`hermes setup --portal` or `hermes model` or free OpenRouter path)
 - [ ] `.env` has absolute `OBSIDIAN_VAULT_PATH` and `WIKI_PATH` for **this** OS
 - [ ] Vault folder exists and syncs to the phone via Obsidian (not via Hermes)
-- [ ] Clear rule: which folders Hermes may write vs human-only
-- [ ] Secrets (API keys) in Hermes config / env — **not** in synced notes
+- [ ] Clear rule: which folders Hermes may write vs human-only (`SCHEMA.md` / `AGENTS.md`)
+- [ ] Secrets (API keys) in Hermes config / env, **not** in synced notes
 - [ ] macOS: Apple Silicon if using Desktop; Intel → CLI only
+- [ ] Optional: skills browsed; messaging gateway only with allowlists
 
 ---
 
@@ -228,10 +292,10 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 1. Confusing Hermes **Agent** with Hermes **4** model weights.
 2. Relative paths or `$OBSIDIAN_VAULT_PATH` inside tool calls.
-3. Expecting Hermes on the **phone** — notes sync via Obsidian; agent stays on the computer (unless you deliberately run Hermes on a VPS with a synced/mounted vault).
+3. Expecting Hermes on the **phone**. Notes sync via Obsidian; agent stays on the computer (unless you deliberately run Hermes on a VPS with a synced/mounted vault).
 4. Two writers fighting: edit the same note in Obsidian while Hermes patches it (use clear folders).
-5. Pointing `WIKI_PATH` at Joplin’s SQLite / sync DB — wrong store; see [[knowledge-store-options]].
-6. macOS Desktop on Intel — unsupported; use the curl installer instead.
+5. Pointing `WIKI_PATH` at Joplin’s SQLite / sync DB: wrong store; see [[knowledge-store-options]].
+6. macOS Desktop on Intel: unsupported; use the curl installer instead.
 7. WSL + Windows vault without a clear single home for the files.
 
 ---
@@ -240,7 +304,10 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 - Docs home: https://hermes-agent.nousresearch.com/docs/
 - Installation: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+- Hermes Desktop: https://hermes-agent.nousresearch.com/desktop · https://hermes-agent.nousresearch.com/docs/user-guide/desktop
 - Windows native: https://hermes-agent.nousresearch.com/docs/user-guide/windows-native
+- Security: https://hermes-agent.nousresearch.com/docs/user-guide/security
+- Messaging: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/
 - Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian
 - LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
 - GitHub: https://github.com/NousResearch/hermes-agent

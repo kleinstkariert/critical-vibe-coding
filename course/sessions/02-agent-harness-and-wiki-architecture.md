@@ -193,6 +193,11 @@ If the install fails, label Model versus Harness on a product the student alread
 | What is lint | [[../what-is-lint]] |
 | Karpathy research note | [[../../research/karpathy-llm-wiki-and-openclaw]] |
 | Hermes install | [[../howto-hermes-setup]] · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
+| Hermes efficient coding (harness tips) | [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] |
+| Hermes vs coding agents (comparison) | [[../concepts/hermes-vs-coding-agents]] · slides [[../lectures/02-agent-harness-slideshow/02-hermes-vs-coding-agents]] |
+| Session 02 Obsidian slides | [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]] |
+| Architecture overview | [[../setup/Local LLM Coding with Hermes]] |
+| Hermes install (Desktop + CLI) | [[../setup/howto-hermes-setup]] |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free model (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
 | Model choice, academic access | [[../prompting-and-model-choice]] · [[../academic-ai-austria]] |
