@@ -17,27 +17,38 @@ This deck teaches the setup path for today. You can follow it without other note
 
 # Today
 
-1. Check-in
-2. Student input: Flattening
-3. Catch-up (one point from last class)
-4. Hermes + harness → **5 min break** → more Hermes
-5. Practical install start · homework = finish install
+|Time|Activity|
+|---|---|
+|10:00–10:20|Check-in|
+|10:20–10:35|Student input: flattening|
+|10:35–10:55|Harness and LLM Wiki|
+|10:55–11:05|Break|
+|11:05–11:15|Model landscape|
+|11:15–12:00|Hermes installation and smoke test|
 
-The middle block is the main teaching block. The last block starts the install on your machine.
+Today has two aims:
 
----
-
-# What you should leave with
-
-By the end of class you should be able to:
-
-1. Say what a **model** is and what a **harness** is.
-2. Say why this course defaults to **Hermes Agent**.
-3. Start an install: Desktop or CLI, one model path, one vault path.
-4. Name where Hermes can run, and what changes for data and security.
+- Understand how a model becomes a useful agent.
+- Start a safe Hermes setup.
 
 Full guides: [[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
 
+---
+# Critical Vibe Coding
+
+An AI system can read files, call tools, and change projects.
+
+This creates useful possibilities.
+
+It also creates risks.
+
+Use this working method:
+
+- Define the task.
+- Limit access.
+- Check the result.
+- Review the effect.
+- Keep human control.
 ---
 
 
@@ -52,37 +63,27 @@ In plain words: the model predicts text. The harness is everything around it tha
 
 ---
 
-# Agent = Model + Harness
+# What is a harness?
 
-An **agent** is a system that can use tools and change files, not only chat.
+A **harness** is the software and rules around a model.
 
-We write:
+It gives the model useful context and controlled actions.
 
-**Agent = Model + Harness**
+A harness can provide:
 
-- The **model** is the language engine.
-- The **harness** is the control system around that engine.
+- Project files.
+- Tools.
+- Memory.
+- Skills.
+- Project rules.
+- Sandboxes.
+- Tests.
+- Approval steps.
+- Logs.
 
-Without a harness, you only have a chat box. With a harness, the model can read projects, run commands, and follow project rules.
+`Model + harness = agent system`
 
 Course note: [[what-is-harness]]
-
----
-
-# What a model is
-
-A **model** (LLM) is a large neural network trained on text.
-
-You send it text. It predicts the next tokens. Those tokens become the reply.
-
-It does **not** by itself:
-
-- know your private files
-- run your tests
-- open vvvv or Unity
-- remember last week unless the harness stores memory
-
-The model is the “brain” for language. It is not the full work system.
 
 ---
 
@@ -93,24 +94,188 @@ The model is the “brain” for language. It is not the full work system.
 | **Thin harness** | Chat window + message history | Simple ChatGPT-style UI |
 | **Thick harness** | Files, tools, skills, sandbox, checks, memory | Hermes, Cursor Agent, Claude Code |
 
-This course uses a **thick harness**. Students need tools and files, not only answers in a scrollback.
-
 Hermes is a thick harness. Cursor Agent and Claude Code are also thick harnesses, built more for IDE coding.
+They focus on different workflows.
 
 ---
 
-# Why harness design matters
+# Harness design
 
-The same model can look smart or useless.
+1. Start with the required behaviour.
+2. Then choose the required controls.
 
-What changes is often the harness:
+| Required behaviour      | Harness component             |
+| ----------------------- | ----------------------------- |
+| Store project knowledge | Files, memory, or wiki        |
+| Read project files      | File tools and permissions    |
+| Change project files    | Write access and scope limits |
+| Run software            | Terminal or application tools |
+| Use another application | MCP or another integration    |
+| Limit damage            | Sandbox, docker and allowlist |
+| Check results           | Tests, logs, and review       |
+| Work across sessions    | Persistent files and memory   |
+| Ask before danger       | Approval rules                |
 
-- which files it can see
-- which tools it can call
-- which rules it must follow
-- whether it must run tests before it claims success
+A harness defines what the agent can do.
 
-Classroom bet: spend time on **structure** (wiki, schema, tools, permissions). Do not only chase the newest model name.
+It also defines what the agent cannot do.
+
+---
+# Suggested harness flow
+
+[User]  The user defines the task.
+↓ 
+[Hermes]  Agent interface
+↓ 
+[Rules and skills]  The harness manages access and actions.
+↓ 
+[Selected model]  The model produces responses and tool requests.
+↓ 
+[Files and tools]  MCPs
+↓ 
+[Verification]  Verification checks the result. (user in the loop?)
+↓ 
+[Creative or technical result] 
+
+---
+
+# Our suggested harness
+
+```text
+[User]
+   ↓
+[Hermes]
+   ↓
+[Rules and skills]
+   ↓
+[Selected model]
+   ↓
+[Files and tools]
+   ↓
+[Verification]
+   ↓
+[Creative or technical result]
+```
+
+---
+
+# Our suggested harness
+
+The user defines the task.
+The harness manages access and actions.
+The model produces responses and tool requests.
+Verification checks the result.
+The user approves important work.
+
+---
+
+# Why structure matters
+
+A stronger model can improve results.
+A clear structure can also improve results.
+
+The agent needs:
+
+- Relevant context.
+- Clear project rules.
+- Correct files.
+- Useful tools.
+- Good feedback.
+- Reliable checks.
+
+---
+
+# Why structure matters
+
+A larger model cannot repair missing project information.
+A smaller model cannot solve every difficult task.
+Use model quality and harness quality together.
+
+---
+
+# LLM Wiki
+
+An LLM Wiki is a structured collection of project information.
+It gives the agent stable project knowledge.
+It is not only a collection of chat messages.
+
+It can contain:
+
+- Project rules.
+- Concepts.
+- Sources.
+- Decisions.
+- Comparisons.
+- Questions.
+- Task records.
+- Known errors.
+
+Give the agent only the relevant information.
+Do not give it the complete vault by default.
+
+[[llm-wiki-standard-files]] · [[knowledge-store-options]]
+
+---
+
+# Wiki structure
+
+```text
+vault/
+├── SCHEMA.md
+├── index.md
+├── log.md
+├── raw/
+├── entities/
+├── concepts/
+├── comparisons/
+└── queries/
+```
+
+[[llm-wiki-standard-files]]
+
+---
+
+# File roles
+
+SCHEMA.md: Rules for structure and use.
+index.md: Map of important content.
+log.md: Record of events and changes.
+raw/: Original source material.
+entities/: People, tools, groups, or places.
+concepts/: Ideas and definitions.
+comparisons/: Structured comparisons.
+queries/: Research questions and tasks.
+
+[[llm-wiki-standard-files]]
+
+---
+
+# Obsidian and the LLM Wiki
+
+Obsidian displays and edits the files.
+The agent does not need Obsidian to be open.
+The agent can work with the files directly.
+
+Use Obsidian for:
+
+- Reading.
+- Editing.
+- Linking.
+- Reviewing.
+- Teaching.
+- Human decisions.
+
+Use the LLM Wiki for:
+
+- Stable project knowledge.
+- Agent context.
+- Searchable records.
+- Repeated procedures.
+
+These tools organise information.
+They do not replace operating-system permissions or sandboxing.
+
+[[howto-obsidian-setup-and-sync]] · [[llm-wiki-standard-files]] · [[knowledge-store-options]]
 
 ---
 
@@ -126,36 +291,23 @@ It can:
 - keep memory across sessions
 - run commands in sandboxes
 - connect to messaging apps
+- multipurpose tool, depends highly on users settings
 
 **Hermes Desktop** is a native app UI for the **same** agent. It feels closer to Cursor or Claude Cowork than a raw terminal.
 
 Install: [[howto-hermes-setup]] · Desktop: https://hermes-agent.nousresearch.com/desktop
 
----
-
-# Hermes Agent is not Hermes 4
-
-Do not confuse two products with similar names.
-
-| Name | What it is |
-|---|---|
-| **Hermes Agent** | The agent program (tools, skills, gateway). This course installs this. |
-| **Hermes 4** | Chat / reasoning **models**. Useful as models. Not the agent install. |
-
-Portal docs say Hermes 4 models are **not** ideal as the main tool-calling model for the agent. Use a model with strong tool calling for agent work.
 
 ---
 
-# What Hermes does in this course
+# Suggested basic setup
 
-Default student stack:
+Default stack:
 
 1. **Obsidian** vault for notes (phone sync).
 2. **Hermes** on the computer as the agent.
 3. Optional **MCP** later for apps such as CAD / 3D / creative tools.
-4. Optional **Cursor / Claude Code** when a large coding repo needs a stronger IDE loop.
-
-Hermes is the semester **commons harness**: open, local-capable, multi-tool. It is not sold as “better than Cursor at IDE coding.”
+4. Optional **Code agents** (like Claude Code) when a large coding repo needs a stronger IDE loop.
 
 Comparison: [[hermes-vs-coding-agents]]
 
@@ -188,7 +340,7 @@ Better workflow for class:
 3. Prefer a **personal skill** the agent writes for your case, if that is enough.
 4. Only then install a third-party skill if you still need it.
 
-Do not install a skill you did not understand.
+**Do not install a skill you did not understand!**
 
 ---
 
@@ -219,7 +371,7 @@ Minimum course rules:
 2. Do not expose the messaging gateway to the public internet.
 3. Prefer Docker or another sandbox for untrusted work.
 4. Mount only the folders the task needs.
-5. Keep API keys in Hermes `.env`, never in synced vault notes.
+5. **Keep API keys in Hermes `.env`, never in synced vault notes.**
 6. Require approval for destructive commands.
 7. Review the Git diff before you accept work.
 
@@ -368,7 +520,7 @@ For Hermes agent work, prefer models that:
 
 A clever chat model that cannot call tools well will feel broken inside Hermes.
 
-Session 03 goes deeper into hardware and prompting. Today you only need a working first model.
+Session 03 goes deeper into hardware and prompting.
 
 ---
 
@@ -407,13 +559,13 @@ Put keys only in Hermes `.env` (Windows: `%LOCALAPPDATA%\hermes\.env`). Never pu
 
 ---
 
-# Free model limits (read this)
+# Free model limits
 
 The free OpenRouter Nemotron path is for learning and a short smoke test.
 
 Limits on a free account are low (rate and daily caps change; check OpenRouter). Free hosts may log prompts.
 
-Do not send private artwork notes or secrets through a free cloud path until you accept that risk.
+**Do not send private artwork notes or secrets through a free cloud path until you accept that risk.**
 
 Fallback: Nous Portal free models via `hermes setup --portal`, or your own paid key, or a local model.
 
@@ -442,7 +594,7 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/
 
 ---
 
-# Chat apps: what students should remember
+# Chat apps: 
 
 Messaging is optional for Session 02 install.
 
