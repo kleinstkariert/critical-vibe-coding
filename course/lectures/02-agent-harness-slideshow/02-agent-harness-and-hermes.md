@@ -3,14 +3,13 @@ title: Session 02. Agent harness and Hermes
 session: 2
 format: obsidian-slides
 slot: 10:00 to 12:00
+css: cvc-slides
 ---
 
 # Session 02
 ## Agent harness and Hermes
 
 Critical Vibe Coding · 10:00 to 12:00
-
-Obsidian Slides: Command Palette → **Start presentation**
 
 ---
 
@@ -19,47 +18,45 @@ Obsidian Slides: Command Palette → **Start presentation**
 1. Check-in
 2. Student input: Flattening
 3. Catch-up (one point from last class)
-4. Hermes + harness (theory) → **5 min break** → more Hermes
+4. Hermes + harness → **5 min break** → more Hermes
 5. Practical install start · homework = finish install
 
 ---
 
 # Check-in
 
-Listen only.
-
-No fixing. No advice yet.
+Listen only. No fixing. No advice yet.
 
 ---
 
 # Student input
 ## Flattening
 
-Thesis to test: **AI kills the underground and it kills diversity.**
+Thesis: **AI kills the underground and it kills diversity.**
 
 Include: AI and patriarchy · feminism and AI
 
-Deep dive: `course/lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md`
+Deep dive: `flattening-and-the-norm.md`
 
 ---
 
-# Catch-up (Session 01, one beat)
+# Catch-up (Session 01)
 ## An alternative AI as a commons
 
-Verdegem: AI as a commons · ecology · jobs · creative industry impact · practices for this semester
+Verdegem: commons · ecology · jobs · creative industry · semester practices
 
-One frame for the rest of the course: structure and tools you control, not only bigger APIs.
+Frame: structure and tools you control, not only bigger APIs.
 
 ---
 
 # Core sentence
 
 > The model contains the intelligence.
-> The **harness** is the system that makes that intelligence useful.
+> The **harness** makes that intelligence useful.
 >
 > If you're not the model, you're the harness.
 
-LangChain, *The Anatomy of an Agent Harness* (2026)
+LangChain, *Anatomy of an Agent Harness* (2026)
 
 ---
 
@@ -71,9 +68,9 @@ LangChain, *The Anatomy of an Agent Harness* (2026)
 | Thin harness | Chat UI + history |
 | Thick harness | Files, tools, skills, sandbox, verify loops |
 
-Hermes = thick harness. Cursor Agent and Claude Code sit in the same family.
+Hermes = thick harness (same family as Cursor Agent, Claude Code).
 
-Course note: `course/concepts/what-is-harness.md` (or `../what-is-harness`)
+Course note: `what-is-harness.md`
 
 ---
 
@@ -81,36 +78,35 @@ Course note: `course/concepts/what-is-harness.md` (or `../what-is-harness`)
 
 Open-source agent (Nous Research, MIT).
 
-Providers · terminal · files · skills · memory · sandboxes · messaging gateway.
+Providers · terminal · files · skills · memory · sandboxes · messaging.
 
-Not the same thing as **Hermes 4** chat models.
+Not the same as **Hermes 4** chat models.
 
-Install guide: [[../../setup/howto-hermes-setup]]
-Overview: vault `course/setup/Local LLM Coding with Hermes.md`
+Install: [[../../setup/howto-hermes-setup]]
 
 ---
 
 # Skills
 
-A skill = reusable instruction package (`SKILL.md`), loaded when needed.
+Reusable instruction package (`SKILL.md`), loaded when needed.
 
 Browse: `/skills` · Install: `hermes skills install …`
-Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills
 
-**Review third-party skills before install.** Skills Guard exists for a reason.
+Review third-party skills before install. Skills Guard exists for a reason.
+
+Guide: hermes-agent.nousresearch.com/docs/guides/work-with-skills
 
 ---
 
 # Security (defaults + laptop)
 
-- Do not run as root · do not expose the gateway publicly
-- Prefer Docker / sandbox for untrusted work
-- Mount only needed folders · never the whole private vault
+- Not root · gateway not public
+- Docker / sandbox for untrusted work
+- Mount only needed folders · not the private vault
 - Keys in Hermes env, never in synced notes
-- Approvals + repair limits + human review of the Git diff
+- Approvals · repair limits · review the Git diff
 
-Docs: https://hermes-agent.nousresearch.com/docs/user-guide/security  
-Work machine: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+Docs: hermes-agent.nousresearch.com/docs/user-guide/security
 
 ---
 
@@ -120,86 +116,85 @@ Then: models, local setup, chat links, install.
 
 ---
 
-# What models exist (short)
+# What models exist
 
 | Path | Role today |
 |---|---|
 | Proprietary cloud | Strongest agents, paid, data leaves |
-| Open weights (hosted) | Free/cheap smoke tests (e.g. Nemotron on OpenRouter) |
-| Local | Privacy experiments; Session 03 goes deeper |
+| Open weights (hosted) | Free/cheap smoke tests (Nemotron) |
+| Local | Privacy experiments · Session 03 |
 | Academic AU chat | Often **no** agent API key |
 
-Honesty note: [[../../setup/academic-ai-austria]]
+Honesty: [[../../setup/academic-ai-austria]]
 
 ---
 
 # Local models in Hermes
 
-1. Hermes Desktop → Providers → **Local Models**, or
-2. Ollama at `http://localhost:11434/v1`, or
-3. llama.cpp / vLLM / LM Studio custom endpoint
+1. Hermes Desktop → **Local Models**, or
+2. Ollama → `http://localhost:11434/v1`, or
+3. llama.cpp / vLLM / LM Studio endpoint
 
-Need: tool calling + enough context (≥64k for agent work).
+Need: tool calling + context ≥64k.
 
-Hardware cheat sheet: [[../../setup/howto-local-llm-hardware]]
+Hardware: [[../../setup/howto-local-llm-hardware]]
 
 ---
 
 # Subscription / API key
 
-Fast path: `hermes setup --portal` (Nous Portal OAuth)
+Fast path: `hermes setup --portal`
 
-Or: `hermes model` → OpenRouter / Anthropic / OpenAI / Google / …
+Or: `hermes model` → OpenRouter / Anthropic / OpenAI / Google
 
-Class free smoke test: OpenRouter `nvidia/nemotron-3-ultra-550b-a55b:free`
+Class free test: OpenRouter `nvidia/nemotron-3-ultra-550b-a55b:free`
 
-Put keys in `%LOCALAPPDATA%\hermes\.env` (Windows) or `~/.hermes/.env`. Never put keys in the vault.
+Keys in Hermes `.env` only. Never in the vault.
 
 ---
 
 # Connect chat
 
-| Platform | Hermes docs |
+| Platform | Setup |
 |---|---|
-| Telegram | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram |
-| Discord | …/messaging/discord |
-| Matrix | …/messaging/matrix |
-| **Signal** | …/messaging/signal (**yes**: via `signal-cli` HTTP daemon) |
+| Telegram | `hermes gateway setup` → Telegram |
+| Discord | same wizard → Discord |
+| Matrix | same wizard → Matrix |
+| **Signal** | **yes** · via `signal-cli` HTTP daemon |
 
-Setup wizard: `hermes gateway setup`  
 Always use allowlists / pairing on a personal laptop.
 
+Docs: hermes-agent.nousresearch.com/docs/user-guide/messaging/
+
 ---
 
-# Personal laptop: what to watch
+# Personal laptop
 
-1. Cloud provider = your code leaves the machine
-2. Local backend = **no** isolation (Hermes docs)
-3. Messaging gateway on always = attack surface
-4. Battery, heat, disk (models), and sync fights (Obsidian + agent)
+1. Cloud provider = code leaves the machine
+2. Local backend = **no** isolation
+3. Messaging gateway always on = attack surface
+4. Battery, heat, disk, sync fights
 5. Separate agent-writable folders from private notes
 
-Secure-on-laptop guide (link above).
+Guide: secure-hermes-on-a-work-machine (Hermes docs)
 
 ---
 
-# Practical now · Homework later
+# Practical · Homework
 
-**In class (start):** install Hermes → model/key → point at vault → one smoke-test note.
+**In class:** install Hermes → model/key → vault path → one smoke-test note.
 
-**Homework:** finish install · one Model/Harness/Wiki diagram · skim Karpathy gist **or** LangChain harness article.
+**Homework:** finish install · Model/Harness/Wiki diagram · skim Karpathy gist **or** LangChain harness article.
 
-How-to: [[../../setup/howto-hermes-setup]]  
-Coding efficiency (extra): [[../../setup/howto-hermes-efficient-coding]]
+[[../../setup/howto-hermes-setup]] · [[../../setup/howto-hermes-efficient-coding]]
 
 ---
 
-# References (sparse)
+# References
 
-- Hermes docs: https://hermes-agent.nousresearch.com/docs/
-- Providers: https://hermes-agent.nousresearch.com/docs/integrations/providers
-- Skills: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills
-- Karpathy LLM Wiki gist: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-- LangChain harness anatomy: https://www.langchain.com/blog/the-anatomy-of-an-agent-harness
-- Harness engineering README: https://github.com/q-qp-p/jrenaldi79-harness-engineering
-- Session file: [[../../sessions/02-agent-harness-and-wiki-architecture]]
+- Hermes docs · providers · skills · security
+- Karpathy LLM Wiki gist
+- LangChain harness anatomy
+- Harness engineering README (jrenaldi79)
+- Session: [[../../sessions/02-agent-harness-and-wiki-architecture]]
+- CSS: `cvc-slides.css` (vault snippet)

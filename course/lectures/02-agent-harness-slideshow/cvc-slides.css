@@ -1,0 +1,156 @@
+/* Critical Vibe Coding: Obsidian core Slides (reveal.js)
+   Copy into the vault: .obsidian/snippets/cvc-slides.css
+   Enable: Settings → Appearance → CSS snippets → cvc-slides
+   Knobs: .reveal font-size is the master scale. H1/H2/table sizes are em of that.
+*/
+
+.reveal {
+  --cvc-slide-bg: #000000;
+  --cvc-slide-fg: #f2f2f2;
+  --cvc-slide-muted: #a8a8a8;
+  --cvc-slide-line: #333333;
+  --cvc-slide-link: #c8c8c8;
+
+  background: var(--cvc-slide-bg);
+  color: var(--cvc-slide-fg);
+  /* Master scale. Obsidian default is ~2.5em and overflows. Aim ~32px body. */
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section,
+.reveal .slides > section {
+  padding: 1.1em 1.4em;
+  box-sizing: border-box;
+}
+
+/* Titles: readable, not a hero banner */
+.reveal h1 {
+  font-size: 1.35em;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.45em;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: var(--cvc-slide-fg);
+}
+
+.reveal h2 {
+  font-size: 0.95em;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.55em;
+  text-transform: none;
+  color: var(--cvc-slide-muted);
+}
+
+.reveal h3 {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 0.4em;
+  text-transform: none;
+  color: var(--cvc-slide-muted);
+}
+
+.reveal p,
+.reveal li {
+  font-size: 0.9em;
+  line-height: 1.35;
+  margin: 0.25em 0;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.35em 0 0.35em 1.1em;
+  padding: 0;
+}
+
+.reveal li + li {
+  margin-top: 0.2em;
+}
+
+.reveal blockquote {
+  margin: 0.4em 0;
+  padding: 0.35em 0 0.35em 0.7em;
+  border-left: 3px solid var(--cvc-slide-line);
+  background: transparent;
+  box-shadow: none;
+  width: auto;
+  font-size: 0.9em;
+  line-height: 1.35;
+}
+
+.reveal blockquote p {
+  margin: 0.15em 0;
+}
+
+.reveal strong {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.reveal a {
+  color: var(--cvc-slide-link);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.reveal code {
+  font-size: 0.82em;
+  background: #1a1a1a;
+  color: #f0f0f0;
+  padding: 0.05em 0.25em;
+  border-radius: 2px;
+}
+
+.reveal pre {
+  font-size: 0.7em;
+  max-height: 55vh;
+  overflow: auto;
+  background: #141414;
+  padding: 0.5em 0.65em;
+  margin: 0.4em 0;
+  box-shadow: none;
+  width: 100%;
+}
+
+/* Tables must shrink with the slide, not clip */
+.reveal table {
+  font-size: 0.72em;
+  width: 100%;
+  margin: 0.45em 0;
+  border-collapse: collapse;
+  line-height: 1.3;
+}
+
+.reveal th,
+.reveal td {
+  border: 1px solid var(--cvc-slide-line);
+  padding: 0.28em 0.45em;
+  vertical-align: top;
+  text-align: left;
+}
+
+.reveal th {
+  font-weight: 600;
+  color: #ffffff;
+  background: #141414;
+}
+
+.reveal td {
+  color: var(--cvc-slide-fg);
+}
+
+.reveal .controls,
+.reveal .progress {
+  color: var(--cvc-slide-muted);
+}
+
+.reveal .progress span {
+  background: #666666;
+}
