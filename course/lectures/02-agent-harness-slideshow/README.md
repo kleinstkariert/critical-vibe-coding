@@ -5,7 +5,6 @@ Markdown deck for the Obsidian **core Slides** plugin (`---` between slides), wi
 | File | Role |
 |---|---|
 | `02-agent-harness-and-hermes.md` | Teaching deck: day timeline + Hermes setup (Command Palette → **Start presentation**) |
-| `media/*.svg` | Image-only pause slides (original diagrams). Attribution: [[media/ATTRIBUTION]] |
 | `cvc-slides.css` | Reveal.js styles: copy to vault `.obsidian/snippets/cvc-slides.css` and enable under Appearance → CSS snippets |
 
 Comparison concept (not a deck): [[../../concepts/hermes-vs-coding-agents]]  
