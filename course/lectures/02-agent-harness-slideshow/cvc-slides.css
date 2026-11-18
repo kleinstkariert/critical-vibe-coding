@@ -150,6 +150,18 @@
   color: var(--cvc-slide-fg);
 }
 
+.reveal img {
+  max-height: 78vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 0.2em auto;
+  display: block;
+  background: #000000;
+  border: 0;
+  box-shadow: none;
+}
+
 .reveal .controls,
 .reveal .progress {
   color: var(--cvc-slide-muted);

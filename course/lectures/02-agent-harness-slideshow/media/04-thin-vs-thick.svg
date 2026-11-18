@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Thin vs thick">
+  <rect width="1600" height="900" fill="#000000"/>
+
+  <rect x="80" y="160" width="680" height="520" rx="12" fill="#141414" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="420" y="230" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">Thin</text>
+  <rect x="160" y="280" width="520" height="320" rx="8" fill="#0a0a0a" stroke="#b0b0b0" stroke-width="4"/>
+  <text x="420" y="420" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" text-anchor="middle">Chat window</text>
+  <text x="420" y="480" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" text-anchor="middle">text in · text out</text>
+  <rect x="840" y="160" width="680" height="520" rx="12" fill="#141414" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="1180" y="230" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">Thick</text>
+  <rect x="920" y="280" width="520" height="320" rx="8" fill="#0a0a0a" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="1180" y="400" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" text-anchor="middle">Agent workspace</text>
+  <text x="1180" y="460" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" text-anchor="middle">files · tools · checks</text>
+
+</svg>

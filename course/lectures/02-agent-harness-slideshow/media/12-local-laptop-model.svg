@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Local laptop model">
+  <rect width="1600" height="900" fill="#000000"/>
+  <rect x="200" y="300" width="400" height="220" rx="8" fill="#141414" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="400.0" y="426.8" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">Laptop</text>
+  <defs><marker id="loc" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 Z" fill="#e8e8e8"/></marker></defs>
+  <line x1="620" y1="410" x2="780" y2="410" stroke="#e8e8e8" stroke-width="6" marker-end="url(#loc)"/>
+  <rect x="800" y="300" width="520" height="220" rx="8" fill="#141414" stroke="#e8e8e8" stroke-width="6"/>
+  <text x="1060.0" y="424.0" fill="#f2f2f2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Local model server</text>
+  <text x="800" y="820" fill="#b0b0b0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" text-anchor="middle">Same machine · prompt can stay local</text>
+</svg>
