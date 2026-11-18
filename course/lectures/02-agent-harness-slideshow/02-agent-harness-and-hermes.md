@@ -9,7 +9,7 @@ css: cvc-slides
 # Session 02
 ## Agent harness and Hermes
 
-Critical Vibe Coding · 10:00 to 12:00
+Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
@@ -372,6 +372,143 @@ Risks that remain on a local setup:
 - sync tools can still copy secrets if you put them in notes
 
 Local inference mainly reduces the risk of sending code to a cloud model provider. You still need approvals and folder limits.
+
+---
+
+# Evidence
+
+The agent must provide evidence.
+
+The agent must not report success because the code looks correct.
+
+---
+
+# Procedure
+
+1. Define the task.
+2. Define success conditions.
+3. Inspect the project.
+4. Create a short plan.
+5. Approve the plan.
+6. Make one small change.
+7. Run the project checks.
+
+---
+
+# Procedure: repair and review
+
+8. Read the first failure.
+9. Make one correction.
+10. Run the failed check again.
+11. Stop after three repairs.
+12. Review the Git diff.
+13. Run the complete check.
+14. Review the result.
+15. Save the record.
+
+---
+
+# Verification evidence
+
+The agent must report:
+
+- Task
+- Acceptance conditions
+- Changed files
+- Commands used
+- Check results
+- Remaining failures
+- Remaining risks
+- Approval status
+
+---
+
+# Available checks
+
+Use the project’s available checks:
+
+- Tests
+- A build
+- A render
+- A media export
+- A visual comparison
+- A hardware test
+- A manual review
+
+Creative projects need human review.
+
+A passing code check cannot prove that an artwork works.
+
+---
+
+# Harness flow
+
+Task → Project inspection → Short plan → Human approval → Small change → Automatic checks → Failure feedback → Limited repair → Diff review → Full verification → Human approval
+
+Commands differ by tool. The principles stay the same.
+
+This flow works with Hermes, Claude Code, Cursor, and other agents.
+
+---
+
+# Security rules
+
+Security means preventing unwanted access and unwanted actions.
+
+An agent can read files, run commands, and change projects. An agent can therefore cause damage.
+
+[[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
+
+---
+
+# Security rules: list
+
+1. Do not run Hermes as root.
+2. Do not expose the gateway publicly.
+3. Use a sandbox for untrusted work.
+4. Mount only required folders.
+5. Keep private notes outside the workspace.
+6. Keep secrets outside the vault.
+7. Use approvals for dangerous actions.
+8. Use repair limits.
+9. Review the Git diff.
+10. Keep backups outside the agent workspace.
+
+---
+
+# Docker sandbox
+
+Docker runs software inside a container.
+
+A container is a restricted process environment. It can limit files, network, processes, CPU, memory, and user permissions.
+
+Docker does not provide perfect security.
+
+Use it with limited mounts, non-root users, and network controls.
+
+[[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]
+
+---
+
+# Docker example
+
+Short pattern for a restricted run:
+
+```bash
+docker run --rm \
+  --read-only \
+  --network none \
+  --cap-drop ALL \
+  --security-opt no-new-privileges \
+  --pids-limit 256 \
+  --memory 2g \
+  --cpus 2 \
+  --user 1000:1000 \
+  -v "$PWD":/work:rw \
+  your-image
+```
+
+Some tasks need network for dependencies. Enable only what the task requires.
 
 ---
 
