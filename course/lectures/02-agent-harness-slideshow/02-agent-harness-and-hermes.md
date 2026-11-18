@@ -21,31 +21,6 @@ Critical Vibe Coding · 10:00 to 12:00
 4. Hermes + harness → **5 min break** → more Hermes
 5. Practical install start · homework = finish install
 
----
-
-# Check-in
-
-Listen only. No fixing. No advice yet.
-
----
-
-# Student input
-## Flattening
-
-Thesis: **AI kills the underground and it kills diversity.**
-
-Include: AI and patriarchy · feminism and AI
-
-Deep dive: `flattening-and-the-norm.md`
-
----
-
-# Catch-up (Session 01)
-## An alternative AI as a commons
-
-Verdegem: commons · ecology · jobs · creative industry · semester practices
-
-Frame: structure and tools you control, not only bigger APIs.
 
 ---
 
@@ -197,4 +172,5 @@ Guide: secure-hermes-on-a-work-machine (Hermes docs)
 - LangChain harness anatomy
 - Harness engineering README (jrenaldi79)
 - Session: [[../../sessions/02-agent-harness-and-wiki-architecture]]
+- Comparison (optional): [[02-hermes-vs-coding-agents]]
 - CSS: `cvc-slides.css` (vault snippet)
