@@ -30,7 +30,7 @@ Academic AI (Austria): [[academic-ai-austria]]
 
 EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]
 
-Prompting + model choice: [[prompting-and-model-choice]]
+Prompting guide: [[Prompting Guide for Critical Vibe Coding]]
 
 **Student start page:** [[START-HERE]]
 
@@ -109,7 +109,7 @@ Decision of 9 Nov 2026: eight sessions. Cut sessions are archived, not deleted: 
 | What is **MCP** | [[what-is-mcp]] |
 | Hermes / Obsidian howtos | [[howto-hermes-setup]] · [[howto-obsidian-setup-and-sync]] |
 | Local hardware howto | [[howto-local-llm-hardware]] |
-| Prompting + model choice | [[prompting-and-model-choice]] |
+| Prompting guide | [[Prompting Guide for Critical Vibe Coding]] |
 | Course rhythm | [[course-rhythm]] |
 | Local hardware research | [[../../research/local-gpu-hardware-for-llms]] |
 | Course outline | [[course-outline]] |

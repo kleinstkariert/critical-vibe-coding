@@ -16,8 +16,8 @@ After the Hermes install in Session 02. **Buying hardware is optional**: this se
 
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
 - Match **open model size** to memory; leave with a personal "fits / doesn't fit" note
-- Prompting habits for agents: ICAO clearances and the tip list ([[../prompting-and-model-choice]])
-- **Chat / instruct versus reasoning**; thinking-off knobs (handout §§4 to 6)
+- Prompting habits for agents: [[../setup/Prompting Guide for Critical Vibe Coding]]
+- **Chat / instruct versus reasoning**; thinking-off knobs (guide §28)
 - Connect Hermes / Ollama / MLX to whatever students actually own (often: laptop + small model)
 
 ## Clock
@@ -36,24 +36,24 @@ Listen only: [[../course-rhythm#1-check-in-every-session]].
 
 ## Student input (theory / humanities): Closed versus open weights as power
 
-Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [[../prompting-and-model-choice]] · [[../../research/local-gpu-hardware-for-llms]] · Verdegem's commons essay ([[../lectures/01-welcome-landscape-deep-dives/bubble-economy]] §10). **Not** a GPU shopping list.
+Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [[../setup/Prompting Guide for Critical Vibe Coding]] · [[../../research/local-gpu-hardware-for-llms]] · Verdegem's commons essay ([[../lectures/01-welcome-landscape-deep-dives/bubble-economy]] §10). **Not** a GPU shopping list.
 
 ## Teacher input, Part A: hardware (~10 min), *practice*
 
 1. Memory math (Q4 ≈ 0.5 GB per billion parameters): board table from [[../../research/local-gpu-hardware-for-llms]]
 2. **Unified memory** (Apple, Spark) versus **VRAM** (GeForce) versus **multi-GPU split** (layer/tensor, not one big VRAM)
-3. Open models that make sense for agents (**tool calling** > raw chat), thinking off by default: [[../prompting-and-model-choice]]
+3. Open models that make sense for agents (**tool calling** > raw chat), thinking off by default: [[../setup/Prompting Guide for Critical Vibe Coding#28-chat-versus-reasoning-models]]
 4. Hermes paths: Local Models one-click · Ollama endpoint ([docs](https://hermes-agent.nousresearch.com/docs/user-guide/local-models))
 
 ## Teacher input, Part B: prompting and chat versus reasoning (~10 min), *practice*
 
-- **Prompting handout** (ICAO tips + chat packs → agent briefs + reasoning/thinking): [[../prompting-and-model-choice]]
-- Hermes ICAO skills: `icao-prompting` · `icao-project-comms` (vault `KnowledgeBaseObsidian/skills/`)
+- **Prompting guide** (task structure, chat packs → agent briefs, reasoning/thinking, STE80): [[../setup/Prompting Guide for Critical Vibe Coding]]
+- ICAO prompting skills are retired. Use STE80 and plain English status words (guide §§26 to 27).
 - OpenAI Academy: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role
-- Agent habits: goals, constraints, file paths, "do not invent", verify
-- **Reasoning versus chat:** default instruct/flash with thinking **off**; escalate for hard multi-step tasks; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`): [[../prompting-and-model-choice#4-chat-llms-vs-reasoning-models]]
-- **Structure / harness versus model quality:** [[../../research/structure-vs-model-quality]] · [[../what-is-harness]] · Session [[02-agent-harness-and-wiki-architecture]]
-- *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a token-cost knob (Tip C), not a status symbol
+- Agent habits: goals, constraints, file paths, "do not invent", verify; Hermes context: [[../setup/agents-md-template]]
+- **Reasoning versus chat:** default instruct/flash with thinking **off**; escalate for hard multi-step tasks; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`): [[../setup/Prompting Guide for Critical Vibe Coding#28-chat-versus-reasoning-models]]
+- **Structure / harness versus model quality:** [[../../research/structure-vs-model-quality]] · [[../concepts/what-is-harness]] · Session [[02-agent-harness-and-wiki-architecture]]
+- *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a token-cost knob, not a status symbol
 
 ## Practical (≥45 min)
 
@@ -87,6 +87,6 @@ Howto: [[../howto-local-llm-hardware]]
 | Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |
 | Ollama GPU | https://docs.ollama.com/gpu |
 | llama.cpp multi-GPU | https://github.com/ggml-org/llama.cpp/blob/master/docs/multi-gpu.md |
-| Prompting / thinking-off | [[../prompting-and-model-choice]] |
+| Prompting / thinking-off | [[../setup/Prompting Guide for Critical Vibe Coding]] |
 | Academic AI (not daily local) | [[../academic-ai-austria]] |
 | Earlier model-landscape session (archived) | [[archive-13-session-plan/03-models-prompting-install]] |

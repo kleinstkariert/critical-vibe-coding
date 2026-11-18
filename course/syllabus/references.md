@@ -34,7 +34,7 @@ Working bibliography for the seminar. Prefer primary sources in class; YouTube f
 Course how-to (Win / macOS / Linux): [[howto-hermes-setup]]  
 Short syllabus sheet: [[course-outline]]  
 What is a harness: [[what-is-harness]]  
-Prompting + model choice: [[prompting-and-model-choice]]  
+Prompting guide (chat versus reasoning, STE80, Hermes context): [[Prompting Guide for Critical Vibe Coding]]  
 Academic AI Austria: [[academic-ai-austria]]  
 Drivers / visions / fears / regulation (Session 01, 10–15 min): [[visions-fears-regulation]]  
 AI jobs — rising tide, Canaries, productivity × experience: [[../../research/ai-jobs-rising-tide-productivity]]  

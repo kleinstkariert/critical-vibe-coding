@@ -56,7 +56,7 @@ Students will be able to:
 |---|---|---|---|
 | 1 | Welcome + landscape | (groups choose topics) | Outdoor check-in; LLMs and agents; drivers, visions, fears, regulation; economy and the bubble; ecology; labour; media-art workflows; default setup. [[sessions/01-welcome-and-landscape]] · [[lectures/01-welcome-landscape-lecture]] |
 | 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free open model. [[sessions/02-agent-harness-and-wiki-architecture]] · [[what-is-harness]] |
-| 3 | Hardware, open models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, open models versus RAM; prompting; chat versus reasoning. [[sessions/03-hardware-open-models-prompting]] · [[howto-local-llm-hardware]] · [[prompting-and-model-choice]] |
+| 3 | Hardware, open models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, open models versus RAM; prompting; chat versus reasoning. [[sessions/03-hardware-open-models-prompting]] · [[howto-local-llm-hardware]] · [[Prompting Guide for Critical Vibe Coding]] |
 | 4 | **Midpoint:** project presentations | none | Students' semester plans + setup as it stands. [[sessions/04-project-presentations-and-plans]] |
 | 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [[sessions/05-knowledge-base-phone-discord]] · [[what-is-mcp]] |
 | 6 | Agent as interface, material, canvas | The ecology of AI | Setup, skills and tools as artistic material; interface score. [[sessions/06-agent-as-interface]] |
