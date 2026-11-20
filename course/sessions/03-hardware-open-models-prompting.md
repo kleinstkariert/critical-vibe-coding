@@ -1,14 +1,16 @@
 ---
-title: Session 03. Hardware paths, open models, prompting, chat versus reasoning
+title: Session 03. Practical install
 session: 3
-updated: 2026-11-10
+updated: 2026-11-20
 ---
 
-# Session 03. Hardware paths, open models versus RAM, prompting, chat versus reasoning
+# Session 03. Practical install
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
-After the Hermes install in Session 02. **Buying hardware is optional**: this session teaches *how*, so students can choose later. Prompting and chat versus reasoning come from the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]).
+Check-in, the student input below, then the install only. Slides: [[../lectures/03-practical-install-slideshow/03-practical-install]].
+
+**Buying hardware is optional**: this session teaches *how*, so students can choose later. Prompting and chat versus reasoning come from the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]). Hardware paths and prompting stay in the sections further down. They are reading for later.
 
 **Slot:** 10:00 to 12:00.
 
@@ -26,9 +28,15 @@ After the Hermes install in Session 02. **Buying hardware is optional**: this se
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
 | **10:20 to 10:35** | Student input: **closed versus open weights as power** ([[../course-rhythm]]) |
-| **10:35 to 10:55** | Teacher: memory math + hardware paths, then prompting and chat versus reasoning |
-| **10:55 to 11:05** | Break |
-| **11:05 to 12:00** | Practical tracks A/B/C below, plus one thinking on/off comparison |
+| **10:35 to 12:00** | Practical install only. Break about 10:55 to 11:05 ([[../course-rhythm]]). |
+
+One guide, from top to bottom. Do not copy the steps into this note.
+
+- Windows: [[../setup/install-windows]]
+- Linux: [[../setup/install-linux]]
+- macOS: [[../setup/install-mac]]
+
+Why this order: [[../setup/install-why]]. Starter vault and `SCHEMA.md`: [[../setup/starter-knowledge-base]].
 
 ## Check-in
 
@@ -57,6 +65,8 @@ Group (about 15 min). Who holds the power when the weights are secret, and who w
 
 ## Practical (≥45 min)
 
+The live install is the clock above. This block is hardware practice for later.
+
 Pick **one** track (pairs OK):
 
 | Track | Do |
@@ -73,7 +83,7 @@ Howto: [[../howto-local-llm-hardware]]
 
 ## Homework
 
-- Finish the software setup at home if class time ran out (flipped: deep DIY reading at home)
+- Finish the software setup at home if class time ran out (flipped: deep DIY reading at home): [[../setup/install-windows]] · [[../setup/install-linux]] · [[../setup/install-mac]]
 - Optional: skim one multi-GPU tutorial linked in the research note
 - Prepare a short project idea for Session 04 (project presentations and semester plans)
 
@@ -81,6 +91,9 @@ Howto: [[../howto-local-llm-hardware]]
 
 | What | Link |
 |---|---|
+| Install guides | [[../setup/install-windows]] · [[../setup/install-linux]] · [[../setup/install-mac]] · [[../setup/install-why]] |
+| Starter knowledge base | [[../setup/starter-knowledge-base]] |
+| Session 03 slides | [[../lectures/03-practical-install-slideshow/03-practical-install]] |
 | Research (ready-made, DIY, multi-GPU, models) | [[../../research/local-gpu-hardware-for-llms]] |
 | Student howto | [[../howto-local-llm-hardware]] |
 | Hermes Local Models | https://hermes-agent.nousresearch.com/docs/user-guide/local-models |
