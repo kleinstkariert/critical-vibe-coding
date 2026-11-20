@@ -157,11 +157,13 @@ Full **€6–10k** open-frame shopping lists (dual/triple 3090, dual 4090, 5090
 
 ---
 
-## 5. Open downloadable models — what makes sense
+## 5. Locally runnable models: what fits
 
 Prefer **instruct / tool-calling** builds for Hermes agents (plain chat models cannot drive tools reliably). Names age — check Ollama library / Hugging Face / Hermes catalog at class time.
 
-| Hardware you have | Sensible open models (*examples*) | Role |
+These rows are locally runnable models. The weights have to fit the machine. A free hosted endpoint is a different route: [[../course/lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
+
+| Hardware you have | Sensible locally runnable models (*examples*) | Role |
 |---|---|---|
 | 8–16 GB VRAM / 16–24 GB unified | Qwen3 4–8B, Llama 3.x 8B, Gemma 2 9B, Phi-class | Daily chat; light agent if tool-tuned |
 | 24 GB / 32–48 GB unified | Qwen3 14–32B, Gemma 27–31B tool models, DeepSeek-R1 **distill 14–32B** | Strong local agent; toggle thinking |

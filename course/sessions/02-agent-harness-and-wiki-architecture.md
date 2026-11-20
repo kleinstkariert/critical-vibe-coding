@@ -20,7 +20,7 @@ First **practice** session after Session 01. A student group opens with the **fl
 - Map harness parts to what students will actually configure (not vendor mythology)
 - Then specialise: **LLM Wiki + knowledge store** as the durable filesystem half of our harness
 - Short **model landscape**: what students can use, and what it costs (moved here from the old Session 03)
-- **Install Hermes**, point it at the vault, and run it on one free, open model
+- **Install Hermes**, point it at the vault, and run it on one free-to-use hosted endpoint ([[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4)
 - Leave with a mental diagram they can redraw for the midpoint and the final
 
 ## Clock
@@ -31,8 +31,8 @@ First **practice** session after Session 01. A student group opens with the **fl
 | **10:20 to 10:35** | Student input: **flattening** ([[../course-rhythm]]) |
 | **10:35 to 10:55** | Teacher: harness (general), then LLM Wiki / store structure |
 | **10:55 to 11:05** | Break |
-| **11:05 to 11:15** | Teacher: model landscape and the free model |
-| **11:15 to 12:00** | Install Hermes, connect the free model, vault smoke test |
+| **11:05 to 11:15** | Teacher: model landscape and the free-to-use endpoint |
+| **11:15 to 12:00** | Install Hermes, connect that endpoint, vault smoke test |
 
 If the install runs long, the diagram practice moves to homework.
 
@@ -158,15 +158,13 @@ From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]
 - **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [[../academic-ai-austria]]. Say explicitly what students can and cannot use.
 - Cloud or local, where the notes go: the flowchart in [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §3. Privacy and AI Act pointer: [[../eu-ai-act-and-datenschutz]].
 
-### The free model for today
+### The free-to-use endpoint for today
 
 *technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-- Open: weights under the permissive OpenMDW 1.1 licence. $0 per token. Tool calling and up to 1 million tokens of context (Hermes needs at least 64,000 and tool calling).
-- Limits: 20 requests per minute and 50 per day on a free account. Enough for a smoke test and light daily use, not for long agent runs.
-- Privacy: it is open, but in this setup it runs in the cloud. Free providers may log prompts. No private notes through it until the data policy is checked.
-- Fallback: the free plan of Nous Portal (`hermes setup --portal`, free models only), or students' own subscriptions or keys.
-- Details and sources: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
+- Openly distributed materials under OpenMDW-1.1 (weights, and NVIDIA's claim of data and recipes). The endpoint is free to use: $0 per token. Tool calling and up to 1 million tokens of context (Hermes needs at least 64,000 and tool calling).
+- Limits: 20 requests per minute and 50 per day on a free account. Enough for a smoke test and light daily use, not for long agent runs. Prompts may be logged. Too large for most student machines. Do not send private notes through it until you have checked the data policy. The route is a hosted cloud service: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
+- Fallback: the free plan of Nous Portal (`hermes setup --portal`, free-to-use hosted models only), or students' own subscriptions or keys.
 
 ## Practical: install Hermes (≥45 min)
 
@@ -184,7 +182,7 @@ If the install fails, label Model versus Harness on a product the student alread
 - Finish the Hermes install and smoke test if class time ran out: [[../howto-hermes-setup]]
 - One-page diagram: Model / Harness / Wiki folders (phone photo OK)
 - Skim the Karpathy gist **or** the LangChain harness article (pick one)
-- Next week: hardware paths, open models, prompting, chat versus reasoning ([[03-hardware-open-models-prompting]])
+- Next week: hardware paths, locally runnable models, prompting, chat versus reasoning ([[03-hardware-open-models-prompting]])
 
 ## Materials / References
 
@@ -204,7 +202,7 @@ If the install fails, label Model versus Harness on a product the student alread
 | Architecture overview | [[../setup/Local LLM Coding with Hermes]] |
 | Hermes install (Desktop + CLI) | [[../setup/howto-hermes-setup]] |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
-| Free model (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
+| Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
 | Model choice, academic access | [[../setup/Prompting Guide for Critical Vibe Coding]] · [[../setup/academic-ai-austria]] |
 | Flattening deep dive (student input) | [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] |
 | Session 01 lecture (model versus product versus agent) | [[../lectures/01-welcome-landscape-lecture]] |

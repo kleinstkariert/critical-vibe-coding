@@ -36,7 +36,7 @@ The tool names in this map are a *demonstration*. They are *not required for ass
 |---|---|---|
 | 1 | Welcome + political-economic landscape | (groups choose topics) |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening |
-| 3 | Hardware paths; open models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power |
+| 3 | Hardware paths; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power |
 | 4 | **Midpoint:** project presentations, semester plans | |
 | 5 | Vault practice, phone sync, Discord bridge, MCP | How dangerous is AI really? |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI |

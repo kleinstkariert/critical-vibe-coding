@@ -61,8 +61,8 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 | Week | Topic | Student input | What this session covers |
 |---|---|---|---|
 | 1 | Welcome + landscape | (groups choose topics) | Outdoor check-in; LLMs and agents; drivers, visions, fears, regulation; economy and the bubble; ecology; labour; media-art workflows; default setup. [[sessions/01-welcome-and-landscape]] · [[lectures/01-welcome-landscape-lecture]] |
-| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free open model. [[sessions/02-agent-harness-and-wiki-architecture]] · [[what-is-harness]] |
-| 3 | Hardware, open models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, open models versus RAM; prompting; chat versus reasoning. [[sessions/03-hardware-open-models-prompting]] · [[howto-local-llm-hardware]] · [[Prompting Guide for Critical Vibe Coding]] |
+| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free-to-use hosted endpoint. [[sessions/02-agent-harness-and-wiki-architecture]] · [[what-is-harness]] |
+| 3 | Hardware, locally runnable models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, locally runnable models versus RAM; prompting; chat versus reasoning. [[sessions/03-hardware-open-models-prompting]] · [[howto-local-llm-hardware]] · [[Prompting Guide for Critical Vibe Coding]] |
 | 4 | **Midpoint:** project presentations | none | Students' semester plans + setup as it stands. [[sessions/04-project-presentations-and-plans]] |
 | 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [[sessions/05-knowledge-base-phone-discord]] · [[what-is-mcp]] |
 | 6 | Agent as interface, material, canvas | The ecology of AI | Setup, skills and tools as artistic material; interface score. [[sessions/06-agent-as-interface]] |
@@ -80,7 +80,7 @@ Rhythm and student groups: [[course-rhythm]]. Cut sessions from the earlier 13-s
 | Role | Default | Notes |
 |---|---|---|
 | Agent | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) (MIT) | Not the Hermes 4 chat models. Installed in Session 02 |
-| Free model to start | NVIDIA Nemotron 3 Ultra via OpenRouter's free tier | Open weights (OpenMDW 1.1); rate-limited; runs in the cloud. [[lectures/01-welcome-landscape-deep-dives/default-setup]] §4 |
+| Free-to-use hosted endpoint | NVIDIA Nemotron 3 Ultra via OpenRouter | Openly distributed materials (OpenMDW-1.1). Rate-limited. Prompts may be logged. Too large for most student machines. The route is a hosted cloud service. [[lectures/01-welcome-landscape-deep-dives/default-setup]] §4 |
 | Notes / wiki | [Obsidian](https://obsidian.md/) + LLM Wiki habit | Phone sync via personal cloud (e.g. Nextcloud) |
 | Harness concept | Agent = Model + Harness | [[what-is-harness]] · Session 02 |
 | Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05 |

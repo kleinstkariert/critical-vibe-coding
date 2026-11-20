@@ -113,7 +113,7 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 - *verified fact (IEA):* Europe hosts about 15% of data-centre electricity use. Most frontier training and inference runs in the US and China.
 - Students in Austria mostly use models served from US clusters. The carbon is global; the water and smog stay in Texas, Virginia or Arizona.
-- Local and open models move part of the load onto your own hardware and grid, where you can see it. Sessions [[../../sessions/03-hardware-open-models-prompting|03]] and [[../../sessions/06-agent-as-interface|06]].
+- Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [[default-setup]] §4. Sessions [[../../sessions/03-hardware-open-models-prompting|03]] and [[../../sessions/06-agent-as-interface|06]].
 
 ---
 

@@ -72,7 +72,7 @@ Decision of 9 Nov 2026: eight sessions. Cut sessions are archived, not deleted: 
 |---|---|---|---|
 | 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [[sessions/01-welcome-and-landscape]] |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [[sessions/02-agent-harness-and-wiki-architecture]] |
-| 3 | **Hardware paths**; open models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [[sessions/03-hardware-open-models-prompting]] · [[../../research/local-gpu-hardware-for-llms]] |
+| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [[sessions/03-hardware-open-models-prompting]] · [[../../research/local-gpu-hardware-for-llms]] |
 | 4 | **Midpoint:** project presentations; students' semester plans | none | [[sessions/04-project-presentations-and-plans]] |
 | 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [[sessions/05-knowledge-base-phone-discord]] |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI | [[sessions/06-agent-as-interface]] |

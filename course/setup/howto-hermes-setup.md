@@ -135,9 +135,9 @@ hermes model
 
 You need **some** API / Portal access. Hermes itself is free/MIT; model usage is separate.
 
-### Free option used in class (Session 02)
+### Free-to-use endpoint used in class (Session 02)
 
-*technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra** through OpenRouter's free tier. Open weights (OpenMDW 1.1), $0 per token, tool calling, up to 1 million tokens of context.
+*technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra** through OpenRouter. The materials are openly distributed under OpenMDW-1.1. This route is a free-to-use hosted endpoint: $0 per token, tool calling, up to 1 million tokens of context.
 
 1. Create a free account and API key at https://openrouter.ai
 2. Add the key to the Hermes env file (`~/.hermes/.env`, on Windows `%LOCALAPPDATA%\hermes\.env`):
@@ -148,7 +148,7 @@ You need **some** API / Portal access. Hermes itself is free/MIT; model usage is
 
 3. Run `hermes model`, choose OpenRouter, then the model `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-Limits and privacy: 20 requests per minute and 50 per day on a free account. The model is open, but here it runs in the cloud, and free providers may log prompts: keep private notes away from it until you have checked the data policy. Fallback: the free plan of Nous Portal (`hermes setup --portal`). Background: [[lectures/01-welcome-landscape-deep-dives/default-setup]] §§3 to 4 · Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
+Limits and privacy: 20 requests per minute and 50 per day on a free account. Prompts may be logged. The model is too large for most student machines. Keep private notes away from it until you have checked the data policy. The route is a hosted cloud service: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4. Fallback: the free plan of Nous Portal (`hermes setup --portal`). Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
 
 ---
 
@@ -282,7 +282,7 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 ## 8. Checklist
 
 - [ ] Hermes Desktop **or** `hermes` CLI works after install (new terminal if CLI)
-- [ ] Model / Portal configured (`hermes setup --portal` or `hermes model` or free OpenRouter path)
+- [ ] Model / Portal configured (`hermes setup --portal` or `hermes model` or the free-to-use OpenRouter endpoint)
 - [ ] `.env` has absolute `OBSIDIAN_VAULT_PATH` and `WIKI_PATH` for **this** OS
 - [ ] Vault folder exists and syncs to the phone via Obsidian (not via Hermes)
 - [ ] Clear rule: which folders Hermes may write vs human-only (`SCHEMA.md` / `AGENTS.md`)

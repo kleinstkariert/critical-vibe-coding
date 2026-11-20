@@ -300,7 +300,7 @@ Practical. **Deep dive with the diagram explained part by part:** [[01-welcome-l
 1. **Knowledge store** with phone sync. Default Obsidian: [[../howto-obsidian-setup-and-sync]]. Alternatives: [[../knowledge-store-options]] · SilverBullet: [[../howto-silverbullet-setup-and-sync]].
 2. **Hermes Agent** pointed at that folder: [[../howto-hermes-setup]] (Windows, macOS, Linux). Installed together in Session 02.
 3. **LLM Wiki** structure (sources, wiki, schema): [[../llm-wiki-standard-files]] · [[../../research/karpathy-llm-wiki-and-openclaw]] · Obsidian versus Joplin: [[../../research/obsidian-vs-joplin-hermes-llmwiki]].
-4. **Model**: whatever access you prefer: [[../setup/Prompting Guide for Critical Vibe Coding]] · campus access: [[../setup/academic-ai-austria]] · local later: [[../setup/howto-local-llm-hardware]]. Free start: **Nemotron 3 Ultra through OpenRouter's free tier** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
+4. **Model**: whatever access you prefer: [[../setup/Prompting Guide for Critical Vibe Coding]] · campus access: [[../setup/academic-ai-austria]] · local later: [[../setup/howto-local-llm-hardware]]. Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
 5. **Harness** (next session): [[../what-is-harness]] · [[../sessions/02-agent-harness-and-wiki-architecture]] · tools and MCP: [[../what-is-mcp]] · checking the wiki: [[../what-is-lint]].
 
 ### Homework (say aloud)

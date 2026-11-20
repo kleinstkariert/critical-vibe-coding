@@ -19,7 +19,7 @@ tags:
 
 *reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [[minimum-path]].
 
-Block 8 of [[../01-welcome-landscape-lecture]]. The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free model to start Hermes with.
+Block 8 of [[../01-welcome-landscape-lecture]]. The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
 
 Labels: *verified fact* | *technical suggestion* | *course position*.
 
@@ -157,23 +157,37 @@ Three points to take away:
 2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([[../../llm-wiki-standard-files]]).
 3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [[../../sessions/03-hardware-open-models-prompting|03]] · [[../../howto-local-llm-hardware]].
 
-*verified fact (OpenRouter, Nov 2026):* Free endpoints are rate-limited, and their providers may log prompts. Check the data policy of a free model before you send private notes through it.
+*verified fact (OpenRouter, Nov 2026):* Free-to-use hosted endpoints are rate-limited, and their providers may log prompts. Check the data policy before you send private notes through one.
 
 ---
 
-## 4. A free model for Hermes
+## 4. A free-to-use hosted endpoint for the class
 
-To test Hermes without paying, the course suggests one free, open model. *technical suggestion*, checked 10 Nov 2026:
+Words for this route:
+
+- An **open-weight model** has published weights. A host can still run those weights for you.
+- An **openly distributed model** has published weights and, where the publisher releases them, the data and the recipes.
+- **Open model materials** are those files: weights, and where applicable the data and the recipes.
+- A **free-to-use hosted endpoint** is a cloud service that charges $0. Your prompt still goes to that provider.
+- A **locally runnable model** fits on a machine in front of you. The prompt stays on that machine.
+- A **self-hosted model** runs on a computer you control. That computer can be in the room or in a server room. It is not a vendor's free tier.
+- **Open-source software around a model** is the program that calls the model, such as Hermes. Its licence is not the model's licence.
+
+The model materials may be openly distributed, but this classroom route is still a hosted cloud service. Openness of weights does not determine where your prompt goes.
+
+An OpenRouter deployment of these materials is not private, and it is not sovereign.
+
+*technical suggestion*, checked 10 Nov 2026:
 
 **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-- *verified fact (OpenRouter, NVIDIA):* Released 4 June 2026. Weights published under OpenMDW 1.1, a permissive open licence. *claim (NVIDIA):* training data and recipes are published as well, which would make it more open than most "open-weight" models.
-- *verified fact (OpenRouter):* $0 per token, tool calling, context up to 1 million tokens, built for long agent tasks. Rate limits: 20 requests per minute, 50 requests per day (1,000 after a one-time credit purchase). Hermes needs at least 64,000 tokens of context and tool calling.
-- *verified fact (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for running Nemotron 3 Ultra free.
+- *verified fact (OpenRouter, NVIDIA):* Released 4 June 2026. Weights published under OpenMDW-1.1, a permissive open licence. *claim (NVIDIA):* training data and recipes are published as well. That is more open model materials than most open-weight releases.
+- *verified fact (OpenRouter):* This classroom path is a free-to-use hosted endpoint: $0 per token, tool calling, context up to 1 million tokens. Rate limits: 20 requests per minute, 50 requests per day (1,000 after a one-time credit purchase). Prompts may be logged. Hermes needs at least 64,000 tokens of context and tool calling.
+- *verified fact (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
 - Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [[../../howto-hermes-setup]].
-- 550 billion parameters (55 billion active per step): far too large for a laptop. The model is open, but in this setup it still runs in the cloud, so the privacy points in §3 apply.
+- 550 billion parameters (55 billion active per step). Too large for most student machines. The privacy points in §3 apply.
 
-Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free models only, no payment) or a small local model through Ollama if your computer has the memory (Session 03).
+Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use hosted models only, no payment) or a small locally runnable model through Ollama if your computer has the memory (Session 03).
 
 ---
 

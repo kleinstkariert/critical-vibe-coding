@@ -499,7 +499,7 @@ A **model provider** is the service or program that runs the model.
 | Path | What it means for you |
 |---|---|
 | **Proprietary cloud** | Strong agents, you pay, prompts leave your machine (OpenAI, Anthropic, Google, …) |
-| **Open weights, hosted** | Weights are public, but a host still runs them (example: free Nemotron on OpenRouter) |
+| **Open weights, hosted** | Weights are public, but a host still runs them (Nemotron on OpenRouter is a free-to-use hosted endpoint: [[../01-welcome-landscape-deep-dives/default-setup]] §4) |
 | **Local** | The model runs on your hardware. More privacy for the prompt. Needs enough memory. |
 | **Academic AU chat** | Campus chat UIs often have **no** agent API key. Do not expect Hermes to “just use” them. |
 
@@ -521,11 +521,11 @@ Session 03 goes deeper into hardware and prompting but also into the universe of
 
 ---
 
-# Local models in Hermes
+# Locally runnable models in Hermes
 
-**Local model** means inference runs on your machine (or your home server).
+Use a locally runnable model, or a self-hosted model on a computer you control. Words: [[../01-welcome-landscape-deep-dives/default-setup]] §4.
 
-Ways to attach a local model to Hermes:
+Ways to attach one to Hermes:
 
 1. Hermes Desktop → Providers → **Local Models** (managed runtime).
 2. **Ollama** as an OpenAI-compatible server at `http://localhost:11434/v1`.
@@ -540,7 +540,7 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
 
 # Subscription / API key
 
-Hermes Agent is free and open source. **Model use** is separate. You need a provider.
+Hermes Agent is open-source software around a model. **Model use** is separate. You need a provider.
 
 Fast path:
 
@@ -550,21 +550,21 @@ hermes setup --portal
 
 Or pick a provider in the UI / with `hermes model` (OpenRouter, Anthropic, OpenAI, Google, local, …).
 
-**Class free smoke test:** OpenRouter model `nvidia/nemotron-3-ultra-550b-a55b:free`
+**Class smoke test:** free-to-use hosted endpoint, OpenRouter model `nvidia/nemotron-3-ultra-550b-a55b:free`
 
 Put keys only in Hermes `.env` (Windows: `%LOCALAPPDATA%\hermes\.env`). Never put keys in the vault.
 
 ---
 
-# Free model limits
+# Free-to-use endpoint limits
 
-The free OpenRouter Nemotron path is for learning and a short smoke test.
+The OpenRouter Nemotron path is for learning and a short smoke test. It is a hosted cloud service. [[../01-welcome-landscape-deep-dives/default-setup]] §4.
 
-Limits on a free account are low (rate and daily caps change; check OpenRouter). Free hosts may log prompts.
+Limits on a free account are low (rate and daily caps change; check OpenRouter). Prompts may be logged. The model is too large for most student machines.
 
 **Do not send private artwork notes or secrets through a free cloud path until you accept that risk.**
 
-Fallback: Nous Portal free models via `hermes setup --portal`, or your own paid key, or a local model.
+Fallback: Nous Portal free-to-use hosted models via `hermes setup --portal`, or your own paid key, or a locally runnable model.
 
 Details: [[howto-hermes-setup]]
 

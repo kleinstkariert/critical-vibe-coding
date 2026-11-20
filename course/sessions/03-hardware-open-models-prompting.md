@@ -1,12 +1,12 @@
 ---
-title: Session 03. Hardware paths, open models, prompting, chat versus reasoning
+title: Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning
 session: 3
 updated: 2026-11-10
 ---
 
-# Session 03. Hardware paths, open models versus RAM, prompting, chat versus reasoning
+# Session 03. Hardware paths, locally runnable models versus RAM, prompting, chat versus reasoning
 
-*advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The input on closed versus open weights is required.
+*advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The input on closed versus open weights is required. *Locally runnable* is defined in [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
@@ -17,7 +17,7 @@ After the Hermes install in Session 02. **Buying hardware is optional**: this se
 ## Goals
 
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
-- Match **open model size** to memory; leave with a personal "fits / doesn't fit" note
+- Match a **locally runnable model** to memory; leave with a personal "fits / doesn't fit" note
 - Prompting habits for agents: [[../setup/Prompting Guide for Critical Vibe Coding]]
 - **Chat / instruct versus reasoning**; thinking-off knobs (guide §28)
 - Connect Hermes / Ollama / MLX to whatever students actually own (often: laptop + small model)

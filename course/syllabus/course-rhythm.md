@@ -56,8 +56,8 @@ Topics are fixed (9 Nov 2026) and chosen by the groups at the end of Session 01.
 
 | Session | Student input (theory / humanities) | Starting points | Teacher practice after (technical) |
 |---|---|---|---|
-| **02** | **Flattening.** AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. With AI and patriarchy, feminism and AI. | [[lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] | Harness; LLM Wiki structure; model landscape; **Hermes install** with a free model |
-| **03** | **Closed versus open weights as power.** Who holds the power when weights are secret, and who when they are public? | [[Prompting Guide for Critical Vibe Coding]] · [[../../research/local-gpu-hardware-for-llms]] | Hardware paths; open models versus RAM; prompting; chat versus reasoning |
+| **02** | **Flattening.** AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. With AI and patriarchy, feminism and AI. | [[lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] | Harness; LLM Wiki structure; model landscape; **Hermes install** with a free-to-use hosted endpoint |
+| **03** | **Closed versus open weights as power.** Who holds the power when weights are secret, and who when they are public? | [[Prompting Guide for Critical Vibe Coding]] · [[../../research/local-gpu-hardware-for-llms]] | Hardware paths; locally runnable models versus RAM; prompting; chat versus reasoning |
 | 04 | *No input:* project presentations and semester plans | | Presentations |
 | **05** | **How dangerous is AI really?** Case: the Hugging Face incident (July 2026) | [[sessions/05-knowledge-base-phone-discord]] (links to both incident reports) · [[visions-fears-regulation]] | Vault practice; phone sync; Discord bridge; MCP |
 | **06** | **The ecology of AI.** | [[lectures/01-welcome-landscape-deep-dives/ecology]] · [[../../research/data-centers-energy-ecology-economy]] | Agent as interface, as material, as canvas |

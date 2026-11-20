@@ -63,7 +63,7 @@ FAQ: https://ai-at.eu/en/faq/
 
 | Use | Fit |
 |---|---|
-| Fine-tune / train a small open model for a semester project | Possible *if* a project application succeeds — weeks of lead time |
+| Fine-tune / train a small open-weight model for a semester project | Possible *if* a project application succeeds — weeks of lead time |
 | Daily Hermes agent chat | **Poor fit** — HPC is not a Chat Completions API for students |
 | Run “our own” weights on EU machines | Closer — still ops-heavy; not the class default |
 

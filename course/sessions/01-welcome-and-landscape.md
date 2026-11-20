@@ -88,7 +88,7 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 5. **Ecology** (high): electricity, gas, water, neighbours. [[../lectures/01-welcome-landscape-deep-dives/ecology]]. Student input: Session 06.
 6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [[../lectures/01-welcome-landscape-deep-dives/labour]].
 7. **Media-art workflows:** five pressures and practices; flattening. [[../lectures/01-welcome-landscape-deep-dives/media-art-workflows]] · [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]].
-8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free model. [[../lectures/01-welcome-landscape-deep-dives/default-setup]] · [[../howto-obsidian-setup-and-sync]] · [[../howto-hermes-setup]]. Alternatives: [[../knowledge-store-options]].
+8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free-to-use hosted endpoint. [[../lectures/01-welcome-landscape-deep-dives/default-setup]] · [[../howto-obsidian-setup-and-sync]] · [[../howto-hermes-setup]]. Alternatives: [[../knowledge-store-options]].
 
 *Q&A after each point: collect open questions for the student inputs.*
 
