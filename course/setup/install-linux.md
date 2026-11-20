@@ -20,18 +20,84 @@ You install Hermes on your own laptop.
 
 Hermes Agent is the program that uses a model to read files and call tools. Hermes Desktop is the app window for that program.
 
-1. Open https://hermes-agent.nousresearch.com/desktop
-2. If that page offers a Linux download, install it. Then open the app.
-3. If it does not, install the command-line agent. Do not run the command as root.
+1. Open https://hermes-agent.nousresearch.com/desktop in your browser.
+2. Read the address bar. The host must be `hermes-agent.nousresearch.com`.
+3. Stop if the host is any other name.
+4. If that page offers a Linux download, save the file and open it. That file is a download you open.
+5. If the page has no Linux app, use a terminal for the command-line installer below.
+
+A terminal is a window where you type commands.
+
+1. Press the Super key. Super is the key with the logo.
+2. Type `Terminal`.
+3. Press Enter.
+4. On Ubuntu, you can also press Ctrl+Alt+T.
+
+Check the download address before you type a command.
+
+1. The host in the commands below must be `hermes-agent.nousresearch.com`.
+2. The address must start with `https://`.
+3. Stop if the host is different.
+
+The Hermes install page does not publish a checksum for `install.sh`. A checksum is a short fingerprint of a file. This course does not invent one. Page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+
+Use path B. Path A is the short path. It runs the script before you can read it.
+
+### Path A. Convenience
+
+1. Click the terminal window.
+2. Type `cd` and press Enter. You are in your home folder.
+3. Type the next line and press Enter. The script runs as soon as it downloads.
 
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-source ~/.bashrc
-hermes --help
 ```
 
-4. If the script succeeds and no window opened, run `hermes desktop`.
-5. Do not run Hermes as root.
+4. Do not type `sudo` before that line.
+
+### Path B. Inspectable
+
+1. Click the terminal window.
+2. Type `cd` and press Enter.
+3. Type the next line and press Enter. This saves `install.sh` in your home folder. It does not run it.
+
+```bash
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
+```
+
+4. Type `less install.sh` and press Enter. The script text fills the window.
+5. Press the space bar to move down.
+6. Press `q` to close the viewer.
+7. While you read, look for `curl` and `git clone` lines.
+8. Those hosts should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, or `github.com`.
+9. Stop if you see a different host.
+10. Type the next line and press Enter. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, from the Hermes install layout and from `install.sh`, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- Install log: `~/.hermes/logs/install.log`
+- A PATH line in `~/.bashrc` and `~/.profile` when your shell is bash
+
+1. Type `source ~/.bashrc` and press Enter.
+2. Type `hermes --help` and press Enter.
+3. If the shell says the command is missing, close the terminal and open a new one.
+4. Type `hermes --help` again.
+5. If no window opened, type `hermes desktop` and press Enter.
+6. Do not run Hermes as root.
+
+Uninstall, from https://hermes-agent.nousresearch.com/docs/getting-started/updating :
+
+1. Open a terminal.
+2. Type `hermes uninstall --dry-run` and press Enter. This lists files. It does not delete them.
+3. Type `hermes uninstall` and press Enter to remove the program and keep your data.
+4. Type `hermes uninstall --full` only when you also want `~/.hermes/` deleted.
 
 Edge cases, including WSL and Docker, stay in [[howto-hermes-setup]] §2. Install page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
 

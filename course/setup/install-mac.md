@@ -33,15 +33,77 @@ Hermes Desktop is Apple Silicon only. An Intel Mac uses the command-line install
 
 ### Intel Mac
 
-1. Run the installer. Do not use `sudo`.
+There is no Desktop app for this Mac. Use Terminal.
+
+1. Press Command and the space bar together.
+2. Type `Terminal`.
+3. Press Return.
+4. A window opens. You type at the blinking cursor.
+
+You can also open Finder, click Go, click Utilities, and double-click Terminal.
+
+Check the address before you download.
+
+1. The host in the commands below must be `hermes-agent.nousresearch.com`.
+2. The address must start with `https://`.
+3. Stop if the host is different.
+
+The Hermes install page does not publish a checksum for `install.sh`. A checksum is a short fingerprint of a file. This course does not invent one. Page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+
+Use path B. Path A is the short path. It runs the script before you can read it.
+
+#### Path A. Convenience
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return. Do not type `sudo` before it.
 
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-source ~/.zshrc
-hermes --help
 ```
 
-2. Use `hermes` in the terminal for the steps below. There is no Desktop app for this Mac.
+#### Path B. Inspectable
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return. This saves `install.sh` in your home folder. It does not run it.
+
+```bash
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
+```
+
+4. Type `less install.sh` and press Return.
+5. Press the space bar to move down.
+6. Press `q` to close the viewer.
+7. While you read, look for `curl` and `git clone` lines.
+8. Those hosts should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, or `github.com`.
+9. Stop if you see a different host.
+10. Type the next line and press Return. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, from the Hermes install layout and from `install.sh`, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- Install log: `~/.hermes/logs/install.log`
+- A PATH line in `~/.zshrc` and `~/.zprofile` when your shell is zsh
+
+1. Type `source ~/.zshrc` and press Return.
+2. Type `hermes --help` and press Return.
+3. If the shell says the command is missing, quit Terminal and open it again.
+4. Type `hermes --help` again.
+5. Use `hermes` in Terminal for the steps below.
+
+Uninstall, from https://hermes-agent.nousresearch.com/docs/getting-started/updating :
+
+1. Open Terminal.
+2. Type `hermes uninstall --dry-run` and press Return. This lists files. It does not delete them.
+3. Type `hermes uninstall` and press Return to remove the program and keep your data.
+4. Type `hermes uninstall --full` only when you also want `~/.hermes/` deleted.
 
 Install page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
 

@@ -32,6 +32,25 @@ Architecture / security overview (course): [[Local LLM Coding with Hermes]]
 
 *technical suggestion for class:* install **Hermes Desktop** when your OS supports it. You get a GUI agent workspace (chat, skills, tools) without living only in the terminal. CLI still works and shares the same config.
 
+The Desktop package is a file you open. It is not a script piped into a shell. Prefer it when the download page offers it.
+
+## Read the installer before you run it
+
+A pipe sends a downloaded script straight into a shell. The shell runs it before you can read it.
+
+Each command-line install below has two paths.
+
+- Path A is the convenience path. The pipe stays there.
+- Path B saves the script, shows it, then runs it.
+
+Use path B.
+
+The Hermes install page does not publish a checksum for `install.sh` or `install.ps1`. A checksum is a short fingerprint of a file. This course does not invent one. Page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+
+The script does check the uv tool it downloads. That check does not prove that `install.sh` or `install.ps1` is the file from the official page. Read the saved file.
+
+While you read, look for `curl`, `irm`, and `git clone` lines. The host should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, or `github.com`. Stop if you see a different host.
+
 ### Windows
 
 #### Option A. Hermes Desktop (recommended UI)
@@ -43,15 +62,61 @@ Architecture / security overview (course): [[Local LLM Coding with Hermes]]
 
 #### Option B. CLI only (PowerShell)
 
+1. Click the Start button.
+2. Type `Windows Terminal`.
+3. Press Enter.
+4. If Windows Terminal is not in the list, type `PowerShell` and press Enter.
+5. You type at the blinking cursor. Do not start the window as Administrator.
+
+The host must be `hermes-agent.nousresearch.com`. Stop if it is not.
+
+##### Path A. Convenience
+
+1. Click the terminal window.
+2. Type the next line and press Enter. The script runs as soon as it downloads.
+
 ```powershell
 iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 ```
 
-Then **open a new terminal** (PATH updates to `%LOCALAPPDATA%\hermes\bin`).
+`irm` downloads the text. `iex` runs that text. You do not see the script first.
+
+##### Path B. Inspectable
+
+1. Click the terminal window.
+2. Type `cd $HOME` and press Enter.
+3. Type the next line and press Enter. This saves `install.ps1` in your home folder. It does not run it.
 
 ```powershell
-hermes --help
+curl.exe -fsSL https://hermes-agent.nousresearch.com/install.ps1 -o install.ps1
 ```
+
+4. Type `notepad install.ps1` and press Enter. Notepad opens the script.
+5. Read the script. Close Notepad.
+6. Type the next line and press Enter.
+
+```powershell
+powershell -NoProfile -File .\install.ps1
+```
+
+What the Windows script changes, from the Hermes install layout and from `install.ps1`, checked 20 Nov 2026:
+
+- Program files: `%LOCALAPPDATA%\hermes\hermes-agent\`
+- Commands: `%LOCALAPPDATA%\hermes\bin\`
+- Your Hermes data: `%LOCALAPPDATA%\hermes\`
+- It adds that `bin` folder to your user `Path`
+
+1. Close the terminal.
+2. Open Windows Terminal again.
+3. Type `hermes --help` and press Enter.
+
+Uninstall, from https://hermes-agent.nousresearch.com/docs/user-guide/windows-native :
+
+1. Open Windows Terminal.
+2. Type `hermes uninstall --dry-run` and press Enter. This lists files. It does not delete them.
+3. Type `hermes uninstall` and press Enter to remove the program and keep your data.
+4. Type `hermes uninstall --full` only when you also want the data folder deleted.
+5. A Store or MSIX app is removed in Settings, Apps, Installed apps. The script uninstaller does not remove that package.
 
 Windows native notes: https://hermes-agent.nousresearch.com/docs/user-guide/windows-native  
 Default data home: `%LOCALAPPDATA%\hermes\`
@@ -70,19 +135,53 @@ Default data home: `%LOCALAPPDATA%\hermes\`
 
 #### Option B. CLI (Apple Silicon or when Desktop is unavailable)
 
+1. Press Command and the space bar together.
+2. Type `Terminal`.
+3. Press Return.
+
+##### Path A. Convenience
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return. Do not type `sudo` before it.
+
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 ```
 
-Reload the shell, then check:
+##### Path B. Inspectable
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return.
 
 ```bash
-source ~/.zshrc   # or ~/.bashrc
-hermes --help
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
 ```
 
+4. Type `less install.sh` and press Return.
+5. Press the space bar to move down. Press `q` to close the viewer.
+6. Type the next line and press Return. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- A PATH line in `~/.zshrc` and `~/.zprofile` when your shell is zsh
+
+1. Type `source ~/.zshrc` and press Return. On bash, type `source ~/.bashrc` instead.
+2. Type `hermes --help` and press Return.
+3. If the command is missing, quit Terminal, open it again, and type `hermes --help`.
+
+Uninstall: type `hermes uninstall --dry-run`, then `hermes uninstall`. Use `hermes uninstall --full` only when you also want `~/.hermes/` deleted. Docs: https://hermes-agent.nousresearch.com/docs/getting-started/updating
+
 Default data home: `~/.hermes/`  
-CLI launcher typically: `~/.local/bin/hermes` (ensure that directory is on your `PATH`).
+CLI launcher typically: `~/.local/bin/hermes` (that directory must be on your `PATH`).
 
 Optional after CLI install:
 
@@ -96,11 +195,49 @@ hermes desktop
 
 CLI is the primary path (Desktop may be available via source/`hermes desktop` depending on release: prefer the documented script first).
 
+1. Press the Super key.
+2. Type `Terminal`.
+3. Press Enter.
+
+##### Path A. Convenience
+
+1. Click the terminal window.
+2. Type `cd` and press Enter.
+3. Type the next line and press Enter. Do not type `sudo` before it.
+
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-source ~/.bashrc   # or ~/.zshrc
-hermes --help
 ```
+
+##### Path B. Inspectable
+
+1. Click the terminal window.
+2. Type `cd` and press Enter.
+3. Type the next line and press Enter.
+
+```bash
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
+```
+
+4. Type `less install.sh` and press Enter.
+5. Press the space bar to move down. Press `q` to close the viewer.
+6. Type the next line and press Enter. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- A PATH line in `~/.bashrc` and `~/.profile` when your shell is bash
+
+1. Type `source ~/.bashrc` and press Enter. On zsh, type `source ~/.zshrc` instead.
+2. Type `hermes --help` and press Enter.
+
+Uninstall: type `hermes uninstall --dry-run`, then `hermes uninstall`. Use `hermes uninstall --full` only when you also want `~/.hermes/` deleted. Docs: https://hermes-agent.nousresearch.com/docs/getting-started/updating
 
 **Prerequisites (*verified fact* from install docs):** Git, curl, tar, SHA-256 utilities. Source installs use a managed Python via PM. On minimal Debian/Ubuntu/RHEL images, `libatomic` may be required for managed Node (`libatomic1` on apt).
 
