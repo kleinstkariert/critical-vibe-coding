@@ -291,26 +291,29 @@ Limits and privacy: 20 requests per minute and 50 per day on a free account. The
 
 | Platform | Env file | Example absolute paths |
 |---|---|---|
-| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\Users\you\Nextcloud\MyVault` |
-| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/MyVault` or `/home/you/Nextcloud/MyVault` |
+| Windows | `%LOCALAPPDATA%\hermes\.env` | `WIKI_PATH=C:\Users\you\Nextcloud\MyVault\wiki` |
+| macOS / Linux | `~/.hermes/.env` | `WIKI_PATH=/Users/you/Nextcloud/MyVault/wiki` or `/home/you/Nextcloud/MyVault/wiki` |
 
 ```env
 # Absolute paths. Do not put $variables inside paths Hermes file tools will use.
-OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault
-WIKI_PATH=/absolute/path/to/your/vault
+OBSIDIAN_VAULT_PATH=/absolute/path/to/MyVault/wiki
+WIKI_PATH=/absolute/path/to/MyVault/wiki
 ```
 
 **Important:**
 
 - Use a **real absolute path**. File tools do not expand `$OBSIDIAN_VAULT_PATH` in path arguments.
-- For a dedicated LLM Wiki inside the vault later, set both paths to e.g. `.../KnowledgeBaseObsidian/wiki` (create that folder first). Hybrid pattern: agent owns `wiki/`, you own artistic project notes elsewhere.
+- Obsidian still opens the whole vault. These two Hermes paths point at `wiki/`.
+- The first folders for Hermes are `wiki/`, a disposable folder such as `hermes-smoke-test`, and project folders you name in the request.
+- A folder name is not a security boundary. The access table is in [[starter-knowledge-base]].
+- A full-vault path is convenience mode, not recommended for private material.
 - Restart Hermes (or Desktop) after changing `.env`.
 
 ### Vault path vs AgentShare (two layers)
 
 | Layer | What students do in class | Safer hardening later |
 |---|---|---|
-| **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` / `WIKI_PATH` at the vault (or `wiki/`) so Hermes can edit notes | Narrow to an agent-writable subfolder when you are ready |
+| **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` and `WIKI_PATH` at `MyVault/wiki` | A full-vault path is convenience mode, not recommended for private material |
 | **Docker / sandbox mounts** | Optional. Overview [[Local LLM Coding with Hermes]] recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
 
 The smoke test uses a new folder named `hermes-smoke-test` in your home folder. It does not use the vault. The vault path in `.env` is for later note work. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [[howto-obsidian-setup-and-sync]].
@@ -419,7 +422,7 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 ## 6. LLM Wiki layout (when you turn it on)
 
 ```text
-wiki/   (or whole vault if WIKI_PATH = vault)
+wiki/
   SCHEMA.md   (or AGENTS.md / CLAUDE.md; co-evolve with the agent)
   index.md
   log.md
@@ -429,6 +432,8 @@ wiki/   (or whole vault if WIKI_PATH = vault)
   comparisons/
   queries/
 ```
+
+The default `WIKI_PATH` is `MyVault/wiki`. A full-vault path is convenience mode, not recommended for private material.
 
 Session habit: read schema + index + recent log before ingest/query/lint.
 

@@ -196,12 +196,20 @@ Do not put the key in the vault, in chat, or in Git.
 2. Install one package type and keep it. Create a vault. A vault is the folder of notes Obsidian opens.
 3. Set up phone sync. Follow [[howto-obsidian-setup-and-sync]]. Do not copy that page into this one.
 4. Copy the starter tree and the `SCHEMA.md` stub from [[starter-knowledge-base]].
-5. In `~/.hermes/.env`, set both paths to that vault folder. Use the full Linux path.
+5. In `~/.hermes/.env`, set both paths to the `wiki` folder inside that vault. Use the full Linux path.
 
 ```env
-OBSIDIAN_VAULT_PATH=/home/you/Nextcloud/MyVault
-WIKI_PATH=/home/you/Nextcloud/MyVault
+OBSIDIAN_VAULT_PATH=/home/you/Nextcloud/MyVault/wiki
+WIKI_PATH=/home/you/Nextcloud/MyVault/wiki
 ```
+
+Obsidian still opens the whole vault. These two Hermes paths point at `wiki/`.
+
+The first folders for Hermes are `wiki/`, the `hermes-smoke-test` folder in the steps below, and project folders you name in the request.
+
+A folder name is not a security boundary. The access table is in [[starter-knowledge-base]].
+
+A full-vault path is convenience mode, not recommended for private material.
 
 6. Quit Hermes and open it again.
 7. Open a terminal the way section 1 says.

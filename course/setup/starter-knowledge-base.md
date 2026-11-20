@@ -62,7 +62,7 @@ Folder names are not a lock. The course states that in [[Local LLM Coding with H
 | `private/` | Must not read. Must not write. | Journal, health, and finance stay here. |
 | Keys, passwords, `.env` | Must not read. | Do not put them in the vault, including `private/`. |
 
-Point `WIKI_PATH` at `MyVault` only after `SCHEMA.md` exists. The path steps are in [[howto-hermes-setup]] §4.
+Point `WIKI_PATH` at `MyVault/wiki`. The path steps are in [[howto-hermes-setup]] §4. A full-vault path is convenience mode, not recommended for private material.
 
 ## SCHEMA.md stub
 
