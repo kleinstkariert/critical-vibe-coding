@@ -1,5 +1,7 @@
 # What is an MCP?
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *verified fact* or *technical suggestion*.
 
 ## One sentence

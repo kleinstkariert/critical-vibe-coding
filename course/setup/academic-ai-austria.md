@@ -9,6 +9,8 @@ tags:
 
 # Academic AI in Austria — access for this course
 
+*optional extension* for a paid API key or a local model. *not required for assessment.* A free cloud agent is enough for [[minimum-path]]. Any one agent plus one folder meets that path.
+
 English course note. Official portals may be German/English. Labels: *verified fact* | *technical suggestion* | *todo*.
 
 Use with: session [[sessions/02-agent-harness-and-wiki-architecture]] (model landscape) · hardware [[../../research/local-gpu-hardware-for-llms]] · regulation [[eu-ai-act-and-datenschutz]].

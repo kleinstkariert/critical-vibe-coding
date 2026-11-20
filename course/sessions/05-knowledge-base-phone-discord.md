@@ -6,6 +6,8 @@ updated: 2026-11-10
 
 # Session 05. Vault practice, phone sync, Discord bridge, MCP
 
+*optional extension. Not required for assessment.* Phone sync, Discord, and MCP are not required. Any one agent plus one folder meets [[minimum-path]]. The input on how dangerous AI is is required.
+
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 
 **Slot:** 10:00 to 12:00.

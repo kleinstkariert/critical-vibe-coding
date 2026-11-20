@@ -7,6 +7,8 @@ updated: 2026-11-10
 
 # Session 07. Coding with agents across creative stacks
 
+*optional extension* for coding across stacks, CAD/3D, and a bridge to another application. *not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The privacy input is required. This session is still a proposal.
+
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 
 **Status: to be decided.** Sebastian's map has Session 07 open, with coding still missing from the course. This file is a **proposal**: coding with an agent, in the stack each student actually uses, built from the old Session 08 (creative stacks), the CAD/3D table of the old Session 06 and the studio time of the old Session 12. The student input on privacy is fixed.

@@ -11,6 +11,8 @@ tags:
 
 Interface Cultures · short public / syllabus sheet. Full session notes: [[timeline]]. Labels: *requirement* | *todo*.
 
+Required work: [[minimum-path]], plus the student input presentations. Tool names on this page are a *demonstration* or an *optional extension*. They are *not required for assessment*. No purchase is required. Alternatives are allowed.
+
 *Inspired in form by* [HKUST AMCC6500, Critical AI and Artistic Creation](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) *(Giannoutakis)*: weekly topic + one-line cover, not a copy of their themes.
 
 ---
@@ -21,7 +23,7 @@ Hands-on seminar: students build and run a personal LLM-agent setup while unpack
 
 "Vibe coding" is not taught as a frictionless shortcut. The course asks when AI helps, when it wastes time, which models and infrastructures fit a task, and how authorship, labour, platform dependency and ecology shift when an **agent** sits between you and the stack. The agent itself is treated as interface material for media-art practice, not only as a means to an output.
 
-**Eight sessions**, each **10:00 to 12:00** (120 min, short break). Each opens with a **listen-only check-in**. In Sessions 02, 03, 05, 06 and 07 a student group (about 15 min) brings a **humanities** question; the teacher leads **technical practice** after. Full rhythm + clocks: [[course-rhythm]]. Midpoint (Session 04) and final (Session 08): **working personal setup** + critical reflection.
+**Eight sessions**, each **10:00 to 12:00** (120 min, short break). Each opens with a **listen-only check-in**. In Sessions 02, 03, 05, 06 and 07 a student group (about 15 min) brings a **humanities** question; the teacher leads **technical practice** after. Full rhythm + clocks: [[course-rhythm]]. Midpoint (Session 04) and final (Session 08): **working personal setup** + critical reflection. The setup that assessment uses is [[minimum-path]].
 
 *requirement (brief):* visual/node environments, GUI tools, text coding and 3D/CAD; criteria for useful versus unnecessary AI; proprietary cloud versus local/open infra; shared space for hopes, fears and authorship questions.
 
@@ -36,6 +38,8 @@ Students will be able to:
 3. Translate prompts across stacks (code, node, CAD/3D) and document where the agent helps and where it fails.
 4. Articulate authorship, labour, platform and ecological questions in relation to their own practice.
 5. Present the **setup** (architecture + one artistic/research use) as the main deliverable, not a polished exhibition by default.
+
+Outcome 1 names a demonstrated stack. Hermes, Obsidian, a wiki, and MCP are an *optional extension*. They are *not required for assessment*. Outcome 3, across code, node, and CAD/3D, is an *optional extension*. The required technical work is [[minimum-path]].
 
 ---
 
@@ -68,6 +72,8 @@ Rhythm and student groups: [[course-rhythm]]. Cut sessions from the earlier 13-s
 ---
 
 ## Software and platforms (default stack)
+
+*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
 
 | Role | Default | Notes |
 |---|---|---|

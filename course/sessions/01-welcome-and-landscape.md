@@ -6,6 +6,8 @@ updated: 2026-11-10
 
 # Session 01. Welcome outdoors + political-economic lecture
 
+The homework names one default stack. That stack is a *demonstration* and an *optional extension*. It is *not required for assessment*. Any one agent plus one folder meets [[minimum-path]]. The input-topic choice is required.
+
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
 **Slot:** 10:00 to 12:00 (120 min). Break about 5 to 10 min when the room needs it.

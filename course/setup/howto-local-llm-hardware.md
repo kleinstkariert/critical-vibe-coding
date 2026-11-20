@@ -13,6 +13,8 @@ tags:
 Student-facing. Deep research tables: [[../../research/local-gpu-hardware-for-llms]]. Session: [[sessions/03-hardware-open-models-prompting]].  
 Labels: *technical suggestion* | *verified fact*. **No one must buy hardware for this course.**
 
+*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 ---
 
 ## 0. Pick a path (5 minutes)

@@ -6,6 +6,8 @@ updated: 2026-11-10
 
 # Session 04. Midpoint: project presentations and semester plans
 
+The presentation is required. Show [[minimum-path]]: one agent, one folder, one task, your record, and your review. Hermes, a wiki file set, and lint are an *optional extension*. They are *not required for assessment*.
+
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 
 **Slot:** 10:00 to 12:00. Presentations dominate; no student input this session.

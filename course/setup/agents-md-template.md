@@ -9,6 +9,8 @@ tags:
 
 # Template: `AGENTS.md` for your project
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 Copy this file to the **root of your project repo** as `AGENTS.md`.  
 Hermes (and many coding agents) load it automatically. See [[howto-hermes-efficient-coding]].
 

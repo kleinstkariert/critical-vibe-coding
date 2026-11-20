@@ -1,5 +1,7 @@
 # Session 02 slideshow (Obsidian Slides)
 
+*demonstration.* The Hermes steps in this deck are an *optional extension*. They are *not required for assessment*. Any one agent plus one folder meets [[minimum-path]].
+
 Markdown deck for the Obsidian **core Slides** plugin (`---` between slides), with vault CSS for readable sizing.
 
 | File | Role |

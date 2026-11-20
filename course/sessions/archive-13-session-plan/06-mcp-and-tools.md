@@ -5,6 +5,8 @@ session: 6
 
 # Session 06 — MCP and tools — one interface to many systems
 
+*optional extension. Not required for assessment.* This file is an archived session. MCP, CAD, and 3D are not required. Any one agent plus one folder meets [[minimum-path]].
+
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
 **Slot:** 10:00–12:00.

@@ -1,5 +1,7 @@
 # Knowledge store options
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. Phone sync is part of this extension. It is not required to complete the course.
+
 **Working title.** Other names that also fit: “Where notes live”, “Note tools for agent workflows”. This note compares three places to keep an agent-readable (and human-readable) knowledge base for Critical Vibe Coding / personal practice.
 
 **Requirement (owner, 2026-10-15):** **Phone sync is mandatory.** A knowledge base that only lives on the laptop is not enough for today’s normal practice (read/capture on the phone, work on the PC).

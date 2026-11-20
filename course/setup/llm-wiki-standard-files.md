@@ -8,6 +8,8 @@ tags:
 
 # LLM Wiki — standard files and folders
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. A full wiki file set is not required.
+
 What lives in a Karpathy-style wiki directory. Labels: *verified fact* | *technical suggestion*.
 
 Canonical pattern: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).  

@@ -1,5 +1,7 @@
 # How to: Obsidian setup and sync
 
+*optional extension. Not required for assessment.* Phone sync is not required to complete the course. Any one agent plus one folder meets [[minimum-path]]. The steps below are one demonstrated path.
+
 Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux**.
 
 *requirement:* **Phone sync is mandatory** (work on computer, read/capture on phone). Course decision: **Obsidian** as the class note app — sync via personal cloud (e.g. Nextcloud) **without** each student running a server. Joplin is not kept only to practice MCP.

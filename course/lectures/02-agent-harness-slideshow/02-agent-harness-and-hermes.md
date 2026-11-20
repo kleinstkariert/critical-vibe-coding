@@ -13,6 +13,8 @@ Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
+*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 ---
 
 # Today

@@ -1,5 +1,7 @@
 # How to: SilverBullet setup and sync
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 Practical guide for **personal** SilverBullet / Hermes experiments on **Windows**, **macOS**, and **Linux**. Companion to [[howto-obsidian-setup-and-sync]] and [[knowledge-store-options]].
 
 *requirement for the course:* **phone sync.** SilverBullet’s smooth phone path needs a **Server that stays up** — too heavy to require of every student. **Class default remains Obsidian + Nextcloud.** Use this how-to if *you* self-host; do not set it as the student baseline.

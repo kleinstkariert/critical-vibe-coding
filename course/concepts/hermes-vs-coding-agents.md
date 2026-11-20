@@ -12,6 +12,8 @@ tags:
 
 # Hermes vs coding agents vs always-on assistants
 
+*optional extension.* Hermes as the default in the table below is a *demonstration*. It is *not required for assessment*. Any one agent plus one folder meets [[minimum-path]].
+
 Fair comparison for Critical Vibe Coding. Labels: *verified fact* | *claim* | *technical suggestion*.
 
 Related: [[what-is-harness]] · [[what-is-mcp]] · [[../setup/howto-hermes-setup]] · [[../setup/howto-hermes-efficient-coding]] · [[../setup/howto-opencode-setup]] · [[../setup/howto-hermes-opencode-pairing]] · slides [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]]

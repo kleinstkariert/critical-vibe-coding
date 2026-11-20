@@ -11,6 +11,14 @@ tags:
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
 This page is the on-ramp. Everything else hangs off the [course outline](syllabus/course-outline.md) and [session notes](sessions/).
 
+## What you must do
+
+Read the [minimum path](minimum-path.md) before the install list.
+The minimum path and the group input presentations are required.
+No purchase is required. Alternatives are allowed.
+The install order on this page is an *optional extension* and a *demonstration*.
+It is *not required for assessment*.
+
 Folder map under `course/`:
 
 | Folder | Contents |
@@ -34,6 +42,8 @@ Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you 
 
 ## Install order (before / during weeks 1 to 3)
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](minimum-path.md).
+
 The course has **eight sessions**: [course-outline.md](syllabus/course-outline.md).
 
 1. Knowledge store with **phone sync**: default Obsidian; **alternatives allowed** → [knowledge-store-options.md](setup/knowledge-store-options.md) · [howto-obsidian-setup-and-sync.md](setup/howto-obsidian-setup-and-sync.md)  
@@ -53,6 +63,7 @@ Keep API keys out of synced notes.
 
 | Question | Go to |
 |---|---|
+| What must I do? | [minimum-path.md](minimum-path.md) |
 | What happens each week? | [timeline.md](syllabus/timeline.md) · [course-outline.md](syllabus/course-outline.md) · [sessions/](sessions/) |
 | Midpoint / final deliverables? | [timeline.md](syllabus/timeline.md) (milestones) |
 | Readings & links? | [references.md](syllabus/references.md) · [links-from-clippings.md](syllabus/links-from-clippings.md) |

@@ -11,6 +11,8 @@ tags:
 
 *requirement* from the brief + teaching decisions of 2026-10-27 and 2026-11-09 (eight sessions). Parent: [[timeline]] · [[course-outline]].
 
+The check-in and the student input presentations are required. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *demonstration*. They are *not required for assessment*. See [[minimum-path]].
+
 **Slot:** **120 minutes**, **10:00 to 12:00**, with a **5 to 10 minute break**. Session files list **clock times** (not only durations).
 
 ---
@@ -112,3 +114,5 @@ Eight sessions are tight. Session 02 (harness + wiki + landscape + install) and 
 | Medium | MCP + creative stacks, coding | 05, 07 |
 | Medium | Prompting / reasoning | 03 |
 | Lower in-class | Multi-GPU shopping | 03 homework |
+
+"Working personal agent" in the table means [[minimum-path]]: one agent and one folder. The full wiki, phone sync, and MCP are an *optional extension*.

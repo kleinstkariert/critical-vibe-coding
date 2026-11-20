@@ -11,6 +11,8 @@ tags:
 
 # How-to. Pair Hermes and OpenCode
 
+*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 Use **Hermes** as the always-on assistant. Use **OpenCode** when a repository needs a strong coding loop.
 
 Setup notes: [[howto-hermes-setup]] · [[howto-opencode-setup]]  

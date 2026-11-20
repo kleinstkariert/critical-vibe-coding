@@ -1,5 +1,7 @@
 # How to: Hermes Agent setup
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 
 Related: [[howto-obsidian-setup-and-sync]] · [[knowledge-store-options]] · [[what-is-mcp]] · [[howto-hermes-efficient-coding]] · [[agents-md-template]] · [[Local LLM Coding with Hermes]] · [[../../research/karpathy-llm-wiki-and-openclaw]]

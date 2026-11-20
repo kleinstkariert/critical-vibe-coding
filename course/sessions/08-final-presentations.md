@@ -7,6 +7,8 @@ updated: 2026-11-10
 
 # Session 08. Final presentations and closing check-in
 
+The final presentation is required. It is the last step of [[minimum-path]]: the architecture, one use, and one critical reflection. Extra tools from other sessions are an *optional extension*. They are *not required for assessment*.
+
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 
 **Status: proposal.** Session 01 framing: architecture, one use, reflection.

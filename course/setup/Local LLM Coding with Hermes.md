@@ -1,3 +1,5 @@
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](../minimum-path.md).
+
 -> quick starter guide.
 
 ## Purpose

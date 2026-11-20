@@ -11,6 +11,8 @@ tags:
 
 Draft. Dates TBD. Labels: *requirement* | *technical suggestion* | *todo*.
 
+Required work: [[minimum-path]], plus the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *demonstration* or an *optional extension*. They are *not required for assessment*.
+
 ## Short syllabus sheet
 
 Public / handout-style outline: [[course-outline]]
@@ -32,7 +34,7 @@ EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]
 
 Prompting guide: [[Prompting Guide for Critical Vibe Coding]]
 
-**Student start page:** [[START-HERE]]
+**Student start page:** [[START-HERE]] · **Required work:** [[minimum-path]]
 
 **GitHub is the course pack** (public). Teams / UFG for announcements.
 

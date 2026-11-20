@@ -6,6 +6,8 @@ updated: 2026-11-10
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
+*demonstration* of a Hermes install. *optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The flattening input presentation is required.
+
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
 First **practice** session after Session 01. A student group opens with the **flattening** input; harness, wiki structure, model landscape and the Hermes install are the teacher's. Prompting and chat versus reasoning: Session 03. Phone, Discord and MCP: Session 05.

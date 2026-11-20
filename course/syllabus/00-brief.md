@@ -2,6 +2,8 @@
 
 *requirement.* Text below is the course brief given for this workspace (2026-10-15).
 
+For assessed work, read [[minimum-path]]. The input presentations are required. Tools named in the brief are an *optional extension*. They are *not required for assessment*.
+
 ## Frame
 
 This course combines hands-on prototyping with critical inquiry into AI-assisted and prompt-driven development. Prompting serves as a point of entry into different tools and production methods used in creative coding and digital fabrication. Students will explore visual and node-based environments, GUI-driven tools, text-based coding frameworks, and 3D/CAD applications, investigating how each requires different approaches to prompting, translation, and debugging.

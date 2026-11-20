@@ -40,6 +40,8 @@ After each meaningful change:
 
 ## Course stack defaults
 
+The stack below is a demonstrated default for class examples. For students it is an *optional extension* and is not required for assessment. The required student work is `course/minimum-path.md`. Input presentations are also required. No purchase is required. Alternatives are allowed.
+
 - Default agent runtime for students: **Hermes Agent** (MIT), with optional Cursor / Claude Code for deep repo coding.
 - Notes: Obsidian vault + phone sync (see `course/setup/howto-obsidian-setup-and-sync.md`).
 - Install: `course/setup/howto-hermes-setup.md`.

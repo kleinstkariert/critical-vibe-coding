@@ -10,6 +10,8 @@ tags:
 
 # How-to. Set up OpenCode
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. OpenCode is one alternative agent.
+
 OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for work inside a code repository: edits, diffs, commands, and review.
 
 This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [[howto-hermes-opencode-pairing]].

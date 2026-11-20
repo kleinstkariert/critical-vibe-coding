@@ -8,8 +8,9 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | Programme | Interface Cultures |
 | Language | English |
-| Stack (default) | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/) / LLM Wiki |
-| Start here | [`course/START-HERE.md`](course/START-HERE.md) |
+| Required work | [Minimum path](course/minimum-path.md): one folder, one agent, one task, a record, a review, one critical reflection, a presentation. Input presentations are also required. |
+| Demonstrated stack | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/) / LLM Wiki. *optional extension. Not required for assessment.* |
+| Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/START-HERE.md`](course/START-HERE.md) |
 
 ---
 
@@ -17,7 +18,8 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 | Need | File |
 |---|---|
-| Install order + first week | [`course/START-HERE.md`](course/START-HERE.md) |
+| What you must do | [`course/minimum-path.md`](course/minimum-path.md) |
+| Install order + first week (*optional extension*) | [`course/START-HERE.md`](course/START-HERE.md) |
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
 | Weekly session notes | [`course/sessions/`](course/sessions/) |
@@ -27,6 +29,8 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 ---
 
 ## Session map (eight sessions; dates TBD)
+
+The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](course/minimum-path.md).
 
 | # | Topic | Student input |
 |---|---|---|
@@ -44,6 +48,8 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 ---
 
 ## How-tos & concepts
+
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](course/minimum-path.md).
 
 | Topic | File |
 |---|---|
@@ -75,11 +81,11 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 
 ## First steps (students)
 
-1. Star/watch this repo or clone it.  
-2. Read [`course/START-HERE.md`](course/START-HERE.md).  
-3. Install **Obsidian**; create a vault in a **phone-syncable** folder.  
-4. Install **Hermes**; point it at that vault (session 2 lab).  
-5. Keep secrets (API keys) out of synced notes.
+1. Star or watch this repo, or clone it.
+2. Read the [minimum path](course/minimum-path.md), then [`course/START-HERE.md`](course/START-HERE.md).
+3. Keep secrets (API keys) out of notes you share.
+
+No purchase is required. Alternatives are allowed. The install how-tos are an *optional extension*.
 
 Communication for room changes / announcements: Microsoft Teams (class team) and UFG online as required by the university. **Course content lives here.**
 

@@ -6,6 +6,8 @@ updated: 2026-11-10
 
 # Session 03. Hardware paths, open models versus RAM, prompting, chat versus reasoning
 
+*advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The input on closed versus open weights is required.
+
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
 After the Hermes install in Session 02. **Buying hardware is optional**: this session teaches *how*, so students can choose later. Prompting and chat versus reasoning come from the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]).

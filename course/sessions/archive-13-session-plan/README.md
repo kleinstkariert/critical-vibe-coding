@@ -10,6 +10,8 @@ tags:
 
 The course has **eight sessions** (decision of 9 Nov 2026). The sessions below were cut from the schedule. Their content is kept here unchanged as a source for the new sessions, deep dives and student inputs. Links inside these files still point to the old numbering.
 
+Archived sessions are not a second list of required installs. Install steps in these files are an *optional extension*. They are *not required for assessment*. See [[minimum-path]]. Notes on labour, ecology, and authorship remain source material for the lectures and the input presentations.
+
 New map: [[../../course-outline]] · [[../../timeline]] · [[../../course-rhythm]]
 
 ## Where the old sessions went

@@ -17,6 +17,8 @@ tags:
 
 # Deep dive: Default setup
 
+*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+
 Block 8 of [[../01-welcome-landscape-lecture]]. The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free model to start Hermes with.
 
 Labels: *verified fact* | *technical suggestion* | *course position*.
