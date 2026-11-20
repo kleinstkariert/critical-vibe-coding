@@ -313,7 +313,7 @@ WIKI_PATH=/absolute/path/to/your/vault
 | **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` / `WIKI_PATH` at the vault (or `wiki/`) so Hermes can edit notes | Narrow to an agent-writable subfolder when you are ready |
 | **Docker / sandbox mounts** | Optional. Overview [[Local LLM Coding with Hermes]] recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
 
-Class smoke test uses the vault path in `.env`. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [[howto-obsidian-setup-and-sync]].
+The smoke test uses a new folder named `hermes-smoke-test` in your home folder. It does not use the vault. The vault path in `.env` is for later note work. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [[howto-obsidian-setup-and-sync]].
 
 Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian  
 LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
@@ -334,7 +334,41 @@ hermes desktop
 hermes
 ```
 
-Try: ask it to list notes in the vault, or to create a test page under a folder you agree is agent-writable (e.g. `wiki/`).
+The first request uses one synthetic file. Make that file before you ask Hermes anything.
+
+Windows:
+
+1. Open File Explorer from the taskbar.
+2. Open your user folder.
+3. Create a folder named `hermes-smoke-test` and open it.
+4. Create `note.txt` in that folder.
+5. Type this sentence in the file: The smoke test file says hello.
+6. Save the file.
+7. Copy the folder path from the address bar.
+
+Linux:
+
+1. Open a terminal.
+2. Type `mkdir "$HOME/hermes-smoke-test"` and press Enter.
+3. Type `printf '%s\n' 'The smoke test file says hello.' > "$HOME/hermes-smoke-test/note.txt"` and press Enter.
+4. Type `xdg-open "$HOME/hermes-smoke-test"` and press Enter.
+5. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Enter. Copy that path.
+
+macOS:
+
+1. Open Finder.
+2. Click Go, then Home.
+3. Create a folder named `hermes-smoke-test` and open it.
+4. Open TextEdit. Click Format, then Make Plain Text.
+5. Type this sentence: The smoke test file says hello.
+6. Save the file as `note.txt` inside `hermes-smoke-test`.
+7. Open Terminal. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Return. Copy that path.
+
+Then paste this request in Hermes. Put your copied path in place of PATH:
+
+Read only this file: PATH. Reply with the one sentence in that file. Do not open any other folder.
+
+The reply must be: The smoke test file says hello. If Hermes names your vault or another folder, stop.
 
 **Keep Obsidian open** on the side if you want to watch files appear (Karpathy: “Obsidian is the IDE; the LLM is the programmer”).
 

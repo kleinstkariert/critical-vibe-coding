@@ -204,8 +204,14 @@ WIKI_PATH=/home/you/Nextcloud/MyVault
 ```
 
 6. Quit Hermes and open it again.
-7. Ask Hermes to create `wiki/hello.md` with one sentence.
-8. In Obsidian, confirm that file. If Hermes writes somewhere else, stop.
+7. Open a terminal the way section 1 says.
+8. Type `mkdir "$HOME/hermes-smoke-test"` and press Enter.
+9. Type `printf '%s\n' 'The smoke test file says hello.' > "$HOME/hermes-smoke-test/note.txt"` and press Enter.
+10. Type `xdg-open "$HOME/hermes-smoke-test"` and press Enter. The file manager opens the folder.
+11. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Enter. Copy that path.
+12. In Hermes, paste this request. Put your copied path in place of PATH: Read only this file: PATH. Reply with the one sentence in that file. Do not open any other folder.
+13. Send the request.
+14. The reply must be: The smoke test file says hello. If Hermes names your vault or another folder, stop.
 
 Path rules and the skill links: [[howto-hermes-setup]] §4.
 
