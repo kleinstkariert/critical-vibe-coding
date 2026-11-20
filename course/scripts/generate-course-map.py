@@ -69,24 +69,12 @@ def main():
         return lines
 
     def proposal_section():
-        """Pin the structure proposal first. A later run keeps this section."""
+        """Pin the structure proposal link first. A later run writes only the link."""
         rel = "teacher/potential-structure-change.md"
         row = next((item for item in rows if item["rel"] == rel), None)
-        if row is None:
-            row = {
-                "rel": rel,
-                "title": "Potential Structure Change",
-                "status": "proposal",
-                "canonical": "false",
-            }
+        title = row["title"] if row else "Potential Structure Change"
         return [
-            "## Proposal, not the current course.",
-            "",
-            "This is a proposal, not the current course.",
-            "",
-            "| Page | Status | Canonical |",
-            "|---|---|---|",
-            f"| [{row['title']}]({row['rel']}) | {row['status']} | {row['canonical']} |",
+            f"[{title}]({rel})",
             "",
         ]
 
