@@ -80,7 +80,7 @@ A system built in Claude Code, Cursor, OpenCode, a local script, or another agen
 1. **Hermes = semester harness.** Vault, wiki, skills, messaging, local or chosen API, MCP into creative tools. Prefer **Hermes Desktop** when students want a GUI closer to Cursor / Cowork (same agent core as CLI).
 2. **Cursor Agent or Claude Code = coding intensifier.** Use when the task is a large repo edit with tests and PRs.
 3. **Say the tradeoff out loud.** Do not sell Hermes as “better than Cursor at IDE coding.” Sell it as the open control plane students can inspect, self-host, and point at many softwares.
-4. **Security still applies.** Local model ≠ safe agent. Approvals, write roots, Docker, skill review stay mandatory.
+4. **Security still applies.** Local model ≠ safe agent. Approvals, write roots, Docker, skill review stay mandatory. *Docker: advanced safety module, not the two-hour baseline.*
 5. **Name the mode** on coding tasks: `coding` | `production` | `hybrid` (see [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] · repo `AGENTS.md`).
 
 ---
