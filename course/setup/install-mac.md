@@ -1,0 +1,168 @@
+---
+title: Install guide. macOS
+date: 2026-11-20
+tags:
+  - course
+  - howto
+  - session-02
+  - macos
+---
+
+# Install guide. macOS
+
+Follow this file from top to bottom. Do not open the Windows or Linux guides.
+
+External software and MCP servers in this file are examples. You can replace them with tools you prefer. Why: [[install-why]].
+
+An MCP is a connector that lets Hermes talk to another program. The macOS example is TouchDesigner, and only because the official project below is real and current. If you do not use TouchDesigner, skip section 7.
+
+## 1. Install Hermes Desktop
+
+You install Hermes on your own laptop. Sebastian is in the room. Ask him when a button name does not match this page.
+
+Hermes Agent is the program that uses a model to read files and call tools. Hermes Desktop is the app window for that program.
+
+Hermes Desktop is Apple Silicon only. An Intel Mac uses the command-line install below. That limit is recorded in [[howto-hermes-setup]] §2.
+
+### Apple Silicon
+
+1. Open https://hermes-agent.nousresearch.com/desktop and download the macOS package.
+2. Open the DMG. Copy `Hermes.app` to Applications.
+3. Open Hermes. If macOS blocks the app, use the on-screen Privacy and Security prompt.
+4. Do not run Hermes as root.
+
+### Intel Mac
+
+1. Run the installer. Do not use `sudo`.
+
+```bash
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+source ~/.zshrc
+hermes --help
+```
+
+2. Use `hermes` in the terminal for the steps below. There is no Desktop app for this Mac.
+
+Install page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+
+Hermes keeps its files in `~/.hermes/`.
+
+## 2. Load one local model
+
+A local model runs on this computer. It does not need an API key.
+
+The room demo GPU is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. VRAM is the memory on the graphics card. That card is in the room, not in a Mac. On your Mac, read the fit label. A Mac uses unified memory. The same model can be too big there.
+
+1. In Hermes Desktop, open Settings, then Providers, then Local Models. On an Intel Mac, run `hermes model` and choose Local models.
+2. Click Install runtime. Wait until the runtime finishes.
+3. Download **Qwen3.8 27B** only if the fit label is not "too big" before the download. If the row is already marked too big, skip the download.
+4. Click Use when the label says the model fits, or that it uses system RAM.
+5. Stop when the label says the model is too big. Use the API model in the next section.
+
+Why this model fits the room's 16 GB card: [[install-why]].
+
+Free cloud models already listed for this course: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4 and [[howto-hermes-setup]] §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
+
+Local model docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
+
+## 3. Connect an OpenAI API key
+
+ChatGPT Plus does not include OpenAI API credits.
+
+You create an OpenAI API key. You do not reuse the ChatGPT password as a key.
+
+1. Open https://platform.openai.com/api-keys and create a key.
+2. Open API billing from https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform and add a payment method.
+3. Set a low spend limit before the first class run.
+4. Run `hermes model`.
+5. Choose the OpenAI API provider.
+6. Paste the key when Hermes asks. Hermes stores it in `~/.hermes/.env`.
+7. Choose the model `gpt-5.4-mini`.
+
+`gpt-5.4-mini` is the class pick. Hermes lists it under the OpenAI API provider. On the OpenAI price page, checked 20 Nov 2026, this mini model is US $0.75 per million input tokens and US $4.50 per million output tokens. Price page: https://developers.openai.com/api/docs/pricing
+
+Plus fact: https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
+
+Hermes can also log in with a ChatGPT subscription for Codex models (`hermes model`, then ChatGPT or Codex Subscription). That login is not an API key. The Hermes docs do not yet say which Plus limits it uses. In class, create the API key. Provider page: https://hermes-agent.nousresearch.com/docs/integrations/providers
+
+Do not put the key in the vault, in chat, or in Git.
+
+## 4. Install Obsidian and the LLM wiki
+
+1. Download Obsidian for macOS: https://obsidian.md/download
+2. Open the DMG and copy Obsidian to Applications. Create a vault. A vault is the folder of notes Obsidian opens.
+3. Set up phone sync. Follow [[howto-obsidian-setup-and-sync]]. Do not copy that page into this one.
+4. Copy the starter tree and the `SCHEMA.md` stub from [[starter-knowledge-base]].
+5. In `~/.hermes/.env`, set both paths to that vault folder. Use the full macOS path.
+
+```env
+OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/MyVault
+WIKI_PATH=/Users/you/Nextcloud/MyVault
+```
+
+6. Quit Hermes and open it again.
+7. Ask Hermes to create `wiki/hello.md` with one sentence.
+8. In Obsidian, confirm that file. If Hermes writes somewhere else, stop and tell Sebastian.
+
+Path rules and the skill links: [[howto-hermes-setup]] §4.
+
+Store choices, if you do not want Obsidian: [[knowledge-store-options]].
+
+## 5. Rules and the first SCHEMA.md
+
+The stub you copied is the first `SCHEMA.md`. Do not paste the long security notes into it.
+
+Read these, in this order, and keep them as links:
+
+1. Course rules: [AGENTS.md](../../AGENTS.md)
+2. A project copy for later: [[agents-md-template]]
+3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [[howto-hermes-setup]] §5d
+4. Approvals stay on: [[howto-hermes-docker-sandbox]] §4
+5. Secrets stay out of the vault: [[Local LLM Coding with Hermes]] §12
+6. Stop after three failed repair attempts: [[howto-hermes-efficient-coding]]
+
+## 6. Personal laptop
+
+Security on a personal laptop matters. The agent can read your files and run commands.
+
+Use the current course guidance. Do not write a second security essay.
+
+- The default local command backend has no isolation. Sandbox path: [[howto-hermes-docker-sandbox]]. Mount rules: [[Local LLM Coding with Hermes]] §§9 to 10.
+- Do not run as root. Do not expose the gateway. [[howto-hermes-setup]] §5d · [[Local LLM Coding with Hermes]] §14.
+- Keep approvals on. Review the Git diff before you accept edits. [[howto-hermes-docker-sandbox]] §4.
+- Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+
+## 7. Example: TouchDesigner MCP
+
+Do this only after sections 1 to 6 work. You can skip it, or swap in another program.
+
+The example is real. TDMCP is the official TouchDesigner MCP from Derivative. It is in public beta. Checked 20 Nov 2026.
+
+- Repo: https://github.com/TouchDesigner/TDMCP
+- Docs: https://docs.derivative.ca/MCP
+- Releases: https://github.com/TouchDesigner/TDMCP/releases
+- TouchDesigner download: https://derivative.ca/download
+
+The README says the component needs **TouchDesigner 2025.33230 or newer**. Earlier builds will not open it. Quote and version notes: https://github.com/TouchDesigner/TDMCP#start-here
+
+Hermes is not in the README's Install For list. The README says TDMCP "works with any client that speaks streamable-HTTP MCP." The steps below use that HTTP endpoint with Hermes. The endpoint URL is from the README. The YAML shape is from the Hermes MCP page: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
+
+1. Install TouchDesigner 2025.33230 or newer.
+2. Download `TDMCP.tox` from the releases page. Drag it into the root of your project.
+3. On the component's MCP page, turn **Active** on.
+4. Open the README section linked above. If the localhost URL is not `http://127.0.0.1:13316/mcp`, use the URL from that README. The port here was checked on 20 Nov 2026.
+5. Add this block to `~/.hermes/config.yaml`, then restart Hermes:
+
+```yaml
+mcp_servers:
+  touchdesigner:
+    url: "http://127.0.0.1:13316/mcp"
+```
+
+6. Ask Hermes what TouchDesigner project it can see.
+7. TouchDesigner shows a consent panel. The README says nothing gets control until you allow it there. Click allow only if the panel names your Hermes app.
+8. Leave the server on localhost. The README refuses other machines by default. Do not open it to the network in class.
+
+**Install Skills** on the component is written for the clients in the Install For list. Hermes is not in that list. If the pulse does not place skills in `~/.hermes/skills/`, skip skills and tell Sebastian. Do not copy the files into a guessed folder.
+
+The server can run Python inside TouchDesigner. Treat that like a shell on your Mac. Security notes from the project: https://github.com/TouchDesigner/TDMCP/blob/main/docs/security.md
