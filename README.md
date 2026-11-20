@@ -70,6 +70,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 | AI jobs — rising tide / Canaries / junior productivity | [`research/ai-jobs-rising-tide-productivity.md`](research/ai-jobs-rising-tide-productivity.md) |
 | Data centres — energy, ecology, US/world economy | [`research/data-centers-energy-ecology-economy.md`](research/data-centers-energy-ecology-economy.md) |
 | Karpathy LLM Wiki | [`research/karpathy-llm-wiki-and-openclaw.md`](research/karpathy-llm-wiki-and-openclaw.md) |
+| Vibe-coding tools and agent environments (late 2026) | [`research/vibe-coding-tools-and-agent-environments.md`](research/vibe-coding-tools-and-agent-environments.md) |
 
 ---
 
