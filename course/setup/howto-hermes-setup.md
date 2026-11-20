@@ -1,10 +1,16 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # How to: Hermes Agent setup
 
-*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [[minimum-path]].
+*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [minimum path](../minimum-path.md).
 
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 
-Related: [[howto-obsidian-setup-and-sync]] · [[knowledge-store-options]] · [[what-is-mcp]] · [[howto-hermes-efficient-coding]] · [[agents-md-template]] · [[Local LLM Coding with Hermes]] · [[../../research/karpathy-llm-wiki-and-openclaw]]
+Related: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [knowledge store options](knowledge-store-options.md) · [what is mcp](../concepts/what-is-mcp.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [agents md template](agents-md-template.md) · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) · [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md)
 
 *requirement:* phone sync of the **notes** is via Obsidian + cloud (see Obsidian how-to). Hermes usually runs on the **computer** and edits the local vault folder. The phone does not need Hermes installed.
 
@@ -26,7 +32,7 @@ Desktop docs: https://hermes-agent.nousresearch.com/docs/user-guide/desktop
 
 Docs: https://hermes-agent.nousresearch.com/docs/
 
-Architecture / security overview (course): [[Local LLM Coding with Hermes]]
+Architecture / security overview (course): [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md)
 
 ---
 
@@ -106,7 +112,7 @@ hermes --help
 
 **Prerequisites (*institutional summary* from install docs):** Git, curl, tar, SHA-256 utilities. Source installs use a managed Python via PM. On minimal Debian/Ubuntu/RHEL images, `libatomic` may be required for managed Node (`libatomic1` on apt).
 
-**Docker** (server / headless): see Hermes docs for the image and mounted data dir (`/opt/data/` pattern). Useful if the agent should live on a VPS with a synced vault. Official page: https://hermes-agent.nousresearch.com/docs/user-guide/docker · Terminal sandbox click-path: [[howto-hermes-docker-sandbox]]
+**Docker** (server / headless): see Hermes docs for the image and mounted data dir (`/opt/data/` pattern). Useful if the agent should live on a VPS with a synced vault. Official page: https://hermes-agent.nousresearch.com/docs/user-guide/docker · Terminal sandbox click-path: [howto hermes docker sandbox](howto-hermes-docker-sandbox.md)
 
 Default data home: `~/.hermes/`  
 Nix/NixOS: best-effort flake path in docs: not the class default.
@@ -148,7 +154,7 @@ You need **some** API / Portal access. Hermes itself is free/MIT; model usage is
 
 3. Run `hermes model`, choose OpenRouter, then the model `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-Limits and privacy: 20 requests per minute and 50 per day on a free account. Prompts may be logged. The model is too large for most student machines. Keep private notes away from it until you have checked the data policy. The route is a hosted cloud service: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4. Fallback: the free plan of Nous Portal (`hermes setup --portal`). Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
+Limits and privacy: 20 requests per minute and 50 per day on a free account. Prompts may be logged. The model is too large for most student machines. Keep private notes away from it until you have checked the data policy. The route is a hosted cloud service: [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §4. Fallback: the free plan of Nous Portal (`hermes setup --portal`). Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
 
 ---
 
@@ -156,8 +162,8 @@ Limits and privacy: 20 requests per minute and 50 per day on a free account. Pro
 
 | Platform | Env file | Example absolute paths |
 |---|---|---|
-| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\Users\you\Nextcloud\MyVault` |
-| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/Users/you/Nextcloud/MyVault` or `/home/you/Nextcloud/MyVault` |
+| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\path\to\your\notes` |
+| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/path/to/your/notes` |
 
 ```env
 # Absolute paths. Do not put $variables inside paths Hermes file tools will use.
@@ -168,7 +174,7 @@ WIKI_PATH=/absolute/path/to/your/vault
 **Important:**
 
 - Use a **real absolute path**. File tools do not expand `$OBSIDIAN_VAULT_PATH` in path arguments.
-- For a dedicated LLM Wiki inside the vault later, set both paths to e.g. `.../KnowledgeBaseObsidian/wiki` (create that folder first). Hybrid pattern: agent owns `wiki/`, you own artistic project notes elsewhere.
+- For a dedicated LLM Wiki inside the vault later, set both paths to for example `wiki/` inside your own notes folder (create that folder first). Hybrid pattern: agent owns `wiki/`, you own artistic project notes elsewhere.
 - Restart Hermes (or Desktop) after changing `.env`.
 
 ### Vault path vs AgentShare (two layers)
@@ -176,9 +182,9 @@ WIKI_PATH=/absolute/path/to/your/vault
 | Layer | What students do in class | Safer hardening later |
 |---|---|---|
 | **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` / `WIKI_PATH` at the vault (or `wiki/`) so Hermes can edit notes | Narrow to an agent-writable subfolder when you are ready |
-| **Docker / sandbox mounts** | Optional. Overview [[Local LLM Coding with Hermes]] recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
+| **Docker / sandbox mounts** | Optional. Overview [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
 
-Class smoke test uses the vault path in `.env`. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [[howto-obsidian-setup-and-sync]].
+Class smoke test uses the vault path in `.env`. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md).
 
 Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian  
 LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
@@ -217,7 +223,7 @@ hermes skills install official/research/arxiv   # example
 
 In chat: `/skills`. Review third-party skills before install.  
 Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills  
-Coding harness + skill links: [[howto-hermes-efficient-coding]] · template: [[agents-md-template]]
+Coding harness + skill links: [howto hermes efficient coding](howto-hermes-efficient-coding.md) · template: [agents md template](agents-md-template.md)
 
 ---
 
@@ -239,11 +245,11 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 - Do not run as root. Do not expose the gateway publicly.
 - Keys only in Hermes `.env`, never in synced vault notes.
 - Prefer Docker / sandbox for untrusted code. Local backend = **no** isolation.
-- Turn on the Docker terminal backend: [[howto-hermes-docker-sandbox]] · https://hermes-agent.nousresearch.com/docs/user-guide/docker
-- Concepts and mounts: [[Local LLM Coding with Hermes]] §§8 to 9
+- Turn on the Docker terminal backend: [howto hermes docker sandbox](howto-hermes-docker-sandbox.md) · https://hermes-agent.nousresearch.com/docs/user-guide/docker
+- Concepts and mounts: [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  
-- Academic chat portals are usually **not** an agent API: [[academic-ai-austria]]
+- Academic chat portals are usually **not** an agent API: [academic ai austria](academic-ai-austria.md)
 
 ---
 
@@ -263,7 +269,7 @@ wiki/   (or whole vault if WIKI_PATH = vault)
 
 Session habit: read schema + index + recent log before ingest/query/lint.
 
-Course notes: [[llm-wiki-standard-files]] · [[what-is-lint]] · [[references]]  
+Course notes: [llm wiki standard files](llm-wiki-standard-files.md) · [what is lint](../concepts/what-is-lint.md) · [references](../syllabus/references.md)  
 Skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki  
 Karpathy gist: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f  
 Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki
@@ -274,7 +280,7 @@ Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki
 
 Hermes can attach MCP servers (stdio / HTTP). Use this for tools that are **not** a folder of files, including **Blender / Fusion / FreeCAD / Meshy** (Sessions 05 and 07).
 
-Course notes: [[what-is-mcp#permissions-and-capability-boundary]] · [[what-is-harness]] · [[sessions/05-knowledge-base-phone-discord]] · CAD/3D table: [[sessions/archive-13-session-plan/06-mcp-and-tools]]  
+Course notes: [what is mcp](../concepts/what-is-mcp.md#permissions-and-capability-boundary) · [what is harness](../concepts/what-is-harness.md) · [05 knowledge base phone discord](../sessions/05-knowledge-base-phone-discord.md) · CAD/3D table: [06 mcp and tools](../sessions/archive-13-session-plan/06-mcp-and-tools.md)  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 ---
@@ -298,7 +304,7 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 2. Relative paths or `$OBSIDIAN_VAULT_PATH` inside tool calls.
 3. Expecting Hermes on the **phone**. Notes sync via Obsidian; agent stays on the computer (unless you deliberately run Hermes on a VPS with a synced/mounted vault).
 4. Two writers fighting: edit the same note in Obsidian while Hermes patches it (use clear folders).
-5. Pointing `WIKI_PATH` at Joplin’s SQLite / sync DB: wrong store; see [[knowledge-store-options]].
+5. Pointing `WIKI_PATH` at Joplin’s SQLite / sync DB: wrong store; see [knowledge store options](knowledge-store-options.md).
 6. macOS Desktop on Intel: unsupported; use the curl installer instead.
 7. WSL + Windows vault without a clear single home for the files.
 

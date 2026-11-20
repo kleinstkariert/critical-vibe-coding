@@ -1,8 +1,14 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # Critical Vibe Coding — seminar brief
 
 *requirement.* Text below is the course brief given for this workspace (2026-10-15).
 
-For assessed work, read [[minimum-path]]. A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. Students develop it through the course and hand it in at the end. It is not a week-1 deliverable. The input presentations are required. Tools named in the brief are an *optional extension*. They are *not required for assessment*. The technical object is a student-designed agentic production system. Hermes is one *reference implementation*.
+For assessed work, read [minimum path](../minimum-path.md). A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. Students develop it through the course and hand it in at the end. It is not a week-1 deliverable. The input presentations are required. Tools named in the brief are an *optional extension*. They are *not required for assessment*. The technical object is a student-designed agentic production system. Hermes is one *reference implementation*.
 
 ## Frame
 

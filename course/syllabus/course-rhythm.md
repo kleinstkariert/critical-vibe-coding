@@ -5,13 +5,16 @@ updated: 2026-11-10
 tags:
   - course
   - structure
+audience: student
+status: current
+canonical: true
 ---
 
 # Course rhythm
 
-*requirement* from the brief + teaching decisions of 2026-10-27 and 2026-11-09 (eight sessions). Parent: [[timeline]] · [[course-outline]].
+*requirement* from the brief + teaching decisions of 2026-10-27 and 2026-11-09 (eight sessions). Parent: [timeline](timeline.md) · [course outline](course-outline.md).
 
-The check-in and the student input presentations are required. The personal manifesto is also required. Session 01 introduces it. Students develop it through the course and hand it in at the end. It names no product. It is not a week-1 deliverable. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *reference implementation* and a *demonstration*. Sebastian will install Hermes with the class. That install is *not required for assessment*. See [[minimum-path]].
+The check-in and the student input presentations are required. The personal manifesto is also required. Session 01 introduces it. Students develop it through the course and hand it in at the end. It names no product. It is not a week-1 deliverable. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *reference implementation* and a *demonstration*. Sebastian will install Hermes with the class. That install is *not required for assessment*. See [minimum path](../minimum-path.md).
 
 **Slot:** **120 minutes**, **10:00 to 12:00**, with a **5 to 10 minute break**. Session files list **clock times** (not only durations).
 
@@ -50,18 +53,18 @@ Topics are fixed (9 Nov 2026) and chosen by the groups at the end of Session 01.
 - **Five input slots** for about 20 students → **groups of four** (or two pairs sharing one slot). Exact group size may change with enrolment.
 - One group per class, after the check-in
 - About **15 minutes** (target **10:20 to 10:35**), then discussion
-- Use course research + [[references]], not only YouTube. Students who do not want to use AI can do research and investigative work for the input.
+- Use course research + [references](references.md), not only YouTube. Students who do not want to use AI can do research and investigative work for the input.
 
 ### Group ↔ session (humanities question → then the teacher's practical)
 
 | Session | Student input (theory / humanities) | Starting points | Teacher practice after (technical) |
 |---|---|---|---|
-| **02** | **Flattening.** AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. With AI and patriarchy, feminism and AI. | [[lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] | Harness; LLM Wiki structure; model landscape; **Hermes install** with a free-to-use hosted endpoint |
-| **03** | **Closed versus open weights as power.** Who holds the power when weights are secret, and who when they are public? | [[Prompting Guide for Critical Vibe Coding]] · [[../../research/local-gpu-hardware-for-llms]] | Hardware paths; locally runnable models versus RAM; prompting; chat versus reasoning |
+| **02** | **Flattening.** AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. With AI and patriarchy, feminism and AI. | [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) | Harness; LLM Wiki structure; model landscape; **Hermes install** with a free-to-use hosted endpoint |
+| **03** | **Closed versus open weights as power.** Who holds the power when weights are secret, and who when they are public? | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) | Hardware paths; locally runnable models versus RAM; prompting; chat versus reasoning |
 | 04 | *No input:* project presentations and semester plans | | Presentations |
-| **05** | **How dangerous is AI really?** Case: the Hugging Face incident (July 2026) | [[sessions/05-knowledge-base-phone-discord]] (links to both incident reports) · [[visions-fears-regulation]] | Vault practice; phone sync; Discord bridge; MCP |
-| **06** | **The ecology of AI.** | [[lectures/01-welcome-landscape-deep-dives/ecology]] · [[../../research/data-centers-energy-ecology-economy]] | Agent as interface, as material, as canvas |
-| **07** | **Privacy: what happens with the data?** | [[../topics/eu-ai-act-and-datenschutz#decision-questions]] · [[lectures/01-welcome-landscape-deep-dives/default-setup]] §3 | Coding with agents across creative stacks (*proposal*) |
+| **05** | **How dangerous is AI really?** Case: the Hugging Face incident (July 2026) | [05 knowledge base phone discord](../sessions/05-knowledge-base-phone-discord.md) (links to both incident reports) · [visions fears regulation](../topics/visions-fears-regulation.md) | Vault practice; phone sync; Discord bridge; MCP |
+| **06** | **The ecology of AI.** | [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) | Agent as interface, as material, as canvas |
+| **07** | **Privacy: what happens with the data?** | [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md#decision-questions) · [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §3 | Coding with agents across creative stacks (*proposal*) |
 | 08 | *No input:* final presentations | | Finals |
 
 Suggested question stems (groups pick one and go deep):
@@ -71,7 +74,7 @@ Suggested question stems (groups pick one and go deep):
 - Who can afford open weights, and who can afford to train them?
 - What does your agent send when it reads your notes?
 
-The earlier 10-pair map (G1 to G10, 13 sessions) is archived with the cut sessions: [[sessions/archive-13-session-plan/README]].
+The earlier 10-pair map (G1 to G10, 13 sessions) is in the [archive](../sessions/archive-13-session-plan/README.md).
 
 ---
 
@@ -89,7 +92,7 @@ Buffer is intentional: do not pack the break. Cut teacher framing before cutting
 
 ### Session 01 (exception)
 
-No student input; no ≥45 min install lab. Rough clock in [[sessions/01-welcome-and-landscape]]: check-in/opener → lecture with Q&A after each block → homework and choice of input topics. Break when the room needs it (about 10:50).
+No student input; no ≥45 min install lab. Rough clock in [01 welcome and landscape](../sessions/01-welcome-and-landscape.md): check-in/opener → lecture with Q&A after each block → homework and choice of input topics. Break when the room needs it (about 10:50).
 
 ### Sessions 04 and 08 (exception)
 
@@ -115,4 +118,4 @@ Eight sessions are tight. Session 02 (harness + wiki + landscape + install) and 
 | Medium | Prompting / reasoning | 03 |
 | Lower in-class | Multi-GPU shopping | 03 homework |
 
-"Working personal agent" in the table means the system in [[minimum-path]]. The full wiki, phone sync, and MCP are an *optional extension*.
+"Working personal agent" in the table means the system in [minimum path](../minimum-path.md). The full wiki, phone sync, and MCP are an *optional extension*.

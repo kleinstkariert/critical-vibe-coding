@@ -4,6 +4,9 @@ session: 2
 format: obsidian-slides
 slot: 10:00 to 12:00
 css: cvc-slides
+audience: student
+status: current
+canonical: true
 ---
 
 # Session 02
@@ -13,7 +16,7 @@ Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
-*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [[minimum-path]].
+*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [minimum path](../../minimum-path.md).
 
 ---
 
@@ -33,7 +36,7 @@ Today has two aims:
 - Understand how a model becomes a useful agent.
 - Start a safe Hermes setup.
 
-Full guides: [[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
+Full guides: [howto hermes setup](../../setup/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md)
 
 ---
 # Critical Vibe Coding
@@ -84,7 +87,7 @@ A harness can provide:
 
 `Model + harness = agent system`
 
-Course note: [[what-is-harness]]
+Course note: [what is harness](../../concepts/what-is-harness.md)
 
 ---
 
@@ -165,7 +168,7 @@ Use model quality and harness quality together.
 
 An LLM Wiki is a structured collection of project information.
 It gives the agent stable project knowledge.
-It is not only a collection of chat messages. A structured wiki does not make the notes true: [[../../setup/llm-wiki-standard-files#what-structure-improves]].
+It is not only a collection of chat messages. A structured wiki does not make the notes true: [llm wiki standard files](../../setup/llm-wiki-standard-files.md#what-structure-improves).
 
 It can contain:
 
@@ -181,7 +184,7 @@ It can contain:
 Give the agent only the relevant information.
 Do not give it the complete vault by default.
 
-[[llm-wiki-standard-files]] · [[knowledge-store-options]]
+[llm wiki standard files](../../setup/llm-wiki-standard-files.md) · [knowledge store options](../../setup/knowledge-store-options.md)
 
 ---
 
@@ -199,7 +202,7 @@ vault/
 └── queries/
 ```
 
-[[llm-wiki-standard-files]]
+[llm wiki standard files](../../setup/llm-wiki-standard-files.md)
 
 ---
 
@@ -214,7 +217,7 @@ vault/
 **comparisons/:** Structured comparisons.
 **queries/:** Research questions and tasks.
 
-[[llm-wiki-standard-files]]
+[llm wiki standard files](../../setup/llm-wiki-standard-files.md)
 
 ---
 
@@ -243,7 +246,7 @@ Use the LLM Wiki for:
 These tools organise information.
 They do not replace operating-system permissions or sandboxing.
 
-[[howto-obsidian-setup-and-sync]] · [[llm-wiki-standard-files]] · [[knowledge-store-options]]
+[howto obsidian setup and sync](../../setup/howto-obsidian-setup-and-sync.md) · [llm wiki standard files](../../setup/llm-wiki-standard-files.md) · [knowledge store options](../../setup/knowledge-store-options.md)
 
 ---
 
@@ -263,7 +266,7 @@ It can:
 
 **Hermes Desktop** is a native app UI for the **same** agent. It feels closer to Cursor or Claude Cowork than a raw terminal.
 
-Install: [[howto-hermes-setup]] · Desktop: https://hermes-agent.nousresearch.com/desktop
+Install: [howto hermes setup](../../setup/howto-hermes-setup.md) · Desktop: https://hermes-agent.nousresearch.com/desktop
 
 ---
 
@@ -275,8 +278,8 @@ For **deep repo development**, a coding agent is better. **OpenCode** is the ope
 
 Use them together: plan and stay connected in Hermes. Hand hard coding work to OpenCode. Bring results back.
 
-- OpenCode setup: [[howto-opencode-setup]]
-- Pairing: [[howto-hermes-opencode-pairing]]
+- OpenCode setup: [howto opencode setup](../../setup/howto-opencode-setup.md)
+- Pairing: [howto hermes opencode pairing](../../setup/howto-hermes-opencode-pairing.md)
 
 ---
 
@@ -291,7 +294,7 @@ Default stack:
 3. Optional **MCP** later for apps such as CAD / 3D / creative tools.
 4. Optional **Code agents** (like Claude Code) when a large coding repo needs a stronger IDE loop.
 
-Comparison: [[hermes-vs-coding-agents]]
+Comparison: [hermes vs coding agents](../../concepts/hermes-vs-coding-agents.md)
 
 ---
 
@@ -305,7 +308,7 @@ Examples of skill topics: verified coding, wiki lint, research, deploy steps.
 
 Browse skills: `/skills` or `hermes skills list`  
 Install: `hermes skills install …`  
-Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills · [[howto-hermes-efficient-coding]]
+Guide: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills · [howto hermes efficient coding](../../setup/howto-hermes-efficient-coding.md)
 
 ---
 
@@ -336,7 +339,7 @@ It tells the agent:
 - which commands to run after changes
 - what it must never touch (secrets, private notes)
 
-Course template: [[agents-md-template]]  
+Course template: [agents md template](../../setup/agents-md-template.md)  
 Course repo example: root `AGENTS.md`
 
 For a wiki, you may also use `SCHEMA.md`. Same job: standing rules on disk.
@@ -357,7 +360,7 @@ Minimum course rules:
 6. Require approval for destructive commands.
 7. Review the Git diff before you accept work.
 
-Overview: [[Local LLM Coding with Hermes]]  
+Overview: [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md)  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/security
 
 ---
@@ -390,7 +393,7 @@ Docker does not provide perfect security.
 Use it with limited mounts, non-root users, and network controls.
 
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
-[[howto-hermes-docker-sandbox]] · [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]
+[howto hermes docker sandbox](../../setup/howto-hermes-docker-sandbox.md) · [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md) · [howto hermes setup](../../setup/howto-hermes-setup.md)
 
 ---
 
@@ -487,7 +490,7 @@ If your main machine is a laptop, treat these as standing checks:
 4. Watch battery, heat, disk space for models, and Obsidian sync conflicts.
 5. Keep private notes out of agent-writable folders.
 
-Obsidian sync: [[howto-obsidian-setup-and-sync]]  
+Obsidian sync: [howto obsidian setup and sync](../../setup/howto-obsidian-setup-and-sync.md)  
 Secure machine guide: Hermes docs (link above)
 
 ---
@@ -499,11 +502,11 @@ A **model provider** is the service or program that runs the model.
 | Path | What it means for you |
 |---|---|
 | **Proprietary cloud** | Strong agents, you pay, prompts leave your machine (OpenAI, Anthropic, Google, …) |
-| **Open weights, hosted** | Weights are public, but a host still runs them (Nemotron on OpenRouter is a free-to-use hosted endpoint: [[../01-welcome-landscape-deep-dives/default-setup]] §4) |
+| **Open weights, hosted** | Weights are public, but a host still runs them (Nemotron on OpenRouter is a free-to-use hosted endpoint: [default setup](../01-welcome-landscape-deep-dives/default-setup.md) §4) |
 | **Local** | The model runs on your hardware. More privacy for the prompt. Needs enough memory. |
 | **Academic AU chat** | Campus chat UIs often have **no** agent API key. Do not expect Hermes to “just use” them. |
 
-Honesty note: [[academic-ai-austria]]
+Honesty note: [academic ai austria](../../setup/academic-ai-austria.md)
 
 ---
 
@@ -523,7 +526,7 @@ Session 03 goes deeper into hardware and prompting but also into the universe of
 
 # Locally runnable models in Hermes
 
-Use a locally runnable model, or a self-hosted model on a computer you control. Words: [[../01-welcome-landscape-deep-dives/default-setup]] §4.
+Use a locally runnable model, or a self-hosted model on a computer you control. Words: [default setup](../01-welcome-landscape-deep-dives/default-setup.md) §4.
 
 Ways to attach one to Hermes:
 
@@ -533,7 +536,7 @@ Ways to attach one to Hermes:
 
 You still need tool calling and enough context. Small laptops may only handle small models.
 
-Hardware cheat sheet: [[howto-local-llm-hardware]]  
+Hardware cheat sheet: [howto local llm hardware](../../setup/howto-local-llm-hardware.md)  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
 
 ---
@@ -558,7 +561,7 @@ Put keys only in Hermes `.env` (Windows: `%LOCALAPPDATA%\hermes\.env`). Never pu
 
 # Free-to-use endpoint limits
 
-The OpenRouter Nemotron path is for learning and a short smoke test. It is a hosted cloud service. [[../01-welcome-landscape-deep-dives/default-setup]] §4.
+The OpenRouter Nemotron path is for learning and a short smoke test. It is a hosted cloud service. [default setup](../01-welcome-landscape-deep-dives/default-setup.md) §4.
 
 Limits on a free account are low (rate and daily caps change; check OpenRouter). Prompts may be logged. The model is too large for most student machines.
 
@@ -566,7 +569,7 @@ Limits on a free account are low (rate and daily caps change; check OpenRouter).
 
 Fallback: Nous Portal free-to-use hosted models via `hermes setup --portal`, or your own paid key, or a locally runnable model.
 
-Details: [[howto-hermes-setup]]
+Details: [howto hermes setup](../../setup/howto-hermes-setup.md)
 
 ---
 
@@ -617,7 +620,7 @@ Two different layers:
 
 Class smoke test uses the vault path in `.env`. Container mount rules are extra isolation for untrusted work.
 
-[[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
+[howto hermes setup](../../setup/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md)
 
 ---
 
@@ -631,7 +634,7 @@ Class smoke test uses the vault path in `.env`. Container mount rules are extra 
 
 If install runs long, finish as homework. Draw Model / Harness / Wiki on paper if the machine fails.
 
-[[howto-hermes-setup]]
+[howto hermes setup](../../setup/howto-hermes-setup.md)
 
 ---
 
@@ -644,18 +647,18 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 1. Finish the install if needed.
 2. Draw one diagram: Model / Harness / Wiki folders.
 3. Skim the Karpathy LLM Wiki gist **or** the LangChain harness article.
-4. Optional: copy [[agents-md-template]] into a personal project as `AGENTS.md`.
+4. Optional: copy [agents md template](../../setup/agents-md-template.md) into a personal project as `AGENTS.md`.
 
-[[howto-hermes-setup]] · [[howto-hermes-efficient-coding]] · [[agents-md-template]]
+[howto hermes setup](../../setup/howto-hermes-setup.md) · [howto hermes efficient coding](../../setup/howto-hermes-efficient-coding.md) · [agents md template](../../setup/agents-md-template.md)
 
 ---
 
 # References
 
-- [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]] · [[howto-hermes-efficient-coding]]
-- [[what-is-harness]] · [[what-is-mcp]] · [[academic-ai-austria]] · [[howto-local-llm-hardware]]
+- [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md) · [howto hermes setup](../../setup/howto-hermes-setup.md) · [howto hermes efficient coding](../../setup/howto-hermes-efficient-coding.md)
+- [what is harness](../../concepts/what-is-harness.md) · [what is mcp](../../concepts/what-is-mcp.md) · [academic ai austria](../../setup/academic-ai-austria.md) · [howto local llm hardware](../../setup/howto-local-llm-hardware.md)
 - Karpathy LLM Wiki gist · LangChain harness anatomy
-- Session: [[02-agent-harness-and-wiki-architecture]]
-- Comparison: [[hermes-vs-coding-agents]] · OpenCode: [[howto-opencode-setup]] · [[howto-hermes-opencode-pairing]]
+- Session: [02 agent harness and wiki architecture](../../sessions/02-agent-harness-and-wiki-architecture.md)
+- Comparison: [hermes vs coding agents](../../concepts/hermes-vs-coding-agents.md) · OpenCode: [howto opencode setup](../../setup/howto-opencode-setup.md) · [howto hermes opencode pairing](../../setup/howto-hermes-opencode-pairing.md)
 - Desktop: https://hermes-agent.nousresearch.com/desktop
 - CSS: `cvc-slides.css` (vault snippet)

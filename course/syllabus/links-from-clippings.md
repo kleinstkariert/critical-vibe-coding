@@ -5,15 +5,18 @@ tags:
   - course
   - links
   - clippings
+audience: student
+status: current
+canonical: true
 ---
 
 # Curated links from vault clippings
 
-Student-facing link list drawn from the Hermes Obsidian vault folder `KnowledgeBaseObsidian/Clippings` (scan 2026-11-11). Prefer these URLs in class; the vault note is only the clip, not a syllabus source of truth.
+Student-facing link list drawn from the teacher vault (scan 2026-11-11). Prefer these URLs in class; the vault note is only the clip, not a syllabus source of truth.
 
-Scan: **37** clipping files (excluding `README.md`). **Kept: 29.** **Skipped: 8** (duplicates, junk, or weak course fit). Formal bibliography: [[references]]. Cognition research note: [[../../research/ai-brains-critical-thinking]].
+Scan: **37** clipping files (excluding `README.md`). **Kept: 29.** **Skipped: 8** (duplicates, junk, or weak course fit). Formal bibliography: [references](references.md). Cognition research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md).
 
-Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`. The clip body was not checked line by line. Source types: [[references#source-types]].
+Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`. The clip body was not checked line by line. Source types: [references](references.md#source-types).
 
 ## Cognition, critical thinking, mental health
 
@@ -25,17 +28,17 @@ Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`.
 | Haber - *Emerging realities of artificial intelligence and mental health* | https://pmc.ncbi.nlm.nih.gov/articles/PMC13576966/ | Therapy bots, sycophancy, delusional spirals |
 | Huberman Lab Clips - *Mental Health Risks of Using AI* (Dr K + Huberman) | https://www.youtube.com/watch?v=sqYLH72eCg0 | AI-induced psychosis / sycophancy risk factors (optional, content warning) |
 
-Course research note: [[../../research/ai-brains-critical-thinking]]
+Course research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md)
 
 ## Agents, harness, MCP, prompting, wiki
 
 | Title | URL | Course use |
 |---|---|---|
-| Zyte - *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ | Session 02 companion to [[../concepts/what-is-harness]] |
+| Zyte - *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ | Session 02 companion to [what is harness](../concepts/what-is-harness.md) |
 | Medium / Online Inference - *Agentic loops… governance* | https://medium.com/online-inference/agentic-loops-in-ai-governance-feedback-and-failure-modes-at-scale-f038e32add6c | Failure modes of agent loops |
 | Stackademic - *Loops in Agentic AI* | https://blog.stackademic.com/loops-in-agentic-ai-7cf72c20c1ff | Short loop primer |
 | YouTube - *How AI Agents Actually Work* | https://www.youtube.com/watch?v=HzGOWq5UyjY | Optional agent anatomy walkthrough |
-| YouTube - *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [[../concepts/what-is-mcp]] |
+| YouTube - *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../concepts/what-is-mcp.md) |
 | daily.dev - Karpathy aircraft-manual prompting | https://daily.dev/posts/karpathy-makes-ai-write-like-an-aircraft-manual-karpathy-promptengineering-ai-rebrmmygt | STE / plain-English prompting beat |
 | YouTube - *Stop Prompting Claude. Use Karpathy's Method Instead.* | https://www.youtube.com/watch?v=7zZy1QTvokM | Same thread, video form |
 | YouTube - Obsidian + Hermes wiki prep | https://www.youtube.com/watch?v=znj-WpMj1dI | Optional Hermes + Obsidian setup |
@@ -54,12 +57,12 @@ Course research note: [[../../research/ai-brains-critical-thinking]]
 | Ones and Tooze - AI arms race (Ep. 250) | https://www.youtube.com/watch?v=QevC7OrdJP8 | Geopolitics / race |
 | Ones and Tooze - AI regulation (Ep. 260) | https://www.youtube.com/watch?v=EHU8vXCAsyo | Regulation beat |
 | Foreign Policy / Ones and Tooze - *What AI Means for the Economy and for Politics* | https://foreignpolicy.com/podcasts/ones-and-tooze/what-ai-means-for-the-economy-and-for-politics/ | Economy + politics |
-| Be Smart - *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Ecology input (also in [[references]]) |
+| Be Smart - *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Ecology input (also in [references](references.md)) |
 | DW News - *What if the skeptics are right about AI?* | https://www.youtube.com/watch?v=JUY8NJ7gNAo | Skeptic overview |
 | PMC - *Dismantling AI capitalism… commons* | https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ | Commons counter to Big Tech concentration |
 | PÖDcast / Peter Schadt - Tech-Bros Ep. 20 | https://www.youtube.com/watch?v=FvGirPqHsKo | German-language political economy (optional) |
-| Daily Show - Jacob Coxon | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01 (also in [[references]]) |
-| Salim Ismail - *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier counter (also in [[references]]) |
+| Daily Show - Jacob Coxon | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01 (also in [references](references.md)) |
+| Salim Ismail - *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier counter (also in [references](references.md)) |
 
 ## Skipped (8)
 
@@ -74,4 +77,4 @@ Course research note: [[../../research/ai-brains-critical-thinking]]
 | `Why everybody is lying about A.I. booktube.md` | Thin YouTube Short |
 | `Write amaster's Thesis.md` | Junk / broken WikiHow clip |
 
-Vault path (instructor machine): `Nextcloud/Hermes-Agent-Base/KnowledgeBaseObsidian/Clippings/`.
+The clips live in the teacher vault.

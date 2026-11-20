@@ -7,17 +7,20 @@ tags:
   - privacy
   - austria
   - eu
+audience: student
+status: current
+canonical: true
 ---
 
 # EU AI Act and Datenschutz (Austria)
 
 English course note. **Primary official pages are often German** — links below stay in the original language. This is orientation for artists/students, not legal advice.
 
-Use with: Session 01 talk [[visions-fears-regulation]] (what regulation can and cannot do, 10 to 15 min spine) · student input on privacy, session [[sessions/07-coding-and-creative-stacks]] · archived sessions [[sessions/archive-13-session-plan/10-authorship-labour-platforms]] and [[sessions/archive-13-session-plan/11-local-ecology-when-not]] · [[academic-ai-austria]].
+Use with: Session 01 talk [visions fears regulation](visions-fears-regulation.md) (what regulation can and cannot do, 10 to 15 min spine) · student input on privacy, session [07 coding and creative stacks](../sessions/07-coding-and-creative-stacks.md) · archived sessions [10 authorship labour platforms](../sessions/archive-13-session-plan/10-authorship-labour-platforms.md) and [11 local ecology when not](../sessions/archive-13-session-plan/11-local-ecology-when-not.md) · [academic ai austria](../setup/academic-ai-austria.md).
 
 This note is the **how the EU/AT rules look** layer. The visions handout is the **political frame** (utopia/x-risk rhetoric, amplifier debate, credibility marketing). Do not duplicate both in one sitting.
 
-Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* | *technical suggestion*.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *technical suggestion*.
 
 ---
 
@@ -115,7 +118,7 @@ Questions students should ask of **their** stack:
 | Phone sync / Discord bridge — who hosts the messages? | Extra processors |
 | Public demo of an agent that talks about real people? | Exhibition disclosure. If the demo uses personal data, that is a GDPR question. Separate topics. |
 
-*technical suggestion:* Prefer local or EU-hosted models for sensitive material; keep secrets out of the synced vault ([[howto-obsidian-setup-and-sync]]). Academic HPC ([[academic-ai-austria]]) is not “privacy free” — read their terms.
+*technical suggestion:* Prefer local or EU-hosted models for sensitive material; keep secrets out of the synced vault ([howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md)). Academic HPC ([academic ai austria](../setup/academic-ai-austria.md)) is not “privacy free” — read their terms.
 
 ---
 
@@ -125,8 +128,9 @@ Questions students should ask of **their** stack:
 |---|---|
 | 01 | Regulation as politics + marketing; point here |
 | 03 | Choosing vendors / academic / local with privacy in mind |
-| 09 | Authorship + platform ToS; EU vs US copyright contrast already listed |
-| 10 | Local infra as sovereignty / ecology *and* data-location choice |
+| 04 | Authorship and platform terms. Provenance sits in this session. |
+| 06 | Ecology, and where the data sits |
+| 07 | Privacy and personal data, in the student input |
 
 ---
 

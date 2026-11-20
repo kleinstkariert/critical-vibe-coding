@@ -1,3 +1,9 @@
+---
+audience: teacher
+status: current
+canonical: false
+---
+
 # Sources (no duplicates here)
 
 This folder holds the **deck and images only**. Open the canonical notes instead of copying them into the slideshow tree.

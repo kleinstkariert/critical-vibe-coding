@@ -1,6 +1,12 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # What is an MCP?
 
-*optional extension. Not required for assessment.* MCP is not the assessed tool set. A tool set can be one folder. See [[minimum-path]].
+*optional extension. Not required for assessment.* MCP is not the assessed tool set. A tool set can be one folder. See [minimum path](../minimum-path.md).
 
 A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *unverified lead* or *technical suggestion*.
 

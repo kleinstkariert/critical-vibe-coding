@@ -1,6 +1,9 @@
 ---
 title: Session 06 — MCP and tools
 session: 6
+audience: archive
+status: deprecated
+canonical: false
 ---
 
 # Session 06 — MCP and tools — one interface to many systems

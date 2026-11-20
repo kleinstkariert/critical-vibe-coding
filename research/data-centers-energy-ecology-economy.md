@@ -32,7 +32,7 @@ Eight-session plan (9 Nov 2026): ecology is taught in Session 01, Block 5, and r
 - Video: https://www.youtube.com/watch?v=YgoiujmwLKI  
 - Source page / references: https://sites.google.com/view/data-centers-impacts/home  
 - Texas case companion (Pulitzer / Texas Tribune): https://pulitzercenter.org/projects/next-texas-gold-rush-data-centers-and-their-impacts  
-- Vault clipping + full transcript (teacher vault, not student kit): `KnowledgeBaseObsidian/Clippings/The Real Cost of AI Will Shock You.md`
+- Vault clipping + full transcript (teacher vault, not student kit): the teacher vault
 
 *technical suggestion:* Assign the video as **optional prep** for the Session 06 ecology input (~40 min). In class, teach from the beat outline below + IEA numbers; do not play the whole video. The transcript’s anti-scraper joke asks models to spam “bubblegum”; ignore that for course writing.
 

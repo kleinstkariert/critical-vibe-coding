@@ -6,17 +6,20 @@ tags:
   - howto
   - opencode
   - coding-agent
+audience: student
+status: current
+canonical: true
 ---
 
 # How-to. Set up OpenCode
 
-*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [[minimum-path]].
+*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [minimum path](../minimum-path.md).
 
 OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for work inside a code repository: edits, diffs, commands, and review.
 
-This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [[howto-hermes-opencode-pairing]].
+This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [howto hermes opencode pairing](howto-hermes-opencode-pairing.md).
 
-Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
 
 Official site: https://opencode.ai  
 Docs: https://opencode.ai/docs/  
@@ -129,7 +132,7 @@ You still need OpenCode installed and authenticated on that machine.
 
 Hermes compare page also notes OpenCode Zen / OpenCode Go as model providers in some setups. That is separate from the coding CLI skill. Prefer the skill for **repo coding handoff**.
 
-Practical pairing: [[howto-hermes-opencode-pairing]]
+Practical pairing: [howto hermes opencode pairing](howto-hermes-opencode-pairing.md)
 
 ---
 

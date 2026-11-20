@@ -4,12 +4,15 @@ date: 2026-10-22
 tags:
   - course
   - students
+audience: student
+status: current
+canonical: true
 ---
 
 # START HERE
 
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
-This page is the on-ramp. Everything else hangs off the [course outline](syllabus/course-outline.md) and [session notes](sessions/).
+This page is the on-ramp. The generated list of current pages is the [course map](course-map.md). Everything else hangs off the [course outline](syllabus/course-outline.md) and [session notes](sessions/).
 
 ## What you must do
 

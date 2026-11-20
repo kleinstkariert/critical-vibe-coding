@@ -8,15 +8,18 @@ tags:
   - cursor
   - claude-code
   - cowork
+audience: student
+status: current
+canonical: true
 ---
 
 # Hermes vs coding agents vs always-on assistants
 
-*reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [[minimum-path]].
+*reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [minimum path](../minimum-path.md).
 
-Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
 
-Related: [[what-is-harness]] · [[what-is-mcp]] · [[../setup/howto-hermes-setup]] · [[../setup/howto-hermes-efficient-coding]] · [[../setup/howto-opencode-setup]] · [[../setup/howto-hermes-opencode-pairing]] · slides [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]]
+Related: [what is harness](what-is-harness.md) · [what is mcp](what-is-mcp.md) · [howto hermes setup](../setup/howto-hermes-setup.md) · [howto hermes efficient coding](../setup/howto-hermes-efficient-coding.md) · [howto opencode setup](../setup/howto-opencode-setup.md) · [howto hermes opencode pairing](../setup/howto-hermes-opencode-pairing.md) · slides [02 agent harness and hermes](../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md)
 
 ---
 
@@ -81,7 +84,7 @@ A system built in Claude Code, Cursor, OpenCode, a local script, or another agen
 2. **Cursor Agent or Claude Code = coding intensifier.** Use when the task is a large repo edit with tests and PRs.
 3. **Say the tradeoff out loud.** Do not sell Hermes as “better than Cursor at IDE coding.” Sell it as the open control plane students can inspect, self-host, and point at many softwares.
 4. **Security still applies.** Local model ≠ safe agent. Approvals, write roots, Docker, skill review stay mandatory. *Docker: advanced safety module, not the two-hour baseline.*
-5. **Name the mode** on coding tasks: `coding` | `production` | `hybrid` (see [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] · repo `AGENTS.md`).
+5. **Name the mode** on coding tasks: `coding` | `production` | `hybrid` (see [howto hermes efficient coding](../setup/howto-hermes-efficient-coding.md) · [agents md template](../setup/agents-md-template.md) · repo `AGENTS.md`).
 
 ---
 

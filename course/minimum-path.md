@@ -4,6 +4,9 @@ date: 2026-11-20
 tags:
   - course
   - students
+audience: student
+status: current
+canonical: true
 ---
 
 # Minimum path

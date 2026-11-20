@@ -1,6 +1,9 @@
 ---
 title: Session 10 — Authorship, labour, platforms
 session: 10
+audience: archive
+status: deprecated
+canonical: false
 ---
 
 # Session 10 — Authorship, labour, ghost work, platform dependency

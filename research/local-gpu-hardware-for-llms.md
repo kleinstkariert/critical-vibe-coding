@@ -150,7 +150,7 @@ So **2×24 GB ≈ 48 GB of weight capacity**, not “one 48 GB GPU.”
 
 Full **€6–10k** open-frame shopping lists (dual/triple 3090, dual 4090, 5090 ceiling), coding-model matrix, and **DIY vs DGX Spark** justification for budget letters live in the private Obsidian folder:
 
-`KnowledgeBaseObsidian/Teaching/CriticalVibeCoding/hardware-procurement/`  
+the teacher vault  
 (start at `00-index-budget-vs-spark.md`)
 
 *nuance for students:* DIY multi-GPU is often best **€/tok/s** for 70B Q4 inference and for **teaching how to build**; Spark wins on **quiet coherent 128 GB** and turnkey training — complements, not clones.

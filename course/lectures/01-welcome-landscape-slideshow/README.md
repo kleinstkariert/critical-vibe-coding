@@ -1,3 +1,9 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # Session 01: Welcome and landscape slideshow
 
 Impress deck for Part B. This folder holds the **deck and images only**. Lecture notes, deep dives and research live elsewhere; see [`NOTES.md`](NOTES.md).

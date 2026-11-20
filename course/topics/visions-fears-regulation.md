@@ -6,22 +6,25 @@ tags:
   - political-economy
   - regulation
   - labour
+audience: student
+status: current
+canonical: true
 ---
 
 # Drivers, visions, fears, regulation
 
 **Talk length:** 10–15 minutes. One spine for Session 01 (blocks 3 + 6 combined). Do not expand into the bubble deep-dive or EU law seminar here.
 
-Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* | *nuance*.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *nuance*.
 
 | Goes deeper elsewhere | Link |
 |---|---|
-| CapEx / bubble / productivity numbers | [[../../research/ai-bubble-productivity-datacenter]] |
-| **Jobs / rising tide / junior productivity** | [[../../research/ai-jobs-rising-tide-productivity]] · [[lectures/01-welcome-landscape-deep-dives/labour]] |
-| Data centres, energy, US siting | [[../../research/data-centers-energy-ecology-economy]] · student input Session [[sessions/06-agent-as-interface\|06]] |
-| What EU/AT law actually does | [[eu-ai-act-and-datenschutz]] · student input on privacy, Session [[sessions/07-coding-and-creative-stacks\|07]] |
-| Ghost labour / platforms | [[lectures/01-welcome-landscape-deep-dives/labour]] · archived [[sessions/archive-13-session-plan/10-authorship-labour-platforms]] |
-| How dangerous is AI really? | Student input, Session [[sessions/05-knowledge-base-phone-discord\|05]] (Hugging Face incident) |
+| CapEx / bubble / productivity numbers | [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) |
+| **Jobs / rising tide / junior productivity** | [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) · [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) |
+| Data centres, energy, US siting | [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · student input Session [06](../sessions/06-agent-as-interface.md) |
+| What EU/AT law actually does | [eu ai act and datenschutz](eu-ai-act-and-datenschutz.md) · student input on privacy, Session [07](../sessions/07-coding-and-creative-stacks.md) |
+| Ghost labour / platforms | [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · archived [10 authorship labour platforms](../sessions/archive-13-session-plan/10-authorship-labour-platforms.md) |
+| How dangerous is AI really? | Student input, Session [05](../sessions/05-knowledge-base-phone-discord.md) (Hugging Face incident) |
 
 
 ---
@@ -94,7 +97,7 @@ Both can be true at once. This course spends more time on the **second** stack (
 
 ### D. Jobs — 60–90 sec seed (full handout elsewhere)
 
-**Do not** spend the Session 01 quota on Amodei % or Spiegel collage. Point here, teach detail in Block 6 ([[lectures/01-welcome-landscape-deep-dives/labour]]) or assign the handout: [[../../research/ai-jobs-rising-tide-productivity]].
+**Do not** spend the Session 01 quota on Amodei % or Spiegel collage. Point here, teach detail in Block 6 ([labour](../lectures/01-welcome-landscape-deep-dives/labour.md)) or assign the handout: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
 
 | Beat | One line | Source |
 |---|---|---|
@@ -141,7 +144,7 @@ That is the classic **tool** argument with a sharper word.
 
 | Lever | Example | Course pointer |
 |---|---|---|
-| **High-risk uses & bans** | AI Act risk tiers, prohibited practices | [[eu-ai-act-and-datenschutz]] |
+| **High-risk uses & bans** | AI Act risk tiers, prohibited practices | [eu ai act and datenschutz](eu-ai-act-and-datenschutz.md) |
 | **Personal data** | GDPR / DSGVO stays in parallel | same note |
 | **Transparency** | Synthetic media / chatbot disclosure | AI Act vocab in note |
 | **Liability & misuse** | Fraud, weapons, bio, cyber — Ismail and Stewart partly agree here | — |
@@ -155,7 +158,7 @@ That is the classic **tool** argument with a sharper word.
 
 ### Double face of “we need regulation”
 
-*claim (course):* Calling for laws can also be **credibility marketing** (“we are so powerful we need rules”) while compliance costs favour incumbents. Still: take enforceable duties seriously when students process personal data or deploy public agents — [[eu-ai-act-and-datenschutz]].
+*claim (course):* Calling for laws can also be **credibility marketing** (“we are so powerful we need rules”) while compliance costs favour incumbents. Still: take enforceable duties seriously when students process personal data or deploy public agents — [eu ai act and datenschutz](eu-ai-act-and-datenschutz.md).
 
 **Close the talk:**
 
@@ -179,5 +182,5 @@ That is the classic **tool** argument with a sharper word.
 1. AI is being built because of **industrial growth logic + race**, not because society voted for Star Trek.  
 2. **UBI/UHI talk is real rhetoric**, not a delivered social contract.  
 3. **Amplifier ≠ neutral** — ask who owns the stack.  
-4. **Jobs:** rising tide + early-career canary + junior productivity paradox — [[../../research/ai-jobs-rising-tide-productivity]].  
+4. **Jobs:** rising tide + early-career canary + junior productivity paradox — [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).  
 5. **Regulation:** uses, data, liability — see EU/AT note; distrust self-regulation and hype-regulation alike.
