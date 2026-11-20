@@ -113,15 +113,63 @@ Hermes keeps its files in `~/.hermes/`.
 
 A local model runs on this computer. It does not need an API key.
 
-One reference GPU for the model below is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. VRAM is the memory on the graphics card. A Mac uses unified memory. Read the fit label. The same model can be too big on a Mac.
+VRAM is the memory on the graphics card. The room demo card is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. That card does not prove that a 27B model fits in 16 GB. 27B means 27 billion parameters. Your Mac may have a different amount of memory.
 
-1. In Hermes Desktop, open Settings, then Providers, then Local Models. On an Intel Mac, run `hermes model` and choose Local models.
-2. Click Install runtime. Wait until the runtime finishes.
-3. Download **Qwen3.8 27B** only if the fit label is not "too big" before the download. If the row is already marked too big, skip the download.
-4. Click Use when the label says the model fits, or that it uses system RAM.
-5. Stop when the label says the model is too big. Use the API model in the next section.
+A Mac uses unified memory. Unified memory is RAM shared by the processor and the graphics. Read the fit label. The same model can be too big on a Mac.
 
-Why this model fits a 16 GB card: [[install-why]].
+Use these sizes for the first local experiment:
+
+- 8 to 16 GB of memory for the model: a 7B to 8B model
+- A 24 GB class machine: a 14B to 20B model
+- **Qwen3.8 27B** is an advanced model. It is not the first download.
+
+System memory is the normal RAM in the computer. Offload means Hermes puts part of the model in that RAM. The model can run. It can also be slow.
+
+A long context is a long chat plus the files the agent sends. A long context can make a model unusable even when the weights fit.
+
+The Hermes catalog checked on 20 Nov 2026 has no 7B to 8B model. This course does not invent a catalog id. Open the Local Models list and read the names there. Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
+
+Tool calling means the model asks Hermes to run a tool.
+
+Use one path. Use Apple Silicon when your Mac has the Desktop app. Use Intel when section 1 said there is no Desktop app.
+
+### Apple Silicon
+
+1. Open Hermes Desktop.
+2. Open Settings.
+3. Open Providers.
+4. Open Local Models.
+5. Click Install runtime.
+6. Wait until the runtime finishes.
+
+### Intel Mac
+
+1. Open Terminal the way section 1 says.
+2. Type `hermes model` and press Return.
+3. Choose Local models.
+4. Follow the prompt that installs the runtime.
+5. Wait until the runtime finishes.
+
+### Choose the row
+
+1. Read each row name.
+2. If a row says 7B or 8B, read its text.
+3. Download that row when the text says agent or tool calling.
+4. Read the fit label before you click Use.
+5. Click Use when the label says the model fits.
+6. If the label says the model uses system RAM, stop. Use the API model in the next section.
+7. If the label says the model is too big, stop. Use the API model in the next section.
+8. If no 7B or 8B row is in the list, skip the local download. Use the API model in the next section.
+
+Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text calls it the best all-round agent model.
+
+1. Read [[install-why]] before you download this model.
+2. Read the fit label on the Qwen3.8 27B row.
+3. Download it only when the label says the model fits, or when the label says it uses system RAM and you accept the slowdown.
+4. Click Use only after that read.
+5. Stop when the label says the model is too big.
+
+Size bands and file sizes: [[install-why]]. Research note: [[../../research/local-gpu-hardware-for-llms]].
 
 Free cloud models already listed for this course: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4 and [[howto-hermes-setup]] §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
 
