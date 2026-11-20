@@ -98,6 +98,8 @@ The course already wrote those rules. Use them. Do not start a second security e
 
 vvvv on Windows, and TouchDesigner on macOS, show one external program and one MCP. An MCP is a connector that lets Hermes talk to another program.
 
+Read the permissions and capability rule before you add a server: [[../concepts/what-is-mcp#Permissions and capability boundary]].
+
 Those programs are examples. You can replace them with a program you already use. Linux has no MCP example in its guide for the same reason: the connector is optional.
 
 What an MCP is: [[../concepts/what-is-mcp]].

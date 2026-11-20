@@ -14,6 +14,8 @@ Follow this file from top to bottom. Do not open the Windows or macOS guides.
 
 This guide has no MCP example. An MCP is a connector that lets Hermes talk to another program. External software and MCP servers are examples only. You can add a program you prefer later. What an MCP is: [[../concepts/what-is-mcp]]. Why this order: [[install-why]].
 
+Read the permissions and capability rule before you add a server: [[../concepts/what-is-mcp#Permissions and capability boundary]].
+
 ## 1. Install Hermes Desktop
 
 You install Hermes on your own laptop.

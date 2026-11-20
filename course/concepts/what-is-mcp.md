@@ -2,6 +2,10 @@
 
 A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *verified fact* or *technical suggestion*.
 
+## Permissions and capability boundary
+
+MCP is not merely a connector. It is a permissions and capability boundary. An MCP server may expose filesystem access, destructive operations, network access, application scripting, messages, mail, calendar, and personal data. Students keep a capability inventory: for each server, what it can read, change, delete, or send, and whether that is approved.
+
 ## One sentence
 
 *verified fact:* MCP (**Model Context Protocol**) is an open standard for connecting an AI application (Cursor, Claude, Hermes Agent, …) to external programs, data, and tools — in a shared, reusable way.

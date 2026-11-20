@@ -16,6 +16,8 @@ External software and MCP servers in this file are examples. You can replace the
 
 An MCP is a connector that lets Hermes talk to another program. The Windows example is vvvv. vvvv is a live visual programming environment.
 
+Read the permissions and capability rule before section 7: [[../concepts/what-is-mcp#Permissions and capability boundary]].
+
 ## 1. Install Hermes Desktop
 
 You install Hermes on your own laptop.
@@ -216,6 +218,8 @@ The README also says skills work with compatible coding agents, not only Claude.
 ### vvvv MCP
 
 The server is https://github.com/digitalwannabe/vvvv-mcp
+
+Before these install steps, read [[../concepts/what-is-mcp#Permissions and capability boundary]].
 
 The README install, quoted from https://github.com/digitalwannabe/vvvv-mcp#install-end-users :
 

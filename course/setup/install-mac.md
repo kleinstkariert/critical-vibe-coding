@@ -16,6 +16,8 @@ External software and MCP servers in this file are examples. You can replace the
 
 An MCP is a connector that lets Hermes talk to another program. The macOS example is TouchDesigner, and only because the official project below is real and current. If you do not use TouchDesigner, skip section 7.
 
+Read the permissions and capability rule before section 7: [[../concepts/what-is-mcp#Permissions and capability boundary]].
+
 ## 1. Install Hermes Desktop
 
 You install Hermes on your own laptop.
@@ -290,6 +292,8 @@ The example is real. TDMCP is the official TouchDesigner MCP from Derivative. It
 The README says the component needs **TouchDesigner 2025.33230 or newer**. Earlier builds will not open it. Quote and version notes: https://github.com/TouchDesigner/TDMCP#start-here
 
 Hermes is not in the README's Install For list. The README says TDMCP "works with any client that speaks streamable-HTTP MCP." The steps below use that HTTP endpoint with Hermes. The endpoint URL is from the README. The YAML shape is from the Hermes MCP page: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
+
+Before these install steps, read [[../concepts/what-is-mcp#Permissions and capability boundary]].
 
 1. Install TouchDesigner 2025.33230 or newer.
 2. Download `TDMCP.tox` from the releases page. Drag it into the root of your project.

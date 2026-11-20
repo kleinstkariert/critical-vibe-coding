@@ -59,6 +59,8 @@ Architecture recap only (point back): [[02-agent-harness-and-wiki-architecture]]
 
 **MCP = Model Context Protocol.** A standard plug between an agent and other apps and tools. Course note: [[../what-is-mcp]] (waiter and kitchen metaphor; host, client, server; tools, resources, prompts).
 
+Permissions and capability boundary: [[../concepts/what-is-mcp#Permissions and capability boundary]].
+
 - When you need MCP and when the disk is enough: the Obsidian folder wiki uses filesystem tools, no MCP. Apps that are not folders (calendar, mail, browser, SQLite note apps, live CAD/3D sessions) need MCP.
 - How Hermes does it (*verified fact*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see**: [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
 - Safety: app passwords, localhost versus remote, what not to put in the vault. Per-server tool filtering is a design decision: the agent cannot call what you did not tick.
