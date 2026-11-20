@@ -4,17 +4,24 @@ date: 2026-10-18
 tags:
   - course
   - llm-wiki
+audience: student
+status: current
+canonical: true
 ---
 
 # LLM Wiki — standard files and folders
 
-What lives in a Karpathy-style wiki directory. Labels: *verified fact* | *technical suggestion*.
+*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [minimum path](../minimum-path.md).
+
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. What lives in a Karpathy-style wiki directory. Labels: *technical suggestion*.
 
 Canonical pattern: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).  
 Hermes layout (names below): [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki).  
 Naming essay: [The Schema Is the Product](https://cozypet.github.io/llm-wiki-schema/).
 
 ## Tree (Hermes / course default)
+
+*reference implementation.* The heading means the Hermes example, not the assessed file names.
 
 ```text
 wiki/   (or your vault root / a subfolder)
@@ -38,7 +45,7 @@ wiki/   (or your vault root / a subfolder)
 
 ### `SCHEMA.md` (Layer 3 — the contract)
 
-*verified fact:* Hermes names this file `SCHEMA.md`. Karpathy’s gist allows `CLAUDE.md` / `AGENTS.md` — same job, different filename.
+*institutional summary:* Hermes names this file `SCHEMA.md`. Karpathy’s gist allows `CLAUDE.md` / `AGENTS.md` — same job, different filename.
 
 **What it is:** The instructions the agent must follow: domain, naming, frontmatter, tag taxonomy, when to create/split/archive pages, how to handle contradictions, who may edit what.
 
@@ -55,13 +62,13 @@ wiki/   (or your vault root / a subfolder)
 
 ### `index.md` (navigation)
 
-*verified fact:* Content catalog. Every wiki page listed under its type with a **one-line summary**. The agent reads this **first** when querying.
+*unverified lead:* Content catalog. Every wiki page listed under its type with a **one-line summary**. The agent reads this **first** when querying.
 
 **Scaling (Hermes):** Split sections after ~50 entries; topic map after ~200 pages.
 
 ### `log.md` (history)
 
-*verified fact:* Append-only chronological record. Hermes format:
+*institutional summary:* Append-only chronological record. Hermes format:
 
 `## [YYYY-MM-DD] action | subject`
 
@@ -112,15 +119,50 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 
 - **Ingest** → touches many pages + index + log  
 - **Query** → reads index (then pages); may file into `queries/`  
-- **Lint** → health-check; see [[what-is-lint]]
+- **Lint** → health-check; see [what is lint](../concepts/what-is-lint.md)
 
 ## Tools that implement this
 
 | Tool | Link | Notes |
 |---|---|---|
-| Hermes Agent skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki | Filesystem agent; class default with Obsidian as viewer |
+| Hermes Agent skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki | Filesystem agent; Hermes example. Obsidian is one viewer |
 | Hermes skill source | https://github.com/NousResearch/hermes-agent/blob/HEAD/skills/research/llm-wiki/SKILL.md | Full `SKILL.md` |
 | Obsidian plugin `karpathywiki` | https://community.obsidian.md/plugins/karpathywiki · https://github.com/GD4AI/obsidian-llm-wiki | Ingest/query/lint inside Obsidian; Apache-2.0 |
 | Dexio guide | https://dexio.wiki/guides/llm-wiki-obsidian/ | Obsidian-oriented walkthrough |
 
-Setup in this repo: [[howto-hermes-setup]] · [[howto-obsidian-setup-and-sync]] · [[references]]
+Setup in this repo: [howto hermes setup](howto-hermes-setup.md) · [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [references](../syllabus/references.md)
+
+## What structure improves
+
+A structured knowledge base does not make information true. Its value is that it makes information easier to inspect, connect, use, and revise.
+
+A structured base can improve these things:
+
+| Improvement | Question |
+|---|---|
+| Traceability | Can a claim be followed back to a source, version, passage, or production decision? |
+| Consistency | Are related pages using compatible terms, categories, dates, and conventions? |
+| Discoverability | Can a person or agent find the relevant material without reading the entire collection? |
+| Maintainability | Can the knowledge base be updated, corrected, split, archived, or transferred to another tool? |
+| Comparability | Can competing sources, models, workflows, or interpretations be placed next to one another? |
+| Operational usefulness | Can the material support a real task, such as preparing an application, debugging a patch, planning an exhibition, or documenting an installation? |
+| Reflexivity | Does the system make its own assumptions, exclusions, uncertainties, and authorship visible? |
+
+These are different forms of quality:
+
+| Form | Question |
+|---|---|
+| Structural | Are files, links, tags, metadata, and version histories coherent? |
+| Evidential | Are claims supported by sources appropriate to their importance and scope? |
+| Procedural | Can another person understand how the material was collected, transformed, and updated? |
+| Interpretive | Does the analysis distinguish description, inference, comparison, and argument? |
+| Contextual | Does the knowledge remain meaningful for the specific artistic, institutional, social, or technical situation? |
+| Operational | Does the system help someone make, decide, verify, or revise something in practice? |
+| Artistic | Does the work create a meaningful form, experience, relation, or question? |
+| Political and ethical | What relations of labour, access, extraction, privacy, and power does the system reproduce or challenge? |
+
+The LLM Wiki mainly supports structural, procedural, and operational quality. It can also support critical work by preserving sources, disagreements, uncertainty, and revision history.
+
+Lint checks structure and maintenance: broken links, missing metadata, orphan pages, stale entries, unresolved contradictions. See [what is lint](../concepts/what-is-lint.md). Lint does not establish truth, settle interpretation, or judge artistic quality.
+
+Structure does not replace critical judgment. It gives critical judgment a better surface to work on.

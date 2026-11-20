@@ -8,8 +8,9 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | Programme | Interface Cultures |
 | Language | English |
-| Stack (default) | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/) / LLM Wiki |
-| Start here | [`course/START-HERE.md`](course/START-HERE.md) |
+| Required work | The [minimum path](course/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
+| Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). Sebastian installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
+| Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/START-HERE.md`](course/START-HERE.md) |
 
 ---
 
@@ -17,7 +18,8 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 | Need | File |
 |---|---|
-| Install order + first week | [`course/START-HERE.md`](course/START-HERE.md) |
+| What you must do | [`course/minimum-path.md`](course/minimum-path.md) |
+| Install order + first week (*optional extension*) | [`course/START-HERE.md`](course/START-HERE.md) |
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
 | Weekly session notes | [`course/sessions/`](course/sessions/) |
@@ -28,11 +30,13 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 ## Session map (eight sessions; dates TBD)
 
+The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](course/minimum-path.md).
+
 | # | Topic | Student input |
 |---|---|---|
 | 1 | Welcome + political-economic landscape | (groups choose topics) |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening |
-| 3 | Hardware paths; open models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power |
+| 3 | Hardware paths; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power |
 | 4 | **Midpoint:** project presentations, semester plans | |
 | 5 | Vault practice, phone sync, Discord bridge, MCP | How dangerous is AI really? |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI |
@@ -45,6 +49,8 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 
 ## How-tos & concepts
 
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](course/minimum-path.md).
+
 | Topic | File |
 |---|---|
 | Obsidian + phone sync (Win / macOS / Linux) | [`course/setup/howto-obsidian-setup-and-sync.md`](course/setup/howto-obsidian-setup-and-sync.md) |
@@ -52,10 +58,10 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 | What is a **harness**? | [`course/concepts/what-is-harness.md`](course/concepts/what-is-harness.md) |
 | What is **MCP**? | [`course/concepts/what-is-mcp.md`](course/concepts/what-is-mcp.md) |
 | What is **lint** (LLM Wiki)? | [`course/concepts/what-is-lint.md`](course/concepts/what-is-lint.md) |
-| Wiki standard files | [`course/setup/llm-wiki-standard-files.md`](course/setup/llm-wiki-standard-files.md) |
+| Wiki standard files, and what structure improves | [`course/setup/llm-wiki-standard-files.md#what-structure-improves`](course/setup/llm-wiki-standard-files.md#what-structure-improves) |
 | Academic AI (Austria) | [`course/setup/academic-ai-austria.md`](course/setup/academic-ai-austria.md) |
 | Drivers / visions / fears / regulation | [`course/topics/visions-fears-regulation.md`](course/topics/visions-fears-regulation.md) |
-| EU AI Act + Datenschutz | [`course/topics/eu-ai-act-and-datenschutz.md`](course/topics/eu-ai-act-and-datenschutz.md) |
+| EU AI Act, and GDPR (separate topics) | [`course/topics/eu-ai-act-and-datenschutz.md#decision-questions`](course/topics/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Creative AI tools survey | [`course/topics/ai-tools-creative-processes.md`](course/topics/ai-tools-creative-processes.md) |
 | Local GPU / Apple / DGX hardware | [`research/local-gpu-hardware-for-llms.md`](research/local-gpu-hardware-for-llms.md) |
 
@@ -75,11 +81,11 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 
 ## First steps (students)
 
-1. Star/watch this repo or clone it.  
-2. Read [`course/START-HERE.md`](course/START-HERE.md).  
-3. Install **Obsidian**; create a vault in a **phone-syncable** folder.  
-4. Install **Hermes**; point it at that vault (session 2 lab).  
-5. Keep secrets (API keys) out of synced notes.
+1. Star or watch this repo, or clone it.
+2. Read the [minimum path](course/minimum-path.md), then [`course/START-HERE.md`](course/START-HERE.md).
+3. Keep secrets (API keys) out of notes you share.
+
+No purchase is required. Alternatives are allowed. The install how-tos are an *optional extension*.
 
 Communication for room changes / announcements: Microsoft Teams (class team) and UFG online as required by the university. **Course content lives here.**
 

@@ -6,15 +6,20 @@ tags:
   - howto
   - opencode
   - coding-agent
+audience: student
+status: current
+canonical: true
 ---
 
 # How-to. Set up OpenCode
 
+*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [minimum path](../minimum-path.md).
+
 OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for work inside a code repository: edits, diffs, commands, and review.
 
-This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [[howto-hermes-opencode-pairing]].
+This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [howto hermes opencode pairing](howto-hermes-opencode-pairing.md).
 
-Labels: *verified fact* | *technical suggestion*. Check current docs when versions change.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
 
 Official site: https://opencode.ai  
 Docs: https://opencode.ai/docs/  
@@ -29,7 +34,7 @@ GitHub: https://github.com/anomalyco/opencode
 | **Product** | Open-source AI coding agent (terminal, desktop, web) |
 | **Job** | Deep work in a repo: implement, refactor, review |
 | **Models** | Many providers, including local. Configure with `/connect` |
-| **Licence** | MIT (*verified fact* from project docs) |
+| **Licence** | MIT (*institutional summary* from project docs) |
 
 Built-in agents (switch in the UI):
 
@@ -63,7 +68,7 @@ brew install anomalyco/tap/opencode-v2
 
 Standalone binaries and Desktop downloads: https://opencode.ai/docs/ and https://opencode.ai/download
 
-*verified fact (OpenCode docs):* Windows package managers are not supported the same way; use the npm path or a standalone Windows binary from the docs.
+*institutional summary (OpenCode docs):* Windows package managers are not supported the same way; use the npm path or a standalone Windows binary from the docs.
 
 After install, open a **new** terminal and check:
 
@@ -127,7 +132,7 @@ You still need OpenCode installed and authenticated on that machine.
 
 Hermes compare page also notes OpenCode Zen / OpenCode Go as model providers in some setups. That is separate from the coding CLI skill. Prefer the skill for **repo coding handoff**.
 
-Practical pairing: [[howto-hermes-opencode-pairing]]
+Practical pairing: [howto hermes opencode pairing](howto-hermes-opencode-pairing.md)
 
 ---
 

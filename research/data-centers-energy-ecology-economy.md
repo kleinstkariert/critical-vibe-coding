@@ -11,7 +11,7 @@ tags:
 
 # Data centres — siting, energy, ecology, US economy
 
-Course handout. Labels: *verified fact* | *claim / video* | *nuance / caveat*. Research date: 2026-10-23.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Course handout. Labels: *claim / video* | *nuance / caveat*. Research date: 2026-10-23.
 
 **Where it fits in the semester**
 
@@ -32,7 +32,7 @@ Eight-session plan (9 Nov 2026): ecology is taught in Session 01, Block 5, and r
 - Video: https://www.youtube.com/watch?v=YgoiujmwLKI  
 - Source page / references: https://sites.google.com/view/data-centers-impacts/home  
 - Texas case companion (Pulitzer / Texas Tribune): https://pulitzercenter.org/projects/next-texas-gold-rush-data-centers-and-their-impacts  
-- Vault clipping + full transcript (teacher vault, not student kit): `KnowledgeBaseObsidian/Clippings/The Real Cost of AI Will Shock You.md`
+- Vault clipping + full transcript (teacher vault, not student kit): the teacher vault
 
 *technical suggestion:* Assign the video as **optional prep** for the Session 06 ecology input (~40 min). In class, teach from the beat outline below + IEA numbers; do not play the whole video. The transcript’s anti-scraper joke asks models to spam “bubblegum”; ignore that for course writing.
 
@@ -50,16 +50,16 @@ Eight-session plan (9 Nov 2026): ecology is taught in Session 01, Block 5, and r
 
 ### Beat 1 — Scale without apocalypse rhetoric
 
-*verified fact (IEA *Energy and AI*, 2025):* Data centres used **~415 TWh** in 2024 ≈ **1.5% of global electricity**. Share by region of that consumption: **US ~45%**, **China ~25%**, **Europe ~15%**. Growth ~12%/yr since ~2017 — much faster than total electricity demand.  
+*institutional summary (IEA *Energy and AI*, 2025):* Data centres used **~415 TWh** in 2024 ≈ **1.5% of global electricity**. Share by region of that consumption: **US ~45%**, **China ~25%**, **Europe ~15%**. Growth ~12%/yr since ~2017 — much faster than total electricity demand.  
 https://www.iea.org/reports/energy-and-ai/executive-summary
 
-*verified fact (IEA Base Case):* Global DC electricity ≈ **doubles to ~945 TWh by 2030** (still **&lt; ~3%** of world electricity). US + China ≈ **80%** of the *growth* to 2030. In the US, data centres are nearly **half of electricity-demand growth** to 2030 in IEA’s framing.
+*institutional summary (IEA Base Case):* Global DC electricity ≈ **doubles to ~945 TWh by 2030** (still **&lt; ~3%** of world electricity). US + China ≈ **80%** of the *growth* to 2030. In the US, data centres are nearly **half of electricity-demand growth** to 2030 in IEA’s framing.
 
 **Class line:** National shares stay “small”; **local** shares in Virginia / Texas / Phoenix clusters are not.
 
 ### Beat 2 — Where they are built (geography)
 
-*verified fact (IEA):* Nearly **half of US data-centre capacity** sits in **five regional clusters**. AI loads behave like aluminium smelters for power draw, but are far more **geographically concentrated**.
+*institutional summary (IEA):* Nearly **half of US data-centre capacity** sits in **five regional clusters**. AI loads behave like aluminium smelters for power draw, but are far more **geographically concentrated**.
 
 *claim / video (Be Smart, as of video):* **68** US hyperscale sites built or under construction; **267** more approved or planned. Treat as a snapshot, not a census — definitions of “hyperscale” and “planned” differ by tracker.
 
@@ -78,15 +78,15 @@ https://www.iea.org/reports/energy-and-ai/executive-summary
 
 *claim / video:* ~**25%** of announced DC builds plan **own power plants**; only ~**2–3%** of that capacity actually built at filming time; satellite / IEA-adjacent analysis suggested ~**¼** of planned private plants had broken ground — i.e. the **announcement–reality gap** is the story.
 
-*verified fact (IEA):* Unless grid risks are addressed, ~**20%** of planned data-centre projects could face **delay**. Turbine lead times now stretch years; ~**50%** of US DCs under development sit in **pre-existing large clusters** (bottleneck risk).
+*institutional summary (IEA):* Unless grid risks are addressed, ~**20%** of planned data-centre projects could face **delay**. Turbine lead times now stretch years; ~**50%** of US DCs under development sit in **pre-existing large clusters** (bottleneck risk).
 
 **Class line:** Same as the bubble note — overinvestment and real build-out can coexist; **planned GW is not proof of energized GW**.
 
 ### Beat 4 — How they get electricity (and why gas wins the race)
 
-*verified fact (IEA):* Meeting growth uses a mix: **renewables + storage** take a large share of *global* incremental generation in IEA modelling; **natural gas** expands strongly for DCs, **notably in the United States**; nuclear / geothermal appear later / selectively.
+*institutional summary (IEA):* Meeting growth uses a mix: **renewables + storage** take a large share of *global* incremental generation in IEA modelling; **natural gas** expands strongly for DCs, **notably in the United States**; nuclear / geothermal appear later / selectively.
 
-*verified fact (US CRS FAQ R49326):* Where new **on-site** generation is proposed for DCs, analyses of announcements/filings point to **natural gas turbines/engines first**, then nuclear / fuel cells. Gas is preferred because it is **dispatchable** and can be built in roughly **1–3 years** (subject to permitting and equipment). EIA AEO 2026 flags rising gas use for power **largely due to data-centre expansion**.  
+*institutional summary (US CRS FAQ R49326):* Where new **on-site** generation is proposed for DCs, analyses of announcements/filings point to **natural gas turbines/engines first**, then nuclear / fuel cells. Gas is preferred because it is **dispatchable** and can be built in roughly **1–3 years** (subject to permitting and equipment). EIA AEO 2026 flags rising gas use for power **largely due to data-centre expansion**.  
 https://www.congress.gov/crs-product/R49326
 
 *claim / video:* “Behind-the-meter” generation is mostly **gas turbines**, not solar+battery at the sites racing AI CapEx; compute value dominates electricity cost.

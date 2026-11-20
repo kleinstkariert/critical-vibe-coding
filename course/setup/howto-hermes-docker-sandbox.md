@@ -7,11 +7,16 @@ tags:
   - hermes
   - docker
   - sandbox
+audience: student
+status: current
+canonical: true
 ---
 
 # How-to. Turn on the Hermes Docker sandbox
 
-Short click-path only. For Docker concepts, mounts, and generic container flags, use [[Local LLM Coding with Hermes]] (§8 Docker, §9 Sandbox).
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [minimum path](../minimum-path.md).
+
+Short click-path only. For Docker concepts, mounts, and generic container flags, use [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) (§8 Docker, §9 Sandbox).
 
 Official Nous docs:
 
@@ -19,7 +24,7 @@ Official Nous docs:
 - Security (container isolation): https://hermes-agent.nousresearch.com/docs/user-guide/security
 - Configuration (Docker backend): https://hermes-agent.nousresearch.com/docs/user-guide/configuration
 
-Labels: *verified fact* | *technical suggestion*. Check the docs for your Hermes version.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check the docs for your Hermes version.
 
 ---
 
@@ -34,20 +39,20 @@ Labels: *verified fact* | *technical suggestion*. Check the docs for your Hermes
 
 ## 1. Prerequisites
 
-1. Install Docker for your OS (links in [[Local LLM Coding with Hermes]] §8).
+1. Install Docker for your OS (links in [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) §8).
 2. Confirm Docker works:
 
 ```bash
 docker version
 ```
 
-3. Keep Hermes installed on the host for this path: [[howto-hermes-setup]]
+3. Keep Hermes installed on the host for this path: [howto hermes setup](howto-hermes-setup.md)
 
 ---
 
 ## 2. Turn on the Docker backend
 
-Fast path (*verified fact* from Hermes configuration docs):
+Fast path (*institutional summary* from Hermes configuration docs):
 
 ```bash
 hermes config set terminal.backend docker
@@ -80,7 +85,7 @@ hermes config set terminal.backend local
 
 Keep the workspace small. Do not mount the full home directory or private vault folders.
 
-Useful keys (*verified fact* from Hermes docs; names can change by version):
+Useful keys (*institutional summary* from Hermes docs; names can change by version):
 
 | Goal | Config idea |
 |---|---|
@@ -113,7 +118,7 @@ Do not set `approvals.mode: off` on a personal laptop unless you understand the 
 
 Review the Git diff after agent edits.
 
-Course rules: [[howto-hermes-setup]] §5d · [[Local LLM Coding with Hermes]]
+Course rules: [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md)
 
 ---
 
@@ -133,5 +138,5 @@ Course rules: [[howto-hermes-setup]] §5d · [[Local LLM Coding with Hermes]]
 - https://hermes-agent.nousresearch.com/docs/user-guide/docker
 - https://hermes-agent.nousresearch.com/docs/user-guide/security
 - https://hermes-agent.nousresearch.com/docs/user-guide/configuration
-- [[Local LLM Coding with Hermes]]
-- [[howto-hermes-setup]]
+- [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md)
+- [howto hermes setup](howto-hermes-setup.md)

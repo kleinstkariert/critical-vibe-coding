@@ -2,11 +2,16 @@
 title: Session 02. Agent harness, wiki architecture, model landscape, Hermes install
 session: 2
 updated: 2026-11-10
+audience: student
+status: current
+canonical: true
 ---
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
-Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
+*reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
+
+Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
 
 First **practice** session after Session 01. A student group opens with the **flattening** input; harness, wiki structure, model landscape and the Hermes install are the teacher's. Prompting and chat versus reasoning: Session 03. Phone, Discord and MCP: Session 05.
 
@@ -18,7 +23,7 @@ First **practice** session after Session 01. A student group opens with the **fl
 - Map harness parts to what students will actually configure (not vendor mythology)
 - Then specialise: **LLM Wiki + knowledge store** as the durable filesystem half of our harness
 - Short **model landscape**: what students can use, and what it costs (moved here from the old Session 03)
-- **Install Hermes**, point it at the vault, and run it on one free, open model
+- **Install Hermes**, point it at the vault, and run it on one free-to-use hosted endpoint ([default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §4)
 - Leave with a mental diagram they can redraw for the midpoint and the final
 
 ## Clock
@@ -26,17 +31,17 @@ First **practice** session after Session 01. A student group opens with the **fl
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
-| **10:20 to 10:35** | Student input: **flattening** ([[../course-rhythm]]) |
+| **10:20 to 10:35** | Student input: **flattening** ([course rhythm](../syllabus/course-rhythm.md)) |
 | **10:35 to 10:55** | Teacher: harness (general), then LLM Wiki / store structure |
 | **10:55 to 11:05** | Break |
-| **11:05 to 11:15** | Teacher: model landscape and the free model |
-| **11:15 to 12:00** | Install Hermes, connect the free model, vault smoke test |
+| **11:05 to 11:15** | Teacher: model landscape and the free-to-use endpoint |
+| **11:15 to 12:00** | Install Hermes, connect that endpoint, vault smoke test |
 
 If the install runs long, the diagram practice moves to homework.
 
 ## Check-in
 
-Listen only: [[../course-rhythm#1-check-in-every-session]].
+Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session).
 
 ## Student input (theory / humanities): Flattening
 
@@ -44,11 +49,11 @@ Group (about 15 min). Thesis to test: **AI kills the underground and it kills di
 
 Flattening is not only taste or style moving toward the popular voice. A statistical model reproduces what is shown most online, so it generates an average of the most displayed content, not of reality. That average becomes a norm, skewed toward the most visible: male, English-speaking, young, commercial. Include **AI and patriarchy** and **feminism and AI**.
 
-Deep dive and sources: [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]]. Not "what is a harness".
+Deep dive and sources: [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md). Not "what is a harness".
 
 ## Teacher input, Part A: Harness (general), *practice*
 
-Course note: [[../what-is-harness]]
+Course note: [what is harness](../concepts/what-is-harness.md)
 Read (teacher, optional students): [LangChain, *The Anatomy of an Agent Harness*](https://www.langchain.com/blog/the-anatomy-of-an-agent-harness) (2026-03-10).
 
 ### Core sentence
@@ -79,7 +84,7 @@ Emphasise: **harness engineering is design**. Choosing tools, schemas and kill s
 
 ### Why we invest in structure before model shopping
 
-Research check: [[../../research/structure-vs-model-quality]] · short version in [[../what-is-harness#why-structure--harness-often-beats-just-a-better-model]].
+Research check: [structure vs model quality](../../research/structure-vs-model-quality.md) · short version in [what is harness](../concepts/what-is-harness.md#why-structure-harness-often-beats-just-a-better-model).
 
 Teach carefully:
 
@@ -100,6 +105,8 @@ Classroom bet for CVC: spend the semester on **wiki + schema + tools** (structur
 
 After the general frame, land in the course default.
 
+*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [minimum path](../minimum-path.md).
+
 ### Why a folder wiki is harness, not "just notes"
 
 - Context windows are scarce → durable state on disk
@@ -108,7 +115,7 @@ After the general frame, land in the course default.
 
 ### Structure to teach (walk the tree)
 
-Point at [[../llm-wiki-standard-files]] and draw:
+Point at [llm wiki standard files](../setup/llm-wiki-standard-files.md) and draw:
 
 ```text
 vault/  (or wiki/)
@@ -119,8 +126,8 @@ vault/  (or wiki/)
   entities/ concepts/ comparisons/ queries/
 ```
 
-Habits: ingest → query → **lint** ([[../what-is-lint]]).
-Karpathy pattern: [[../../research/karpathy-llm-wiki-and-openclaw]] · gist in [[../references]].
+Habits: ingest → query → **lint** ([what is lint](../concepts/what-is-lint.md)). A structured wiki does not make the notes true: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves).
+Karpathy pattern: [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · gist in [references](../syllabus/references.md).
 
 ### Obsidian's job
 
@@ -128,7 +135,7 @@ Karpathy pattern: [[../../research/karpathy-llm-wiki-and-openclaw]] · gist in [
 - Sync to phone = harness reaches the street (Session 05)
 - The agent does **not** need Obsidian open to edit files; Obsidian is the viewer and editor for you
 
-How-to: [[../howto-obsidian-setup-and-sync]]
+How-to: [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md)
 
 ### Diagram to leave with
 
@@ -146,27 +153,25 @@ Students redraw this in their own words for homework.
 
 ## Teacher input, Part C: Model landscape (short), *practice*
 
-From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]). Ten minutes, honest access notes:
+Ten minutes, honest access notes:
 
-- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [[../setup/Prompting Guide for Critical Vibe Coding]].
+- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md).
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
-- **Local**: preview only. Hardware paths and memory math: Session [[03-hardware-open-models-prompting|03]].
-- **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [[../academic-ai-austria]]. Say explicitly what students can and cannot use.
-- Cloud or local, where the notes go: the flowchart in [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §3. Privacy and AI Act pointer: [[../eu-ai-act-and-datenschutz]].
+- **Local**: preview only. Hardware paths and memory math: Session [03](03-hardware-open-models-prompting.md).
+- **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [academic ai austria](../setup/academic-ai-austria.md). Say explicitly what students can and cannot use.
+- Cloud or local, where the notes go: the flowchart in [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §3. Privacy and AI Act pointer: [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
 
-### The free model for today
+### The free-to-use endpoint for today
 
-*technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
+*technical suggestion* (page consulted 10 Nov 2026): **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-- Open: weights under the permissive OpenMDW 1.1 licence. $0 per token. Tool calling and up to 1 million tokens of context (Hermes needs at least 64,000 and tool calling).
-- Limits: 20 requests per minute and 50 per day on a free account. Enough for a smoke test and light daily use, not for long agent runs.
-- Privacy: it is open, but in this setup it runs in the cloud. Free providers may log prompts. No private notes through it until the data policy is checked.
-- Fallback: the free plan of Nous Portal (`hermes setup --portal`, free models only), or students' own subscriptions or keys.
-- Details and sources: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
+- Openly distributed materials under OpenMDW-1.1 (weights, and NVIDIA's claim of data and recipes). The endpoint is free to use: $0 per token. Tool calling and up to 1 million tokens of context (Hermes needs at least 64,000 and tool calling).
+- Limits: 20 requests per minute and 50 per day on a free account. Enough for a smoke test and light daily use, not for long agent runs. Prompts may be logged. Too large for most student machines. Do not send private notes through it until you have checked the data policy. The route is a hosted cloud service: [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §4.
+- Fallback: the free plan of Nous Portal (`hermes setup --portal`, free-to-use hosted models only), or students' own subscriptions or keys.
 
 ## Practical: install Hermes (≥45 min)
 
-1. Install Hermes on student machines: [[../howto-hermes-setup]] (Windows, macOS, Linux).
+1. Install Hermes on student machines: [howto hermes setup](../setup/howto-hermes-setup.md) (Windows, macOS, Linux).
 2. Create a free OpenRouter account and key. Put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, never in the vault.
 3. `hermes model` → OpenRouter → `nvidia/nemotron-3-ultra-550b-a55b:free` (or the student's own access).
 4. Point Hermes at the Obsidian vault path (`WIKI_PATH` / `OBSIDIAN_VAULT_PATH`).
@@ -177,31 +182,31 @@ If the install fails, label Model versus Harness on a product the student alread
 
 ## Homework
 
-- Finish the Hermes install and smoke test if class time ran out: [[../howto-hermes-setup]]
+- Finish the Hermes install and smoke test if class time ran out: [howto hermes setup](../setup/howto-hermes-setup.md)
 - One-page diagram: Model / Harness / Wiki folders (phone photo OK)
 - Skim the Karpathy gist **or** the LangChain harness article (pick one)
-- Next week: hardware paths, open models, prompting, chat versus reasoning ([[03-hardware-open-models-prompting]])
+- Next week: hardware paths, locally runnable models, prompting, chat versus reasoning ([03 hardware open models prompting](03-hardware-open-models-prompting.md))
 
 ## Materials / References
 
 | What | Link |
 |---|---|
-| Course: what is a harness | [[../what-is-harness]] |
-| Structure versus model quality (research) | [[../../research/structure-vs-model-quality]] |
+| Course: what is a harness | [what is harness](../concepts/what-is-harness.md) |
+| Structure versus model quality (research) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
 | LangChain: Anatomy of an agent harness | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
-| LLM Wiki standard files | [[../llm-wiki-standard-files]] |
-| What is lint | [[../what-is-lint]] |
-| Karpathy research note | [[../../research/karpathy-llm-wiki-and-openclaw]] |
-| Hermes install | [[../howto-hermes-setup]] · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
-| Hermes efficient coding (harness tips) | [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] |
-| Hermes vs coding agents (comparison) | [[../concepts/hermes-vs-coding-agents]] |
-| OpenCode setup and Hermes pairing | [[../setup/howto-opencode-setup]] · [[../setup/howto-hermes-opencode-pairing]] |
-| Session 02 Obsidian slides | [[../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes]] |
-| Architecture overview | [[../setup/Local LLM Coding with Hermes]] |
-| Hermes install (Desktop + CLI) | [[../setup/howto-hermes-setup]] |
+| LLM Wiki standard files | [llm wiki standard files](../setup/llm-wiki-standard-files.md) |
+| What is lint | [what is lint](../concepts/what-is-lint.md) |
+| Karpathy research note | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
+| Hermes install | [howto hermes setup](../setup/howto-hermes-setup.md) · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
+| Hermes efficient coding (harness tips) | [howto hermes efficient coding](../setup/howto-hermes-efficient-coding.md) · [agents md template](../setup/agents-md-template.md) |
+| Hermes vs coding agents (comparison) | [hermes vs coding agents](../concepts/hermes-vs-coding-agents.md) |
+| OpenCode setup and Hermes pairing | [howto opencode setup](../setup/howto-opencode-setup.md) · [howto hermes opencode pairing](../setup/howto-hermes-opencode-pairing.md) |
+| Session 02 Obsidian slides | [02 agent harness and hermes](../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) |
+| Architecture overview | [Local LLM Coding with Hermes](../setup/Local%20LLM%20Coding%20with%20Hermes.md) |
+| Hermes install (Desktop + CLI) | [howto hermes setup](../setup/howto-hermes-setup.md) |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
-| Free model (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
-| Model choice, academic access | [[../setup/Prompting Guide for Critical Vibe Coding]] · [[../setup/academic-ai-austria]] |
-| Flattening deep dive (student input) | [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] |
-| Session 01 lecture (model versus product versus agent) | [[../lectures/01-welcome-landscape-lecture]] |
-| Presentation style | [[../presentation-style]] |
+| Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
+| Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [academic ai austria](../setup/academic-ai-austria.md) |
+| Flattening deep dive (student input) | [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) |
+| Session 01 lecture (model versus product versus agent) | [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
+| Presentation style | [presentation style](../presentation-style.md) |

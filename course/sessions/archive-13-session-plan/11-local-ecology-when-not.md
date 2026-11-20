@@ -1,6 +1,9 @@
 ---
 title: Session 11 - Local, ecology, when not
 session: 11
+audience: archive
+status: deprecated
+canonical: false
 ---
 
 # Session 11 - Ecology / data centres, when *not* to use AI

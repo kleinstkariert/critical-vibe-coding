@@ -1,10 +1,18 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # How to: SilverBullet setup and sync
 
-Practical guide for **personal** SilverBullet / Hermes experiments on **Windows**, **macOS**, and **Linux**. Companion to [[howto-obsidian-setup-and-sync]] and [[knowledge-store-options]].
+*optional extension. Not required for assessment.* A sentence below calls Obsidian the class default. That names one knowledge store, not the assessment. See [minimum path](../minimum-path.md).
+
+Practical guide for **personal** SilverBullet / Hermes experiments on **Windows**, **macOS**, and **Linux**. Companion to [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) and [knowledge store options](knowledge-store-options.md).
 
 *requirement for the course:* **phone sync.** SilverBullet’s smooth phone path needs a **Server that stays up** — too heavy to require of every student. **Class default remains Obsidian + Nextcloud.** Use this how-to if *you* self-host; do not set it as the student baseline.
 
-**Licensing (*verified fact*, 2026-10-15):**
+**Licensing (*unverified lead*, 2026-10-15):**
 
 | Piece | License / cost |
 |-------|----------------|
@@ -13,7 +21,7 @@ Practical guide for **personal** SilverBullet / Hermes experiments on **Windows*
 
 So: “open source” is accurate for the **server and the format (plain `.md` folder)**. Desktop is a native client with a personal/edu free tier, not the same as “the whole product is AGPL/MIT with no commercial tier.”
 
-Related: [[../../research/obsidian-vs-joplin-hermes-llmwiki]] · Hermes is also MIT — see below in [[knowledge-store-options]].
+Related: [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) · Hermes is also MIT — see below in [knowledge store options](knowledge-store-options.md).
 
 ---
 
@@ -35,9 +43,9 @@ Related: [[../../research/obsidian-vs-joplin-hermes-llmwiki]] · Hermes is also 
    - **macOS:** Desktop build from the same page (Apple Silicon / Intel as offered upstream)  
    - **Linux:** Desktop build if listed; otherwise prefer Path B (Server) or open the space folder with any markdown editor + Hermes
 2. Open or create a **folder** as a space, e.g.:
-   - Windows: `C:\Users\you\Nextcloud\...\silverbullet-space`
+   - Windows: `C:\path\to\silverbullet-space`
    - macOS / Linux: `~/Nextcloud/silverbullet-space` or `~/silverbullet-space`
-3. You now have plain `.md` files. Point Hermes at that **absolute** folder path ([[howto-hermes-setup]]).
+3. You now have plain `.md` files. Point Hermes at that **absolute** folder path ([howto hermes setup](howto-hermes-setup.md)).
 
 **Sync later:** connect this space to a Server (section 4) when you want the phone.
 
@@ -83,7 +91,7 @@ Docs: https://silverbullet.md/Install/Docker · https://silverbullet.md/server
 
 **Linux without Docker:** use the upstream server binary / install docs if you prefer systemd over containers — still put auth in front of any non-localhost bind.
 
-**Auth notes (*verified fact*):**
+**Auth notes (*unverified lead*):**
 
 - Default modern installs use **multi-space accounts** (Dashboard).
 - Classic **single-space**: `SB_USER=username:password`.

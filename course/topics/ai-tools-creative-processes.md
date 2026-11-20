@@ -5,13 +5,16 @@ tags:
   - course
   - research
   - creative-ai
+audience: student
+status: current
+canonical: true
 ---
 
 # AI tools for creative processes — research list
 
-Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *verified fact* (URL checked 2026-10-18) | *technical suggestion*.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
 
-Use with: [[sessions/05-knowledge-base-phone-discord]] (MCP) · [[sessions/07-coding-and-creative-stacks]] · CAD/3D table in [[sessions/archive-13-session-plan/06-mcp-and-tools]] · [[course-outline]].
+Use with: [05 knowledge base phone discord](../sessions/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../sessions/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../sessions/archive-13-session-plan/06-mcp-and-tools.md) · [course outline](../syllabus/course-outline.md).
 
 ---
 
@@ -31,7 +34,7 @@ Use with: [[sessions/05-knowledge-base-phone-discord]] (MCP) · [[sessions/07-co
 
 | Tool | Role | Agent link | Notes / URL |
 |---|---|---|---|
-| **Meshy** | Text/image → 3D; texture, rig; STL/3MF export; printability marketing | Official **MCP** (`@meshy-ai/meshy-mcp-server`) | https://www.meshy.ai/ — *verified fact:* MCP one-liner on homepage |
+| **Meshy** | Text/image → 3D; texture, rig; STL/3MF export; printability marketing | Official **MCP** (`@meshy-ai/meshy-mcp-server`) | https://www.meshy.ai/ — *unverified lead:* MCP one-liner on homepage |
 | **Tripo** | Fast text/image → 3D | API / web | Often compared with Meshy for topology/speed — https://www.tripo3d.ai/ |
 | **Rodin (Hyper3D)** | Photoreal PBR-oriented gen | Web / API | Visual-first; check export for fab |
 | **Hitem3D** | High-res image/multi-view → 3D | Web | Print-oriented claims — verify |
@@ -46,7 +49,7 @@ Classroom: Meshy is the cleanest **agent-wired** example (session 5). Others = s
 | Tool | Role | Agent link | Notes / URL |
 |---|---|---|---|
 | **Figma Weave** | Node canvas: image / video / audio / 3D; Compositor; workflows → packaged tools; Weave tools inside Figma Design | Figma ecosystem (not a Hermes default) | https://www.figma.com/ — node-platform overview: https://www.figma.com/resource-library/best-node-based-ai-platform/ |
-| **FLORA** | Branching creative canvas; side-by-side model runs; **FAUNA** in-canvas agent | FAUNA in-app; also **FLORA MCP** for external agents (Claude/Cursor…) — *verified fact:* docs.flora.ai | https://flora.ai/ · FAUNA: https://docs.flora.ai/editor/fauna |
+| **FLORA** | Branching creative canvas; side-by-side model runs; **FAUNA** in-canvas agent | FAUNA in-app; also **FLORA MCP** for external agents (Claude/Cursor…) — *institutional summary:* docs.flora.ai | https://flora.ai/ · FAUNA: https://docs.flora.ai/editor/fauna |
 | **Fuser** | Node canvas + editable compositor layouts, recipes, custom code/web tools | Studio product | https://fuser.studio/ · compare page: https://fuser.studio/compare |
 | **ComfyUI** | Local/graph diffusion pipelines | Often paired with agents via custom nodes / API | Self-host; high control, high friction — ecology + skill discussion |
 | **Krea** | Real-time / prompt-to-workflow canvas | Web | Fast concepting |
@@ -67,7 +70,7 @@ Classroom: Meshy is the cleanest **agent-wired** example (session 5). Others = s
 | Video | Kling, Runway, Luma Dream Machine, Hailuo, Pika |
 | Audio / music / voice | Suno, Udio, ElevenLabs, Mureka |
 
-Peer-course list (HKUST AMCC6500) clusters these similarly — see [[course-outline]]. Prefer **one** demo per modality over a zoo of accounts.
+Peer-course list (HKUST AMCC6500) clusters these similarly — see [course outline](../syllabus/course-outline.md). Prefer **one** demo per modality over a zoo of accounts.
 
 ---
 
@@ -83,7 +86,7 @@ Peer-course list (HKUST AMCC6500) clusters these similarly — see [[course-outl
 
 ## CAD / DCC with agent bridges (MCP)
 
-Full teaching table lives in [[sessions/archive-13-session-plan/06-mcp-and-tools]] (used in Sessions 05 and 07). Short index:
+Full teaching table lives in [06 mcp and tools](../sessions/archive-13-session-plan/06-mcp-and-tools.md) (used in Sessions 05 and 07). Short index:
 
 | App | MCP status (2026-10-18) |
 |---|---|

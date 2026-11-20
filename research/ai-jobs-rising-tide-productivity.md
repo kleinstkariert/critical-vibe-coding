@@ -10,7 +10,7 @@ tags:
 
 # AI and jobs — rising tide, early-career canaries, productivity by experience
 
-Course handout for Session 01, Block 6 ([[../course/lectures/01-welcome-landscape-deep-dives/labour]]); earlier unit archived: [[../course/sessions/archive-13-session-plan/10-authorship-labour-platforms]]. Labels: *verified fact* | *nuance* | *claim*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Course handout for Session 01, Block 6 ([[../course/lectures/01-welcome-landscape-deep-dives/labour]]); earlier unit archived: [[../course/sessions/archive-13-session-plan/10-authorship-labour-platforms]]. Labels: *nuance* | *claim*.
 
 **Do not** teach Amodei “20% unemployment” or Goldman “300 million jobs” as settled forecasts. Prefer the papers below.
 
@@ -29,14 +29,14 @@ Cross-refs: [[../course/topics/visions-fears-regulation]] · IMF “exposed ≠ 
 | Project page | https://futuretech.mit.edu/publication/crashing-waves-vs-rising-tides-preliminary-findings-on-ai-automation-from-thousands-of-worker-evaluations-of-labor-market-tasks |
 | MIT Sloan explainer | https://mitsloan.mit.edu/ideas-made-to-matter/how-will-ai-automation-hit-a-crashing-wave-or-a-rising-tide |
 
-**Frame (*verified fact* from abstract / intro):**
+**Frame (*primary evidence, from the abstract only*):**
 
 | Metaphor | Meaning | Labour implication |
 |---|---|---|
 | **Crashing wave** | Capability jumps: long tasks go from “almost never works” → “almost always works” overnight | Sudden occupation shocks; little adaptation time |
 | **Rising tide** | Performance lifts **broadly** across short *and* long tasks; success–duration curve stays relatively **flat** | Gradual, diffuse pressure across many text-based jobs |
 
-**Main empirical claims (*verified fact* — paper):**
+**Main empirical claims (*primary evidence* — paper):**
 
 - &gt;6,000 O*NET LLM-addressable tasks; &gt;60,000 expert worker evaluations; 41 models.
 - Little evidence of crashing waves; **rising tides** dominate.
@@ -60,7 +60,7 @@ Cross-refs: [[../course/topics/visions-fears-regulation]] · IMF “exposed ≠ 
 | Aug 2026 update note | https://digitaleconomy.stanford.edu/news/canariesaug26/ |
 | Author primer | https://bharatchandar.substack.com/p/a-primer-on-canaries-in-the-coal |
 
-**Core facts (*verified fact* — lab summary):**
+**Core facts (*institutional summary*, lab summary):**
 
 1. **No** economy-wide mass displacement yet.
 2. **Young workers (≈22–25)** in highly AI-exposed occupations fall behind: employment gap ~**19%** below the path of similarly aged workers in less-exposed jobs (June 2026 update; was ~15% mid-2025).

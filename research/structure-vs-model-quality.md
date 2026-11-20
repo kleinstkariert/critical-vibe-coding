@@ -13,7 +13,7 @@ tags:
 Claim circulating in the course: *the information structure around an agent matters more than LLM quality (within limits); someone said productivity is ~70% knowledge/structure and ~30% model.*
 
 Domain: mainly **software engineering / coding agents**, with supporting RAG results.  
-Labels: *verified fact* | *nuance / caveat* | *technical suggestion*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *nuance / caveat* | *technical suggestion*.
 
 Course home for this argument: [[../course/concepts/what-is-harness]] · session [[../course/sessions/02-agent-harness-and-wiki-architecture]].
 
@@ -29,7 +29,7 @@ Course home for this argument: [[../course/concepts/what-is-harness]] · session
 
 ## Where the ~70% / ~30% figure actually comes from
 
-*verified fact:* Wadhwa et al., *When Context Leads but Parametric Memory Follows in Large Language Models* (arXiv:2409.08435, 2024).
+*primary evidence:* Wadhwa et al., *When Context Leads but Parametric Memory Follows in Large Language Models* (arXiv:2409.08435, 2024).
 
 - Setting: open-ended QA when **context is knowledge-consistent** with what the model “knows.”
 - Finding: across nine LLMs, answers draw **roughly ~70% from the provided context** and **~30% from parametric (in-weights) knowledge**; more context → fewer hallucinations; models never use context 100%.

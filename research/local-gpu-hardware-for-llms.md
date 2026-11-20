@@ -11,7 +11,7 @@ tags:
 
 # Local hardware for larger LLMs
 
-Research note + setup map for Critical Vibe Coding. Labels: *verified fact* | *street-price estimate* | *technical suggestion* | *nuance*.  
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research note + setup map for Critical Vibe Coding. Labels: *street-price estimate* | *technical suggestion* | *nuance*.  
 Prices move weekly — re-check before telling students a number. Currency roughly **USD/EUR street / MSRP class, mid–late 2026** unless noted.
 
 **Session home:** [[../course/sessions/03-hardware-open-models-prompting]] · student howto [[../course/setup/howto-local-llm-hardware]]  
@@ -148,20 +148,19 @@ So **2×24 GB ≈ 48 GB of weight capacity**, not “one 48 GB GPU.”
 
 ### Institutional shopping lists (teacher vault — not public)
 
-Full **€6–10k** open-frame shopping lists (dual/triple 3090, dual 4090, 5090 ceiling), coding-model matrix, and **DIY vs DGX Spark** justification for budget letters live in the private Obsidian folder:
-
-`KnowledgeBaseObsidian/Teaching/CriticalVibeCoding/hardware-procurement/`  
-(start at `00-index-budget-vs-spark.md`)
+Full open-frame shopping lists, a coding-model matrix, and the DIY versus DGX Spark note for budget letters stay in the teacher vault. They are not in this repository.
 
 *nuance for students:* DIY multi-GPU is often best **€/tok/s** for 70B Q4 inference and for **teaching how to build**; Spark wins on **quiet coherent 128 GB** and turnkey training — complements, not clones.
 
 ---
 
-## 5. Open downloadable models — what makes sense
+## 5. Locally runnable models: what fits
 
 Prefer **instruct / tool-calling** builds for Hermes agents (plain chat models cannot drive tools reliably). Names age — check Ollama library / Hugging Face / Hermes catalog at class time.
 
-| Hardware you have | Sensible open models (*examples*) | Role |
+These rows are locally runnable models. The weights have to fit the machine. A free hosted endpoint is a different route: [[../course/lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
+
+| Hardware you have | Sensible locally runnable models (*examples*) | Role |
 |---|---|---|
 | 8–16 GB VRAM / 16–24 GB unified | Qwen3 4–8B, Llama 3.x 8B, Gemma 2 9B, Phi-class | Daily chat; light agent if tool-tuned |
 | 24 GB / 32–48 GB unified | Qwen3 14–32B, Gemma 27–31B tool models, DeepSeek-R1 **distill 14–32B** | Strong local agent; toggle thinking |

@@ -4,11 +4,14 @@ date: 2026-10-20
 tags:
   - course
   - concepts
+audience: student
+status: current
+canonical: true
 ---
 
 # What is an agent harness?
 
-Course concept note for session [[sessions/02-agent-harness-and-wiki-architecture]].  
+Course concept note for session [02 agent harness and wiki architecture](../sessions/02-agent-harness-and-wiki-architecture.md).  
 Primary external text: [LangChain — *The Anatomy of an Agent Harness*](https://www.langchain.com/blog/the-anatomy-of-an-agent-harness) (Trivedy, 2026-03-10).
 
 ## One line
@@ -49,17 +52,17 @@ Those are harness jobs. Desired behaviour → harness feature (LangChain’s der
 | Filesystem workspace | Obsidian vault / `WIKI_PATH` |
 | Memory files | `SCHEMA.md`, `index.md`, `log.md` |
 | Skills | Hermes bundled skills (llm-wiki, …) + your procedures |
-| Tools / MCP | Filesystem tools first; apps via MCP later ([[what-is-mcp]]) |
+| Tools / MCP | Filesystem tools first; apps via MCP later ([what is mcp](what-is-mcp.md#permissions-and-capability-boundary)) |
 | Verification | Lint pass, human review, tests before fab |
 | Context management | Small index + pull pages; don’t paste the whole vault |
 
-Deep structure: [[llm-wiki-standard-files]] · [[what-is-lint]] · Karpathy gist via [[../../research/karpathy-llm-wiki-and-openclaw]].
+Deep structure: [llm wiki standard files](../setup/llm-wiki-standard-files.md) · [what is lint](what-is-lint.md) · Karpathy gist via [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md).
 
 ---
 
 ## Why structure / harness often beats “just a better model”
 
-*technical suggestion for teaching:* In software-engineering-style agent work, **information structure + harness design** frequently move outcomes more than swapping to the next bigger LLM — *within a usable model tier*. Research note with citations: [[../../research/structure-vs-model-quality]].
+*technical suggestion for teaching:* In software-engineering-style agent work, **information structure + harness design** frequently move outcomes more than swapping to the next bigger LLM — *within a usable model tier*. Research note with citations: [structure vs model quality](../../research/structure-vs-model-quality.md).
 
 ### What is actually true
 

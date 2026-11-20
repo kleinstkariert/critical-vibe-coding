@@ -7,15 +7,20 @@ tags:
   - hermes
   - harness
   - coding
+audience: student
+status: current
+canonical: true
 ---
 
 # How-to. Set up Hermes for efficient coding
 
-Complement to [[howto-hermes-setup]]. That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../minimum-path.md).
 
-Labels: *technical suggestion* | *verified fact*. Writing style target: STE ~80%.
+Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 
-Related: [[../sessions/02-agent-harness-and-wiki-architecture]] · [[Local LLM Coding with Hermes]] · [[howto-local-llm-hardware]] · [[agents-md-template]] · course root `AGENTS.md`
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
+
+Related: [02 agent harness and wiki architecture](../sessions/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
 
 ---
 
@@ -48,13 +53,13 @@ If verify fails three times, stop and report. Do not keep guessing.
 | **production** | Shared repos, demos, anything you ship | No drive-by refactors; full verify; human approval before push |
 | **hybrid** | Research notes + code in one session | Keep vault/wiki notes out of the code tree unless the task says to commit them |
 
-Put the mode line in `AGENTS.md` or in the first chat message. Template: [[agents-md-template]].
+Put the mode line in `AGENTS.md` or in the first chat message. Template: [agents md template](agents-md-template.md).
 
 ---
 
 ## 1. Install Hermes first
 
-Follow [[howto-hermes-setup]] until `hermes` runs and a model answers.
+Follow [howto hermes setup](howto-hermes-setup.md) until `hermes` runs and a model answers.
 
 Minimum for coding agents (*technical suggestion*):
 
@@ -66,7 +71,7 @@ Minimum for coding agents (*technical suggestion*):
 
 ## 2. Project context file (`AGENTS.md`)
 
-*verified fact:* Hermes loads project context files. Priority (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`. Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files
+*institutional summary:* Hermes loads project context files. Priority (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`. Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files
 
 Create `AGENTS.md` at the repo root:
 
@@ -171,7 +176,7 @@ Skills inside (namespaced), including:
 Practical field guide (Claude-oriented plugin, but the **rules and hooks** transfer):
 
 - https://github.com/q-qp-p/jrenaldi79-harness-engineering
-- Vault clipping: `Clippings/jrenaldi79-harness-engineeringREADME.md at main 1.md`
+- Teacher vault clipping: the jrenaldi79 harness engineering README.
 
 Core idea: mechanical enforcement (hooks, linters, tests) beats long prose instructions alone (Karpathy: agents often ignore written rules).
 
@@ -247,9 +252,9 @@ Session 02 places the same bet: **wiki + schema + tools** before model shopping.
 
 ## 9. Checklist
 
-- [ ] Hermes install done ([[howto-hermes-setup]]), Desktop or CLI
+- [ ] Hermes install done ([howto hermes setup](howto-hermes-setup.md)), Desktop or CLI
 - [ ] Model has tool calling + large enough context
-- [ ] `AGENTS.md` (or `.hermes.md`) at repo root ([[agents-md-template]])
+- [ ] `AGENTS.md` (or `.hermes.md`) at repo root ([agents md template](agents-md-template.md))
 - [ ] One verify command the agent must run
 - [ ] Repair limit stated (default: 3)
 - [ ] Mode stated: coding / production / hybrid
@@ -281,7 +286,7 @@ If most rows fail, fix `AGENTS.md` and `scripts/verify` before you chase a bigge
 
 | What | Link |
 |---|---|
-| Hermes install (course) | [[howto-hermes-setup]] |
+| Hermes install (course) | [howto hermes setup](howto-hermes-setup.md) |
 | Hermes docs | https://hermes-agent.nousresearch.com/docs/ |
 | Context files | https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files |
 | Skills guide | https://hermes-agent.nousresearch.com/docs/guides/work-with-skills |

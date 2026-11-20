@@ -10,7 +10,7 @@ tags:
 
 # AI, brains, and critical thinking
 
-Research date: 2026-11-11. Built from very recent Hermes vault clippings (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *verified fact* | *nuance / caveat* | *claim* | *technical suggestion*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-11-11. Built from teacher vault clips (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *nuance / caveat* | *claim* | *technical suggestion*.
 
 Curated course links: [[../course/syllabus/links-from-clippings]]. Bibliography: [[../course/syllabus/references]].
 
@@ -30,7 +30,7 @@ For Critical Vibe Coding: treat judgment, critique, and verification as the skil
 
 ## Primary study HealthyGamerGG leans on
 
-*verified fact:* Kosmyna, N., et al. (2025). *Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.* arXiv:2506.08872. MIT Media Lab project page: https://www.media.mit.edu/publications/your-brain-on-chatgpt/
+*primary evidence:* Kosmyna, N., et al. (2025). *Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.* arXiv:2506.08872. MIT Media Lab project page: https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 
 | Design piece | What they did |
 |---|---|
@@ -58,7 +58,7 @@ Compressed findings (as stated by authors / Media Lab abstract):
 
 ### Lacuna secondary synthesis (best classroom companion)
 
-*verified fact:* Lev-Tech / Lacuna, *AI and Critical Thinking: The Research* (2026-10-08). https://learnwithlacuna.com/articles/ai-critical-thinking-research
+*unverified lead:* Lev-Tech / Lacuna, *AI and Critical Thinking: The Research* (2026-10-08). https://learnwithlacuna.com/articles/ai-critical-thinking-research
 
 Maps four pillars students will meet in headlines:
 
@@ -73,7 +73,7 @@ Lacuna's practical stack matches CVC method: draft your view first; protect judg
 
 ### APA Monitor overview (July 2026)
 
-*verified fact:* Abrams, Z. (2026). *How AI is reshaping human skills and thinking.* *Monitor on Psychology*, 57(5). https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking
+*unverified lead:* Abrams, Z. (2026). *How AI is reshaping human skills and thinking.* *Monitor on Psychology*, 57(5). https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking
 
 Adds:
 
@@ -87,7 +87,7 @@ Adds:
 
 ### Mental health (adjacent, not the same thesis)
 
-*verified fact:* Haber, N. J., *Emerging realities of artificial intelligence and mental health*, PMC13576966. https://pmc.ncbi.nlm.nih.gov/articles/PMC13576966/
+*unverified lead:* Haber, N. J., *Emerging realities of artificial intelligence and mental health*, PMC13576966. https://pmc.ncbi.nlm.nih.gov/articles/PMC13576966/
 
 - Therapy and therapy-adjacent chatbot use is real; models often fail bare-minimum crisis criteria.
 - Sycophancy can reduce willingness to repair conflicts (Cheng et al., *Science* 2026, cited there).
@@ -119,7 +119,7 @@ Lacuna (and APA) correctly re-anchor the debate:
 | Critique / verify agent output as graded skill | Matches Lee shift from producing → supervising |
 | Unaided intervals (short live tasks without model) | Bainbridge: keep residual skill alive |
 | Structured prompts over "do the whole essay" | APA / Gerlich: deliberate use can raise quality of thought |
-| Label *claim* vs *verified fact* in every research note | Course style; also the metacognitive habit Fan says AI skips |
+| Label *claim* vs *unverified lead* in every research note | Course style; also the metacognitive habit Fan says AI skips |
 
 Related course files: [[../course/setup/Prompting Guide for Critical Vibe Coding]] · [[../course/topics/visions-fears-regulation]] · [[../course/syllabus/links-from-clippings]]
 

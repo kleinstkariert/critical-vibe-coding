@@ -4,13 +4,16 @@ date: 2026-11-09
 tags:
   - course
   - teaching
+audience: teacher
+status: current
+canonical: false
 ---
 
 # Presentation and writing style: Schaufler / Quadrature
 
 Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills/schaufler-presentation-style/SKILL.md` (also in personal Cursor skills).
 
-**Reference archive:** `Nextcloud/_QUADRATURE/07_Talks/2026_SchauflerResidencyTalks`. Especially: *Kunst & Kapitalismus @ Mass of Money* (notes PDF), the Fantasie tech-flow diagram, installation photos (CREDO and others).
+**Reference archive:** teacher vault. Especially: *Kunst & Kapitalismus @ Mass of Money* (notes PDF), the Fantasie tech-flow diagram, installation photos (CREDO and others).
 
 ## In short
 
@@ -19,7 +22,7 @@ Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills
 | One strong image or quote per slide | Bullet walls, dashboards |
 | Argument in speaker notes | Reading paragraphs off the slide |
 | Artworks, infrastructure photos, sparse diagrams | Neon "AI brain" stock |
-| Label *claim* versus *verified fact* | Confident unsourced numbers |
+| Label the source type ([[syllabus/references#source-types]]) | Confident unsourced numbers |
 | Contradiction as method (image versus market) | Tech demo cheerleading |
 | Own installation photos for practice beats | Logo salad of every vendor |
 

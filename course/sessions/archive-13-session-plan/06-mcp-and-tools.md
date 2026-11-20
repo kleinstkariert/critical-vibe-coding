@@ -1,9 +1,14 @@
 ---
 title: Session 06 — MCP and tools
 session: 6
+audience: archive
+status: deprecated
+canonical: false
 ---
 
 # Session 06 — MCP and tools — one interface to many systems
+
+*optional extension. Not required for assessment.* This file is an archived session. MCP, CAD, and 3D are not required. Any one agent plus one folder meets [[minimum-path]].
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
@@ -39,9 +44,9 @@ Pair G5: platform dependency when tools chain; agency vs convenience. Optional s
 
 ### MCP basics
 
-- Waiter / kitchen metaphor: [[../what-is-mcp]] — host, client, server; tools / resources / prompts
+- Waiter / kitchen metaphor: [[../what-is-mcp]] — host, client, server; tools / resources / prompts. Permissions and capability boundary: [[../what-is-mcp#permissions-and-capability-boundary]].
 - When you need MCP vs when the disk is enough: Obsidian folder wiki = filesystem tools, no MCP; apps that are not folders (calendar, mail, browser, SQLite note apps, **live CAD/3D sessions**) = MCP
-- How Hermes does it (*verified fact*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see** — [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
+- How Hermes does it (*institutional summary*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see** — [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
 - Safety: app passwords, localhost vs remote, what not to put in the vault; per-server tool filtering as a design decision (the agent cannot call what you did not tick)
 - Optional peek — *technical suggestion:* Nextcloud **Context Agent** is **one** MCP server whose tool groups (mail, calendar, Deck, files, Collectives…) appear as the matching apps are installed — not one server per app. Research note: [[../../research/llmwiki-obsidian-vs-nextcloud-collectives]] · admin manual: https://docs.nextcloud.com/server/stable/admin_manual/ai/app_context_agent.html . Not required student infra.
 
@@ -49,7 +54,7 @@ Pair G5: platform dependency when tools chain; agency vs convenience. Optional s
 
 *requirement:* the brief names **3D/CAD** alongside code and node tools. MCP is the concrete link: the agent stays the “waiter”; Blender / Fusion / FreeCAD / OpenSCAD / Meshy are kitchens.
 
-| Stack | MCP / bridge (*verified fact* where linked, 2026-10-18) | Agent role | Caveat |
+| Stack | MCP / bridge (*unverified lead* where linked, 2026-10-18) | Agent role | Caveat |
 |---|---|---|---|
 | **Blender** (official Lab MCP) | [blender.org/lab/mcp-server](https://www.blender.org/lab/mcp-server/) — Blender **5.1+**, add-on + MCP server + LLM client | Scene query, naming, GeoNodes explain, scripted edits via Python API | Executes LLM-generated code **without guards** — use a throwaway file / VM; not on machines with sensitive data |
 | **Autodesk Fusion** (official) | Local HTTP MCP on running Fusion desktop (`http://127.0.0.1:27182/mcp`); enable in Preferences → General → API — [Fusion MCP overview](https://help.autodesk.com/view/fusion360/ENU/?guid=FMCP-OVERVIEW) | Drive live modeling / commands in an open session | Needs Fusion desktop running; Autodesk notes limited reliability on complex assemblies |

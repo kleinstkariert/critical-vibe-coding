@@ -6,6 +6,9 @@ tags:
   - research
   - kitegg
   - infrastructure
+audience: teacher
+status: current
+canonical: false
 ---
 
 # Der KITeGG Cluster – eine Infrastruktur für KI in der Gestaltungslehre
@@ -46,7 +49,7 @@ tags:
 | Public money should build public capacity | Contrast with student personal-stack homework (Block 8) |
 | NVIDIA lock-in acknowledged | Local hardware research note; Session 03 |
 
-Teacher clips that sit next to this essay (vault `Clippings/`): Tooze AI arms race; “Real Cost of AI”; Acemoglu economics — political-economy counterpoint, not a KITeGG summary.
+Teacher sources next to this essay are the published links in [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation): Tooze on the AI arms race, *The Real Cost of AI Will Shock You*, and the MIT Sloan note on Acemoglu. They are a political-economy counterpoint, not a KITeGG summary.
 
 ## Related
 

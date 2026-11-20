@@ -2,11 +2,18 @@
 title: Session 01. Welcome and landscape
 session: 1
 updated: 2026-11-10
+audience: student
+status: current
+canonical: true
 ---
 
 # Session 01. Welcome outdoors + political-economic lecture
 
-Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
+This session introduces a personal manifesto: how you want to use AI in your practice. It is required, with [minimum path](../minimum-path.md) and the input presentations. It names no product. You develop it through the course and hand it in at the end. It is not homework for this week.
+The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. Sebastian will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
+The input-topic choice is required.
+
+Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
 
 **Slot:** 10:00 to 12:00 (120 min). Break about 5 to 10 min when the room needs it.
 
@@ -31,7 +38,7 @@ Buffer is intentional: cut lecture depth before cutting the check-in.
 
 ## Part A: Intro / opener check-in
 
-**Standing course check-in** (also used indoors from Session 02; listen only, 30 to 60 s per person; full rules [[../course-rhythm]]):
+**Standing course check-in** (also used indoors from Session 02; listen only, 30 to 60 s per person; full rules [course rhythm](../syllabus/course-rhythm.md)):
 
 1. How was your morning?
 2. What did you do with AI since we last met, and how was that experience?
@@ -69,8 +76,8 @@ Capture themes on paper; bring them into the lecture room.
 
 ## Part B: Classroom input lecture
 
-**Speaker notes + image suggestions:** [[../lectures/01-welcome-landscape-lecture]]
-Presentation style: [[../presentation-style]] · Deck: `course/lectures/01-welcome-landscape-slideshow/`
+**Speaker notes + image suggestions:** [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
+Presentation style: [presentation style](../presentation-style.md) · Deck: `course/lectures/01-welcome-landscape-slideshow/`
 
 start with video-snipped:
 https://www.youtube.com/watch?v=DVrdVuxBCjM -> minute 0:29
@@ -79,18 +86,18 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 
 1. **Scope of the class:** two tracks; the agent as interface; eight sessions, midpoint in 4, final in 8.
 2. **What LLMs and agents are** (medium): model, chat product, agent, context, harness, MCP (Model Context Protocol); the agent loop; how a model writes; local or cloud, with the flowchart.
-3. **Drivers, visions, fears, regulation** (high): [[../visions-fears-regulation]]. Law: [[../eu-ai-act-and-datenschutz]].
-4. **Economy and the AI bubble** (high): capex, construction, revenue gap, debt, earlier build-outs; arguments for and against a burst; Tooze and the BIS labour-share scenario; the commons as an alternative. [[../lectures/01-welcome-landscape-deep-dives/bubble-economy]].
-5. **Ecology** (high): electricity, gas, water, neighbours. [[../lectures/01-welcome-landscape-deep-dives/ecology]]. Student input: Session 06.
-6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [[../lectures/01-welcome-landscape-deep-dives/labour]].
-7. **Media-art workflows:** five pressures and practices; flattening. [[../lectures/01-welcome-landscape-deep-dives/media-art-workflows]] · [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]].
-8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free model. [[../lectures/01-welcome-landscape-deep-dives/default-setup]] · [[../howto-obsidian-setup-and-sync]] · [[../howto-hermes-setup]]. Alternatives: [[../knowledge-store-options]].
+3. **Drivers, visions, fears, regulation** (high): [visions fears regulation](../topics/visions-fears-regulation.md). Law: [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
+4. **Economy and the AI bubble** (high): capex, construction, revenue gap, debt, earlier build-outs; arguments for and against a burst; Tooze and the BIS labour-share scenario; the commons as an alternative. [bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md).
+5. **Ecology** (high): electricity, gas, water, neighbours. [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md). Student input: Session 06.
+6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [labour](../lectures/01-welcome-landscape-deep-dives/labour.md).
+7. **Media-art workflows:** five pressures and practices; flattening. [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md).
+8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free-to-use hosted endpoint. [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) · [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../setup/howto-hermes-setup.md). Alternatives: [knowledge store options](../setup/knowledge-store-options.md).
 
 *Q&A after each point: collect open questions for the student inputs.*
 
 ## Student inputs: choose a topic
 
-Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [[../lectures/01-welcome-landscape-lecture#Student inputs: choose a topic]] · [[../course-rhythm]].
+Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic) · [course rhythm](../syllabus/course-rhythm.md).
 
 | Session | Topic |
 |---|---|
@@ -102,19 +109,19 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 
 ## Homework
 
-- Bookmark / clone the **course GitHub**: [[../START-HERE]]
-- Install a knowledge store with **phone sync**: default Obsidian ([[../howto-obsidian-setup-and-sync]]); **other options allowed** if they fit the course needs: [[../knowledge-store-options]] (SilverBullet, etc.)
+- Bookmark / clone the **course GitHub**: [START HERE](../START-HERE.md)
+- Install a knowledge store with **phone sync**: default Obsidian ([howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md)); **other options allowed** if they fit the course needs: [knowledge store options](../setup/knowledge-store-options.md) (SilverBullet, etc.)
 - Note which LLM access you already have
-- Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([[../references]]). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
+- Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([references](../syllabus/references.md)). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 - Choose your student-input group and session
-- Next: Karpathy and the **harness**, after the flattening input; Hermes install in class: [[02-agent-harness-and-wiki-architecture]] · [[../course-rhythm]]
+- Next: Karpathy and the **harness**, after the flattening input; Hermes install in class: [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [course rhythm](../syllabus/course-rhythm.md)
 
 ## Materials
 
-- Lecture: [[../lectures/01-welcome-landscape-lecture]]
-- Deep dives: [[../lectures/01-welcome-landscape-deep-dives/bubble-economy]] · [[../lectures/01-welcome-landscape-deep-dives/ecology]] · [[../lectures/01-welcome-landscape-deep-dives/labour]] · [[../lectures/01-welcome-landscape-deep-dives/media-art-workflows]] · [[../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] · [[../lectures/01-welcome-landscape-deep-dives/default-setup]]
+- Lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
+- Deep dives: [bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md) · [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) · [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md)
 - Deck: `course/lectures/01-welcome-landscape-slideshow/`
-- [[../syllabus/00-brief]] · [[../syllabus/course-outline]] · [[../syllabus/course-rhythm]]
-- [[../topics/visions-fears-regulation]] · [[../topics/eu-ai-act-and-datenschutz]]
-- [[../../research/ai-bubble-productivity-datacenter]] · [[../../research/data-centers-energy-ecology-economy]]
-- [[../setup/knowledge-store-options]]
+- [00 brief](../syllabus/00-brief.md) · [course outline](../syllabus/course-outline.md) · [course rhythm](../syllabus/course-rhythm.md)
+- [visions fears regulation](../topics/visions-fears-regulation.md) · [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md)
+- [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)
+- [knowledge store options](../setup/knowledge-store-options.md)

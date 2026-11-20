@@ -6,6 +6,9 @@ tags:
   - kitegg
   - course
   - comparison
+audience: teacher
+status: current
+canonical: false
 ---
 
 # Comparison — un/learn / KITeGG vs Critical Vibe Coding
@@ -71,12 +74,14 @@ KITeGG’s “systems” are a **federation**: one mid-scale interactive GPU clo
 | 7 Refusal / when not | Vol. 3 Editor’s Note “when not to use” | CVC Block 7 "Refusal"; kill switch in Session 06 (the dedicated old Session 11 is archived) |
 | 8 Personal Hermes + Obsidian | Opposite unit: campus Jupyter/LLP + cluster | Same sovereignty spectrum, different scale |
 
-## Vault clippings that sharpen the contrast
+## Published links that sharpen the contrast
 
-- `Clippings/Adam Tooze on the AI Arms Race…` / `…AI Regulation Ep. 260` — political economy / regulation register CVC uses; KITeGG stays design-education + STS infrastructure.
-- `Clippings/The Real Cost of AI Will Shock You`: popular ecology framing for the Session 06 ecology input; pair with Koch’s anti-greenwash paragraphs rather than treating either as sole authority.
-- `Clippings/A new look at the economics of AI` (Acemoglu) — modest productivity; KITeGG rarely does macro GDP debate.
-- `course/eu-ai-act-and-datenschutz` — EU/AT law orientation; unlearn volumes are not a law handbook.
+The URLs are in [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation). The private clips stay in the teacher vault. This note does not copy them.
+
+- Tooze on the AI arms race, and Tooze on AI regulation: political economy and regulation. KITeGG stays with design education and infrastructure.
+- *The Real Cost of AI Will Shock You*: a popular ecology frame for the Session 06 input. Pair it with Koch’s anti-greenwash paragraphs. Neither source is the only authority.
+- MIT Sloan, *A new look at the economics of AI* (Acemoglu): modest productivity. KITeGG rarely does the macro GDP debate.
+- [eu ai act and datenschutz](../../course/topics/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
 
 ## Related notes
 

@@ -5,12 +5,17 @@ tags:
   - course
   - howto
   - harness
+audience: student
+status: current
+canonical: true
 ---
 
 # Template: `AGENTS.md` for your project
 
+*reference implementation. Optional extension. Not required for assessment.* `AGENTS.md` is one way to state rules. It is not required. See [minimum path](../minimum-path.md).
+
 Copy this file to the **root of your project repo** as `AGENTS.md`.  
-Hermes (and many coding agents) load it automatically. See [[howto-hermes-efficient-coding]].
+Hermes (and many coding agents) load it automatically. See [howto hermes efficient coding](howto-hermes-efficient-coding.md).
 
 Course repo example: repository root `AGENTS.md`.
 

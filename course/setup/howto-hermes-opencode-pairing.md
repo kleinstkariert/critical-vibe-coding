@@ -7,16 +7,21 @@ tags:
   - hermes
   - opencode
   - pairing
+audience: student
+status: current
+canonical: true
 ---
 
 # How-to. Pair Hermes and OpenCode
 
+*reference implementation. Advanced path. Not required for assessment.* Pairing is one option. OpenCode alone is a valid system. See [minimum path](../minimum-path.md).
+
 Use **Hermes** as the always-on assistant. Use **OpenCode** when a repository needs a strong coding loop.
 
-Setup notes: [[howto-hermes-setup]] · [[howto-opencode-setup]]  
-Concept: [[hermes-vs-coding-agents]]
+Setup notes: [howto hermes setup](howto-hermes-setup.md) · [howto opencode setup](howto-opencode-setup.md)  
+Concept: [hermes vs coding agents](../concepts/hermes-vs-coding-agents.md)
 
-Labels: *verified fact* | *technical suggestion*.
+Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*.
 
 ---
 
@@ -79,7 +84,7 @@ Then ask Hermes to run a bounded coding job. Hermes can call `opencode run "…"
 
 ## Sources
 
-- [[howto-opencode-setup]]
-- [[howto-hermes-setup]]
+- [howto opencode setup](howto-opencode-setup.md)
+- [howto hermes setup](howto-hermes-setup.md)
 - https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-opencode
 - https://opencode.ai/docs/

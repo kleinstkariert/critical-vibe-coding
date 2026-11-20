@@ -4,11 +4,42 @@ date: 2026-10-18
 tags:
   - course
   - references
+audience: student
+status: current
+canonical: true
 ---
 
 # References
 
-Working bibliography for the seminar. Prefer primary sources in class; YouTube for optional prep. Labels: *verified fact* when the URL was checked 2026-10-18.
+Working bibliography for the seminar. Prefer primary evidence in class. YouTube is optional prep. A URL that loaded on 2026-10-18 is not, by itself, a checked claim.
+
+## Source types
+
+*Verified fact* in older notes often meant only that a web page existed, or that a claim appeared in a source. It did not always mean the claim was checked against primary evidence. Do not read an old *verified fact* tag as independent verification.
+
+| Type | What it is |
+|---|---|
+| Primary evidence | A filing, a law, an official specification, a peer-reviewed paper, or an original dataset. |
+| Institutional summary | An agency, a university, a research institution, or an official explanatory page. |
+| Secondary reporting | Reputable journalism or analysis. |
+| Speaker claim | A podcast, a talk, an interview, or a keynote. |
+| Course interpretation | The instructor's synthesis. |
+| Unverified lead | A source was found. It was not checked. |
+| Outdated / historical snapshot | The source is no longer current. |
+
+A label names the kind of source. It does not, by itself, mean the claim was independently verified.
+
+Copy this source record:
+
+```yaml
+source_type: primary | institutional | secondary | speaker | course
+checked_on: YYYY-MM-DD
+independent_verification: yes | no
+current_as_of: YYYY-MM-DD
+claim_scope: exact | paraphrase | interpretation
+```
+
+`checked_on` is the date the source was opened. Leave it empty if you do not have that date. `independent_verification: yes` means the claim was checked against primary evidence, not only that a page opened. Do not invent a date. For an unverified lead, or for an outdated snapshot, say so in the prose next to the record.
 
 ## LLM Wiki — primary
 
@@ -28,26 +59,26 @@ Working bibliography for the seminar. Prefer primary sources in class; YouTube f
 | Skill source `SKILL.md` | https://github.com/NousResearch/hermes-agent/blob/HEAD/skills/research/llm-wiki/SKILL.md |
 | Obsidian note-taking skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian |
 | MCP feature | https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp |
-| Discord setup (bot, DMs vs mention-only channels, per-user sessions) — added 2026-10-18, *verified fact* | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
+| Discord setup (bot, DMs vs mention-only channels, per-user sessions). Added 2026-10-18. *institutional summary*. The page loaded. The claims were not independently verified. | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
-Course how-to (Win / macOS / Linux): [[howto-hermes-setup]]  
-Short syllabus sheet: [[course-outline]]  
-What is a harness: [[what-is-harness]]  
-Prompting guide (chat versus reasoning, STE80, Hermes context): [[Prompting Guide for Critical Vibe Coding]]  
-Academic AI Austria: [[academic-ai-austria]]  
-Drivers / visions / fears / regulation (Session 01, 10–15 min): [[visions-fears-regulation]]  
-AI jobs — rising tide, Canaries, productivity × experience: [[../../research/ai-jobs-rising-tide-productivity]]  
-AI, brains, critical thinking (MIT EEG + recent clippings): [[../../research/ai-brains-critical-thinking]]  
-Curated vault clipping links (scan 2026-11-11): [[links-from-clippings]]  
-EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]  
-AI creative tools survey: [[ai-tools-creative-processes]]  
-Session 01 lecture draft: [[lectures/01-welcome-landscape-lecture]]  
-Session 02 harness + wiki: [[sessions/02-agent-harness-and-wiki-architecture]]  
-Local GPU / Apple / DGX research: [[../../research/local-gpu-hardware-for-llms]]  
-Bubble / productivity / DC financing: [[../../research/ai-bubble-productivity-datacenter]]  
-Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [[../../research/data-centers-energy-ecology-economy]]  
-Presentation style: [[presentation-style]]
+Course how-to (Win / macOS / Linux): [howto hermes setup](../setup/howto-hermes-setup.md)  
+Short syllabus sheet: [course outline](course-outline.md)  
+What is a harness: [what is harness](../concepts/what-is-harness.md)  
+Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
+Academic AI Austria: [academic ai austria](../setup/academic-ai-austria.md)  
+Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../topics/visions-fears-regulation.md)  
+AI jobs — rising tide, Canaries, productivity × experience: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md)  
+AI, brains, critical thinking (MIT EEG + recent clippings): [ai brains critical thinking](../../research/ai-brains-critical-thinking.md)  
+Curated vault clipping links (scan 2026-11-11): [links from clippings](links-from-clippings.md)  
+EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md#decision-questions)  
+AI creative tools survey: [ai tools creative processes](../topics/ai-tools-creative-processes.md)  
+Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
+Session 02 harness + wiki: [02 agent harness and wiki architecture](../sessions/02-agent-harness-and-wiki-architecture.md)  
+Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)  
+Bubble / productivity / DC financing: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md)  
+Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)  
+Presentation style: [presentation style](../presentation-style.md)
 
 ## Obsidian auto LLM Wiki plugin
 
@@ -70,20 +101,20 @@ Presentation style: [[presentation-style]]
 | AI Just Unlocked UNLIMITED Knowledge! Hermes & LLMWiki | https://www.youtube.com/watch?v=YUz2CLLmdjA | Hermes + wiki skill hype/overview — critique the claims in class |
 | Building an LLM Wiki in Obsidian (Beomsu Koh) | https://www.youtube.com/watch?v=sQSFeqeLKtU | Live Obsidian session |
 | I Built Karpathy’s LLM Wiki in Obsidian | https://www.youtube.com/watch?v=bgXEDymiZCc | Obsidian practice narrative |
-| Be Smart, *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Prep overview for the ecology input, Session 06 (energy, water, neighbours); handout [[../../research/data-centers-energy-ecology-economy]] |
-| Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [[visions-fears-regulation]] |
+| Be Smart, *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Prep overview for the ecology input, Session 06 (energy, water, neighbours); handout [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
+| Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [visions fears regulation](../topics/visions-fears-regulation.md) |
 | Jacob Coxon — *Existential Threat of AI from the Inside* (Daily Show) | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01: utopia vs incentives / misuse — teacher clip |
-| Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [[visions-fears-regulation]] |
-| HealthyGamerGG — *How AI is Killing Your Potential* | https://www.youtube.com/watch?v=BzsLbHoNXTs | Optional prep: MIT “brain rust” framing — pair with [[../../research/ai-brains-critical-thinking]] |
+| Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [visions fears regulation](../topics/visions-fears-regulation.md) |
+| HealthyGamerGG — *How AI is Killing Your Potential* | https://www.youtube.com/watch?v=BzsLbHoNXTs | Optional prep: MIT “brain rust” framing — pair with [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |
 | Huberman Lab Clips — *Mental Health Risks of Using AI* (Dr K) | https://www.youtube.com/watch?v=sqYLH72eCg0 | Optional; sycophancy / psychosis risk — content warning |
 | Ezra Klein Show — *Is There an A.I. Bubble? A Debate.* | https://www.youtube.com/watch?v=9GLdGc9OX-A | Session 01 bubble / CapEx debate |
 | Richard Campbell — *After the AI Hype* (2026) | https://www.youtube.com/watch?v=uWnUnMphmPM | Skeptical build-out keynote |
-| YouTube — *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [[what-is-mcp]] |
+| YouTube — *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../concepts/what-is-mcp.md) |
 | YouTube — *Stop Prompting Claude. Use Karpathy's Method Instead.* | https://www.youtube.com/watch?v=7zZy1QTvokM | STE / aircraft-manual prompting beat |
 
 ## Cognition / critical thinking (AI and brains)
 
-Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [[../../research/ai-brains-critical-thinking]]. Full curated link list: [[links-from-clippings]].
+Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md). Full curated link list: [links from clippings](links-from-clippings.md).
 
 | Source | URL | One-line note |
 |---|---|---|
@@ -100,7 +131,7 @@ Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [[../../res
 |---|---|
 | Model Context Protocol intro | https://modelcontextprotocol.io/docs/getting-started/intro |
 | Architecture | https://modelcontextprotocol.io/specification/2026-07-28/architecture |
-| Course note | [[what-is-mcp]] |
+| Course note | [what is mcp](../concepts/what-is-mcp.md) |
 
 ## Nextcloud / Collectives / Context Agent (comparison track)
 
@@ -110,7 +141,7 @@ Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [[../../res
 | Collectives markdown files | https://docs.nextcloud.com/server/stable/user_manual/en/collectives/markdown_files.html |
 | Context Agent + MCP endpoint | https://docs.nextcloud.com/server/stable/admin_manual/ai/app_context_agent.html |
 | Context Agent repo | https://github.com/nextcloud/context_agent |
-| Research note | [[../../research/llmwiki-obsidian-vs-nextcloud-collectives]] |
+| Research note | [llmwiki obsidian vs nextcloud collectives](../../research/llmwiki-obsidian-vs-nextcloud-collectives.md) |
 
 ## Peer courses (timeline inspiration)
 
@@ -123,11 +154,11 @@ Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [[../../res
 | NYU IMA Chatbots for Art’s Sake | https://itp.nyu.edu/ima_course_listings/chatbots-for-arts-sake/ |
 | Gray Area Creative Code Intensive | https://grayarea.org/course/creative-code-intensive/ |
 
-Full mapping: [[timeline]]
+Full mapping: [timeline](timeline.md)
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched the description). No paywalled-only items. Session tables (archived with the 13-session plan): [[sessions/archive-13-session-plan/10-authorship-labour-platforms]] · [[sessions/archive-13-session-plan/11-local-ecology-when-not]]. Current use: Session 01 deep dives and the student inputs ([[course-rhythm]]).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../sessions/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../sessions/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](course-rhythm.md)).
 
 ## Agent harness
 
@@ -135,9 +166,9 @@ Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched t
 |---|---|
 | LangChain — *The Anatomy of an Agent Harness* (2026-03-10) | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
 | Zyte — *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ |
-| Course note | [[what-is-harness]] |
-| Session 02 | [[sessions/02-agent-harness-and-wiki-architecture]] |
-| Structure vs model quality (research check, SE + RAG) | [[../../research/structure-vs-model-quality]] |
+| Course note | [what is harness](../concepts/what-is-harness.md) |
+| Session 02 | [02 agent harness and wiki architecture](../sessions/02-agent-harness-and-wiki-architecture.md) |
+| Structure vs model quality (research check, SE + RAG) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
 | Wadhwa et al. — context ~70% / parametric ~30% *in answers* (not productivity) | https://arxiv.org/abs/2409.08435 |
 | Fan et al. — harness design for coding agents (SWE-Bench / Terminal-Bench) | https://arxiv.org/abs/2609.20804 |
 | Scaffold effect — harness as hidden variable | https://arxiv.org/abs/2607.22585 |
@@ -170,10 +201,10 @@ Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched t
 
 | Topic | Note |
 |---|---|
-| Lint explained | [[what-is-lint]] |
-| `SCHEMA.md` / `index.md` / `log.md` / folders | [[llm-wiki-standard-files]] |
-| Knowledge store options | [[knowledge-store-options]] |
-| Karpathy vs OpenClaw research | [[../../research/karpathy-llm-wiki-and-openclaw]] |
-| Obsidian vs Joplin | [[../../research/obsidian-vs-joplin-hermes-llmwiki]] |
-| AI / brains / critical thinking | [[../../research/ai-brains-critical-thinking]] |
-| Vault clippings → student links | [[links-from-clippings]] |
+| Lint explained | [what is lint](../concepts/what-is-lint.md) |
+| `SCHEMA.md` / `index.md` / `log.md` / folders | [llm wiki standard files](../setup/llm-wiki-standard-files.md) |
+| Knowledge store options | [knowledge store options](../setup/knowledge-store-options.md) |
+| Karpathy vs OpenClaw research | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
+| Obsidian vs Joplin | [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) |
+| AI / brains / critical thinking | [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |
+| Vault clippings → student links | [links from clippings](links-from-clippings.md) |

@@ -1,12 +1,33 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # What is an MCP?
 
-A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *verified fact* or *technical suggestion*.
+*optional extension. Not required for assessment.* MCP is not the assessed tool set. A tool set can be one folder. See [minimum path](../minimum-path.md).
+
+A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *unverified lead* or *technical suggestion*.
 
 ## One sentence
 
-*verified fact:* MCP (**Model Context Protocol**) is an open standard for connecting an AI application (Cursor, Claude, Hermes Agent, …) to external programs, data, and tools — in a shared, reusable way.
+*institutional summary:* MCP (**Model Context Protocol**) is an open standard for connecting an AI application (Cursor, Claude, Hermes Agent, …) to external programs, data, and tools — in a shared, reusable way.
 
 Official docs call it “like a USB-C port for AI applications”: one plug shape, many devices. Source: [modelcontextprotocol.io](https://modelcontextprotocol.io/docs/getting-started/intro).
+
+## Permissions and capability boundary
+
+MCP is not merely a connector. It is a permissions and capability boundary.
+
+- filesystem
+- destructive operations
+- network
+- application scripting
+- messages
+- mail
+- calendar
+- personal data
 
 ## The waiter metaphor (yes, it works)
 
@@ -35,7 +56,7 @@ So: MCP is the **communicator between your agent and a certain software program*
 | Typical role | Your code → service | Model / agent → external world |
 | Building blocks | Endpoints | **Tools** (actions), **resources** (context/data), **prompts** (templates) |
 
-*verified fact:* Servers expose three primitives (from the MCP spec):
+*primary evidence:* Servers expose three primitives (from the MCP spec):
 
 - **Tools** — model-controlled actions (search, write a note, run a query)
 - **Resources** — application-controlled context (files, records)

@@ -1,10 +1,18 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # How to: Obsidian setup and sync
+
+*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is not required to complete the course. See [minimum path](../minimum-path.md).
 
 Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux**.
 
 *requirement:* **Phone sync is mandatory** (work on computer, read/capture on phone). Course decision: **Obsidian** as the class note app — sync via personal cloud (e.g. Nextcloud) **without** each student running a server. Joplin is not kept only to practice MCP.
 
-Related: [[knowledge-store-options]] · [[what-is-mcp]] · [[../../research/obsidian-vs-joplin-hermes-llmwiki]] · [[howto-hermes-setup]]
+Related: [knowledge store options](knowledge-store-options.md) · [what is mcp](../concepts/what-is-mcp.md) · [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) · [howto hermes setup](howto-hermes-setup.md)
 
 ## 1. Install and open a vault
 
@@ -17,8 +25,8 @@ Related: [[knowledge-store-options]] · [[what-is-mcp]] · [[../../research/obsi
 2. Also install the **mobile** app (iOS / Android) if you use a phone.
 3. Create a **vault** = a normal folder of files on disk.
 4. Prefer one clear place the phone can sync to, e.g.:
-   - Windows: `C:\Users\you\Nextcloud\MyVault`
-   - macOS: `/Users/you/Nextcloud/MyVault` or iCloud only if **Mac ↔ iPhone** (see §2)
+   - Windows: `C:\path\to\your\notes`
+   - macOS: `/path/to/your/notes` or iCloud only if **Mac ↔ iPhone** (see §2)
    - Linux: `~/Nextcloud/MyVault` (or Syncthing folder)
    - Or any cloud folder your phone can sync (Nextcloud, Dropbox, …)
 5. Notes are `.md` files. Agents (Hermes, Cursor, …) can read/write this folder with filesystem tools — Obsidian does not need to be open for that.
@@ -107,7 +115,7 @@ Fits: **Windows / macOS / Linux + phone**, university or personal Nextcloud.
 ## 5. Checklist before an agent (Hermes / Cursor) uses the vault
 
 - [ ] Vault path is a real folder of `.md` files on the machine where the agent runs
-- [ ] Agent config points at that path with an **OS-correct absolute path** (see [[howto-hermes-setup]])
+- [ ] Agent config points at that path with an **OS-correct absolute path** (see [howto hermes setup](howto-hermes-setup.md))
 - [ ] Sync is settled so phone and computer do not fight (one sync method)
 - [ ] LLM Wiki layout (if used): `raw/`, schema, `index.md`, agent-writable folders — see research notes
 - [ ] Secrets (API keys) not stored in synced notes

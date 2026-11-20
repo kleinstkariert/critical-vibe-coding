@@ -1,3 +1,9 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 
 ## Purpose
 
@@ -559,7 +565,7 @@ Include composition, motion, interaction, performance, and failure behavior.
 
 ## 19. Prompt for MCP tools
 
-MCP means Model Context Protocol.
+MCP means Model Context Protocol. Permissions and capability boundary: [what is mcp](../concepts/what-is-mcp.md#permissions-and-capability-boundary).
 
 An MCP server exposes tools to an agent.
 
@@ -874,7 +880,7 @@ Then turn it off again.
 
 Some models reject disable. Then use a cheaper non-reasoning twin for daily work.
 
-Local hardware and model size: [[howto-local-llm-hardware]] · [[../../research/local-gpu-hardware-for-llms]].
+Local hardware and model size: [howto local llm hardware](howto-local-llm-hardware.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
 
 ## 29. Hermes project context
 
@@ -882,9 +888,9 @@ Prompts are one harness surface. Standing rules belong in files, not only in one
 
 For Hermes student projects:
 
-1. Put project rules in root `AGENTS.md` (or `.hermes.md`). Template: [[agents-md-template]].
-2. Name the mode when useful: `coding` | `production` | `hybrid`. See [[howto-hermes-efficient-coding]].
-3. Keep a verification command the agent must run. See [[Local LLM Coding with Hermes]].
+1. Put project rules in root `AGENTS.md` (or `.hermes.md`). Template: [agents md template](agents-md-template.md).
+2. Name the mode when useful: `coding` | `production` | `hybrid`. See [howto hermes efficient coding](howto-hermes-efficient-coding.md).
+3. Keep a verification command the agent must run. See [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md).
 4. Put lasting habits in skills or wiki schema. Keep the user message thin.
 
 Hermes loads project context in this order (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`.
@@ -942,9 +948,9 @@ Steal role, audience, and output structure. Then harden the pack into the Goal /
 
 Within a usable model tier, invest in wiki, schema, and tools before you pay for the next model upgrade.
 
-See [[../../research/structure-vs-model-quality]] · [[../concepts/what-is-harness]].
+See [structure vs model quality](../../research/structure-vs-model-quality.md) · [what is harness](../concepts/what-is-harness.md).
 
-Campus academic chat is usually not the agent backend: [[academic-ai-austria]].
+Campus academic chat is usually not the agent backend: [academic ai austria](academic-ai-austria.md).
 
 ## References
 

@@ -1,3 +1,9 @@
+---
+audience: student
+status: current
+canonical: true
+---
+
 # Session 01: Welcome and landscape slideshow
 
 Impress deck for Part B. This folder holds the **deck and images only**. Lecture notes, deep dives and research live elsewhere; see [`NOTES.md`](NOTES.md).
@@ -8,7 +14,7 @@ Impress deck for Part B. This folder holds the **deck and images only**. Lecture
 - Image slides are full screen with one small credit line at the bottom (11 pt): who made it, where, photo or rendering. Course charts carry their source inside the image. Images appear only where they carry the beat.
 - One exception: the hype-cycle slide shows the curve next to its explanation, because the curve means nothing without the phase names.
 - No rules, underlines, underscores or shadows. Scandinavian minimal: sparse, calm, readable.
-- Arguments, labels (*verified fact* / *claim*) and full image credits are in the speaker notes. No separate credits slide.
+- Arguments, labels (*unverified lead* / *claim*) and full image credits are in the speaker notes. No separate credits slide.
 - Sebastian's edit of 11 Nov 2026 (52 slides) is the base file. `patch_sebastian_edit.py` adds only the review changes on top of it (56 slides). His bullets, wording, links and pages stay as he left them.
 
 | File | Role |
@@ -32,7 +38,7 @@ python course/lectures/01-welcome-landscape-slideshow/make_images.py
 To refresh the `.odp` from the `.pptx` after hand edits:
 
 ```text
-"C:\Program Files\LibreOffice\program\soffice.exe" -env:UserInstallation=file:///C:/Users/sebas/AppData/Local/Temp/lo-cvc-profile --headless --convert-to odp --outdir course/lectures/01-welcome-landscape-slideshow course/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
+soffice --headless -env:UserInstallation=file:///C:/path/to/lo-profile --convert-to odp --outdir course/lectures/01-welcome-landscape-slideshow course/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
 ```
 
 The separate `-env:UserInstallation` profile lets the conversion run while Impress is open. If Impress has the deck open, close it without saving before converting, or edits made there will fight the export.
