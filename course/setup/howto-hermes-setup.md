@@ -410,8 +410,8 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 
 - Do not run as root. Do not expose the gateway publicly.
 - Keys only in Hermes `.env`, never in synced vault notes.
-- Prefer Docker / sandbox for untrusted code. Local backend = **no** isolation.
-- Turn on the Docker terminal backend: [[howto-hermes-docker-sandbox]] · https://hermes-agent.nousresearch.com/docs/user-guide/docker
+- Novice baseline: read the files first, use a disposable project, keep manual approvals on, give Hermes one narrow write folder, keep a Git or filesystem snapshot, and do not use a private vault.
+- Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [[howto-hermes-docker-sandbox]]. Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 - Concepts and mounts: [[Local LLM Coding with Hermes]] §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  

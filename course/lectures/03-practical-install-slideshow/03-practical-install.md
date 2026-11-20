@@ -46,7 +46,8 @@ Why this order: [[install-why]]
 | LLM wiki files | [[llm-wiki-standard-files]] |
 | Starter vault and `SCHEMA.md` | [[starter-knowledge-base]] |
 | Project rules | [[agents-md-template]] |
-| Laptop sandbox and approvals | [[howto-hermes-docker-sandbox]] |
+| Novice safety baseline | the guide for your system, section 6 |
+| Docker sandbox | advanced workshop: [[howto-hermes-docker-sandbox]] |
 | Longer Hermes notes | [[howto-hermes-setup]] · [[Local LLM Coding with Hermes]] |
 
 Session note: [[03-hardware-open-models-prompting]]

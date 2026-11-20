@@ -347,7 +347,7 @@ Minimum course rules:
 
 1. Do not run the agent as administrator / root.
 2. Do not expose the messaging gateway to the public internet.
-3. Prefer Docker or another sandbox for untrusted work.
+3. Untrusted work uses the novice baseline first: read-only inspection, a disposable project, approvals, one write folder, and a snapshot. Docker is a separate workshop.
 4. Mount only the folders the task needs.
 5. **Keep API keys in Hermes `.env`, never in synced vault notes.**
 6. Require approval for destructive commands.
@@ -384,6 +384,8 @@ A container is a restricted process environment. It can limit files, network, pr
 Docker does not provide perfect security.
 
 Use it with limited mounts, non-root users, and network controls.
+
+This slide is a demonstration. Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
 [[howto-hermes-docker-sandbox]] · [[Local LLM Coding with Hermes]] · [[howto-hermes-setup]]

@@ -89,7 +89,8 @@ The course already wrote those rules. Use them. Do not start a second security e
 - Course repo rules: [AGENTS.md](../../AGENTS.md)
 - Project copy: [[agents-md-template]]
 - Short Hermes limits: [[howto-hermes-setup]] §5d
-- Personal-laptop sandbox and approvals: [[howto-hermes-docker-sandbox]]
+- Personal-laptop baseline: read-only inspection, a disposable project, manual approvals, one narrow write folder, a Git or filesystem snapshot, and no private vault. The steps are in your operating-system guide, section 6.
+- Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [[howto-hermes-docker-sandbox]]. Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 - Mounts, secrets, and the rule list: [[Local LLM Coding with Hermes]] §§9 to 14
 - Repair limit and the coding loop: [[howto-hermes-efficient-coding]]
 

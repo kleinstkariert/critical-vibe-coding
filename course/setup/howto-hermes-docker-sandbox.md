@@ -11,6 +11,12 @@ tags:
 
 # How-to. Turn on the Hermes Docker sandbox
 
+This page is an advanced safety module. Use it as a demonstration or in a separate workshop. It is not the novice baseline.
+
+The novice baseline is read-only inspection first, a disposable project, manual approvals, a narrowly scoped write directory, a Git or filesystem snapshot, and no private vault. Those steps are in [[install-windows]], [[install-linux]], and [[install-mac]], section 6.
+
+Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
+
 Short click-path only. For Docker concepts, mounts, and generic container flags, use [[Local LLM Coding with Hermes]] (§8 Docker, §9 Sandbox).
 
 Official Nous docs:

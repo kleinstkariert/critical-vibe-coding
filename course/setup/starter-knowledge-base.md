@@ -92,6 +92,6 @@ Links for those lines, without pasting them again:
 
 - [AGENTS.md](../../AGENTS.md) · [[agents-md-template]]
 - [[howto-hermes-setup]] §5d
-- [[howto-hermes-docker-sandbox]]
+- Docker workshop, not the novice baseline: [[howto-hermes-docker-sandbox]]
 - [[Local LLM Coding with Hermes]] §§9 to 14
 - [[howto-hermes-efficient-coding]]

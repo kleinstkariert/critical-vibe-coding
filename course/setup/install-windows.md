@@ -155,7 +155,7 @@ Read these, in this order, and keep them as links:
 1. Course rules: [AGENTS.md](../../AGENTS.md)
 2. A project copy for later: [[agents-md-template]]
 3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [[howto-hermes-setup]] §5d
-4. Approvals stay on: [[howto-hermes-docker-sandbox]] §4
+4. Approvals stay on. The novice baseline is in section 6.
 5. Secrets stay out of the vault: [[Local LLM Coding with Hermes]] §12
 6. Stop after three failed repair attempts: [[howto-hermes-efficient-coding]]
 
@@ -165,9 +165,20 @@ Security on a personal laptop matters. The agent can read your files and run com
 
 Use the current course guidance. Do not write a second security essay.
 
-- The default local command backend has no isolation. Sandbox path: [[howto-hermes-docker-sandbox]]. Mount rules: [[Local LLM Coding with Hermes]] §§9 to 10.
+The novice baseline:
+
+1. Read the files first. Do not ask Hermes to edit them yet.
+2. Use a disposable project folder, such as `hermes-smoke-test`.
+3. Keep manual approvals on. Review the diff before you accept an edit.
+4. Give Hermes one narrow folder to write in. The default folder is `wiki/`.
+5. Make a Git commit, or copy the folder, before you accept edits.
+6. Do not point this work at a private vault.
+
+Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [[howto-hermes-docker-sandbox]].
+
+Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
+
 - Do not run as root. Do not expose the gateway. [[howto-hermes-setup]] §5d · [[Local LLM Coding with Hermes]] §14.
-- Keep approvals on. Review the Git diff before you accept edits. [[howto-hermes-docker-sandbox]] §4.
 - Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
 
 ## 7. Example: vvvv skills and vvvv MCP
