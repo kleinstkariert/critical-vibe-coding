@@ -1,4 +1,4 @@
-*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This file is one worked Hermes example. It is not the assessed system. See the [minimum path](../minimum-path.md).
 
 -> quick starter guide.
 

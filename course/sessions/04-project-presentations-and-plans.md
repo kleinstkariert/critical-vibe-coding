@@ -6,7 +6,7 @@ updated: 2026-11-10
 
 # Session 04. Midpoint: project presentations and semester plans
 
-The presentation is required. Show [[minimum-path]]: one agent, one folder, one task, your record, and your review. Hermes, a wiki file set, and lint are an *optional extension*. They are *not required for assessment*.
+The presentation is required. Show the system in [[minimum-path]]: knowledge store, access boundary, model endpoint, tool set, verification method, and provenance. Hermes, a wiki file set, and lint are a *reference implementation*. They are *not required for assessment*.
 
 Parent: [[../timeline]] · Rhythm: [[../course-rhythm]]
 

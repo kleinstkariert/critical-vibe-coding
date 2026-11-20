@@ -11,7 +11,7 @@ tags:
 
 # How-to. Set up Hermes for efficient coding
 
-*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [[minimum-path]].
 
 Complement to [[howto-hermes-setup]]. That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 

@@ -2,7 +2,7 @@
 
 *requirement.* Text below is the course brief given for this workspace (2026-10-15).
 
-For assessed work, read [[minimum-path]]. The input presentations are required. Tools named in the brief are an *optional extension*. They are *not required for assessment*.
+For assessed work, read [[minimum-path]]. A personal manifesto on how you want to use AI in your practice is required from the start. It names no product. The input presentations are required. Tools named in the brief are an *optional extension*. They are *not required for assessment*. The technical object is a student-designed agentic production system. Hermes is one *reference implementation*.
 
 ## Frame
 

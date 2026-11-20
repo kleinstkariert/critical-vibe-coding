@@ -40,12 +40,14 @@ After each meaningful change:
 
 ## Course stack defaults
 
-The stack below is a demonstrated default for class examples. For students it is an *optional extension* and is not required for assessment. The required student work is `course/minimum-path.md`. Input presentations are also required. No purchase is required. Alternatives are allowed.
+The technical object for students is a student-designed agentic production system. The required work is `course/minimum-path.md`: a personal manifesto, a knowledge store, an access boundary, a model endpoint, a tool set, a verification method, provenance, and a critical reflection. Input presentations are also required. No purchase is required. Alternatives are allowed.
 
-- Default agent runtime for students: **Hermes Agent** (MIT), with optional Cursor / Claude Code for deep repo coding.
-- Notes: Obsidian vault + phone sync (see `course/setup/howto-obsidian-setup-and-sync.md`).
-- Install: `course/setup/howto-hermes-setup.md`.
-- Coding harness: `course/setup/howto-hermes-efficient-coding.md`.
+The names below are one *reference implementation* for class demos. They are not the assessed architecture. Claude Code, Cursor, OpenCode, local scripts, and other agents are valid systems.
+
+- Reference implementation for class demos: **Hermes Agent** (MIT). Cursor, Claude Code, and OpenCode are valid systems for repo work.
+- Notes example: Obsidian vault + phone sync (see `course/setup/howto-obsidian-setup-and-sync.md`). A plain Markdown folder meets the knowledge store.
+- Hermes install guide: `course/setup/howto-hermes-setup.md`.
+- Coding harness example: `course/setup/howto-hermes-efficient-coding.md`.
 - Comparison: `course/concepts/hermes-vs-coding-agents.md`.
 
 ## Modes (when coding on a student project)

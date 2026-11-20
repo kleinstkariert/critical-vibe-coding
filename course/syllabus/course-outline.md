@@ -11,7 +11,8 @@ tags:
 
 Interface Cultures · short public / syllabus sheet. Full session notes: [[timeline]]. Labels: *requirement* | *todo*.
 
-Required work: [[minimum-path]], plus the student input presentations. Tool names on this page are a *demonstration* or an *optional extension*. They are *not required for assessment*. No purchase is required. Alternatives are allowed.
+Required, and early: a personal manifesto on how you want to use AI in your practice. It names no product. Also required: [[minimum-path]] and the student input presentations.
+The technical object is a student-designed agentic production system. Hermes is one *reference implementation*. The class install is a *demonstration*. It is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. No purchase is required. Alternatives are allowed.
 
 *Inspired in form by* [HKUST AMCC6500, Critical AI and Artistic Creation](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) *(Giannoutakis)*: weekly topic + one-line cover, not a copy of their themes.
 
@@ -39,7 +40,7 @@ Students will be able to:
 4. Articulate authorship, labour, platform and ecological questions in relation to their own practice.
 5. Present the **setup** (architecture + one artistic/research use) as the main deliverable, not a polished exhibition by default.
 
-Outcome 1 names a demonstrated stack. Hermes, Obsidian, a wiki, and MCP are an *optional extension*. They are *not required for assessment*. Outcome 3, across code, node, and CAD/3D, is an *optional extension*. The required technical work is [[minimum-path]].
+Outcome 1 names a *reference implementation*. It is not the assessed architecture. Coding agents and other agents are valid systems. The assessed parts are in [[minimum-path]]: knowledge store, access boundary, model endpoint, tool set, verification method, provenance, and critical reflection. The manifesto is also required. Outcome 3, across code, node, and CAD/3D, is an *optional extension*.
 
 ---
 
@@ -47,7 +48,8 @@ Outcome 1 names a demonstrated stack. Hermes, Obsidian, a wiki, and MCP are an *
 
 | Assessment | What | % (*todo*) |
 |---|---|---|
-| Midpoint (Session 04) | Project presentation + semester plan + setup as it stands | TBD |
+| Personal manifesto | How you want to use AI in your practice. No required product. Write it early. | TBD |
+| Midpoint (Session 04) | Project presentation + semester plan + the system as it stands ([[minimum-path]]) | TBD |
 | Final presentation (Session 08) | Architecture walkthrough + one artistic/research use + short critical reflection | TBD |
 | Student input | One group input (Sessions 02, 03, 05, 06 or 07) | TBD |
 | Seminar participation | Check-ins, studio critique, peer feedback | TBD |
@@ -73,7 +75,7 @@ Rhythm and student groups: [[course-rhythm]]. Cut sessions from the earlier 13-s
 
 ## Software and platforms (default stack)
 
-*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*reference implementation. Optional extension. Not required for assessment.* This table is one Hermes example. The assessed system is [[minimum-path]]. Coding agents and other agents are valid systems.
 
 | Role | Default | Notes |
 |---|---|---|

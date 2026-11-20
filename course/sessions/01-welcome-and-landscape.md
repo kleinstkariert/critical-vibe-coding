@@ -6,7 +6,9 @@ updated: 2026-11-10
 
 # Session 01. Welcome outdoors + political-economic lecture
 
-The homework names one default stack. That stack is a *demonstration* and an *optional extension*. It is *not required for assessment*. Any one agent plus one folder meets [[minimum-path]]. The input-topic choice is required.
+Write a personal manifesto on how you want to use AI in your practice. It is required, with [[minimum-path]] and the input presentations. It names no product. Write it from this session.
+The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. Sebastian will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
+The input-topic choice is required.
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
@@ -104,6 +106,7 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 
 ## Homework
 
+- **Required now:** write a personal manifesto on how you want to use AI in your practice. No product is required. [[../minimum-path]]
 - Bookmark / clone the **course GitHub**: [[../START-HERE]]
 - Install a knowledge store with **phone sync**: default Obsidian ([[../howto-obsidian-setup-and-sync]]); **other options allowed** if they fit the course needs: [[../knowledge-store-options]] (SilverBullet, etc.)
 - Note which LLM access you already have

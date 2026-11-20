@@ -12,7 +12,7 @@ tags:
 
 # Hermes vs coding agents vs always-on assistants
 
-*optional extension.* Hermes as the default in the table below is a *demonstration*. It is *not required for assessment*. Any one agent plus one folder meets [[minimum-path]].
+*reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [[minimum-path]].
 
 Fair comparison for Critical Vibe Coding. Labels: *verified fact* | *claim* | *technical suggestion*.
 
@@ -27,6 +27,8 @@ Claude Code and Cursor Agent are **coding-first IDE/terminal loops**.
 Claude Cowork is Anthropic’s **always-on knowledge-work** surface (not a coding IDE).
 
 They solve different jobs. For this course they can **coexist**. Hermes as the default commons harness is coherent with open source, local models, data control, and MCP into creative apps. It is the **wrong** default if the only goal is deepest repo coding.
+
+*reference implementation.* The paragraph above compares products. It does not name the assessed architecture. A system that uses only a coding agent is valid.
 
 ---
 
@@ -53,7 +55,7 @@ They solve different jobs. For this course they can **coexist**. Hermes as the d
 | **Data security / sovereignty** | You choose endpoint: local = code stays; cloud = you picked the provider. Self-host gateway. Still: local backend = no isolation; skills/MCP need review. | Data on Anthropic’s cloud by default. | Data to Anthropic (or approved Claude host). Strong product sandboxes/approvals, still closed stack. | Data to Cursor / model vendors per plan. |
 | **Always-on messaging** | **Yes.** Telegram, Discord, Matrix, Signal, … + optional Hermes Cloud while laptop is closed. | Yes in Claude’s surfaces (scheduled / cloud sessions). | Weak as a phone assistant; coding session oriented (some channels/Slack). | Cloud Agents exist on paid tiers; not Signal/Telegram-first. |
 | **Learning curve** | Medium: install, `.env`, gateway, skills. | Low for Claude users. | Medium: terminal + `CLAUDE.md` + permissions. | Low–medium: GUI IDE. |
-| **Course fit (CVC)** | **Default stack** for commons / local / MCP / vault / phone. | Useful contrast: closed always-on assistant. | Best **add-on** for deep coding weeks. | Best **add-on** for IDE-heavy students. |
+| **Course fit (CVC)** | *reference implementation* for an open, multi-channel system. Not the assessed architecture. | Valid system: closed always-on assistant. | Valid system for deep coding. | Valid system for IDE work. |
 
 ---
 
@@ -71,7 +73,9 @@ Hermes’s own docs now say the quiet part: keep Hermes in chat apps and **hand 
 
 ## 4. Recommended posture for Critical Vibe Coding
 
-*technical suggestion* (course default):
+*technical suggestion* (one *reference implementation*, not the assessment):
+
+A system built in Claude Code, Cursor, OpenCode, a local script, or another agent meets the course. The list below is one way to combine tools.
 
 1. **Hermes = semester harness.** Vault, wiki, skills, messaging, local or chosen API, MCP into creative tools. Prefer **Hermes Desktop** when students want a GUI closer to Cursor / Cowork (same agent core as CLI).
 2. **Cursor Agent or Claude Code = coding intensifier.** Use when the task is a large repo edit with tests and PRs.

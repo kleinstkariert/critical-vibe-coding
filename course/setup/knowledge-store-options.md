@@ -1,6 +1,6 @@
 # Knowledge store options
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. Phone sync is part of this extension. It is not required to complete the course.
+*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is part of that example. It is not required to complete the course. See [[minimum-path]].
 
 **Working title.** Other names that also fit: “Where notes live”, “Note tools for agent workflows”. This note compares three places to keep an agent-readable (and human-readable) knowledge base for Critical Vibe Coding / personal practice.
 
@@ -117,11 +117,13 @@ Docs: https://silverbullet.md/ · Folders: https://docs.silverbullet.md/Folder
 | Free sync with Nextcloud | Via plugin / folder | Via own server / folder sync | Native |
 | Browser clipper | Official, strong (incl. iOS Safari) | Community clipper | Built-in web clipper (different model) |
 | Phone | App + sync setup or paid Sync | PWA / server | Native apps + sync |
-| Course role | **Default** | Interesting alternative | Not required for wiki; MCP elsewhere |
+| Course role | *reference implementation* | Interesting alternative | Not required for wiki; MCP elsewhere |
 
 ---
 
 ## Recommendation for this course / personal Hermes setup
+
+*reference implementation.* The list below is one example. It is not the assessed knowledge store or the assessed agent. See [[minimum-path]].
 
 1. **Class default:** **Obsidian** + Nextcloud (or similar) so **phone sync works without a per-student server.** How-to: [[howto-obsidian-setup-and-sync]].
 2. **Hermes** (MIT) on the PC vault folder for the LLM Wiki / hybrid pattern.

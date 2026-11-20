@@ -13,7 +13,7 @@ Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
-*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [[minimum-path]].
 
 ---
 
@@ -283,6 +283,8 @@ Use them together: plan and stay connected in Hermes. Hand hard coding work to O
 # Suggested basic setup
 
 Default stack:
+
+*Reference implementation. Not the assessment.*
 
 1. **Obsidian** vault for notes (phone sync).
 2. **Hermes** on the computer as the agent.

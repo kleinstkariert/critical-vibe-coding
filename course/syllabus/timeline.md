@@ -11,7 +11,7 @@ tags:
 
 Draft. Dates TBD. Labels: *requirement* | *technical suggestion* | *todo*.
 
-Required work: [[minimum-path]], plus the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *demonstration* or an *optional extension*. They are *not required for assessment*.
+Required, and early: a personal manifesto on how you want to use AI in your practice. It names no product. Also required: [[minimum-path]] and the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *reference implementation* or an *optional extension*. They are *not required for assessment*.
 
 ## Short syllabus sheet
 
@@ -51,6 +51,8 @@ Students learn to build and run their own powerful LLM-agent setups while unpack
 | **Technical** | Working personal agent (Hermes + Obsidian / LLM Wiki by default); phone sync; optional Discord; optional local models |
 | **Critical / "group therapy"** | Check-in, political-economic framing, authorship and labour, ecological and regulatory claims |
 | **Agent as interface** | Setup, skills, knowledge base and tool wiring as artistic/technical material |
+
+The technical row names a *reference implementation*. The assessed system is tool-neutral. See [[minimum-path]].
 
 ## Opening ritual (*requirement*)
 

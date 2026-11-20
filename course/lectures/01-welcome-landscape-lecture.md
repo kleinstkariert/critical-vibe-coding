@@ -14,7 +14,8 @@ tags:
 
 Speaker notes for Part B of [[../sessions/01-welcome-and-landscape]]. The outdoor check-in (Part A) stays in that file.
 
-Block 8, the default setup, is a *demonstration* and an *optional extension*. It is *not required for assessment*. See [[minimum-path]].
+Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [[minimum-path]].
+From this session, each student writes a personal manifesto on how they want to use AI in their practice. The manifesto is required. It names no product.
 
 Style: [[../presentation-style]]. Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (Sebastian's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
 
@@ -290,7 +291,7 @@ The practices for the semester moved to the end of the session (after the studen
 
 ## Block 8: Default setup
 
-*demonstration. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [[minimum-path]].
 
 Practical. **Deep dive with the diagram explained part by part:** [[01-welcome-landscape-deep-dives/default-setup]].
 

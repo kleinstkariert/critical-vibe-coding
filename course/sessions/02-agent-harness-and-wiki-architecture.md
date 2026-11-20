@@ -6,7 +6,7 @@ updated: 2026-11-10
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
-*demonstration* of a Hermes install. *optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. The flattening input presentation is required.
+*reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [[minimum-path]]. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
@@ -101,6 +101,8 @@ Classroom bet for CVC: spend the semester on **wiki + schema + tools** (structur
 ## Teacher input, Part B: LLM Wiki + Obsidian (our harness specialisation)
 
 After the general frame, land in the course default.
+
+*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [[minimum-path]].
 
 ### Why a folder wiki is harness, not "just notes"
 

@@ -1,6 +1,6 @@
 # How to: Obsidian setup and sync
 
-*optional extension. Not required for assessment.* Phone sync is not required to complete the course. Any one agent plus one folder meets [[minimum-path]]. The steps below are one demonstrated path.
+*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is not required to complete the course. See [[minimum-path]].
 
 Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux**.
 

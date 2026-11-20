@@ -1,6 +1,6 @@
 # What is an MCP?
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*optional extension. Not required for assessment.* MCP is not the assessed tool set. A tool set can be one folder. See [[minimum-path]].
 
 A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims labeled *verified fact* or *technical suggestion*.
 

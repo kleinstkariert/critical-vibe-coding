@@ -10,7 +10,7 @@ tags:
 
 # How-to. Set up OpenCode
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. OpenCode is one alternative agent.
+*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [[minimum-path]].
 
 OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for work inside a code repository: edits, diffs, commands, and review.
 

@@ -1,6 +1,6 @@
 # How to: SilverBullet setup and sync
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*optional extension. Not required for assessment.* A sentence below calls Obsidian the class default. That names one knowledge store, not the assessment. See [[minimum-path]].
 
 Practical guide for **personal** SilverBullet / Hermes experiments on **Windows**, **macOS**, and **Linux**. Companion to [[howto-obsidian-setup-and-sync]] and [[knowledge-store-options]].
 

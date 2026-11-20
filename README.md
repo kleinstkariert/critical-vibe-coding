@@ -8,8 +8,8 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | Programme | Interface Cultures |
 | Language | English |
-| Required work | [Minimum path](course/minimum-path.md): one folder, one agent, one task, a record, a review, one critical reflection, a presentation. Input presentations are also required. |
-| Demonstrated stack | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/) / LLM Wiki. *optional extension. Not required for assessment.* |
+| Required work | A personal manifesto, then the [minimum path](course/minimum-path.md): a student-designed agentic production system. Input presentations are also required. |
+| Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). Sebastian installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
 | Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/START-HERE.md`](course/START-HERE.md) |
 
 ---

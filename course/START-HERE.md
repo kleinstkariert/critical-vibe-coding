@@ -13,11 +13,15 @@ This page is the on-ramp. Everything else hangs off the [course outline](syllabu
 
 ## What you must do
 
+Write a personal manifesto on how you want to use AI in your practice.
+It is required. It names no product. Write it early.
+The technical object is a student-designed agentic production system.
 Read the [minimum path](minimum-path.md) before the install list.
-The minimum path and the group input presentations are required.
+The manifesto, the minimum path, and the group input presentations are required.
 No purchase is required. Alternatives are allowed.
-The install order on this page is an *optional extension* and a *demonstration*.
-It is *not required for assessment*.
+Hermes is one *reference implementation*. Sebastian will install it with the class.
+That install is a *demonstration*. It is *not required for assessment*.
+Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
 
 Folder map under `course/`:
 
@@ -38,11 +42,13 @@ You build and run a **personal LLM-agent setup** while unpacking political-econo
 
 Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you can access. Twin tracks every week: technical + critical check-in.
 
+*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](minimum-path.md).
+
 ---
 
 ## Install order (before / during weeks 1 to 3)
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](minimum-path.md).
 
 The course has **eight sessions**: [course-outline.md](syllabus/course-outline.md).
 

@@ -9,7 +9,7 @@ tags:
 
 # Academic AI in Austria — access for this course
 
-*optional extension* for a paid API key or a local model. *not required for assessment.* A free cloud agent is enough for [[minimum-path]]. Any one agent plus one folder meets that path.
+*optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [[minimum-path]]. A line below that says "default agent path" names one example, not the assessment.
 
 English course note. Official portals may be German/English. Labels: *verified fact* | *technical suggestion* | *todo*.
 

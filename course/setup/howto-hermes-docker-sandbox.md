@@ -11,7 +11,7 @@ tags:
 
 # How-to. Turn on the Hermes Docker sandbox
 
-*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]].
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [[minimum-path]].
 
 Short click-path only. For Docker concepts, mounts, and generic container flags, use [[Local LLM Coding with Hermes]] (§8 Docker, §9 Sandbox).
 

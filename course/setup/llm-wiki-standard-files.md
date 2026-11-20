@@ -8,7 +8,7 @@ tags:
 
 # LLM Wiki — standard files and folders
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets [[minimum-path]]. A full wiki file set is not required.
+*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [[minimum-path]].
 
 What lives in a Karpathy-style wiki directory. Labels: *verified fact* | *technical suggestion*.
 
@@ -17,6 +17,8 @@ Hermes layout (names below): [llm-wiki skill](https://hermes-agent.nousresearch.
 Naming essay: [The Schema Is the Product](https://cozypet.github.io/llm-wiki-schema/).
 
 ## Tree (Hermes / course default)
+
+*reference implementation.* The heading means the Hermes example, not the assessed file names.
 
 ```text
 wiki/   (or your vault root / a subfolder)
@@ -120,7 +122,7 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 
 | Tool | Link | Notes |
 |---|---|---|
-| Hermes Agent skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki | Filesystem agent; class default with Obsidian as viewer |
+| Hermes Agent skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki | Filesystem agent; Hermes example. Obsidian is one viewer |
 | Hermes skill source | https://github.com/NousResearch/hermes-agent/blob/HEAD/skills/research/llm-wiki/SKILL.md | Full `SKILL.md` |
 | Obsidian plugin `karpathywiki` | https://community.obsidian.md/plugins/karpathywiki · https://github.com/GD4AI/obsidian-llm-wiki | Ingest/query/lint inside Obsidian; Apache-2.0 |
 | Dexio guide | https://dexio.wiki/guides/llm-wiki-obsidian/ | Obsidian-oriented walkthrough |

@@ -11,7 +11,7 @@ tags:
 
 *requirement* from the brief + teaching decisions of 2026-10-27 and 2026-11-09 (eight sessions). Parent: [[timeline]] · [[course-outline]].
 
-The check-in and the student input presentations are required. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *demonstration*. They are *not required for assessment*. See [[minimum-path]].
+The check-in, the personal manifesto, and the student input presentations are required. Write the manifesto early. It names no product. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *reference implementation* and a *demonstration*. Sebastian will install Hermes with the class. That install is *not required for assessment*. See [[minimum-path]].
 
 **Slot:** **120 minutes**, **10:00 to 12:00**, with a **5 to 10 minute break**. Session files list **clock times** (not only durations).
 
@@ -115,4 +115,4 @@ Eight sessions are tight. Session 02 (harness + wiki + landscape + install) and 
 | Medium | Prompting / reasoning | 03 |
 | Lower in-class | Multi-GPU shopping | 03 homework |
 
-"Working personal agent" in the table means [[minimum-path]]: one agent and one folder. The full wiki, phone sync, and MCP are an *optional extension*.
+"Working personal agent" in the table means the system in [[minimum-path]]. The full wiki, phone sync, and MCP are an *optional extension*.
