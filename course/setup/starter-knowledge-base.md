@@ -9,11 +9,11 @@ tags:
 
 # Starter knowledge base
 
-Copy this tree into your vault. It is a class starter. It does not replace [[llm-wiki-standard-files]] or [[knowledge-store-options]].
+Copy this tree into your vault. It is a starter. It does not replace [[llm-wiki-standard-files]] or [[knowledge-store-options]].
 
 ## First suggestion
 
-Start from the Wanderloots LLM Wiki examples. Callum (Wanderloots) shows three layers in public: raw sources, wiki pages, and a schema that is the contract with the agent. The tree below is a class copy of that split. It is not a copy of his private vault.
+Start from the Wanderloots LLM Wiki examples. Callum (Wanderloots) shows three layers in public: raw sources, wiki pages, and a schema that is the contract with the agent. The tree below is a copy of that split. It is not a copy of his private vault.
 
 - How to build it: https://www.youtube.com/watch?v=QbjAQFJJyt0
 - Channel already cited in this repo: https://www.youtube.com/@Wanderloots/videos ([[Local LLM Coding with Hermes]] §15)
@@ -51,7 +51,7 @@ Create the folders before you point Hermes at the vault. Empty folders are fine.
 
 ## Who may read what
 
-Folder names are not a lock. The course states that in [[Local LLM Coding with Hermes]] §10. This table is the class rule you also write into `SCHEMA.md`.
+Folder names are not a lock. The course states that in [[Local LLM Coding with Hermes]] §10. This table is the rule you also write into `SCHEMA.md`.
 
 | Path | Agent | You |
 |---|---|---|

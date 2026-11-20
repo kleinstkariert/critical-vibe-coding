@@ -4,7 +4,7 @@ date: 2026-11-20
 tags:
   - course
   - howto
-  - session-02
+  - install
   - macos
 ---
 
@@ -18,7 +18,7 @@ An MCP is a connector that lets Hermes talk to another program. The macOS exampl
 
 ## 1. Install Hermes Desktop
 
-You install Hermes on your own laptop. Sebastian is in the room. Ask him when a button name does not match this page.
+You install Hermes on your own laptop.
 
 Hermes Agent is the program that uses a model to read files and call tools. Hermes Desktop is the app window for that program.
 
@@ -51,7 +51,7 @@ Hermes keeps its files in `~/.hermes/`.
 
 A local model runs on this computer. It does not need an API key.
 
-The room demo GPU is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. VRAM is the memory on the graphics card. That card is in the room, not in a Mac. On your Mac, read the fit label. A Mac uses unified memory. The same model can be too big there.
+One reference GPU for the model below is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. VRAM is the memory on the graphics card. A Mac uses unified memory. Read the fit label. The same model can be too big on a Mac.
 
 1. In Hermes Desktop, open Settings, then Providers, then Local Models. On an Intel Mac, run `hermes model` and choose Local models.
 2. Click Install runtime. Wait until the runtime finishes.
@@ -59,7 +59,7 @@ The room demo GPU is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. VRAM i
 4. Click Use when the label says the model fits, or that it uses system RAM.
 5. Stop when the label says the model is too big. Use the API model in the next section.
 
-Why this model fits the room's 16 GB card: [[install-why]].
+Why this model fits a 16 GB card: [[install-why]].
 
 Free cloud models already listed for this course: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4 and [[howto-hermes-setup]] §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
 
@@ -73,17 +73,17 @@ You create an OpenAI API key. You do not reuse the ChatGPT password as a key.
 
 1. Open https://platform.openai.com/api-keys and create a key.
 2. Open API billing from https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform and add a payment method.
-3. Set a low spend limit before the first class run.
+3. Set a low spend limit before the first run.
 4. Run `hermes model`.
 5. Choose the OpenAI API provider.
 6. Paste the key when Hermes asks. Hermes stores it in `~/.hermes/.env`.
 7. Choose the model `gpt-5.4-mini`.
 
-`gpt-5.4-mini` is the class pick. Hermes lists it under the OpenAI API provider. On the OpenAI price page, checked 20 Nov 2026, this mini model is US $0.75 per million input tokens and US $4.50 per million output tokens. Price page: https://developers.openai.com/api/docs/pricing
+`gpt-5.4-mini` is the suggested model. Hermes lists it under the OpenAI API provider. On the OpenAI price page, checked 20 Nov 2026, this mini model is US $0.75 per million input tokens and US $4.50 per million output tokens. Price page: https://developers.openai.com/api/docs/pricing
 
 Plus fact: https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
 
-Hermes can also log in with a ChatGPT subscription for Codex models (`hermes model`, then ChatGPT or Codex Subscription). That login is not an API key. The Hermes docs do not yet say which Plus limits it uses. In class, create the API key. Provider page: https://hermes-agent.nousresearch.com/docs/integrations/providers
+Hermes can also log in with a ChatGPT subscription for Codex models (`hermes model`, then ChatGPT or Codex Subscription). That login is not an API key. The Hermes docs do not yet say which Plus limits it uses. Create the API key. Provider page: https://hermes-agent.nousresearch.com/docs/integrations/providers
 
 Do not put the key in the vault, in chat, or in Git.
 
@@ -102,7 +102,7 @@ WIKI_PATH=/Users/you/Nextcloud/MyVault
 
 6. Quit Hermes and open it again.
 7. Ask Hermes to create `wiki/hello.md` with one sentence.
-8. In Obsidian, confirm that file. If Hermes writes somewhere else, stop and tell Sebastian.
+8. In Obsidian, confirm that file. If Hermes writes somewhere else, stop.
 
 Path rules and the skill links: [[howto-hermes-setup]] §4.
 
@@ -161,8 +161,8 @@ mcp_servers:
 
 6. Ask Hermes what TouchDesigner project it can see.
 7. TouchDesigner shows a consent panel. The README says nothing gets control until you allow it there. Click allow only if the panel names your Hermes app.
-8. Leave the server on localhost. The README refuses other machines by default. Do not open it to the network in class.
+8. Leave the server on localhost. The README refuses other machines by default. Do not open it to the network.
 
-**Install Skills** on the component is written for the clients in the Install For list. Hermes is not in that list. If the pulse does not place skills in `~/.hermes/skills/`, skip skills and tell Sebastian. Do not copy the files into a guessed folder.
+**Install Skills** on the component is written for the clients in the Install For list. Hermes is not in that list. If the pulse does not place skills in `~/.hermes/skills/`, skip skills. Do not copy the files into a guessed folder.
 
 The server can run Python inside TouchDesigner. Treat that like a shell on your Mac. Security notes from the project: https://github.com/TouchDesigner/TDMCP/blob/main/docs/security.md

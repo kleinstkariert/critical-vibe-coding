@@ -1,14 +1,14 @@
 ---
 title: Session 02. Agent harness, wiki architecture, model landscape, Hermes install
 session: 2
-updated: 2026-11-20
+updated: 2026-11-10
 ---
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
 Parent: [[../timeline]] · Outline: [[../course-outline]] · Rhythm: [[../course-rhythm]]
 
-First **practice** session after Session 01. A student group opens with the **flattening** input. The rest of the live class is a practical install on each student's laptop. The harness, wiki, and model sections below stay in this file as reading. Prompting and chat versus reasoning: Session 03. Phone, Discord and MCP: Session 05.
+First **practice** session after Session 01. A student group opens with the **flattening** input; harness, wiki structure, model landscape and the Hermes install are the teacher's. Prompting and chat versus reasoning: Session 03. Phone, Discord and MCP: Session 05.
 
 **Slot:** 10:00 to 12:00.
 
@@ -21,17 +21,16 @@ First **practice** session after Session 01. A student group opens with the **fl
 - **Install Hermes**, point it at the vault, and run it on one free, open model
 - Leave with a mental diagram they can redraw for the midpoint and the final
 
-Live class: the clock above. These goals stay in the note as reading for the install.
-
 ## Clock
 
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
 | **10:20 to 10:35** | Student input: **flattening** ([[../course-rhythm]]) |
-| **10:35 to 12:00** | Practical install only. No theory block. Break about 10:55 to 11:05 ([[../course-rhythm]]). |
-
-Guides, one per operating system: [[../setup/install-windows]] · [[../setup/install-linux]] · [[../setup/install-mac]]. Why this order: [[../setup/install-why]].
+| **10:35 to 10:55** | Teacher: harness (general), then LLM Wiki / store structure |
+| **10:55 to 11:05** | Break |
+| **11:05 to 11:15** | Teacher: model landscape and the free model |
+| **11:15 to 12:00** | Install Hermes, connect the free model, vault smoke test |
 
 If the install runs long, the diagram practice moves to homework.
 
@@ -165,21 +164,20 @@ From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]
 - Fallback: the free plan of Nous Portal (`hermes setup --portal`, free models only), or students' own subscriptions or keys.
 - Details and sources: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.
 
-## Practical: install on the student laptop
+## Practical: install Hermes (≥45 min)
 
-Live class after the input: install only. Follow one guide from top to bottom.
-
-- Windows: [[../setup/install-windows]]
-- Linux: [[../setup/install-linux]]
-- macOS: [[../setup/install-mac]]
-
-Why this order: [[../setup/install-why]]. Starter folders and the first `SCHEMA.md`: [[../setup/starter-knowledge-base]].
+1. Install Hermes on student machines: [[../howto-hermes-setup]] (Windows, macOS, Linux).
+2. Create a free OpenRouter account and key. Put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, never in the vault.
+3. `hermes model` → OpenRouter → `nvidia/nemotron-3-ultra-550b-a55b:free` (or the student's own access).
+4. Point Hermes at the Obsidian vault path (`WIKI_PATH` / `OBSIDIAN_VAULT_PATH`).
+5. Smoke test: the agent creates one note, then lists the vault. Check the note in Obsidian.
+6. Optional: create a `SCHEMA.md` stub with three lines: may edit / must ask / never touch.
 
 If the install fails, label Model versus Harness on a product the student already uses (ChatGPT versus Cursor versus a local GGUF in a random UI) and sketch the future vault folders on paper. Finish the install as homework.
 
 ## Homework
 
-- Finish the Hermes install and smoke test if class time ran out: [[../setup/install-windows]] · [[../setup/install-linux]] · [[../setup/install-mac]] · [[../howto-hermes-setup]]
+- Finish the Hermes install and smoke test if class time ran out: [[../howto-hermes-setup]]
 - One-page diagram: Model / Harness / Wiki folders (phone photo OK)
 - Skim the Karpathy gist **or** the LangChain harness article (pick one)
 - Next week: hardware paths, open models, prompting, chat versus reasoning ([[03-hardware-open-models-prompting]])
@@ -194,8 +192,6 @@ If the install fails, label Model versus Harness on a product the student alread
 | LLM Wiki standard files | [[../llm-wiki-standard-files]] |
 | What is lint | [[../what-is-lint]] |
 | Karpathy research note | [[../../research/karpathy-llm-wiki-and-openclaw]] |
-| Class install guides | [[../setup/install-windows]] · [[../setup/install-linux]] · [[../setup/install-mac]] · [[../setup/install-why]] |
-| Starter knowledge base | [[../setup/starter-knowledge-base]] |
 | Hermes install | [[../howto-hermes-setup]] · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 | Hermes efficient coding (harness tips) | [[../setup/howto-hermes-efficient-coding]] · [[../setup/agents-md-template]] |
 | Hermes vs coding agents (comparison) | [[../concepts/hermes-vs-coding-agents]] |

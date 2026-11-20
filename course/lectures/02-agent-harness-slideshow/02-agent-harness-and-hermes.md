@@ -21,14 +21,17 @@ This deck teaches the setup path for today. You can follow it without other note
 |---|---|
 |10:00–10:20|Check-in|
 |10:20–10:35|Student input: flattening|
-|10:35–12:00|Practical install (break about 10:55)|
+|10:35–10:55|Harness and LLM Wiki|
+|10:55–11:05|Break|
+|11:05–11:15|Model landscape|
+|11:15–12:00|Hermes installation and smoke test|
 
-Check-in and the flattening input come first.
-The rest of today is install practice on your laptop.
+Today has two aims:
 
-Guides: [[install-windows]] · [[install-linux]] · [[install-mac]]
-Why: [[install-why]]
-Also: [[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
+- Understand how a model becomes a useful agent.
+- Start a safe Hermes setup.
+
+Full guides: [[howto-hermes-setup]] · [[Local LLM Coding with Hermes]]
 
 ---
 # Critical Vibe Coding
