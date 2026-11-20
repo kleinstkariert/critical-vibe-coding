@@ -21,7 +21,7 @@ Official Nous docs:
 - Security (container isolation): https://hermes-agent.nousresearch.com/docs/user-guide/security
 - Configuration (Docker backend): https://hermes-agent.nousresearch.com/docs/user-guide/configuration
 
-Labels: *verified fact* | *technical suggestion*. Check the docs for your Hermes version.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check the docs for your Hermes version.
 
 ---
 
@@ -49,7 +49,7 @@ docker version
 
 ## 2. Turn on the Docker backend
 
-Fast path (*verified fact* from Hermes configuration docs):
+Fast path (*institutional summary* from Hermes configuration docs):
 
 ```bash
 hermes config set terminal.backend docker
@@ -82,7 +82,7 @@ hermes config set terminal.backend local
 
 Keep the workspace small. Do not mount the full home directory or private vault folders.
 
-Useful keys (*verified fact* from Hermes docs; names can change by version):
+Useful keys (*institutional summary* from Hermes docs; names can change by version):
 
 | Goal | Config idea |
 |---|---|

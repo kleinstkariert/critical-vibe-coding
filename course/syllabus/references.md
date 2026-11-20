@@ -8,7 +8,35 @@ tags:
 
 # References
 
-Working bibliography for the seminar. Prefer primary sources in class; YouTube for optional prep. Labels: *verified fact* when the URL was checked 2026-10-18.
+Working bibliography for the seminar. Prefer primary evidence in class. YouTube is optional prep. A URL that loaded on 2026-10-18 is not, by itself, a checked claim.
+
+## Source types
+
+*Verified fact* in older notes often meant only that a web page existed, or that a claim appeared in a source. It did not always mean the claim was checked against primary evidence. Do not read an old *verified fact* tag as independent verification.
+
+| Type | What it is |
+|---|---|
+| Primary evidence | A filing, a law, an official specification, a peer-reviewed paper, or an original dataset. |
+| Institutional summary | An agency, a university, a research institution, or an official explanatory page. |
+| Secondary reporting | Reputable journalism or analysis. |
+| Speaker claim | A podcast, a talk, an interview, or a keynote. |
+| Course interpretation | The instructor's synthesis. |
+| Unverified lead | A source was found. It was not checked. |
+| Outdated / historical snapshot | The source is no longer current. |
+
+A label names the kind of source. It does not, by itself, mean the claim was independently verified.
+
+Copy this source record:
+
+```yaml
+source_type: primary | institutional | secondary | speaker | course
+checked_on: YYYY-MM-DD
+independent_verification: yes | no
+current_as_of: YYYY-MM-DD
+claim_scope: exact | paraphrase | interpretation
+```
+
+`checked_on` is the date the source was opened. Leave it empty if you do not have that date. `independent_verification: yes` means the claim was checked against primary evidence, not only that a page opened. Do not invent a date. For an unverified lead, or for an outdated snapshot, say so in the prose next to the record.
 
 ## LLM Wiki — primary
 
@@ -28,7 +56,7 @@ Working bibliography for the seminar. Prefer primary sources in class; YouTube f
 | Skill source `SKILL.md` | https://github.com/NousResearch/hermes-agent/blob/HEAD/skills/research/llm-wiki/SKILL.md |
 | Obsidian note-taking skill | https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian |
 | MCP feature | https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp |
-| Discord setup (bot, DMs vs mention-only channels, per-user sessions) — added 2026-10-18, *verified fact* | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
+| Discord setup (bot, DMs vs mention-only channels, per-user sessions). Added 2026-10-18. *institutional summary*. The page loaded. The claims were not independently verified. | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
 Course how-to (Win / macOS / Linux): [[howto-hermes-setup]]  
@@ -127,7 +155,7 @@ Full mapping: [[timeline]]
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after URL check (*verified fact* = page loaded and matched the description). No paywalled-only items. Session tables (archived with the 13-session plan): [[sessions/archive-13-session-plan/10-authorship-labour-platforms]] · [[sessions/archive-13-session-plan/11-local-ecology-when-not]]. Current use: Session 01 deep dives and the student inputs ([[course-rhythm]]).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [[sessions/archive-13-session-plan/10-authorship-labour-platforms]] · [[sessions/archive-13-session-plan/11-local-ecology-when-not]]. Current use: Session 01 deep dives and the student inputs ([[course-rhythm]]).
 
 ## Agent harness
 

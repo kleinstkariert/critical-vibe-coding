@@ -6,7 +6,7 @@ Practical guide for **personal** SilverBullet / Hermes experiments on **Windows*
 
 *requirement for the course:* **phone sync.** SilverBullet’s smooth phone path needs a **Server that stays up** — too heavy to require of every student. **Class default remains Obsidian + Nextcloud.** Use this how-to if *you* self-host; do not set it as the student baseline.
 
-**Licensing (*verified fact*, 2026-10-15):**
+**Licensing (*unverified lead*, 2026-10-15):**
 
 | Piece | License / cost |
 |-------|----------------|
@@ -85,7 +85,7 @@ Docs: https://silverbullet.md/Install/Docker · https://silverbullet.md/server
 
 **Linux without Docker:** use the upstream server binary / install docs if you prefer systemd over containers — still put auth in front of any non-localhost bind.
 
-**Auth notes (*verified fact*):**
+**Auth notes (*unverified lead*):**
 
 - Default modern installs use **multi-space accounts** (Dashboard).
 - Classic **single-space**: `SB_USER=username:password`.

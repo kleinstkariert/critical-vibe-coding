@@ -160,7 +160,7 @@ From the old Session 03 ([[archive-13-session-plan/03-models-prompting-install]]
 
 ### The free-to-use endpoint for today
 
-*technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
+*technical suggestion* (page consulted 10 Nov 2026): **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
 - Openly distributed materials under OpenMDW-1.1 (weights, and NVIDIA's claim of data and recipes). The endpoint is free to use: $0 per token. Tool calling and up to 1 million tokens of context (Hermes needs at least 64,000 and tool calling).
 - Limits: 20 requests per minute and 50 per day on a free account. Enough for a smoke test and light daily use, not for long agent runs. Prompts may be logged. Too large for most student machines. Do not send private notes through it until you have checked the data policy. The route is a hosted cloud service: [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §4.

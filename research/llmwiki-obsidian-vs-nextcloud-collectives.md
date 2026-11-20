@@ -8,7 +8,7 @@ tags:
 
 # LLM Wiki + Obsidian vs Nextcloud Collectives + MCP
 
-Research date: 2026-10-18. Revised the same day after a scope clarification. Labels: *verified fact* | *technical suggestion*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Revised the same day after a scope clarification. Labels: *technical suggestion*.
 
 Objective comparison of two ways to keep a knowledge base that an LLM can work on:
 
@@ -42,7 +42,7 @@ What you build yourself: the agent’s habits. A weekly summary, an ingest pass,
 
 ### LLM Wiki + Obsidian
 
-*verified fact:* Karpathy’s `llm-wiki.md` (4 April 2026) is an idea file, meant to be pasted to an agent. It is a pattern for a personal knowledge base, not a product. Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+*unverified lead:* Karpathy’s `llm-wiki.md` (4 April 2026) is an idea file, meant to be pasted to an agent. It is a pattern for a personal knowledge base, not a product. Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 Three layers:
 
@@ -58,29 +58,29 @@ The line from the gist: *“Obsidian is the IDE; the LLM is the programmer; the 
 
 The gist also names a **team** use: an internal wiki maintained by LLMs from meeting notes, project documents, and similar, with humans reviewing updates. The mechanism he names for collaboration is git, not a multi-cursor editor.
 
-*verified fact:* Obsidian is free for personal, non-profit, and commercial use. A Commercial license is optional support, not a requirement (change dated 20 February 2025). Paid add-ons are Sync and Publish. The application itself is proprietary. https://obsidian.md/license · https://obsidian.md/blog/free-for-work/
+*unverified lead:* Obsidian is free for personal, non-profit, and commercial use. A Commercial license is optional support, not a requirement (change dated 20 February 2025). Paid add-ons are Sync and Publish. The application itself is proprietary. https://obsidian.md/license · https://obsidian.md/blog/free-for-work/
 
 Wikilinks (`[[Page]]`), the graph view, and the Web Clipper are Obsidian features. Dataview (community plugin) queries YAML frontmatter if the agent writes it. The gist recommends that combination. Frontmatter is a convention of the wiki, not something Obsidian requires.
 
 ### Nextcloud Collectives + MCP
 
-*verified fact:* Collectives is an AGPL knowledge app. Each collective is backed by a Nextcloud Team. Pages are collaborative markdown edited with the Text app. https://github.com/nextcloud/collectives
+*unverified lead:* Collectives is an AGPL knowledge app. Each collective is backed by a Nextcloud Team. Pages are collaborative markdown edited with the Text app. https://github.com/nextcloud/collectives
 
-*verified fact:* Pages are markdown files in the Files app. The default folder is hidden (`.Collectives`, or a translated name). A per-user setting can rename it, for example to `Collectives`. https://docs.nextcloud.com/server/stable/user_manual/en/collectives/markdown_files.html
+*unverified lead:* Pages are markdown files in the Files app. The default folder is hidden (`.Collectives`, or a translated name). A per-user setting can rename it, for example to `Collectives`. https://docs.nextcloud.com/server/stable/user_manual/en/collectives/markdown_files.html
 
-*verified fact:* Nextcloud Server is AGPL-3.0-or-later. https://github.com/nextcloud/server/blob/master/COPYING-README
+*unverified lead:* Nextcloud Server is AGPL-3.0-or-later. https://github.com/nextcloud/server/blob/master/COPYING-README
 
-*verified fact:* Context Agent is AGPL-3.0-or-later. It supplies the Assistant’s tool calls and an MCP endpoint for outside agents. It does not include a model. https://github.com/nextcloud/context_agent
+*unverified lead:* Context Agent is AGPL-3.0-or-later. It supplies the Assistant’s tool calls and an MCP endpoint for outside agents. It does not include a model. https://github.com/nextcloud/context_agent
 
 Links inside a collective are Collectives links, inserted with “Link to page”, drag-and-drop, or the smart picker. They look like `/apps/collectives/<collective>/<page>?fileId=<id>`. A backlinks list exists in the page sidebar. `[[wikilinks]]` are not the Collectives link syntax. Relative links such as `[document](document.md)` do not open the collective page.
 
 Permissions sit on the collective (the team), not on each page. The project’s own gap list still marks per-folder and per-page permissions, and custom metadata fields, as open. https://github.com/nextcloud/collectives/issues/482 (issue updated through 2026)
 
-**One server, many tools.** *verified fact:* Context Agent is a single MCP server. The admin manual says the app makes its tools available via an MCP server, at one URL. Calendar, tasks, contacts, Collectives, Deck, files, and mail are tool groups on that server. A group shows up when its Nextcloud app is installed, and an admin can switch groups on or off. The agent configuration contains one Nextcloud entry, not a mail server plus a calendar server plus a Deck server. https://docs.nextcloud.com/server/stable/admin_manual/ai/app_context_agent.html
+**One server, many tools.** *unverified lead:* Context Agent is a single MCP server. The admin manual says the app makes its tools available via an MCP server, at one URL. Calendar, tasks, contacts, Collectives, Deck, files, and mail are tool groups on that server. A group shows up when its Nextcloud app is installed, and an admin can switch groups on or off. The agent configuration contains one Nextcloud entry, not a mail server plus a calendar server plus a Deck server. https://docs.nextcloud.com/server/stable/admin_manual/ai/app_context_agent.html
 
 The same shape exists in third-party servers that talk to one Nextcloud: [cbcoutinho/nextcloud-mcp-server](https://github.com/cbcoutinho/nextcloud-mcp-server/) and [cloud-py-api/nc_mcp_server](https://github.com/cloud-py-api/nc_mcp_server) each register many app tools on one process. You run one of these, or Context Agent. You do not stack one MCP per app.
 
-**MCP here means a protocol, not a memory.** *verified fact:* With Context Agent installed, outside agents use:
+**MCP here means a protocol, not a memory.** *unverified lead:* With Context Agent installed, outside agents use:
 
 `https://<your-nextcloud>/index.php/apps/app_api/proxy/context_agent/mcp/`
 
@@ -115,9 +115,9 @@ Three reasons to prefer the Nextcloud setup, checked against the docs and agains
 
 **Verdict.** Holds for the Nextcloud apps. Holds only in part for git.
 
-*verified fact:* Context Agent’s tool list covers mail, calendar, Deck, the Tasks app, contacts, files, and Collectives, each when that app is installed. One Nextcloud account and one MCP URL are enough for an agent to be told “look at the inbox, the week’s events, the Deck board, and the collective.”
+*unverified lead:* Context Agent’s tool list covers mail, calendar, Deck, the Tasks app, contacts, files, and Collectives, each when that app is installed. One Nextcloud account and one MCP URL are enough for an agent to be told “look at the inbox, the week’s events, the Deck board, and the collective.”
 
-*verified fact:* That URL is one interface. A sentence such as “mail and calendar are separate MCP servers you add” does not describe this setup. Installing the Mail app or the Calendar app enables another tool group on the same server. The agent still has a single MCP entry.
+*unverified lead:* That URL is one interface. A sentence such as “mail and calendar are separate MCP servers you add” does not describe this setup. Installing the Mail app or the Calendar app enables another tool group on the same server. The agent still has a single MCP entry.
 
 On the LLM Wiki side the wiki folder does not contain the inbox or the calendar. Reaching them means attaching this same Nextcloud MCP, once. It does not mean registering a separate server per app.
 
@@ -126,7 +126,7 @@ Limits that stay true while the setup is manual:
 - The endpoint is a menu of tools. A skill still has to say when the agent should open mail, when it should open the wiki, and what it should write back. Nothing in the admin manual loads the whole mailbox into every prompt.
 - Official mail tools list accounts, folders, and messages, and they can send. A full “read this thread and file a summary” skill is something you write on top of that list.
 - **Git is a second system.** Files MCP can read and write the working tree if those folders are in Nextcloud. It does not provide git log, diff, commit, or branch. History stays in git. “Also a git repo” and “visible to the Nextcloud agent” are two facts at once.
-- *verified fact:* If the same file changes locally and on the server between sync runs, the desktop client writes a conflicted copy and leaves the merge to a person. https://docs.nextcloud.com/server/stable/user_manual/en/desktop/conflicts.html
+- *institutional summary:* If the same file changes locally and on the server between sync runs, the desktop client writes a conflicted copy and leaves the merge to a person. https://docs.nextcloud.com/server/stable/user_manual/en/desktop/conflicts.html
 - *technical suggestion:* Community reports treat syncing a `.git` directory through that client as a common way to hit those conflicts, because a commit rewrites many small files. Working files can live in the synced folder. The `.git` directory is safer excluded from sync, with the remote (GitHub or similar) keeping history. That split matches “folders in Nextcloud, and also git” better than syncing the git database itself.
 
 ### 2. A wiki people can read, and a wiki several people can edit
@@ -135,9 +135,9 @@ Limits that stay true while the setup is manual:
 
 **Verdict.** The team half holds. The readability half holds for both, with a different audience.
 
-*verified fact:* Collectives renders markdown in the browser: page tree, full-text search, backlinks, versions. Someone in the team opens it without installing Obsidian. Text supports collaborative editing and live cursors. Instant push uses the Files high-performance backend when that backend is installed. https://nextcloud.com/blog/websockets-in-nextcloud/
+*unverified lead:* Collectives renders markdown in the browser: page tree, full-text search, backlinks, versions. Someone in the team opens it without installing Obsidian. Text supports collaborative editing and live cursors. Instant push uses the Files high-performance backend when that backend is installed. https://nextcloud.com/blog/websockets-in-nextcloud/
 
-*verified fact:* Each collective is owned by a Nextcloud Team. That is group ownership, which a personal Obsidian vault does not have.
+*unverified lead:* Each collective is owned by a Nextcloud Team. That is group ownership, which a personal Obsidian vault does not have.
 
 Obsidian is also a human-readable rendering of the same kind of prose, and for one person it is the stronger reading and writing environment: local speed, wikilinks, graph, splits, clipper. The advantage of Collectives is who can arrive. A teammate gets the shared page in a browser. An Obsidian shared vault (paid Sync, or git, or a synced folder) still shares files. Two people in the same paragraph at the same time are in conflict-copy or merge territory.
 
@@ -153,7 +153,7 @@ Limits:
 
 **Verdict.** Holds for the software you host. It does not make the notes, or the model, automatically more open.
 
-*verified fact:* Nextcloud Server, Collectives, and Context Agent are AGPL-3.0-or-later. You can run them, read them, and change them. Obsidian is proprietary. Use of the app is free for personal and commercial work; the source is not available to patch.
+*unverified lead:* Nextcloud Server, Collectives, and Context Agent are AGPL-3.0-or-later. You can run them, read them, and change them. Obsidian is proprietary. Use of the app is free for personal and commercial work; the source is not available to patch.
 
 What stays open on the Obsidian side anyway: the LLM Wiki text is a public gist, and the vault is ordinary markdown. You can leave Obsidian and open the folder in another editor. What is closed is the application: graph, sync client, clipper, and the editor.
 
@@ -194,7 +194,7 @@ Standardization is a pro of the LLM Wiki and a con of the Nextcloud assembly. On
 | | The project’s gap list marks a dedicated Collectives mobile app as missing. Phone use goes through Nextcloud’s file and direct-editing apps. |
 | | A skill that replaces a page can overwrite a live editing session. Replace writes the whole body, then an “edited with the Assistant” note. |
 
-*verified fact* on live editing: Nextcloud’s WebSockets write-up says Collectives and Deck update through Text, and that this real-time path uses the Files high-performance backend. https://nextcloud.com/blog/websockets-in-nextcloud/
+*unverified lead* on live editing: Nextcloud’s WebSockets write-up says Collectives and Deck update through Text, and that this real-time path uses the Files high-performance backend. https://nextcloud.com/blog/websockets-in-nextcloud/
 
 ## Where a common write-up overreaches
 

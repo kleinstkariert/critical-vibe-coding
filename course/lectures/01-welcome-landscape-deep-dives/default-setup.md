@@ -21,7 +21,7 @@ tags:
 
 Block 8 of [[../01-welcome-landscape-lecture]]. The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
 
-Labels: *verified fact* | *technical suggestion* | *course position*.
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion* | *course position*.
 
 ---
 
@@ -96,7 +96,7 @@ Some small labels overlap in the image ("direct", "suggest sources"); the three 
 - **Errors.** A wiki built from weak sources becomes a confident wiki of weak claims. Lint helps; reading the pages yourself is still necessary.
 - **Where it runs.** The diagram is silent about the model. The same wiki works with a cloud model or a local one.
 
-*verified fact (Karpathy gist):* "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase."
+*unverified lead (Karpathy gist):* "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase."
 
 ---
 
@@ -111,10 +111,10 @@ The diagram (Block 2 of the lecture, slide 10) compares the setup most people us
 | Part | ChatGPT (personal account) | Cursor (default settings) |
 |---|---|---|
 | On your computer | The app or browser window | The editor window and your project files |
-| Agent loop and prompt building | OpenAI's servers | Cursor's servers. *verified fact (cursor.com/data-use):* requests go through Cursor's backend for final prompt building even when you use your own model key. Cloud agents run their whole loop in Cursor's cloud |
+| Agent loop and prompt building | OpenAI's servers | Cursor's servers. *institutional summary (cursor.com/data-use):* requests go through Cursor's backend for final prompt building even when you use your own model key. Cloud agents run their whole loop in Cursor's cloud |
 | Chats and memory | OpenAI's servers | Chat history mostly local; cloud-agent runs on Cursor's servers |
-| Index of your material | Uploaded files on OpenAI's servers | *verified fact (cursor.com/data-use):* codebase indexing stores embeddings and obfuscated file paths on Cursor's servers |
-| Training | *verified fact (OpenAI Data Controls FAQ):* "Improve the model for everyone" is **on by default** for Free, Plus and Pro accounts; chats can train future models unless you switch it off | *verified fact (cursor.com/data-use):* without Privacy Mode, Cursor may store and use prompts and code to improve its products |
+| Index of your material | Uploaded files on OpenAI's servers | *institutional summary (cursor.com/data-use):* codebase indexing stores embeddings and obfuscated file paths on Cursor's servers |
+| Training | *institutional summary (OpenAI Data Controls FAQ):* "Improve the model for everyone" is **on by default** for Free, Plus and Pro accounts; chats can train future models unless you switch it off | *institutional summary (cursor.com/data-use):* without Privacy Mode, Cursor may store and use prompts and code to improve its products |
 
 The harness (rules, memory, the agent loop) sits partly or wholly on the company's side. You can switch to another product, but your history and memory do not come along.
 
@@ -157,7 +157,7 @@ Three points to take away:
 2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([[../../llm-wiki-standard-files]]).
 3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [[../../sessions/03-hardware-open-models-prompting|03]] · [[../../howto-local-llm-hardware]].
 
-*verified fact (OpenRouter, Nov 2026):* Free-to-use hosted endpoints are rate-limited, and their providers may log prompts. Check the data policy before you send private notes through one.
+*institutional summary (OpenRouter, Nov 2026):* Free-to-use hosted endpoints are rate-limited, and their providers may log prompts. Check the data policy before you send private notes through one.
 
 ---
 
@@ -177,13 +177,13 @@ The model materials may be openly distributed, but this classroom route is still
 
 An OpenRouter deployment of these materials is not private, and it is not sovereign.
 
-*technical suggestion*, checked 10 Nov 2026:
+*technical suggestion*, page consulted 10 Nov 2026:
 
 **NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-- *verified fact (OpenRouter, NVIDIA):* Released 4 June 2026. Weights published under OpenMDW-1.1, a permissive open licence. *claim (NVIDIA):* training data and recipes are published as well. That is more open model materials than most open-weight releases.
-- *verified fact (OpenRouter):* This classroom path is a free-to-use hosted endpoint: $0 per token, tool calling, context up to 1 million tokens. Rate limits: 20 requests per minute, 50 requests per day (1,000 after a one-time credit purchase). Prompts may be logged. Hermes needs at least 64,000 tokens of context and tool calling.
-- *verified fact (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
+- *institutional summary (OpenRouter, NVIDIA):* Released 4 June 2026. Weights published under OpenMDW-1.1, a permissive open licence. *claim (NVIDIA):* training data and recipes are published as well. That is more open model materials than most open-weight releases.
+- *institutional summary (OpenRouter):* This classroom path is a free-to-use hosted endpoint: $0 per token, tool calling, context up to 1 million tokens. Rate limits: 20 requests per minute, 50 requests per day (1,000 after a one-time credit purchase). Prompts may be logged. Hermes needs at least 64,000 tokens of context and tool calling.
+- *institutional summary (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
 - Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [[../../howto-hermes-setup]].
 - 550 billion parameters (55 billion active per step). Too large for most student machines. The privacy points in §3 apply.
 

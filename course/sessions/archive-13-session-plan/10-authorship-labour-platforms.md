@@ -52,7 +52,7 @@ Session 01 already framed **industry utopia (UBI/UHI) vs social fears** and the 
 
 ## Optional reading (pick one; all free to read)
 
-URLs checked 2026-10-18 (*verified fact*). Short list on purpose — see [[../references]] for the full set.
+URLs loaded 2026-10-18 (*unverified lead*). Short list on purpose — see [[../references]] for the full set.
 
 | Reading | Why here |
 |---|---|

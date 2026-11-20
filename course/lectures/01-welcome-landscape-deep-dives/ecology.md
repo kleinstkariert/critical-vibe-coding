@@ -17,7 +17,7 @@ tags:
 
 Block 5 of [[../01-welcome-landscape-lecture]]. What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [[../../sessions/06-agent-as-interface|06]]; the earlier full unit with exercises is archived: [[../../sessions/archive-13-session-plan/11-local-ecology-when-not]]. This note is the Session 01 version with the facts students should hear on day one.
 
-Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-reviewed paper) | *claim* (video, interview, industry estimate) | *open question*.
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* (video, interview, industry estimate) | *open question*.
 
 **Base material**
 
@@ -32,10 +32,10 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 ## 1. Small globally, large locally
 
-- *verified fact (IEA, Energy and AI, 2025):* Data centres used about **415 TWh** in 2024, about **1.5% of world electricity**. The US accounts for about 45% of that, China about 25%, Europe about 15%.
-- *verified fact (IEA base case):* Data-centre electricity roughly doubles to about 945 TWh by 2030, still under 3% of world use. The US and China make up about 80% of the growth.
-- *verified fact (IEA):* In the US, data centres account for nearly **half of all electricity-demand growth to 2030**.
-- *verified fact (IEA):* Nearly half of US data-centre capacity sits in **five regional clusters**, among them Northern Virginia, Texas and Phoenix.
+- *institutional summary (IEA, Energy and AI, 2025):* Data centres used about **415 TWh** in 2024, about **1.5% of world electricity**. The US accounts for about 45% of that, China about 25%, Europe about 15%.
+- *institutional summary (IEA base case):* Data-centre electricity roughly doubles to about 945 TWh by 2030, still under 3% of world use. The US and China make up about 80% of the growth.
+- *institutional summary (IEA):* In the US, data centres account for nearly **half of all electricity-demand growth to 2030**.
+- *institutional summary (IEA):* Nearly half of US data-centre capacity sits in **five regional clusters**, among them Northern Virginia, Texas and Phoenix.
 - *claim (Be Smart):* US data centres used 4.7% of US electricity in 2024. Their use tripled between 2014 and 2024. One forecast puts them at 7 to 12% by 2028.
 - *claim (Be Smart interviewee):* An AI server rack draws 5 to 30 times the power of a conventional rack. One fridge-sized GPU rack uses as much electricity as about 65 houses.
 
@@ -45,8 +45,8 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 ## 2. Gas behind the fence
 
-- *verified fact (US CRS FAQ R49326):* Where data centres propose their own on-site generation, it is mostly **natural gas** turbines and engines, because gas is dispatchable and can be built in about one to three years.
-- *verified fact (EIA, Annual Energy Outlook 2026):* US use of gas for power rises, largely because of data-centre expansion.
+- *institutional summary (US CRS FAQ R49326):* Where data centres propose their own on-site generation, it is mostly **natural gas** turbines and engines, because gas is dispatchable and can be built in about one to three years.
+- *institutional summary (EIA, Annual Energy Outlook 2026):* US use of gas for power rises, largely because of data-centre expansion.
 - *claim (Be Smart, citing IEA satellite analysis):* About a quarter of announced builds plan their own power plants. Only 2 to 3% of that capacity is running, but about a quarter of the planned plants have broken ground.
 - *claim (Be Smart):* **GW Ranch**, West Texas (Amazon with Pacifico Energy): 35 gas turbines, more than 7 GW of peak power. It would be the largest power plant in the US and burn more than 1% of all US natural gas. Heise reported the plan in German; render in the slide deck.
 - *claim (Be Smart):* An Abilene, Texas campus plans 50 turbines.
@@ -58,7 +58,7 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 ## 3. Water
 
-- *verified fact (Ren et al. 2023, explained by co-author Shaolei Ren in Be Smart):* The "one bottle of water per prompt" figure comes from a 2023 GPT-3 study: about 500 ml for 30 medium-length queries, most of it indirect water used to generate the electricity. It should not be generalised to every prompt or model.
+- *speaker claim (Ren et al. 2023, explained by co-author Shaolei Ren in Be Smart):* The "one bottle of water per prompt" figure comes from a 2023 GPT-3 study: about 500 ml for 30 medium-length queries, most of it indirect water used to generate the electricity. It should not be generalised to every prompt or model.
 - *claim (Be Smart):* US data centres used about 17 billion gallons of water directly in 2023. Including power generation it was about 228 billion gallons, roughly two thirds of New York City's yearly drinking water.
 - *claim (Be Smart):* Phoenix data centres use about 385 million gallons a year for cooling, possibly rising to 3.7 billion. Phoenix takes about half its water from the Colorado River, which has lost about a quarter of its flow.
 - *claim (Be Smart):* One Abilene campus needed a one-time fill of 8 million gallons for its closed-loop cooling, about a third of the city's daily use.
@@ -90,15 +90,15 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 ## 6. Materials and the full chain
 
-- *verified fact (Crawford and Joler, Anatomy of an AI System, 2018):* One voice assistant (Amazon Echo) depends on mining, smelting, component factories, shipping, cloud infrastructure, data labelling and, at the end, e-waste dumps. The map traces each step and the labour inside it.
+- *unverified lead (Crawford and Joler, Anatomy of an AI System, 2018):* One voice assistant (Amazon Echo) depends on mining, smelting, component factories, shipping, cloud infrastructure, data labelling and, at the end, e-waste dumps. The map traces each step and the labour inside it.
 - *open question:* The course has no reliable per-model figures for chip minerals or e-waste yet. Say so rather than fill the gap with a guess.
 
 ---
 
 ## 7. What a student's use touches
 
-- *verified fact (Luccioni, Jernite and Strubell, FAccT 2024, arXiv 2311.16863):* Training a model is rare and huge. **Inference**, the daily use, is small per request and adds up across millions of users. Generating images uses far more energy than classifying or summarising text; general-purpose models use more than small task-specific ones for the same job.
-- *verified fact (Koomey, in Be Smart):* Computations per kWh doubled about every 1.6 years since the 1940s. Efficiency gains are real, and they also make more use affordable (Jevons paradox), so total consumption can still rise.
+- *primary evidence (Luccioni, Jernite and Strubell, FAccT 2024, arXiv 2311.16863):* Training a model is rare and huge. **Inference**, the daily use, is small per request and adds up across millions of users. Generating images uses far more energy than classifying or summarising text; general-purpose models use more than small task-specific ones for the same job.
+- *speaker claim (Koomey, in Be Smart):* Computations per kWh doubled about every 1.6 years since the 1940s. Efficiency gains are real, and they also make more use affordable (Jevons paradox), so total consumption can still rise.
 - Long agent runs, image and video generation multiply the number of tokens and requests. A two-hour agent session is not a single prompt.
 
 **Three questions for any tool:**
@@ -111,7 +111,7 @@ Labels: *verified fact* (IEA, US Congressional Research Service, EIA, peer-revie
 
 ## 8. From Linz
 
-- *verified fact (IEA):* Europe hosts about 15% of data-centre electricity use. Most frontier training and inference runs in the US and China.
+- *institutional summary (IEA):* Europe hosts about 15% of data-centre electricity use. Most frontier training and inference runs in the US and China.
 - Students in Austria mostly use models served from US clusters. The carbon is global; the water and smog stay in Texas, Virginia or Arizona.
 - Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [[default-setup]] §4. Sessions [[../../sessions/03-hardware-open-models-prompting|03]] and [[../../sessions/06-agent-as-interface|06]].
 

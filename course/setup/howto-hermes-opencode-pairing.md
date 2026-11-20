@@ -18,7 +18,7 @@ Use **Hermes** as the always-on assistant. Use **OpenCode** when a repository ne
 Setup notes: [[howto-hermes-setup]] · [[howto-opencode-setup]]  
 Concept: [[hermes-vs-coding-agents]]
 
-Labels: *verified fact* | *technical suggestion*.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion*.
 
 ---
 

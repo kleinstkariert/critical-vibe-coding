@@ -18,7 +18,7 @@ tags:
 
 Block 4 of [[../01-welcome-landscape-lecture]]. This note collects the facts behind the block: how much is being spent, what is being built, how far revenue lags, who carries the debt, how earlier build-outs ended, the arguments for and against a burst, who gets the income, and the commons as an alternative.
 
-Labels: *verified fact* (company filing, agency, central bank, peer-reviewed paper) | *claim* (speaker in a talk, podcast or video; checkable but not checked here) | *open question*.
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* (speaker in a talk, podcast or video; checkable but not checked here) | *open question*.
 
 **Base material**
 
@@ -33,7 +33,7 @@ Labels: *verified fact* (company filing, agency, central bank, peer-reviewed pap
 
 ## 1. The spending
 
-*verified fact (company guidance, October 2026 earnings calls):* Amazon, Alphabet, Microsoft and Meta plan **$720 to 740 billion** of capital spending (capex) in calendar 2026.
+*primary evidence (company guidance, October 2026 earnings calls):* Amazon, Alphabet, Microsoft and Meta plan **$720 to 740 billion** of capital spending (capex) in calendar 2026.
 
 | Company | 2026 capex guidance | Note |
 |---|---|---|
@@ -42,8 +42,8 @@ Labels: *verified fact* (company filing, agency, central bank, peer-reviewed pap
 | Microsoft | about $170 billion | Trimmed from about $190 billion because third-party capacity arrived late |
 | Meta | $135 to 145 billion | Against about $72 billion in 2025 |
 
-- *verified fact:* The same four spent roughly $225 billion in 2024 and $375 to 415 billion in 2025, depending on how leases are counted. 2026 is about **three times 2024**.
-- *verified fact:* In the third quarter of 2026 alone they spent about **$209 billion**, 84% more than a year earlier.
+- *unverified lead:* The same four spent roughly $225 billion in 2024 and $375 to 415 billion in 2025, depending on how leases are counted. 2026 is about **three times 2024**.
+- *unverified lead:* In the third quarter of 2026 alone they spent about **$209 billion**, 84% more than a year earlier.
 - *claim (Business Insider, Oct 2026):* Adding SpaceX, which now includes xAI, the 2026 total reaches $803 to 828 billion.
 - *claim (Trimline Research brief, Oct 2026):* Combined free cash flow of the four turned negative in Q3 2026 for the first time in at least a decade.
 - *claim (Adam Tooze, Ones and Tooze Ep. 260):* AI now drives about 36% of all US business investment.
@@ -75,7 +75,7 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 
 ### Stargate Abilene, Texas: what one campus looks like
 
-*verified fact (Oracle earnings call 10 Sep 2026; Epoch AI satellite register, Nov 2026):*
+*unverified lead (Oracle earnings call 10 Sep 2026; Epoch AI satellite register, Nov 2026):*
 
 - About 1,000 acres of scrubland north of Abilene. Eight buildings, about 4 million square feet.
 - About **824 MW** of IT capacity on **1.2 GW** of total power capacity.
@@ -90,7 +90,7 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 
 - *claim (Be Smart / PBS, Oct 2026):* The US has 68 hyperscale data centres built or under construction and **267 more approved or planned**. "Hyperscale" means more than 100 MW, enough for about 80,000 US homes.
 - *claim (Be Smart):* GW Ranch in West Texas plans 35 gas turbines and more than 7 GW of peak power. It would be the largest power plant in the US. See [[ecology]].
-- *verified fact (IEA, Energy and AI):* Without grid fixes, about 20% of planned data-centre projects could face delay.
+- *institutional summary (IEA, Energy and AI):* Without grid fixes, about 20% of planned data-centre projects could face delay.
 - *nuance (CBRE / Bloomberg, early 2026, via [[../../../research/data-centers-energy-ecology-economy]]):* Capacity actually under construction can fall while announced pipelines grow. Planned gigawatts are not energized gigawatts.
 
 ### Overbooking
@@ -105,7 +105,7 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 
 ## 3. Spending ahead of revenue
 
-- *verified fact (Acemoglu, "The Simple Macroeconomics of AI", NBER w32487; MIT Sloan summary):* About 5% of tasks can be done profitably by AI within ten years. Estimated effect: productivity +0.7%, GDP about **+1.1% over ten years**. Goldman Sachs had forecast +7% of global GDP, McKinsey $17 to 26 trillion a year.
+- *unverified lead (Acemoglu, "The Simple Macroeconomics of AI", NBER w32487; MIT Sloan summary):* About 5% of tasks can be done profitably by AI within ten years. Estimated effect: productivity +0.7%, GDP about **+1.1% over ten years**. Goldman Sachs had forecast +7% of global GDP, McKinsey $17 to 26 trillion a year.
 - *claim (Paul Kedrosky, Ezra Klein Show):* US productivity growth is still at trend. No AI effect is visible in the statistics yet.
 - *claim (Ed Zitron to DW, Oct 2026, from financials he says he obtained):* OpenAI lost about $21 billion in 2025. Anthropic lost about $8 billion on $4.6 billion of revenue.
 - *claim (Zitron):* Anthropic's headline "run rate" of $65 billion compares with about $11.5 billion of revenue in Q2 2026.
@@ -126,19 +126,19 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 - *claim (Kedrosky and Klein):* Meta keeps data-centre debt off its balance sheet in special purpose vehicles (SPVs). Oracle's credit rating sits just above junk.
 - *claim (Kedrosky):* AI-related credit already runs to trillions of dollars and may reach $10 trillion, held by insurers, private-credit funds and sovereign wealth funds.
 - *claim (Azhar):* External finance approaches 30% of hyperscaler spending by the end of 2026. He had named 30% as his own warning threshold.
-- *verified fact (Van Nieuwerburgh, Princeton Bendheim / Columbia "Financing the AI Buildout"):* Data centres are financed through leases, project finance, private credit and SPVs. The research asks where the losses land if revenue does not arrive. Details: [[../../../research/ai-bubble-productivity-datacenter]] §10.
+- *unverified lead (Van Nieuwerburgh, Princeton Bendheim / Columbia "Financing the AI Buildout"):* Data centres are financed through leases, project finance, private credit and SPVs. The research asks where the losses land if revenue does not arrive. Details: [[../../../research/ai-bubble-productivity-datacenter]] §10.
 
 ### Money that circulates inside the sector
 
-- *verified fact (BIS Bulletin 137, 1 Oct 2026):* 55.2% of the investment AI firms received in 2021 to 2025 came from other AI firms. 28.7% of AI firms' outgoing investment went to other AI firms. Of AI-to-AI deals by value, 46.4% also had a supplier and customer link.
+- *institutional summary (BIS Bulletin 137, 1 Oct 2026):* 55.2% of the investment AI firms received in 2021 to 2025 came from other AI firms. 28.7% of AI firms' outgoing investment went to other AI firms. Of AI-to-AI deals by value, 46.4% also had a supplier and customer link.
 - *claim (Campbell):* Microsoft put $13 billion into OpenAI in three steps (2019, 2020, 2023). The first billion had to be spent on Microsoft's own Azure cloud.
 - *claim (Campbell, Tooze):* Nvidia invests $100 to 500 million at a time in AI firms that then order Nvidia chips.
-- *verified fact (Bloomberg, Emily Forgash and Agnee Ghosh, "OpenAI, Nvidia Fuel $1 Trillion AI Market With Web of Circular Deals", 7 Oct 2025):* Bloomberg's graphic *How Nvidia and OpenAI Fuel the AI Money Machine* maps the deals as arrows between circles sized by market value. Nvidia agrees to invest up to $100 billion in OpenAI, which fills its data centres with Nvidia chips. OpenAI signs a $300 billion cloud deal with Oracle, which spends tens of billions on Nvidia chips. AMD gives OpenAI an option on up to 160 million AMD shares while OpenAI deploys 6 GW of AMD GPUs. Nvidia also buys cloud capacity from CoreWeave, in which it holds shares. Sebastian added the graphic to the deck (slide 28, `33-bloomberg-circular-ai-deals.png`); Campbell shows it at about 33:45.
+- *secondary reporting (Bloomberg, Emily Forgash and Agnee Ghosh, "OpenAI, Nvidia Fuel $1 Trillion AI Market With Web of Circular Deals", 7 Oct 2025):* Bloomberg's graphic *How Nvidia and OpenAI Fuel the AI Money Machine* maps the deals as arrows between circles sized by market value. Nvidia agrees to invest up to $100 billion in OpenAI, which fills its data centres with Nvidia chips. OpenAI signs a $300 billion cloud deal with Oracle, which spends tens of billions on Nvidia chips. AMD gives OpenAI an option on up to 160 million AMD shares while OpenAI deploys 6 GW of AMD GPUs. Nvidia also buys cloud capacity from CoreWeave, in which it holds shares. Sebastian added the graphic to the deck (slide 28, `33-bloomberg-circular-ai-deals.png`); Campbell shows it at about 33:45.
 - What "circular" means in plain words: firm A invests in firm B, and B spends the money on A's products. A reports the purchase as revenue. Demand looks larger than the money that comes from outside the circle.
 
 ### Central banks
 
-- *verified fact (Bank of England, reported by DW, Oct 2026):* Markets are increasingly exposed to AI; a reassessment could trigger a sharp fall in asset prices.
+- *unverified lead (Bank of England, reported by DW, Oct 2026):* Markets are increasingly exposed to AI; a reassessment could trigger a sharp fall in asset prices.
 - *claim (Tooze, Ep. 250, citing the BIS Annual Economic Report 2026):* Data centres connect to the grid "a gigawatt at a time", and the BIS names AI investment as an inflationary pressure, for example on electricity in Virginia.
 
 ---
@@ -147,7 +147,7 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 
 - *claim (Kedrosky):* The ten largest companies make up about 40% of the S&P 500. About half of US household net worth is in stocks, a record. Households are more exposed than in the dot-com years.
 - *claim (Campbell):* In 2024 more than half of the S&P 500's gain came from the "Magnificent Seven".
-- *verified fact (Shiller CAPE data, Yale and multpl.com, 9 Nov 2026):* US stocks cost about **40 years of average profit**. The peak before the 1929 crash was about 33, the peak of the dot-com bubble in 2000 about 44. Kedrosky ("1929 levels") and Campbell ("second only to 2000") describe the same number. Chart: `29-shiller-cape-chart.png`.
+- *primary evidence (Shiller CAPE data, Yale and multpl.com, 9 Nov 2026):* US stocks cost about **40 years of average profit**. The peak before the 1929 crash was about 33, the peak of the dot-com bubble in 2000 about 44. Kedrosky ("1929 levels") and Campbell ("second only to 2000") describe the same number. Chart: `29-shiller-cape-chart.png`.
 
 ### How to read the CAPE chart
 
@@ -163,7 +163,7 @@ CAPE stands for cyclically adjusted price-to-earnings ratio (Robert Shiller).
 
 Sebastian's question, answered: in 2000 it would not take 44 years to earn back what was *spent in 10 years*. It would take about 44 years of *average profit* to earn back the *share price*. The ten years are only how the average profit is measured.
 - *claim (Kedrosky):* An IPO of OpenAI, Anthropic and SpaceX together would be larger than all post-war US IPOs combined.
-- *verified fact (Verdegem 2022, AI & Society, from ycharts):* Between 2010 and 2021 the market value of Apple grew from about $238 billion to $2.2 trillion, Amazon from $63 billion to $1.7 trillion.
+- *unverified lead (Verdegem 2022, AI & Society, from ycharts):* Between 2010 and 2021 the market value of Apple grew from about $238 billion to $2.2 trillion, Amazon from $63 billion to $1.7 trillion.
 
 ---
 
@@ -172,7 +172,7 @@ Sebastian's question, answered: in 2000 it would not take 44 years to earn back 
 - *claim (Kedrosky):* Western economic history has eight or nine big build-outs of general-purpose technology: canals, railways, electrification, highways, telecom fibre. Each ended in oversupply and crisis.
 - *claim (Kedrosky):* About half of all US railroad track miles ever laid turned out useless, partly because competitors built parallel lines between the same cities.
 - *claim (Campbell):* After 2000 most firms that built internet infrastructure went bankrupt. Their fibre was bought for about 10 cents on the dollar.
-- *verified fact (company 10-K filings):* Hyperscalers depreciate servers over about five to six years. Amazon shortened part of its server life from six to five years in 2025. Rails and fibre lasted decades; chips last years.
+- *primary evidence (company 10-K filings):* Hyperscalers depreciate servers over about five to six years. Amazon shortened part of its server life from six to five years in 2025. Rails and fibre lasted decades; chips last years.
 - *claim (Azhar):* At current "surge" rental prices a GPU pays for itself in 18 to 24 months. About half of hyperscaler GPU rental revenue comes from OpenAI and Anthropic.
 - *claim (Zitron):* AI data centres are good for one thing. Unlike dark fibre, they leave little for other uses if the demand does not come.
 - *claim (Be Smart, Koomey):* Forecasts overshoot too: in 1999 critics claimed the internet would use half of US electricity. The real figure for the whole IT sector was about 3%.
@@ -181,8 +181,8 @@ Sebastian's question, answered: in 2000 it would not take 44 years to earn back 
 
 The deck shows Samuel Augustus Mitchell Jr.'s *Railroad map of the United States* (1884, David Rumsey Map Collection, slide 27). It replaces the London Metropolitan Railway map of 1867, which showed one city line and could not carry a national overbuild.
 
-- *verified fact (Interstate Commerce Commission, Seventh Annual Report on the Statistics of Railways, 1894):* On 30 June 1894, **192 railroads** with more than **42,000 miles** of line were in the hands of receivers: about a quarter of all US railway capital. Total US mileage was about 178,700.
-- *verified fact (Stuart Daggett, Railroad Reorganization, 1908):* In 1893 alone courts took over more than 27,000 miles. Northern Pacific, Union Pacific and the Atchison, Topeka and Santa Fe all went into receivership in 1893.
+- *primary evidence (Interstate Commerce Commission, Seventh Annual Report on the Statistics of Railways, 1894):* On 30 June 1894, **192 railroads** with more than **42,000 miles** of line were in the hands of receivers: about a quarter of all US railway capital. Total US mileage was about 178,700.
+- *unverified lead (Stuart Daggett, Railroad Reorganization, 1908):* In 1893 alone courts took over more than 27,000 miles. Northern Pacific, Union Pacific and the Atchison, Topeka and Santa Fe all went into receivership in 1893.
 - How it happened: in the 1870s and 1880s companies raised bonds to lay competing lines between the same cities and across the continent, each betting on the same traffic. The Panic of 1893 cut traffic and credit at once. Banks, J. P. Morgan's first among them, bought and merged the bankrupt lines cheaply ("Morganization").
 - What stayed: the track. The investors lost; the network was used for another century. The AI difference: chips are written off in five to six years.
 
@@ -216,9 +216,9 @@ Azhar's definition helps: a burst means investment falls by half and the relevan
 3. **Over-ordering.** Developers order land, power, concrete and chips "the same way you would buy Taylor Swift tickets"; a single girder lets a project count as underway. Campbell (35:10). The US has 68 hyperscale campuses built or under construction and 267 approved or planned (Be Smart).
 4. **Revenue far behind spending.** Hundreds of billions a year in capex against tens of billions in revenue. "None of these companies are profitable, not even close." Campbell (28:36). Anthropic's $65 billion "run rate" compares with about $11.5 billion of revenue in Q2 2026 (Zitron to DW).
 5. **Few customers, falling prices.** Perhaps eight customers make up 80% of a frontier lab's revenue, and coders make up about 80% of token use. Performance-adjusted token prices fall about 13-fold a year. "Never confuse your early customers for what the real market will look like." Kedrosky (14:52, 29:57).
-6. **Circular money.** Nvidia invests in AI firms that then order Nvidia chips: "I just made $500 into $1 billion." Campbell (33:11). 55.2% of the money AI firms raised in 2021 to 2025 came from other AI firms (*verified fact:* BIS Bulletin 137).
+6. **Circular money.** Nvidia invests in AI firms that then order Nvidia chips: "I just made $500 into $1 billion." Campbell (33:11). 55.2% of the money AI firms raised in 2021 to 2025 came from other AI firms (*institutional summary:* BIS Bulletin 137).
 7. **Debt and off-balance-sheet vehicles.** Spending shifts from cash flow to borrowing. "Tech is now the largest issuer of investment-grade bonds in the United States." Meta parks data-centre debt in special purpose vehicles; Oracle sits just above junk. Kedrosky (37:34).
-8. **Ordinary savers carry the risk.** The ten largest stocks are about 40% of the S&P 500; about half of US household wealth is in stocks, a record. Shares cost about 40 years of average profit: more than in 1929 (33), less only than in 2000 (44) (*verified fact:* Shiller CAPE; reading explained in section 5). The OpenAI, Anthropic and SpaceX listings would be larger than all post-war US IPOs combined, and are "exit events" for insiders. Kedrosky (3:57, 22:09, 26:32).
+8. **Ordinary savers carry the risk.** The ten largest stocks are about 40% of the S&P 500; about half of US household wealth is in stocks, a record. Shares cost about 40 years of average profit: more than in 1929 (33), less only than in 2000 (44) (*primary evidence:* Shiller CAPE; reading explained in section 5). The OpenAI, Anthropic and SpaceX listings would be larger than all post-war US IPOs combined, and are "exit events" for insiders. Kedrosky (3:57, 22:09, 26:32).
 9. **Short-lived assets.** Chips are written off in five to six years. Data centres are "useful for basically one thing", unlike dark fibre after 2000. Zitron (DW, 8:03).
 10. **The hype is already turning.** In Q1 2026 big-tech profits dipped and pension funds began "backing out a little". Memory makers refused to double production because "we don't think you guys are going to be around". Campbell (34:52, 36:16).
 
@@ -244,11 +244,11 @@ Generated by `01-welcome-landscape-slideshow/make_images.py`, white on black, so
 | Chart | Data | Label |
 |---|---|---|
 | `34-hype-cycle.png` | Gartner-style hype cycle (Fenn, 1995) with Campbell's placement of AI in 2026. Shown beside its explanation on one slide | *model*, placement *claim* |
-| `28-bigtech-capex-chart.png` | Capex of Amazon, Alphabet, Microsoft, Meta, 2016 to 2025 from 10-K filings (cash purchases of property and equipment, fiscal years), 2026 guidance | *verified fact* |
-| `35-us-gdp-tech-capex-chart.png` | US real GDP growth, tech investment against the rest, 1Q23 to 2Q25 (Bridgewater via J.P. Morgan, redrawn; values read from the chart) | *verified fact* (approximate reading) |
-| `36-mag7-sp500-gains-2024.png` | Share of the S&P 500's 2024 market-value gain by company (Voronoi) | *verified fact* |
-| `29-shiller-cape-chart.png` | Shiller CAPE ratio, monthly 1881 to Nov 2026 (Yale data, then multpl.com), with the long-run average and a reading line | *verified fact* |
-| `30-bis-labour-share-scenario.png` | Bank for International Settlements (BIS) Annual Economic Report 2026, Graph C1.B, redrawn with plain labels. Values read from the chart | *verified fact* (scenario, not forecast) |
+| `28-bigtech-capex-chart.png` | Capex of Amazon, Alphabet, Microsoft, Meta, 2016 to 2025 from 10-K filings (cash purchases of property and equipment, fiscal years), 2026 guidance | *unverified lead* |
+| `35-us-gdp-tech-capex-chart.png` | US real GDP growth, tech investment against the rest, 1Q23 to 2Q25 (Bridgewater via J.P. Morgan, redrawn; values read from the chart) | *unverified lead* (approximate reading) |
+| `36-mag7-sp500-gains-2024.png` | Share of the S&P 500's 2024 market-value gain by company (Voronoi) | *unverified lead* |
+| `29-shiller-cape-chart.png` | Shiller CAPE ratio, monthly 1881 to Nov 2026 (Yale data, then multpl.com), with the long-run average and a reading line | *unverified lead* |
+| `30-bis-labour-share-scenario.png` | Bank for International Settlements (BIS) Annual Economic Report 2026, Graph C1.B, redrawn with plain labels. Values read from the chart | *unverified lead* (scenario, not forecast) |
 
 Capex series, $ billion: 2016: 31 · 2017: 40 · 2018: 64 · 2019: 69 · 2020: 93 · 2021: 125 · 2022: 150 · 2023: 140 · 2024: 217 · 2025: 358 · 2026 planned: 720 to 740. Filings do not separate AI from other spending. Finance leases are not included, so company headlines run higher.
 
@@ -257,7 +257,7 @@ Capex series, $ billion: 2016: 31 · 2017: 40 · 2018: 64 · 2019: 69 · 2020: 9
 ## 9. Who gets the income: Tooze and the BIS
 
 - *claim (Adam Tooze, Ones and Tooze Ep. 250, Foreign Policy, July 2026, from 32:33):* Tooze reads the AI boom as "a two-way bet on disaster either way". Either the investment is vindicated, and then "the labor market [is shaken] to its foundations", or it is not, and the companies are overvalued and losses land somewhere in the chain (3:51).
-- *verified fact (BIS Annual Economic Report 2026, Box C, Graph C1.B):* The Bank for International Settlements, the central bank of central banks, models a "transformative AI" scenario in which the **labour share of income** falls from about **60%** today toward about **20%** by 2060. In a "demand bottleneck" scenario it falls to about 47%. The report says the labour share "falls towards zero" in the transformative case. This is a model scenario, not a forecast.
+- *institutional summary (BIS Annual Economic Report 2026, Box C, Graph C1.B):* The Bank for International Settlements, the central bank of central banks, models a "transformative AI" scenario in which the **labour share of income** falls from about **60%** today toward about **20%** by 2060. In a "demand bottleneck" scenario it falls to about 47%. The report says the labour share "falls towards zero" in the transformative case. This is a model scenario, not a forecast.
 - *claim (Tooze, 33:30):* "That 20% share which is a third of the 60% average which is currently prevailing in advanced economies [...] will not necessarily mean that the wages of those employed goes down but it'll mean that the share in the total pie collapses and that's obviously a huge transformation in political power."
 - In other words: today about 60% of income goes to wages and about 40% to owners of capital. In the scenario where the hype comes true, it is about 20% to wages and 80% to capital.
 
@@ -269,8 +269,8 @@ Capex series, $ billion: 2016: 31 · 2017: 40 · 2018: 64 · 2019: 69 · 2020: 9
 | Transformative AI | Machines take over most tasks; the money from automation is reinvested in more automation | falls toward about 20% by 2060, and toward zero in the long run |
 | **Demand bottleneck** | Automation shifts income from wages to the owners of machines. But every worker who loses income is also a customer who buys less. When spending falls, it stops paying to automate the next task, so automation stalls | falls to about 47% and stays there; growth stays below the boom path |
 
-- *verified fact (BIS Annual Economic Report 2026, Box C):* the report's own phrase is that every displaced worker is also a lost consumer. The bottleneck is not a policy; it is the market braking itself because demand is missing.
-- *verified fact (BIS Working Paper 1381, Rungcharoenkitkul 2026):* depending on the scenario, the labour task share falls from 60% to between 15% and 50% within three decades.
+- *institutional summary (BIS Annual Economic Report 2026, Box C):* the report's own phrase is that every displaced worker is also a lost consumer. The bottleneck is not a policy; it is the market braking itself because demand is missing.
+- *primary evidence (BIS Working Paper 1381, Rungcharoenkitkul 2026):* depending on the scenario, the labour task share falls from 60% to between 15% and 50% within three decades.
 - On the slide: "**Demand bottleneck:** replaced workers stop buying, so more automation stops paying. The fall stops near 47%."
 
 The auto-transcript is rough; check the exact wording against the audio around 32:33 before quoting on a slide.
@@ -282,7 +282,7 @@ The auto-transcript is rough; check the exact wording against the audio around 3
 ## 10. An alternative: AI as a commons
 
 - *claim (Pieter Verdegem, "Dismantling AI capitalism: the commons as an alternative to the power concentration of Big Tech", AI & Society, published online April 2022, open access):* AI is a general purpose technology, like electricity. A few firms hold the three things it needs: data, computing power and talent. Verdegem calls this AI capitalism.
-- *verified fact (same, from CB Insights):* AI start-up acquisitions since 2010: Apple 29, Google 15, Microsoft 13, Facebook 12, Amazon 7.
+- *unverified lead (same, from CB Insights):* AI start-up acquisitions since 2010: Apple 29, Google 15, Microsoft 13, Facebook 12, Amazon 7.
 - *claim (same):* The alternative is a commons, after Elinor Ostrom: data commons and data trusts, public computing capacity, public money that keeps AI research in universities, platform cooperatives, democratic governance. "Communities and workers should be involved in determining what sort of work should or should not be automated."
 - Read: https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/
 

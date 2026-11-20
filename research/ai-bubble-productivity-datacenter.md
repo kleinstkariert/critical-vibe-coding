@@ -12,7 +12,7 @@ tags:
 
 # AI Bubble, Productivity, and Data-Center Debate
 
-Research date: 2026-10-18. Placed in the vault from the Downloads summary the same day. Labels: *verified fact* | *nuance / caveat* | *technical suggestion*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Placed in the vault from the Downloads summary the same day. Labels: *nuance / caveat* | *technical suggestion*.
 
 **Ecology / siting twin (course):** for *where* centres are built, planned vs energized capacity, energy mix, water, and US/world economic meaning, see [[data-centers-energy-ecology-economy]] (Session 01 Block 5; student input Session 06). This note stays on **finance, productivity, and CapEx risk**; that note on **grids, emissions, and communities**. Shared hinge: announcement pipelines ≠ operating megawatts (productive-bubble frame still applies).
 
@@ -24,29 +24,29 @@ Cross-check against primary sources (BIS 137, Takshashila 2026-21, DeLong, Tooze
 
 The summary’s core frame holds: **financial bubble behavior and real technological build-out can coexist**; circular financing proves interdependence, not fictitious end demand; space DCs split into plausible orbital edge vs doubtful hyperscale replacement.
 
-### Verified facts
+### Sources consulted
 
-- *verified fact:* BIS Bulletin No. 137 (*Circular relationships among AI firms*, 1 Oct 2026) reports: 28.7% of AI firms’ investment deal value (2021–25) targeted other AI firms; 55.2% of incoming AI-firm investment came from other AI firms; of AI-to-AI deals, 16.1% by count / 46.4% by value also had supplier–customer links. Most circular cases are supplier investing in customer. BIS stresses opacity and macro risk, not a claim that all demand is fake.  
+- *institutional summary:* BIS Bulletin No. 137 (*Circular relationships among AI firms*, 1 Oct 2026) reports: 28.7% of AI firms’ investment deal value (2021–25) targeted other AI firms; 55.2% of incoming AI-firm investment came from other AI firms; of AI-to-AI deals, 16.1% by count / 46.4% by value also had supplier–customer links. Most circular cases are supplier investing in customer. BIS stresses opacity and macro risk, not a claim that all demand is fake.  
   HTML: https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms  
   PDF: https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms.pdf  
   *(Old path `bis.org/publ/bisbull137.htm` is dead — use the `/publications/` URLs.)*
 
-- *verified fact:* Takshashila Discussion Document 2026-21 (Goswami, 8 Jul 2026), *The AI Investment Cycle: Investment Ahead of Revenue — The AI Buildout as a Productive Bubble*, matches the summary: circular financing web + prisoner’s-dilemma overinvestment; productive-bubble claim; binding constraint is diffusion, not capability.  
+- *unverified lead:* Takshashila Discussion Document 2026-21 (Goswami, 8 Jul 2026), *The AI Investment Cycle: Investment Ahead of Revenue — The AI Buildout as a Productive Bubble*, matches the summary: circular financing web + prisoner’s-dilemma overinvestment; productive-bubble claim; binding constraint is diffusion, not capability.  
   https://takshashila.org.in/content/publications/20260708-ai-investment-cycle.html
 
-- *verified fact:* DeLong’s “productive vs unproductive bubbles” framing is a live essay at  
+- *unverified lead:* DeLong’s “productive vs unproductive bubbles” framing is a live essay at  
   https://braddelong.substack.com/p/bubbles-productive-and-unproductive
 
-- *verified fact:* Tooze Chartbook (14 May 2026) on AI circularity exists and treats hyperscaler equity markups + cloud order-book concentration as codependence — aligned with “Tooze strengthens the skeptical side.”  
+- *unverified lead:* Tooze Chartbook (14 May 2026) on AI circularity exists and treats hyperscaler equity markups + cloud order-book concentration as codependence — aligned with “Tooze strengthens the skeptical side.”  
   https://adamtooze.substack.com/p/ai-circularity-egypts-land-monetization
 
-- *verified fact:* Princeton Bendheim event page for Van Nieuwerburgh (19 Mar 2026) is live; URL slug uses the misspelling **stijin** (Princeton’s typo). Summary of risk transfer via SPVs / private credit matches the note.  
+- *unverified lead:* Princeton Bendheim event page for Van Nieuwerburgh (19 Mar 2026) is live; URL slug uses the misspelling **stijin** (Princeton’s typo). Summary of risk transfer via SPVs / private credit matches the note.  
   https://bcf.princeton.edu/events/stijin-van-nieuwerburgh-on-ai-data-centers-where-is-the-financing-risk/
 
-- *verified fact:* UMD Clark School piece (4 Jun 2026) on Pecht et al. reliability/risk for space-based DCs matches the skeptical list (launch stress, radiation, thermal, comms, redundancy → mass/cost).  
+- *unverified lead:* UMD Clark School piece (4 Jun 2026) on Pecht et al. reliability/risk for space-based DCs matches the skeptical list (launch stress, radiation, thermal, comms, redundancy → mass/cost).  
   https://eng.umd.edu/news/story/risk-and-reliability-innbspspacebased-data-centers
 
-- *verified fact:* TUM / ESPI SBDC work (19 Nov 2025) is the optimistic feasibility / cost-model side; barriers named: IT hardware cost, radiation lifespan, launch affordability.  
+- *unverified lead:* TUM / ESPI SBDC work (19 Nov 2025) is the optimistic feasibility / cost-model side; barriers named: IT hardware cost, radiation lifespan, launch affordability.  
   https://www.ed.tum.de/en/ed/news-single-view-start/article/space-based-data-centres-from-vision-to-viable-infrastructure-for-europe/
 
 ### Nuance / caveats

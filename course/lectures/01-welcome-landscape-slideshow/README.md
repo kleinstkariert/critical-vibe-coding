@@ -8,7 +8,7 @@ Impress deck for Part B. This folder holds the **deck and images only**. Lecture
 - Image slides are full screen with one small credit line at the bottom (11 pt): who made it, where, photo or rendering. Course charts carry their source inside the image. Images appear only where they carry the beat.
 - One exception: the hype-cycle slide shows the curve next to its explanation, because the curve means nothing without the phase names.
 - No rules, underlines, underscores or shadows. Scandinavian minimal: sparse, calm, readable.
-- Arguments, labels (*verified fact* / *claim*) and full image credits are in the speaker notes. No separate credits slide.
+- Arguments, labels (*unverified lead* / *claim*) and full image credits are in the speaker notes. No separate credits slide.
 - Sebastian's edit of 11 Nov 2026 (52 slides) is the base file. `patch_sebastian_edit.py` adds only the review changes on top of it (56 slides). His bullets, wording, links and pages stay as he left them.
 
 | File | Role |

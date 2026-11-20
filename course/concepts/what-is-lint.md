@@ -8,11 +8,11 @@ tags:
 
 # What is “lint” in an LLM Wiki?
 
-Short teaching note for Critical Vibe Coding. Labels: *verified fact* | *technical suggestion*.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Short teaching note for Critical Vibe Coding. Labels: *technical suggestion*.
 
 ## One sentence
 
-*verified fact:* In Karpathy’s LLM Wiki pattern, **lint** is a periodic **health-check** of the wiki: the agent audits the markdown for structural and knowledge problems, reports them, and (when you ask) suggests or applies fixes. It is not a programming-language linter alone — though the metaphor is the same: “find smells before they harden.”
+*unverified lead:* In Karpathy’s LLM Wiki pattern, **lint** is a periodic **health-check** of the wiki: the agent audits the markdown for structural and knowledge problems, reports them, and (when you ask) suggests or applies fixes. It is not a programming-language linter alone — though the metaphor is the same: “find smells before they harden.”
 
 Primary source: [Karpathy, `llm-wiki.md`](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) (section *Operations → Lint*). Hermes implements the same third operation in its bundled skill: [Hermes llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki).
 
@@ -28,7 +28,7 @@ You usually lint **less often** than you ingest — after a batch of sources, we
 
 ## What lint looks for
 
-From Karpathy’s gist (paraphrased) and the Hermes skill checklist (*verified fact* via Hermes docs):
+From Karpathy’s gist (paraphrased) and the Hermes skill checklist (*institutional summary* via Hermes docs):
 
 1. **Orphan pages** — no inbound `[[wikilinks]]` from other pages  
 2. **Broken wikilinks** — `[[Link]]` targets that do not exist  

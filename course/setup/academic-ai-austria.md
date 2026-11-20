@@ -11,7 +11,7 @@ tags:
 
 *optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [[minimum-path]]. A line below that says "default agent path" names one example, not the assessment.
 
-English course note. Official portals may be German/English. Labels: *verified fact* | *technical suggestion* | *todo*.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 
 Use with: session [[sessions/02-agent-harness-and-wiki-architecture]] (model landscape) · hardware [[../../research/local-gpu-hardware-for-llms]] · regulation [[eu-ai-act-and-datenschutz]].
 
@@ -48,7 +48,7 @@ ASC access overview: https://asc.ac.at/access/
 National AI Factory under EuroHPC JU (AIT + Advanced Computing Austria + university consortium). English site: https://ai-at.eu/en/  
 *(German root https://ai-at.eu/ may be temporarily offline for PHP security patches — use `/en/`.)*
 
-### What they advertise (*verified fact* from AI:AT English pages, research date 2026-10-21)
+### What they advertise (*institutional summary* from AI:AT English pages, research date 2026-10-21)
 
 - Free / facilitated access to **European HPC** (e.g. LUMI, Leonardo, MareNostrum 5, JUPITER) for AI training and fine-tuning  
 - Tracks such as **AI for Science**, Development, Playground, Fast Lane, Large Scale (GPU-hour bands and durations vary)  

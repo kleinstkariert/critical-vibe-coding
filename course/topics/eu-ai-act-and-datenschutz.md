@@ -17,7 +17,7 @@ Use with: Session 01 talk [[visions-fears-regulation]] (what regulation can and 
 
 This note is the **how the EU/AT rules look** layer. The visions handout is the **political frame** (utopia/x-risk rhetoric, amplifier debate, credibility marketing). Do not duplicate both in one sitting.
 
-Labels: *verified fact* | *claim* | *technical suggestion*.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* | *technical suggestion*.
 
 ---
 
@@ -28,7 +28,7 @@ Labels: *verified fact* | *claim* | *technical suggestion*.
 | **GDPR / DSGVO** (+ Austrian DSG) | Rules when **personal data** are processed | [Datenschutzbehörde (DSB)](https://dsb.gv.at/) |
 | **EU AI Act (KI-VO)** | Risk-based rules for placing / using **AI systems** on the EU market | [RTR KI-Servicestelle](https://www.rtr.at/rtr/service/ki-servicestelle/ki-servicestelle.de.html) |
 
-*verified fact (DSB position):* The AI Act does **not** replace the GDPR. If personal data are processed, GDPR duties stay in parallel (AI Act Art. 2(7) as cited by the DSB).
+*institutional summary (DSB position):* The AI Act does **not** replace the GDPR. If personal data are processed, GDPR duties stay in parallel (AI Act Art. 2(7) as cited by the DSB).
 
 ---
 

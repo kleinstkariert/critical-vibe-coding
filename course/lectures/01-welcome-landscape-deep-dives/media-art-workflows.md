@@ -16,7 +16,7 @@ tags:
 
 Block 7 of [[../01-welcome-landscape-lecture]]. What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [[../../sessions/04-project-presentations-and-plans|04]] (semester plans, provenance note), [[../../sessions/06-agent-as-interface|06]] (agent as interface, material, canvas), [[../../sessions/07-coding-and-creative-stacks|07]] (coding and creative stacks). Flattening in depth: [[flattening-and-the-norm]] (student input, Session 02).
 
-Labels: *verified fact* | *claim* | *course position* (a teaching decision of this course).
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* | *course position* (a teaching decision of this course).
 
 **Base material**
 
@@ -41,7 +41,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 | **Authorship** | An agent writes half the patch, script or text. How to credit? How to value? | Who decided, who signed, who is responsible, and what is the work worth? |
 | **Refusal** | Using AI becomes the default. | Knowing when not to use it is a skill, and it takes a lot of self discipline. |
 
-*verified fact (OpenAI post-mortem, 29 Apr 2025):* OpenAI rolled back a GPT-4o update because it had become "overly flattering or agreeable". The helpful voice is a product decision, not a neutral one.
+*institutional summary (OpenAI post-mortem, 29 Apr 2025):* OpenAI rolled back a GPT-4o update because it had become "overly flattering or agreeable". The helpful voice is a product decision, not a neutral one.
 
 *claim (Richard Campbell, NDC keynote 2026):* The name "Copilot" means "you're the pilot. It's still your fault." Avoid treating the software as a person.
 
@@ -52,9 +52,9 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 *course position:* In this course the agent setup is artistic material, not only a means to produce outputs. An agent's interface is what you can ask, what it can touch, what it must refuse, and how it remembers. The schema file is the one place where the character of the agent is written down (Session [[../../sessions/06-agent-as-interface|06]]).
 
 - Choosing which tools to connect and which to leave out is designing the agent's interface (Session [[../../sessions/05-knowledge-base-phone-discord|05]]).
-- *verified fact (course survey, 2026-10):* Node canvases such as Figma Weave and FLORA turn AI workflows into graphs. The open question is who owns the graph.
+- *unverified lead (course survey, 2026-10):* Node canvases such as Figma Weave and FLORA turn AI workflows into graphs. The open question is who owns the graph.
 - *claim (course survey):* vvvv, TouchDesigner and Max have no first-class MCP yet; they connect through file export, OSC or script bridges. Translating a prompt into a patch is itself the teaching point.
-- *verified fact (blender.org Lab):* Blender's experimental MCP server (Blender 5.1+) runs model-generated code without guards. Use a throwaway file or a virtual machine.
+- *unverified lead (blender.org Lab):* Blender's experimental MCP server (Blender 5.1+) runs model-generated code without guards. Use a throwaway file or a virtual machine.
 
 **Own example.** Quadrature's *Cosmology of Capital* (LED wall, exhibition *The Mass of Money*, Dresden 2026) is an N-body simulation in which the fortunes of about 3,400 billionaires act as gravitational sinks for about 200,000 particles. The software pipeline (data loading, mass quotas, GPU simulation) is the work, not a tool that made it.
 
@@ -62,12 +62,12 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 ## 3. Examples from other schools and artists
 
-- *verified fact:* HM Munich, *Our Br00d*: moving a project from cloud to local and open infrastructure as an artistic decision.
-- *verified fact:* NYU IMA, *Chatbots for Art's Sake*: the chatbot as artistic material.
-- *verified fact:* SFPC, *Handmade Datasets*: a small, cared-for dataset, with consent and scale as part of the work.
-- *verified fact:* Kate Crawford and Vladan Joler, *Anatomy of an AI System* (2018) and *Calculating Empires* (2023): mapping AI as labour, data and material extraction. Research presented as artwork.
-- *verified fact:* Holly Herndon and Mat Dryhurst, *Holly+* (2021): a voice model of the artist offered for others to use under rules she sets.
-- *verified fact:* University of Chicago, *Glaze* and *Nightshade* (2023): tools that let artists protect their images against style copying and poison training data. Refusal as software.
+- *unverified lead:* HM Munich, *Our Br00d*: moving a project from cloud to local and open infrastructure as an artistic decision.
+- *unverified lead:* NYU IMA, *Chatbots for Art's Sake*: the chatbot as artistic material.
+- *primary evidence:* SFPC, *Handmade Datasets*: a small, cared-for dataset, with consent and scale as part of the work.
+- *unverified lead:* Kate Crawford and Vladan Joler, *Anatomy of an AI System* (2018) and *Calculating Empires* (2023): mapping AI as labour, data and material extraction. Research presented as artwork.
+- *unverified lead:* Holly Herndon and Mat Dryhurst, *Holly+* (2021): a voice model of the artist offered for others to use under rules she sets.
+- *institutional summary:* University of Chicago, *Glaze* and *Nightshade* (2023): tools that let artists protect their images against style copying and poison training data. Refusal as software.
 
 ---
 

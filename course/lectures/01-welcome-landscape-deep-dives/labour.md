@@ -16,7 +16,7 @@ tags:
 
 Block 6 of [[../01-welcome-landscape-lecture]]. Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [[../../sessions/archive-13-session-plan/10-authorship-labour-platforms]].
 
-Labels: *verified fact* (paper, agency, contract text, investigative reporting with documents) | *claim* (talk, interview, book argument) | *open question*.
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *claim* (talk, interview, book argument) | *open question*.
 
 **Base material**
 
@@ -31,11 +31,11 @@ Labels: *verified fact* (paper, agency, contract text, investigative reporting w
 
 ## 1. The work inside the model
 
-- *verified fact (Billy Perrigo, TIME, 18 Jan 2023):* OpenAI used Kenyan workers employed through the outsourcing firm Sama to label violent and abusive text so ChatGPT could filter it. They were paid **less than $2 an hour**. (Content warning: the article describes graphic material.)
-- *verified fact (Data Workers' Inquiry, data-workers.org):* Annotators and content moderators publish their own accounts of the work: piece rates, psychological strain, surveillance, short contracts.
+- *institutional summary (Billy Perrigo, TIME, 18 Jan 2023):* OpenAI used Kenyan workers employed through the outsourcing firm Sama to label violent and abusive text so ChatGPT could filter it. They were paid **less than $2 an hour**. (Content warning: the article describes graphic material.)
+- *unverified lead (Data Workers' Inquiry, data-workers.org):* Annotators and content moderators publish their own accounts of the work: piece rates, psychological strain, surveillance, short contracts.
 - *claim (Richard Campbell, NDC keynote 2026):* The human ranking of model answers (reinforcement learning from human feedback) was done "in developing parts of the world where the people were inexpensive. Indonesia, Philippines."
 - *claim (Campbell):* ChatGPT reached 100 million users in about two months. Every rating, correction and retry by those users is further training input, unpaid.
-- *verified fact (Verdegem 2022, AI & Society):* AI capitalism splits a small group of highly paid machine-learning developers from a large workforce that is "paid less or are even exploited for doing the work in the hidden infrastructure of AI".
+- *unverified lead (Verdegem 2022, AI & Society):* AI capitalism splits a small group of highly paid machine-learning developers from a large workforce that is "paid less or are even exploited for doing the work in the hidden infrastructure of AI".
 
 **Class line:** A model is made of human work twice: the texts, images and code it was trained on, and the low-paid people who clean, label and rate its output.
 
@@ -45,7 +45,7 @@ Labels: *verified fact* (paper, agency, contract text, investigative reporting w
 
 ### What the IMF says
 
-*verified fact (Kristalina Georgieva, IMF Blog, 14 Jan 2024, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity."):*
+*institutional summary (Kristalina Georgieva, IMF Blog, 14 Jan 2024, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity."):*
 
 - "Almost 40 percent of global employment is exposed to AI." In advanced economies "about 60 percent of jobs may be impacted". In emerging markets 40%, in low-income countries 26%.
 - "Roughly half the exposed jobs may benefit from AI integration, enhancing productivity. For the other half, AI applications may execute key tasks currently performed by humans, which could lower labor demand, leading to lower wages and reduced hiring. In the most extreme cases, some of these jobs may disappear."
@@ -59,7 +59,7 @@ Labels: *verified fact* (paper, agency, contract text, investigative reporting w
 3. **"Complemented" can still mean paid less.** *claim (Merchant, 24:28):* When translation becomes checking machine output, "what then does that give management an opportunity to do but reduce wages?... it's kind of classic deskilling." The IMF's "benefit" half can lose income too.
 4. **AI as a threat.** *claim (Merchant, 25:22):* The announcement alone disciplines workers: "we have the AI waiting at the gate, so... you don't get any big ideas."
 5. **AI washing.** *claim (Merchant, citing Sam Altman):* Some layoffs blamed on AI were planned anyway.
-6. **The economics are smaller than the headline.** *verified fact (Daron Acemoglu, "The Simple Macroeconomics of AI", Economic Policy 2025, NBER w32487; summarised by MIT Sloan, Jan 2025):* About 20% of US work tasks could be replaced or augmented by AI, but only about a quarter of those, **about 5% of all tasks, can be done profitably** within ten years. Productivity rises by at most about 0.66% over ten years, GDP by about 1.1%. "AI is predicted to widen the gap between capital and labor income." Negative effects fall "particularly [on] women with low levels of education".
+6. **The economics are smaller than the headline.** *unverified lead (Daron Acemoglu, "The Simple Macroeconomics of AI", Economic Policy 2025, NBER w32487; summarised by MIT Sloan, Jan 2025):* About 20% of US work tasks could be replaced or augmented by AI, but only about a quarter of those, **about 5% of all tasks, can be done profitably** within ten years. Productivity rises by at most about 0.66% over ten years, GDP by about 1.1%. "AI is predicted to widen the gap between capital and labor income." Negative effects fall "particularly [on] women with low levels of education".
 7. **A different direction is possible.** *claim (Acemoglu):* "It remains an open question whether we need foundation models... that can engage in human-like conversations and write Shakespearean sonnets if what we want is reliable information useful for educators, healthcare professionals, electricians, plumbers and other craft workers."
 
 **Class line:** The IMF counts how many jobs AI could touch. Merchant and Acemoglu ask who decides how, who gets paid, and how little of the promised growth is likely to arrive.
@@ -75,7 +75,7 @@ Related: who gets the income if the hype comes true, in [[bubble-economy]] §9 (
 - *claim (Merchant):* Translation becomes checking machine output, and management uses that to cut rates. He calls it "classic deskilling".
 - *claim (Merchant):* Management uses AI as leverage to speed up work and to discourage organising and raise requests. Job satisfaction falls when the job becomes supervising generated output.
 - *claim (Merchant):* "AI washing": firms announce layoffs as caused by AI that they wanted to make anyway. Sam Altman has said so himself.
-- *verified fact (WGA, 2023 Minimum Basic Agreement):* After a 148-day strike in 2023, Hollywood writers won contract rules on AI: AI-generated material is not "literary material" or "source material", and a studio cannot require a writer to use AI.
+- *unverified lead (WGA, 2023 Minimum Basic Agreement):* After a 148-day strike in 2023, Hollywood writers won contract rules on AI: AI-generated material is not "literary material" or "source material", and a studio cannot require a writer to use AI.
 
 **Class line:** The first effect is often not a lost job but a cheaper one: the same person, checking machine output, for less money and less say.
 
@@ -83,17 +83,17 @@ Related: who gets the income if the hype comes true, in [[bubble-economy]] §9 (
 
 ## 4. First jobs
 
-- *verified fact (Brynjolfsson, Chandar and Chen, Stanford "Canaries in the Coal Mine", update June 2026):* There is no economy-wide mass displacement yet. But workers aged **22 to 25** in highly AI-exposed occupations have about **19% lower employment** than similar young workers in less exposed jobs, and the gap is growing.
-- *verified fact (same, ADP payroll data):* Employment of software developers aged 22 to 25 fell about 20% from its late-2022 peak to mid-2025. Older developers held steady or grew.
-- *verified fact (same):* The mechanism is mostly **less hiring**, not firing. Where AI automates tasks, junior employment falls; where it augments people, employment holds or rises.
-- *verified fact (MIT FutureTech, Mertens et al., arXiv 2604.01363):* Across more than 6,000 text-based job tasks and 41 models, automation looks like a **rising tide** (broad, gradual) rather than a **crashing wave** (one occupation wiped out overnight). Success on 1.5-hour text tasks rose from about 60% to over 70% between mid-2024 and late 2025.
+- *institutional summary (Brynjolfsson, Chandar and Chen, Stanford "Canaries in the Coal Mine", update June 2026):* There is no economy-wide mass displacement yet. But workers aged **22 to 25** in highly AI-exposed occupations have about **19% lower employment** than similar young workers in less exposed jobs, and the gap is growing.
+- *unverified lead (same, ADP payroll data):* Employment of software developers aged 22 to 25 fell about 20% from its late-2022 peak to mid-2025. Older developers held steady or grew.
+- *unverified lead (same):* The mechanism is mostly **less hiring**, not firing. Where AI automates tasks, junior employment falls; where it augments people, employment holds or rises.
+- *primary evidence (MIT FutureTech, Mertens et al., arXiv 2604.01363):* Across more than 6,000 text-based job tasks and 41 models, automation looks like a **rising tide** (broad, gradual) rather than a **crashing wave** (one occupation wiped out overnight). Success on 1.5-hour text tasks rose from about 60% to over 70% between mid-2024 and late 2025.
 
 ## 5. The junior paradox
 
-- *verified fact (Brynjolfsson, Li and Raymond, QJE 2025):* In a call centre, AI assistance raised productivity by about 14% on average and by about 30 to 34% for the least experienced staff. The most experienced barely gained.
-- *verified fact (Demirer et al., Management Science 2026):* In field experiments with software developers, juniors completed about 21 to 40% more work with Copilot, seniors about 7 to 16%.
-- *verified fact (METR 2025):* Experienced open-source maintainers working on their own large codebases were about **19% slower** with AI tools, although they expected to be faster.
-- *verified fact (IMF 2024):* The IMF notes the same: "AI can help less experienced workers enhance their productivity more quickly." See §2.
+- *unverified lead (Brynjolfsson, Li and Raymond, QJE 2025):* In a call centre, AI assistance raised productivity by about 14% on average and by about 30 to 34% for the least experienced staff. The most experienced barely gained.
+- *unverified lead (Demirer et al., Management Science 2026):* In field experiments with software developers, juniors completed about 21 to 40% more work with Copilot, seniors about 7 to 16%.
+- *institutional summary (METR 2025):* Experienced open-source maintainers working on their own large codebases were about **19% slower** with AI tools, although they expected to be faster.
+- *institutional summary (IMF 2024):* The IMF notes the same: "AI can help less experienced workers enhance their productivity more quickly." See §2.
 
 **Class line:** Beginners gain the most from AI tools, and beginners are the ones companies stop hiring.
 
@@ -112,7 +112,7 @@ Related: who gets the income if the hype comes true, in [[bubble-economy]] §9 (
 
 ## 7. Who owns the models
 
-- *verified fact (Verdegem 2022, from CB Insights):* Since 2010 Big Tech has bought AI talent through acquisitions: Apple 29 companies, Google 15, Microsoft 13, Facebook 12, Amazon 7.
+- *unverified lead (Verdegem 2022, from CB Insights):* Since 2010 Big Tech has bought AI talent through acquisitions: Apple 29 companies, Google 15, Microsoft 13, Facebook 12, Amazon 7.
 - *claim (Jon Stewart, Daily Show):* The labs "strip mined the entirety of human accomplishment", and the public has "no skin in the game as far as compensation".
 - *claim (Jacob Coxon, ex-OpenAI and Anthropic, Daily Show):* The industry's stated endgame is "no jobs, universal high income", decided by a handful of people.
 - *claim (Verdegem):* Alternatives exist on paper: data commons and data trusts, public compute, platform cooperatives (Scholz), building on Ostrom's work on commons.

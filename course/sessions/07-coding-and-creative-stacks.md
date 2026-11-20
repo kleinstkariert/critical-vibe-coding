@@ -46,7 +46,7 @@ Bridge to the practical: a coding agent reads your whole project folder. What do
 
 - **Coding with an agent:** write the brief (goal, constraints, files, tests), let the agent plan, review the diff, run it, commit. Git as the undo button.
 - Translation problems: natural language to patch / script / constraint solver
-- Debugging with agents without losing understanding. *verified fact (METR 2025):* experienced maintainers were 19% slower with AI on their own large codebases
+- Debugging with agents without losing understanding. *institutional summary (METR 2025):* experienced maintainers were 19% slower with AI on their own large codebases
 - File-based stacks (code, markdown, OpenSCAD) versus opaque GUIs; MCP into live apps (Blender, Fusion, FreeCAD): table in [[archive-13-session-plan/06-mcp-and-tools]]
 - Risk of "vibe" without verification in fabrication and safety-critical steps. The agent proposes; the student owns the cut and the print.
 

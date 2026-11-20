@@ -16,7 +16,7 @@ OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for wo
 
 This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [[howto-hermes-opencode-pairing]].
 
-Labels: *verified fact* | *technical suggestion*. Check current docs when versions change.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
 
 Official site: https://opencode.ai  
 Docs: https://opencode.ai/docs/  
@@ -31,7 +31,7 @@ GitHub: https://github.com/anomalyco/opencode
 | **Product** | Open-source AI coding agent (terminal, desktop, web) |
 | **Job** | Deep work in a repo: implement, refactor, review |
 | **Models** | Many providers, including local. Configure with `/connect` |
-| **Licence** | MIT (*verified fact* from project docs) |
+| **Licence** | MIT (*institutional summary* from project docs) |
 
 Built-in agents (switch in the UI):
 
@@ -65,7 +65,7 @@ brew install anomalyco/tap/opencode-v2
 
 Standalone binaries and Desktop downloads: https://opencode.ai/docs/ and https://opencode.ai/download
 
-*verified fact (OpenCode docs):* Windows package managers are not supported the same way; use the npm path or a standalone Windows binary from the docs.
+*institutional summary (OpenCode docs):* Windows package managers are not supported the same way; use the npm path or a standalone Windows binary from the docs.
 
 After install, open a **new** terminal and check:
 

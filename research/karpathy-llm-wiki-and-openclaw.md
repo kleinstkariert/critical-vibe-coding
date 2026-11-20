@@ -1,6 +1,6 @@
 # Karpathy LLM Wiki — still current? vs human wiki / OpenClaw
 
-Research date: 2026-10-15. Labels: *requirement* | *verified fact* | *technical suggestion* | *anecdote*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-15. Labels: *requirement*| *technical suggestion* | *anecdote*.
 
 ## Question
 
@@ -17,7 +17,7 @@ Research date: 2026-10-15. Labels: *requirement* | *verified fact* | *technical 
 
 ## What Karpathy’s approach is
 
-*verified fact:* Gist `llm-wiki.md`, dated **4 April 2026**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+*unverified lead:* Gist `llm-wiki.md`, dated **4 April 2026**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 Core idea (from the gist, paraphrased carefully):
 
@@ -32,7 +32,7 @@ Famous line from the gist: *“Obsidian is the IDE; the LLM is the programmer; t
 
 ## Does this still stand? (2026-10-15)
 
-*verified fact:* Yes, in the sense of an active pattern, not a dead blog post.
+*unverified lead:* Yes, in the sense of an active pattern, not a dead blog post.
 
 Evidence checked this date:
 
@@ -74,13 +74,13 @@ They are not enemies. Hybrids are common: human owns voice and judgments; agent 
 
 ## What OpenClaw is (and why “distributor” fits)
 
-*verified fact:* OpenClaw is a **self-hosted gateway** that connects messaging channels (WhatsApp, Slack, Telegram, Discord, Teams, …) to AI agents. Docs: https://docs.openclaw.ai/start/openclaw
+*institutional summary:* OpenClaw is a **self-hosted gateway** that connects messaging channels (WhatsApp, Slack, Telegram, Discord, Teams, …) to AI agents. Docs: https://docs.openclaw.ai/start/openclaw
 
-*verified fact:* **Multi-agent routing:** one Gateway process can run several isolated agents (each with its own workspace, state, sessions). Incoming messages are **bound** to the right agent by channel/account. Docs: https://docs.openclaw.ai/concepts/multi-agent/
+*unverified lead:* **Multi-agent routing:** one Gateway process can run several isolated agents (each with its own workspace, state, sessions). Incoming messages are **bound** to the right agent by channel/account. Docs: https://docs.openclaw.ai/concepts/multi-agent/
 
 That architecture is literally a **router / distributor**: many inboxes → many brains — not necessarily one personal agent that owns one growing wiki as its sole centre.
 
-*verified fact:* OpenClaw also has an optional **Memory Wiki** plugin (`memory-wiki`): markdown vault with sources, entities, concepts, syntheses; `ingest` / `compile` / `lint` / `search`; Obsidian-friendly mode. Docs: https://docs.openclaw.ai/cli/wiki and `docs/plugins/memory-wiki.md` in the OpenClaw repo.
+*unverified lead:* OpenClaw also has an optional **Memory Wiki** plugin (`memory-wiki`): markdown vault with sources, entities, concepts, syntheses; `ingest` / `compile` / `lint` / `search`; Obsidian-friendly mode. Docs: https://docs.openclaw.ai/cli/wiki and `docs/plugins/memory-wiki.md` in the OpenClaw repo.
 
 Important difference from pure Karpathy:
 

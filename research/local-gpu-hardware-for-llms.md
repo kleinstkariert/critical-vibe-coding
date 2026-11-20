@@ -11,7 +11,7 @@ tags:
 
 # Local hardware for larger LLMs
 
-Research note + setup map for Critical Vibe Coding. Labels: *verified fact* | *street-price estimate* | *technical suggestion* | *nuance*.  
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research note + setup map for Critical Vibe Coding. Labels: *street-price estimate* | *technical suggestion* | *nuance*.  
 Prices move weekly — re-check before telling students a number. Currency roughly **USD/EUR street / MSRP class, mid–late 2026** unless noted.
 
 **Session home:** [[../course/sessions/03-hardware-open-models-prompting]] · student howto [[../course/setup/howto-local-llm-hardware]]  

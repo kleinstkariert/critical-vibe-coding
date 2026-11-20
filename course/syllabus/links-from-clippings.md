@@ -13,7 +13,7 @@ Student-facing link list drawn from the Hermes Obsidian vault folder `KnowledgeB
 
 Scan: **37** clipping files (excluding `README.md`). **Kept: 29.** **Skipped: 8** (duplicates, junk, or weak course fit). Formal bibliography: [[references]]. Cognition research note: [[../../research/ai-brains-critical-thinking]].
 
-Labels: *verified fact* = URL taken from clipping frontmatter `source:`; clip body not re-verified line by line.
+Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`. The clip body was not checked line by line. Source types: [[references#source-types]].
 
 ## Cognition, critical thinking, mental health
 

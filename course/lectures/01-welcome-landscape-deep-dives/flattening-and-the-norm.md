@@ -17,7 +17,7 @@ tags:
 
 Linked from Block 7 of [[../01-welcome-landscape-lecture]] (the "flattening" pressure) and from the student input of Session [[../../sessions/02-agent-harness-and-wiki-architecture|02]].
 
-Labels: *thesis* (the argument this note makes) | *verified fact* (peer-reviewed paper, agency study, documented analysis) | *claim* (book argument, journalism, talk) | *open question*.
+Source types: [[../../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *thesis* (the argument this note makes) | *claim* (book argument, journalism, talk) | *open question*.
 
 **Base material.** The teacher vault has no clipping on feminism or patriarchy yet. This note draws on published research, listed under Sources. Related course notes: [[media-art-workflows]] (five pressures), [[labour]] (who trains the model), [[../../visions-fears-regulation]] (amplifier or power).
 
@@ -41,10 +41,10 @@ Flattening is not only a matter of taste: the same generated look, the same help
 
 ## 2. How a statistical model makes a norm
 
-- *verified fact (how the systems work):* A language model predicts the next piece of text by probability. Default settings favour high-probability continuations. Image models do the same with visual patterns.
-- *verified fact (Shumailov et al., Nature 2024):* When models are trained on data produced by earlier models, "tails of the original content distribution disappear". The authors call this **model collapse**. Rare events, minority patterns and unusual styles go first.
-- *verified fact (Doshi and Hauser, Science Advances 2024):* In an experiment, writers with AI story ideas wrote stories judged more creative and better written. The AI-assisted stories were also **more similar to each other**. Individually better, collectively narrower: the authors call it a social dilemma.
-- *verified fact (OpenAI, April 2025):* OpenAI rolled back a GPT-4o update because it had become "overly flattering or agreeable". The tone of the helpful voice is a product decision, tuned on what most users rate highly.
+- *unverified lead (how the systems work):* A language model predicts the next piece of text by probability. Default settings favour high-probability continuations. Image models do the same with visual patterns.
+- *unverified lead (Shumailov et al., Nature 2024):* When models are trained on data produced by earlier models, "tails of the original content distribution disappear". The authors call this **model collapse**. Rare events, minority patterns and unusual styles go first.
+- *unverified lead (Doshi and Hauser, Science Advances 2024):* In an experiment, writers with AI story ideas wrote stories judged more creative and better written. The AI-assisted stories were also **more similar to each other**. Individually better, collectively narrower: the authors call it a social dilemma.
+- *institutional summary (OpenAI, April 2025):* OpenAI rolled back a GPT-4o update because it had become "overly flattering or agreeable". The tone of the helpful voice is a product decision, tuned on what most users rate highly.
 
 **Class line:** Averaging is not a bug in these systems. It is how they work.
 
@@ -54,10 +54,10 @@ Flattening is not only a matter of taste: the same generated look, the same help
 
 Who writes the internet that models learn from?
 
-- *verified fact (Bender, Gebru, McMillan-Major, Mitchell, FAccT 2021, "On the Dangers of Stochastic Parrots"):* Size does not guarantee diversity. GPT-2's training data came from links shared on Reddit, where 67% of US users were men and 64% aged 18 to 29 (Pew 2016). Only 8.8 to 15% of Wikipedia editors are women or girls.
-- *verified fact (same):* Moderation and harassment push people out of mainstream platforms. Groups who build their own spaces, such as older adults writing blogs, are "less likely to be included in training data".
-- *verified fact (same):* Data filters target words referencing sex, which "likely also" removes LGBTQ online spaces.
-- *verified fact (same):* "The voices of people most likely to hew to a hegemonic viewpoint are also more likely to be retained." The paper names white supremacist, misogynistic and ageist views as over-represented relative to the population.
+- *primary evidence (Bender, Gebru, McMillan-Major, Mitchell, FAccT 2021, "On the Dangers of Stochastic Parrots"):* Size does not guarantee diversity. GPT-2's training data came from links shared on Reddit, where 67% of US users were men and 64% aged 18 to 29 (Pew 2016). Only 8.8 to 15% of Wikipedia editors are women or girls.
+- *unverified lead (same):* Moderation and harassment push people out of mainstream platforms. Groups who build their own spaces, such as older adults writing blogs, are "less likely to be included in training data".
+- *unverified lead (same):* Data filters target words referencing sex, which "likely also" removes LGBTQ online spaces.
+- *primary evidence (same):* "The voices of people most likely to hew to a hegemonic viewpoint are also more likely to be retained." The paper names white supremacist, misogynistic and ageist views as over-represented relative to the population.
 
 **Class line:** The training data overrepresents the loudest, best-linked and most-moderated-for spaces. The rest is underrepresented or filtered out.
 
@@ -69,10 +69,10 @@ Feminist research on data and AI asks who is counted, who counts, and whose view
 
 ### What the models produce
 
-- *verified fact (UNESCO and IRCAI, March 2024, "Bias Against Women and Girls in Large Language Models"):* GPT-2, GPT-3.5 and Llama 2 associated female names with "home", "family" and "children", and male names with "business", "executive", "salary" and "career". Llama 2 described women in domestic roles four times as often as men. In open-ended completions it produced sexist and misogynistic content in about 20% of cases.
-- *verified fact (same):* Stories about men used words like "adventurous" and "decided". Stories about women used "garden", "love", "gentle", "husband". When asked for occupations across cultures, the models gave men varied, high-status jobs and gave women and Zulu people servant roles.
-- *verified fact (Bloomberg analysis of more than 5,000 Stable Diffusion images, 2023):* For the prompt "judge", about 3% of generated images showed women. In the US about 34% of judges are women. Men with lighter skin dominated every high-paying job; women dominated only low-paid ones like housekeeper and cashier.
-- *verified fact (Buolamwini and Gebru, "Gender Shades", 2018):* Commercial face-analysis systems misclassified darker-skinned women up to 34.7% of the time and lighter-skinned men at most 0.8%.
+- *unverified lead (UNESCO and IRCAI, March 2024, "Bias Against Women and Girls in Large Language Models"):* GPT-2, GPT-3.5 and Llama 2 associated female names with "home", "family" and "children", and male names with "business", "executive", "salary" and "career". Llama 2 described women in domestic roles four times as often as men. In open-ended completions it produced sexist and misogynistic content in about 20% of cases.
+- *unverified lead (same):* Stories about men used words like "adventurous" and "decided". Stories about women used "garden", "love", "gentle", "husband". When asked for occupations across cultures, the models gave men varied, high-status jobs and gave women and Zulu people servant roles.
+- *secondary reporting (Bloomberg analysis of more than 5,000 Stable Diffusion images, 2023):* For the prompt "judge", about 3% of generated images showed women. In the US about 34% of judges are women. Men with lighter skin dominated every high-paying job; women dominated only low-paid ones like housekeeper and cashier.
+- *unverified lead (Buolamwini and Gebru, "Gender Shades", 2018):* Commercial face-analysis systems misclassified darker-skinned women up to 34.7% of the time and lighter-skinned men at most 0.8%.
 
 The pattern: the model does not only repeat today's inequality. It **exaggerates** it, because it pushes toward the most frequent case.
 
@@ -87,7 +87,7 @@ The pattern: the model does not only repeat today's inequality. It **exaggerates
 
 ### Labour and the gender gap
 
-- *verified fact (Acemoglu, via MIT Sloan, Jan 2025, vault clipping "A new look at the economics of AI"):* Acemoglu expects AI's negative effects on workers to fall "particularly [on] women with low levels of education".
+- *unverified lead (Acemoglu, via MIT Sloan, Jan 2025, vault clipping "A new look at the economics of AI"):* Acemoglu expects AI's negative effects on workers to fall "particularly [on] women with low levels of education".
 - See [[labour]] for the hidden annotation workforce and the first jobs that disappear.
 
 ---

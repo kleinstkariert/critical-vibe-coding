@@ -15,7 +15,7 @@ tags:
 
 Complement to [[howto-hermes-setup]]. That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 
-Labels: *technical suggestion* | *verified fact*. Writing style target: STE ~80%.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
 
 Related: [[../sessions/02-agent-harness-and-wiki-architecture]] · [[Local LLM Coding with Hermes]] · [[howto-local-llm-hardware]] · [[agents-md-template]] · course root `AGENTS.md`
 
@@ -68,7 +68,7 @@ Minimum for coding agents (*technical suggestion*):
 
 ## 2. Project context file (`AGENTS.md`)
 
-*verified fact:* Hermes loads project context files. Priority (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`. Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files
+*institutional summary:* Hermes loads project context files. Priority (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`. Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files
 
 Create `AGENTS.md` at the repo root:
 

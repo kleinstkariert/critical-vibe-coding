@@ -10,7 +10,7 @@ tags:
 
 *reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [[minimum-path]].
 
-What lives in a Karpathy-style wiki directory. Labels: *verified fact* | *technical suggestion*.
+Source types: [[../syllabus/references#source-types]]. A label names the source kind. It is not independent verification. What lives in a Karpathy-style wiki directory. Labels: *technical suggestion*.
 
 Canonical pattern: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).  
 Hermes layout (names below): [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki).  
@@ -42,7 +42,7 @@ wiki/   (or your vault root / a subfolder)
 
 ### `SCHEMA.md` (Layer 3 — the contract)
 
-*verified fact:* Hermes names this file `SCHEMA.md`. Karpathy’s gist allows `CLAUDE.md` / `AGENTS.md` — same job, different filename.
+*institutional summary:* Hermes names this file `SCHEMA.md`. Karpathy’s gist allows `CLAUDE.md` / `AGENTS.md` — same job, different filename.
 
 **What it is:** The instructions the agent must follow: domain, naming, frontmatter, tag taxonomy, when to create/split/archive pages, how to handle contradictions, who may edit what.
 
@@ -59,13 +59,13 @@ wiki/   (or your vault root / a subfolder)
 
 ### `index.md` (navigation)
 
-*verified fact:* Content catalog. Every wiki page listed under its type with a **one-line summary**. The agent reads this **first** when querying.
+*unverified lead:* Content catalog. Every wiki page listed under its type with a **one-line summary**. The agent reads this **first** when querying.
 
 **Scaling (Hermes):** Split sections after ~50 entries; topic map after ~200 pages.
 
 ### `log.md` (history)
 
-*verified fact:* Append-only chronological record. Hermes format:
+*institutional summary:* Append-only chronological record. Hermes format:
 
 `## [YYYY-MM-DD] action | subject`
 

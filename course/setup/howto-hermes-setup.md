@@ -62,7 +62,7 @@ Default data home: `%LOCALAPPDATA%\hermes\`
 
 ### macOS
 
-*verified fact (Hermes install docs, 2026-10-18):* Desktop package is **Apple Silicon only**. Intel Macs are not a supported Desktop platform: use the CLI script or another machine.
+*institutional summary (Hermes install docs, 2026-10-18):* Desktop package is **Apple Silicon only**. Intel Macs are not a supported Desktop platform: use the CLI script or another machine.
 
 #### Option A. Hermes Desktop (Apple Silicon, recommended UI)
 1. Download the macOS package from https://hermes-agent.nousresearch.com/desktop
@@ -104,7 +104,7 @@ source ~/.bashrc   # or ~/.zshrc
 hermes --help
 ```
 
-**Prerequisites (*verified fact* from install docs):** Git, curl, tar, SHA-256 utilities. Source installs use a managed Python via PM. On minimal Debian/Ubuntu/RHEL images, `libatomic` may be required for managed Node (`libatomic1` on apt).
+**Prerequisites (*institutional summary* from install docs):** Git, curl, tar, SHA-256 utilities. Source installs use a managed Python via PM. On minimal Debian/Ubuntu/RHEL images, `libatomic` may be required for managed Node (`libatomic1` on apt).
 
 **Docker** (server / headless): see Hermes docs for the image and mounted data dir (`/opt/data/` pattern). Useful if the agent should live on a VPS with a synced vault. Official page: https://hermes-agent.nousresearch.com/docs/user-guide/docker · Terminal sandbox click-path: [[howto-hermes-docker-sandbox]]
 
@@ -137,7 +137,7 @@ You need **some** API / Portal access. Hermes itself is free/MIT; model usage is
 
 ### Free-to-use endpoint used in class (Session 02)
 
-*technical suggestion* (checked 10 Nov 2026): **NVIDIA Nemotron 3 Ultra** through OpenRouter. The materials are openly distributed under OpenMDW-1.1. This route is a free-to-use hosted endpoint: $0 per token, tool calling, up to 1 million tokens of context.
+*technical suggestion* (page consulted 10 Nov 2026): **NVIDIA Nemotron 3 Ultra** through OpenRouter. The materials are openly distributed under OpenMDW-1.1. This route is a free-to-use hosted endpoint: $0 per token, tool calling, up to 1 million tokens of context.
 
 1. Create a free account and API key at https://openrouter.ai
 2. Add the key to the Hermes env file (`~/.hermes/.env`, on Windows `%LOCALAPPDATA%\hermes\.env`):
