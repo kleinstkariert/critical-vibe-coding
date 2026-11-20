@@ -13,8 +13,10 @@ This page is the on-ramp. Everything else hangs off the [course outline](syllabu
 
 ## What you must do
 
-Write a personal manifesto on how you want to use AI in your practice.
-It is required. It names no product. Write it early.
+A personal manifesto on how you want to use AI in your practice is required.
+It names no product.
+Session 01 introduces it. You develop it through the meetings. You hand it in at the end.
+It is not week-1 homework.
 The technical object is a student-designed agentic production system.
 Read the [minimum path](minimum-path.md) before the install list.
 The manifesto, the minimum path, and the group input presentations are required.

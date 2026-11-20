@@ -11,7 +11,7 @@ tags:
 
 Draft. Dates TBD. Labels: *requirement* | *technical suggestion* | *todo*.
 
-Required, and early: a personal manifesto on how you want to use AI in your practice. It names no product. Also required: [[minimum-path]] and the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *reference implementation* or an *optional extension*. They are *not required for assessment*.
+A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [[minimum-path]] and the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *reference implementation* or an *optional extension*. They are *not required for assessment*.
 
 ## Short syllabus sheet
 

@@ -11,7 +11,7 @@ tags:
 
 Interface Cultures · short public / syllabus sheet. Full session notes: [[timeline]]. Labels: *requirement* | *todo*.
 
-Required, and early: a personal manifesto on how you want to use AI in your practice. It names no product. Also required: [[minimum-path]] and the student input presentations.
+A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [[minimum-path]] and the student input presentations.
 The technical object is a student-designed agentic production system. Hermes is one *reference implementation*. The class install is a *demonstration*. It is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. No purchase is required. Alternatives are allowed.
 
 *Inspired in form by* [HKUST AMCC6500, Critical AI and Artistic Creation](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) *(Giannoutakis)*: weekly topic + one-line cover, not a copy of their themes.
@@ -48,7 +48,7 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 
 | Assessment | What | % (*todo*) |
 |---|---|---|
-| Personal manifesto | How you want to use AI in your practice. No required product. Write it early. | TBD |
+| Personal manifesto | How you want to use AI in your practice. No required product. Develop it through the course. Hand it in at the end. | TBD |
 | Midpoint (Session 04) | Project presentation + semester plan + the system as it stands ([[minimum-path]]) | TBD |
 | Final presentation (Session 08) | Architecture walkthrough + one artistic/research use + short critical reflection | TBD |
 | Student input | One group input (Sessions 02, 03, 05, 06 or 07) | TBD |

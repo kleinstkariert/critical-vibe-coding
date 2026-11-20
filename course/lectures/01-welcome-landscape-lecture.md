@@ -15,7 +15,7 @@ tags:
 Speaker notes for Part B of [[../sessions/01-welcome-and-landscape]]. The outdoor check-in (Part A) stays in that file.
 
 Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [[minimum-path]].
-From this session, each student writes a personal manifesto on how they want to use AI in their practice. The manifesto is required. It names no product.
+This session introduces a personal manifesto on how each student wants to use AI in their practice. The manifesto is required. Students develop it through the course and hand it in at the end. It names no product. It is not a deliverable for this session.
 
 Style: [[../presentation-style]]. Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (Sebastian's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
 

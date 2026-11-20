@@ -26,8 +26,9 @@ You do not need Hermes, Obsidian, phone sync, a local model, MCP, Discord, or a 
 
 A personal manifesto is a short text, in your own words, on how you want to use AI in your practice.
 It names no required product.
-Write it early.
-Do not wait for a later session.
+You develop it through the course.
+You hand it in at the end.
+Session 01 introduces it. It is not a week-1 deliverable.
 The manifesto is required, together with the system below and the input presentations.
 
 ## Required: the system
