@@ -95,7 +95,7 @@ Buy for **GB of memory** and **quiet/power**, not FLOPS slides. Details: [local 
 
 NVLink (mostly older 3090 / workstation) helps tensor-parallel serving; **layer split over PCIe** is enough for one-user studio agents.
 
-*Institutional €6–10k shopping lists + Spark comparison (teacher only):* Obsidian `Teaching/CriticalVibeCoding/hardware-procurement/` — not required student reading.
+*Institutional shopping lists and the Spark comparison (teacher only):* the teacher vault. Not required student reading. The public comparison is in [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md#institutional-shopping-lists-teacher-vault-not-public).
 
 ---
 

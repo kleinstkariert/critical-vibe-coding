@@ -63,7 +63,7 @@ The summary’s core frame holds: **financial bubble behavior and real technolog
 
 - *technical suggestion:* When citing circularity numbers, prefer BIS 137’s three bullets over Bloomberg diagram lore.
 - *technical suggestion:* For financing architecture, pair the Princeton talk with the Columbia / NBER “Financing the AI Buildout” paper rather than the event page alone.
-- *technical suggestion:* Keep this note under `CriticalVibeCoding/research/` (Obsidian-visible via the vault junction); do not duplicate into Clippings unless clipping a specific URL.
+- *technical suggestion:* Keep this note in `research/`. Do not copy it into the teacher vault unless you clip a specific URL.
 
 ---
 

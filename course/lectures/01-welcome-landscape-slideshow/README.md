@@ -38,7 +38,7 @@ python course/lectures/01-welcome-landscape-slideshow/make_images.py
 To refresh the `.odp` from the `.pptx` after hand edits:
 
 ```text
-"C:\Program Files\LibreOffice\program\soffice.exe" -env:UserInstallation=file:///C:/Users/sebas/AppData/Local/Temp/lo-cvc-profile --headless --convert-to odp --outdir course/lectures/01-welcome-landscape-slideshow course/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
+soffice --headless -env:UserInstallation=file:///C:/path/to/lo-profile --convert-to odp --outdir course/lectures/01-welcome-landscape-slideshow course/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
 ```
 
 The separate `-env:UserInstallation` profile lets the conversion run while Impress is open. If Impress has the deck open, close it without saving before converting, or edits made there will fight the export.

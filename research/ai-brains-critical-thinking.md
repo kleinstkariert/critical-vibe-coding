@@ -10,7 +10,7 @@ tags:
 
 # AI, brains, and critical thinking
 
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-11-11. Built from very recent Hermes vault clippings (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *nuance / caveat* | *claim* | *technical suggestion*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-11-11. Built from teacher vault clips (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *nuance / caveat* | *claim* | *technical suggestion*.
 
 Curated course links: [[../course/syllabus/links-from-clippings]]. Bibliography: [[../course/syllabus/references]].
 

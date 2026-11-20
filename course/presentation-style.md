@@ -13,7 +13,7 @@ canonical: false
 
 Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills/schaufler-presentation-style/SKILL.md` (also in personal Cursor skills).
 
-**Reference archive:** `Nextcloud/_QUADRATURE/07_Talks/2026_SchauflerResidencyTalks`. Especially: *Kunst & Kapitalismus @ Mass of Money* (notes PDF), the Fantasie tech-flow diagram, installation photos (CREDO and others).
+**Reference archive:** teacher vault. Especially: *Kunst & Kapitalismus @ Mass of Money* (notes PDF), the Fantasie tech-flow diagram, installation photos (CREDO and others).
 
 ## In short
 

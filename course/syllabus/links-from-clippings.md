@@ -66,15 +66,17 @@ Course research note: [ai brains critical thinking](../../research/ai-brains-cri
 
 ## Skipped (8)
 
-| Clipping file | Why skipped |
+These items stay in the teacher vault. They are not course readings.
+
+| Item | Why skipped |
 |---|---|
-| `Keynote…2026.__from-old-root-vault__.md` | Duplicate of Campbell keynote |
-| `Warum…Ep. 20 1.md` | Duplicate of Schadt Ep. 20 |
-| `COMPARATIVE ANALYSIS…WELL CONSTRUCTION.md` | Oil/gas multi-agent paper; not CVC syllabus |
-| `He's Talking THAT Talk!…Digger…` | Movie short; not course |
-| `Oligarchy is worse than you think.md` | General politics; weak CVC fit |
-| `kulturpoolHack-The-Pool-2026.md` | Local hackathon repo; not seminar reading |
-| `Why everybody is lying about A.I. booktube.md` | Thin YouTube Short |
-| `Write amaster's Thesis.md` | Junk / broken WikiHow clip |
+| Campbell keynote, older copy | Duplicate of the Campbell keynote above |
+| Schadt episode, second copy | Duplicate of Schadt Ep. 20 |
+| Oil and gas well-construction paper | Not a CVC reading |
+| Movie short | Not the course |
+| General politics clip | Weak fit for this seminar |
+| Local hackathon note | Not seminar reading |
+| Short book video | Too thin for the list |
+| Broken WikiHow clip | Not a source |
 
 The clips live in the teacher vault.

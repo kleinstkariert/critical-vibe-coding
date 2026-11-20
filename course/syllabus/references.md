@@ -114,7 +114,7 @@ Presentation style: [presentation style](../presentation-style.md)
 
 ## Cognition / critical thinking (AI and brains)
 
-Appended 2026-11-11 from Hermes vault Clippings scan. Research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md). Full curated link list: [links from clippings](links-from-clippings.md).
+Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md). Full curated link list: [links from clippings](links-from-clippings.md).
 
 | Source | URL | One-line note |
 |---|---|---|
