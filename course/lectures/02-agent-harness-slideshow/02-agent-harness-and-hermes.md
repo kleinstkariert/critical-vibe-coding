@@ -165,7 +165,7 @@ Use model quality and harness quality together.
 
 An LLM Wiki is a structured collection of project information.
 It gives the agent stable project knowledge.
-It is not only a collection of chat messages.
+It is not only a collection of chat messages. A structured wiki does not make the notes true: [[../../setup/llm-wiki-standard-files#what-structure-improves]].
 
 It can contain:
 

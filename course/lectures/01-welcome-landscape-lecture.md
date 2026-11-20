@@ -90,7 +90,7 @@ A chat window is the visible tip of a large system. Kate Crawford and Vladan Jol
 | **Harness** | Everything around the model that you set up: tools, files, skills, rules. In this course, the harness is your material. |
 | **MCP** | **Model Context Protocol.** A standard plug between an agent and other apps and tools: calendar, browser, Blender, a database. Each app that offers an "MCP server" can be used by any agent that speaks the protocol. Open standard, introduced by Anthropic in 2024. Session 05: [[../what-is-mcp]]. |
 | **Sandbox** | A closed-off space where the agent can run code and change files without touching the rest of your computer: a container, a virtual machine, a locked folder. If the agent makes a mistake, the damage stays inside. Case in Session 05: the Hugging Face incident, where agents escaped their sandbox. |
-| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [[../what-is-lint]]. |
+| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [[../what-is-lint]]. What that check does not judge: [[../setup/llm-wiki-standard-files#what-structure-improves]]. |
 
 One sentence to remember: *a chat answers; an agent acts, with the tools you allow it.*
 
@@ -299,7 +299,7 @@ Practical. **Deep dive with the diagram explained part by part:** [[01-welcome-l
 
 1. **Knowledge store** with phone sync. Default Obsidian: [[../howto-obsidian-setup-and-sync]]. Alternatives: [[../knowledge-store-options]] · SilverBullet: [[../howto-silverbullet-setup-and-sync]].
 2. **Hermes Agent** pointed at that folder: [[../howto-hermes-setup]] (Windows, macOS, Linux). Installed together in Session 02.
-3. **LLM Wiki** structure (sources, wiki, schema): [[../llm-wiki-standard-files]] · [[../../research/karpathy-llm-wiki-and-openclaw]] · Obsidian versus Joplin: [[../../research/obsidian-vs-joplin-hermes-llmwiki]].
+3. **LLM Wiki** structure (sources, wiki, schema): [[../llm-wiki-standard-files]] · what that structure improves: [[../setup/llm-wiki-standard-files#what-structure-improves]] · [[../../research/karpathy-llm-wiki-and-openclaw]] · Obsidian versus Joplin: [[../../research/obsidian-vs-joplin-hermes-llmwiki]].
 4. **Model**: whatever access you prefer: [[../setup/Prompting Guide for Critical Vibe Coding]] · campus access: [[../setup/academic-ai-austria]] · local later: [[../setup/howto-local-llm-hardware]]. Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([[01-welcome-landscape-deep-dives/default-setup]] §4).
 5. **Harness** (next session): [[../what-is-harness]] · [[../sessions/02-agent-harness-and-wiki-architecture]] · tools and MCP: [[../what-is-mcp]] · checking the wiki: [[../what-is-lint]].
 

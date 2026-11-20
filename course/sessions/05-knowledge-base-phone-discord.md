@@ -49,7 +49,7 @@ Bridge to the practical: today students give their own agent new tools. What may
 
 ## Teacher input, Part A: personalisation and practice
 
-Architecture recap only (point back): [[02-agent-harness-and-wiki-architecture]] · [[../what-is-harness]] · [[../llm-wiki-standard-files]] · [[../what-is-lint]]
+Architecture recap only (point back): [[02-agent-harness-and-wiki-architecture]] · [[../what-is-harness]] · [[../llm-wiki-standard-files]] · [[../what-is-lint]] · quality: [[../setup/llm-wiki-standard-files#what-structure-improves]]
 
 - Live: fill `SCHEMA.md` limits; run one ingest / query / lint cycle ([[../../research/karpathy-llm-wiki-and-openclaw]])
 - Tools: Hermes [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) · optional Obsidian plugin [karpathywiki](https://community.obsidian.md/plugins/karpathywiki) ([[../references]])

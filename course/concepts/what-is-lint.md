@@ -50,7 +50,7 @@ to `log.md`.
 
 ## Lint vs “the model being wrong”
 
-Lint does **not** prove truth. It finds **consistency and maintenance** problems. A page can lint clean and still be wrong about the world. A contested flag is a prompt for *you* to decide.
+Lint does **not** prove truth. It finds **consistency and maintenance** problems. A page can lint clean and still be wrong about the world. A contested flag is a prompt for *you* to decide. What lint does not judge: [[../setup/llm-wiki-standard-files#what-structure-improves]].
 
 *technical suggestion for the course:* Treat a student lint report like a studio critique of the knowledge base — not like an exam grade.
 

@@ -108,6 +108,7 @@ Decision of 9 Nov 2026: eight sessions. Cut sessions are archived, not deleted: 
 |---|---|
 | What **lint** means | [[what-is-lint]] |
 | Standard files | [[llm-wiki-standard-files]] |
+| What structure improves | [[../setup/llm-wiki-standard-files#what-structure-improves]] |
 | References | [[references]] |
 | What is a **harness** | [[what-is-harness]] |
 | What is **MCP** | [[what-is-mcp]] |

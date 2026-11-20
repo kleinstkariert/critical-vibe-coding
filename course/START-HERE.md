@@ -44,7 +44,7 @@ You build and run a **personal LLM-agent setup** while unpacking political-econo
 
 Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you can access. Twin tracks every week: technical + critical check-in.
 
-*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](minimum-path.md).
+*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](minimum-path.md). A structured wiki does not make the notes true: [what structure improves](setup/llm-wiki-standard-files.md#what-structure-improves).
 
 ---
 

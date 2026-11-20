@@ -123,7 +123,7 @@ vault/  (or wiki/)
   entities/ concepts/ comparisons/ queries/
 ```
 
-Habits: ingest → query → **lint** ([[../what-is-lint]]).
+Habits: ingest → query → **lint** ([[../what-is-lint]]). A structured wiki does not make the notes true: [[../setup/llm-wiki-standard-files#what-structure-improves]].
 Karpathy pattern: [[../../research/karpathy-llm-wiki-and-openclaw]] · gist in [[../references]].
 
 ### Obsidian's job

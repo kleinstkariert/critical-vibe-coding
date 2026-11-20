@@ -128,3 +128,38 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 | Dexio guide | https://dexio.wiki/guides/llm-wiki-obsidian/ | Obsidian-oriented walkthrough |
 
 Setup in this repo: [[howto-hermes-setup]] · [[howto-obsidian-setup-and-sync]] · [[references]]
+
+## What structure improves
+
+A structured knowledge base does not make information true. Its value is that it makes information easier to inspect, connect, use, and revise.
+
+A structured base can improve these things:
+
+| Improvement | Question |
+|---|---|
+| Traceability | Can a claim be followed back to a source, version, passage, or production decision? |
+| Consistency | Are related pages using compatible terms, categories, dates, and conventions? |
+| Discoverability | Can a person or agent find the relevant material without reading the entire collection? |
+| Maintainability | Can the knowledge base be updated, corrected, split, archived, or transferred to another tool? |
+| Comparability | Can competing sources, models, workflows, or interpretations be placed next to one another? |
+| Operational usefulness | Can the material support a real task, such as preparing an application, debugging a patch, planning an exhibition, or documenting an installation? |
+| Reflexivity | Does the system make its own assumptions, exclusions, uncertainties, and authorship visible? |
+
+These are different forms of quality:
+
+| Form | Question |
+|---|---|
+| Structural | Are files, links, tags, metadata, and version histories coherent? |
+| Evidential | Are claims supported by sources appropriate to their importance and scope? |
+| Procedural | Can another person understand how the material was collected, transformed, and updated? |
+| Interpretive | Does the analysis distinguish description, inference, comparison, and argument? |
+| Contextual | Does the knowledge remain meaningful for the specific artistic, institutional, social, or technical situation? |
+| Operational | Does the system help someone make, decide, verify, or revise something in practice? |
+| Artistic | Does the work create a meaningful form, experience, relation, or question? |
+| Political and ethical | What relations of labour, access, extraction, privacy, and power does the system reproduce or challenge? |
+
+The LLM Wiki mainly supports structural, procedural, and operational quality. It can also support critical work by preserving sources, disagreements, uncertainty, and revision history.
+
+Lint checks structure and maintenance: broken links, missing metadata, orphan pages, stale entries, unresolved contradictions. See [[what-is-lint]]. Lint does not establish truth, settle interpretation, or judge artistic quality.
+
+Structure does not replace critical judgment. It gives critical judgment a better surface to work on.

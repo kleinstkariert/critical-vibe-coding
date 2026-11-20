@@ -58,7 +58,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 | What is a **harness**? | [`course/concepts/what-is-harness.md`](course/concepts/what-is-harness.md) |
 | What is **MCP**? | [`course/concepts/what-is-mcp.md`](course/concepts/what-is-mcp.md) |
 | What is **lint** (LLM Wiki)? | [`course/concepts/what-is-lint.md`](course/concepts/what-is-lint.md) |
-| Wiki standard files | [`course/setup/llm-wiki-standard-files.md`](course/setup/llm-wiki-standard-files.md) |
+| Wiki standard files, and what structure improves | [`course/setup/llm-wiki-standard-files.md#what-structure-improves`](course/setup/llm-wiki-standard-files.md#what-structure-improves) |
 | Academic AI (Austria) | [`course/setup/academic-ai-austria.md`](course/setup/academic-ai-austria.md) |
 | Drivers / visions / fears / regulation | [`course/topics/visions-fears-regulation.md`](course/topics/visions-fears-regulation.md) |
 | EU AI Act, and GDPR (separate topics) | [`course/topics/eu-ai-act-and-datenschutz.md#decision-questions`](course/topics/eu-ai-act-and-datenschutz.md#decision-questions) |

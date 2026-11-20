@@ -102,7 +102,7 @@ Full list: [[references]].
 
 | Theme | Starter |
 |---|---|
-| LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) |
+| LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · what structure improves: [[../setup/llm-wiki-standard-files#what-structure-improves]] |
 | Political economy / bubble | [[lectures/01-welcome-landscape-deep-dives/bubble-economy]] · research note [[../../research/ai-bubble-productivity-datacenter]]; Tooze / BIS as cited there; Verdegem, *Dismantling AI capitalism* (2022) |
 | Authorship & labour | [[lectures/01-welcome-landscape-deep-dives/labour]] · jobs evidence [[../../research/ai-jobs-rising-tide-productivity]] |
 | Flattening, AI and patriarchy | [[lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm]] |
