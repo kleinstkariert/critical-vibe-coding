@@ -11,12 +11,6 @@ canonical: true
 
 # START HERE
 
-## Proposal, not the current course.
-
-This is a proposal, not the current course.
-
-Status: proposal. Canonical: false.
-
 [Potential Structure Change](teacher/potential-structure-change.md)
 
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
