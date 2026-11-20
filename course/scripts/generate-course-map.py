@@ -68,6 +68,28 @@ def main():
         lines.append("")
         return lines
 
+    def proposal_section():
+        """Pin the structure proposal first. A later run keeps this section."""
+        rel = "teacher/potential-structure-change.md"
+        row = next((item for item in rows if item["rel"] == rel), None)
+        if row is None:
+            row = {
+                "rel": rel,
+                "title": "Potential Structure Change",
+                "status": "proposal",
+                "canonical": "false",
+            }
+        return [
+            "## Proposal, not the current course.",
+            "",
+            "This is a proposal, not the current course.",
+            "",
+            "| Page | Status | Canonical |",
+            "|---|---|---|",
+            f"| [{row['title']}]({row['rel']}) | {row['status']} | {row['canonical']} |",
+            "",
+        ]
+
     out = [
         "---",
         "title: Course map",
@@ -84,6 +106,7 @@ def main():
         "Regenerate it with `python course/scripts/generate-course-map.py`.",
         "",
     ]
+    out += proposal_section()
     out += section(
         "Current pages for students",
         lambda row: row["audience"] == "student" and row["status"] == "current",
