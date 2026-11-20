@@ -41,7 +41,7 @@ Pair G5: platform dependency when tools chain; agency vs convenience. Optional s
 
 ### MCP basics
 
-- Waiter / kitchen metaphor: [[../what-is-mcp]] — host, client, server; tools / resources / prompts
+- Waiter / kitchen metaphor: [[../what-is-mcp]] — host, client, server; tools / resources / prompts. Permissions and capability boundary: [[../what-is-mcp#permissions-and-capability-boundary]].
 - When you need MCP vs when the disk is enough: Obsidian folder wiki = filesystem tools, no MCP; apps that are not folders (calendar, mail, browser, SQLite note apps, **live CAD/3D sessions**) = MCP
 - How Hermes does it (*institutional summary*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see** — [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
 - Safety: app passwords, localhost vs remote, what not to put in the vault; per-server tool filtering as a design decision (the agent cannot call what you did not tick)

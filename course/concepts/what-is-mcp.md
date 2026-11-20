@@ -10,6 +10,19 @@ A short teaching note for Critical Vibe Coding. Written 2026-10-15. Claims label
 
 Official docs call it “like a USB-C port for AI applications”: one plug shape, many devices. Source: [modelcontextprotocol.io](https://modelcontextprotocol.io/docs/getting-started/intro).
 
+## Permissions and capability boundary
+
+MCP is not merely a connector. It is a permissions and capability boundary.
+
+- filesystem
+- destructive operations
+- network
+- application scripting
+- messages
+- mail
+- calendar
+- personal data
+
 ## The waiter metaphor (yes, it works)
 
 A common API metaphor is: **guest → waiter → kitchen**.

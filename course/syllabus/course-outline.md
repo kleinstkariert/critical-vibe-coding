@@ -83,7 +83,7 @@ Rhythm and student groups: [[course-rhythm]]. Cut sessions from the earlier 13-s
 | Free-to-use hosted endpoint | NVIDIA Nemotron 3 Ultra via OpenRouter | Openly distributed materials (OpenMDW-1.1). Rate-limited. Prompts may be logged. Too large for most student machines. The route is a hosted cloud service. [[lectures/01-welcome-landscape-deep-dives/default-setup]] §4 |
 | Notes / wiki | [Obsidian](https://obsidian.md/) + LLM Wiki habit | Phone sync via personal cloud (e.g. Nextcloud) |
 | Harness concept | Agent = Model + Harness | [[what-is-harness]] · Session 02 |
-| Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05 |
+| Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05. Permissions and capability boundary: [[what-is-mcp#permissions-and-capability-boundary]]. |
 | Optional | Discord bridge; Nextcloud Context Agent (one MCP) | Not required student infra |
 
 Install guides (Windows / macOS / Linux): [[howto-hermes-setup]] · [[howto-obsidian-setup-and-sync]] · optional [[howto-silverbullet-setup-and-sync]]

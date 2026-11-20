@@ -35,7 +35,7 @@ Source types: [[../../syllabus/references#source-types]]. A label names the sour
 | **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [[../../setup/Prompting Guide for Critical Vibe Coding]] · Austrian academic access: [[../../setup/academic-ai-austria]] · local hardware: [[../../setup/howto-local-llm-hardware]] |
 | **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [[../../what-is-harness]] · [[../../sessions/02-agent-harness-and-wiki-architecture]] |
 
-Related: [[../../concepts/what-is-mcp]] (Model Context Protocol: connecting the agent to other apps, Session 05) · [[../../concepts/what-is-lint]] (checking the wiki) · Obsidian versus Joplin: [[../../../research/obsidian-vs-joplin-hermes-llmwiki]].
+Related: [[../../concepts/what-is-mcp#permissions-and-capability-boundary]] (Model Context Protocol: connecting the agent to other apps, Session 05) · [[../../concepts/what-is-lint]] (checking the wiki) · Obsidian versus Joplin: [[../../../research/obsidian-vs-joplin-hermes-llmwiki]].
 
 *course position:* Notes sync to the phone through Obsidian and a cloud folder. Hermes runs on the computer; the phone does not need it.
 

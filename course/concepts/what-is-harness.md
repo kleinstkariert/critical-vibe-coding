@@ -49,7 +49,7 @@ Those are harness jobs. Desired behaviour → harness feature (LangChain’s der
 | Filesystem workspace | Obsidian vault / `WIKI_PATH` |
 | Memory files | `SCHEMA.md`, `index.md`, `log.md` |
 | Skills | Hermes bundled skills (llm-wiki, …) + your procedures |
-| Tools / MCP | Filesystem tools first; apps via MCP later ([[what-is-mcp]]) |
+| Tools / MCP | Filesystem tools first; apps via MCP later ([[what-is-mcp#permissions-and-capability-boundary]]) |
 | Verification | Lint pass, human review, tests before fab |
 | Context management | Small index + pull pages; don’t paste the whole vault |
 

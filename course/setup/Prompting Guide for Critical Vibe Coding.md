@@ -559,7 +559,7 @@ Include composition, motion, interaction, performance, and failure behavior.
 
 ## 19. Prompt for MCP tools
 
-MCP means Model Context Protocol.
+MCP means Model Context Protocol. Permissions and capability boundary: [[what-is-mcp#permissions-and-capability-boundary]].
 
 An MCP server exposes tools to an agent.
 

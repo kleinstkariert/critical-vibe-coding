@@ -274,7 +274,7 @@ Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki
 
 Hermes can attach MCP servers (stdio / HTTP). Use this for tools that are **not** a folder of files, including **Blender / Fusion / FreeCAD / Meshy** (Sessions 05 and 07).
 
-Course notes: [[what-is-mcp]] · [[what-is-harness]] · [[sessions/05-knowledge-base-phone-discord]] · CAD/3D table: [[sessions/archive-13-session-plan/06-mcp-and-tools]]  
+Course notes: [[what-is-mcp#permissions-and-capability-boundary]] · [[what-is-harness]] · [[sessions/05-knowledge-base-phone-discord]] · CAD/3D table: [[sessions/archive-13-session-plan/06-mcp-and-tools]]  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 ---
