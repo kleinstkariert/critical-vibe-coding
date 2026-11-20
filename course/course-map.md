@@ -68,6 +68,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 |---|---|---|
 | [Sources (no duplicates here)](lectures/01-welcome-landscape-slideshow/NOTES.md) | current | false |
 | [Presentation and writing style (Schaufler / Quadrature)](presentation-style.md) | current | false |
+| [Potential Structure Change](teacher/potential-structure-change.md) | proposal | false |
 
 ## Archive
 
