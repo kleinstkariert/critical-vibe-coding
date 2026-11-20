@@ -40,7 +40,7 @@ Drivers / visions / fears / regulation (Session 01, 10–15 min): [[visions-fear
 AI jobs — rising tide, Canaries, productivity × experience: [[../../research/ai-jobs-rising-tide-productivity]]  
 AI, brains, critical thinking (MIT EEG + recent clippings): [[../../research/ai-brains-critical-thinking]]  
 Curated vault clipping links (scan 2026-11-11): [[links-from-clippings]]  
-EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]  
+EU AI Act, and GDPR (separate topics): [[../topics/eu-ai-act-and-datenschutz#decision-questions]]  
 AI creative tools survey: [[ai-tools-creative-processes]]  
 Session 01 lecture draft: [[lectures/01-welcome-landscape-lecture]]  
 Session 02 harness + wiki: [[sessions/02-agent-harness-and-wiki-architecture]]  

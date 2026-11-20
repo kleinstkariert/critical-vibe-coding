@@ -61,7 +61,7 @@ Topics are fixed (9 Nov 2026) and chosen by the groups at the end of Session 01.
 | 04 | *No input:* project presentations and semester plans | | Presentations |
 | **05** | **How dangerous is AI really?** Case: the Hugging Face incident (July 2026) | [[sessions/05-knowledge-base-phone-discord]] (links to both incident reports) · [[visions-fears-regulation]] | Vault practice; phone sync; Discord bridge; MCP |
 | **06** | **The ecology of AI.** | [[lectures/01-welcome-landscape-deep-dives/ecology]] · [[../../research/data-centers-energy-ecology-economy]] | Agent as interface, as material, as canvas |
-| **07** | **Privacy: what happens with the data?** | [[eu-ai-act-and-datenschutz]] · [[lectures/01-welcome-landscape-deep-dives/default-setup]] §3 | Coding with agents across creative stacks (*proposal*) |
+| **07** | **Privacy: what happens with the data?** | [[../topics/eu-ai-act-and-datenschutz#decision-questions]] · [[lectures/01-welcome-landscape-deep-dives/default-setup]] §3 | Coding with agents across creative stacks (*proposal*) |
 | 08 | *No input:* final presentations | | Finals |
 
 Suggested question stems (groups pick one and go deep):

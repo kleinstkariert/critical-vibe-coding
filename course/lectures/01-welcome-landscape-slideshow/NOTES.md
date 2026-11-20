@@ -8,7 +8,7 @@ This folder holds the **deck and images only**. Open the canonical notes instead
 | Deep dives (blocks 4 to 8, flattening) | `course/lectures/01-welcome-landscape-deep-dives/` |
 | Session plan | `course/sessions/01-welcome-and-landscape.md` |
 | Drivers, visions, fears, regulation (block 3) | `course/topics/visions-fears-regulation.md` |
-| EU AI Act and GDPR | `course/topics/eu-ai-act-and-datenschutz.md` |
+| EU AI Act, and GDPR (separate topics) | `course/topics/eu-ai-act-and-datenschutz.md#decision-questions` |
 | Presentation and writing style | `course/presentation-style.md` |
 | Bubble research | `research/ai-bubble-productivity-datacenter.md` |
 | Ecology research | `research/data-centers-energy-ecology-economy.md` |

@@ -61,7 +61,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 | Wiki standard files | [`course/setup/llm-wiki-standard-files.md`](course/setup/llm-wiki-standard-files.md) |
 | Academic AI (Austria) | [`course/setup/academic-ai-austria.md`](course/setup/academic-ai-austria.md) |
 | Drivers / visions / fears / regulation | [`course/topics/visions-fears-regulation.md`](course/topics/visions-fears-regulation.md) |
-| EU AI Act + Datenschutz | [`course/topics/eu-ai-act-and-datenschutz.md`](course/topics/eu-ai-act-and-datenschutz.md) |
+| EU AI Act, and GDPR (separate topics) | [`course/topics/eu-ai-act-and-datenschutz.md#decision-questions`](course/topics/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Creative AI tools survey | [`course/topics/ai-tools-creative-processes.md`](course/topics/ai-tools-creative-processes.md) |
 | Local GPU / Apple / DGX hardware | [`research/local-gpu-hardware-for-llms.md`](research/local-gpu-hardware-for-llms.md) |
 

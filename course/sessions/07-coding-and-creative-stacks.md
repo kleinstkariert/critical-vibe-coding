@@ -38,7 +38,7 @@ Listen only: [[../course-rhythm#1-check-in-every-session]].
 
 ## Student input (theory / humanities): Privacy, what happens with the data?
 
-Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What do the EU AI Act and the GDPR say, also for student projects? Starting points: [[../eu-ai-act-and-datenschutz]] · the cloud-or-local flowchart in [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §3 · archived unit [[archive-13-session-plan/10-authorship-labour-platforms]].
+Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What does the EU AI Act say about the system, and what does the GDPR say about personal data? They are separate. *orientation, not legal advice:* [[../topics/eu-ai-act-and-datenschutz#decision-questions]]. Also: the cloud-or-local flowchart in [[../lectures/01-welcome-landscape-deep-dives/default-setup]] §3 · archived unit [[archive-13-session-plan/10-authorship-labour-platforms]].
 
 Bridge to the practical: a coding agent reads your whole project folder. What does it send?
 
@@ -62,4 +62,4 @@ One task in a stack the student uses, ideally a piece of the final project. Log 
 | MCP + CAD/3D (archived session) | [[archive-13-session-plan/06-mcp-and-tools]] |
 | Studio and peer critique (archived session) | [[archive-13-session-plan/12-studio-and-peer-critique]] |
 | Jobs / tide research | [[../../research/ai-jobs-rising-tide-productivity]] |
-| EU AI Act and GDPR (student input) | [[../eu-ai-act-and-datenschutz]] |
+| EU AI Act, and the GDPR, as separate topics | [[../topics/eu-ai-act-and-datenschutz#decision-questions]] |

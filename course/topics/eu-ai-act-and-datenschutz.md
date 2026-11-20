@@ -62,16 +62,48 @@ RTR positions itself as public information hub for the AI Act (actors, provider/
 Do not turn session into a law seminar. Use this vocabulary:
 
 1. **Prohibited practices** — certain uses banned (e.g. social scoring-style harms — check current RTR overviews).  
-2. **High-risk systems** — stricter duties (documentation, risk management, human oversight). Most student art tools are **not** automatically “high-risk,” but **deployments that decide on people** can be.  
+2. **High-risk systems** — stricter duties (documentation, risk management, human oversight). Most student art tools are **not** automatically “high-risk,” but **deployments that decide on people** can be. *orientation.* Not a ruling on your project.  
 3. **Transparency** — when users must know they interact with AI / synthetic media (relevant for exhibitions and public agents).  
 4. **GPAI / models** — separate layer of duties for general-purpose model providers (usually the vendor, not the student).  
 5. **Timeline** — obligations phase in over years; RTR pages track the schedule.
+
+## Decision questions
+
+*orientation, not legal advice.* Answer these for your own project. A "yes" does not name a law. It tells you which separate topic to open.
+
+1. Are you processing personal data?
+2. Are you publishing synthetic content?
+3. Are you making decisions about identifiable people?
+4. Are you using biometric, health, educational, employment, or public-service data?
+5. Are you deploying an interactive public system?
+6. Are you acting as a provider, deployer, researcher, or private user?
+7. Is the university the controller, or are you acting independently?
+
+Provider, deployer, researcher, and private user are role names. This note does not assign your role.
+Controller means who decides why and how personal data are used. This note does not decide that.
+
+## Separate topics
+
+These are not one privacy framework. The EU AI Act is not the GDPR.
+
+| Topic | What the question is about |
+|---|---|
+| GDPR obligations | Personal data. Separate from the AI Act. |
+| University policy | What the university requires of your project. |
+| Platform terms | The contract of the service you use. |
+| Copyright | Rights in material and in outputs. |
+| Personality rights | A real person's image, voice, or name. |
+| Exhibition disclosure | What a visitor is told. |
+| Data retention | How long data are kept, and by whom. |
+| Contractual confidentiality | What you agreed not to share. |
 
 *claim (course frame from session 1):* Calls for “regulation” can also function as **credibility marketing** (“we are so powerful we need laws”). Still take the rules seriously when personal data or public deployment is involved.
 
 ---
 
 ## Datenschutz for this seminar (practical)
+
+*orientation.* The rows below are separate questions. A vendor's terms are not the GDPR. A public demo is not the AI Act. See [Decision questions](#decision-questions).
 
 Questions students should ask of **their** stack:
 
@@ -81,7 +113,7 @@ Questions students should ask of **their** stack:
 | Where does the API process data (US / EU region / local)? | Transfer + vendor ToS |
 | Is training on user inputs opted out? | Provider settings |
 | Phone sync / Discord bridge — who hosts the messages? | Extra processors |
-| Public demo of an agent that talks about real people? | Transparency + dignity + DSGVO |
+| Public demo of an agent that talks about real people? | Exhibition disclosure. If the demo uses personal data, that is a GDPR question. Separate topics. |
 
 *technical suggestion:* Prefer local or EU-hosted models for sensitive material; keep secrets out of the synced vault ([[howto-obsidian-setup-and-sync]]). Academic HPC ([[academic-ai-austria]]) is not “privacy free” — read their terms.
 

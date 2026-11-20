@@ -30,7 +30,7 @@ Local GPU / Apple / DGX / multi-GPU: [[../../research/local-gpu-hardware-for-llm
 
 Academic AI (Austria): [[academic-ai-austria]]
 
-EU AI Act + Datenschutz: [[eu-ai-act-and-datenschutz]]
+EU AI Act, and GDPR (separate topics): [[../topics/eu-ai-act-and-datenschutz#decision-questions]]
 
 Prompting guide: [[Prompting Guide for Critical Vibe Coding]]
 

@@ -84,7 +84,7 @@ Pair roster and themes: [[../../syllabus/course-rhythm#2-student-inputs-from-ses
 |---|---|
 | Prompting guide | [[../../setup/Prompting Guide for Critical Vibe Coding]] |
 | Academic AI (Austria) | [[../../setup/academic-ai-austria]] |
-| EU AI Act + Datenschutz | [[../../topics/eu-ai-act-and-datenschutz]] |
+| EU AI Act, and GDPR (separate topics) | [[../../topics/eu-ai-act-and-datenschutz#decision-questions]] |
 | Local hardware | [[../../research/local-gpu-hardware-for-llms]] |
 | Harness / MCP preview | [[../../concepts/what-is-harness]] · [[../../concepts/what-is-mcp]] (session 5) |
 | Setup schemes | folder TBD |

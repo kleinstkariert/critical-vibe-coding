@@ -44,7 +44,7 @@ Prompts:
 
 Peer echo: [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) weeks on ghost labour / data enclosure; [Birkbeck Critical and Creative AI](https://www.bbk.ac.uk/courses/modules/sc04/SC04023S7) on automation and creative labour ([[../timeline]]).
 
-EU / Austrian regulation orientation (AI Act + Datenschutz; EN note, DE links): [[../eu-ai-act-and-datenschutz]]
+EU AI Act and the GDPR are separate topics (orientation, EN note, DE links): [[../../topics/eu-ai-act-and-datenschutz#decision-questions]]
 
 Session 01 already framed **industry utopia (UBI/UHI) vs social fears** and the amplifier debate — [[../visions-fears-regulation]]. Here: labour / authorship / platforms as the lived version of those fears.
 
