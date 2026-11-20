@@ -1,5 +1,13 @@
 # Critical Vibe Coding
 
+## Proposal, not the current course.
+
+This is a proposal, not the current course.
+
+Status: proposal. Canonical: false.
+
+[Potential Structure Change](course/teacher/potential-structure-change.md)
+
 Interface Cultures (Kunstuniversität Linz) — seminar combining **hands-on LLM agents** with **critical inquiry** into authorship, labour, platforms, and ecology.
 
 This GitHub repository is the **student-facing course pack** (syllabus, session notes, how-tos, references). Clone it, browse on GitHub, or copy folders into your Obsidian vault.
