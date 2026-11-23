@@ -14,7 +14,7 @@ canonical: true
 [Potential Structure Change](teacher/potential-structure-change.md)
 
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
-This page is the on-ramp. The generated list of current pages is the [course map](course-map.md). Everything else hangs off the [course outline](syllabus/course-outline.md) and [session notes](_sessions-tmp/).
+This page is the on-ramp. The generated list of current pages is the [course map](course-map.md). Everything else hangs off the [course outline](syllabus/course-outline.md) and [session notes](SESSIONS/).
 
 ## What you must do
 
@@ -77,7 +77,7 @@ Keep API keys out of synced notes.
 | Question | Go to |
 |---|---|
 | What must I do? | [minimum-path.md](minimum-path.md) |
-| What happens each week? | [timeline.md](syllabus/timeline.md) · [course-outline.md](syllabus/course-outline.md) · [_sessions-tmp/](_sessions-tmp/) |
+| What happens each week? | [timeline.md](syllabus/timeline.md) · [course-outline.md](syllabus/course-outline.md) · [SESSIONS/](SESSIONS/) |
 | Midpoint / final deliverables? | [timeline.md](syllabus/timeline.md) (milestones) |
 | Readings & links? | [references.md](syllabus/references.md) · [links-from-clippings.md](syllabus/links-from-clippings.md) |
 | AI and critical thinking / brains? | [../research/ai-brains-critical-thinking.md](../research/ai-brains-critical-thinking.md) |
@@ -87,7 +87,7 @@ Keep API keys out of synced notes.
 | Local GPU / Mac / DGX / multi-GPU (Session 03)? | [../research/local-gpu-hardware-for-llms.md](../research/local-gpu-hardware-for-llms.md) · [howto-local-llm-hardware.md](setup/howto-local-llm-hardware.md) |
 | Check-in + student input schedule? | [course-rhythm.md](syllabus/course-rhythm.md) |
 | Data centres / energy / ecology (Session 01, input Session 06)? | [../research/data-centers-energy-ecology-economy.md](../research/data-centers-energy-ecology-economy.md) |
-| MCP / CAD tools? | [what-is-mcp.md](concepts/what-is-mcp.md) · [_sessions-tmp/05-knowledge-base-phone-discord.md](_sessions-tmp/05-knowledge-base-phone-discord.md) · CAD/3D table: [_sessions-tmp/archive-13-session-plan/06-mcp-and-tools.md](_sessions-tmp/archive-13-session-plan/06-mcp-and-tools.md) |
+| MCP / CAD tools? | [what-is-mcp.md](concepts/what-is-mcp.md) · [SESSIONS/05-knowledge-base-phone-discord.md](SESSIONS/05-knowledge-base-phone-discord.md) · CAD/3D table: [SESSIONS/archive-13-session-plan/06-mcp-and-tools.md](SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) |
 | AI bubble / CapEx finance? | [../research/ai-bubble-productivity-datacenter.md](../research/ai-bubble-productivity-datacenter.md) |
 | Creative tools (Meshy, Weave, …)? | [ai-tools-creative-processes.md](topics/ai-tools-creative-processes.md) |
 

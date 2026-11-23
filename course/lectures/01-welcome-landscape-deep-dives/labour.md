@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 6 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md).
+Block 6 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
 
 
 
@@ -41,7 +41,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 | Vault clippings | Brian Merchant (Carnegie, *A Luddite's Guide to the AI Economy*), Verdegem (*Dismantling AI capitalism*), Richard Campbell keynote, Coxon and Stewart (Daily Show). |
 
-| Archived Session [10](../../_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md) readings | TIME on Sama / Kenya, Data Workers' Inquiry. |
+| Archived Session [10](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) readings | TIME on Sama / Kenya, Data Workers' Inquiry. |
 
 
 

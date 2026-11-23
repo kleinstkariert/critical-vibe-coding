@@ -24,7 +24,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Install order + first week (*optional extension*) | [`course/START-HERE.md`](course/START-HERE.md) |
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
-| Weekly session notes | [`course/_sessions-tmp/`](course/_sessions-tmp/) |
+| Weekly session notes | [`course/SESSIONS/`](course/SESSIONS/) |
 | References & readings | [`course/syllabus/references.md`](course/syllabus/references.md) |
 | Prompting + choosing models | [`course/setup/Prompting Guide for Critical Vibe Coding.md`](course/setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 
@@ -45,7 +45,7 @@ The tool names in this map are a *demonstration*. They are *not required for ass
 | 7 | *To be decided* (proposal: coding with agents across creative stacks) | Privacy: what happens with the data? |
 | 8 | **Final** presentations (*proposal*) | |
 
-Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) · cut sessions of the earlier 13-session plan: [`course/_sessions-tmp/archive-13-session-plan/`](course/_sessions-tmp/archive-13-session-plan/README.md)
+Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) · cut sessions of the earlier 13-session plan: [`course/SESSIONS/archive-13-session-plan/`](course/SESSIONS/archive-13-session-plan/README.md)
 
 ---
 

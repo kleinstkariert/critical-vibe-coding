@@ -54,7 +54,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 | **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · Austrian academic access: [academic ai austria](../../setup/academic-ai-austria.md) · local hardware: [howto local llm hardware](../../setup/howto-local-llm-hardware.md) |
 
-| **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [what is harness](../../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) |
+| **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [what is harness](../../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
 
 
 
@@ -298,7 +298,7 @@ Three points to take away:
 
 2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([llm wiki standard files](../../setup/llm-wiki-standard-files.md)).
 
-3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../_sessions-tmp/03-hardware-open-models-prompting.md) · [howto local llm hardware](../../setup/howto-local-llm-hardware.md).
+3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../../setup/howto-local-llm-hardware.md).
 
 
 
@@ -388,7 +388,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 
 
-Next session: Karpathy and the harness, after the flattening input, then the Hermes install ([02 agent harness and wiki architecture](../../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) · [course rhythm](../../syllabus/course-rhythm.md)).
+Next session: Karpathy and the harness, after the flattening input, then the Hermes install ([02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [course rhythm](../../syllabus/course-rhythm.md)).
 
 
 

@@ -13,7 +13,7 @@ canonical: false
 
 # Comparison — un/learn / KITeGG vs Critical Vibe Coding
 
-**CVC anchors:** `course/lectures/01-welcome-landscape-lecture.md`, `course/_sessions-tmp/01-welcome-and-landscape.md`, `course/syllabus/course-outline.md`, `course/setup/howto-local-llm-hardware.md`  
+**CVC anchors:** `course/lectures/01-welcome-landscape-lecture.md`, `course/SESSIONS/01-welcome-and-landscape.md`, `course/syllabus/course-outline.md`, `course/setup/howto-local-llm-hardware.md`  
 **KITeGG anchors:** three *un/learn ai* PDFs + https://unlearn.gestaltung.ai/ + articles `xeci6a49`, `2gtmc7uq` (this folder)
 
 ## Shared ground (not “different”)

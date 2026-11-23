@@ -20,7 +20,7 @@ Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs H
 
 Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
 
-Related: [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
+Related: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
 
 ---
 

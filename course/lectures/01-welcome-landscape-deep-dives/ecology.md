@@ -20,7 +20,7 @@ canonical: true
 
 
 
-Block 5 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../_sessions-tmp/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](../../_sessions-tmp/archive-13-session-plan/11-local-ecology-when-not.md). This note is the Session 01 version with the facts students should hear on day one.
+Block 5 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../SESSIONS/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). This note is the Session 01 version with the facts students should hear on day one.
 
 
 
@@ -216,7 +216,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 - Students in Austria mostly use models served from US clusters. The carbon is global; the water and smog stay in Texas, Virginia or Arizona.
 
-- Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [default setup](default-setup.md) §4. Sessions [03](../../_sessions-tmp/03-hardware-open-models-prompting.md) and [06](../../_sessions-tmp/06-agent-as-interface.md).
+- Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [default setup](default-setup.md) §4. Sessions [03](../../SESSIONS/03-hardware-open-models-prompting.md) and [06](../../SESSIONS/06-agent-as-interface.md).
 
 
 

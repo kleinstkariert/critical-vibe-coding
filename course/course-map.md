@@ -33,12 +33,12 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Session 02. Agent harness and Hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
 | [Session 02 slideshow (Obsidian Slides)](lectures/02-agent-harness-slideshow/README.md) | current | true |
 | [Minimum path](minimum-path.md) | current | true |
-| [Session 01. Welcome and landscape](_sessions-tmp/01-welcome-and-landscape.md) | current | true |
-| [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](_sessions-tmp/02-agent-harness-and-wiki-architecture.md) | current | true |
-| [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](_sessions-tmp/03-hardware-open-models-prompting.md) | current | true |
-| [Session 04. Project presentations and semester plans (midpoint)](_sessions-tmp/04-project-presentations-and-plans.md) | current | true |
-| [Session 05. Vault practice, phone sync, Discord bridge, MCP](_sessions-tmp/05-knowledge-base-phone-discord.md) | current | true |
-| [Session 06. Agent as interface, as material, as canvas](_sessions-tmp/06-agent-as-interface.md) | current | true |
+| [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
+| [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
+| [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-hardware-open-models-prompting.md) | current | true |
+| [Session 04. Project presentations and semester plans (midpoint)](SESSIONS/04-project-presentations-and-plans.md) | current | true |
+| [Session 05. Vault practice, phone sync, Discord bridge, MCP](SESSIONS/05-knowledge-base-phone-discord.md) | current | true |
+| [Session 06. Agent as interface, as material, as canvas](SESSIONS/06-agent-as-interface.md) | current | true |
 | [Academic AI in Austria — access for this course](setup/academic-ai-austria.md) | current | true |
 | [Template. AGENTS.md for student projects](setup/agents-md-template.md) | current | true |
 | [How-to. Hermes Docker sandbox click-path](setup/howto-hermes-docker-sandbox.md) | current | true |
@@ -76,16 +76,16 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Session 06 — MCP and tools](_sessions-tmp/archive-13-session-plan/06-mcp-and-tools.md) | deprecated | false |
-| [Session 10 — Authorship, labour, platforms](_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md) | deprecated | false |
-| [Session 11 - Local, ecology, when not](_sessions-tmp/archive-13-session-plan/11-local-ecology-when-not.md) | deprecated | false |
-| [Archive of the 13-session plan](_sessions-tmp/archive-13-session-plan/README.md) | deprecated | false |
+| [Session 06 — MCP and tools](SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) | deprecated | false |
+| [Session 10 — Authorship, labour, platforms](SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) | deprecated | false |
+| [Session 11 - Local, ecology, when not](SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md) | deprecated | false |
+| [Archive of the 13-session plan](SESSIONS/archive-13-session-plan/README.md) | deprecated | false |
 
 ## Other student pages
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Session 07. Coding with agents across creative stacks (proposal)](_sessions-tmp/07-coding-and-creative-stacks.md) | proposal | true |
-| [Session 08. Final presentations and closing check-in (proposal)](_sessions-tmp/08-final-presentations.md) | proposal | true |
+| [Session 07. Coding with agents across creative stacks (proposal)](SESSIONS/07-coding-and-creative-stacks.md) | proposal | true |
+| [Session 08. Final presentations and closing check-in (proposal)](SESSIONS/08-final-presentations.md) | proposal | true |
 
 Research notes are listed in [the research index](../research/README.md).

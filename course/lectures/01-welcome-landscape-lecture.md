@@ -17,7 +17,7 @@ canonical: true
 
 
 
-Speaker notes for Part B of [01 welcome and landscape](../_sessions-tmp/01-welcome-and-landscape.md). The outdoor check-in (Part A) stays in that file.
+Speaker notes for Part B of [01 welcome and landscape](../SESSIONS/01-welcome-and-landscape.md). The outdoor check-in (Part A) stays in that file.
 
 
 
@@ -237,7 +237,7 @@ After the vocabulary, the black and white **agentic AI loop** Sebastian chose: *
 
 
 
-Full explanation: [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3. Hardware: Session [03](../_sessions-tmp/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
+Full explanation: [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3. Hardware: Session [03](../SESSIONS/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
 
 
 
@@ -435,7 +435,7 @@ Your subscription costs about €20 a month. Who pays the rest? If the bubble bu
 
 
 
-High priority. **Deep dive:** [ecology](01-welcome-landscape-deep-dives/ecology.md). Student input on the ecology of AI: Session [06](../_sessions-tmp/06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../_sessions-tmp/archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md).
+High priority. **Deep dive:** [ecology](01-welcome-landscape-deep-dives/ecology.md). Student input on the ecology of AI: Session [06](../SESSIONS/06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md).
 
 
 
@@ -485,7 +485,7 @@ Would you accept a data centre in your own district? On what conditions?
 
 
 
-High priority. **Deep dive:** [labour](01-welcome-landscape-deep-dives/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
+High priority. **Deep dive:** [labour](01-welcome-landscape-deep-dives/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
 
 
 
@@ -595,7 +595,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../setup/academic-ai-austria.md) · local later: [howto local llm hardware](../setup/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](01-welcome-landscape-deep-dives/default-setup.md) §4).
 
-5. **Harness** (next session): [what is harness](../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../concepts/what-is-mcp.md) · checking the wiki: [what is lint](../concepts/what-is-lint.md).
+5. **Harness** (next session): [what is harness](../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../concepts/what-is-mcp.md) · checking the wiki: [what is lint](../concepts/what-is-lint.md).
 
 
 

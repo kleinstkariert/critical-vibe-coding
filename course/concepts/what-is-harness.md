@@ -11,7 +11,7 @@ canonical: true
 
 # What is an agent harness?
 
-Course concept note for session [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md).  
+Course concept note for session [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md).  
 Primary external text: [LangChain — *The Anatomy of an Agent Harness*](https://www.langchain.com/blog/the-anatomy-of-an-agent-harness) (Trivedy, 2026-03-10).
 
 ## One line

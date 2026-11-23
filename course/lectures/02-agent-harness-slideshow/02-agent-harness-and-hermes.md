@@ -658,7 +658,7 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 - [Local LLM Coding with Hermes](../../setup/Local%20LLM%20Coding%20with%20Hermes.md) · [howto hermes setup](../../setup/howto-hermes-setup.md) · [howto hermes efficient coding](../../setup/howto-hermes-efficient-coding.md)
 - [what is harness](../../concepts/what-is-harness.md) · [what is mcp](../../concepts/what-is-mcp.md) · [academic ai austria](../../setup/academic-ai-austria.md) · [howto local llm hardware](../../setup/howto-local-llm-hardware.md)
 - Karpathy LLM Wiki gist · LangChain harness anatomy
-- Session: [02 agent harness and wiki architecture](../../_sessions-tmp/02-agent-harness-and-wiki-architecture.md)
+- Session: [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md)
 - Comparison: [hermes vs coding agents](../../concepts/hermes-vs-coding-agents.md) · OpenCode: [howto opencode setup](../../setup/howto-opencode-setup.md) · [howto hermes opencode pairing](../../setup/howto-hermes-opencode-pairing.md)
 - Desktop: https://hermes-agent.nousresearch.com/desktop
 - CSS: `cvc-slides.css` (vault snippet)

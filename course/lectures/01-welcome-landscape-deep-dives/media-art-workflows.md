@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../_sessions-tmp/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../_sessions-tmp/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../_sessions-tmp/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](flattening-and-the-norm.md) (student input, Session 02).
+Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](flattening-and-the-norm.md) (student input, Session 02).
 
 
 
@@ -89,11 +89,11 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 
 
-*course position:* In this course the agent setup is artistic material, not only a means to produce outputs. An agent's interface is what you can ask, what it can touch, what it must refuse, and how it remembers. The schema file is the one place where the character of the agent is written down (Session [06](../../_sessions-tmp/06-agent-as-interface.md)).
+*course position:* In this course the agent setup is artistic material, not only a means to produce outputs. An agent's interface is what you can ask, what it can touch, what it must refuse, and how it remembers. The schema file is the one place where the character of the agent is written down (Session [06](../../SESSIONS/06-agent-as-interface.md)).
 
 
 
-- Choosing which tools to connect and which to leave out is designing the agent's interface (Session [05](../../_sessions-tmp/05-knowledge-base-phone-discord.md)).
+- Choosing which tools to connect and which to leave out is designing the agent's interface (Session [05](../../SESSIONS/05-knowledge-base-phone-discord.md)).
 
 - *unverified lead (course survey, 2026-10):* Node canvases such as Figma Weave and FLORA turn AI workflows into graphs. The open question is who owns the graph.
 
@@ -141,17 +141,17 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 |---|---|---|
 
-| **Provenance note** | A short `provenance.md` per project, written by you: which model, which tools, who decided (how), who was paid, where it ran (local, cloud...). | [04](../../_sessions-tmp/04-project-presentations-and-plans.md), final in [08](../../_sessions-tmp/08-final-presentations.md) |
+| **Provenance note** | A short `provenance.md` per project, written by you: which model, which tools, who decided (how), who was paid, where it ran (local, cloud...). | [04](../../SESSIONS/04-project-presentations-and-plans.md), final in [08](../../SESSIONS/08-final-presentations.md) |
 
-| **Interface score** | One page: the agent's roles, tools, memory and taboos. Compare it with the real schema and tool list. | [06](../../_sessions-tmp/06-agent-as-interface.md) |
+| **Interface score** | One page: the agent's roles, tools, memory and taboos. Compare it with the real schema and tool list. | [06](../../SESSIONS/06-agent-as-interface.md) |
 
-| **Human-only pages** | Your artistic voice lives in pages the agent may read but not write. Set this in the schema. | [05](../../_sessions-tmp/05-knowledge-base-phone-discord.md) |
+| **Human-only pages** | Your artistic voice lives in pages the agent may read but not write. Set this in the schema. | [05](../../SESSIONS/05-knowledge-base-phone-discord.md) |
 
-| **Cloud versus local** | Run the same task on a cloud model and a local one. Log tokens, time, quality, and where the cloud call probably ran. | [03](../../_sessions-tmp/03-hardware-open-models-prompting.md) |
+| **Cloud versus local** | Run the same task on a cloud model and a local one. Log tokens, time, quality, and where the cloud call probably ran. | [03](../../SESSIONS/03-hardware-open-models-prompting.md) |
 
-| **Refusal week** (optional, off the slide) | Give up one convenient cloud feature for a week. Write down what it cost you and what you gained. | archived: [old 11](../../_sessions-tmp/archive-13-session-plan/11-local-ecology-when-not.md) |
+| **Refusal week** (optional, off the slide) | Give up one convenient cloud feature for a week. Write down what it cost you and what you gained. | archived: [old 11](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md) |
 
-| **Kill switch** | A rule in the schema that stops the agent, and a checklist of when AI is unnecessary. | [06](../../_sessions-tmp/06-agent-as-interface.md) |
+| **Kill switch** | A rule in the schema that stops the agent, and a checklist of when AI is unnecessary. | [06](../../SESSIONS/06-agent-as-interface.md) |
 
 
 
