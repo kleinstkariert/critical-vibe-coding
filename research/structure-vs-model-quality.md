@@ -15,7 +15,7 @@ Claim circulating in the course: *the information structure around an agent matt
 Domain: mainly **software engineering / coding agents**, with supporting RAG results.  
 Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *nuance / caveat* | *technical suggestion*.
 
-Course home for this argument: [[../course/concepts/what-is-harness]] · session [[../course/sessions/02-agent-harness-and-wiki-architecture]].
+Course home for this argument: [[../course/concepts/what-is-harness]] · session [[../course/_sessions-tmp/02-agent-harness-and-wiki-architecture]].
 
 ---
 
