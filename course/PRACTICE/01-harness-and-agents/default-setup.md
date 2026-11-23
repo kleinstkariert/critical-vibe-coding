@@ -388,7 +388,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 
 
-Next session: Karpathy and the harness, after the flattening input, then the Hermes install ([02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [course rhythm](../../syllabus/course-rhythm.md)).
+Next session: Karpathy and the harness, after the flattening input, then the Hermes install ([02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [course rhythm](../../SESSIONS/overview/course-rhythm.md)).
 
 
 

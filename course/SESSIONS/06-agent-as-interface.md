@@ -9,7 +9,7 @@ canonical: true
 
 # Session 06. The agent as interface, as material, as canvas
 
-Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 **Slot:** 10:00 to 12:00.
 
@@ -25,14 +25,14 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
-| **10:20 to 10:35** | Student input: **the ecology of AI** ([course rhythm](../syllabus/course-rhythm.md)) |
+| **10:20 to 10:35** | Student input: **the ecology of AI** ([course rhythm](overview/course-rhythm.md)) |
 | **10:35 to 10:55** | Teacher: agent as interface, material, canvas + examples |
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | Sketch: how *your* setup enters a project; interface score |
 
 ## Check-in
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session).
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session).
 
 ## Student input (theory / humanities): The ecology of AI
 
@@ -60,7 +60,7 @@ Prompts for discussion and mini-lecture:
 | [HM Munich / MUC.DAI, Our Br00d: Agentic AI in Artistic Research](https://mediapool.hm.edu/media/dachmarke/dm_lokal/hm_international/sprachen/coursesinenglish_1/courses_in_english_ss_26/muc_dai_5/CiE_Kursbeschreibung_Our_Br00d_Technical_Development_of_Agentic_AI_in_Artistic_Research_Geaendert.pdf) | Agent as social actor; the infrastructure choice (cloud → local/open) framed as an *artistic* decision |
 | [SFPC, Handmade Datasets](https://sfpc.study/sessions/summer-26/handmade-datasets) (optional) | A small, cared-for knowledge base as counter-practice; consent and scale as part of the work |
 
-Full mapping in [timeline](../syllabus/timeline.md).
+Full mapping in [timeline](overview/timeline.md).
 
 ## Practical / workshop
 

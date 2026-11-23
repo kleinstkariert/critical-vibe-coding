@@ -11,7 +11,7 @@ canonical: true
 
 *optional extension. Not required for assessment.* Phone sync, Discord, and MCP are not required. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The input on how dangerous AI is is required.
 
-Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 **Slot:** 10:00 to 12:00.
 
@@ -27,7 +27,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
-| **10:20 to 10:35** | Student input: **how dangerous is AI really?** ([course rhythm](../syllabus/course-rhythm.md)) |
+| **10:20 to 10:35** | Student input: **how dangerous is AI really?** ([course rhythm](overview/course-rhythm.md)) |
 | **10:35 to 10:55** | Teacher: personalisation / SCHEMA / lint cycle, then MCP basics |
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | Phone sync + Discord practical, then one MCP server |
@@ -36,7 +36,7 @@ Phone, Discord and MCP in one practical is a lot. Split: everyone does phone syn
 
 ## Check-in
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session). Sync blockers can appear in the AI answer.
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session). Sync blockers can appear in the AI answer.
 
 ## Student input (theory / humanities): How dangerous is AI really?
 

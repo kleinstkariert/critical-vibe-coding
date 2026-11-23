@@ -16,7 +16,7 @@ canonical: true
 
 
 
-Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 
 
@@ -52,7 +52,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 
 | **10:00 to 10:20** | Check-in (listen only) |
 
-| **10:20 to 10:35** | Student input: **privacy: what happens with the data?** ([course rhythm](../syllabus/course-rhythm.md)) |
+| **10:20 to 10:35** | Student input: **privacy: what happens with the data?** ([course rhythm](overview/course-rhythm.md)) |
 
 | **10:35 to 10:55** | Teacher: coding with agents; translation problems across stacks |
 
@@ -66,7 +66,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 
 
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session).
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session).
 
 
 

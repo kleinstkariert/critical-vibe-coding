@@ -63,7 +63,7 @@ claim_scope: exact | paraphrase | interpretation
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
 Course how-to (Win / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)  
-Short syllabus sheet: [course outline](../syllabus/course-outline.md)  
+Short syllabus sheet: [course outline](../SESSIONS/overview/course-outline.md)  
 What is a harness: [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)  
 Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
 Academic AI Austria: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)  
@@ -154,11 +154,11 @@ Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critica
 | NYU IMA Chatbots for Art’s Sake | https://itp.nyu.edu/ima_course_listings/chatbots-for-arts-sake/ |
 | Gray Area Creative Code Intensive | https://grayarea.org/course/creative-code-intensive/ |
 
-Full mapping: [timeline](../syllabus/timeline.md)
+Full mapping: [timeline](../SESSIONS/overview/timeline.md)
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](../syllabus/course-rhythm.md)).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](../SESSIONS/overview/course-rhythm.md)).
 
 ## Agent harness
 

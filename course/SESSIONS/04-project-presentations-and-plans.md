@@ -11,7 +11,7 @@ canonical: true
 
 The presentation is required. Show the system in [minimum path](../PROJECT-WORK/minimum-path.md): knowledge store, access boundary, model endpoint, tool set, verification method, and provenance. Hermes, a wiki file set, and lint are a *reference implementation*. They are *not required for assessment*.
 
-Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 **Slot:** 10:00 to 12:00. Presentations dominate; no student input this session.
 
@@ -32,7 +32,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 
 ## Check-in
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session). Then timebox rules for the presentations.
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session). Then timebox rules for the presentations.
 
 ## Format (suggested)
 
@@ -44,7 +44,7 @@ Per student (about 5 to 8 min including feedback, for about 20 students):
 4. **Lint report** (optional at this point): the most recent lint entry in `log.md`, or why lint is still pending. What lint is and is not: [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md).
 5. **Peer notes:** one strength, one risk, one question.
 
-Inspired by the [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) midterm proposal review pattern ([timeline](../syllabus/timeline.md)).
+Inspired by the [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) midterm proposal review pattern ([timeline](overview/timeline.md)).
 
 With about 20 students, 5 to 8 minutes each fills the session. If the group is larger, parallel rooms or shorter slots may be needed.
 

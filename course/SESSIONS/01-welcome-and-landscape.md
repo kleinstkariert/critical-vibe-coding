@@ -13,7 +13,7 @@ This session introduces a personal manifesto: how you want to use AI in your pra
 The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. Sebastian will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
 The input-topic choice is required.
 
-Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 **Slot:** 10:00 to 12:00 (120 min). Break about 5 to 10 min when the room needs it.
 
@@ -38,7 +38,7 @@ Buffer is intentional: cut lecture depth before cutting the check-in.
 
 ## Part A: Intro / opener check-in
 
-**Standing course check-in** (also used indoors from Session 02; listen only, 30 to 60 s per person; full rules [course rhythm](../syllabus/course-rhythm.md)):
+**Standing course check-in** (also used indoors from Session 02; listen only, 30 to 60 s per person; full rules [course rhythm](overview/course-rhythm.md)):
 
 1. How was your morning?
 2. What did you do with AI since we last met, and how was that experience?
@@ -97,7 +97,7 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 
 ## Student inputs: choose a topic
 
-Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic) · [course rhythm](../syllabus/course-rhythm.md).
+Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic) · [course rhythm](overview/course-rhythm.md).
 
 | Session | Topic |
 |---|---|
@@ -114,14 +114,14 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 - Note which LLM access you already have
 - Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([references](../REFERENCES/bibliography.md)). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 - Choose your student-input group and session
-- Next: Karpathy and the **harness**, after the flattening input; Hermes install in class: [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [course rhythm](../syllabus/course-rhythm.md)
+- Next: Karpathy and the **harness**, after the flattening input; Hermes install in class: [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [course rhythm](overview/course-rhythm.md)
 
 ## Materials
 
 - Lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
 - Deep dives: [bubble economy](../THEORY/01-political-economy/bubble-economy.md) · [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [labour](../THEORY/02-labour-authorship/labour.md) · [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md)
 - Deck: `course/lectures/01-welcome-landscape-slideshow/`
-- [00 brief](../syllabus/00-brief.md) · [course outline](../syllabus/course-outline.md) · [course rhythm](../syllabus/course-rhythm.md)
+- [00 brief](overview/00-brief.md) · [course outline](overview/course-outline.md) · [course rhythm](overview/course-rhythm.md)
 - [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md)
 - [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)
 - [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md)

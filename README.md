@@ -22,8 +22,8 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | What you must do | [`course/PROJECT-WORK/minimum-path.md`](course/PROJECT-WORK/minimum-path.md) |
 | Install order + first week (*optional extension*) | [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
-| Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
-| Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
+| Short syllabus / session map | [`course/SESSIONS/overview/course-outline.md`](course/SESSIONS/overview/course-outline.md) |
+| Full timeline + milestones | [`course/SESSIONS/overview/timeline.md`](course/SESSIONS/overview/timeline.md) |
 | Weekly session notes | [`course/SESSIONS/`](course/SESSIONS/) |
 | References & readings | [`course/REFERENCES/bibliography.md`](course/REFERENCES/bibliography.md) |
 | Prompting + choosing models | [`course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md`](course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
@@ -45,7 +45,7 @@ The tool names in this map are a *demonstration*. They are *not required for ass
 | 7 | *To be decided* (proposal: coding with agents across creative stacks) | Privacy: what happens with the data? |
 | 8 | **Final** presentations (*proposal*) | |
 
-Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) · cut sessions of the earlier 13-session plan: [`course/SESSIONS/archive-13-session-plan/`](course/SESSIONS/archive-13-session-plan/README.md)
+Details: [`course/SESSIONS/overview/timeline.md`](course/SESSIONS/overview/timeline.md) · [`course/SESSIONS/overview/course-outline.md`](course/SESSIONS/overview/course-outline.md) · cut sessions of the earlier 13-session plan: [`course/SESSIONS/archive-13-session-plan/`](course/SESSIONS/archive-13-session-plan/README.md)
 
 ---
 
@@ -102,7 +102,7 @@ Patterns from theory + practice digital-art / AI seminars (not copies):
 - [HKUST AMCC5170 — Interactive Visual Art with Generative Models](https://amc.hkust.edu.hk/upload/2025-26%20Spring%20Course%20Info/26Spring_AMCC5170_Outline.pdf) — generative tooling → agents → ethics  
 - [UCLA — Cultural Automation with ML II](https://pkmital.com/home/teaching/ucla-cultural-automation-with-machine-learning-ii/) — theory + generative agents labs  
 - [SFPC — Handmade Datasets](https://sfpc.study/sessions/summer-26/handmade-datasets) — small cared-for knowledge as practice  
-- More in [`course/syllabus/timeline.md`](course/syllabus/timeline.md)
+- More in [`course/SESSIONS/overview/timeline.md`](course/SESSIONS/overview/timeline.md)
 
 ---
 

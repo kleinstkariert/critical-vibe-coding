@@ -11,7 +11,7 @@ canonical: true
 
 *reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
 
-Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 First **practice** session after Session 01. A student group opens with the **flattening** input; harness, wiki structure, model landscape and the Hermes install are the teacher's. Prompting and chat versus reasoning: Session 03. Phone, Discord and MCP: Session 05.
 
@@ -31,7 +31,7 @@ First **practice** session after Session 01. A student group opens with the **fl
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
-| **10:20 to 10:35** | Student input: **flattening** ([course rhythm](../syllabus/course-rhythm.md)) |
+| **10:20 to 10:35** | Student input: **flattening** ([course rhythm](overview/course-rhythm.md)) |
 | **10:35 to 10:55** | Teacher: harness (general), then LLM Wiki / store structure |
 | **10:55 to 11:05** | Break |
 | **11:05 to 11:15** | Teacher: model landscape and the free-to-use endpoint |
@@ -41,7 +41,7 @@ If the install runs long, the diagram practice moves to homework.
 
 ## Check-in
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session).
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session).
 
 ## Student input (theory / humanities): Flattening
 

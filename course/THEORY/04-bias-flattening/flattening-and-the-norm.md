@@ -232,7 +232,7 @@ The student group should test the thesis, not only repeat it.
 
 
 
-For the Session 02 pair or group (see [course rhythm](../../syllabus/course-rhythm.md)):
+For the Session 02 pair or group (see [course rhythm](../../SESSIONS/overview/course-rhythm.md)):
 
 
 

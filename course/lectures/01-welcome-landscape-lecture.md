@@ -103,7 +103,7 @@ A third thread runs through both: **the agent as interface**. The setup itself i
 
 
 
-The course has **eight sessions** ([course outline](../syllabus/course-outline.md)). Midpoint in Session 4 (demo your setup and a short proposal), final in Session 8 (architecture, one real use, a short reflection). No polished exhibition is expected by default.
+The course has **eight sessions** ([course outline](../SESSIONS/overview/course-outline.md)). Midpoint in Session 4 (demo your setup and a short proposal), final in Session 8 (architecture, one real use, a short reflection). No polished exhibition is expected by default.
 
 
 
@@ -619,7 +619,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-Groups of four (or two pairs) pick one session by next week. Each input runs about 15 minutes at the start of the session, followed by discussion. Sessions 04 and 08 have no input (project presentations and finals). Rhythm and grading weight: [course rhythm](../syllabus/course-rhythm.md).
+Groups of four (or two pairs) pick one session by next week. Each input runs about 15 minutes at the start of the session, followed by discussion. Sessions 04 and 08 have no input (project presentations and finals). Rhythm and grading weight: [course rhythm](../SESSIONS/overview/course-rhythm.md).
 
 
 

@@ -16,7 +16,7 @@ The final presentation is required. Show the system in [minimum path](../PROJECT
 
 
 
-Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 
 
@@ -64,7 +64,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 
 
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session). What shifted since Session 01?
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session). What shifted since Session 01?
 
 
 
@@ -112,7 +112,7 @@ Not a polished exhibition by default. Students who chose research instead of AI 
 
 |---|---|
 
-| Final deliverable | [timeline](../syllabus/timeline.md#midpoint-and-final) |
+| Final deliverable | [timeline](overview/timeline.md#midpoint-and-final) |
 
 | Standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 

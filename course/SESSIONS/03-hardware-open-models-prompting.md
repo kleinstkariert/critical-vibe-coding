@@ -11,7 +11,7 @@ canonical: true
 
 *advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
 
-Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
+Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
 After the Hermes install in Session 02. **Buying hardware is optional**: this session teaches *how*, so students can choose later. Prompting and chat versus reasoning are in this session.
 
@@ -30,14 +30,14 @@ After the Hermes install in Session 02. **Buying hardware is optional**: this se
 | Clock | Block |
 |---|---|
 | **10:00 to 10:20** | Check-in (listen only) |
-| **10:20 to 10:35** | Student input: **closed versus open weights as power** ([course rhythm](../syllabus/course-rhythm.md)) |
+| **10:20 to 10:35** | Student input: **closed versus open weights as power** ([course rhythm](overview/course-rhythm.md)) |
 | **10:35 to 10:55** | Teacher: memory math + hardware paths, then prompting and chat versus reasoning |
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | Practical tracks A/B/C below, plus one thinking on/off comparison |
 
 ## Check-in
 
-Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-session).
+Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session).
 
 ## Student input (theory / humanities): Closed versus open weights as power
 

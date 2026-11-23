@@ -54,12 +54,12 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Verified coding](PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md) | current | true |
 | [Prompting Guide for Critical Vibe Coding](PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md) | current | true |
 | [START HERE — Critical Vibe Coding](PRACTICE/install-order-and-first-week.md) | current | true |
-| [Critical Vibe Coding — seminar brief](syllabus/00-brief.md) | current | true |
-| [Critical Vibe Coding. Course outline](syllabus/course-outline.md) | current | true |
-| [Course rhythm. Check-in, student inputs, time budget](syllabus/course-rhythm.md) | current | true |
+| [Critical Vibe Coding — seminar brief](SESSIONS/overview/00-brief.md) | current | true |
+| [Critical Vibe Coding. Course outline](SESSIONS/overview/course-outline.md) | current | true |
+| [Course rhythm. Check-in, student inputs, time budget](SESSIONS/overview/course-rhythm.md) | current | true |
 | [Curated links from vault clippings](REFERENCES/primary-sources.md) | current | true |
 | [Critical Vibe Coding — references](REFERENCES/bibliography.md) | current | true |
-| [Critical Vibe Coding. Course timeline](syllabus/timeline.md) | current | true |
+| [Critical Vibe Coding. Course timeline](SESSIONS/overview/timeline.md) | current | true |
 | [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [EU AI Act and Datenschutz (Austria)](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | current | true |
 | [Drivers, visions, fears, regulation — 10–15 min talk](THEORY/06-danger-and-risk/visions-fears-regulation.md) | current | true |

@@ -14,7 +14,7 @@ canonical: true
 [Potential Structure Change](../teacher/potential-structure-change.md)
 
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
-This page is the on-ramp. The generated list of current pages is the [course map](../course-map.md). Everything else hangs off the [course outline](../syllabus/course-outline.md) and [session notes](../SESSIONS/).
+This page is the on-ramp. The generated list of current pages is the [course map](../course-map.md). Everything else hangs off the [course outline](../SESSIONS/overview/course-outline.md) and [session notes](../SESSIONS/).
 
 ## What you must do
 
@@ -57,7 +57,7 @@ Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you 
 
 *reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](../PROJECT-WORK/minimum-path.md).
 
-The course has **eight sessions**: [course-outline.md](../syllabus/course-outline.md).
+The course has **eight sessions**: [course-outline.md](../SESSIONS/overview/course-outline.md).
 
 1. Knowledge store with **phone sync**: default Obsidian; **alternatives allowed** → [knowledge-store-options.md](02-knowledge-bases/knowledge-store-options.md) · [howto-obsidian-setup-and-sync.md](02-knowledge-bases/howto-obsidian-setup-and-sync.md)  
 2. Note which **LLM access** you already have. Campus academic AI has **no API for agents** → [academic-ai-austria.md](03-models-and-providers/academic-ai-austria.md)  
@@ -68,7 +68,7 @@ The course has **eight sessions**: [course-outline.md](../syllabus/course-outlin
 
 Keep API keys out of synced notes.
 
-**Every class:** 10:00 to 12:00; listen-only check-in (morning + AI since last met). In sessions 2, 3, 5, 6 and 7: one student group (~15 min) on a **humanities** question (topics chosen in session 1); see [course-rhythm.md](../syllabus/course-rhythm.md).
+**Every class:** 10:00 to 12:00; listen-only check-in (morning + AI since last met). In sessions 2, 3, 5, 6 and 7: one student group (~15 min) on a **humanities** question (topics chosen in session 1); see [course-rhythm.md](../SESSIONS/overview/course-rhythm.md).
 
 ---
 
@@ -77,15 +77,15 @@ Keep API keys out of synced notes.
 | Question | Go to |
 |---|---|
 | What must I do? | [../PROJECT-WORK/minimum-path.md](../PROJECT-WORK/minimum-path.md) |
-| What happens each week? | [timeline.md](../syllabus/timeline.md) · [course-outline.md](../syllabus/course-outline.md) · [../SESSIONS/](../SESSIONS/) |
-| Midpoint / final deliverables? | [timeline.md](../syllabus/timeline.md) (milestones) |
+| What happens each week? | [timeline.md](../SESSIONS/overview/timeline.md) · [course-outline.md](../SESSIONS/overview/course-outline.md) · [../SESSIONS/](../SESSIONS/) |
+| Midpoint / final deliverables? | [timeline.md](../SESSIONS/overview/timeline.md) (milestones) |
 | Readings & links? | [references.md](../REFERENCES/bibliography.md) · [links-from-clippings.md](../REFERENCES/primary-sources.md) |
 | AI and critical thinking / brains? | [../../research/ai-brains-critical-thinking.md](../../research/ai-brains-critical-thinking.md) |
 | Drivers / visions / fears (Session 01 talk)? | [visions-fears-regulation.md](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | AI and jobs (tide / early career / junior gains)? | [../../research/ai-jobs-rising-tide-productivity.md](../../research/ai-jobs-rising-tide-productivity.md) |
 | EU AI Act, and GDPR (separate topics)? | [eu-ai-act-and-datenschutz.md#decision-questions](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Local GPU / Mac / DGX / multi-GPU (Session 03)? | [../../research/local-gpu-hardware-for-llms.md](../../research/local-gpu-hardware-for-llms.md) · [howto-local-llm-hardware.md](04-local-and-cloud/howto-local-llm-hardware.md) |
-| Check-in + student input schedule? | [course-rhythm.md](../syllabus/course-rhythm.md) |
+| Check-in + student input schedule? | [course-rhythm.md](../SESSIONS/overview/course-rhythm.md) |
 | Data centres / energy / ecology (Session 01, input Session 06)? | [../../research/data-centers-energy-ecology-economy.md](../../research/data-centers-energy-ecology-economy.md) |
 | MCP / CAD tools? | [what-is-mcp.md](06-mcp-and-tools/what-is-mcp.md) · [../SESSIONS/05-knowledge-base-phone-discord.md](../SESSIONS/05-knowledge-base-phone-discord.md) · CAD/3D table: [../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md](../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) |
 | AI bubble / CapEx finance? | [../../research/ai-bubble-productivity-datacenter.md](../../research/ai-bubble-productivity-datacenter.md) |
