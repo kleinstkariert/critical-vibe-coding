@@ -49,7 +49,7 @@ Group (about 15 min). Thesis to test: **AI kills the underground and it kills di
 
 Flattening is not only taste or style moving toward the popular voice. A statistical model reproduces what is shown most online, so it generates an average of the most displayed content, not of reality. That average becomes a norm, skewed toward the most visible: male, English-speaking, young, commercial. Include **AI and patriarchy** and **feminism and AI**.
 
-Deep dive and sources: [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md). Not "what is a harness".
+Deep dive and sources: [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md). Not "what is a harness".
 
 ## Teacher input, Part A: Harness (general), *practice*
 
@@ -159,7 +159,7 @@ Ten minutes, honest access notes:
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
 - **Local**: preview only. Hardware paths and memory math: Session [03](03-hardware-open-models-prompting.md).
 - **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [academic ai austria](../setup/academic-ai-austria.md). Say explicitly what students can and cannot use.
-- Cloud or local, where the notes go: the flowchart in [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §3. Privacy and AI Act pointer: [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
+- Cloud or local, where the notes go: the flowchart in [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §3. Privacy and AI Act pointer: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 
 ### The free-to-use endpoint for today
 
@@ -207,6 +207,6 @@ If the install fails, label Model versus Harness on a product the student alread
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
 | Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [academic ai austria](../setup/academic-ai-austria.md) |
-| Flattening deep dive (student input) | [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) |
+| Flattening deep dive (student input) | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 | Session 01 lecture (model versus product versus agent) | [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
 | Presentation style | [presentation style](../presentation-style.md) |

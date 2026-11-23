@@ -41,7 +41,7 @@ Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-sessi
 
 ## Student input (theory / humanities): Closed versus open weights as power
 
-Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md) §10). **Not** a GPU shopping list.
+Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10). **Not** a GPU shopping list.
 
 ## Teacher input, Part A: hardware (~10 min), *practice*
 

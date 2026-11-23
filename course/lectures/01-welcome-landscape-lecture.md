@@ -55,15 +55,15 @@ Part B runs about **11:00 to 11:55** inside the 10:00 to 12:00 slot. Short Q&A a
 
 | 2 | What LLMs and agents are | 8 | medium | this file · [what is harness](../concepts/what-is-harness.md) · [what is mcp](../concepts/what-is-mcp.md) · [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3 |
 
-| 3 | Drivers, visions, fears, regulation | 8 | **high** | [visions fears regulation](../topics/visions-fears-regulation.md) · law: [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md) |
+| 3 | Drivers, visions, fears, regulation | 8 | **high** | [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · law: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) |
 
-| 4 | Economy and the AI bubble | 12 | **high** | [bubble economy](01-welcome-landscape-deep-dives/bubble-economy.md) |
+| 4 | Economy and the AI bubble | 12 | **high** | [bubble economy](../THEORY/01-political-economy/bubble-economy.md) |
 
-| 5 | Ecology | 6 | **high** | [ecology](01-welcome-landscape-deep-dives/ecology.md) |
+| 5 | Ecology | 6 | **high** | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) |
 
-| 6 | Labour | 8 | **high** | [labour](01-welcome-landscape-deep-dives/labour.md) |
+| 6 | Labour | 8 | **high** | [labour](../THEORY/02-labour-authorship/labour.md) |
 
-| 7 | Media-art workflows | 4 | medium | [media art workflows](01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](01-welcome-landscape-deep-dives/flattening-and-the-norm.md) |
+| 7 | Media-art workflows | 4 | medium | [media art workflows](01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
 | 8 | Default setup | 6 | practical | [default setup](01-welcome-landscape-deep-dives/default-setup.md) |
 
@@ -285,7 +285,7 @@ Has anyone used an agent that edits files, not only a chat? Where in this stack 
 
 
 
-High priority. **Script:** [visions fears regulation](../topics/visions-fears-regulation.md). Keep its four beats.
+High priority. **Script:** [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md). Keep its four beats.
 
 
 
@@ -295,7 +295,7 @@ High priority. **Script:** [visions fears regulation](../topics/visions-fears-re
 
 3. **Amplifier or power.** **Salim Ismail:** AI is an amplifier; fire heats the house or burns it down (the tool argument). **Social science:** it amplifies those who already hold power, plus a lot of other issues.
 
-4. **What regulation can do.** Rules can limit uses, protect personal data, assign liability and shape markets. They cannot put the technology back into the box. Calls for regulation can also be marketing ("we are so powerful we need rules"), and regulation that slows the race benefits the current leaders (Anthropic, OpenAI). The EU AI Act sets rules for AI systems. The GDPR sets rules for personal data. They are separate. Both can matter in a student project. *orientation, not legal advice:* [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md#decision-questions) (student input on privacy, Session 07).
+4. **What regulation can do.** Rules can limit uses, protect personal data, assign liability and shape markets. They cannot put the technology back into the box. Calls for regulation can also be marketing ("we are so powerful we need rules"), and regulation that slows the race benefits the current leaders (Anthropic, OpenAI). The EU AI Act sets rules for AI systems. The GDPR sets rules for personal data. They are separate. Both can matter in a student project. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) (student input on privacy, Session 07).
 
 
 
@@ -339,7 +339,7 @@ What would your rule for AI usage be?
 
 
 
-High priority. **Deep dive:** [bubble economy](01-welcome-landscape-deep-dives/bubble-economy.md). Research base: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md).
+High priority. **Deep dive:** [bubble economy](../THEORY/01-political-economy/bubble-economy.md). Research base: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md).
 
 
 
@@ -365,7 +365,7 @@ Teach the facts of the build-out first, then the debate, then who gets the incom
 
 7. **Who gets the income.** **Adam Tooze:** "a two-way bet on disaster either way". If the investment fails, losses land somewhere in the chain. If it pays off, the labour market is shaken to its foundations. The Bank for International Settlements (BIS), the central bank of central banks, models a scenario in which labour's share of income falls from about 60% to 20%: today about 60% goes to wages; then 20% to wages and 80% to owners. **Demand bottleneck**, the middle line of the chart: replaced workers stop buying, so automating more stops paying; the fall stops near 47%. *(claim: Tooze; institutional summary: BIS scenario, a model, not a forecast)* Deep dive §9.
 
-8. **An alternative: AI as a commons.** A few firms own what AI needs: data, computing power, talent. **Pieter Verdegem:** dismantle AI capitalism and build commons instead: data trusts, public computing, cooperatives, democratic rules. Workers and communities decide what should be automated. Read: *Dismantling AI capitalism: the commons as an alternative to the power concentration of Big Tech*, AI & Society, 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ · notes: [bubble economy](01-welcome-landscape-deep-dives/bubble-economy.md) §10.
+8. **An alternative: AI as a commons.** A few firms own what AI needs: data, computing power, talent. **Pieter Verdegem:** dismantle AI capitalism and build commons instead: data trusts, public computing, cooperatives, democratic rules. Workers and communities decide what should be automated. Read: *Dismantling AI capitalism: the commons as an alternative to the power concentration of Big Tech*, AI & Society, 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ · notes: [bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10.
 
 
 
@@ -435,7 +435,7 @@ Your subscription costs about €20 a month. Who pays the rest? If the bubble bu
 
 
 
-High priority. **Deep dive:** [ecology](01-welcome-landscape-deep-dives/ecology.md). Student input on the ecology of AI: Session [06](../SESSIONS/06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md).
+High priority. **Deep dive:** [ecology](../THEORY/03-ecology-infrastructure/ecology.md). Student input on the ecology of AI: Session [06](../SESSIONS/06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md).
 
 
 
@@ -485,7 +485,7 @@ Would you accept a data centre in your own district? On what conditions?
 
 
 
-High priority. **Deep dive:** [labour](01-welcome-landscape-deep-dives/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
+High priority. **Deep dive:** [labour](../THEORY/02-labour-authorship/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
 
 
 
@@ -547,7 +547,7 @@ Medium priority. **Deep dive:** [media art workflows](01-welcome-landscape-deep-
 
 1. **Pressures** (Sebastian's wording on the slide). Speed: more iterations, less time with engineering, more time for thinking, also more at the same time (the value of specialization and hesitation degrades). Democratization of what is possible for whom → more competition. Flattening: the same generated look, the same generated concepts. Authorship: how to credit? How to value? Refusal: knowing when not to use AI is a skill and takes a lot of self discipline.
 
-2. **Flattening is more than style.** A statistical model reproduces what is shown most online, not what exists. That average becomes a norm, skewed toward the most visible content: male, English, commercial, young. Thesis for the Session 02 student input: **AI kills the underground and it kills diversity.** Deep dive: [flattening and the norm](01-welcome-landscape-deep-dives/flattening-and-the-norm.md).
+2. **Flattening is more than style.** A statistical model reproduces what is shown most online, not what exists. That average becomes a norm, skewed toward the most visible content: male, English, commercial, young. Thesis for the Session 02 student input: **AI kills the underground and it kills diversity.** Deep dive: [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md).
 
 
 
@@ -627,15 +627,15 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 |---|---|---|---|
 
-| **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](01-welcome-landscape-deep-dives/flattening-and-the-norm.md) |
+| **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
 | **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
 
-| **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../topics/visions-fears-regulation.md) |
+| **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 
-| **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [ecology](01-welcome-landscape-deep-dives/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
+| **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
 
-| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md) · [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3 |
+| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3 |
 
 
 

@@ -36,7 +36,7 @@ Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-sessi
 
 ## Student input (theory / humanities): The ecology of AI
 
-Group (about 15 min). Energy, water, gas, land and neighbours. What can we know, and what is hidden behind shell companies and NDAs? Who lives next to the campus that serves your prompts? Starting points: [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · archived full unit [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md).
+Group (about 15 min). Energy, water, gas, land and neighbours. What can we know, and what is hidden behind shell companies and NDAs? Who lives next to the campus that serves your prompts? Starting points: [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · archived full unit [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md).
 
 Bridge to the practical: refusal is also an interface decision. A kill switch in the schema and a checklist of when AI is unnecessary belong in the interface score.
 
@@ -50,7 +50,7 @@ Prompts for discussion and mini-lecture:
 - Failure modes as aesthetic (hallucination, sycophancy, tool refusal). Primary case: OpenAI rolled back a GPT-4o update on 2025-04-29 because it had become "overly flattering or agreeable", the vendor's own account: https://openai.com/index/sycophancy-in-gpt-4o/ (*unverified lead*; read as a vendor statement, not neutral analysis)
 - Audience: is the agent for the artist only, or for visitors?
 - Relation to IC history of interfaces, embodiment and systems
-- Flattening as the counterforce: [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md)
+- Flattening as the counterforce: [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md)
 
 ### Peer-course parallels (*technical suggestion*)
 
@@ -80,4 +80,4 @@ Full mapping in [timeline](../syllabus/timeline.md).
 | Naming essay: the schema is the product | https://cozypet.github.io/llm-wiki-schema/ |
 | Sycophancy post-mortem (vendor primary) | https://openai.com/index/sycophancy-in-gpt-4o/ |
 | Peer courses: NYU IMA, HM Munich, SFPC | see table above · [references](../syllabus/references.md) |
-| Ecology (student input) | [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |
+| Ecology (student input) | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |

@@ -67,11 +67,11 @@ Short syllabus sheet: [course outline](course-outline.md)
 What is a harness: [what is harness](../concepts/what-is-harness.md)  
 Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
 Academic AI Austria: [academic ai austria](../setup/academic-ai-austria.md)  
-Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../topics/visions-fears-regulation.md)  
+Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)  
 AI jobs — rising tide, Canaries, productivity × experience: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md)  
 AI, brains, critical thinking (MIT EEG + recent clippings): [ai brains critical thinking](../../research/ai-brains-critical-thinking.md)  
 Curated vault clipping links (scan 2026-11-11): [links from clippings](links-from-clippings.md)  
-EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md#decision-questions)  
+EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)  
 AI creative tools survey: [ai tools creative processes](../topics/ai-tools-creative-processes.md)  
 Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
 Session 02 harness + wiki: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md)  
@@ -102,9 +102,9 @@ Presentation style: [presentation style](../presentation-style.md)
 | Building an LLM Wiki in Obsidian (Beomsu Koh) | https://www.youtube.com/watch?v=sQSFeqeLKtU | Live Obsidian session |
 | I Built Karpathy’s LLM Wiki in Obsidian | https://www.youtube.com/watch?v=bgXEDymiZCc | Obsidian practice narrative |
 | Be Smart, *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Prep overview for the ecology input, Session 06 (energy, water, neighbours); handout [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
-| Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [visions fears regulation](../topics/visions-fears-regulation.md) |
+| Jon Stewart — AI monologue (Daily Show) | https://www.youtube.com/watch?v=S18jxWZntUo | Session 01: pick-a-lane / jobs / capitalism→socialism gag — [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | Jacob Coxon — *Existential Threat of AI from the Inside* (Daily Show) | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01: utopia vs incentives / misuse — teacher clip |
-| Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [visions fears regulation](../topics/visions-fears-regulation.md) |
+| Salim Ismail — *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier / regulate outcomes — then counter in [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | HealthyGamerGG — *How AI is Killing Your Potential* | https://www.youtube.com/watch?v=BzsLbHoNXTs | Optional prep: MIT “brain rust” framing — pair with [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |
 | Huberman Lab Clips — *Mental Health Risks of Using AI* (Dr K) | https://www.youtube.com/watch?v=sqYLH72eCg0 | Optional; sycophancy / psychosis risk — content warning |
 | Ezra Klein Show — *Is There an A.I. Bubble? A Debate.* | https://www.youtube.com/watch?v=9GLdGc9OX-A | Session 01 bubble / CapEx debate |

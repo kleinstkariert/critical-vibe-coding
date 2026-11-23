@@ -20,7 +20,7 @@ canonical: true
 
 
 
-Linked from Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md) (the "flattening" pressure) and from the student input of Session [02](../../SESSIONS/02-agent-harness-and-wiki-architecture.md).
+Linked from Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md) (the "flattening" pressure) and from the student input of Session [02](../../SESSIONS/02-agent-harness-and-wiki-architecture.md).
 
 
 
@@ -28,7 +28,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 
 
-**Base material.** The teacher vault has no clipping on feminism or patriarchy yet. This note draws on published research, listed under Sources. Related course notes: [media art workflows](media-art-workflows.md) (five pressures), [labour](labour.md) (who trains the model), [visions fears regulation](../../topics/visions-fears-regulation.md) (amplifier or power).
+**Base material.** The teacher vault has no clipping on feminism or patriarchy yet. This note draws on published research, listed under Sources. Related course notes: [media art workflows](../../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) (five pressures), [labour](../02-labour-authorship/labour.md) (who trains the model), [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) (amplifier or power).
 
 
 
@@ -166,7 +166,7 @@ The pattern: the model does not only repeat today's inequality. It **exaggerates
 
 - *unverified lead (Acemoglu, via MIT Sloan, Jan 2025, vault clipping "A new look at the economics of AI"):* Acemoglu expects AI's negative effects on workers to fall "particularly [on] women with low levels of education".
 
-- See [labour](labour.md) for the hidden annotation workforce and the first jobs that disappear.
+- See [labour](../02-labour-authorship/labour.md) for the hidden annotation workforce and the first jobs that disappear.
 
 
 
@@ -194,7 +194,7 @@ What is the underground here? Small scenes, local languages, zines, closed chats
 
 4. **Converging users.** When many people use the same few models for ideas, their outputs converge (Doshi and Hauser). A scene that writes with the same assistant starts to sound like everyone else.
 
-5. **Extraction instead of survival.** When an underground style does reach the data, it can be reproduced on demand by name, detached from its scene and its makers. That is visibility without the community. See *Glaze* and *Nightshade* in [media art workflows](media-art-workflows.md).
+5. **Extraction instead of survival.** When an underground style does reach the data, it can be reproduced on demand by name, detached from its scene and its makers. That is visibility without the community. See *Glaze* and *Nightshade* in [media art workflows](../../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md).
 
 
 

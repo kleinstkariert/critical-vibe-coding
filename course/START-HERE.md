@@ -81,9 +81,9 @@ Keep API keys out of synced notes.
 | Midpoint / final deliverables? | [timeline.md](syllabus/timeline.md) (milestones) |
 | Readings & links? | [references.md](syllabus/references.md) · [links-from-clippings.md](syllabus/links-from-clippings.md) |
 | AI and critical thinking / brains? | [../research/ai-brains-critical-thinking.md](../research/ai-brains-critical-thinking.md) |
-| Drivers / visions / fears (Session 01 talk)? | [visions-fears-regulation.md](topics/visions-fears-regulation.md) |
+| Drivers / visions / fears (Session 01 talk)? | [visions-fears-regulation.md](THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | AI and jobs (tide / early career / junior gains)? | [../research/ai-jobs-rising-tide-productivity.md](../research/ai-jobs-rising-tide-productivity.md) |
-| EU AI Act, and GDPR (separate topics)? | [eu-ai-act-and-datenschutz.md#decision-questions](topics/eu-ai-act-and-datenschutz.md#decision-questions) |
+| EU AI Act, and GDPR (separate topics)? | [eu-ai-act-and-datenschutz.md#decision-questions](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Local GPU / Mac / DGX / multi-GPU (Session 03)? | [../research/local-gpu-hardware-for-llms.md](../research/local-gpu-hardware-for-llms.md) · [howto-local-llm-hardware.md](setup/howto-local-llm-hardware.md) |
 | Check-in + student input schedule? | [course-rhythm.md](syllabus/course-rhythm.md) |
 | Data centres / energy / ecology (Session 01, input Session 06)? | [../research/data-centers-energy-ecology-economy.md](../research/data-centers-energy-ecology-economy.md) |

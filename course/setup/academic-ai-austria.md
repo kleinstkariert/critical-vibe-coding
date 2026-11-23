@@ -16,7 +16,7 @@ canonical: true
 
 Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 
-Use with: session [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
+Use with: session [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 
 ---
 
@@ -79,4 +79,4 @@ FAQ: https://ai-at.eu/en/faq/
 1. Academic ≠ automatically agent-ready.  
 2. Sovereignty / EU compute is real — but **bureaucracy and job scripts**, not “paste key in Hermes.”  
 3. Course default remains: personal stack + optional local GPU + structure/harness ([what is harness](../concepts/what-is-harness.md)).  
-4. Privacy: sending student/artwork data to campus vs US cloud — pair with [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
+4. Privacy: sending student/artwork data to campus vs US cloud — pair with [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).

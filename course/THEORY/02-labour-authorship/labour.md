@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 6 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
+Block 6 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
 
 
 
@@ -37,7 +37,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 | [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md) | Course handout: MIT rising tide, Stanford "Canaries", productivity by experience, METR. |
 
-| [visions fears regulation](../../topics/visions-fears-regulation.md) | Beat 2D: jobs in 90 seconds; Beat 3: amplifier versus power. |
+| [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) | Beat 2D: jobs in 90 seconds; Beat 3: amplifier versus power. |
 
 | Vault clippings | Brian Merchant (Carnegie, *A Luddite's Guide to the AI Economy*), Verdegem (*Dismantling AI capitalism*), Richard Campbell keynote, Coxon and Stewart (Daily Show). |
 
@@ -119,7 +119,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 
 
-Related: who gets the income if the hype comes true, in [bubble economy](bubble-economy.md) §9 (Tooze and the BIS labour-share scenario).
+Related: who gets the income if the hype comes true, in [bubble economy](../01-political-economy/bubble-economy.md) §9 (Tooze and the BIS labour-share scenario).
 
 
 

@@ -86,11 +86,11 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 
 1. **Scope of the class:** two tracks; the agent as interface; eight sessions, midpoint in 4, final in 8.
 2. **What LLMs and agents are** (medium): model, chat product, agent, context, harness, MCP (Model Context Protocol); the agent loop; how a model writes; local or cloud, with the flowchart.
-3. **Drivers, visions, fears, regulation** (high): [visions fears regulation](../topics/visions-fears-regulation.md). Law: [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md).
-4. **Economy and the AI bubble** (high): capex, construction, revenue gap, debt, earlier build-outs; arguments for and against a burst; Tooze and the BIS labour-share scenario; the commons as an alternative. [bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md).
-5. **Ecology** (high): electricity, gas, water, neighbours. [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md). Student input: Session 06.
-6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [labour](../lectures/01-welcome-landscape-deep-dives/labour.md).
-7. **Media-art workflows:** five pressures and practices; flattening. [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md).
+3. **Drivers, visions, fears, regulation** (high): [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md). Law: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
+4. **Economy and the AI bubble** (high): capex, construction, revenue gap, debt, earlier build-outs; arguments for and against a burst; Tooze and the BIS labour-share scenario; the commons as an alternative. [bubble economy](../THEORY/01-political-economy/bubble-economy.md).
+5. **Ecology** (high): electricity, gas, water, neighbours. [ecology](../THEORY/03-ecology-infrastructure/ecology.md). Student input: Session 06.
+6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [labour](../THEORY/02-labour-authorship/labour.md).
+7. **Media-art workflows:** five pressures and practices; flattening. [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md).
 8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free-to-use hosted endpoint. [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) · [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../setup/howto-hermes-setup.md). Alternatives: [knowledge store options](../setup/knowledge-store-options.md).
 
 *Q&A after each point: collect open questions for the student inputs.*
@@ -119,9 +119,9 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 ## Materials
 
 - Lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
-- Deep dives: [bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md) · [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) · [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md)
+- Deep dives: [bubble economy](../THEORY/01-political-economy/bubble-economy.md) · [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [labour](../THEORY/02-labour-authorship/labour.md) · [media art workflows](../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) · [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md)
 - Deck: `course/lectures/01-welcome-landscape-slideshow/`
 - [00 brief](../syllabus/00-brief.md) · [course outline](../syllabus/course-outline.md) · [course rhythm](../syllabus/course-rhythm.md)
-- [visions fears regulation](../topics/visions-fears-regulation.md) · [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md)
+- [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md)
 - [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)
 - [knowledge store options](../setup/knowledge-store-options.md)

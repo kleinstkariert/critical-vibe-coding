@@ -2,7 +2,7 @@
 """Build the Session 01 welcome/landscape deck (PPTX, then convert to ODP).
 
 Content follows course/lectures/01-welcome-landscape-lecture.md and the deep-dive
-notes in course/lectures/01-welcome-landscape-deep-dives/. Slide titles are the
+notes in course/THEORY/. Slide titles are the
 lecture block titles.
 
 Design: text slides are white text on black; image slides are full-screen, placed
@@ -53,7 +53,7 @@ BLOCKS = {
 }
 
 LECTURE = "course/lectures/01-welcome-landscape-lecture.md"
-DD = "course/lectures/01-welcome-landscape-deep-dives/"
+DD = "course/THEORY/"
 
 # key: (file, fit mode, on-slide credit or None, full credit for the speaker notes)
 # "cover" fills the slide above the credit line; "contain" shows the whole image on black.

@@ -62,8 +62,8 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 | What is **lint** (LLM Wiki)? | [`course/concepts/what-is-lint.md`](course/concepts/what-is-lint.md) |
 | Wiki standard files, and what structure improves | [`course/setup/llm-wiki-standard-files.md#what-structure-improves`](course/setup/llm-wiki-standard-files.md#what-structure-improves) |
 | Academic AI (Austria) | [`course/setup/academic-ai-austria.md`](course/setup/academic-ai-austria.md) |
-| Drivers / visions / fears / regulation | [`course/topics/visions-fears-regulation.md`](course/topics/visions-fears-regulation.md) |
-| EU AI Act, and GDPR (separate topics) | [`course/topics/eu-ai-act-and-datenschutz.md#decision-questions`](course/topics/eu-ai-act-and-datenschutz.md#decision-questions) |
+| Drivers / visions / fears / regulation | [`course/THEORY/06-danger-and-risk/visions-fears-regulation.md`](course/THEORY/06-danger-and-risk/visions-fears-regulation.md) |
+| EU AI Act, and GDPR (separate topics) | [`course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions`](course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Creative AI tools survey | [`course/topics/ai-tools-creative-processes.md`](course/topics/ai-tools-creative-processes.md) |
 | Local GPU / Apple / DGX hardware | [`research/local-gpu-hardware-for-llms.md`](research/local-gpu-hardware-for-llms.md) |
 

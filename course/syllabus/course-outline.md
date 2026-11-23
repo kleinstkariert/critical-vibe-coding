@@ -106,10 +106,10 @@ Full list: [references](references.md).
 | Theme | Starter |
 |---|---|
 | LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · what structure improves: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves) |
-| Political economy / bubble | [bubble economy](../lectures/01-welcome-landscape-deep-dives/bubble-economy.md) · research note [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md); Tooze / BIS as cited there; Verdegem, *Dismantling AI capitalism* (2022) |
-| Authorship & labour | [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · jobs evidence [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) |
-| Flattening, AI and patriarchy | [flattening and the norm](../lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) |
-| Ecology / data centres / when not | [ecology](../lectures/01-welcome-landscape-deep-dives/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md); IEA; Be Smart overview video |
+| Political economy / bubble | [bubble economy](../THEORY/01-political-economy/bubble-economy.md) · research note [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md); Tooze / BIS as cited there; Verdegem, *Dismantling AI capitalism* (2022) |
+| Authorship & labour | [labour](../THEORY/02-labour-authorship/labour.md) · jobs evidence [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) |
+| Flattening, AI and patriarchy | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
+| Ecology / data centres / when not | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md); IEA; Be Smart overview video |
 | Local hardware / open weights | Session 03 + [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md) |
 
 Peer-course patterns (not required texts): HKUST AMCC6500; Birkbeck Critical and Creative AI; HM Munich *Our Br00d*. See [timeline](timeline.md#peer-courses-web-research-2026-10-18).

@@ -57,8 +57,8 @@ Use these course / vault notes alongside KITeGG — they stay in their canonical
 
 | Theme | Canonical note | Session 01 use |
 |---|---|---|
-| Drivers / utopia / x-risk / amplifier / regulation frame | [visions fears regulation](../../course/topics/visions-fears-regulation.md) | Block 3 script |
-| EU AI Act + GDPR/DSG parallel | [eu ai act and datenschutz](../../course/topics/eu-ai-act-and-datenschutz.md) | Point only in S01; teach later |
+| Drivers / utopia / x-risk / amplifier / regulation frame | [visions fears regulation](../../course/THEORY/06-danger-and-risk/visions-fears-regulation.md) | Block 3 script |
+| EU AI Act + GDPR/DSG parallel | [eu ai act and datenschutz](../../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | Point only in S01; teach later |
 | Lecture blocks 1–8 | [01 welcome landscape lecture](../../course/lectures/01-welcome-landscape-lecture.md) | Deck source of truth |
 | Bubble / circular finance | [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) | Block 4 |
 | Ecology / DC energy | [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) | Block 5, then Session 06 input |

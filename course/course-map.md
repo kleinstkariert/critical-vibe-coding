@@ -22,11 +22,11 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [What is an agent harness?](concepts/what-is-harness.md) | current | true |
 | [What is “lint” in an LLM Wiki?](concepts/what-is-lint.md) | current | true |
 | [What is an MCP?](concepts/what-is-mcp.md) | current | true |
-| [Deep dive: Economy and the AI bubble](lectures/01-welcome-landscape-deep-dives/bubble-economy.md) | current | true |
+| [Deep dive: Economy and the AI bubble](THEORY/01-political-economy/bubble-economy.md) | current | true |
 | [Deep dive: Default setup](lectures/01-welcome-landscape-deep-dives/default-setup.md) | current | true |
-| [Deep dive: Ecology](lectures/01-welcome-landscape-deep-dives/ecology.md) | current | true |
-| [Deep dive: Flattening, the norm, and feminist critiques of AI](lectures/01-welcome-landscape-deep-dives/flattening-and-the-norm.md) | current | true |
-| [Deep dive: Labour](lectures/01-welcome-landscape-deep-dives/labour.md) | current | true |
+| [Deep dive: Ecology](THEORY/03-ecology-infrastructure/ecology.md) | current | true |
+| [Deep dive: Flattening, the norm, and feminist critiques of AI](THEORY/04-bias-flattening/flattening-and-the-norm.md) | current | true |
+| [Deep dive: Labour](THEORY/02-labour-authorship/labour.md) | current | true |
 | [Deep dive: Media-art workflows](lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) | current | true |
 | [Session 01: Classroom lecture (welcome and landscape)](lectures/01-welcome-landscape-lecture.md) | current | true |
 | [Session 01: Welcome and landscape slideshow](lectures/01-welcome-landscape-slideshow/README.md) | current | true |
@@ -61,8 +61,8 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Critical Vibe Coding — references](syllabus/references.md) | current | true |
 | [Critical Vibe Coding. Course timeline](syllabus/timeline.md) | current | true |
 | [AI tools for creative processes — research list](topics/ai-tools-creative-processes.md) | current | true |
-| [EU AI Act and Datenschutz (Austria)](topics/eu-ai-act-and-datenschutz.md) | current | true |
-| [Drivers, visions, fears, regulation — 10–15 min talk](topics/visions-fears-regulation.md) | current | true |
+| [EU AI Act and Datenschutz (Austria)](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | current | true |
+| [Drivers, visions, fears, regulation — 10–15 min talk](THEORY/06-danger-and-risk/visions-fears-regulation.md) | current | true |
 
 ## Teacher notes
 

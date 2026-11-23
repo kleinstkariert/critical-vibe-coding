@@ -11,10 +11,10 @@ This folder holds the **deck and images only**. Open the canonical notes instead
 | What | Path (from repo root) |
 |---|---|
 | Lecture notes, blocks 1 to 8 | `course/lectures/01-welcome-landscape-lecture.md` |
-| Deep dives (blocks 4 to 8, flattening) | `course/lectures/01-welcome-landscape-deep-dives/` |
+| Deep dives (blocks 4 to 8, flattening) | `course/THEORY/` |
 | Session plan | `course/SESSIONS/01-welcome-and-landscape.md` |
-| Drivers, visions, fears, regulation (block 3) | `course/topics/visions-fears-regulation.md` |
-| EU AI Act, and GDPR (separate topics) | `course/topics/eu-ai-act-and-datenschutz.md#decision-questions` |
+| Drivers, visions, fears, regulation (block 3) | `course/THEORY/06-danger-and-risk/visions-fears-regulation.md` |
+| EU AI Act, and GDPR (separate topics) | `course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions` |
 | Presentation and writing style | `course/presentation-style.md` |
 | Bubble research | `research/ai-bubble-productivity-datacenter.md` |
 | Ecology research | `research/data-centers-energy-ecology-economy.md` |
@@ -24,7 +24,7 @@ This folder holds the **deck and images only**. Open the canonical notes instead
 Relative from this folder:
 
 - Lecture: [`../01-welcome-landscape-lecture.md`](../01-welcome-landscape-lecture.md)
-- Deep dives: [`../01-welcome-landscape-deep-dives/`](../01-welcome-landscape-deep-dives/)
+- Deep dives: [`../../THEORY/`](../../THEORY/)
 - Session: [`../../SESSIONS/01-welcome-and-landscape.md`](../../SESSIONS/01-welcome-and-landscape.md)
 - Style: [`../../presentation-style.md`](../../presentation-style.md)
 

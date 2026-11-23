@@ -70,7 +70,7 @@ KITeGG’s “systems” are a **federation**: one mid-scale interactive GPU clo
 | 2 Model / product / agent | Weak in unlearn front matter — their “agent” moment is chatbot/multimodal (Vol. 2), not Hermes tool loops | Teach CVC vocabulary; cite unlearn only as contrast |
 | 3 Visions / fears / regulation | Koch cloud-capital / anti-greenwash; Critical AI Studies in Vol. 3 | CVC script is `course/visions-fears-regulation` + Stewart/Coxon/Ismail clips |
 | 4 Bubble / circular finance | Infrastructure-as-STS; public money → public capacity | CVC numbers from BIS / Tooze / Acemoglu research notes |
-| 5 Ecology seed | Koch ecology argument; lab sustainability themes; DC energy visibility | Deep dive = `course/lectures/01-welcome-landscape-deep-dives/ecology` + `research/data-centers-energy-ecology-economy`; student input Session 06 |
+| 5 Ecology seed | Koch ecology argument; lab sustainability themes; DC energy visibility | Deep dive = `course/THEORY/ecology` + `research/data-centers-energy-ecology-economy`; student input Session 06 |
 | 7 Refusal / when not | Vol. 3 Editor’s Note “when not to use” | CVC Block 7 "Refusal"; kill switch in Session 06 (the dedicated old Session 11 is archived) |
 | 8 Personal Hermes + Obsidian | Opposite unit: campus Jupyter/LLP + cluster | Same sovereignty spectrum, different scale |
 
@@ -81,7 +81,7 @@ The URLs are in [links from clippings](../../course/syllabus/links-from-clipping
 - Tooze on the AI arms race, and Tooze on AI regulation: political economy and regulation. KITeGG stays with design education and infrastructure.
 - *The Real Cost of AI Will Shock You*: a popular ecology frame for the Session 06 input. Pair it with Koch’s anti-greenwash paragraphs. Neither source is the only authority.
 - MIT Sloan, *A new look at the economics of AI* (Acemoglu): modest productivity. KITeGG rarely does the macro GDP debate.
-- [eu ai act and datenschutz](../../course/topics/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
+- [eu ai act and datenschutz](../../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
 
 ## Related notes
 

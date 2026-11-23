@@ -17,7 +17,7 @@ Source types: [[../course/syllabus/references#source-types]]. A label names the 
 
 | Role | Session | Why |
 |---|---|---|
-| **Deep dive (home)** | [[../course/lectures/01-welcome-landscape-deep-dives/ecology\|Session 01, Block 5]] · student input [[../course/SESSIONS/06-agent-as-interface\|Session 06]] · archived unit [[../course/SESSIONS/archive-13-session-plan/11-local-ecology-when-not\|old Session 11]] | Students already run cloud agents; this is when material costs bite. Pair with Luccioni + IEA. Hardware *how* = Session 03. |
+| **Deep dive (home)** | [[../course/THEORY/03-ecology-infrastructure/ecology\|Session 01, Block 5]] · student input [[../course/SESSIONS/06-agent-as-interface\|Session 06]] · archived unit [[../course/SESSIONS/archive-13-session-plan/11-local-ecology-when-not\|old Session 11]] | Students already run cloud agents; this is when material costs bite. Pair with Luccioni + IEA. Hardware *how* = Session 03. |
 | **Seed only** | [[../course/SESSIONS/01-welcome-and-landscape\|Session 01]] block 5 | One slide: “inference lives in a building with a grid”; point here, do not teach the full note. |
 | **Political-economy twin** | [[ai-bubble-productivity-datacenter]] | Bubble note = *who finances the build-out* and whether CapEx outruns demand. This note = *what gets built, powered, and who pays locally*. Cross-read §10 financing there ↔ “planned vs built” here. |
 
@@ -118,7 +118,7 @@ Self-reported corporate totals are weak oversight — label corporate “net zer
 
 - Training and frontier inference stay **US- (and China-) skewed** → dependency for EU / AT artists and studios on **foreign CapEx cycles**, dollar pricing, and export controls (CUDA / chips).  
 - Carbon from US gas turbines is **global**; water and smog are **local** — students in Linz pay the climate share, not the cooling tower.  
-- Europe’s smaller share (~15% of DC electricity) + stricter permitting → different aesthetic/political choice (local/open stacks, academic HPC — [[../course/setup/academic-ai-austria]], [[../course/topics/eu-ai-act-and-datenschutz]]).  
+- Europe’s smaller share (~15% of DC electricity) + stricter permitting → different aesthetic/political choice (local/open stacks, academic HPC — [[../course/setup/academic-ai-austria]], [[../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz]]).  
 - If the US overbuilds and a **financial** correction hits ([[ai-bubble-productivity-datacenter]]), residual **physical** plant + stranded gas assets still reshape power markets and chip supply — “productive bubble” vs “dead end” is not only a Wall Street question.
 
 **Media-art bridge:** Your prompt is cheap; the **campus** is expensive. Choosing cloud vs local is an aesthetic *and* infrastructural decision (Session 03 cloud-versus-local comparison + HM Munich *Our Br00d* pattern).

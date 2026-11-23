@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](flattening-and-the-norm.md) (student input, Session 02).
+Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) (student input, Session 02).
 
 
 
@@ -65,7 +65,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 | **Democratization** | More becomes possible for more people: code, images, sound without the training. | Possible for whom? More people can make, so there is more competition for the same attention and commissions. |
 
-| **Flattening** | The same generated look, the same generated concepts. And beyond style: the model reproduces what is shown most online, not what exists. | That average becomes the norm. Thesis: AI kills the underground and it kills diversity. See [flattening and the norm](flattening-and-the-norm.md). |
+| **Flattening** | The same generated look, the same generated concepts. And beyond style: the model reproduces what is shown most online, not what exists. | That average becomes the norm. Thesis: AI kills the underground and it kills diversity. See [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md). |
 
 | **Authorship** | An agent writes half the patch, script or text. How to credit? How to value? | Who decided, who signed, who is responsible, and what is the work worth? |
 

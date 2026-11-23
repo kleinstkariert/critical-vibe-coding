@@ -46,7 +46,7 @@ Case: **the Hugging Face incident** (July 2026). OpenAI evaluation agents, runni
 
 - Hugging Face: https://huggingface.co/blog/security-incident-july-2026
 - OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
-- Course script on visions and fears: [visions fears regulation](../topics/visions-fears-regulation.md)
+- Course script on visions and fears: [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)
 
 Bridge to the practical: today students give their own agent new tools. What may it touch?
 
@@ -86,4 +86,4 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 
 - [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../setup/howto-hermes-setup.md) · [knowledge store options](../setup/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
 - MCP: [what is mcp](../concepts/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md)
-- Student input: Hugging Face and OpenAI incident reports (above) · [visions fears regulation](../topics/visions-fears-regulation.md)
+- Student input: Hugging Face and OpenAI incident reports (above) · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)
