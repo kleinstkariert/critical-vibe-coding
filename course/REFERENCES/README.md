@@ -13,6 +13,6 @@ canonical: true
 | [Primary sources](primary-sources.md) | Curated links from vault clippings |
 | [Peer courses](peer-courses.md) | Other seminars we learn from |
 | [Tools and documentation](tools-and-documentation.md) | Stub |
-| [Current claims](current-claims.md) | Where volatile facts live |
+| [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md) | Where volatile facts live |
 
 Research notes: [research index](../../research/README.md).

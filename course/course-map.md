@@ -23,11 +23,16 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [How-to. Pair Hermes and OpenCode](PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) | current | true |
 | [How to: Hermes Agent setup](PRACTICE/01-harness-and-agents/howto-hermes-setup.md) | current | true |
 | [How-to. OpenCode setup](PRACTICE/01-harness-and-agents/howto-opencode-setup.md) | current | true |
+| [Install guide. Linux](PRACTICE/01-harness-and-agents/install-linux.md) | current | true |
+| [Install guide. macOS](PRACTICE/01-harness-and-agents/install-mac.md) | current | true |
+| [Why this install](PRACTICE/01-harness-and-agents/install-why.md) | current | true |
+| [Install guide. Windows](PRACTICE/01-harness-and-agents/install-windows.md) | current | true |
 | [What is an agent harness?](PRACTICE/01-harness-and-agents/what-is-harness.md) | current | true |
 | [How to: Obsidian setup and sync](PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) | current | true |
 | [How to: SilverBullet setup and sync](PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md) | current | true |
 | [Knowledge store options](PRACTICE/02-knowledge-bases/knowledge-store-options.md) | current | true |
 | [LLM Wiki — standard files and folders](PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) | current | true |
+| [Starter knowledge base](PRACTICE/02-knowledge-bases/starter-knowledge-base.md) | current | true |
 | [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
 | [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
 | [Prompting Guide for Critical Vibe Coding](PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md) | current | true |
@@ -47,7 +52,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [References](REFERENCES/README.md) | current | true |
 | [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
 | [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
-| [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-practical-install.md) | current | true |
+| [Session 03. Practical install](SESSIONS/03-practical-install.md) | current | true |
 | [Session 04. Project presentations and semester plans (midpoint)](SESSIONS/04-project-presentations-and-plans.md) | current | true |
 | [Session 05. Vault practice, phone sync, Discord bridge, MCP](SESSIONS/05-knowledge-base-phone-discord.md) | current | true |
 | [Session 06. Agent as interface, as material, as canvas](SESSIONS/06-agent-as-interface.md) | current | true |
@@ -55,6 +60,8 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Session 01: Welcome and landscape slideshow](SESSIONS/lectures/01-welcome-landscape-slideshow/README.md) | current | true |
 | [Session 02. Agent harness and Hermes](SESSIONS/lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
 | [Session 02 slideshow (Obsidian Slides)](SESSIONS/lectures/02-agent-harness-slideshow/README.md) | current | true |
+| [Session 03. Practical install](SESSIONS/lectures/03-practical-install-slideshow/03-practical-install.md) | current | true |
+| [Session 03 slideshow (Obsidian Slides)](SESSIONS/lectures/03-practical-install-slideshow/README.md) | current | true |
 | [Critical Vibe Coding — seminar brief](SESSIONS/overview/00-brief.md) | current | true |
 | [Critical Vibe Coding. Course outline](SESSIONS/overview/course-outline.md) | current | true |
 | [Course rhythm. Check-in, student inputs, time budget](SESSIONS/overview/course-rhythm.md) | current | true |
@@ -94,7 +101,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Provenance](PROJECT-WORK/provenance.md) | draft | false |
 | [Reflection](PROJECT-WORK/reflection.md) | draft | false |
 | [Verification](PROJECT-WORK/verification.md) | draft | false |
-| [Current claims](REFERENCES/current-claims.md) | draft | false |
+| [Dated models, prices, limits and hardware](REFERENCES/dated-models-prices-limits-and-hardware.md) | draft | false |
 | [Tools and documentation](REFERENCES/tools-and-documentation.md) | draft | false |
 | [Seminar](SEMINAR.md) | draft | false |
 | [Session 07. Coding with agents across creative stacks (proposal)](SESSIONS/07-coding-and-creative-stacks.md) | proposal | true |

@@ -30,4 +30,4 @@ Research notes that support these topics stay in `research/`:
 - [Research index](../../research/README.md)
 
 Sources and readings: [bibliography](../REFERENCES/bibliography.md) and [primary sources](../REFERENCES/primary-sources.md).
-Volatile numbers (prices, figures, dates) belong in [current claims](../REFERENCES/current-claims.md).
+Volatile numbers (prices, figures, dates) belong in [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md).
