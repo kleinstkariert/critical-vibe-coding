@@ -13,7 +13,7 @@ Why the structure looks like this, and why it may change: [why this structure](.
 
 ## Summary
 
-- Changed paths against `main`: **133** (81 renamed, 28 added, 20 modified, 4 removed).
+- Changed paths against `main`: **142** (81 renamed, 36 added, 21 modified, 4 removed).
 - Moves use `git mv`. Each move commit has at most 30 changed files. Links were updated in the same commit group.
 - `course/sessions/` became `course/SESSIONS/` in two commits through a temporary name, because Windows and macOS folders ignore case.
 - Four old 13-session files were removed from the repo after a copy was kept outside the repo in the teacher vault. See "Removed files".
@@ -131,6 +131,46 @@ These stub pages never existed on `main`. They were created in the first series.
 - `course/REFERENCES/current-claims.md` is now `course/REFERENCES/dated-models-prices-limits-and-hardware.md`.
 - `course/SESSIONS/03-hardware-open-models-prompting.md` is now `course/SESSIONS/03-practical-install.md`. It is listed in the rename table.
 
+## Hardware research copied into `research/hardware/`
+
+Eight hardware-procurement notes existed only in the teacher vault (folder `hardware-procurement/`, relative to the vault root). They are now student-visible research. Local paths, wikilinks, the "private, ignored by Git" markers, the "send this" workflow text and the author name were removed. Prices and specifications are labelled as dated research (29 Oct 2026). No price, benchmark or model size was rechecked. Where a note recorded no date or source, the page says so.
+
+| Vault note | Repo file | Treatment |
+|---|---|---|
+| `00-index-budget-vs-spark.md` | `research/hardware/README.md` | Became the entry point. Holds the shared assumptions, the options table, the efficiency conclusion, the shared technical notes and the shared cautions |
+| `01-budget-letter.md` | `research/hardware/diy-request-draft.md` | Kept the request, the ceilings, the purpose and the decision. The cost table, the Spark comparison and the risk table became links |
+| `02-recommended-spark-production-hermes.md` | `research/hardware/spark-gb10-recommended-system.md` | Kept all sections. Fixed two wording problems (see below). Marked unsourced claims |
+| `A-dual-3090-open-frame.md` | `research/hardware/setup-a-dual-3090-open-frame.md` | Kept the parts table. Shared prose became links |
+| `B-dual-4090-open-frame.md` | `research/hardware/setup-b-dual-4090-open-frame.md` | Kept in full, plus evidence column |
+| `C-triple-3090-open-frame.md` | `research/hardware/setup-c-triple-3090-open-frame.md` | Kept the parts table. Shared prose became links |
+| `D-dual-5090-ceiling.md` | `research/hardware/setup-d-dual-5090-ceiling.md` | Kept in full, plus evidence column |
+| `llm-coding-capability-matrix.md` | `research/hardware/llm-coding-capability-matrix.md` | Kept the matrix and the long-context note. The efficiency table moved to the README |
+
+Redundancy decisions:
+
+- Overview, envelope, VAT, price date and the contingency rule appeared in the index, the letter and the setup notes. They now live once in the README.
+- The efficiency summary (capacity, power, best at) appeared in the index and in the matrix. It is one table in the README. The matrix links to it.
+- The Spark versus DIY comparison and the speed figures appeared in the index, the letter, Setup C and the Spark note. The figures are in one README table. The other pages link to it.
+- "Memory is split, not unified", the llama.cpp split modes and the power-cable rule appeared in Setups A and C and in the matrix. They are in one README section.
+- The letter's risk table and the index cautions overlapped. They are one README table. The two items that only the letter had (responsible person, power metering) were kept.
+- Not merged: the five build options, the capability matrix and the long Spark note. They hold different content.
+- Overlap with older pages (`research/local-gpu-hardware-for-llms.md`, the how-to, the dated page): the older pages keep the general explanation. The new pages link to it. Two pointers that said "teacher vault, not public" now point to `research/hardware/README.md`.
+- Two wording problems in the Spark note were fixed. A leftover model name (GX10) in the server text now says Spark system. Inline comments after shell line-continuation backslashes were moved into a list, because they would break the command.
+- Source inconsistency kept and labelled, not resolved: the Spark note gives a three-year total of about 7,100 to 7,700 euros in the cost model and about 7,200 to 8,000 euros in the example text.
+
+## Teacher notes check
+
+- `course/teacher/` has no tracked file on this branch. 0 tracked paths contain `teacher` in a folder or file name.
+- Seven vault teacher notes have no copy in the repo (0 byte-identical, 0 shared text lines of length over 40 against any tracked Markdown file).
+- One teacher note is tracked on `main`: the structure proposal, now `archive/potential-structure-change.md` with `audience: teacher`. It was moved to `archive/` in the first series. It is identical to its vault copy. Decide whether it stays.
+
+## Tool comparison audit
+
+- `research/vibe-coding-tools-and-agent-environments.md` is the one full comparison. `course/REFERENCES/tools-and-documentation.md` is a pointer with a documentation link table. No other page repeats licences, prices or star counts.
+- Zed (zed.dev pages, read 23 Nov 2026) and AgentCraft (repository and API, read 23 Nov 2026) are in the comparison with their sources. The pointer page lists both.
+- One listing gap was fixed: Devin Desktop (formerly Windsurf) was in the comparison but not in the pointer table.
+- `course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md` compares jobs, not licences or prices. It stays and points to the comparison.
+
 ## Added files
 
 - `archive/README-before-seminar-first.md`
@@ -159,6 +199,14 @@ These stub pages never existed on `main`. They were created in the first series.
 - `course/THEORY/07-refusal-and-alternatives/README.md`
 - `course/THEORY/README.md`
 - `documentation/why-this-structure.md`
+- `research/hardware/README.md`
+- `research/hardware/diy-request-draft.md`
+- `research/hardware/llm-coding-capability-matrix.md`
+- `research/hardware/setup-a-dual-3090-open-frame.md`
+- `research/hardware/setup-b-dual-4090-open-frame.md`
+- `research/hardware/setup-c-triple-3090-open-frame.md`
+- `research/hardware/setup-d-dual-5090-ceiling.md`
+- `research/hardware/spark-gb10-recommended-system.md`
 - `research/vibe-coding-tools-and-agent-environments.md`
 - `migrations/2026-structure-move.md`
 
@@ -170,6 +218,7 @@ These stub pages never existed on `main`. They were created in the first series.
 - `UnlearGestaltungAI_Mainz/unlearn-gestaltung/00-index.md`
 - `UnlearGestaltungAI_Mainz/unlearn-gestaltung/article-kitegg-cluster.md`
 - `UnlearGestaltungAI_Mainz/unlearn-gestaltung/comparison-vs-cvc.md`
+- `UnlearGestaltungAI_Mainz/unlearn-gestaltung/diy-compute.md`
 - `course/START-HERE.md`
 - `course/course-map.md`
 - `course/scripts/check-course-links.py`
@@ -205,7 +254,7 @@ Content that current pages relied on was moved first, then the files were remove
 
 | Check | Result | Numbers |
 |---|---|---|
-| Link check, default mode, final tree | PASS | 92 files scanned. 0 broken links in current student files. 0 broken links in other files. 73 notices (wikilinks that only work in Obsidian). Before the move: 0 current, 7 other broken, 102 notices |
+| Link check, default mode, final tree | PASS | 100 files scanned. 0 broken links in current student files. 0 broken links in other files. 73 notices (wikilinks that only work in Obsidian). Before the move: 0 current, 7 other broken, 102 notices |
 | Link check, `--strict` | PASS | 0 broken links anywhere, including `archive/`, `research/`, `documentation/`, `migrations/`. Before the move: 54 broken links in 5 files. Every commit after the first series was checked before it was made |
 | Case-exact paths in links | PASS | The checker compares case. 0 case mismatches |
 | No lowercase `sessions` folder | PASS | 0 tracked files under `course/sessions/`. The on-disk folder is `SESSIONS` |
@@ -215,6 +264,9 @@ Content that current pages relied on was moved first, then the files were remove
 | Old paths in text | PASS | 0 matches for `course/sessions`, `course/lectures`, `course/setup`, `course/concepts`, `course/syllabus`, `course/teacher`, `current-claims`, `03-hardware-open-models-prompting`, `PROJECT-WORK/proposal`, `final`, `process-log` outside `archive/` and this report |
 | Old paths in deck speaker notes | PASS | 0 old-path strings in the 15 patched notes slides of the pptx and in the odp `content.xml`. Method: only the notes XML was rewritten, all other zip entries copied unchanged. `testzip` passed for both files. python-pptx still reads 57 slides. The odp (56 pages) was patched directly, not rebuilt from the pptx |
 | Lecturer first name removed | PASS | 0 case-insensitive matches in tracked file names, in tracked text and in deck XML. This report names the old script as `patch_<author-first-name>_edit.py`. Git history was not changed |
+| Hardware notes: paths, wikilinks, private markers | PASS | 0 local absolute paths, 0 wikilinks, 0 uses of vault, teacher or private, 0 em dashes in `research/hardware/` (8 files). The strict checker scans them |
+| Teacher notes outside Git | PASS | 0 tracked paths with teacher in the name. 7 vault teacher notes have no copy in the repo (byte and text-line checks). The eighth old teacher file is the structure proposal. It is tracked on `main` and now sits at `archive/potential-structure-change.md` |
+| Redundancy search | PASS | 0 repeated sentences across the hardware notes except link boilerplate. 0 sentences shared with other course or research pages. Overlap with older pages is by link |
 | Teacher machine paths in student text | PASS | 0 local absolute paths in tracked `.md` and `.py` files |
 | No em dashes in new text | PASS | 0 in text written for this branch. Moved and merged files keep their own wording, and some older lines still have em dashes |
 | Commit size | PASS | At most 30 changed files in any commit. Author of every commit: `kleinstkariert` |
@@ -226,7 +278,10 @@ The checker is `course/scripts/check-course-links.py`. It now scans `course/`, `
 
 - The pptx and odp were patched in the speaker notes only. The odp has 56 pages and the pptx has 57 slides, so the two decks were not in sync before the patch and still are not. A full rebuild was not run, as AGENTS.md asks.
 - The ignored local folder `archive/` inside the first slideshow folder is not tracked. Move it by hand in each existing checkout.
-- The teacher vault is not updated. 19 vault-only files exist (teacher notes, hardware notes, the pull request 18 note, three old decks). Sync it additively. A mirror-style sync would delete teacher-only files.
+- The teacher vault is not updated. The vault still holds 19 vault-only files. 8 hardware notes are now copied into the repo, so their vault originals are duplicates until the course author decides. Do not delete them without approval. Sync additively. A mirror-style sync would delete teacher-only files.
+- The hardware notes keep source inconsistencies and gaps as labels. They do not resolve them: a three-year cost total that differs between two sections of the Spark note, no source for two speed figures, no power figure for Setup D, no per-row source for model sizes, and parts prices that are estimates with no date. No price was rechecked.
+- The hardware pages contain procurement arguments (for example, claims about another department's machine and about a campus AI service). They were copied as written and marked as claims. Review them before you present them to students.
+- `archive/potential-structure-change.md` is a copy of a teacher note with `audience: teacher`. It was tracked on `main` and was moved, not added. Decide whether it stays in the repo.
 - About 24 wikilinks in teacher-only vault notes point to old paths. They break until the vault is updated.
 - Many moved pages still describe the old layout in their prose. Only links and paths were changed, as the safety rule requires.
 - The Session 03 page, the dated models, prices, limits and hardware page, and the PROJECT-WORK pages are new text written for this branch. They have not been tested in class.
