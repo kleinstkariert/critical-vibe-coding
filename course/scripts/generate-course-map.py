@@ -109,7 +109,7 @@ def main():
     ]
     if other:
         out += section("Other student pages", lambda row: row in other)
-    out.append("Research notes are listed in [the research index](../research/README.md).")
+    out.append("Research notes are listed in [the research index](../research/README.md). Dated hardware research starts at [hardware research](../research/hardware/README.md).")
     out.append("")
     text = "\n".join(out)
     if not text.endswith("\n"):

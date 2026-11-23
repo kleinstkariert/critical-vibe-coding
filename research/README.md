@@ -10,7 +10,7 @@ last_verified: 2026-11-20
 
 These notes support the course. They are not sessions, and they are not required installs.
 
-A path in a research note that points at clips or procurement files means the teacher vault, not a folder in this repository.
+A path in a research note that points at clips means the teacher vault, not a folder in this repository. The hardware notes are in this repository, in `hardware/`.
 
 | Note | Use |
 |---|---|
@@ -19,6 +19,7 @@ A path in a research note that points at clips or procurement files means the te
 | [AI bubble and data centres](ai-bubble-productivity-datacenter.md) | Economy deep dive |
 | [Data centres, energy, ecology](data-centers-energy-ecology-economy.md) | Ecology deep dive |
 | [Local GPU hardware](local-gpu-hardware-for-llms.md) | Session 03 background |
+| [Hardware research](hardware/README.md) | Dated build options: DGX Spark class system, DIY multi-GPU builds, model-fit table, request draft. Prices dated 29 Oct 2026 |
 | [Karpathy LLM wiki and OpenClaw](karpathy-llm-wiki-and-openclaw.md) | Wiki background |
 | [Obsidian and Nextcloud Collectives](llmwiki-obsidian-vs-nextcloud-collectives.md) | Optional store comparison |
 | [Structure and model quality](structure-vs-model-quality.md) | Wiki background |

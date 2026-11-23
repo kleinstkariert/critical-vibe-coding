@@ -108,4 +108,4 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [START HERE](START-HERE.md) | draft | false |
 | [Why this structure](../documentation/why-this-structure.md) | draft | false |
 
-Research notes are listed in [the research index](../research/README.md).
+Research notes are listed in [the research index](../research/README.md). Dated hardware research starts at [hardware research](../research/hardware/README.md).

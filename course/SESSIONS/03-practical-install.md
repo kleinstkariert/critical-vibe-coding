@@ -123,6 +123,7 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 | Session 03 slides | [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md) |
 | Dated model and hardware claims | [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md) |
 | Research (ready-made, DIY, multi-GPU, models) | [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
+| Dated build options (DIY multi-GPU, DGX Spark class) | [hardware research](../../research/hardware/README.md) |
 | Student howto | [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 | Hermes Local Models | https://hermes-agent.nousresearch.com/docs/user-guide/local-models |
 | Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |

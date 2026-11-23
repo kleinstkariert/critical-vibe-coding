@@ -13,7 +13,7 @@ This page is a pointer. It does not compare tools.
 
 Why the course default is an assistant plus a coding agent: [Hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md). What a harness is: [What is a harness](../PRACTICE/01-harness-and-agents/what-is-harness.md).
 
-Prices and versions that change fast: [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md).
+Prices and versions that change fast: [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md). Dated machine and build options: [hardware research](../../research/hardware/README.md).
 
 ## Official documentation
 
@@ -33,6 +33,7 @@ Open the vendor page before you install or pay. Each link comes from the compari
 | Zed | Editor | [AI overview](https://zed.dev/docs/ai/overview) · [External Agents](https://zed.dev/docs/ai/external-agents) · [source](https://github.com/zed-industries/zed) |
 | Cline | Editor extension | [docs](https://docs.cline.bot/getting-started/authorizing-with-cline) |
 | Continue | Editor extension | [docs](https://docs.continue.dev) |
+| Devin Desktop (formerly Windsurf) | Editor | [FAQ](https://docs.devin.ai/desktop/devin-desktop-faq) |
 | AgentCraft | Multi-agent front end (Minecraft) | [source](https://github.com/blendi-remade/agentcraft) |
 | Ollama | Local models | [GPU notes](https://docs.ollama.com/gpu) |
 | Obsidian | Notes | [Slides plugin](https://obsidian.md/help/plugins/slides) |

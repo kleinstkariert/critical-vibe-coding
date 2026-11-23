@@ -146,9 +146,9 @@ So **2×24 GB ≈ 48 GB of weight capacity**, not “one 48 GB GPU.”
 | Ollama GPU docs | https://docs.ollama.com/gpu |
 | Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |
 
-### Institutional shopping lists (teacher vault — not public)
+### Institutional builds and the DGX Spark comparison
 
-Full open-frame shopping lists, a coding-model matrix, and the DIY versus DGX Spark note for budget letters stay in the teacher vault. They are not in this repository.
+Dated build options (open-frame builds of two or three RTX 3090, a dual 4090 and a dual 5090 case, and a DGX Spark class system), a coding-model fit table and a DIY request draft are in [hardware research](hardware/README.md). Their prices are dated 29 October 2026 and were not rechecked later.
 
 *nuance for students:* DIY multi-GPU is often best **€/tok/s** for 70B Q4 inference and for **teaching how to build**; Spark wins on **quiet coherent 128 GB** and turnkey training — complements, not clones.
 
