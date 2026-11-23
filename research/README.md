@@ -22,4 +22,5 @@ A path in a research note that points at clips or procurement files means the te
 | [Karpathy LLM wiki and OpenClaw](karpathy-llm-wiki-and-openclaw.md) | Wiki background |
 | [Obsidian and Nextcloud Collectives](llmwiki-obsidian-vs-nextcloud-collectives.md) | Optional store comparison |
 | [Structure and model quality](structure-vs-model-quality.md) | Wiki background |
+| [Vibe-coding tools and agent environments](vibe-coding-tools-and-agent-environments.md) | The one canonical tool comparison: definitions, licences, model access, prices (includes Zed and AgentCraft) |
 | [Obsidian and Joplin](obsidian-vs-joplin-hermes-llmwiki.md) | Store comparison |

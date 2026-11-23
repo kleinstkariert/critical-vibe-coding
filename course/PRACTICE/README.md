@@ -28,5 +28,5 @@ The notes are sorted by question, not by a fixed sequence.
 
 Also here: [install order and first week](install-order-and-first-week.md), the earlier install-heavy start page. It is an *optional extension*.
 
-Tool survey and comparisons that stay outside this folder: [research index](../../research/README.md).
+Tool survey and comparisons that stay outside this folder: [vibe-coding tools and agent environments](../../research/vibe-coding-tools-and-agent-environments.md) (the one canonical comparison) and the [research index](../../research/README.md).
 Prices, versions and install commands change often. See [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md).
