@@ -15,7 +15,7 @@ canonical: true
 
 **Talk length:** 10–15 minutes. One spine for Session 01 (blocks 3 + 6 combined). Do not expand into the bubble deep-dive or EU law seminar here.
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *nuance*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *nuance*.
 
 | Goes deeper elsewhere | Link |
 |---|---|

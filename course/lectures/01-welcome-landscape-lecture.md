@@ -609,7 +609,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 - Write down which AI access you already have.
 
-- Read Karpathy's LLM Wiki note ([references](../syllabus/references.md)). → If you do not want to use AI: you can do research, investigative work on AI and input lectures.
+- Read Karpathy's LLM Wiki note ([references](../REFERENCES/bibliography.md)). → If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 
 - Next week: setup guide, Karpathy and the harness, after a student humanities input.
 

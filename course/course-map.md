@@ -57,8 +57,8 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Critical Vibe Coding — seminar brief](syllabus/00-brief.md) | current | true |
 | [Critical Vibe Coding. Course outline](syllabus/course-outline.md) | current | true |
 | [Course rhythm. Check-in, student inputs, time budget](syllabus/course-rhythm.md) | current | true |
-| [Curated links from vault clippings](syllabus/links-from-clippings.md) | current | true |
-| [Critical Vibe Coding — references](syllabus/references.md) | current | true |
+| [Curated links from vault clippings](REFERENCES/primary-sources.md) | current | true |
+| [Critical Vibe Coding — references](REFERENCES/bibliography.md) | current | true |
 | [Critical Vibe Coding. Course timeline](syllabus/timeline.md) | current | true |
 | [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [EU AI Act and Datenschutz (Austria)](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | current | true |

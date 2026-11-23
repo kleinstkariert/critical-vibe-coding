@@ -22,7 +22,7 @@ Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills
 | One strong image or quote per slide | Bullet walls, dashboards |
 | Argument in speaker notes | Reading paragraphs off the slide |
 | Artworks, infrastructure photos, sparse diagrams | Neon "AI brain" stock |
-| Label the source type ([[syllabus/references#source-types]]) | Confident unsourced numbers |
+| Label the source type ([[REFERENCES/bibliography#source-types]]) | Confident unsourced numbers |
 | Contradiction as method (image versus market) | Tech demo cheerleading |
 | Own installation photos for practice beats | Logo salad of every vendor |
 

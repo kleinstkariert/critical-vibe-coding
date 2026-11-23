@@ -53,7 +53,7 @@ Topics are fixed (9 Nov 2026) and chosen by the groups at the end of Session 01.
 - **Five input slots** for about 20 students → **groups of four** (or two pairs sharing one slot). Exact group size may change with enrolment.
 - One group per class, after the check-in
 - About **15 minutes** (target **10:20 to 10:35**), then discussion
-- Use course research + [references](references.md), not only YouTube. Students who do not want to use AI can do research and investigative work for the input.
+- Use course research + [references](../REFERENCES/bibliography.md), not only YouTube. Students who do not want to use AI can do research and investigative work for the input.
 
 ### Group ↔ session (humanities question → then the teacher's practical)
 

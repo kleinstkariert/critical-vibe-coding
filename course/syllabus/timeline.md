@@ -112,7 +112,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 | What **lint** means | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
 | Standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | What structure improves | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) |
-| References | [references](references.md) |
+| References | [references](../REFERENCES/bibliography.md) |
 | What is a **harness** | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | What is **MCP** | [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | Hermes / Obsidian howtos | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
@@ -129,7 +129,7 @@ Primary URLs: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e
 - [ ] Exact semester calendar / room / ECTS / grading weights
 - [ ] Session 07 focus and Session 08 format (proposals in the session files)
 - [ ] Student group size for the five input slots
-- [x] Reading list: [references](references.md) · Session 01 deep dives
+- [x] Reading list: [references](../REFERENCES/bibliography.md) · Session 01 deep dives
 - [ ] Model cost guidance for students
 - [ ] Shared class wiki versus personal vaults
 - [x] Local hardware session + multi-GPU / open-model map: Session 03

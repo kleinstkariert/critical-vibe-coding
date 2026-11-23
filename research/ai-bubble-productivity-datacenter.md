@@ -12,7 +12,7 @@ tags:
 
 # AI Bubble, Productivity, and Data-Center Debate
 
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Placed in the vault from the Downloads summary the same day. Labels: *nuance / caveat* | *technical suggestion*.
+Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Placed in the vault from the Downloads summary the same day. Labels: *nuance / caveat* | *technical suggestion*.
 
 **Ecology / siting twin (course):** for *where* centres are built, planned vs energized capacity, energy mix, water, and US/world economic meaning, see [[data-centers-energy-ecology-economy]] (Session 01 Block 5; student input Session 06). This note stays on **finance, productivity, and CapEx risk**; that note on **grids, emissions, and communities**. Shared hinge: announcement pipelines ≠ operating megawatts (productive-bubble frame still applies).
 

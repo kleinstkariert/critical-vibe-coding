@@ -101,7 +101,7 @@ Class rhythm: [course rhythm](course-rhythm.md)
 
 ## Core readings (short)
 
-Full list: [references](references.md).
+Full list: [references](../REFERENCES/bibliography.md).
 
 | Theme | Starter |
 |---|---|

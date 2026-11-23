@@ -11,7 +11,7 @@ tags:
 
 # Data centres — siting, energy, ecology, US economy
 
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Course handout. Labels: *claim / video* | *nuance / caveat*. Research date: 2026-10-23.
+Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Course handout. Labels: *claim / video* | *nuance / caveat*. Research date: 2026-10-23.
 
 **Where it fits in the semester**
 

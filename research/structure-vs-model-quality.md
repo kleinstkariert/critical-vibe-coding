@@ -13,7 +13,7 @@ tags:
 Claim circulating in the course: *the information structure around an agent matters more than LLM quality (within limits); someone said productivity is ~70% knowledge/structure and ~30% model.*
 
 Domain: mainly **software engineering / coding agents**, with supporting RAG results.  
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Labels: *nuance / caveat* | *technical suggestion*.
+Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Labels: *nuance / caveat* | *technical suggestion*.
 
 Course home for this argument: [[../course/PRACTICE/01-harness-and-agents/what-is-harness]] · session [[../course/SESSIONS/02-agent-harness-and-wiki-architecture]].
 
