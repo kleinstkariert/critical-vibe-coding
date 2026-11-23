@@ -75,7 +75,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 |---|---|---|---|
 | 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [01 welcome and landscape](../01-welcome-and-landscape.md) |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) |
-| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [03 practical install](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| 3 | **Practical install**: optional join-in light Hermes Desktop install (no Docker); hardware paths, locally runnable models and prompting as reading | Closed versus open weights as power | [03 practical install](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
 | 4 | **Midpoint:** project presentations; students' semester plans | none | [04 project presentations and plans](../04-project-presentations-and-plans.md) |
 | 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [05 knowledge base phone discord](../05-knowledge-base-phone-discord.md) |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI | [06 agent as interface](../06-agent-as-interface.md) |

@@ -32,7 +32,7 @@ Details: [SEMINAR](SEMINAR.md) and [course rhythm](SESSIONS/overview/course-rhyt
 |---|---|---|
 | 1 | [Welcome and political-economic landscape](SESSIONS/01-welcome-and-landscape.md) | Groups choose topics |
 | 2 | [Agent harness, LLM Wiki structure, model landscape](SESSIONS/02-agent-harness-and-wiki-architecture.md) | Flattening |
-| 3 | [Hardware paths, open models, prompting](SESSIONS/03-practical-install.md) | Closed versus open weights as power |
+| 3 | [Practical install, open models, prompting](SESSIONS/03-practical-install.md) | Closed versus open weights as power |
 | 4 | [Midpoint: project presentations and semester plans](SESSIONS/04-project-presentations-and-plans.md) | None |
 | 5 | [Vault practice, phone sync, Discord bridge, MCP](SESSIONS/05-knowledge-base-phone-discord.md) | How dangerous is AI really? |
 | 6 | [Agent as interface, as material, as canvas](SESSIONS/06-agent-as-interface.md) | The ecology of AI |
