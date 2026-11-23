@@ -11,7 +11,7 @@ canonical: true
 
 # START HERE
 
-[Potential Structure Change](../teacher/potential-structure-change.md)
+[Potential Structure Change](../../archive/potential-structure-change.md)
 
 Welcome to **Critical Vibe Coding** (Interface Cultures).  
 This page is the on-ramp. The generated list of current pages is the [course map](../course-map.md). Everything else hangs off the [course outline](../SESSIONS/overview/course-outline.md) and [session notes](../SESSIONS/).

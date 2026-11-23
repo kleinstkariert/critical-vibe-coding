@@ -1,11 +1,13 @@
 """Regenerate course/course-map.md from teaching-document status fields."""
 
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 COURSE = ROOT / "course"
 OUT = COURSE / "course-map.md"
+SCAN = [COURSE, ROOT / "archive", ROOT / "documentation"]
 
 
 def split_frontmatter(text):
@@ -34,14 +36,18 @@ def title_of(path, fields, body):
 
 def main():
     rows = []
-    for path in sorted(COURSE.rglob("*.md")):
+    paths = []
+    for base in SCAN:
+        if base.exists():
+            paths.extend(base.rglob("*.md"))
+    for path in sorted(paths):
         if path == OUT or "scripts" in path.parts:
             continue
         text = path.read_text(encoding="utf-8")
         fields, body = split_frontmatter(text)
         if "audience" not in fields or "status" not in fields:
             continue
-        rel = path.relative_to(COURSE).as_posix()
+        rel = Path(os.path.relpath(path, COURSE)).as_posix()
         rows.append(
             {
                 "rel": rel,
@@ -68,16 +74,6 @@ def main():
         lines.append("")
         return lines
 
-    def proposal_section():
-        """Pin the structure proposal link first. A later run writes only the link."""
-        rel = "teacher/potential-structure-change.md"
-        row = next((item for item in rows if item["rel"] == rel), None)
-        title = row["title"] if row else "Potential Structure Change"
-        return [
-            f"[{title}]({rel})",
-            "",
-        ]
-
     out = [
         "---",
         "title: Course map",
@@ -94,7 +90,6 @@ def main():
         "Regenerate it with `python course/scripts/generate-course-map.py`.",
         "",
     ]
-    out += proposal_section()
     out += section(
         "Current pages for students",
         lambda row: row["audience"] == "student" and row["status"] == "current",

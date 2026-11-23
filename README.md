@@ -1,6 +1,6 @@
 # Critical Vibe Coding
 
-[Potential Structure Change](course/teacher/potential-structure-change.md)
+[Potential Structure Change](archive/potential-structure-change.md)
 
 Interface Cultures (Kunstuniversität Linz) — seminar combining **hands-on LLM agents** with **critical inquiry** into authorship, labour, platforms, and ecology.
 
