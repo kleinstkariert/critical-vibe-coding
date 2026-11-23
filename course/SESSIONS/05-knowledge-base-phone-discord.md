@@ -67,7 +67,7 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 - When you need MCP and when the disk is enough: the Obsidian folder wiki uses filesystem tools, no MCP. Apps that are not folders (calendar, mail, browser, SQLite note apps, live CAD/3D sessions) need MCP.
 - How Hermes does it (*institutional summary*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see**: [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
 - Safety: app passwords, localhost versus remote, what not to put in the vault. Per-server tool filtering is a design decision: the agent cannot call what you did not tick.
-- CAD/3D servers (Blender, Fusion, FreeCAD, OpenSCAD, build123d, Rhino, Meshy) with caveats: table in [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md). Used again in Session 07.
+- CAD/3D servers (Blender, Fusion, FreeCAD, OpenSCAD, build123d, Rhino, Meshy) with caveats: table in [06 mcp and tools](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06). Used again in Session 07.
 
 ## Practical
 
@@ -85,5 +85,5 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 ## Materials
 
 - [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
-- MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md)
+- MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06)
 - Student input: Hugging Face and OpenAI incident reports (above) · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)

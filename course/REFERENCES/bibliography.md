@@ -158,7 +158,7 @@ Full mapping: [timeline](../SESSIONS/overview/timeline.md)
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](../SESSIONS/overview/course-rhythm.md)).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../THEORY/02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical) · [11 local ecology when not](../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical). Current use: Session 01 deep dives and the student inputs ([course rhythm](../SESSIONS/overview/course-rhythm.md)).
 
 ## Agent harness
 

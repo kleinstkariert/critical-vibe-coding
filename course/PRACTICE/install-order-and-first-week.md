@@ -87,7 +87,7 @@ Keep API keys out of synced notes.
 | Local GPU / Mac / DGX / multi-GPU (Session 03)? | [../../research/local-gpu-hardware-for-llms.md](../../research/local-gpu-hardware-for-llms.md) · [howto-local-llm-hardware.md](04-local-and-cloud/howto-local-llm-hardware.md) |
 | Check-in + student input schedule? | [course-rhythm.md](../SESSIONS/overview/course-rhythm.md) |
 | Data centres / energy / ecology (Session 01, input Session 06)? | [../../research/data-centers-energy-ecology-economy.md](../../research/data-centers-energy-ecology-economy.md) |
-| MCP / CAD tools? | [what-is-mcp.md](06-mcp-and-tools/what-is-mcp.md) · [../SESSIONS/05-knowledge-base-phone-discord.md](../SESSIONS/05-knowledge-base-phone-discord.md) · CAD/3D table: [../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md](../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) |
+| MCP / CAD tools? | [what-is-mcp.md](06-mcp-and-tools/what-is-mcp.md) · [../SESSIONS/05-knowledge-base-phone-discord.md](../SESSIONS/05-knowledge-base-phone-discord.md) · CAD/3D table: [what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06](06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06) |
 | AI bubble / CapEx finance? | [../../research/ai-bubble-productivity-datacenter.md](../../research/ai-bubble-productivity-datacenter.md) |
 | Creative tools (Meshy, Weave, …)? | [ai-tools-creative-processes.md](07-creative-stacks/ai-tools-creative-processes.md) |
 

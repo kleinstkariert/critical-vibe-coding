@@ -435,7 +435,7 @@ Your subscription costs about €20 a month. Who pays the rest? If the bubble bu
 
 
 
-High priority. **Deep dive:** [ecology](../../THEORY/03-ecology-infrastructure/ecology.md). Student input on the ecology of AI: Session [06](../06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md).
+High priority. **Deep dive:** [ecology](../../THEORY/03-ecology-infrastructure/ecology.md). Student input on the ecology of AI: Session [06](../06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical). Research base: [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md).
 
 
 
@@ -485,7 +485,7 @@ Would you accept a data centre in your own district? On what conditions?
 
 
 
-High priority. **Deep dive:** [labour](../../THEORY/02-labour-authorship/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md).
+High priority. **Deep dive:** [labour](../../THEORY/02-labour-authorship/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../../THEORY/02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical). Research base: [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md).
 
 
 

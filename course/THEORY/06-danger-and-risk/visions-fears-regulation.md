@@ -23,7 +23,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 | **Jobs / rising tide / junior productivity** | [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md) · [labour](../02-labour-authorship/labour.md) |
 | Data centres, energy, US siting | [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md) · student input Session [06](../../SESSIONS/06-agent-as-interface.md) |
 | What EU/AT law actually does | [eu ai act and datenschutz](../05-privacy-regulation/eu-ai-act-and-datenschutz.md) · student input on privacy, Session [07](../../SESSIONS/07-coding-and-creative-stacks.md) |
-| Ghost labour / platforms | [labour](../02-labour-authorship/labour.md) · archived [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) |
+| Ghost labour / platforms | [labour](../02-labour-authorship/labour.md) · archived [10 authorship labour platforms](../02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical) |
 | How dangerous is AI really? | Student input, Session [05](../../SESSIONS/05-knowledge-base-phone-discord.md) (Hugging Face incident) |
 
 

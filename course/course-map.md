@@ -76,10 +76,10 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Session 06 — MCP and tools](SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) | deprecated | false |
-| [Session 10 — Authorship, labour, platforms](SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) | deprecated | false |
-| [Session 11 - Local, ecology, when not](SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md) | deprecated | false |
-| [Archive of the 13-session plan](SESSIONS/archive-13-session-plan/README.md) | deprecated | false |
+| [Session 06 — MCP and tools](PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06) | deprecated | false |
+| [Session 10 — Authorship, labour, platforms](THEORY/02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical) | deprecated | false |
+| [Session 11 - Local, ecology, when not](THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical) | deprecated | false |
+| [Archive of the 13-session plan](SESSIONS/overview/timeline.md#where-the-old-13-session-plan-went) | deprecated | false |
 
 ## Other student pages
 

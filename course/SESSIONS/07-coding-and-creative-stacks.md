@@ -74,7 +74,7 @@ Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session)
 
 
 
-Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What does the EU AI Act say about the system, and what does the GDPR say about personal data? They are separate. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions). Also: the cloud-or-local flowchart in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 · archived unit [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md).
+Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What does the EU AI Act say about the system, and what does the GDPR say about personal data? They are separate. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions). Also: the cloud-or-local flowchart in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 · archived unit [10 authorship labour platforms](../THEORY/02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical).
 
 
 
@@ -92,7 +92,7 @@ Bridge to the practical: a coding agent reads your whole project folder. What do
 
 - Debugging with agents without losing understanding. *institutional summary (METR 2025):* experienced maintainers were 19% slower with AI on their own large codebases
 
-- File-based stacks (code, markdown, OpenSCAD) versus opaque GUIs; MCP into live apps (Blender, Fusion, FreeCAD): table in [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md)
+- File-based stacks (code, markdown, OpenSCAD) versus opaque GUIs; MCP into live apps (Blender, Fusion, FreeCAD): table in [06 mcp and tools](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06)
 
 - Risk of "vibe" without verification in fabrication and safety-critical steps. The agent proposes; the student owns the cut and the print.
 
@@ -116,7 +116,7 @@ One task in a stack the student uses, ideally a piece of the final project. Log 
 
 | Creative tools survey | [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) |
 
-| MCP + CAD/3D (archived session) | [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md) |
+| MCP + CAD/3D (archived session) | [06 mcp and tools](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06) |
 
 | Studio time and peer critique | [04 project presentations and plans](04-project-presentations-and-plans.md) and [08 final presentations](08-final-presentations.md) |
 

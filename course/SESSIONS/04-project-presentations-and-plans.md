@@ -63,4 +63,4 @@ With about 20 students, 5 to 8 minutes each fills the session. If the group is l
 | Obsidian plugin `karpathywiki` (in-app lint health scan) | https://community.obsidian.md/plugins/karpathywiki |
 | Karpathy gist (*Operations → Lint*) | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f |
 | Peer pattern: HKUST midterm proposal review | https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf |
-| Provenance and authorship (archived session) | [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md) |
+| Provenance and authorship (archived session) | [10 authorship labour platforms](../THEORY/02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical) |

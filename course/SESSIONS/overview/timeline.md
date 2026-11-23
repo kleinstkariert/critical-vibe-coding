@@ -69,7 +69,7 @@ Sessions 02, 03, 05, 06, 07: **≥45 minutes** technical practice after the brea
 
 ## Session map (8 meetings)
 
-Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are removed. Tables the course still uses stay in the [archive](../archive-13-session-plan/README.md).
+Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are removed. Tables the course still uses stay in the [timeline appendix](timeline.md#where-the-old-13-session-plan-went).
 
 | # | Title | Student input | Doc |
 |---|---|---|---|
@@ -135,3 +135,23 @@ Primary URLs: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e
 - [x] Local hardware session + multi-GPU / open-model map: Session 03
 - [x] Check-in + student groups in structure: [course rhythm](course-rhythm.md)
 - [x] Eight-session restructure (9 Nov 2026)
+
+## Where the old 13-session plan went
+
+The course had 13 sessions before 9 Nov 2026. This table shows where each old session went. The File column shows the old file names. The old files for sessions 06, 10 and 11 are removed from the repository. The parts that current pages still use moved into the pages named in the Now column.
+
+| Old session | File | Now |
+|---|---|---|
+| 01 Welcome and landscape | `../01-welcome-and-landscape.md` | **01**, unchanged in place |
+| 02 Agent harness and wiki architecture | `../02-agent-harness-and-wiki-architecture.md` | **02**, plus model landscape and Hermes install from old 03 |
+| 03 Models, prompting, install | removed | Model landscape and install are in **02**. Prompting and chat versus reasoning are in **03** |
+| 04 Local hardware and open LLMs | `../03-hardware-open-models-prompting.md` | **03**, renamed |
+| 05 Knowledge base, phone, Discord | `../05-knowledge-base-phone-discord.md` | **05**, plus MCP from old 06 |
+| 06 MCP and tools | removed, see [[../../PRACTICE/06-mcp-and-tools/what-is-mcp#cad-and-3d-servers-table-from-retired-session-06|what is mcp]] | MCP basics moved to **05**. The CAD/3D MCP table moved to what is mcp and is linked from 05 and 07 |
+| 07 Agent as interface | `../06-agent-as-interface.md` | **06**, renamed; adds "as material, as canvas" |
+| 08 Agents across creative stacks | `../07-coding-and-creative-stacks.md` | **07**, renamed; coding added (proposal, to be decided) |
+| 09 Midpoint demo and proposal | `../04-project-presentations-and-plans.md` | **04**, renamed |
+| 10 Authorship, labour, platforms | removed, see [[../../THEORY/02-labour-authorship/labour#retired-session-10-prompts-readings-and-practical|labour]] | Labour taught in Session 01 Block 6; privacy and data as the student input in **07**; provenance note in **04** |
+| 11 Ecology, when not | removed, see [[../../THEORY/03-ecology-infrastructure/ecology#retired-session-11-prompts-readings-and-practical|ecology]] | Ecology taught in Session 01 Block 5; student input "ecology of AI" in **06**; refusal and kill switch as optional practice in **06** |
+| 12 Studio and peer critique | removed | Studio time is in **07**. Peer critique is in **04** and **08** |
+| 13 Final presentations | `../08-final-presentations.md` | **08**, renamed (proposal) |

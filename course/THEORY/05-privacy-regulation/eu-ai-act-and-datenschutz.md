@@ -16,7 +16,7 @@ canonical: true
 
 English course note. **Primary official pages are often German** — links below stay in the original language. This is orientation for artists/students, not legal advice.
 
-Use with: Session 01 talk [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) (what regulation can and cannot do, 10 to 15 min spine) · student input on privacy, session [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · archived sessions [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) and [11 local ecology when not](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md) · [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md).
+Use with: Session 01 talk [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) (what regulation can and cannot do, 10 to 15 min spine) · student input on privacy, session [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · archived sessions [10 authorship labour platforms](../02-labour-authorship/labour.md#retired-session-10-prompts-readings-and-practical) and [11 local ecology when not](../03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical) · [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md).
 
 This note is the **how the EU/AT rules look** layer. The visions handout is the **political frame** (utopia/x-risk rhetoric, amplifier debate, credibility marketing). Do not duplicate both in one sitting.
 

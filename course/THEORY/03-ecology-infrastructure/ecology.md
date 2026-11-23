@@ -20,7 +20,7 @@ canonical: true
 
 
 
-Block 5 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../SESSIONS/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). This note is the Session 01 version with the facts students should hear on day one.
+Block 5 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../SESSIONS/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](ecology.md#retired-session-11-prompts-readings-and-practical). This note is the Session 01 version with the facts students should hear on day one.
 
 
 
@@ -280,3 +280,28 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 Update IEA and pipeline numbers before class; both move quickly.
 
+
+## Retired Session 11: prompts, readings and practical
+
+### Prompts and evidence
+
+- **Data centres as material politics** - [[../../../research/data-centers-energy-ecology-economy]] (~20 min after the pair). Optional prep video: Be Smart, *The Real Cost of AI Will Shock You* (https://www.youtube.com/watch?v=YgoiujmwLKI). CapEx twin: [[../../../research/ai-bubble-productivity-datacenter]]
+- Prefer **IEA** + Luccioni over vendor blogs
+- Local as political/aesthetic choice - utilisation, electricity, renting vs owning ([HM Munich Our Br00d](https://mediapool.hm.edu/media/dachmarke/dm_lokal/hm_international/sprachen/coursesinenglish_1/courses_in_english_ss_26/muc_dai_5/CiE_Kursbeschreibung_Our_Br00d_Technical_Development_of_Agentic_AI_in_Artistic_Research_Geaendert.pdf))
+- [SFPC handmade](https://sfpc.study/sessions/summer-26/handmade-datasets) + LLM Wiki small-base bet ([[../../../research/karpathy-llm-wiki-and-openclaw]])
+- Checklist: when AI is useful / unnecessary (*requirement* from brief)
+
+### Optional reading (pick one)
+
+| Reading | Why here |
+|---|---|
+| Course handout - data centres | [[../../../research/data-centers-energy-ecology-economy]] |
+| Luccioni et al. - https://arxiv.org/abs/2311.16863 | Inference energy |
+| IEA, *Energy and AI* - https://www.iea.org/reports/energy-and-ai | Electricity projections |
+| Crawford & Joler - https://anatomyof.ai/ | Material side |
+| Be Smart video - https://www.youtube.com/watch?v=YgoiujmwLKI | Overview; label interview figures as *claim* |
+
+### Practical
+
+- Same task: cloud vs smaller/local/open; log in `comparisons/`
+- Kill switch into `SCHEMA.md` ([[../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files]])

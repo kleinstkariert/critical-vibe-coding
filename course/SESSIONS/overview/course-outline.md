@@ -72,7 +72,7 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 | 7 | Coding with agents across creative stacks (*proposal, TBD*) | Privacy: what happens with the data? | Vibe coding critically; code, node, GUI, 3D/CAD, fab. [07 coding and creative stacks](../07-coding-and-creative-stacks.md) |
 | 8 | **Final presentations** (*proposal*) | none | Architecture + use + reflection; closing check-in. [08 final presentations](../08-final-presentations.md) |
 
-Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight sessions still use are in the [archive](../archive-13-session-plan/README.md).
+Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight sessions still use are in the [timeline appendix](timeline.md#where-the-old-13-session-plan-went).
 
 ---
 

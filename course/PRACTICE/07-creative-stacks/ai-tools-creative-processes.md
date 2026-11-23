@@ -14,7 +14,7 @@ canonical: true
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
 
-Use with: [05 knowledge base phone discord](../../SESSIONS/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) · [course outline](../../SESSIONS/overview/course-outline.md).
+Use with: [05 knowledge base phone discord](../../SESSIONS/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06) · [course outline](../../SESSIONS/overview/course-outline.md).
 
 ---
 
@@ -86,7 +86,7 @@ Peer-course list (HKUST AMCC6500) clusters these similarly — see [course outli
 
 ## CAD / DCC with agent bridges (MCP)
 
-Full teaching table lives in [06 mcp and tools](../../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) (used in Sessions 05 and 07). Short index:
+Full teaching table lives in [06 mcp and tools](../06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06) (used in Sessions 05 and 07). Short index:
 
 | App | MCP status (2026-10-18) |
 |---|---|

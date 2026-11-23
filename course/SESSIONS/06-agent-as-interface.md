@@ -36,7 +36,7 @@ Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session)
 
 ## Student input (theory / humanities): The ecology of AI
 
-Group (about 15 min). Energy, water, gas, land and neighbours. What can we know, and what is hidden behind shell companies and NDAs? Who lives next to the campus that serves your prompts? Starting points: [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · archived full unit [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md).
+Group (about 15 min). Energy, water, gas, land and neighbours. What can we know, and what is hidden behind shell companies and NDAs? Who lives next to the campus that serves your prompts? Starting points: [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · archived full unit [11 local ecology when not](../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical).
 
 Bridge to the practical: refusal is also an interface decision. A kill switch in the schema and a checklist of when AI is unnecessary belong in the interface score.
 
@@ -80,4 +80,4 @@ Full mapping in [timeline](overview/timeline.md).
 | Naming essay: the schema is the product | https://cozypet.github.io/llm-wiki-schema/ |
 | Sycophancy post-mortem (vendor primary) | https://openai.com/index/sycophancy-in-gpt-4o/ |
 | Peer courses: NYU IMA, HM Munich, SFPC | see table above · [references](../REFERENCES/bibliography.md) |
-| Ecology (student input) | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |
+| Ecology (student input) | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [11 local ecology when not](../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical) |

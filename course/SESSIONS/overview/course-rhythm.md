@@ -74,7 +74,7 @@ Suggested question stems (groups pick one and go deep):
 - Who can afford open weights, and who can afford to train them?
 - What does your agent send when it reads your notes?
 
-The earlier 10-pair map (G1 to G10, 13 sessions) is in the [archive](../archive-13-session-plan/README.md).
+The earlier 10-pair map (G1 to G10, 13 sessions) is in the [timeline appendix](timeline.md#where-the-old-13-session-plan-went).
 
 ---
 

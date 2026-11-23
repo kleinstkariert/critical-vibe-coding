@@ -45,7 +45,7 @@ The tool names in this map are a *demonstration*. They are *not required for ass
 | 7 | *To be decided* (proposal: coding with agents across creative stacks) | Privacy: what happens with the data? |
 | 8 | **Final** presentations (*proposal*) | |
 
-Details: [`course/SESSIONS/overview/timeline.md`](course/SESSIONS/overview/timeline.md) · [`course/SESSIONS/overview/course-outline.md`](course/SESSIONS/overview/course-outline.md) · cut sessions of the earlier 13-session plan: [`course/SESSIONS/archive-13-session-plan/`](course/SESSIONS/archive-13-session-plan/README.md)
+Details: [`course/SESSIONS/overview/timeline.md`](course/SESSIONS/overview/timeline.md) · [`course/SESSIONS/overview/course-outline.md`](course/SESSIONS/overview/course-outline.md) · cut sessions of the earlier 13-session plan: [timeline appendix](course/SESSIONS/overview/timeline.md#where-the-old-13-session-plan-went)
 
 ---
 

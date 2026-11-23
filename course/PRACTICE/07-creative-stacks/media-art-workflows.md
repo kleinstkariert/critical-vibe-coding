@@ -149,7 +149,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 | **Cloud versus local** | Run the same task on a cloud model and a local one. Log tokens, time, quality, and where the cloud call probably ran. | [03](../../SESSIONS/03-hardware-open-models-prompting.md) |
 
-| **Refusal week** (optional, off the slide) | Give up one convenient cloud feature for a week. Write down what it cost you and what you gained. | archived: [old 11](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md) |
+| **Refusal week** (optional, off the slide) | Give up one convenient cloud feature for a week. Write down what it cost you and what you gained. | archived: [old 11](../../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical) |
 
 | **Kill switch** | A rule in the schema that stops the agent, and a checklist of when AI is unnecessary. | [06](../../SESSIONS/06-agent-as-interface.md) |
 

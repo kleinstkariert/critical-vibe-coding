@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 6 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
+Block 6 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](labour.md#retired-session-10-prompts-readings-and-practical).
 
 
 
@@ -41,7 +41,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 | Vault clippings | Brian Merchant (Carnegie, *A Luddite's Guide to the AI Economy*), Verdegem (*Dismantling AI capitalism*), Richard Campbell keynote, Coxon and Stewart (Daily Show). |
 
-| Archived Session [10](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) readings | TIME on Sama / Kenya, Data Workers' Inquiry. |
+| Archived Session [10](labour.md#retired-session-10-prompts-readings-and-practical) readings | TIME on Sama / Kenya, Data Workers' Inquiry. |
 
 
 
@@ -293,3 +293,41 @@ Related: who gets the income if the hype comes true, in [bubble economy](../01-p
 
 - Course handout: [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md)
 
+
+## Retired Session 10: prompts, readings and practical
+
+### Prompts and evidence
+
+Prompts:
+
+- Authorship vs. accountability when the agent edits the wiki
+- Ghost labour and global supply chains behind “clean” chat UIs
+- Platform dependency: what breaks if a vendor changes pricing or policy?
+- Education and creative labour: deskilling vs. re-skilling claims
+
+Peer echo: [HKUST AMCC6500](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) weeks on ghost labour / data enclosure; [Birkbeck Critical and Creative AI](https://www.bbk.ac.uk/courses/modules/sc04/SC04023S7) on automation and creative labour ([[../../SESSIONS/overview/timeline]]).
+
+EU AI Act and the GDPR are separate topics (orientation, EN note, DE links): [[../05-privacy-regulation/eu-ai-act-and-datenschutz#decision-questions]]
+
+Session 01 already framed **industry utopia (UBI/UHI) vs social fears** and the amplifier debate — [[../06-danger-and-risk/visions-fears-regulation]]. Here: labour / authorship / platforms as the lived version of those fears.
+
+**Jobs / automation evidence (teach or assign):** [[../../../research/ai-jobs-rising-tide-productivity]] — MIT rising tide vs crashing wave; Stanford *Canaries* (early-career hiring); junior vs senior productivity charts (Demirer / Brynjolfsson–Li–Raymond / Peng).
+
+### Optional reading (pick one; all free to read)
+
+URLs loaded 2026-10-18 (*unverified lead*). Short list on purpose — see [[../../REFERENCES/bibliography]] for the full set.
+
+| Reading | Why here |
+|---|---|
+| Course handout — AI jobs / rising tide / junior productivity | [[../../../research/ai-jobs-rising-tide-productivity]] — MIT FutureTech; Stanford Canaries; Copilot RCTs |
+| Kate Crawford & Vladan Joler, *Anatomy of an AI System* (2018) — https://anatomyof.ai/ | One consumer agent (Amazon Echo) mapped as labour, data and material extraction; the “clean chat UI” argument in one diagram |
+| Crawford & Joler, *Calculating Empires* (2023) — https://calculatingempires.net/ | Interactive long-timeline of technology and power; useful for the “platform dependency is old” angle |
+| U.S. Copyright Office, *Copyright and Artificial Intelligence* (Part 2: Copyrightability, 2025-01-29; Part 3: Training, pre-publication 2025-05-09) — https://www.copyright.gov/ai/ | A regulator’s primary position on who can author an AI-assisted work; US-only, use as contrast to EU/Austrian practice |
+| Cory Doctorow, *Tiktok’s enshittification* (2023-01-21) — https://pluralistic.net/2023/01/21/potemkin-ai/ | The platform-lifecycle argument behind “what breaks if the vendor changes pricing or policy” |
+| Billy Perrigo / TIME, *OpenAI Used Kenyan Workers on Less Than $2 Per Hour…* (2023-01-18) — https://time.com/6247678/openai-chatgpt-kenya-workers/ | Reporting on Sama / toxic-text labelling for OpenAI — ghost labour behind a “clean” chat product. **Content warning** (graphic material). PDF mirror if paywall: https://cse.buffalo.edu/mlsoc/assets/files/openai_kenyan_worker.pdf |
+| Data Workers’ Inquiry — https://data-workers.org/ (method: https://data-workers.org/about/the-method/) | Worker-led inquiries into annotation and moderation; pair with TIME for “reporting vs workers speaking” |
+
+### Practical
+
+- Add a short “provenance” note to the personal wiki: which model, which tools, what human decisions — *technical suggestion:* this is what the page frontmatter already carries in part (`sources:`, `confidence:`, `contested:` — [[../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files]]); add a human-written `provenance.md` for what frontmatter cannot say (who decided, who was paid, where the model ran)
+- Optional: refuse one convenient cloud feature for a week and document the cost

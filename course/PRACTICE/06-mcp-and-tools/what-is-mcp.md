@@ -95,3 +95,53 @@ You  →  AI host (Cursor / Hermes)
 - Intro: https://modelcontextprotocol.io/docs/getting-started/intro
 - Architecture: https://modelcontextprotocol.io/specification/2026-07-28/architecture
 - Tools: https://modelcontextprotocol.io/specification/2026-07-28/server/tools
+
+## CAD and 3D servers (table, from retired Session 06)
+
+*requirement:* the brief names **3D/CAD** alongside code and node tools. MCP is the concrete link: the agent stays the “waiter”; Blender / Fusion / FreeCAD / OpenSCAD / Meshy are kitchens.
+
+| Stack | MCP / bridge (*unverified lead* where linked, 2026-10-18) | Agent role | Caveat |
+|---|---|---|---|
+| **Blender** (official Lab MCP) | [blender.org/lab/mcp-server](https://www.blender.org/lab/mcp-server/) — Blender **5.1+**, add-on + MCP server + LLM client | Scene query, naming, GeoNodes explain, scripted edits via Python API | Executes LLM-generated code **without guards** — use a throwaway file / VM; not on machines with sensitive data |
+| **Autodesk Fusion** (official) | Local HTTP MCP on running Fusion desktop (`http://127.0.0.1:27182/mcp`); enable in Preferences → General → API — [Fusion MCP overview](https://help.autodesk.com/view/fusion360/ENU/?guid=FMCP-OVERVIEW) | Drive live modeling / commands in an open session | Needs Fusion desktop running; Autodesk notes limited reliability on complex assemblies |
+| **FreeCAD** (community) | Addon + RPC inside FreeCAD, client via e.g. `uvx freecad-mcp` — [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) | Parametric parts, inspect, FEM hooks | FreeCAD must be open with RPC started |
+| **OpenSCAD** (community) | `uvx openscad-mcp` — [openscad-mcp](https://pypi.org/project/openscad-mcp/) | Scripted solids, render, printability checks | Mesh export (STL…), not B-rep STEP |
+| **build123d** (headless CAD) | `uv tool run … build123d-mcp` — [pzfreo/build123d-mcp](https://github.com/pzfreo/build123d-mcp) | STEP/STL with measure/validate loop; **no CAD GUI required** | Python/uv dependency; good classroom demo of “agent has CAD eyes” |
+| **Rhino / Grasshopper** | Community e.g. [EaseHee/rhino-mcp](https://github.com/EaseHee/rhino-mcp) (standalone `rhino3dm` or live bridge) | Geometry + GH bake/export | Not official McNeel MCP (as of research date); treat as optional / cohort-dependent |
+| **Meshy** (AI 3D gen) | Official Meshy MCP — `npx add-mcp @meshy-ai/meshy-mcp-server` + API key — [meshy.ai](https://www.meshy.ai/) | Text/image → mesh inside the agent loop | Cloud / paid tiers; printability claims are marketing — still verify in slicer |
+
+Comparison survey (CAD MCP landscape): https://buildcad.ai/guides/cad-mcp-servers  
+
+Broader creative AI canvases (Figma Weave, FLORA, Fuser, …) matter as **prompt/workflow** surfaces in session 7: [[../07-creative-stacks/ai-tools-creative-processes]]. FLORA also documents an external **FLORA MCP** (agent outside the canvas); Meshy has an official MCP — both are optional demos if someone already has accounts.
+
+Harness reminder: MCP servers are harness kitchens — [[../01-harness-and-agents/what-is-harness]] · [[../../SESSIONS/02-agent-harness-and-wiki-architecture]].
+
+**Teaching frame for CAD/3D:**
+
+1. **File-based path** — agent writes OpenSCAD / build123d / Python → you open the file (filesystem tools may be enough).
+2. **Live-session path** — MCP into Blender / Fusion / FreeCAD while the app is running (true tool kitchen).
+3. **Generative mesh path** — Meshy (or similar) via API/MCP → import into Blender/CAD for cleanup before fab.
+
+Never skip verification for fabrication: manifold mesh, tolerances, materials, machine safety. The agent proposes; the student owns the cut/print.
+
+### Practical (retired Session 06)
+
+- List tools the agent already has (filesystem, web, skills) before adding anything
+- Add **one** MCP server relevant to a student:
+  - default classroom picks: browser, or **build123d-mcp** / **OpenSCAD** if no CAD license, or Meshy if someone already has a key
+  - if someone runs Blender 5.1+ or Fusion: pair them with the official local MCP (localhost only)
+- During install, deselect tools the student does not want the agent to have
+- Document the tool list in the personal wiki — *technical suggestion:* a short “Tools” section in `SCHEMA.md` (what the agent may call, what it must ask before calling) plus a page listed in `index.md`; see [[../02-knowledge-bases/llm-wiki-standard-files]]
+- Optional 15-minute CAD micro-task: “10 mm cube → export STL → open in slicer” *with* the agent attached, then note where you overruled it
+
+### Links (retired Session 06)
+
+| What | Link |
+|---|---|
+| Blender Lab MCP | https://www.blender.org/lab/mcp-server/ |
+| Autodesk Fusion MCP | https://help.autodesk.com/view/fusion360/ENU/?guid=FMCP-OVERVIEW |
+| FreeCAD MCP | https://github.com/neka-nat/freecad-mcp |
+| build123d-mcp | https://github.com/pzfreo/build123d-mcp |
+| OpenSCAD MCP | https://pypi.org/project/openscad-mcp/ |
+| Meshy (+ MCP) | https://www.meshy.ai/ |
+| CAD MCP comparison (2026) | https://buildcad.ai/guides/cad-mcp-servers |
