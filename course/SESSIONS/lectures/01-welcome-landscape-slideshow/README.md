@@ -32,13 +32,13 @@ Only the current `.pptx` / `.odp` pair is tracked. Older builds stay off git (lo
 Rebuild images (run from the repository root). `make_images.py` needs network access and `xlrd` for Shiller's spreadsheet:
 
 ```text
-python course/lectures/01-welcome-landscape-slideshow/make_images.py
+python course/SESSIONS/lectures/01-welcome-landscape-slideshow/make_images.py
 ```
 
 To refresh the `.odp` from the `.pptx` after hand edits:
 
 ```text
-soffice --headless -env:UserInstallation=file:///C:/path/to/lo-profile --convert-to odp --outdir course/lectures/01-welcome-landscape-slideshow course/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
+soffice --headless -env:UserInstallation=file:///C:/path/to/lo-profile --convert-to odp --outdir course/SESSIONS/lectures/01-welcome-landscape-slideshow course/SESSIONS/lectures/01-welcome-landscape-slideshow/01-welcome-landscape.pptx
 ```
 
 The separate `-env:UserInstallation` profile lets the conversion run while Impress is open. If Impress has the deck open, close it without saving before converting, or edits made there will fight the export.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the Session 01 welcome/landscape deck (PPTX, then convert to ODP).
 
-Content follows course/lectures/01-welcome-landscape-lecture.md and the deep-dive
+Content follows course/SESSIONS/lectures/01-welcome-landscape-lecture.md and the deep-dive
 notes in course/THEORY/. Slide titles are the
 lecture block titles.
 
@@ -52,7 +52,7 @@ BLOCKS = {
     8: "Default setup",
 }
 
-LECTURE = "course/lectures/01-welcome-landscape-lecture.md"
+LECTURE = "course/SESSIONS/lectures/01-welcome-landscape-lecture.md"
 DD = "course/THEORY/"
 
 # key: (file, fit mode, on-slide credit or None, full credit for the speaker notes)

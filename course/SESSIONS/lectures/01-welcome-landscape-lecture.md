@@ -17,17 +17,17 @@ canonical: true
 
 
 
-Speaker notes for Part B of [01 welcome and landscape](../SESSIONS/01-welcome-and-landscape.md). The outdoor check-in (Part A) stays in that file.
+Speaker notes for Part B of [01 welcome and landscape](../01-welcome-and-landscape.md). The outdoor check-in (Part A) stays in that file.
 
 
 
-Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../PROJECT-WORK/minimum-path.md).
+Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 This session introduces a personal manifesto on how each student wants to use AI in their practice. The manifesto is required. Students develop it through the course and hand it in at the end. It names no product. It is not a deliverable for this session.
 
 
 
-Style: [presentation style](../presentation-style.md). Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (Sebastian's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
+Style: [presentation style](presentation-style.md). Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (Sebastian's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
 
 
 
@@ -53,19 +53,19 @@ Part B runs about **11:00 to 11:55** inside the 10:00 to 12:00 slot. Short Q&A a
 
 | 1 | Scope of the class | 3 | medium | this file |
 
-| 2 | What LLMs and agents are | 8 | medium | this file · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
+| 2 | What LLMs and agents are | 8 | medium | this file · [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md) · [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
 
-| 3 | Drivers, visions, fears, regulation | 8 | **high** | [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · law: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) |
+| 3 | Drivers, visions, fears, regulation | 8 | **high** | [visions fears regulation](../../THEORY/06-danger-and-risk/visions-fears-regulation.md) · law: [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) |
 
-| 4 | Economy and the AI bubble | 12 | **high** | [bubble economy](../THEORY/01-political-economy/bubble-economy.md) |
+| 4 | Economy and the AI bubble | 12 | **high** | [bubble economy](../../THEORY/01-political-economy/bubble-economy.md) |
 
-| 5 | Ecology | 6 | **high** | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) |
+| 5 | Ecology | 6 | **high** | [ecology](../../THEORY/03-ecology-infrastructure/ecology.md) |
 
-| 6 | Labour | 8 | **high** | [labour](../THEORY/02-labour-authorship/labour.md) |
+| 6 | Labour | 8 | **high** | [labour](../../THEORY/02-labour-authorship/labour.md) |
 
-| 7 | Media-art workflows | 4 | medium | [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
+| 7 | Media-art workflows | 4 | medium | [media art workflows](../../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| 8 | Default setup | 6 | practical | [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) |
+| 8 | Default setup | 6 | practical | [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) |
 
 
 
@@ -103,7 +103,7 @@ A third thread runs through both: **the agent as interface**. The setup itself i
 
 
 
-The course has **eight sessions** ([course outline](../SESSIONS/overview/course-outline.md)). Midpoint in Session 4 (demo your setup and a short proposal), final in Session 8 (architecture, one real use, a short reflection). No polished exhibition is expected by default.
+The course has **eight sessions** ([course outline](../overview/course-outline.md)). Midpoint in Session 4 (demo your setup and a short proposal), final in Session 8 (architecture, one real use, a short reflection). No polished exhibition is expected by default.
 
 
 
@@ -169,11 +169,11 @@ A chat window is the visible tip of a large system. Kate Crawford and Vladan Jol
 
 | **Harness** | Everything around the model that you set up: tools, files, skills, rules. In this course, the harness is your material. |
 
-| **MCP** | **Model Context Protocol.** A standard plug between an agent and other apps and tools: calendar, browser, Blender, a database. Each app that offers an "MCP server" can be used by any agent that speaks the protocol. Open standard, introduced by Anthropic in 2024. Session 05: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md). Permissions and capability boundary: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary). |
+| **MCP** | **Model Context Protocol.** A standard plug between an agent and other apps and tools: calendar, browser, Blender, a database. Each app that offers an "MCP server" can be used by any agent that speaks the protocol. Open standard, introduced by Anthropic in 2024. Session 05: [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md). Permissions and capability boundary: [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary). |
 
 | **Sandbox** | A closed-off space where the agent can run code and change files without touching the rest of your computer: a container, a virtual machine, a locked folder. If the agent makes a mistake, the damage stays inside. Case in Session 05: the Hugging Face incident, where agents escaped their sandbox. |
 
-| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md). What that check does not judge: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves). |
+| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [what is lint](../../PRACTICE/02-knowledge-bases/what-is-lint.md). What that check does not judge: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves). |
 
 
 
@@ -237,7 +237,7 @@ After the vocabulary, the black and white **agentic AI loop** Sebastian chose: *
 
 
 
-Full explanation: [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../SESSIONS/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
+Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
 
 
 
@@ -285,7 +285,7 @@ Has anyone used an agent that edits files, not only a chat? Where in this stack 
 
 
 
-High priority. **Script:** [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md). Keep its four beats.
+High priority. **Script:** [visions fears regulation](../../THEORY/06-danger-and-risk/visions-fears-regulation.md). Keep its four beats.
 
 
 
@@ -295,7 +295,7 @@ High priority. **Script:** [visions fears regulation](../THEORY/06-danger-and-ri
 
 3. **Amplifier or power.** **Salim Ismail:** AI is an amplifier; fire heats the house or burns it down (the tool argument). **Social science:** it amplifies those who already hold power, plus a lot of other issues.
 
-4. **What regulation can do.** Rules can limit uses, protect personal data, assign liability and shape markets. They cannot put the technology back into the box. Calls for regulation can also be marketing ("we are so powerful we need rules"), and regulation that slows the race benefits the current leaders (Anthropic, OpenAI). The EU AI Act sets rules for AI systems. The GDPR sets rules for personal data. They are separate. Both can matter in a student project. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) (student input on privacy, Session 07).
+4. **What regulation can do.** Rules can limit uses, protect personal data, assign liability and shape markets. They cannot put the technology back into the box. Calls for regulation can also be marketing ("we are so powerful we need rules"), and regulation that slows the race benefits the current leaders (Anthropic, OpenAI). The EU AI Act sets rules for AI systems. The GDPR sets rules for personal data. They are separate. Both can matter in a student project. *orientation, not legal advice:* [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) (student input on privacy, Session 07).
 
 
 
@@ -339,7 +339,7 @@ What would your rule for AI usage be?
 
 
 
-High priority. **Deep dive:** [bubble economy](../THEORY/01-political-economy/bubble-economy.md). Research base: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md).
+High priority. **Deep dive:** [bubble economy](../../THEORY/01-political-economy/bubble-economy.md). Research base: [ai bubble productivity datacenter](../../../research/ai-bubble-productivity-datacenter.md).
 
 
 
@@ -365,7 +365,7 @@ Teach the facts of the build-out first, then the debate, then who gets the incom
 
 7. **Who gets the income.** **Adam Tooze:** "a two-way bet on disaster either way". If the investment fails, losses land somewhere in the chain. If it pays off, the labour market is shaken to its foundations. The Bank for International Settlements (BIS), the central bank of central banks, models a scenario in which labour's share of income falls from about 60% to 20%: today about 60% goes to wages; then 20% to wages and 80% to owners. **Demand bottleneck**, the middle line of the chart: replaced workers stop buying, so automating more stops paying; the fall stops near 47%. *(claim: Tooze; institutional summary: BIS scenario, a model, not a forecast)* Deep dive §9.
 
-8. **An alternative: AI as a commons.** A few firms own what AI needs: data, computing power, talent. **Pieter Verdegem:** dismantle AI capitalism and build commons instead: data trusts, public computing, cooperatives, democratic rules. Workers and communities decide what should be automated. Read: *Dismantling AI capitalism: the commons as an alternative to the power concentration of Big Tech*, AI & Society, 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ · notes: [bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10.
+8. **An alternative: AI as a commons.** A few firms own what AI needs: data, computing power, talent. **Pieter Verdegem:** dismantle AI capitalism and build commons instead: data trusts, public computing, cooperatives, democratic rules. Workers and communities decide what should be automated. Read: *Dismantling AI capitalism: the commons as an alternative to the power concentration of Big Tech*, AI & Society, 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ · notes: [bubble economy](../../THEORY/01-political-economy/bubble-economy.md) §10.
 
 
 
@@ -435,7 +435,7 @@ Your subscription costs about €20 a month. Who pays the rest? If the bubble bu
 
 
 
-High priority. **Deep dive:** [ecology](../THEORY/03-ecology-infrastructure/ecology.md). Student input on the ecology of AI: Session [06](../SESSIONS/06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md).
+High priority. **Deep dive:** [ecology](../../THEORY/03-ecology-infrastructure/ecology.md). Student input on the ecology of AI: Session [06](../06-agent-as-interface.md). Earlier full unit (archived): [11 local ecology when not](../archive-13-session-plan/11-local-ecology-when-not.md). Research base: [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md).
 
 
 
@@ -485,7 +485,7 @@ Would you accept a data centre in your own district? On what conditions?
 
 
 
-High priority. **Deep dive:** [labour](../THEORY/02-labour-authorship/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md).
+High priority. **Deep dive:** [labour](../../THEORY/02-labour-authorship/labour.md). Earlier full unit (archived): [10 authorship labour platforms](../archive-13-session-plan/10-authorship-labour-platforms.md). Research base: [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md).
 
 
 
@@ -541,13 +541,13 @@ If your first job is the one being automated, how do you learn the craft?
 
 
 
-Medium priority. **Deep dive:** [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md). Bring back themes from the outdoor check-in.
+Medium priority. **Deep dive:** [media art workflows](../../PRACTICE/07-creative-stacks/media-art-workflows.md). Bring back themes from the outdoor check-in.
 
 
 
 1. **Pressures** (Sebastian's wording on the slide). Speed: more iterations, less time with engineering, more time for thinking, also more at the same time (the value of specialization and hesitation degrades). Democratization of what is possible for whom → more competition. Flattening: the same generated look, the same generated concepts. Authorship: how to credit? How to value? Refusal: knowing when not to use AI is a skill and takes a lot of self discipline.
 
-2. **Flattening is more than style.** A statistical model reproduces what is shown most online, not what exists. That average becomes a norm, skewed toward the most visible content: male, English, commercial, young. Thesis for the Session 02 student input: **AI kills the underground and it kills diversity.** Deep dive: [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md).
+2. **Flattening is more than style.** A statistical model reproduces what is shown most online, not what exists. That average becomes a norm, skewed toward the most visible content: male, English, commercial, young. Thesis for the Session 02 student input: **AI kills the underground and it kills diversity.** Deep dive: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md).
 
 
 
@@ -575,11 +575,11 @@ The practices for the semester moved to the end of the session (after the studen
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 
 
-Practical. **Deep dive with the diagram explained part by part:** [default setup](../PRACTICE/01-harness-and-agents/default-setup.md).
+Practical. **Deep dive with the diagram explained part by part:** [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md).
 
 
 
@@ -587,15 +587,15 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-1. **Knowledge store** with phone sync. Default Obsidian: [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md).
+1. **Knowledge store** with phone sync. Default Obsidian: [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md).
 
-2. **Hermes Agent** pointed at that folder: [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
+2. **Hermes Agent** pointed at that folder: [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
 
-3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md).
+3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md).
 
-4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4).
+4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4).
 
-5. **Harness** (next session): [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · checking the wiki: [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md).
+5. **Harness** (next session): [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md) · [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · checking the wiki: [what is lint](../../PRACTICE/02-knowledge-bases/what-is-lint.md).
 
 
 
@@ -603,13 +603,13 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-- Bookmark or clone the course GitHub: [START HERE](../PRACTICE/install-order-and-first-week.md).
+- Bookmark or clone the course GitHub: [START HERE](../../PRACTICE/install-order-and-first-week.md).
 
 - Install a knowledge store with phone sync (Obsidian by default; alternatives allowed).
 
 - Write down which AI access you already have.
 
-- Read Karpathy's LLM Wiki note ([references](../REFERENCES/bibliography.md)). → If you do not want to use AI: you can do research, investigative work on AI and input lectures.
+- Read Karpathy's LLM Wiki note ([references](../../REFERENCES/bibliography.md)). → If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 
 - Next week: setup guide, Karpathy and the harness, after a student humanities input.
 
@@ -619,7 +619,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-Groups of four (or two pairs) pick one session by next week. Each input runs about 15 minutes at the start of the session, followed by discussion. Sessions 04 and 08 have no input (project presentations and finals). Rhythm and grading weight: [course rhythm](../SESSIONS/overview/course-rhythm.md).
+Groups of four (or two pairs) pick one session by next week. Each input runs about 15 minutes at the start of the session, followed by discussion. Sessions 04 and 08 have no input (project presentations and finals). Rhythm and grading weight: [course rhythm](../overview/course-rhythm.md).
 
 
 
@@ -627,15 +627,15 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 |---|---|---|---|
 
-| **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
+| **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
+| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
 
-| **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
+| **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 
-| **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
+| **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [ecology](../../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md) |
 
-| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
+| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
 
 
 
