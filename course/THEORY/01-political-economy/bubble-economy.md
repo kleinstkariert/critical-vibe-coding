@@ -255,7 +255,7 @@ Richard Campbell shows three charts in a row (*After the AI Hype: What's Real, a
 
 - *claim (Campbell, Tooze):* Nvidia invests $100 to 500 million at a time in AI firms that then order Nvidia chips.
 
-- *secondary reporting (Bloomberg, Emily Forgash and Agnee Ghosh, "OpenAI, Nvidia Fuel $1 Trillion AI Market With Web of Circular Deals", 7 Oct 2025):* Bloomberg's graphic *How Nvidia and OpenAI Fuel the AI Money Machine* maps the deals as arrows between circles sized by market value. Nvidia agrees to invest up to $100 billion in OpenAI, which fills its data centres with Nvidia chips. OpenAI signs a $300 billion cloud deal with Oracle, which spends tens of billions on Nvidia chips. AMD gives OpenAI an option on up to 160 million AMD shares while OpenAI deploys 6 GW of AMD GPUs. Nvidia also buys cloud capacity from CoreWeave, in which it holds shares. Sebastian added the graphic to the deck (slide 28, `33-bloomberg-circular-ai-deals.png`); Campbell shows it at about 33:45.
+- *secondary reporting (Bloomberg, Emily Forgash and Agnee Ghosh, "OpenAI, Nvidia Fuel $1 Trillion AI Market With Web of Circular Deals", 7 Oct 2025):* Bloomberg's graphic *How Nvidia and OpenAI Fuel the AI Money Machine* maps the deals as arrows between circles sized by market value. Nvidia agrees to invest up to $100 billion in OpenAI, which fills its data centres with Nvidia chips. OpenAI signs a $300 billion cloud deal with Oracle, which spends tens of billions on Nvidia chips. AMD gives OpenAI an option on up to 160 million AMD shares while OpenAI deploys 6 GW of AMD GPUs. Nvidia also buys cloud capacity from CoreWeave, in which it holds shares. The lecturer added the graphic to the deck (slide 28, `33-bloomberg-circular-ai-deals.png`); Campbell shows it at about 33:45.
 
 - What "circular" means in plain words: firm A invests in firm B, and B spends the money on A's products. A reports the purchase as revenue. Demand looks larger than the money that comes from outside the circle.
 
@@ -311,7 +311,7 @@ CAPE stands for cyclically adjusted price-to-earnings ratio (Robert Shiller).
 
 
 
-Sebastian's question, answered: in 2000 it would not take 44 years to earn back what was *spent in 10 years*. It would take about 44 years of *average profit* to earn back the *share price*. The ten years are only how the average profit is measured.
+The lecturer's question, answered: in 2000 it would not take 44 years to earn back what was *spent in 10 years*. It would take about 44 years of *average profit* to earn back the *share price*. The ten years are only how the average profit is measured.
 
 - *claim (Kedrosky):* An IPO of OpenAI, Anthropic and SpaceX together would be larger than all post-war US IPOs combined.
 

@@ -20,7 +20,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Programme | Interface Cultures |
 | Language | English |
 | Required work | The [minimum path](../course/PROJECT-WORK/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
-| Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). Sebastian installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
+| Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). The lecturer installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
 | Start here | [`../course/PROJECT-WORK/minimum-path.md`](../course/PROJECT-WORK/minimum-path.md) · [`../course/PRACTICE/install-order-and-first-week.md`](../course/PRACTICE/install-order-and-first-week.md) |
 
 ---

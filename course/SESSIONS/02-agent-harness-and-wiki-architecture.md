@@ -9,7 +9,7 @@ canonical: true
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
-*reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
+*reference implementation.* The lecturer will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 

@@ -19,7 +19,7 @@ No purchase is required.
 Alternatives are allowed.
 
 Hermes is one *reference implementation* of that system.
-Sebastian will install Hermes with the class.
+The lecturer will install Hermes with the class.
 That install is a *demonstration*.
 It is *not required for assessment*.
 Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.

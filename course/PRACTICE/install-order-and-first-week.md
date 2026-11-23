@@ -26,7 +26,7 @@ The technical object is a student-designed agentic production system.
 Read the [minimum path](../PROJECT-WORK/minimum-path.md) before the install list.
 The manifesto, the minimum path, and the group input presentations are required.
 No purchase is required. Alternatives are allowed.
-Hermes is one *reference implementation*. Sebastian will install it with the class.
+Hermes is one *reference implementation*. The lecturer will install it with the class.
 That install is a *demonstration*. It is *not required for assessment*.
 Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
 

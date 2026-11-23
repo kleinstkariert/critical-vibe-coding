@@ -14,7 +14,7 @@ canonical: true
 
 *requirement* from the brief + teaching decisions of 2026-10-27 and 2026-11-09 (eight sessions). Parent: [timeline](timeline.md) · [course outline](course-outline.md).
 
-The check-in and the student input presentations are required. The personal manifesto is also required. Session 01 introduces it. Students develop it through the course and hand it in at the end. It names no product. It is not a week-1 deliverable. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *reference implementation* and a *demonstration*. Sebastian will install Hermes with the class. That install is *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+The check-in and the student input presentations are required. The personal manifesto is also required. Session 01 introduces it. Students develop it through the course and hand it in at the end. It names no product. It is not a week-1 deliverable. Named installs in the teacher column (Hermes, phone sync, Discord, MCP, hardware) are a *reference implementation* and a *demonstration*. The lecturer will install Hermes with the class. That install is *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 **Slot:** **120 minutes**, **10:00 to 12:00**, with a **5 to 10 minute break**. Session files list **clock times** (not only durations).
 

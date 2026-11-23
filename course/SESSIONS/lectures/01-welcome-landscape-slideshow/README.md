@@ -15,14 +15,14 @@ Impress deck for Part B. This folder holds the **deck and images only**. Lecture
 - One exception: the hype-cycle slide shows the curve next to its explanation, because the curve means nothing without the phase names.
 - No rules, underlines, underscores or shadows. Scandinavian minimal: sparse, calm, readable.
 - Arguments, labels (*unverified lead* / *claim*) and full image credits are in the speaker notes. No separate credits slide.
-- Sebastian's edit of 11 Nov 2026 (52 slides) is the base file. `patch_sebastian_edit.py` adds only the review changes on top of it (56 slides). His bullets, wording, links and pages stay as he left them.
+- The lecturer's edit of 11 Nov 2026 (52 slides) is the base file. `patch_lecturer_edit.py` adds only the review changes on top of it (56 slides). The lecturer's bullets, wording, links and pages stay as left.
 
 | File | Role |
 |---|---|
 | `01-welcome-landscape.pptx` | Current teaching deck (PowerPoint; edit this) |
 | `01-welcome-landscape.odp` | LibreOffice Impress export of the same deck |
 | `images/` | Slide images and `ATTRIBUTION.md` |
-| `patch_sebastian_edit.py` | Historical rebuild helper. Needs local base/donor copies; not required for teaching |
+| `patch_lecturer_edit.py` | Historical rebuild helper. Needs local base/donor copies; not required for teaching |
 | `build_deck.py` | Old generator. Do not run it over the deck: it rebuilds every slide and drops manual edits |
 | `make_images.py` | Regenerates course charts. Pass function names to run only some |
 | `NOTES.md` | Links to canonical sources and the slide map |

@@ -10,7 +10,7 @@ canonical: true
 # Session 01. Welcome outdoors + political-economic lecture
 
 This session introduces a personal manifesto: how you want to use AI in your practice. It is required, with [minimum path](../PROJECT-WORK/minimum-path.md) and the input presentations. It names no product. You develop it through the course and hand it in at the end. It is not homework for this week.
-The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. Sebastian will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
+The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. The lecturer will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
 The input-topic choice is required.
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)

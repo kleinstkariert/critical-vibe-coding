@@ -12,7 +12,7 @@ Read this file before editing.
 ## Scope
 
 - Prefer edits under `course/` for student-facing materials.
-- Do not rewrite Sebastian’s authored overview prose in `course/PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md` unless he asks.
+- Do not rewrite the lecturer's authored overview prose in `course/PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md` unless the lecturer asks.
 - Do not use em dashes. Prefer short sentences, commas, or colons.
 - Aim for STE ~80% on new agent-written text.
 

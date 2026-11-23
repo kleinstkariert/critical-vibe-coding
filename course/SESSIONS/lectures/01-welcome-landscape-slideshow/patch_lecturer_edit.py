@@ -1,10 +1,10 @@
-"""Apply the 11 Nov 2026 review fixes on top of Sebastian's own edit of the deck.
+"""Apply the 11 Nov 2026 review fixes on top of the lecturer's own edit of the deck.
 
-Base: Sebastian's edit (his bullets, wording, pages and links stay as he left them).
+Base: the lecturer's edit (the lecturer's bullets, wording, pages and links stay as left).
 Donor: the agent build of 11 Nov, used only for the requested new slides, images,
 credit strips and notes.
 
-    python patch_sebastian_edit.py
+    python patch_lecturer_edit.py
 
 Do not run build_deck.py over the deck: it rebuilds every slide from scratch and
 drops manual edits.
@@ -19,7 +19,7 @@ from pptx.util import Emu, Inches
 
 HERE = Path(__file__).parent
 # Local-only inputs (not tracked). Teaching deck is OUT; keep archives off git.
-BASE = HERE / "archive" / "2026-11-11-1854-sebastian-edit-52-slides-old.pptx"
+BASE = HERE / "archive" / "2026-11-11-1854-lecturer-edit-52-slides-old.pptx"
 DONOR = HERE / "archive" / "2026-11-11-1848-agent-build-55-slides-before-restore.pptx"
 OUT = HERE / "01-welcome-landscape.pptx"
 
@@ -129,7 +129,7 @@ def donor_runs(par, size=False):
 
 
 def fill_body(body, donor_pars, template_par, size=False):
-    """Rebuild a text box with Sebastian's bullet paragraph as the template."""
+    """Rebuild a text box with the lecturer's bullet paragraph as the template."""
     txBody = body.text_frame._txBody
     for p in list(txBody.findall(A + "p")):
         txBody.remove(p)
@@ -152,7 +152,7 @@ def set_text(shape_, text):
 
 
 def new_slide_like(src):
-    """New slide with the background and text boxes of one of Sebastian's slides."""
+    """New slide with the background and text boxes of one of the lecturer's slides."""
     s = base.slides.add_slide(blank_layout)
     for ph in list(s.placeholders):
         ph._element.getparent().remove(ph._element)
@@ -165,7 +165,7 @@ def new_slide_like(src):
     return s
 
 
-# Sebastian's vocabulary bullet: bold label, plain definition.
+# The lecturer's vocabulary bullet: bold label, plain definition.
 VOCAB_TMPL = shape(old(6), "TextBox 4").text_frame.paragraphs[0]
 
 # 1. Image slides: credits on the slide (donor credit strips), fitted pictures.

@@ -53,7 +53,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 
 
-The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, flattening, authorship, refusal. Interface is no longer on the slide; it stays in section 2 below.
+The slide (the lecturer's edit, 11 Nov 2026) names five: speed, democratization, flattening, authorship, refusal. Interface is no longer on the slide; it stays in section 2 below.
 
 
 

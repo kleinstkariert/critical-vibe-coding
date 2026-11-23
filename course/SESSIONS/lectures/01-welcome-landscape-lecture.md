@@ -27,7 +27,7 @@ This session introduces a personal manifesto on how each student wants to use AI
 
 
 
-Style: [presentation style](presentation-style.md). Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (Sebastian's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
+Style: [presentation style](presentation-style.md). Text slides are white on black; image slides are full-screen with one small credit line (who, where, photo or rendering). Images appear only where they carry the beat (the lecturer's edits of 9 and 11 Nov 2026). One exception: the hype-cycle slide in Block 4 shows the curve beside its explanation. Slide titles are the block titles below; bold labels on the slides are bold here too. Arguments and sources live in the deep-dive notes; the slides carry only what is said aloud.
 
 
 
@@ -185,7 +185,7 @@ One sentence to remember: *a chat answers; an agent acts, with the tools you all
 
 
 
-After the vocabulary, the black and white **agentic AI loop** Sebastian chose: **reason** (plan from what is in context), **act** (call a tool: write a file, search, run code), **observe** (read what came back), **evaluate** (compare with the goal, decide the next step), then round again until the task is done or a limit stops it. In this course the results land in your notes folder, and the next pass reads them from there. Source of the graphic still to confirm.
+After the vocabulary, the black and white **agentic AI loop** the lecturer chose: **reason** (plan from what is in context), **act** (call a tool: write a file, search, run code), **observe** (read what came back), **evaluate** (compare with the goal, decide the next step), then round again until the task is done or a limit stops it. In this course the results land in your notes folder, and the next pass reads them from there. Source of the graphic still to confirm.
 
 
 
@@ -255,7 +255,7 @@ Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-s
 
 | Text | Basic vocabulary (Model, Chat product, Agent, Context, Harness, MCP, **Sandbox, Lint**) |
 
-| Image | `32-agentic-ai-loop-bw.png`: agentic AI loop (reason, act, observe, evaluate), Sebastian's choice. Source: David Davies, Online Inference (Medium), Aug 2026 |
+| Image | `32-agentic-ai-loop-bw.png`: agentic AI loop (reason, act, observe, evaluate), the lecturer's choice. Source: David Davies, Online Inference (Medium), Aug 2026 |
 
 | Text | How a model writes |
 
@@ -343,7 +343,7 @@ High priority. **Deep dive:** [bubble economy](../../THEORY/01-political-economy
 
 
 
-Teach the facts of the build-out first, then the debate, then who gets the income. Sebastian opens the block with a short video (link on the opener slide).
+Teach the facts of the build-out first, then the debate, then who gets the income. The lecturer opens the block with a short video (link on the opener slide).
 
 
 
@@ -355,7 +355,7 @@ Teach the facts of the build-out first, then the debate, then who gets the incom
 
 3. **Spending ahead of revenue.** OpenAI lost about $21 billion in 2025 *(claim)*. About 2.5% of Americans pay for an AI subscription *(claim)*. Acemoglu estimates about 1% more GDP over ten years *(primary evidence: paper)*. A growing share is borrowed: bonds, private credit, off-balance-sheet vehicles. More than half of the money AI firms raise comes from other AI firms *(institutional summary: Bank for International Settlements, Bulletin 137)*.
 
-4. **Every build-out overbuilt.** Canals, railways, electrification, fibre: each ended in oversupply. About half of US railroad track miles turned out useless *(claim)*. Fibre sold for 10 cents on the dollar after 2000 *(claim)*. Rails lasted a century; chips are written off in five to six years. **The map:** the whole US rail network in 1884 (Mitchell), with competing parallel lines. After the Panic of 1893, by 30 June 1894, 192 railroads with more than 42,000 miles of line, about a quarter of all US railway capital, were in receivership *(primary evidence: Interstate Commerce Commission)*. The track stayed; the investors lost. Then Bloomberg's graphic of the circular deals (Nvidia, OpenAI, Oracle, AMD), Sebastian's addition. Deep dive §4 and §6.
+4. **Every build-out overbuilt.** Canals, railways, electrification, fibre: each ended in oversupply. About half of US railroad track miles turned out useless *(claim)*. Fibre sold for 10 cents on the dollar after 2000 *(claim)*. Rails lasted a century; chips are written off in five to six years. **The map:** the whole US rail network in 1884 (Mitchell), with competing parallel lines. After the Panic of 1893, by 30 June 1894, 192 railroads with more than 42,000 miles of line, about a quarter of all US railway capital, were in receivership *(primary evidence: Interstate Commerce Commission)*. The track stayed; the investors lost. Then Bloomberg's graphic of the circular deals (Nvidia, OpenAI, Oracle, AMD), the lecturer's addition. Deep dive §4 and §6.
 
 5. **Will it burst? Arguments for.** From the Ezra Klein debate (Paul Kedrosky) and Richard Campbell's keynote: every big build-out ended in oversupply, and a race makes everyone overbuild. Revenue is a fraction of spending; few customers, falling prices per token. More of it is debt, partly off the balance sheet, and AI firms fund each other (circle investment). Ordinary savers carry it: the ten largest stocks are about 40% of the S&P 500. Stocks cost about 40 times their earnings: above 1929, below only 2000 *(primary evidence: Shiller CAPE; reading in the deep dive, section 5)*. Chinese models are much cheaper and almost as good. Almost all of current US growth comes from AI investment (Furman: about 92% in the first half of 2025, *claim*; Bridgewater and J.P. Morgan: 35 to 45%).
 
@@ -381,7 +381,7 @@ Sources for beats 0 to 7: Ezra Klein Show, *Is There an A.I. Bubble? A Debate* (
 
 |---|---|
 
-| Text | Economy and the AI bubble: opener with video link (Sebastian's) |
+| Text | Economy and the AI bubble: opener with video link (the lecturer's) |
 
 | Text + image | **Where are we in the hype cycle?** `34-hype-cycle.png` beside its explanation (the one exception to image-only slides) |
 
@@ -403,7 +403,7 @@ Sources for beats 0 to 7: Ezra Klein Show, *Is There an A.I. Bubble? A Debate* (
 
 | Image | **`31-us-railroad-map-1884.jpg`**: US railroads 1884, with the 1893 to 1894 receiverships in the caption |
 
-| Image | `33-bloomberg-circular-ai-deals.png`: Bloomberg, circular AI deals (Sebastian's) |
+| Image | `33-bloomberg-circular-ai-deals.png`: Bloomberg, circular AI deals (the lecturer's) |
 
 | Text | Will it burst? Arguments for |
 
@@ -545,7 +545,7 @@ Medium priority. **Deep dive:** [media art workflows](../../PRACTICE/07-creative
 
 
 
-1. **Pressures** (Sebastian's wording on the slide). Speed: more iterations, less time with engineering, more time for thinking, also more at the same time (the value of specialization and hesitation degrades). Democratization of what is possible for whom → more competition. Flattening: the same generated look, the same generated concepts. Authorship: how to credit? How to value? Refusal: knowing when not to use AI is a skill and takes a lot of self discipline.
+1. **Pressures** (the lecturer's wording on the slide). Speed: more iterations, less time with engineering, more time for thinking, also more at the same time (the value of specialization and hesitation degrades). Democratization of what is possible for whom → more competition. Flattening: the same generated look, the same generated concepts. Authorship: how to credit? How to value? Refusal: knowing when not to use AI is a skill and takes a lot of self discipline.
 
 2. **Flattening is more than style.** A statistical model reproduces what is shown most online, not what exists. That average becomes a norm, skewed toward the most visible content: male, English, commercial, young. Thesis for the Session 02 student input: **AI kills the underground and it kills diversity.** Deep dive: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md).
 

@@ -6,7 +6,7 @@ notes in course/THEORY/. Slide titles are the
 lecture block titles.
 
 Design: text slides are white text on black; image slides are full-screen, placed
-only where an image carries the beat (Sebastian's edits of 9 and 11 Nov 2026 set
+only where an image carries the beat (the lecturer's edits of 9 and 11 Nov 2026 set
 the order). No rules, underlines or shadows.
 "**...**" in a line or title marks a bold run; "\\v" inside a line is a line break.
 Each image slide carries one small credit line at the bottom (short form); the full
@@ -67,7 +67,7 @@ IMAGES = {
            "Kate Crawford and Vladan Joler, Anatomy of an AI System (2018). anatomyof.ai"),
     "32": ("32-agentic-ai-loop-bw.png", "contain",
            "Agentic AI loop: reason, act, observe, evaluate. Source to be confirmed.",
-           "Agentic AI loop graphic added by Sebastian on 11 Nov 2026. Source not yet identified: confirm before sharing."),
+           "Agentic AI loop graphic added by the lecturer on 11 Nov 2026. Source not yet identified: confirm before sharing."),
     "27": ("27-standard-vs-course-setup.png", "contain",
            "Diagram for this course, 2026. Sources: Cursor data-use page, OpenAI data-controls help.",
            "Standard setup or course setup. Diagram for this course, 2026. Sources: https://cursor.com/data-use, "
