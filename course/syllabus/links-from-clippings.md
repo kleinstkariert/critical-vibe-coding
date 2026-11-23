@@ -34,11 +34,11 @@ Course research note: [ai brains critical thinking](../../research/ai-brains-cri
 
 | Title | URL | Course use |
 |---|---|---|
-| Zyte - *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ | Session 02 companion to [what is harness](../concepts/what-is-harness.md) |
+| Zyte - *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ | Session 02 companion to [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | Medium / Online Inference - *Agentic loops… governance* | https://medium.com/online-inference/agentic-loops-in-ai-governance-feedback-and-failure-modes-at-scale-f038e32add6c | Failure modes of agent loops |
 | Stackademic - *Loops in Agentic AI* | https://blog.stackademic.com/loops-in-agentic-ai-7cf72c20c1ff | Short loop primer |
 | YouTube - *How AI Agents Actually Work* | https://www.youtube.com/watch?v=HzGOWq5UyjY | Optional agent anatomy walkthrough |
-| YouTube - *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../concepts/what-is-mcp.md) |
+| YouTube - *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | daily.dev - Karpathy aircraft-manual prompting | https://daily.dev/posts/karpathy-makes-ai-write-like-an-aircraft-manual-karpathy-promptengineering-ai-rebrmmygt | STE / plain-English prompting beat |
 | YouTube - *Stop Prompting Claude. Use Karpathy's Method Instead.* | https://www.youtube.com/watch?v=7zZy1QTvokM | Same thread, video form |
 | YouTube - Obsidian + Hermes wiki prep | https://www.youtube.com/watch?v=znj-WpMj1dI | Optional Hermes + Obsidian setup |

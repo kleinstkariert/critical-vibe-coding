@@ -64,10 +64,10 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 | Week | Topic | Student input | What this session covers |
 |---|---|---|---|
 | 1 | Welcome + landscape | (groups choose topics) | Outdoor check-in; LLMs and agents; drivers, visions, fears, regulation; economy and the bubble; ecology; labour; media-art workflows; default setup. [01 welcome and landscape](../SESSIONS/01-welcome-and-landscape.md) · [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
-| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free-to-use hosted endpoint. [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md) |
-| 3 | Hardware, locally runnable models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, locally runnable models versus RAM; prompting; chat versus reasoning. [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md) · [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free-to-use hosted endpoint. [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
+| 3 | Hardware, locally runnable models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, locally runnable models versus RAM; prompting; chat versus reasoning. [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 | 4 | **Midpoint:** project presentations | none | Students' semester plans + setup as it stands. [04 project presentations and plans](../SESSIONS/04-project-presentations-and-plans.md) |
-| 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [05 knowledge base phone discord](../SESSIONS/05-knowledge-base-phone-discord.md) · [what is mcp](../concepts/what-is-mcp.md) |
+| 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [05 knowledge base phone discord](../SESSIONS/05-knowledge-base-phone-discord.md) · [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | 6 | Agent as interface, material, canvas | The ecology of AI | Setup, skills and tools as artistic material; interface score. [06 agent as interface](../SESSIONS/06-agent-as-interface.md) |
 | 7 | Coding with agents across creative stacks (*proposal, TBD*) | Privacy: what happens with the data? | Vibe coding critically; code, node, GUI, 3D/CAD, fab. [07 coding and creative stacks](../SESSIONS/07-coding-and-creative-stacks.md) |
 | 8 | **Final presentations** (*proposal*) | none | Architecture + use + reflection; closing check-in. [08 final presentations](../SESSIONS/08-final-presentations.md) |
@@ -83,17 +83,17 @@ Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight s
 | Role | Default | Notes |
 |---|---|---|
 | Agent | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) (MIT) | Not the Hermes 4 chat models. Installed in Session 02 |
-| Free-to-use hosted endpoint | NVIDIA Nemotron 3 Ultra via OpenRouter | Openly distributed materials (OpenMDW-1.1). Rate-limited. Prompts may be logged. Too large for most student machines. The route is a hosted cloud service. [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §4 |
+| Free-to-use hosted endpoint | NVIDIA Nemotron 3 Ultra via OpenRouter | Openly distributed materials (OpenMDW-1.1). Rate-limited. Prompts may be logged. Too large for most student machines. The route is a hosted cloud service. [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4 |
 | Notes / wiki | [Obsidian](https://obsidian.md/) + LLM Wiki habit | Phone sync via personal cloud (e.g. Nextcloud) |
-| Harness concept | Agent = Model + Harness | [what is harness](../concepts/what-is-harness.md) · Session 02 |
-| Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05. Permissions and capability boundary: [what is mcp](../concepts/what-is-mcp.md#permissions-and-capability-boundary). |
+| Harness concept | Agent = Model + Harness | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · Session 02 |
+| Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05. Permissions and capability boundary: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary). |
 | Optional | Discord bridge; Nextcloud Context Agent (one MCP) | Not required student infra |
 
-Install guides (Windows / macOS / Linux): [howto hermes setup](../setup/howto-hermes-setup.md) · [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) · optional [howto silverbullet setup and sync](../setup/howto-silverbullet-setup-and-sync.md)
+Install guides (Windows / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · optional [howto silverbullet setup and sync](../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md)
 
-Creative AI tool survey (extra): [ai tools creative processes](../topics/ai-tools-creative-processes.md)
+Creative AI tool survey (extra): [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)
 
-Local hardware (Session 03): [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md)
+Local hardware (Session 03): [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md)
 
 Class rhythm: [course rhythm](course-rhythm.md)
 
@@ -105,12 +105,12 @@ Full list: [references](references.md).
 
 | Theme | Starter |
 |---|---|
-| LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · what structure improves: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves) |
+| LLM Wiki method | [Karpathy, `llm-wiki.md` gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · what structure improves: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) |
 | Political economy / bubble | [bubble economy](../THEORY/01-political-economy/bubble-economy.md) · research note [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md); Tooze / BIS as cited there; Verdegem, *Dismantling AI capitalism* (2022) |
 | Authorship & labour | [labour](../THEORY/02-labour-authorship/labour.md) · jobs evidence [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) |
 | Flattening, AI and patriarchy | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 | Ecology / data centres / when not | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md); IEA; Be Smart overview video |
-| Local hardware / open weights | Session 03 + [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md) |
+| Local hardware / open weights | Session 03 + [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 
 Peer-course patterns (not required texts): HKUST AMCC6500; Birkbeck Critical and Creative AI; HM Munich *Our Br00d*. See [timeline](timeline.md#peer-courses-web-research-2026-10-18).
 

@@ -28,7 +28,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 
 
-**Base material.** The teacher vault has no clipping on feminism or patriarchy yet. This note draws on published research, listed under Sources. Related course notes: [media art workflows](../../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) (five pressures), [labour](../02-labour-authorship/labour.md) (who trains the model), [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) (amplifier or power).
+**Base material.** The teacher vault has no clipping on feminism or patriarchy yet. This note draws on published research, listed under Sources. Related course notes: [media art workflows](../../PRACTICE/07-creative-stacks/media-art-workflows.md) (five pressures), [labour](../02-labour-authorship/labour.md) (who trains the model), [visions fears regulation](../06-danger-and-risk/visions-fears-regulation.md) (amplifier or power).
 
 
 
@@ -194,7 +194,7 @@ What is the underground here? Small scenes, local languages, zines, closed chats
 
 4. **Converging users.** When many people use the same few models for ideas, their outputs converge (Doshi and Hauser). A scene that writes with the same assistant starts to sound like everyone else.
 
-5. **Extraction instead of survival.** When an underground style does reach the data, it can be reproduced on demand by name, detached from its scene and its makers. That is visibility without the community. See *Glaze* and *Nightshade* in [media art workflows](../../lectures/01-welcome-landscape-deep-dives/media-art-workflows.md).
+5. **Extraction instead of survival.** When an underground style does reach the data, it can be reproduced on demand by name, detached from its scene and its makers. That is visibility without the community. See *Glaze* and *Nightshade* in [media art workflows](../../PRACTICE/07-creative-stacks/media-art-workflows.md).
 
 
 

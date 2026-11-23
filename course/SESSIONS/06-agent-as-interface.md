@@ -44,7 +44,7 @@ Bridge to the practical: refusal is also an interface decision. A kill switch in
 
 Prompts for discussion and mini-lecture:
 
-- **Interface** = harness design: what you can ask, what the agent can touch (Session 05 tool list), what it must refuse, how it remembers (`SCHEMA.md`, `index.md`, `log.md`: [llm wiki standard files](../setup/llm-wiki-standard-files.md) · [what is harness](../concepts/what-is-harness.md))
+- **Interface** = harness design: what you can ask, what the agent can touch (Session 05 tool list), what it must refuse, how it remembers (`SCHEMA.md`, `index.md`, `log.md`: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md))
 - **Material:** skills and schema as score and dramaturgy. The schema is the only place where the "character" of the agent is written down.
 - **Canvas:** the setup itself as the place where the work happens or is shown (a vault as a publication, an agent as a performer, a log as a score).
 - Failure modes as aesthetic (hallucination, sycophancy, tool refusal). Primary case: OpenAI rolled back a GPT-4o update on 2025-04-29 because it had become "overly flattering or agreeable", the vendor's own account: https://openai.com/index/sycophancy-in-gpt-4o/ (*unverified lead*; read as a vendor statement, not neutral analysis)
@@ -76,7 +76,7 @@ Full mapping in [timeline](../syllabus/timeline.md).
 
 | What | Link |
 |---|---|
-| Schema / index / log as the agent's "character sheet" | [llm wiki standard files](../setup/llm-wiki-standard-files.md) |
+| Schema / index / log as the agent's "character sheet" | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | Naming essay: the schema is the product | https://cozypet.github.io/llm-wiki-schema/ |
 | Sycophancy post-mortem (vendor primary) | https://openai.com/index/sycophancy-in-gpt-4o/ |
 | Peer courses: NYU IMA, HM Munich, SFPC | see table above · [references](../syllabus/references.md) |

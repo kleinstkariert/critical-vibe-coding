@@ -74,7 +74,7 @@ Listen only: [course rhythm](../syllabus/course-rhythm.md#1-check-in-every-sessi
 
 
 
-Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What does the EU AI Act say about the system, and what does the GDPR say about personal data? They are separate. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions). Also: the cloud-or-local flowchart in [default setup](../lectures/01-welcome-landscape-deep-dives/default-setup.md) §3 · archived unit [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md).
+Group (about 15 min). Where do prompts, notes, code and files go? Who stores them, who trains on them, under which terms? What does the EU AI Act say about the system, and what does the GDPR say about personal data? They are separate. *orientation, not legal advice:* [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions). Also: the cloud-or-local flowchart in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 · archived unit [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md).
 
 
 
@@ -114,7 +114,7 @@ One task in a stack the student uses, ideally a piece of the final project. Log 
 
 |---|---|
 
-| Creative tools survey | [ai tools creative processes](../topics/ai-tools-creative-processes.md) |
+| Creative tools survey | [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) |
 
 | MCP + CAD/3D (archived session) | [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md) |
 

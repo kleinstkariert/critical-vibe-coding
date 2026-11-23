@@ -62,17 +62,17 @@ claim_scope: exact | paraphrase | interpretation
 | Discord setup (bot, DMs vs mention-only channels, per-user sessions). Added 2026-10-18. *institutional summary*. The page loaded. The claims were not independently verified. | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
-Course how-to (Win / macOS / Linux): [howto hermes setup](../setup/howto-hermes-setup.md)  
+Course how-to (Win / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)  
 Short syllabus sheet: [course outline](course-outline.md)  
-What is a harness: [what is harness](../concepts/what-is-harness.md)  
-Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
-Academic AI Austria: [academic ai austria](../setup/academic-ai-austria.md)  
+What is a harness: [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)  
+Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
+Academic AI Austria: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)  
 Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)  
 AI jobs — rising tide, Canaries, productivity × experience: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md)  
 AI, brains, critical thinking (MIT EEG + recent clippings): [ai brains critical thinking](../../research/ai-brains-critical-thinking.md)  
 Curated vault clipping links (scan 2026-11-11): [links from clippings](links-from-clippings.md)  
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)  
-AI creative tools survey: [ai tools creative processes](../topics/ai-tools-creative-processes.md)  
+AI creative tools survey: [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)  
 Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
 Session 02 harness + wiki: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md)  
 Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)  
@@ -109,7 +109,7 @@ Presentation style: [presentation style](../presentation-style.md)
 | Huberman Lab Clips — *Mental Health Risks of Using AI* (Dr K) | https://www.youtube.com/watch?v=sqYLH72eCg0 | Optional; sycophancy / psychosis risk — content warning |
 | Ezra Klein Show — *Is There an A.I. Bubble? A Debate.* | https://www.youtube.com/watch?v=9GLdGc9OX-A | Session 01 bubble / CapEx debate |
 | Richard Campbell — *After the AI Hype* (2026) | https://www.youtube.com/watch?v=uWnUnMphmPM | Skeptical build-out keynote |
-| YouTube — *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../concepts/what-is-mcp.md) |
+| YouTube — *MCP vs API Explained* | https://www.youtube.com/watch?v=kn6dxL53NkM | Session 05 / [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | YouTube — *Stop Prompting Claude. Use Karpathy's Method Instead.* | https://www.youtube.com/watch?v=7zZy1QTvokM | STE / aircraft-manual prompting beat |
 
 ## Cognition / critical thinking (AI and brains)
@@ -131,7 +131,7 @@ Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critica
 |---|---|
 | Model Context Protocol intro | https://modelcontextprotocol.io/docs/getting-started/intro |
 | Architecture | https://modelcontextprotocol.io/specification/2026-07-28/architecture |
-| Course note | [what is mcp](../concepts/what-is-mcp.md) |
+| Course note | [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 
 ## Nextcloud / Collectives / Context Agent (comparison track)
 
@@ -166,7 +166,7 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 |---|---|
 | LangChain — *The Anatomy of an Agent Harness* (2026-03-10) | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
 | Zyte — *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ |
-| Course note | [what is harness](../concepts/what-is-harness.md) |
+| Course note | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | Session 02 | [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
 | Structure vs model quality (research check, SE + RAG) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
 | Wadhwa et al. — context ~70% / parametric ~30% *in answers* (not productivity) | https://arxiv.org/abs/2409.08435 |
@@ -201,9 +201,9 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 
 | Topic | Note |
 |---|---|
-| Lint explained | [what is lint](../concepts/what-is-lint.md) |
-| `SCHEMA.md` / `index.md` / `log.md` / folders | [llm wiki standard files](../setup/llm-wiki-standard-files.md) |
-| Knowledge store options | [knowledge store options](../setup/knowledge-store-options.md) |
+| Lint explained | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
+| `SCHEMA.md` / `index.md` / `log.md` / folders | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
+| Knowledge store options | [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) |
 | Karpathy vs OpenClaw research | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
 | Obsidian vs Joplin | [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) |
 | AI / brains / critical thinking | [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |

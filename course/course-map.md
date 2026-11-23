@@ -18,16 +18,16 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Hermes vs coding agents vs always-on assistants](concepts/hermes-vs-coding-agents.md) | current | true |
-| [What is an agent harness?](concepts/what-is-harness.md) | current | true |
-| [What is “lint” in an LLM Wiki?](concepts/what-is-lint.md) | current | true |
-| [What is an MCP?](concepts/what-is-mcp.md) | current | true |
+| [Hermes vs coding agents vs always-on assistants](PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) | current | true |
+| [What is an agent harness?](PRACTICE/01-harness-and-agents/what-is-harness.md) | current | true |
+| [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
+| [What is an MCP?](PRACTICE/06-mcp-and-tools/what-is-mcp.md) | current | true |
 | [Deep dive: Economy and the AI bubble](THEORY/01-political-economy/bubble-economy.md) | current | true |
-| [Deep dive: Default setup](lectures/01-welcome-landscape-deep-dives/default-setup.md) | current | true |
+| [Deep dive: Default setup](PRACTICE/01-harness-and-agents/default-setup.md) | current | true |
 | [Deep dive: Ecology](THEORY/03-ecology-infrastructure/ecology.md) | current | true |
 | [Deep dive: Flattening, the norm, and feminist critiques of AI](THEORY/04-bias-flattening/flattening-and-the-norm.md) | current | true |
 | [Deep dive: Labour](THEORY/02-labour-authorship/labour.md) | current | true |
-| [Deep dive: Media-art workflows](lectures/01-welcome-landscape-deep-dives/media-art-workflows.md) | current | true |
+| [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |
 | [Session 01: Classroom lecture (welcome and landscape)](lectures/01-welcome-landscape-lecture.md) | current | true |
 | [Session 01: Welcome and landscape slideshow](lectures/01-welcome-landscape-slideshow/README.md) | current | true |
 | [Session 02. Agent harness and Hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
@@ -39,28 +39,28 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Session 04. Project presentations and semester plans (midpoint)](SESSIONS/04-project-presentations-and-plans.md) | current | true |
 | [Session 05. Vault practice, phone sync, Discord bridge, MCP](SESSIONS/05-knowledge-base-phone-discord.md) | current | true |
 | [Session 06. Agent as interface, as material, as canvas](SESSIONS/06-agent-as-interface.md) | current | true |
-| [Academic AI in Austria — access for this course](setup/academic-ai-austria.md) | current | true |
-| [Template. AGENTS.md for student projects](setup/agents-md-template.md) | current | true |
-| [How-to. Hermes Docker sandbox click-path](setup/howto-hermes-docker-sandbox.md) | current | true |
-| [How-to. Hermes for efficient coding](setup/howto-hermes-efficient-coding.md) | current | true |
-| [How-to. Pair Hermes and OpenCode](setup/howto-hermes-opencode-pairing.md) | current | true |
-| [How to: Hermes Agent setup](setup/howto-hermes-setup.md) | current | true |
-| [How-to — Local LLM hardware and software](setup/howto-local-llm-hardware.md) | current | true |
-| [How to: Obsidian setup and sync](setup/howto-obsidian-setup-and-sync.md) | current | true |
-| [How-to. OpenCode setup](setup/howto-opencode-setup.md) | current | true |
-| [How to: SilverBullet setup and sync](setup/howto-silverbullet-setup-and-sync.md) | current | true |
-| [Knowledge store options](setup/knowledge-store-options.md) | current | true |
-| [LLM Wiki — standard files and folders](setup/llm-wiki-standard-files.md) | current | true |
-| [Verified coding](setup/Local LLM Coding with Hermes.md) | current | true |
-| [Prompting Guide for Critical Vibe Coding](setup/Prompting Guide for Critical Vibe Coding.md) | current | true |
-| [START HERE — Critical Vibe Coding](START-HERE.md) | current | true |
+| [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
+| [Template. AGENTS.md for student projects](PRACTICE/01-harness-and-agents/agents-md-template.md) | current | true |
+| [How-to. Hermes Docker sandbox click-path](PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) | current | true |
+| [How-to. Hermes for efficient coding](PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) | current | true |
+| [How-to. Pair Hermes and OpenCode](PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) | current | true |
+| [How to: Hermes Agent setup](PRACTICE/01-harness-and-agents/howto-hermes-setup.md) | current | true |
+| [How-to — Local LLM hardware and software](PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | current | true |
+| [How to: Obsidian setup and sync](PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) | current | true |
+| [How-to. OpenCode setup](PRACTICE/01-harness-and-agents/howto-opencode-setup.md) | current | true |
+| [How to: SilverBullet setup and sync](PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md) | current | true |
+| [Knowledge store options](PRACTICE/02-knowledge-bases/knowledge-store-options.md) | current | true |
+| [LLM Wiki — standard files and folders](PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) | current | true |
+| [Verified coding](PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md) | current | true |
+| [Prompting Guide for Critical Vibe Coding](PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md) | current | true |
+| [START HERE — Critical Vibe Coding](PRACTICE/install-order-and-first-week.md) | current | true |
 | [Critical Vibe Coding — seminar brief](syllabus/00-brief.md) | current | true |
 | [Critical Vibe Coding. Course outline](syllabus/course-outline.md) | current | true |
 | [Course rhythm. Check-in, student inputs, time budget](syllabus/course-rhythm.md) | current | true |
 | [Curated links from vault clippings](syllabus/links-from-clippings.md) | current | true |
 | [Critical Vibe Coding — references](syllabus/references.md) | current | true |
 | [Critical Vibe Coding. Course timeline](syllabus/timeline.md) | current | true |
-| [AI tools for creative processes — research list](topics/ai-tools-creative-processes.md) | current | true |
+| [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [EU AI Act and Datenschutz (Austria)](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | current | true |
 | [Drivers, visions, fears, regulation — 10–15 min talk](THEORY/06-danger-and-risk/visions-fears-regulation.md) | current | true |
 

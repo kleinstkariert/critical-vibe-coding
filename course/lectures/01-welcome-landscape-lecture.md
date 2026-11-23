@@ -53,7 +53,7 @@ Part B runs about **11:00 to 11:55** inside the 10:00 to 12:00 slot. Short Q&A a
 
 | 1 | Scope of the class | 3 | medium | this file |
 
-| 2 | What LLMs and agents are | 8 | medium | this file · [what is harness](../concepts/what-is-harness.md) · [what is mcp](../concepts/what-is-mcp.md) · [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3 |
+| 2 | What LLMs and agents are | 8 | medium | this file · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
 
 | 3 | Drivers, visions, fears, regulation | 8 | **high** | [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · law: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) |
 
@@ -63,9 +63,9 @@ Part B runs about **11:00 to 11:55** inside the 10:00 to 12:00 slot. Short Q&A a
 
 | 6 | Labour | 8 | **high** | [labour](../THEORY/02-labour-authorship/labour.md) |
 
-| 7 | Media-art workflows | 4 | medium | [media art workflows](01-welcome-landscape-deep-dives/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
+| 7 | Media-art workflows | 4 | medium | [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| 8 | Default setup | 6 | practical | [default setup](01-welcome-landscape-deep-dives/default-setup.md) |
+| 8 | Default setup | 6 | practical | [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) |
 
 
 
@@ -169,11 +169,11 @@ A chat window is the visible tip of a large system. Kate Crawford and Vladan Jol
 
 | **Harness** | Everything around the model that you set up: tools, files, skills, rules. In this course, the harness is your material. |
 
-| **MCP** | **Model Context Protocol.** A standard plug between an agent and other apps and tools: calendar, browser, Blender, a database. Each app that offers an "MCP server" can be used by any agent that speaks the protocol. Open standard, introduced by Anthropic in 2024. Session 05: [what is mcp](../concepts/what-is-mcp.md). Permissions and capability boundary: [what is mcp](../concepts/what-is-mcp.md#permissions-and-capability-boundary). |
+| **MCP** | **Model Context Protocol.** A standard plug between an agent and other apps and tools: calendar, browser, Blender, a database. Each app that offers an "MCP server" can be used by any agent that speaks the protocol. Open standard, introduced by Anthropic in 2024. Session 05: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md). Permissions and capability boundary: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary). |
 
 | **Sandbox** | A closed-off space where the agent can run code and change files without touching the rest of your computer: a container, a virtual machine, a locked folder. If the agent makes a mistake, the damage stays inside. Case in Session 05: the Hugging Face incident, where agents escaped their sandbox. |
 
-| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [what is lint](../concepts/what-is-lint.md). What that check does not judge: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves). |
+| **Lint** | An automatic check for mistakes. In code: errors and bad style (the name comes from a 1978 tool for C). In a wiki: broken links, contradictions, forgotten pages. In the LLM Wiki it is the third operation next to ingest and query: [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md). What that check does not judge: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves). |
 
 
 
@@ -237,7 +237,7 @@ After the vocabulary, the black and white **agentic AI loop** Sebastian chose: *
 
 
 
-Full explanation: [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3. Hardware: Session [03](../SESSIONS/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
+Full explanation: [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../SESSIONS/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md).
 
 
 
@@ -541,7 +541,7 @@ If your first job is the one being automated, how do you learn the craft?
 
 
 
-Medium priority. **Deep dive:** [media art workflows](01-welcome-landscape-deep-dives/media-art-workflows.md). Bring back themes from the outdoor check-in.
+Medium priority. **Deep dive:** [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md). Bring back themes from the outdoor check-in.
 
 
 
@@ -579,7 +579,7 @@ The practices for the semester moved to the end of the session (after the studen
 
 
 
-Practical. **Deep dive with the diagram explained part by part:** [default setup](01-welcome-landscape-deep-dives/default-setup.md).
+Practical. **Deep dive with the diagram explained part by part:** [default setup](../PRACTICE/01-harness-and-agents/default-setup.md).
 
 
 
@@ -587,15 +587,15 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-1. **Knowledge store** with phone sync. Default Obsidian: [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../setup/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../setup/howto-silverbullet-setup-and-sync.md).
+1. **Knowledge store** with phone sync. Default Obsidian: [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md).
 
-2. **Hermes Agent** pointed at that folder: [howto hermes setup](../setup/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
+2. **Hermes Agent** pointed at that folder: [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
 
-3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../setup/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md).
+3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md).
 
-4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../setup/academic-ai-austria.md) · local later: [howto local llm hardware](../setup/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](01-welcome-landscape-deep-dives/default-setup.md) §4).
+4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4).
 
-5. **Harness** (next session): [what is harness](../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../concepts/what-is-mcp.md) · checking the wiki: [what is lint](../concepts/what-is-lint.md).
+5. **Harness** (next session): [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · checking the wiki: [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md).
 
 
 
@@ -603,7 +603,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-- Bookmark or clone the course GitHub: [START HERE](../START-HERE.md).
+- Bookmark or clone the course GitHub: [START HERE](../PRACTICE/install-order-and-first-week.md).
 
 - Install a knowledge store with phone sync (Obsidian by default; alternatives allowed).
 
@@ -629,13 +629,13 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 | **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
+| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
 
 | **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 
 | **06** | **The ecology of AI** | Energy, water, gas, land and neighbours. What can we know, and what is hidden? | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) |
 
-| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · [default setup](01-welcome-landscape-deep-dives/default-setup.md) §3 |
+| **07** | **Privacy: what happens with the data?** | Where do prompts, notes and files go? Who stores them, who trains on them? | [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3 |
 
 
 

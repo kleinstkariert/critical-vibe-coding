@@ -118,7 +118,7 @@ Self-reported corporate totals are weak oversight — label corporate “net zer
 
 - Training and frontier inference stay **US- (and China-) skewed** → dependency for EU / AT artists and studios on **foreign CapEx cycles**, dollar pricing, and export controls (CUDA / chips).  
 - Carbon from US gas turbines is **global**; water and smog are **local** — students in Linz pay the climate share, not the cooling tower.  
-- Europe’s smaller share (~15% of DC electricity) + stricter permitting → different aesthetic/political choice (local/open stacks, academic HPC — [[../course/setup/academic-ai-austria]], [[../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz]]).  
+- Europe’s smaller share (~15% of DC electricity) + stricter permitting → different aesthetic/political choice (local/open stacks, academic HPC — [[../course/PRACTICE/03-models-and-providers/academic-ai-austria]], [[../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz]]).  
 - If the US overbuilds and a **financial** correction hits ([[ai-bubble-productivity-datacenter]]), residual **physical** plant + stranded gas assets still reshape power markets and chip supply — “productive bubble” vs “dead end” is not only a Wall Street question.
 
 **Media-art bridge:** Your prompt is cheap; the **campus** is expensive. Choosing cloud vs local is an aesthetic *and* infrastructural decision (Session 03 cloud-versus-local comparison + HM Munich *Our Br00d* pattern).

@@ -21,23 +21,23 @@ A personal manifesto on how you want to use AI in your practice is required. It 
 Public / handout-style outline: [course outline](course-outline.md)
 **Class rhythm** (10:00 to 12:00, check-in, humanities group inputs, ≥45 min tech): [course rhythm](course-rhythm.md)
 
-Creative AI tool survey: [ai tools creative processes](../topics/ai-tools-creative-processes.md)
+Creative AI tool survey: [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)
 
 Session 01 lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
 
-Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md)
+Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)
 
 Structure versus model quality: [structure vs model quality](../../research/structure-vs-model-quality.md)
 
-Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../setup/howto-local-llm-hardware.md) · session [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md)
+Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · session [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md)
 
-Academic AI (Austria): [academic ai austria](../setup/academic-ai-austria.md)
+Academic AI (Austria): [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)
 
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)
 
-Prompting guide: [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+Prompting guide: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
 
-**Student start page:** [START HERE](../START-HERE.md) · **Required work:** [minimum path](../minimum-path.md)
+**Student start page:** [START HERE](../PRACTICE/install-order-and-first-week.md) · **Required work:** [minimum path](../minimum-path.md)
 
 **GitHub is the course pack** (public). Teams / UFG for announcements.
 
@@ -109,15 +109,15 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 
 | Topic | Note |
 |---|---|
-| What **lint** means | [what is lint](../concepts/what-is-lint.md) |
-| Standard files | [llm wiki standard files](../setup/llm-wiki-standard-files.md) |
-| What structure improves | [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves) |
+| What **lint** means | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
+| Standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
+| What structure improves | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) |
 | References | [references](references.md) |
-| What is a **harness** | [what is harness](../concepts/what-is-harness.md) |
-| What is **MCP** | [what is mcp](../concepts/what-is-mcp.md) |
-| Hermes / Obsidian howtos | [howto hermes setup](../setup/howto-hermes-setup.md) · [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) |
-| Local hardware howto | [howto local llm hardware](../setup/howto-local-llm-hardware.md) |
-| Prompting guide | [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| What is a **harness** | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
+| What is **MCP** | [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
+| Hermes / Obsidian howtos | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
+| Local hardware howto | [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
+| Prompting guide | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 | Course rhythm | [course rhythm](course-rhythm.md) |
 | Local hardware research | [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
 | Course outline | [course outline](course-outline.md) |
