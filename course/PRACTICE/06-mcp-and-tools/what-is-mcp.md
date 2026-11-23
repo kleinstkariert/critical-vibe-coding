@@ -29,6 +29,8 @@ MCP is not merely a connector. It is a permissions and capability boundary.
 - calendar
 - personal data
 
+Keep a capability inventory. For each server, write what it can read, change, delete, or send, and whether you approved that. Read this rule before you connect an external program, such as vvvv or TouchDesigner, in the [install guides](../01-harness-and-agents/install-why.md).
+
 ## The waiter metaphor (yes, it works)
 
 A common API metaphor is: **guest → waiter → kitchen**.

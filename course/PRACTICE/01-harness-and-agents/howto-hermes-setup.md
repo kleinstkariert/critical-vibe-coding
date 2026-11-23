@@ -40,6 +40,25 @@ Architecture / security overview (course): [Local LLM Coding with Hermes](../08-
 
 *technical suggestion for class:* install **Hermes Desktop** when your OS supports it. You get a GUI agent workspace (chat, skills, tools) without living only in the terminal. CLI still works and shares the same config.
 
+The Desktop package is a file you open. It is not a script piped into a shell. Prefer it when the download page offers it.
+
+## Read the installer before you run it
+
+A pipe sends a downloaded script straight into a shell. The shell runs it before you can read it.
+
+Each command-line install below has two paths.
+
+- Path A is the convenience path. The pipe stays there.
+- Path B saves the script, shows it, then runs it.
+
+Use path B.
+
+The Hermes install page does not publish a checksum for `install.sh` or `install.ps1`. A checksum is a short fingerprint of a file. This course does not invent one. Page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+
+The script does check the uv tool it downloads. That check does not prove that `install.sh` or `install.ps1` is the file from the official page. Read the saved file.
+
+While you read, look for `curl`, `irm`, and `git clone` lines. The host should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, or `github.com`. Stop if you see a different host.
+
 ### Windows
 
 #### Option A. Hermes Desktop (recommended UI)
@@ -51,15 +70,61 @@ Architecture / security overview (course): [Local LLM Coding with Hermes](../08-
 
 #### Option B. CLI only (PowerShell)
 
+1. Click the Start button.
+2. Type `Windows Terminal`.
+3. Press Enter.
+4. If Windows Terminal is not in the list, type `PowerShell` and press Enter.
+5. You type at the blinking cursor. Do not start the window as Administrator.
+
+The host must be `hermes-agent.nousresearch.com`. Stop if it is not.
+
+##### Path A. Convenience
+
+1. Click the terminal window.
+2. Type the next line and press Enter. The script runs as soon as it downloads.
+
 ```powershell
 iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 ```
 
-Then **open a new terminal** (PATH updates to `%LOCALAPPDATA%\hermes\bin`).
+`irm` downloads the text. `iex` runs that text. You do not see the script first.
+
+##### Path B. Inspectable
+
+1. Click the terminal window.
+2. Type `cd $HOME` and press Enter.
+3. Type the next line and press Enter. This saves `install.ps1` in your home folder. It does not run it.
 
 ```powershell
-hermes --help
+curl.exe -fsSL https://hermes-agent.nousresearch.com/install.ps1 -o install.ps1
 ```
+
+4. Type `notepad install.ps1` and press Enter. Notepad opens the script.
+5. Read the script. Close Notepad.
+6. Type the next line and press Enter.
+
+```powershell
+powershell -NoProfile -File .\install.ps1
+```
+
+What the Windows script changes, from the Hermes install layout and from `install.ps1`, checked 20 Nov 2026:
+
+- Program files: `%LOCALAPPDATA%\hermes\hermes-agent\`
+- Commands: `%LOCALAPPDATA%\hermes\bin\`
+- Your Hermes data: `%LOCALAPPDATA%\hermes\`
+- It adds that `bin` folder to your user `Path`
+
+1. Close the terminal.
+2. Open Windows Terminal again.
+3. Type `hermes --help` and press Enter.
+
+Uninstall, from https://hermes-agent.nousresearch.com/docs/user-guide/windows-native :
+
+1. Open Windows Terminal.
+2. Type `hermes uninstall --dry-run` and press Enter. This lists files. It does not delete them.
+3. Type `hermes uninstall` and press Enter to remove the program and keep your data.
+4. Type `hermes uninstall --full` only when you also want the data folder deleted.
+5. A Store or MSIX app is removed in Settings, Apps, Installed apps. The script uninstaller does not remove that package.
 
 Windows native notes: https://hermes-agent.nousresearch.com/docs/user-guide/windows-native  
 Default data home: `%LOCALAPPDATA%\hermes\`
@@ -78,19 +143,53 @@ Default data home: `%LOCALAPPDATA%\hermes\`
 
 #### Option B. CLI (Apple Silicon or when Desktop is unavailable)
 
+1. Press Command and the space bar together.
+2. Type `Terminal`.
+3. Press Return.
+
+##### Path A. Convenience
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return. Do not type `sudo` before it.
+
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 ```
 
-Reload the shell, then check:
+##### Path B. Inspectable
+
+1. Click the Terminal window.
+2. Type `cd` and press Return.
+3. Type the next line and press Return.
 
 ```bash
-source ~/.zshrc   # or ~/.bashrc
-hermes --help
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
 ```
 
+4. Type `less install.sh` and press Return.
+5. Press the space bar to move down. Press `q` to close the viewer.
+6. Type the next line and press Return. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- A PATH line in `~/.zshrc` and `~/.zprofile` when your shell is zsh
+
+1. Type `source ~/.zshrc` and press Return. On bash, type `source ~/.bashrc` instead.
+2. Type `hermes --help` and press Return.
+3. If the command is missing, quit Terminal, open it again, and type `hermes --help`.
+
+Uninstall: type `hermes uninstall --dry-run`, then `hermes uninstall`. Use `hermes uninstall --full` only when you also want `~/.hermes/` deleted. Docs: https://hermes-agent.nousresearch.com/docs/getting-started/updating
+
 Default data home: `~/.hermes/`  
-CLI launcher typically: `~/.local/bin/hermes` (ensure that directory is on your `PATH`).
+CLI launcher typically: `~/.local/bin/hermes` (that directory must be on your `PATH`).
 
 Optional after CLI install:
 
@@ -104,11 +203,49 @@ hermes desktop
 
 CLI is the primary path (Desktop may be available via source/`hermes desktop` depending on release: prefer the documented script first).
 
+1. Press the Super key.
+2. Type `Terminal`.
+3. Press Enter.
+
+##### Path A. Convenience
+
+1. Click the terminal window.
+2. Type `cd` and press Enter.
+3. Type the next line and press Enter. Do not type `sudo` before it.
+
 ```bash
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-source ~/.bashrc   # or ~/.zshrc
-hermes --help
 ```
+
+##### Path B. Inspectable
+
+1. Click the terminal window.
+2. Type `cd` and press Enter.
+3. Type the next line and press Enter.
+
+```bash
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh -o install.sh
+```
+
+4. Type `less install.sh` and press Enter.
+5. Press the space bar to move down. Press `q` to close the viewer.
+6. Type the next line and press Enter. Do not type `sudo` before it.
+
+```bash
+bash install.sh
+```
+
+What the script changes, checked 20 Nov 2026:
+
+- Program files: `~/.hermes/hermes-agent/`
+- Command: `~/.local/bin/hermes`
+- Your Hermes data: `~/.hermes/`
+- A PATH line in `~/.bashrc` and `~/.profile` when your shell is bash
+
+1. Type `source ~/.bashrc` and press Enter. On zsh, type `source ~/.zshrc` instead.
+2. Type `hermes --help` and press Enter.
+
+Uninstall: type `hermes uninstall --dry-run`, then `hermes uninstall`. Use `hermes uninstall --full` only when you also want `~/.hermes/` deleted. Docs: https://hermes-agent.nousresearch.com/docs/getting-started/updating
 
 **Prerequisites (*institutional summary* from install docs):** Git, curl, tar, SHA-256 utilities. Source installs use a managed Python via PM. On minimal Debian/Ubuntu/RHEL images, `libatomic` may be required for managed Node (`libatomic1` on apt).
 
@@ -162,29 +299,33 @@ Limits and privacy: 20 requests per minute and 50 per day on a free account. Pro
 
 | Platform | Env file | Example absolute paths |
 |---|---|---|
-| Windows | `%LOCALAPPDATA%\hermes\.env` | `OBSIDIAN_VAULT_PATH=C:\path\to\your\notes` |
-| macOS / Linux | `~/.hermes/.env` | `OBSIDIAN_VAULT_PATH=/path/to/your/notes` |
+| Windows | `%LOCALAPPDATA%\hermes\.env` | `WIKI_PATH=C:\path\to\MyVault\wiki` |
+| macOS / Linux | `~/.hermes/.env` | `WIKI_PATH=/path/to/MyVault/wiki` or `/path/to/MyVault/wiki` |
 
 ```env
 # Absolute paths. Do not put $variables inside paths Hermes file tools will use.
-OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault
-WIKI_PATH=/absolute/path/to/your/vault
+OBSIDIAN_VAULT_PATH=/absolute/path/to/MyVault/wiki
+WIKI_PATH=/absolute/path/to/MyVault/wiki
 ```
 
 **Important:**
 
 - Use a **real absolute path**. File tools do not expand `$OBSIDIAN_VAULT_PATH` in path arguments.
-- For a dedicated LLM Wiki inside the vault later, set both paths to for example `wiki/` inside your own notes folder (create that folder first). Hybrid pattern: agent owns `wiki/`, you own artistic project notes elsewhere.
+- Hybrid pattern: the agent owns `wiki/`. You own your artistic project notes elsewhere.
+- Obsidian still opens the whole vault. These two Hermes paths point at `wiki/`.
+- The first folders for Hermes are `wiki/`, a disposable folder such as `hermes-smoke-test`, and project folders you name in the request.
+- A folder name is not a security boundary. The access table is in [starter knowledge base](../02-knowledge-bases/starter-knowledge-base.md).
+- A full-vault path is convenience mode, not recommended for private material.
 - Restart Hermes (or Desktop) after changing `.env`.
 
 ### Vault path vs AgentShare (two layers)
 
 | Layer | What students do in class | Safer hardening later |
 |---|---|---|
-| **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` / `WIKI_PATH` at the vault (or `wiki/`) so Hermes can edit notes | Narrow to an agent-writable subfolder when you are ready |
+| **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` and `WIKI_PATH` at `MyVault/wiki` | A full-vault path is convenience mode, not recommended for private material |
 | **Docker / sandbox mounts** | Optional. Overview [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
 
-Class smoke test uses the vault path in `.env`. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
+The smoke test uses a new folder named `hermes-smoke-test` in your home folder. It does not use the vault. The vault path in `.env` is for later note work. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
 
 Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian  
 LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
@@ -205,7 +346,41 @@ hermes desktop
 hermes
 ```
 
-Try: ask it to list notes in the vault, or to create a test page under a folder you agree is agent-writable (e.g. `wiki/`).
+The first request uses one synthetic file. Make that file before you ask Hermes anything.
+
+Windows:
+
+1. Open File Explorer from the taskbar.
+2. Open your user folder.
+3. Create a folder named `hermes-smoke-test` and open it.
+4. Create `note.txt` in that folder.
+5. Type this sentence in the file: The smoke test file says hello.
+6. Save the file.
+7. Copy the folder path from the address bar.
+
+Linux:
+
+1. Open a terminal.
+2. Type `mkdir "$HOME/hermes-smoke-test"` and press Enter.
+3. Type `printf '%s\n' 'The smoke test file says hello.' > "$HOME/hermes-smoke-test/note.txt"` and press Enter.
+4. Type `xdg-open "$HOME/hermes-smoke-test"` and press Enter.
+5. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Enter. Copy that path.
+
+macOS:
+
+1. Open Finder.
+2. Click Go, then Home.
+3. Create a folder named `hermes-smoke-test` and open it.
+4. Open TextEdit. Click Format, then Make Plain Text.
+5. Type this sentence: The smoke test file says hello.
+6. Save the file as `note.txt` inside `hermes-smoke-test`.
+7. Open Terminal. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Return. Copy that path.
+
+Then paste this request in Hermes. Put your copied path in place of PATH:
+
+Read only this file: PATH. Reply with the one sentence in that file. Do not open any other folder.
+
+The reply must be: The smoke test file says hello. If Hermes names your vault or another folder, stop.
 
 **Keep Obsidian open** on the side if you want to watch files appear (Karpathy: “Obsidian is the IDE; the LLM is the programmer”).
 
@@ -244,8 +419,8 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 
 - Do not run as root. Do not expose the gateway publicly.
 - Keys only in Hermes `.env`, never in synced vault notes.
-- Prefer Docker / sandbox for untrusted code. Local backend = **no** isolation.
-- Turn on the Docker terminal backend: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md) · https://hermes-agent.nousresearch.com/docs/user-guide/docker
+- Novice baseline: read the files first, use a disposable project, keep manual approvals on, give Hermes one narrow write folder, keep a Git or filesystem snapshot, and do not use a private vault.
+- Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md). Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 - Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  
@@ -256,7 +431,7 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 ## 6. LLM Wiki layout (when you turn it on)
 
 ```text
-wiki/   (or whole vault if WIKI_PATH = vault)
+wiki/
   SCHEMA.md   (or AGENTS.md / CLAUDE.md; co-evolve with the agent)
   index.md
   log.md
@@ -266,6 +441,8 @@ wiki/   (or whole vault if WIKI_PATH = vault)
   comparisons/
   queries/
 ```
+
+The default `WIKI_PATH` is `MyVault/wiki`. A full-vault path is convenience mode, not recommended for private material.
 
 Session habit: read schema + index + recent log before ingest/query/lint.
 
@@ -279,6 +456,8 @@ Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki
 ## 7. Optional: MCP (incl. CAD / 3D)
 
 Hermes can attach MCP servers (stdio / HTTP). Use this for tools that are **not** a folder of files, including **Blender / Fusion / FreeCAD / Meshy** (Sessions 05 and 07).
+
+Read the permissions and capability rule before you attach a server: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
 
 Course notes: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) · [what is harness](what-is-harness.md) · [05 knowledge base phone discord](../../SESSIONS/05-knowledge-base-phone-discord.md) · CAD/3D table: [06 mcp and tools](../06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06)  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
