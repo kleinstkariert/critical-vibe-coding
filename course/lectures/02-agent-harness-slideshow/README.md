@@ -6,7 +6,7 @@ canonical: true
 
 # Session 02 slideshow (Obsidian Slides)
 
-*reference implementation.* The Hermes steps in this deck are one worked example. They are an *optional extension*. They are *not required for assessment*. See [minimum path](../../minimum-path.md).
+*reference implementation.* The Hermes steps in this deck are one worked example. They are an *optional extension*. They are *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Markdown deck for the Obsidian **core Slides** plugin (`---` between slides), with vault CSS for readable sizing.
 

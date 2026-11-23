@@ -14,7 +14,7 @@ canonical: true
 
 Interface Cultures · short public / syllabus sheet. Full session notes: [timeline](timeline.md). Labels: *requirement* | *todo*.
 
-A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [minimum path](../minimum-path.md) and the student input presentations.
+A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [minimum path](../PROJECT-WORK/minimum-path.md) and the student input presentations.
 The technical object is a student-designed agentic production system. Hermes is one *reference implementation*. The class install is a *demonstration*. It is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. No purchase is required. Alternatives are allowed.
 
 *Inspired in form by* [HKUST AMCC6500, Critical AI and Artistic Creation](https://amc.hkust.edu.hk/upload/2026-27%20Fall%20Course%20Info/AMCC6500I-Course_Outline.pdf) *(Giannoutakis)*: weekly topic + one-line cover, not a copy of their themes.
@@ -27,7 +27,7 @@ Hands-on seminar: students build and run a personal LLM-agent setup while unpack
 
 "Vibe coding" is not taught as a frictionless shortcut. The course asks when AI helps, when it wastes time, which models and infrastructures fit a task, and how authorship, labour, platform dependency and ecology shift when an **agent** sits between you and the stack. The agent itself is treated as interface material for media-art practice, not only as a means to an output.
 
-**Eight sessions**, each **10:00 to 12:00** (120 min, short break). Each opens with a **listen-only check-in**. In Sessions 02, 03, 05, 06 and 07 a student group (about 15 min) brings a **humanities** question; the teacher leads **technical practice** after. Full rhythm + clocks: [course rhythm](course-rhythm.md). Midpoint (Session 04) and final (Session 08): **working personal setup** + critical reflection. The setup that assessment uses is [minimum path](../minimum-path.md).
+**Eight sessions**, each **10:00 to 12:00** (120 min, short break). Each opens with a **listen-only check-in**. In Sessions 02, 03, 05, 06 and 07 a student group (about 15 min) brings a **humanities** question; the teacher leads **technical practice** after. Full rhythm + clocks: [course rhythm](course-rhythm.md). Midpoint (Session 04) and final (Session 08): **working personal setup** + critical reflection. The setup that assessment uses is [minimum path](../PROJECT-WORK/minimum-path.md).
 
 *requirement (brief):* visual/node environments, GUI tools, text coding and 3D/CAD; criteria for useful versus unnecessary AI; proprietary cloud versus local/open infra; shared space for hopes, fears and authorship questions.
 
@@ -43,7 +43,7 @@ Students will be able to:
 4. Articulate authorship, labour, platform and ecological questions in relation to their own practice.
 5. Present the **setup** (architecture + one artistic/research use) as the main deliverable, not a polished exhibition by default.
 
-Outcome 1 names a *reference implementation*. It is not the assessed architecture. Coding agents and other agents are valid systems. The assessed parts are in [minimum path](../minimum-path.md): knowledge store, access boundary, model endpoint, tool set, verification method, provenance, and critical reflection. The manifesto is also required. Outcome 3, across code, node, and CAD/3D, is an *optional extension*.
+Outcome 1 names a *reference implementation*. It is not the assessed architecture. Coding agents and other agents are valid systems. The assessed parts are in [minimum path](../PROJECT-WORK/minimum-path.md): knowledge store, access boundary, model endpoint, tool set, verification method, provenance, and critical reflection. The manifesto is also required. Outcome 3, across code, node, and CAD/3D, is an *optional extension*.
 
 ---
 
@@ -52,7 +52,7 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 | Assessment | What | % (*todo*) |
 |---|---|---|
 | Personal manifesto | How you want to use AI in your practice. No required product. Develop it through the course. Hand it in at the end. | TBD |
-| Midpoint (Session 04) | Project presentation + semester plan + the system as it stands ([minimum path](../minimum-path.md)) | TBD |
+| Midpoint (Session 04) | Project presentation + semester plan + the system as it stands ([minimum path](../PROJECT-WORK/minimum-path.md)) | TBD |
 | Final presentation (Session 08) | Architecture walkthrough + one artistic/research use + short critical reflection | TBD |
 | Student input | One group input (Sessions 02, 03, 05, 06 or 07) | TBD |
 | Seminar participation | Check-ins, studio critique, peer feedback | TBD |
@@ -78,7 +78,7 @@ Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight s
 
 ## Software and platforms (default stack)
 
-*reference implementation. Optional extension. Not required for assessment.* This table is one Hermes example. The assessed system is [minimum path](../minimum-path.md). Coding agents and other agents are valid systems.
+*reference implementation. Optional extension. Not required for assessment.* This table is one Hermes example. The assessed system is [minimum path](../PROJECT-WORK/minimum-path.md). Coding agents and other agents are valid systems.
 
 | Role | Default | Notes |
 |---|---|---|
