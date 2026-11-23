@@ -79,21 +79,22 @@ The point is a common surface for discussion, not a fixed curriculum.
 Weak point: topics overlap. A note about data centres belongs to ecology, economy and labour at once. We had to choose one folder.
 
 **PRACTICE.** The technical notes, sorted by question: what can an agent do, how is knowledge organised, which model, where does it run, where can it read and write, how are tools connected, what about creative stacks, how is work checked.
+It also holds the install guides for Windows, Linux and macOS and the starter knowledge base. Session 03 uses them.
 We sorted by question because we did not want to suggest a mandatory setup path.
 Weak point: a beginner may miss a clear order. The old install-order page is still there for that reason.
 
-**SESSIONS.** The eight session notes stay the main timeline.
+**SESSIONS.** The eight session notes stay the main timeline. Session 03 is a practical install session: check-in, student input, break, and an optional join-in install. It has no Docker baseline.
 We moved the syllabus pages (outline, rhythm, timeline, brief) and the lectures here, because they describe the meetings.
 Weak point: this makes the folder mixed. Slideshows and generators now live inside it.
 The proposal also asked for one template for all session pages. We did not do that yet.
 
 **PROJECT-WORK.** The documents students need for their own practice.
-The minimum path is here. The other documents are stubs for now.
-Weak point: empty stubs promise more than we have written.
+The minimum path is the required work. The project path covers proposal, midpoint and final in one page. Provenance includes the process log. Verification and reflection are short templates. The interface score is an optional scaffold for later.
+Weak point: the templates mostly link to older notes and add little new teaching. We may have merged pages that students would rather read apart.
 
-**REFERENCES.** Bibliography, primary sources, peer courses, and a page for claims that change fast.
+**REFERENCES.** Bibliography, primary sources, peer courses, a tools and documentation page, and a dated page for models, prices, limits and hardware.
 Keeping unstable facts apart from the seminar texts should make updates easier.
-Weak point: the current-claims page is a stub. The facts are still inside the old notes.
+Weak point: the dated page holds only a first set of rows. Most volatile facts are still inside the older notes, and nobody owns the updates yet.
 
 **research/ and UnlearGestaltungAI_Mainz/.** Both stay as they were. They are research material, not course pages.
 The proposal asked why the Mainz notes are not inside research. We did not answer that question. We left them where they were, because links point there.
@@ -110,11 +111,15 @@ The old 13-session files were removed from the repository. Their reusable parts 
 - We moved files and fixed links, but we did not rewrite the texts. Some old texts still describe the old layout.
 - The structure was designed by the teacher. Students approved the idea, but not each file location.
 
+## Later changes on the same branch
+
+After the first move, we added material from two open pull requests: the install guides and the starter knowledge base from one, a tool comparison from the other. The comparison is now one canonical page in `research/`. We also removed the lecturer's first name from tracked text and file names, and merged the stub pages that had no content of their own. The full list is in the [migration report](../migrations/2026-structure-move.md).
+
 ## What we did not decide
 
 - Whether all session pages should follow one template.
 - Whether the numbered topic folders in THEORY and PRACTICE should stay.
-- Where the extracted "current claims" will come from, and who will keep them up to date.
+- Who keeps the dated models, prices, limits and hardware page up to date, and how often.
 - Whether `research/` and the Mainz notes should be merged.
 
 ## What would make us change it
