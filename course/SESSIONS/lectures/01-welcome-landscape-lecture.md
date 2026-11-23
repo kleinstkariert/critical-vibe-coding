@@ -237,7 +237,7 @@ After the vocabulary, the black and white **agentic AI loop** Sebastian chose: *
 
 
 
-Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
+Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
 
 
 

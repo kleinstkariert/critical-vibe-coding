@@ -14,7 +14,7 @@ Each session starts with a listen-only check-in. See [SEMINAR](../SEMINAR.md).
 |---|---|
 | 1 | [Welcome and landscape](01-welcome-and-landscape.md) |
 | 2 | [Agent harness, wiki architecture, model landscape, Hermes install](02-agent-harness-and-wiki-architecture.md) |
-| 3 | [Hardware paths, locally runnable models, prompting, chat versus reasoning](03-hardware-open-models-prompting.md) |
+| 3 | [Hardware paths, locally runnable models, prompting, chat versus reasoning](03-practical-install.md) |
 | 4 | [Project presentations and semester plans (midpoint)](04-project-presentations-and-plans.md) |
 | 5 | [Vault practice, phone sync, Discord bridge, MCP](05-knowledge-base-phone-discord.md) |
 | 6 | [Agent as interface, as material, as canvas](06-agent-as-interface.md) |

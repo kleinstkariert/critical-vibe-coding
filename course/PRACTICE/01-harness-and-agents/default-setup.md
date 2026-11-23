@@ -298,7 +298,7 @@ Three points to take away:
 
 2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md)).
 
-3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md).
+3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../SESSIONS/03-practical-install.md) · [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md).
 
 
 

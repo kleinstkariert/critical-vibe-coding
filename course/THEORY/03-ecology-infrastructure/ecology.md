@@ -216,7 +216,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 - Students in Austria mostly use models served from US clusters. The carbon is global; the water and smog stay in Texas, Virginia or Arizona.
 
-- Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4. Sessions [03](../../SESSIONS/03-hardware-open-models-prompting.md) and [06](../../SESSIONS/06-agent-as-interface.md).
+- Local and open models move part of the load onto your own hardware and grid, where you can see it. A locally runnable model can do that. An open-weight model on a hosted endpoint does not. [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4. Sessions [03](../../SESSIONS/03-practical-install.md) and [06](../../SESSIONS/06-agent-as-interface.md).
 
 
 

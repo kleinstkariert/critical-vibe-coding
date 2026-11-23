@@ -147,7 +147,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 | **Human-only pages** | Your artistic voice lives in pages the agent may read but not write. Set this in the schema. | [05](../../SESSIONS/05-knowledge-base-phone-discord.md) |
 
-| **Cloud versus local** | Run the same task on a cloud model and a local one. Log tokens, time, quality, and where the cloud call probably ran. | [03](../../SESSIONS/03-hardware-open-models-prompting.md) |
+| **Cloud versus local** | Run the same task on a cloud model and a local one. Log tokens, time, quality, and where the cloud call probably ran. | [03](../../SESSIONS/03-practical-install.md) |
 
 | **Refusal week** (optional, off the slide) | Give up one convenient cloud feature for a week. Write down what it cost you and what you gained. | archived: [old 11](../../THEORY/03-ecology-infrastructure/ecology.md#retired-session-11-prompts-readings-and-practical) |
 

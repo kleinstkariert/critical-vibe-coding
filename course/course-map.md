@@ -47,7 +47,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [References](REFERENCES/README.md) | current | true |
 | [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
 | [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
-| [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-hardware-open-models-prompting.md) | current | true |
+| [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-practical-install.md) | current | true |
 | [Session 04. Project presentations and semester plans (midpoint)](SESSIONS/04-project-presentations-and-plans.md) | current | true |
 | [Session 05. Vault practice, phone sync, Discord bridge, MCP](SESSIONS/05-knowledge-base-phone-discord.md) | current | true |
 | [Session 06. Agent as interface, as material, as canvas](SESSIONS/06-agent-as-interface.md) | current | true |

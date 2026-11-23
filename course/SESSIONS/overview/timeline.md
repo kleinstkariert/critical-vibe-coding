@@ -29,7 +29,7 @@ Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architect
 
 Structure versus model quality: [structure vs model quality](../../../research/structure-vs-model-quality.md)
 
-Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · session [03 hardware open models prompting](../03-hardware-open-models-prompting.md)
+Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · session [03 practical install](../03-practical-install.md)
 
 Academic AI (Austria): [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md)
 
@@ -75,7 +75,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 |---|---|---|---|
 | 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [01 welcome and landscape](../01-welcome-and-landscape.md) |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) |
-| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [03 hardware open models prompting](../03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [03 practical install](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
 | 4 | **Midpoint:** project presentations; students' semester plans | none | [04 project presentations and plans](../04-project-presentations-and-plans.md) |
 | 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [05 knowledge base phone discord](../05-knowledge-base-phone-discord.md) |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI | [06 agent as interface](../06-agent-as-interface.md) |
@@ -145,7 +145,7 @@ The course had 13 sessions before 9 Nov 2026. This table shows where each old se
 | 01 Welcome and landscape | `../01-welcome-and-landscape.md` | **01**, unchanged in place |
 | 02 Agent harness and wiki architecture | `../02-agent-harness-and-wiki-architecture.md` | **02**, plus model landscape and Hermes install from old 03 |
 | 03 Models, prompting, install | removed | Model landscape and install are in **02**. Prompting and chat versus reasoning are in **03** |
-| 04 Local hardware and open LLMs | `../03-hardware-open-models-prompting.md` | **03**, renamed |
+| 04 Local hardware and open LLMs | `../03-practical-install.md` | **03**, renamed |
 | 05 Knowledge base, phone, Discord | `../05-knowledge-base-phone-discord.md` | **05**, plus MCP from old 06 |
 | 06 MCP and tools | removed, see [[../../PRACTICE/06-mcp-and-tools/what-is-mcp#cad-and-3d-servers-table-from-retired-session-06|what is mcp]] | MCP basics moved to **05**. The CAD/3D MCP table moved to what is mcp and is linked from 05 and 07 |
 | 07 Agent as interface | `../06-agent-as-interface.md` | **06**, renamed; adds "as material, as canvas" |

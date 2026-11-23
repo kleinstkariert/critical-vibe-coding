@@ -157,7 +157,7 @@ Ten minutes, honest access notes:
 
 - **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md).
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
-- **Local**: preview only. Hardware paths and memory math: Session [03](03-hardware-open-models-prompting.md).
+- **Local**: preview only. Hardware paths and memory math: Session [03](03-practical-install.md).
 - **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md). Say explicitly what students can and cannot use.
 - Cloud or local, where the notes go: the flowchart in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3. Privacy and AI Act pointer: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 
@@ -185,7 +185,7 @@ If the install fails, label Model versus Harness on a product the student alread
 - Finish the Hermes install and smoke test if class time ran out: [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
 - One-page diagram: Model / Harness / Wiki folders (phone photo OK)
 - Skim the Karpathy gist **or** the LangChain harness article (pick one)
-- Next week: hardware paths, locally runnable models, prompting, chat versus reasoning ([03 hardware open models prompting](03-hardware-open-models-prompting.md))
+- Next week: hardware paths, locally runnable models, prompting, chat versus reasoning ([03 practical install](03-practical-install.md))
 
 ## Materials / References
 

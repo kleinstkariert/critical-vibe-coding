@@ -13,7 +13,7 @@ canonical: true
 
 # How-to — Set up your own machine for local LLMs
 
-Student-facing. Deep research tables: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md). Session: [03 hardware open models prompting](../../SESSIONS/03-hardware-open-models-prompting.md).  
+Student-facing. Deep research tables: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md). Session: [03 practical install](../../SESSIONS/03-practical-install.md).  
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. **No one must buy hardware for this course.**
 
 *advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../../PROJECT-WORK/minimum-path.md).
