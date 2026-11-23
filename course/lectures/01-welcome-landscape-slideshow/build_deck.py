@@ -697,7 +697,7 @@ def build(out: Path = OUT_PPTX):
        note="About 15 minutes per input, at the start of the session. Session 04 is project presentations, Session 08 the finals.\n"
             "Starting points: 02 flattening-and-the-norm.md; 03 research/local-gpu-hardware-for-llms.md and prompting-and-model-choice.md; "
             "05 Hugging Face and OpenAI incident reports, July 2026; 06 ecology.md; 07 course/eu-ai-act-and-datenschutz.md.\n"
-            "List and sources: course/sessions/01-welcome-and-landscape.md and course/course-rhythm.md.")
+            "List and sources: course/_sessions-tmp/01-welcome-and-landscape.md and course/course-rhythm.md.")
     text_slide(prs, None, "Practices for this semester", [
         "A provenance note per project: which model, which tools, who decided (how), where it ran (local, cloud...). "
         "→ a protocol for me :)",

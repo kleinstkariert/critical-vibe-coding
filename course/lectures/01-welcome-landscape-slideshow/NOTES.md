@@ -12,7 +12,7 @@ This folder holds the **deck and images only**. Open the canonical notes instead
 |---|---|
 | Lecture notes, blocks 1 to 8 | `course/lectures/01-welcome-landscape-lecture.md` |
 | Deep dives (blocks 4 to 8, flattening) | `course/lectures/01-welcome-landscape-deep-dives/` |
-| Session plan | `course/sessions/01-welcome-and-landscape.md` |
+| Session plan | `course/_sessions-tmp/01-welcome-and-landscape.md` |
 | Drivers, visions, fears, regulation (block 3) | `course/topics/visions-fears-regulation.md` |
 | EU AI Act, and GDPR (separate topics) | `course/topics/eu-ai-act-and-datenschutz.md#decision-questions` |
 | Presentation and writing style | `course/presentation-style.md` |
@@ -25,7 +25,7 @@ Relative from this folder:
 
 - Lecture: [`../01-welcome-landscape-lecture.md`](../01-welcome-landscape-lecture.md)
 - Deep dives: [`../01-welcome-landscape-deep-dives/`](../01-welcome-landscape-deep-dives/)
-- Session: [`../../sessions/01-welcome-and-landscape.md`](../../sessions/01-welcome-and-landscape.md)
+- Session: [`../../_sessions-tmp/01-welcome-and-landscape.md`](../../_sessions-tmp/01-welcome-and-landscape.md)
 - Style: [`../../presentation-style.md`](../../presentation-style.md)
 
 ## Slide map (56 slides)
