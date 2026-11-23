@@ -201,12 +201,12 @@ If the install fails, label Model versus Harness on a product the student alread
 | Hermes efficient coding (harness tips) | [howto hermes efficient coding](../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) · [agents md template](../PRACTICE/01-harness-and-agents/agents-md-template.md) |
 | Hermes vs coding agents (comparison) | [hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) |
 | OpenCode setup and Hermes pairing | [howto opencode setup](../PRACTICE/01-harness-and-agents/howto-opencode-setup.md) · [howto hermes opencode pairing](../PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) |
-| Session 02 Obsidian slides | [02 agent harness and hermes](../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) |
+| Session 02 Obsidian slides | [02 agent harness and hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) |
 | Architecture overview | [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) |
 | Hermes install (Desktop + CLI) | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
 | Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) |
 | Flattening deep dive (student input) | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
-| Session 01 lecture (model versus product versus agent) | [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
-| Presentation style | [presentation style](../presentation-style.md) |
+| Session 01 lecture (model versus product versus agent) | [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md) |
+| Presentation style | [presentation style](lectures/presentation-style.md) |

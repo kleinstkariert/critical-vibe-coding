@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) (student input, Session 02).
+Block 7 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) (student input, Session 02).
 
 
 

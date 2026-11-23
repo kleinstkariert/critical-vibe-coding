@@ -34,7 +34,7 @@ Read this file before editing.
 After each meaningful change:
 
 1. Confirm markdown links resolve to existing files when you add wiki links.
-2. For code under `course/lectures/**/`, do not run generators that rebuild decks unless asked.
+2. For code under `course/SESSIONS/lectures/**/`, do not run generators that rebuild decks unless asked.
 3. Report changed files and remaining risks.
 4. Stop after three failed repair attempts on the same check.
 

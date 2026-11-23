@@ -116,5 +116,5 @@ Not a polished exhibition by default. Students who chose research instead of AI 
 
 | Standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 
-| Critical sources | [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) (deep dives per block) · [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |
+| Critical sources | [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md) (deep dives per block) · [10 authorship labour platforms](archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |
 

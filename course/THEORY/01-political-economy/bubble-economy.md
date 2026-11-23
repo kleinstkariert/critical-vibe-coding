@@ -21,7 +21,7 @@ canonical: true
 
 
 
-Block 4 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). This note collects the facts behind the block: how much is being spent, what is being built, how far revenue lags, who carries the debt, how earlier build-outs ended, the arguments for and against a burst, who gets the income, and the commons as an alternative.
+Block 4 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). This note collects the facts behind the block: how much is being spent, what is being built, how far revenue lags, who carries the debt, how earlier build-outs ended, the arguments for and against a burst, who gets the income, and the commons as an alternative.
 
 
 

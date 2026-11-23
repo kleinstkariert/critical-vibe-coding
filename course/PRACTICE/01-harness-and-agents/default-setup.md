@@ -26,7 +26,7 @@ canonical: true
 
 
 
-Block 8 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
+Block 8 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
 
 
 
@@ -74,7 +74,7 @@ Related: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capabi
 
 
 
-![LLM Wiki diagram with notes](../../lectures/01-welcome-landscape-slideshow/images/14-llm-wiki-annotated.png)
+![LLM Wiki diagram with notes](../../SESSIONS/lectures/01-welcome-landscape-slideshow/images/14-llm-wiki-annotated.png)
 
 
 
@@ -192,7 +192,7 @@ Some small labels overlap in the image ("direct", "suggest sources"); the three 
 
 
 
-![Standard setup or course setup](../../lectures/01-welcome-landscape-slideshow/images/27-standard-vs-course-setup.png)
+![Standard setup or course setup](../../SESSIONS/lectures/01-welcome-landscape-slideshow/images/27-standard-vs-course-setup.png)
 
 
 
@@ -384,7 +384,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([howto hermes setup](howto-hermes-setup.md)). Otherwise we install it together in Session 02.
 
-6. Choose your student-input group and session ([01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic)).
+6. Choose your student-input group and session ([01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic)).
 
 
 

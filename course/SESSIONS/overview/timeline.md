@@ -23,7 +23,7 @@ Public / handout-style outline: [course outline](course-outline.md)
 
 Creative AI tool survey: [ai tools creative processes](../../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)
 
-Session 01 lecture: [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md)
+Session 01 lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
 
 Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) · [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md)
 
@@ -41,7 +41,7 @@ Prompting guide: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-mo
 
 **GitHub is the course pack** (public). Teams / UFG for announcements.
 
-Presentation style: [presentation style](../../presentation-style.md)
+Presentation style: [presentation style](../lectures/presentation-style.md)
 
 ## Abstract (course goal)
 

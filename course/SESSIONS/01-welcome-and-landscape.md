@@ -76,8 +76,8 @@ Capture themes on paper; bring them into the lecture room.
 
 ## Part B: Classroom input lecture
 
-**Speaker notes + image suggestions:** [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
-Presentation style: [presentation style](../presentation-style.md) · Deck: `course/lectures/01-welcome-landscape-slideshow/`
+**Speaker notes + image suggestions:** [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md)
+Presentation style: [presentation style](lectures/presentation-style.md) · Deck: `course/SESSIONS/lectures/01-welcome-landscape-slideshow/`
 
 start with video-snipped:
 https://www.youtube.com/watch?v=DVrdVuxBCjM -> minute 0:29
@@ -97,7 +97,7 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 
 ## Student inputs: choose a topic
 
-Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic) · [course rhythm](overview/course-rhythm.md).
+Groups of four (or two pairs) pick one session by next week. About 15 minutes at the start of the session, then discussion. Sessions 04 and 08 have no input. Details and starting points: [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic) · [course rhythm](overview/course-rhythm.md).
 
 | Session | Topic |
 |---|---|
@@ -118,9 +118,9 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 
 ## Materials
 
-- Lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
+- Lecture: [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md)
 - Deep dives: [bubble economy](../THEORY/01-political-economy/bubble-economy.md) · [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [labour](../THEORY/02-labour-authorship/labour.md) · [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) · [default setup](../PRACTICE/01-harness-and-agents/default-setup.md)
-- Deck: `course/lectures/01-welcome-landscape-slideshow/`
+- Deck: `course/SESSIONS/lectures/01-welcome-landscape-slideshow/`
 - [00 brief](overview/00-brief.md) · [course outline](overview/course-outline.md) · [course rhythm](overview/course-rhythm.md)
 - [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md) · [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md)
 - [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) · [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)

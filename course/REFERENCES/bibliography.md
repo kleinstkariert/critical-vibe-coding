@@ -73,12 +73,12 @@ AI, brains, critical thinking (MIT EEG + recent clippings): [ai brains critical 
 Curated vault clipping links (scan 2026-11-11): [links from clippings](primary-sources.md)  
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)  
 AI creative tools survey: [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)  
-Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
+Session 01 lecture draft: [01 welcome landscape lecture](../SESSIONS/lectures/01-welcome-landscape-lecture.md)  
 Session 02 harness + wiki: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md)  
 Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)  
 Bubble / productivity / DC financing: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md)  
 Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)  
-Presentation style: [presentation style](../presentation-style.md)
+Presentation style: [presentation style](../SESSIONS/lectures/presentation-style.md)
 
 ## Obsidian auto LLM Wiki plugin
 

@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 6 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
+Block 6 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). Who works inside AI systems, whose work trains them, which jobs change first, and what workers have done about it. The earlier full unit is archived: [10 authorship labour platforms](../../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md).
 
 
 

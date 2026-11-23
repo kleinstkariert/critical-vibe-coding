@@ -22,7 +22,7 @@ Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills
 | One strong image or quote per slide | Bullet walls, dashboards |
 | Argument in speaker notes | Reading paragraphs off the slide |
 | Artworks, infrastructure photos, sparse diagrams | Neon "AI brain" stock |
-| Label the source type ([[REFERENCES/bibliography#source-types]]) | Confident unsourced numbers |
+| Label the source type ([[../../REFERENCES/bibliography#source-types]]) | Confident unsourced numbers |
 | Contradiction as method (image versus market) | Tech demo cheerleading |
 | Own installation photos for practice beats | Logo salad of every vendor |
 
@@ -44,4 +44,4 @@ Rules for CVC lecture decks and related talks. Full agent skill: `.cursor/skills
 ## When drafting lecture `.md` files
 
 Each block has: **Say**, **Slides** (table of text and image slides), **Q&A prompt**, and a link to its deep-dive note.
-Example: [[lectures/01-welcome-landscape-lecture]].
+Example: [[01-welcome-landscape-lecture]].

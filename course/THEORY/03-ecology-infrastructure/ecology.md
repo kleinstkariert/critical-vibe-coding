@@ -20,7 +20,7 @@ canonical: true
 
 
 
-Block 5 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../SESSIONS/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). This note is the Session 01 version with the facts students should hear on day one.
+Block 5 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md). What AI costs in electricity, gas, water, land and neighbourhoods, and which part of that a student's daily use touches. The student input on the ecology of AI is in Session [06](../../SESSIONS/06-agent-as-interface.md); the earlier full unit with exercises is archived: [11 local ecology when not](../../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). This note is the Session 01 version with the facts students should hear on day one.
 
 
 

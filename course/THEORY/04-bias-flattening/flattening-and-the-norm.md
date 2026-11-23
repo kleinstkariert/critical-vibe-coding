@@ -20,7 +20,7 @@ canonical: true
 
 
 
-Linked from Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md) (the "flattening" pressure) and from the student input of Session [02](../../SESSIONS/02-agent-harness-and-wiki-architecture.md).
+Linked from Block 7 of [01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md) (the "flattening" pressure) and from the student input of Session [02](../../SESSIONS/02-agent-harness-and-wiki-architecture.md).
 
 
 

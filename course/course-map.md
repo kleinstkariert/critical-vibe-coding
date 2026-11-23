@@ -28,10 +28,10 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Deep dive: Flattening, the norm, and feminist critiques of AI](THEORY/04-bias-flattening/flattening-and-the-norm.md) | current | true |
 | [Deep dive: Labour](THEORY/02-labour-authorship/labour.md) | current | true |
 | [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |
-| [Session 01: Classroom lecture (welcome and landscape)](lectures/01-welcome-landscape-lecture.md) | current | true |
-| [Session 01: Welcome and landscape slideshow](lectures/01-welcome-landscape-slideshow/README.md) | current | true |
-| [Session 02. Agent harness and Hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
-| [Session 02 slideshow (Obsidian Slides)](lectures/02-agent-harness-slideshow/README.md) | current | true |
+| [Session 01: Classroom lecture (welcome and landscape)](SESSIONS/lectures/01-welcome-landscape-lecture.md) | current | true |
+| [Session 01: Welcome and landscape slideshow](SESSIONS/lectures/01-welcome-landscape-slideshow/README.md) | current | true |
+| [Session 02. Agent harness and Hermes](SESSIONS/lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
+| [Session 02 slideshow (Obsidian Slides)](SESSIONS/lectures/02-agent-harness-slideshow/README.md) | current | true |
 | [Minimum path](PROJECT-WORK/minimum-path.md) | current | true |
 | [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
 | [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
@@ -68,8 +68,8 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Sources (no duplicates here)](lectures/01-welcome-landscape-slideshow/NOTES.md) | current | false |
-| [Presentation and writing style (Schaufler / Quadrature)](presentation-style.md) | current | false |
+| [Sources (no duplicates here)](SESSIONS/lectures/01-welcome-landscape-slideshow/NOTES.md) | current | false |
+| [Presentation and writing style (Schaufler / Quadrature)](SESSIONS/lectures/presentation-style.md) | current | false |
 | [Potential Structure Change](teacher/potential-structure-change.md) | proposal | false |
 
 ## Archive
