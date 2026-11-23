@@ -19,7 +19,7 @@ It is not a fixed curriculum. You can read in any order.
 | `04-bias-flattening/` | Bias, flattening, the norm | [Flattening, the norm, and feminist critiques of AI](04-bias-flattening/flattening-and-the-norm.md) |
 | `05-privacy-regulation/` | Privacy, EU AI Act, GDPR | [EU AI Act and Datenschutz](05-privacy-regulation/eu-ai-act-and-datenschutz.md) |
 | `06-danger-and-risk/` | Drivers, visions, fears | [Drivers, visions, fears, regulation](06-danger-and-risk/visions-fears-regulation.md) |
-| `07-refusal-and-alternatives/` | Refusal, other ways of working | [Stub](07-refusal-and-alternatives/README.md) |
+| `07-refusal-and-alternatives/` | Refusal, other ways of working | [Index of where refusal is taught](07-refusal-and-alternatives/README.md) |
 
 Research notes that support these topics stay in `research/`:
 
