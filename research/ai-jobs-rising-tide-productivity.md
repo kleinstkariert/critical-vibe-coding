@@ -10,7 +10,7 @@ tags:
 
 # AI and jobs — rising tide, early-career canaries, productivity by experience
 
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Course handout for Session 01, Block 6 ([[../course/lectures/01-welcome-landscape-deep-dives/labour]]); earlier unit archived: [[../course/_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms]]. Labels: *nuance* | *claim*.
+Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Course handout for Session 01, Block 6 ([[../course/lectures/01-welcome-landscape-deep-dives/labour]]); earlier unit archived: [[../course/SESSIONS/archive-13-session-plan/10-authorship-labour-platforms]]. Labels: *nuance* | *claim*.
 
 **Do not** teach Amodei “20% unemployment” or Goldman “300 million jobs” as settled forecasts. Prefer the papers below.
 

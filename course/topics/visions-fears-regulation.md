@@ -21,10 +21,10 @@ Source types: [references](../syllabus/references.md#source-types). A label name
 |---|---|
 | CapEx / bubble / productivity numbers | [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) |
 | **Jobs / rising tide / junior productivity** | [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) · [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) |
-| Data centres, energy, US siting | [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · student input Session [06](../_sessions-tmp/06-agent-as-interface.md) |
-| What EU/AT law actually does | [eu ai act and datenschutz](eu-ai-act-and-datenschutz.md) · student input on privacy, Session [07](../_sessions-tmp/07-coding-and-creative-stacks.md) |
-| Ghost labour / platforms | [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · archived [10 authorship labour platforms](../_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md) |
-| How dangerous is AI really? | Student input, Session [05](../_sessions-tmp/05-knowledge-base-phone-discord.md) (Hugging Face incident) |
+| Data centres, energy, US siting | [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) · student input Session [06](../SESSIONS/06-agent-as-interface.md) |
+| What EU/AT law actually does | [eu ai act and datenschutz](eu-ai-act-and-datenschutz.md) · student input on privacy, Session [07](../SESSIONS/07-coding-and-creative-stacks.md) |
+| Ghost labour / platforms | [labour](../lectures/01-welcome-landscape-deep-dives/labour.md) · archived [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) |
+| How dangerous is AI really? | Student input, Session [05](../SESSIONS/05-knowledge-base-phone-discord.md) (Hugging Face incident) |
 
 
 ---

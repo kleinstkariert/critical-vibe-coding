@@ -63,16 +63,16 @@ Outcome 1 names a *reference implementation*. It is not the assessed architectur
 
 | Week | Topic | Student input | What this session covers |
 |---|---|---|---|
-| 1 | Welcome + landscape | (groups choose topics) | Outdoor check-in; LLMs and agents; drivers, visions, fears, regulation; economy and the bubble; ecology; labour; media-art workflows; default setup. [01 welcome and landscape](../_sessions-tmp/01-welcome-and-landscape.md) · [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
-| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free-to-use hosted endpoint. [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md) |
-| 3 | Hardware, locally runnable models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, locally runnable models versus RAM; prompting; chat versus reasoning. [03 hardware open models prompting](../_sessions-tmp/03-hardware-open-models-prompting.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md) · [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
-| 4 | **Midpoint:** project presentations | none | Students' semester plans + setup as it stands. [04 project presentations and plans](../_sessions-tmp/04-project-presentations-and-plans.md) |
-| 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [05 knowledge base phone discord](../_sessions-tmp/05-knowledge-base-phone-discord.md) · [what is mcp](../concepts/what-is-mcp.md) |
-| 6 | Agent as interface, material, canvas | The ecology of AI | Setup, skills and tools as artistic material; interface score. [06 agent as interface](../_sessions-tmp/06-agent-as-interface.md) |
-| 7 | Coding with agents across creative stacks (*proposal, TBD*) | Privacy: what happens with the data? | Vibe coding critically; code, node, GUI, 3D/CAD, fab. [07 coding and creative stacks](../_sessions-tmp/07-coding-and-creative-stacks.md) |
-| 8 | **Final presentations** (*proposal*) | none | Architecture + use + reflection; closing check-in. [08 final presentations](../_sessions-tmp/08-final-presentations.md) |
+| 1 | Welcome + landscape | (groups choose topics) | Outdoor check-in; LLMs and agents; drivers, visions, fears, regulation; economy and the bubble; ecology; labour; media-art workflows; default setup. [01 welcome and landscape](../SESSIONS/01-welcome-and-landscape.md) · [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md) |
+| 2 | Harness, wiki architecture, model landscape, **install Hermes** | Flattening | **Agent = Model + Harness**, LLM Wiki / Obsidian structure, what students can use; Hermes install with a free-to-use hosted endpoint. [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md) |
+| 3 | Hardware, locally runnable models, prompting | Closed versus open weights as power | Ready-made (Apple/Spark), DIY GPU / multi-GPU split, locally runnable models versus RAM; prompting; chat versus reasoning. [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../setup/howto-local-llm-hardware.md) · [Prompting Guide for Critical Vibe Coding](../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| 4 | **Midpoint:** project presentations | none | Students' semester plans + setup as it stands. [04 project presentations and plans](../SESSIONS/04-project-presentations-and-plans.md) |
+| 5 | Vault practice, phone, Discord, MCP | How dangerous is AI really? | Personalise the agent; phone sync; Discord bridge; MCP basics and one server. [05 knowledge base phone discord](../SESSIONS/05-knowledge-base-phone-discord.md) · [what is mcp](../concepts/what-is-mcp.md) |
+| 6 | Agent as interface, material, canvas | The ecology of AI | Setup, skills and tools as artistic material; interface score. [06 agent as interface](../SESSIONS/06-agent-as-interface.md) |
+| 7 | Coding with agents across creative stacks (*proposal, TBD*) | Privacy: what happens with the data? | Vibe coding critically; code, node, GUI, 3D/CAD, fab. [07 coding and creative stacks](../SESSIONS/07-coding-and-creative-stacks.md) |
+| 8 | **Final presentations** (*proposal*) | none | Architecture + use + reflection; closing check-in. [08 final presentations](../SESSIONS/08-final-presentations.md) |
 
-Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight sessions still use are in the [archive](../_sessions-tmp/archive-13-session-plan/README.md).
+Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight sessions still use are in the [archive](../SESSIONS/archive-13-session-plan/README.md).
 
 ---
 

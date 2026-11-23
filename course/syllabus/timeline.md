@@ -25,11 +25,11 @@ Creative AI tool survey: [ai tools creative processes](../topics/ai-tools-creati
 
 Session 01 lecture: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)
 
-Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md)
+Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md)
 
 Structure versus model quality: [structure vs model quality](../../research/structure-vs-model-quality.md)
 
-Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../setup/howto-local-llm-hardware.md) · session [03 hardware open models prompting](../_sessions-tmp/03-hardware-open-models-prompting.md)
+Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../setup/howto-local-llm-hardware.md) · session [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md)
 
 Academic AI (Austria): [academic ai austria](../setup/academic-ai-austria.md)
 
@@ -69,18 +69,18 @@ Sessions 02, 03, 05, 06, 07: **≥45 minutes** technical practice after the brea
 
 ## Session map (8 meetings)
 
-Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are removed. Tables the course still uses stay in the [archive](../_sessions-tmp/archive-13-session-plan/README.md).
+Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are removed. Tables the course still uses stay in the [archive](../SESSIONS/archive-13-session-plan/README.md).
 
 | # | Title | Student input | Doc |
 |---|---|---|---|
-| 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [01 welcome and landscape](../_sessions-tmp/01-welcome-and-landscape.md) |
-| 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) |
-| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [03 hardware open models prompting](../_sessions-tmp/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
-| 4 | **Midpoint:** project presentations; students' semester plans | none | [04 project presentations and plans](../_sessions-tmp/04-project-presentations-and-plans.md) |
-| 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [05 knowledge base phone discord](../_sessions-tmp/05-knowledge-base-phone-discord.md) |
-| 6 | Agent as interface, as material, as canvas | The ecology of AI | [06 agent as interface](../_sessions-tmp/06-agent-as-interface.md) |
-| 7 | *To be decided.* Proposal: coding with agents across creative stacks | Privacy: what happens with the data? | [07 coding and creative stacks](../_sessions-tmp/07-coding-and-creative-stacks.md) |
-| 8 | *Proposal:* final presentations + closing check-in | none | [08 final presentations](../_sessions-tmp/08-final-presentations.md) |
+| 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [01 welcome and landscape](../SESSIONS/01-welcome-and-landscape.md) |
+| 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
+| 3 | **Hardware paths**; locally runnable models versus RAM; prompting; chat versus reasoning | Closed versus open weights as power | [03 hardware open models prompting](../SESSIONS/03-hardware-open-models-prompting.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
+| 4 | **Midpoint:** project presentations; students' semester plans | none | [04 project presentations and plans](../SESSIONS/04-project-presentations-and-plans.md) |
+| 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [05 knowledge base phone discord](../SESSIONS/05-knowledge-base-phone-discord.md) |
+| 6 | Agent as interface, as material, as canvas | The ecology of AI | [06 agent as interface](../SESSIONS/06-agent-as-interface.md) |
+| 7 | *To be decided.* Proposal: coding with agents across creative stacks | Privacy: what happens with the data? | [07 coding and creative stacks](../SESSIONS/07-coding-and-creative-stacks.md) |
+| 8 | *Proposal:* final presentations + closing check-in | none | [08 final presentations](../SESSIONS/08-final-presentations.md) |
 
 *Crowding:* eight sessions are tight. Sessions 02 and 05 are the densest; their files name what moves to homework. Analysis: [course rhythm](course-rhythm.md#5-crowding).
 

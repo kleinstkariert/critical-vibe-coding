@@ -74,7 +74,7 @@ Curated vault clipping links (scan 2026-11-11): [links from clippings](links-fro
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../topics/eu-ai-act-and-datenschutz.md#decision-questions)  
 AI creative tools survey: [ai tools creative processes](../topics/ai-tools-creative-processes.md)  
 Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
-Session 02 harness + wiki: [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md)  
+Session 02 harness + wiki: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md)  
 Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)  
 Bubble / productivity / DC financing: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md)  
 Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)  
@@ -158,7 +158,7 @@ Full mapping: [timeline](timeline.md)
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../_sessions-tmp/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../_sessions-tmp/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](course-rhythm.md)).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](course-rhythm.md)).
 
 ## Agent harness
 
@@ -167,7 +167,7 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 | LangChain — *The Anatomy of an Agent Harness* (2026-03-10) | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
 | Zyte — *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ |
 | Course note | [what is harness](../concepts/what-is-harness.md) |
-| Session 02 | [02 agent harness and wiki architecture](../_sessions-tmp/02-agent-harness-and-wiki-architecture.md) |
+| Session 02 | [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
 | Structure vs model quality (research check, SE + RAG) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
 | Wadhwa et al. — context ~70% / parametric ~30% *in answers* (not productivity) | https://arxiv.org/abs/2409.08435 |
 | Fan et al. — harness design for coding agents (SWE-Bench / Terminal-Bench) | https://arxiv.org/abs/2609.20804 |

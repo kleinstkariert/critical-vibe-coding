@@ -14,8 +14,8 @@ tags:
 Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research note + setup map for Critical Vibe Coding. Labels: *street-price estimate* | *technical suggestion* | *nuance*.  
 Prices move weekly — re-check before telling students a number. Currency roughly **USD/EUR street / MSRP class, mid–late 2026** unless noted.
 
-**Session home:** [[../course/_sessions-tmp/03-hardware-open-models-prompting]] · student howto [[../course/setup/howto-local-llm-hardware]]  
-Also pointed from: session [[../course/_sessions-tmp/02-agent-harness-and-wiki-architecture]] (model landscape preview) · [[../course/_sessions-tmp/06-agent-as-interface]] (ecology input, not build guide) · [[../course/setup/Prompting Guide for Critical Vibe Coding]] §28 · [[../course/setup/howto-local-llm-hardware]].
+**Session home:** [[../course/SESSIONS/03-hardware-open-models-prompting]] · student howto [[../course/setup/howto-local-llm-hardware]]  
+Also pointed from: session [[../course/SESSIONS/02-agent-harness-and-wiki-architecture]] (model landscape preview) · [[../course/SESSIONS/06-agent-as-interface]] (ecology input, not build guide) · [[../course/setup/Prompting Guide for Critical Vibe Coding]] §28 · [[../course/setup/howto-local-llm-hardware]].
 
 Hermes docs (software side): [Local Models](https://hermes-agent.nousresearch.com/docs/user-guide/local-models) · [Ollama guide](https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup) · [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
 
