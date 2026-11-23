@@ -12,9 +12,9 @@ canonical: true
 
 # AI tools for creative processes — research list
 
-Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
+Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
 
-Use with: [05 knowledge base phone discord](../SESSIONS/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../SESSIONS/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) · [course outline](../syllabus/course-outline.md).
+Use with: [05 knowledge base phone discord](../../SESSIONS/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) · [course outline](../../syllabus/course-outline.md).
 
 ---
 
@@ -70,7 +70,7 @@ Classroom: Meshy is the cleanest **agent-wired** example (session 5). Others = s
 | Video | Kling, Runway, Luma Dream Machine, Hailuo, Pika |
 | Audio / music / voice | Suno, Udio, ElevenLabs, Mureka |
 
-Peer-course list (HKUST AMCC6500) clusters these similarly — see [course outline](../syllabus/course-outline.md). Prefer **one** demo per modality over a zoo of accounts.
+Peer-course list (HKUST AMCC6500) clusters these similarly — see [course outline](../../syllabus/course-outline.md). Prefer **one** demo per modality over a zoo of accounts.
 
 ---
 
@@ -86,7 +86,7 @@ Peer-course list (HKUST AMCC6500) clusters these similarly — see [course outli
 
 ## CAD / DCC with agent bridges (MCP)
 
-Full teaching table lives in [06 mcp and tools](../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) (used in Sessions 05 and 07). Short index:
+Full teaching table lives in [06 mcp and tools](../../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) (used in Sessions 05 and 07). Short index:
 
 | App | MCP status (2026-10-18) |
 |---|---|

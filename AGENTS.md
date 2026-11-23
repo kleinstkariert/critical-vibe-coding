@@ -12,7 +12,7 @@ Read this file before editing.
 ## Scope
 
 - Prefer edits under `course/` for student-facing materials.
-- Do not rewrite Sebastian’s authored overview prose in `course/setup/Local LLM Coding with Hermes.md` unless he asks.
+- Do not rewrite Sebastian’s authored overview prose in `course/PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md` unless he asks.
 - Do not use em dashes. Prefer short sentences, commas, or colons.
 - Aim for STE ~80% on new agent-written text.
 
@@ -45,10 +45,10 @@ The technical object for students is a student-designed agentic production syste
 The names below are one *reference implementation* for class demos. They are not the assessed architecture. Claude Code, Cursor, OpenCode, local scripts, and other agents are valid systems.
 
 - Reference implementation for class demos: **Hermes Agent** (MIT). Cursor, Claude Code, and OpenCode are valid systems for repo work.
-- Notes example: Obsidian vault + phone sync (see `course/setup/howto-obsidian-setup-and-sync.md`). A plain Markdown folder meets the knowledge store.
-- Hermes install guide: `course/setup/howto-hermes-setup.md`.
-- Coding harness example: `course/setup/howto-hermes-efficient-coding.md`.
-- Comparison: `course/concepts/hermes-vs-coding-agents.md`.
+- Notes example: Obsidian vault + phone sync (see `course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md`). A plain Markdown folder meets the knowledge store.
+- Hermes install guide: `course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md`.
+- Coding harness example: `course/PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md`.
+- Comparison: `course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md`.
 
 ## Modes (when coding on a student project)
 

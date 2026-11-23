@@ -11,9 +11,9 @@ canonical: true
 
 # LLM Wiki — standard files and folders
 
-*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [minimum path](../../minimum-path.md).
 
-Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. What lives in a Karpathy-style wiki directory. Labels: *technical suggestion*.
+Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. What lives in a Karpathy-style wiki directory. Labels: *technical suggestion*.
 
 Canonical pattern: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).  
 Hermes layout (names below): [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki).  
@@ -119,7 +119,7 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 
 - **Ingest** → touches many pages + index + log  
 - **Query** → reads index (then pages); may file into `queries/`  
-- **Lint** → health-check; see [what is lint](../concepts/what-is-lint.md)
+- **Lint** → health-check; see [what is lint](what-is-lint.md)
 
 ## Tools that implement this
 
@@ -130,7 +130,7 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 | Obsidian plugin `karpathywiki` | https://community.obsidian.md/plugins/karpathywiki · https://github.com/GD4AI/obsidian-llm-wiki | Ingest/query/lint inside Obsidian; Apache-2.0 |
 | Dexio guide | https://dexio.wiki/guides/llm-wiki-obsidian/ | Obsidian-oriented walkthrough |
 
-Setup in this repo: [howto hermes setup](howto-hermes-setup.md) · [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [references](../syllabus/references.md)
+Setup in this repo: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [references](../../syllabus/references.md)
 
 ## What structure improves
 
@@ -163,6 +163,6 @@ These are different forms of quality:
 
 The LLM Wiki mainly supports structural, procedural, and operational quality. It can also support critical work by preserving sources, disagreements, uncertainty, and revision history.
 
-Lint checks structure and maintenance: broken links, missing metadata, orphan pages, stale entries, unresolved contradictions. See [what is lint](../concepts/what-is-lint.md). Lint does not establish truth, settle interpretation, or judge artistic quality.
+Lint checks structure and maintenance: broken links, missing metadata, orphan pages, stale entries, unresolved contradictions. See [what is lint](what-is-lint.md). Lint does not establish truth, settle interpretation, or judge artistic quality.
 
 Structure does not replace critical judgment. It gives critical judgment a better surface to work on.

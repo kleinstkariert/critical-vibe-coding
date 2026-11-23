@@ -6,7 +6,7 @@ canonical: true
 
 # Knowledge store options
 
-*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is part of that example. It is not required to complete the course. See [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is part of that example. It is not required to complete the course. See [minimum path](../../minimum-path.md).
 
 **Working title.** Other names that also fit: “Where notes live”, “Note tools for agent workflows”. This note compares three places to keep an agent-readable (and human-readable) knowledge base for Critical Vibe Coding / personal practice.
 
@@ -22,7 +22,7 @@ canonical: true
 | **SilverBullet Desktop** | Free personal/edu; Pro for work | Desktop only until Server sync |
 | **Joplin** | **Yes — AGPL** | **Yes** native apps + Nextcloud — but SQLite, weak for Hermes folder wiki |
 
-Detailed research: [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) · [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · MCP: [what is mcp](../concepts/what-is-mcp.md) · How-tos: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md)
+Detailed research: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) · MCP: [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · How-tos: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md)
 
 ---
 
@@ -59,7 +59,7 @@ For Hermes + a Karpathy-style (or hybrid) wiki:
 2. Sync: see [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) (Nextcloud + Remotely Save recommended for Win + iPhone).
 3. Optional: install Obsidian Web Clipper in the browser.
 4. Point Hermes / the agent at the vault path (absolute path).
-5. Optional LLM Wiki layout: `raw/`, `SCHEMA.md`, `index.md`, `log.md`, agent folders — see [llm wiki standard files](llm-wiki-standard-files.md) · [what is lint](../concepts/what-is-lint.md) · [references](../syllabus/references.md). A structured store does not make the notes true. What it improves: [llm wiki standard files](llm-wiki-standard-files.md#what-structure-improves).
+5. Optional LLM Wiki layout: `raw/`, `SCHEMA.md`, `index.md`, `log.md`, agent folders — see [llm wiki standard files](llm-wiki-standard-files.md) · [what is lint](what-is-lint.md) · [references](../../syllabus/references.md). A structured store does not make the notes true. What it improves: [llm wiki standard files](llm-wiki-standard-files.md#what-structure-improves).
 
 ---
 
@@ -129,11 +129,11 @@ Docs: https://silverbullet.md/ · Folders: https://docs.silverbullet.md/Folder
 
 ## Recommendation for this course / personal Hermes setup
 
-*reference implementation.* The list below is one example. It is not the assessed knowledge store or the assessed agent. See [minimum path](../minimum-path.md).
+*reference implementation.* The list below is one example. It is not the assessed knowledge store or the assessed agent. See [minimum path](../../minimum-path.md).
 
 1. **Class default:** **Obsidian** + Nextcloud (or similar) so **phone sync works without a per-student server.** How-to: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md).
 2. **Hermes** (MIT) on the PC vault folder for the LLM Wiki / hybrid pattern.
 3. **SilverBullet:** optional personal experiment if *you* run a Server; **not** the student path while phone sync is required and ops must stay light. How-to: [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md).
 4. **Do not** pick Joplin only to learn MCP.
 
-Hybrid wiki reminder (personal media-art + engineering): agent maintains technical wiki pages; you keep artistic/project voice pages human-authored — see [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md).
+Hybrid wiki reminder (personal media-art + engineering): agent maintains technical wiki pages; you keep artistic/project voice pages human-authored — see [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md).

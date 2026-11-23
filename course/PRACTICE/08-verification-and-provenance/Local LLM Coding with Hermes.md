@@ -4,7 +4,7 @@ status: current
 canonical: true
 ---
 
-*reference implementation. Optional extension. Not required for assessment.* This file is one worked Hermes example. It is not the assessed system. See the [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This file is one worked Hermes example. It is not the assessed system. See the [minimum path](../../minimum-path.md).
 
 -> quick starter guide.
 
@@ -398,7 +398,7 @@ It reduces risk when you configure it correctly.
 
 Hermes supports Docker as an execution backend.[2][5]
 
-To turn the Docker terminal backend on inside Hermes: [howto hermes docker sandbox](howto-hermes-docker-sandbox.md)  
+To turn the Docker terminal backend on inside Hermes: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)  
 Official Hermes Docker page: https://hermes-agent.nousresearch.com/docs/user-guide/docker
 
 ### Docker installation

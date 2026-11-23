@@ -20,7 +20,7 @@ Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllab
 - Personalise the schema; first ingest (wiki and harness from Session 02, not re-taught from zero)
 - Phone sync; Discord bridge (preferred over Telegram) where feasible
 - **MCP**: understand it as a protocol (not a model, not sync) and attach one tool to the agent (moved here from the old Session 06)
-- The knowledge store may be Obsidian **or** another option: [knowledge store options](../setup/knowledge-store-options.md)
+- The knowledge store may be Obsidian **or** another option: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md)
 
 ## Clock
 
@@ -52,7 +52,7 @@ Bridge to the practical: today students give their own agent new tools. What may
 
 ## Teacher input, Part A: personalisation and practice
 
-Architecture recap only (point back): [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [what is harness](../concepts/what-is-harness.md) · [llm wiki standard files](../setup/llm-wiki-standard-files.md) · [what is lint](../concepts/what-is-lint.md) · quality: [llm wiki standard files](../setup/llm-wiki-standard-files.md#what-structure-improves)
+Architecture recap only (point back): [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) · quality: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves)
 
 - Live: fill `SCHEMA.md` limits; run one ingest / query / lint cycle ([karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md))
 - Tools: Hermes [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) · optional Obsidian plugin [karpathywiki](https://community.obsidian.md/plugins/karpathywiki) ([references](../syllabus/references.md))
@@ -62,7 +62,7 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 
 ## Teacher input, Part B: MCP basics
 
-**MCP = Model Context Protocol.** A standard plug between an agent and other apps and tools. Course note: [what is mcp](../concepts/what-is-mcp.md) (waiter and kitchen metaphor; host, client, server; tools, resources, prompts). Permissions and capability boundary: [what is mcp](../concepts/what-is-mcp.md#permissions-and-capability-boundary).
+**MCP = Model Context Protocol.** A standard plug between an agent and other apps and tools. Course note: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) (waiter and kitchen metaphor; host, client, server; tools, resources, prompts). Permissions and capability boundary: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
 
 - When you need MCP and when the disk is enough: the Obsidian folder wiki uses filesystem tools, no MCP. Apps that are not folders (calendar, mail, browser, SQLite note apps, live CAD/3D sessions) need MCP.
 - How Hermes does it (*institutional summary*, Hermes docs 2026-10-18): servers go under `mcp_servers` in `~/.hermes/config.yaml`; local **stdio** and remote **HTTP** servers share one config; `hermes mcp` opens a catalog of Nous-reviewed servers; at install Hermes lists every tool the server exposes and lets you **tick only the tools the agent may see**: [Hermes MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
@@ -71,7 +71,7 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 
 ## Practical
 
-1. Obsidian ↔ phone sync (Remotely Save / Nextcloud path): [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md). Verify: capture a note on the phone → visible on the PC → the agent can read it.
+1. Obsidian ↔ phone sync (Remotely Save / Nextcloud path): [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md). Verify: capture a note on the phone → visible on the PC → the agent can read it.
 2. Then pick one:
    - **Discord bridge** to the agent (preferred over Telegram), on the student's phone: [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
    - **One MCP server**: list the tools the agent already has (filesystem, web, skills) first; add one server (browser, or build123d-mcp / OpenSCAD if no CAD licence); untick the tools the agent should not have; document the tool list in a short "Tools" section in `SCHEMA.md`.
@@ -84,6 +84,6 @@ Architecture recap only (point back): [02 agent harness and wiki architecture](0
 
 ## Materials
 
-- [howto obsidian setup and sync](../setup/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../setup/howto-hermes-setup.md) · [knowledge store options](../setup/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
-- MCP: [what is mcp](../concepts/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md)
+- [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
+- MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](archive-13-session-plan/06-mcp-and-tools.md)
 - Student input: Hugging Face and OpenAI incident reports (above) · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)

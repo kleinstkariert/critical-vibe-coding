@@ -26,7 +26,7 @@ canonical: true
 
 
 
-Block 8 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
+Block 8 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). The personal stack every student builds in the first weeks, a part-by-part reading of the LLM Wiki diagram shown on the slide, the comparison of a standard cloud setup with the course setup from Block 2 (and why the course setup), and one free-to-use hosted endpoint to start Hermes with.
 
 
 
@@ -46,19 +46,19 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 |---|---|---|
 
-| **Knowledge store** | A folder of plain Markdown notes, synced to your phone. Default: Obsidian. Alternatives are fine if they keep plain files. | [howto obsidian setup and sync](../../setup/howto-obsidian-setup-and-sync.md) · options: [knowledge store options](../../setup/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../../setup/howto-silverbullet-setup-and-sync.md) |
+| **Knowledge store** | A folder of plain Markdown notes, synced to your phone. Default: Obsidian. Alternatives are fine if they keep plain files. | [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · options: [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../02-knowledge-bases/howto-silverbullet-setup-and-sync.md) |
 
-| **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [howto hermes setup](../../setup/howto-hermes-setup.md) |
+| **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [howto hermes setup](howto-hermes-setup.md) |
 
-| **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../../setup/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) |
+| **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) |
 
-| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../../setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · Austrian academic access: [academic ai austria](../../setup/academic-ai-austria.md) · local hardware: [howto local llm hardware](../../setup/howto-local-llm-hardware.md) |
+| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · Austrian academic access: [academic ai austria](../03-models-and-providers/academic-ai-austria.md) · local hardware: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) |
 
-| **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [what is harness](../../concepts/what-is-harness.md) · [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
+| **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [what is harness](what-is-harness.md) · [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
 
 
 
-Related: [what is mcp](../../concepts/what-is-mcp.md#permissions-and-capability-boundary) (Model Context Protocol: connecting the agent to other apps, Session 05) · [what is lint](../../concepts/what-is-lint.md) (checking the wiki) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md).
+Related: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) (Model Context Protocol: connecting the agent to other apps, Session 05) · [what is lint](../02-knowledge-bases/what-is-lint.md) (checking the wiki) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md).
 
 
 
@@ -74,7 +74,7 @@ Related: [what is mcp](../../concepts/what-is-mcp.md#permissions-and-capability-
 
 
 
-![LLM Wiki diagram with notes](../01-welcome-landscape-slideshow/images/14-llm-wiki-annotated.png)
+![LLM Wiki diagram with notes](../../lectures/01-welcome-landscape-slideshow/images/14-llm-wiki-annotated.png)
 
 
 
@@ -144,7 +144,7 @@ The two arrows: the wiki **reads** the raw sources, and the schema **guides** th
 
 | **Query** | "question → synthesized answer" | search idx · synthesize · file back to wiki | You ask a question. The agent reads `index.md` first, opens the pages it needs, and answers with links to them. A good answer can be saved back into the wiki under `queries/`, so the next question starts from it. |
 
-| **Lint** | "health-check · consistency" | find issues · fix & patch · suggest sources | A regular check-up: broken links, pages missing from the index, contradictions between pages, stale claims. The agent fixes what is mechanical and suggests new sources where knowledge is thin. See [what is lint](../../concepts/what-is-lint.md). |
+| **Lint** | "health-check · consistency" | find issues · fix & patch · suggest sources | A regular check-up: broken links, pages missing from the index, contradictions between pages, stale claims. The agent fixes what is mechanical and suggests new sources where knowledge is thin. See [what is lint](../02-knowledge-bases/what-is-lint.md). |
 
 
 
@@ -170,7 +170,7 @@ Some small labels overlap in the image ("direct", "suggest sources"); the three 
 
 
 
-- **Authorship.** In pure Karpathy style the agent writes almost every wiki page. In this course your own voice stays in human-only pages that the schema protects ([llm wiki standard files](../../setup/llm-wiki-standard-files.md)).
+- **Authorship.** In pure Karpathy style the agent writes almost every wiki page. In this course your own voice stays in human-only pages that the schema protects ([llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md)).
 
 - **Scale.** Reading `index.md` first works up to a few hundred pages. Larger collections need search or retrieval tools.
 
@@ -192,7 +192,7 @@ Some small labels overlap in the image ("direct", "suggest sources"); the three 
 
 
 
-![Standard setup or course setup](../01-welcome-landscape-slideshow/images/27-standard-vs-course-setup.png)
+![Standard setup or course setup](../../lectures/01-welcome-landscape-slideshow/images/27-standard-vs-course-setup.png)
 
 
 
@@ -250,9 +250,9 @@ Only the model call leaves your computer: the prompt plus the notes the agent se
 
 1. **Your data stays with you.** Notes, memory and skills are files on your own disk. *course position.*
 
-2. **You set the limits.** The schema and the Hermes tool settings decide which folders the agent may read, which it may write, and which stay human-only. Raw sources are read-only by rule. ([llm wiki standard files](../../setup/llm-wiki-standard-files.md))
+2. **You set the limits.** The schema and the Hermes tool settings decide which folders the agent may read, which it may write, and which stay human-only. Raw sources are read-only by rule. ([llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md))
 
-3. **Easy to switch.** Skills, rules and memory are local files, so you can change the agent (Hermes, Claude Code, Cursor, a plain editor) or the model and keep them. Session 02 ([what is harness](../../concepts/what-is-harness.md)).
+3. **Easy to switch.** Skills, rules and memory are local files, so you can change the agent (Hermes, Claude Code, Cursor, a plain editor) or the model and keep them. Session 02 ([what is harness](what-is-harness.md)).
 
 4. **No lock-in.** Plain markdown opens in any editor, with or without AI, in ten years too.
 
@@ -296,9 +296,9 @@ Three points to take away:
 
 1. **The knowledge base itself stays on your computer in both cases.** What leaves, in the cloud case, is the prompt and every note the agent attaches to it. One question can carry ten private pages.
 
-2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([llm wiki standard files](../../setup/llm-wiki-standard-files.md)).
+2. **Your schema decides what the agent may send.** Human-only and private folders in `SCHEMA.md` are also a privacy boundary ([llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md)).
 
-3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../../setup/howto-local-llm-hardware.md).
+3. **Local costs memory, not money per request.** Smaller models, slower answers, limited by RAM and GPU. Hardware paths: Session [03](../../SESSIONS/03-hardware-open-models-prompting.md) · [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md).
 
 
 
@@ -356,7 +356,7 @@ An OpenRouter deployment of these materials is not private, and it is not sovere
 
 - *institutional summary (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
 
-- Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [howto hermes setup](../../setup/howto-hermes-setup.md).
+- Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [howto hermes setup](howto-hermes-setup.md).
 
 - 550 billion parameters (55 billion active per step). Too large for most student machines. The privacy points in §3 apply.
 
@@ -374,17 +374,17 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 
 
-1. Bookmark or clone the course GitHub: [START HERE](../../START-HERE.md).
+1. Bookmark or clone the course GitHub: [START HERE](../install-order-and-first-week.md).
 
-2. Install a knowledge store with phone sync. Default Obsidian: [howto obsidian setup and sync](../../setup/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../../setup/knowledge-store-options.md).
+2. Install a knowledge store with phone sync. Default Obsidian: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../02-knowledge-bases/knowledge-store-options.md).
 
 3. Write down which AI access you already have (subscriptions, API keys, campus access).
 
 4. Read Karpathy's LLM Wiki gist or watch the beginner setup guide linked in [references](../../syllabus/references.md). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 
-5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([howto hermes setup](../../setup/howto-hermes-setup.md)). Otherwise we install it together in Session 02.
+5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([howto hermes setup](howto-hermes-setup.md)). Otherwise we install it together in Session 02.
 
-6. Choose your student-input group and session ([01 welcome landscape lecture](../01-welcome-landscape-lecture.md#Student inputs: choose a topic)).
+6. Choose your student-input group and session ([01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic)).
 
 
 

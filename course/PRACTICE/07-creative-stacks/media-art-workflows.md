@@ -19,7 +19,7 @@ canonical: true
 
 
 
-Block 7 of [01 welcome landscape lecture](../01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) (student input, Session 02).
+Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-lecture.md). What agents change in artistic work, and the practices this course uses to keep the work your own. Later sessions: [04](../../SESSIONS/04-project-presentations-and-plans.md) (semester plans, provenance note), [06](../../SESSIONS/06-agent-as-interface.md) (agent as interface, material, canvas), [07](../../SESSIONS/07-coding-and-creative-stacks.md) (coding and creative stacks). Flattening in depth: [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) (student input, Session 02).
 
 
 
@@ -35,7 +35,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 |---|---|
 
-| [ai tools creative processes](../../topics/ai-tools-creative-processes.md) | Survey of creative tools, node canvases, MCP bridges. |
+| [ai tools creative processes](ai-tools-creative-processes.md) | Survey of creative tools, node canvases, MCP bridges. |
 
 | Sessions 05 to 11 | Practices: provenance, interface score, refusal, hybrid wiki. |
 
@@ -199,7 +199,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 
 
-- [ai tools creative processes](../../topics/ai-tools-creative-processes.md) · [references](../../syllabus/references.md)
+- [ai tools creative processes](ai-tools-creative-processes.md) · [references](../../syllabus/references.md)
 
 - OpenAI, *Sycophancy in GPT-4o*: https://openai.com/index/sycophancy-in-gpt-4o/
 

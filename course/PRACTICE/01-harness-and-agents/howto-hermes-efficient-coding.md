@@ -14,13 +14,13 @@ canonical: true
 
 # How-to. Set up Hermes for efficient coding
 
-*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../minimum-path.md).
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../../minimum-path.md).
 
 Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 
-Source types: [references](../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
+Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
 
-Related: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
+Related: [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
 
 ---
 

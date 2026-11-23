@@ -12,7 +12,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Language | English |
 | Required work | The [minimum path](course/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
 | Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). Sebastian installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
-| Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/START-HERE.md`](course/START-HERE.md) |
+| Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
 
 ---
 
@@ -21,12 +21,12 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Need | File |
 |---|---|
 | What you must do | [`course/minimum-path.md`](course/minimum-path.md) |
-| Install order + first week (*optional extension*) | [`course/START-HERE.md`](course/START-HERE.md) |
+| Install order + first week (*optional extension*) | [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
 | Weekly session notes | [`course/SESSIONS/`](course/SESSIONS/) |
 | References & readings | [`course/syllabus/references.md`](course/syllabus/references.md) |
-| Prompting + choosing models | [`course/setup/Prompting Guide for Critical Vibe Coding.md`](course/setup/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| Prompting + choosing models | [`course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md`](course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 
 ---
 
@@ -55,16 +55,16 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 
 | Topic | File |
 |---|---|
-| Obsidian + phone sync (Win / macOS / Linux) | [`course/setup/howto-obsidian-setup-and-sync.md`](course/setup/howto-obsidian-setup-and-sync.md) |
-| Hermes Agent setup | [`course/setup/howto-hermes-setup.md`](course/setup/howto-hermes-setup.md) |
-| What is a **harness**? | [`course/concepts/what-is-harness.md`](course/concepts/what-is-harness.md) |
-| What is **MCP**? | [`course/concepts/what-is-mcp.md`](course/concepts/what-is-mcp.md) |
-| What is **lint** (LLM Wiki)? | [`course/concepts/what-is-lint.md`](course/concepts/what-is-lint.md) |
-| Wiki standard files, and what structure improves | [`course/setup/llm-wiki-standard-files.md#what-structure-improves`](course/setup/llm-wiki-standard-files.md#what-structure-improves) |
-| Academic AI (Austria) | [`course/setup/academic-ai-austria.md`](course/setup/academic-ai-austria.md) |
+| Obsidian + phone sync (Win / macOS / Linux) | [`course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md`](course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
+| Hermes Agent setup | [`course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md`](course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md) |
+| What is a **harness**? | [`course/PRACTICE/01-harness-and-agents/what-is-harness.md`](course/PRACTICE/01-harness-and-agents/what-is-harness.md) |
+| What is **MCP**? | [`course/PRACTICE/06-mcp-and-tools/what-is-mcp.md`](course/PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
+| What is **lint** (LLM Wiki)? | [`course/PRACTICE/02-knowledge-bases/what-is-lint.md`](course/PRACTICE/02-knowledge-bases/what-is-lint.md) |
+| Wiki standard files, and what structure improves | [`course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves`](course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) |
+| Academic AI (Austria) | [`course/PRACTICE/03-models-and-providers/academic-ai-austria.md`](course/PRACTICE/03-models-and-providers/academic-ai-austria.md) |
 | Drivers / visions / fears / regulation | [`course/THEORY/06-danger-and-risk/visions-fears-regulation.md`](course/THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | EU AI Act, and GDPR (separate topics) | [`course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions`](course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) |
-| Creative AI tools survey | [`course/topics/ai-tools-creative-processes.md`](course/topics/ai-tools-creative-processes.md) |
+| Creative AI tools survey | [`course/PRACTICE/07-creative-stacks/ai-tools-creative-processes.md`](course/PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) |
 | Local GPU / Apple / DGX hardware | [`research/local-gpu-hardware-for-llms.md`](research/local-gpu-hardware-for-llms.md) |
 
 ---
@@ -84,7 +84,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 ## First steps (students)
 
 1. Star or watch this repo, or clone it.
-2. Read the [minimum path](course/minimum-path.md), then [`course/START-HERE.md`](course/START-HERE.md).
+2. Read the [minimum path](course/minimum-path.md), then [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md).
 3. Keep secrets (API keys) out of notes you share.
 
 No purchase is required. Alternatives are allowed. The install how-tos are an *optional extension*.
