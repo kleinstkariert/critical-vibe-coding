@@ -38,9 +38,13 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |
 | [Verified coding](PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md) | current | true |
 | [START HERE — Critical Vibe Coding](PRACTICE/install-order-and-first-week.md) | current | true |
+| [Practice](PRACTICE/README.md) | current | true |
 | [Minimum path](PROJECT-WORK/minimum-path.md) | current | true |
+| [Project work](PROJECT-WORK/README.md) | current | true |
 | [Critical Vibe Coding — references](REFERENCES/bibliography.md) | current | true |
+| [Peer courses](REFERENCES/peer-courses.md) | current | false |
 | [Curated links from vault clippings](REFERENCES/primary-sources.md) | current | true |
+| [References](REFERENCES/README.md) | current | true |
 | [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
 | [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
 | [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-hardware-open-models-prompting.md) | current | true |
@@ -55,12 +59,14 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Critical Vibe Coding. Course outline](SESSIONS/overview/course-outline.md) | current | true |
 | [Course rhythm. Check-in, student inputs, time budget](SESSIONS/overview/course-rhythm.md) | current | true |
 | [Critical Vibe Coding. Course timeline](SESSIONS/overview/timeline.md) | current | true |
+| [Sessions](SESSIONS/README.md) | current | true |
 | [Deep dive: Economy and the AI bubble](THEORY/01-political-economy/bubble-economy.md) | current | true |
 | [Deep dive: Labour](THEORY/02-labour-authorship/labour.md) | current | true |
 | [Deep dive: Ecology](THEORY/03-ecology-infrastructure/ecology.md) | current | true |
 | [Deep dive: Flattening, the norm, and feminist critiques of AI](THEORY/04-bias-flattening/flattening-and-the-norm.md) | current | true |
 | [EU AI Act and Datenschutz (Austria)](THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) | current | true |
 | [Drivers, visions, fears, regulation — 10–15 min talk](THEORY/06-danger-and-risk/visions-fears-regulation.md) | current | true |
+| [Theory](THEORY/README.md) | current | true |
 
 ## Teacher notes
 
@@ -72,13 +78,29 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 ## Archive
 
-None.
+| Page | Status | Canonical |
+|---|---|---|
+| [README before the seminar-first structure](../archive/README-before-seminar-first.md) | deprecated | false |
+| [Archive](../archive/README.md) | deprecated | false |
 
 ## Other student pages
 
 | Page | Status | Canonical |
 |---|---|---|
+| [Final](PROJECT-WORK/final.md) | draft | false |
+| [Interface score](PROJECT-WORK/interface-score.md) | draft | false |
+| [Process log](PROJECT-WORK/process-log.md) | draft | false |
+| [Proposal](PROJECT-WORK/proposal.md) | draft | false |
+| [Provenance](PROJECT-WORK/provenance.md) | draft | false |
+| [Reflection](PROJECT-WORK/reflection.md) | draft | false |
+| [Verification](PROJECT-WORK/verification.md) | draft | false |
+| [Current claims](REFERENCES/current-claims.md) | draft | false |
+| [Tools and documentation](REFERENCES/tools-and-documentation.md) | draft | false |
+| [Seminar](SEMINAR.md) | draft | false |
 | [Session 07. Coding with agents across creative stacks (proposal)](SESSIONS/07-coding-and-creative-stacks.md) | proposal | true |
 | [Session 08. Final presentations and closing check-in (proposal)](SESSIONS/08-final-presentations.md) | proposal | true |
+| [START HERE](START-HERE.md) | draft | false |
+| [Refusal and alternatives](THEORY/07-refusal-and-alternatives/README.md) | draft | false |
+| [Why this structure](../documentation/why-this-structure.md) | draft | false |
 
 Research notes are listed in [the research index](../research/README.md).
