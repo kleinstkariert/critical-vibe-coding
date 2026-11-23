@@ -127,7 +127,7 @@ vault/  (or wiki/)
 ```
 
 Habits: ingest → query → **lint** ([what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md)). A structured wiki does not make the notes true: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
-Karpathy pattern: [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · gist in [references](../syllabus/references.md).
+Karpathy pattern: [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · gist in [references](../REFERENCES/bibliography.md).
 
 ### Obsidian's job
 

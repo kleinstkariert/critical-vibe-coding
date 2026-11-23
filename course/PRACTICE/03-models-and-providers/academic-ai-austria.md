@@ -14,7 +14,7 @@ canonical: true
 
 *optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [minimum path](../../PROJECT-WORK/minimum-path.md). A line below that says "default agent path" names one example, not the assessment.
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 
 Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 

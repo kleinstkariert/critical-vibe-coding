@@ -14,9 +14,9 @@ canonical: true
 
 Student-facing link list drawn from the teacher vault (scan 2026-11-11). Prefer these URLs in class; the vault note is only the clip, not a syllabus source of truth.
 
-Scan: **37** clipping files (excluding `README.md`). **Kept: 29.** **Skipped: 8** (duplicates, junk, or weak course fit). Formal bibliography: [references](references.md). Cognition research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md).
+Scan: **37** clipping files (excluding `README.md`). **Kept: 29.** **Skipped: 8** (duplicates, junk, or weak course fit). Formal bibliography: [references](bibliography.md). Cognition research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md).
 
-Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`. The clip body was not checked line by line. Source types: [references](references.md#source-types).
+Labels: *unverified lead*. The URL is taken from clipping frontmatter `source:`. The clip body was not checked line by line. Source types: [references](bibliography.md#source-types).
 
 ## Cognition, critical thinking, mental health
 
@@ -57,12 +57,12 @@ Course research note: [ai brains critical thinking](../../research/ai-brains-cri
 | Ones and Tooze - AI arms race (Ep. 250) | https://www.youtube.com/watch?v=QevC7OrdJP8 | Geopolitics / race |
 | Ones and Tooze - AI regulation (Ep. 260) | https://www.youtube.com/watch?v=EHU8vXCAsyo | Regulation beat |
 | Foreign Policy / Ones and Tooze - *What AI Means for the Economy and for Politics* | https://foreignpolicy.com/podcasts/ones-and-tooze/what-ai-means-for-the-economy-and-for-politics/ | Economy + politics |
-| Be Smart - *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Ecology input (also in [references](references.md)) |
+| Be Smart - *The Real Cost of AI Will Shock You* | https://www.youtube.com/watch?v=YgoiujmwLKI | Ecology input (also in [references](bibliography.md)) |
 | DW News - *What if the skeptics are right about AI?* | https://www.youtube.com/watch?v=JUY8NJ7gNAo | Skeptic overview |
 | PMC - *Dismantling AI capitalism… commons* | https://pmc.ncbi.nlm.nih.gov/articles/PMC8994059/ | Commons counter to Big Tech concentration |
 | PÖDcast / Peter Schadt - Tech-Bros Ep. 20 | https://www.youtube.com/watch?v=FvGirPqHsKo | German-language political economy (optional) |
-| Daily Show - Jacob Coxon | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01 (also in [references](references.md)) |
-| Salim Ismail - *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier counter (also in [references](references.md)) |
+| Daily Show - Jacob Coxon | https://www.youtube.com/watch?v=lnLDjXy2kRA | Session 01 (also in [references](bibliography.md)) |
+| Salim Ismail - *Jon Stewart Is Right About AI And Wrong* | https://www.youtube.com/watch?v=ionrjPXLIYg | Amplifier counter (also in [references](bibliography.md)) |
 
 ## Skipped (8)
 

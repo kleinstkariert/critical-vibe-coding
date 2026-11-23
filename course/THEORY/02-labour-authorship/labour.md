@@ -23,7 +23,7 @@ Block 6 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-le
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (talk, interview, book argument) | *open question*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (talk, interview, book argument) | *open question*.
 
 
 

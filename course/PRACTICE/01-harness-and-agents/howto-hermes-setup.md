@@ -269,7 +269,7 @@ wiki/   (or whole vault if WIKI_PATH = vault)
 
 Session habit: read schema + index + recent log before ingest/query/lint.
 
-Course notes: [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../02-knowledge-bases/what-is-lint.md) · [references](../../syllabus/references.md)  
+Course notes: [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../02-knowledge-bases/what-is-lint.md) · [references](../../REFERENCES/bibliography.md)  
 Skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki  
 Karpathy gist: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f  
 Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki

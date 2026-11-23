@@ -112,7 +112,7 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 - Bookmark / clone the **course GitHub**: [START HERE](../PRACTICE/install-order-and-first-week.md)
 - Install a knowledge store with **phone sync**: default Obsidian ([howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md)); **other options allowed** if they fit the course needs: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) (SilverBullet, etc.)
 - Note which LLM access you already have
-- Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([references](../syllabus/references.md)). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
+- Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([references](../REFERENCES/bibliography.md)). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 - Choose your student-input group and session
 - Next: Karpathy and the **harness**, after the flattening input; Hermes install in class: [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [course rhythm](../syllabus/course-rhythm.md)
 

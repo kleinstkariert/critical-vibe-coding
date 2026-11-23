@@ -20,7 +20,7 @@ Use with: Session 01 talk [visions fears regulation](../06-danger-and-risk/visio
 
 This note is the **how the EU/AT rules look** layer. The visions handout is the **political frame** (utopia/x-risk rhetoric, amplifier debate, credibility marketing). Do not duplicate both in one sitting.
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *technical suggestion*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *technical suggestion*.
 
 ---
 

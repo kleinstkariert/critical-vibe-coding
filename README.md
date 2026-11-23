@@ -25,7 +25,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
 | Weekly session notes | [`course/SESSIONS/`](course/SESSIONS/) |
-| References & readings | [`course/syllabus/references.md`](course/syllabus/references.md) |
+| References & readings | [`course/REFERENCES/bibliography.md`](course/REFERENCES/bibliography.md) |
 | Prompting + choosing models | [`course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md`](course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 
 ---

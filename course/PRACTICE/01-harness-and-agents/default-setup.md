@@ -30,7 +30,7 @@ Block 8 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-le
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion* | *course position*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion* | *course position*.
 
 
 
@@ -380,7 +380,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 3. Write down which AI access you already have (subscriptions, API keys, campus access).
 
-4. Read Karpathy's LLM Wiki gist or watch the beginner setup guide linked in [references](../../syllabus/references.md). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
+4. Read Karpathy's LLM Wiki gist or watch the beginner setup guide linked in [references](../../REFERENCES/bibliography.md). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 
 5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([howto hermes setup](howto-hermes-setup.md)). Otherwise we install it together in Session 02.
 

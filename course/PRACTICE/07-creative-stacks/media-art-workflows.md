@@ -23,7 +23,7 @@ Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-le
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *course position* (a teaching decision of this course).
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* | *course position* (a teaching decision of this course).
 
 
 
@@ -39,7 +39,7 @@ Source types: [references](../../syllabus/references.md#source-types). A label n
 
 | Sessions 05 to 11 | Practices: provenance, interface score, refusal, hybrid wiki. |
 
-| [references](../../syllabus/references.md) | Artist and course examples with links. |
+| [references](../../REFERENCES/bibliography.md) | Artist and course examples with links. |
 
 | Quadrature, *Cosmology of Capital* in the exhibition *The Mass of Money* (Schaufler Lab, TU Dresden, 2026) | Own work: a system as the artwork. |
 
@@ -199,7 +199,7 @@ The slide (Sebastian's edit, 11 Nov 2026) names five: speed, democratization, fl
 
 
 
-- [ai tools creative processes](ai-tools-creative-processes.md) · [references](../../syllabus/references.md)
+- [ai tools creative processes](ai-tools-creative-processes.md) · [references](../../REFERENCES/bibliography.md)
 
 - OpenAI, *Sycophancy in GPT-4o*: https://openai.com/index/sycophancy-in-gpt-4o/
 

@@ -19,7 +19,7 @@ OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for wo
 
 This is **not** Hermes. Hermes is a multipurpose agent harness. OpenCode is a coding-first loop. Pair them: [howto hermes opencode pairing](howto-hermes-opencode-pairing.md).
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check current docs when versions change.
 
 Official site: https://opencode.ai  
 Docs: https://opencode.ai/docs/  

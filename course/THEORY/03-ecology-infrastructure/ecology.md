@@ -24,7 +24,7 @@ Block 5 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-le
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (video, interview, industry estimate) | *open question*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (video, interview, industry estimate) | *open question*.
 
 
 

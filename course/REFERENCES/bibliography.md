@@ -63,14 +63,14 @@ claim_scope: exact | paraphrase | interpretation
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
 Course how-to (Win / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)  
-Short syllabus sheet: [course outline](course-outline.md)  
+Short syllabus sheet: [course outline](../syllabus/course-outline.md)  
 What is a harness: [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)  
 Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
 Academic AI Austria: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)  
 Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)  
 AI jobs — rising tide, Canaries, productivity × experience: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md)  
 AI, brains, critical thinking (MIT EEG + recent clippings): [ai brains critical thinking](../../research/ai-brains-critical-thinking.md)  
-Curated vault clipping links (scan 2026-11-11): [links from clippings](links-from-clippings.md)  
+Curated vault clipping links (scan 2026-11-11): [links from clippings](primary-sources.md)  
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)  
 AI creative tools survey: [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)  
 Session 01 lecture draft: [01 welcome landscape lecture](../lectures/01-welcome-landscape-lecture.md)  
@@ -114,7 +114,7 @@ Presentation style: [presentation style](../presentation-style.md)
 
 ## Cognition / critical thinking (AI and brains)
 
-Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md). Full curated link list: [links from clippings](links-from-clippings.md).
+Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critical thinking](../../research/ai-brains-critical-thinking.md). Full curated link list: [links from clippings](primary-sources.md).
 
 | Source | URL | One-line note |
 |---|---|---|
@@ -154,11 +154,11 @@ Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critica
 | NYU IMA Chatbots for Art’s Sake | https://itp.nyu.edu/ima_course_listings/chatbots-for-arts-sake/ |
 | Gray Area Creative Code Intensive | https://grayarea.org/course/creative-code-intensive/ |
 
-Full mapping: [timeline](timeline.md)
+Full mapping: [timeline](../syllabus/timeline.md)
 
 ## Critical readings: primary, free to read (Session 01 deep dives and student inputs)
 
-Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](course-rhythm.md)).
+Appended 2026-10-18 after a URL check. The page loaded and the description matched. That is not independent verification. See [Source types](#source-types). No paywalled-only items. Session tables (archived with the 13-session plan): [10 authorship labour platforms](../SESSIONS/archive-13-session-plan/10-authorship-labour-platforms.md) · [11 local ecology when not](../SESSIONS/archive-13-session-plan/11-local-ecology-when-not.md). Current use: Session 01 deep dives and the student inputs ([course rhythm](../syllabus/course-rhythm.md)).
 
 ## Agent harness
 
@@ -207,4 +207,4 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 | Karpathy vs OpenClaw research | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
 | Obsidian vs Joplin | [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) |
 | AI / brains / critical thinking | [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |
-| Vault clippings → student links | [links from clippings](links-from-clippings.md) |
+| Vault clippings → student links | [links from clippings](primary-sources.md) |

@@ -24,7 +24,7 @@ Linked from Block 7 of [01 welcome landscape lecture](../../lectures/01-welcome-
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *thesis* (the argument this note makes) | *claim* (book argument, journalism, talk) | *open question*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *thesis* (the argument this note makes) | *claim* (book argument, journalism, talk) | *open question*.
 
 
 

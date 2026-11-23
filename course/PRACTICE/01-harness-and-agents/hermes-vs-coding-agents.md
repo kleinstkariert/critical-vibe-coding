@@ -17,7 +17,7 @@ canonical: true
 
 *reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
 
 Related: [what is harness](what-is-harness.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes setup](howto-hermes-setup.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [howto opencode setup](howto-opencode-setup.md) · [howto hermes opencode pairing](howto-hermes-opencode-pairing.md) · slides [02 agent harness and hermes](../../lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md)
 

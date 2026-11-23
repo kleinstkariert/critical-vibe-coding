@@ -24,7 +24,7 @@ Official Nous docs:
 - Security (container isolation): https://hermes-agent.nousresearch.com/docs/user-guide/security
 - Configuration (Docker backend): https://hermes-agent.nousresearch.com/docs/user-guide/configuration
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check the docs for your Hermes version.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Check the docs for your Hermes version.
 
 ---
 

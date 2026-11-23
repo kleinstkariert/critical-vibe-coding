@@ -18,7 +18,7 @@ canonical: true
 
 Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
 
 Related: [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) · [agents md template](agents-md-template.md) · course root `AGENTS.md`
 

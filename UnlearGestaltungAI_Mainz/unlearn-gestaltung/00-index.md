@@ -63,12 +63,12 @@ Use these course / vault notes alongside KITeGG — they stay in their canonical
 | Bubble / circular finance | [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md) | Block 4 |
 | Ecology / DC energy | [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md) | Block 5, then Session 06 input |
 | Jobs / rising tide | [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md) | Seed in visions handout |
-| Coxon / Stewart industry double message | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Teacher clips |
-| Ismail “amplifier” response | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Beat 3 |
-| Tooze AI arms race / regulation | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Teacher prep |
-| Acemoglu productivity | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Block 4 counterweight |
-| “Real cost of AI” ecology video | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Optional prep, Session 06 input |
-| AI bubble debate | [links from clippings](../../course/syllabus/links-from-clippings.md#bubble-economy-ecology-labour-regulation) | Optional Block 4 |
+| Coxon / Stewart industry double message | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Teacher clips |
+| Ismail “amplifier” response | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Beat 3 |
+| Tooze AI arms race / regulation | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Teacher prep |
+| Acemoglu productivity | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Block 4 counterweight |
+| “Real cost of AI” ecology video | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Optional prep, Session 06 input |
+| AI bubble debate | [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation) | Optional Block 4 |
 
 ## Project in one line
 

@@ -12,7 +12,7 @@ canonical: true
 
 # AI tools for creative processes — research list
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Survey for Critical Vibe Coding (extra to the Hermes / Obsidian default stack). Not a recommendation to adopt everything. Labels: *technical suggestion*.
 
 Use with: [05 knowledge base phone discord](../../SESSIONS/05-knowledge-base-phone-discord.md) (MCP) · [07 coding and creative stacks](../../SESSIONS/07-coding-and-creative-stacks.md) · CAD/3D table in [06 mcp and tools](../../SESSIONS/archive-13-session-plan/06-mcp-and-tools.md) · [course outline](../../syllabus/course-outline.md).
 

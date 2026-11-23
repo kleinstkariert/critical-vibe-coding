@@ -79,5 +79,5 @@ Full mapping in [timeline](../syllabus/timeline.md).
 | Schema / index / log as the agent's "character sheet" | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | Naming essay: the schema is the product | https://cozypet.github.io/llm-wiki-schema/ |
 | Sycophancy post-mortem (vendor primary) | https://openai.com/index/sycophancy-in-gpt-4o/ |
-| Peer courses: NYU IMA, HM Munich, SFPC | see table above · [references](../syllabus/references.md) |
+| Peer courses: NYU IMA, HM Munich, SFPC | see table above · [references](../REFERENCES/bibliography.md) |
 | Ecology (student input) | [ecology](../THEORY/03-ecology-infrastructure/ecology.md) · [11 local ecology when not](archive-13-session-plan/11-local-ecology-when-not.md) |

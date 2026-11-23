@@ -25,7 +25,7 @@ Block 4 of [01 welcome landscape lecture](../../lectures/01-welcome-landscape-le
 
 
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (speaker in a talk, podcast or video; checkable but not checked here) | *open question*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *claim* (speaker in a talk, podcast or video; checkable but not checked here) | *open question*.
 
 
 

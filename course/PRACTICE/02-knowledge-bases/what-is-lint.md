@@ -11,7 +11,7 @@ canonical: true
 
 # What is “lint” in an LLM Wiki?
 
-Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. Short teaching note for Critical Vibe Coding. Labels: *technical suggestion*.
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Short teaching note for Critical Vibe Coding. Labels: *technical suggestion*.
 
 ## One sentence
 
@@ -71,7 +71,7 @@ Lint does **not** prove truth. It finds **consistency and maintenance** problems
 - Marketplace: https://community.obsidian.md/plugins/karpathywiki  
 - Repo: https://github.com/GD4AI/obsidian-llm-wiki  
 
-Class default remains **Hermes + folder wiki**; the plugin is an alternate / complementary path (see [references](../../syllabus/references.md)).
+Class default remains **Hermes + folder wiki**; the plugin is an alternate / complementary path (see [references](../../REFERENCES/bibliography.md)).
 
 ## Course habits
 
@@ -79,4 +79,4 @@ Class default remains **Hermes + folder wiki**; the plugin is an alternate / com
 - Midpoint (session 4): show a lint report as proof the setup is maintained  
 - Schema should say how often to lint and who approves mass fixes  
 
-Related: [llm wiki standard files](llm-wiki-standard-files.md) · [references](../../syllabus/references.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md)
+Related: [llm wiki standard files](llm-wiki-standard-files.md) · [references](../../REFERENCES/bibliography.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md)

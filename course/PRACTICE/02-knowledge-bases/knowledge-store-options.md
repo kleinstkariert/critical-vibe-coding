@@ -59,7 +59,7 @@ For Hermes + a Karpathy-style (or hybrid) wiki:
 2. Sync: see [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) (Nextcloud + Remotely Save recommended for Win + iPhone).
 3. Optional: install Obsidian Web Clipper in the browser.
 4. Point Hermes / the agent at the vault path (absolute path).
-5. Optional LLM Wiki layout: `raw/`, `SCHEMA.md`, `index.md`, `log.md`, agent folders — see [llm wiki standard files](llm-wiki-standard-files.md) · [what is lint](what-is-lint.md) · [references](../../syllabus/references.md). A structured store does not make the notes true. What it improves: [llm wiki standard files](llm-wiki-standard-files.md#what-structure-improves).
+5. Optional LLM Wiki layout: `raw/`, `SCHEMA.md`, `index.md`, `log.md`, agent folders — see [llm wiki standard files](llm-wiki-standard-files.md) · [what is lint](what-is-lint.md) · [references](../../REFERENCES/bibliography.md). A structured store does not make the notes true. What it improves: [llm wiki standard files](llm-wiki-standard-files.md#what-structure-improves).
 
 ---
 
