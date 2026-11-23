@@ -53,7 +53,6 @@ BLOCKS = {
 }
 
 LECTURE = "course/SESSIONS/lectures/01-welcome-landscape-lecture.md"
-DD = "course/THEORY/"
 
 # key: (file, fit mode, on-slide credit or None, full credit for the speaker notes)
 # "cover" fills the slide above the credit line; "contain" shows the whole image on black.
@@ -289,7 +288,7 @@ def build(out: Path = OUT_PPTX):
        question="Who came for the setup, and who for the politics?",
        note="Both tracks every week; neither is optional.\n"
             "Agent as interface: tools, memory and rules are artistic material, not only a production machine.\n"
-            "No polished exhibition expected by default. Eight sessions: course/course-outline.md")
+            "No polished exhibition expected by default. Eight sessions: course/SESSIONS/overview/course-outline.md")
 
     # Block 2
     text_slide(prs, 2, "The chat window is the visible tip", [
@@ -316,14 +315,14 @@ def build(out: Path = OUT_PPTX):
             "One sentence: a chat answers; an agent acts, with the tools you allow it.\n"
             "Context explains why agents work with files and an index: the notes folder is memory the model can open when needed.\n"
             "MCP: an open standard (Anthropic, 2024) so one agent can use many apps the same way: calendar, browser, Blender, "
-            "a database. Each MCP server is one plug. Session 05. course/what-is-mcp.md\n"
+            "a database. Each MCP server is one plug. Session 05. course/PRACTICE/06-mcp-and-tools/what-is-mcp.md\n"
             "Sandbox: a container, a virtual machine or a locked folder. If the agent makes a mistake, the damage stays inside. "
             "Cloud agents run in the provider's sandbox; Hermes can run commands in Docker. Case in Session 05: the Hugging Face "
             "incident, where agents escaped their sandbox.\n"
             "Lint: the name comes from a 1978 tool that found errors in C code. In the LLM Wiki it is the third operation next "
             "to ingest and query: the agent audits the wiki and reports orphan pages, broken links, contradictions. "
-            "course/what-is-lint.md\n"
-            "Harness in depth: course/what-is-harness.md, Session 02.")
+            "course/PRACTICE/02-knowledge-bases/what-is-lint.md\n"
+            "Harness in depth: course/PRACTICE/01-harness-and-agents/what-is-harness.md, Session 02.")
     img("32", "The agent loop: reason, act, observe, evaluate, then round again. Reason: make a plan from what is in context. "
               "Act: call a tool, for example write a file, search, run code. Observe: read what came back. Evaluate: compare "
               "with the goal and decide the next step. The loop runs until the task is done or a limit stops it. "
@@ -350,7 +349,7 @@ def build(out: Path = OUT_PPTX):
               "keeps a code index there, and runs the agent loop of cloud agents in its cloud. "
               "Course setup: the agent (Hermes), its skills and memory, and the notes folder stay on your computer. "
               "Only the model call leaves, and with a local model not even that. "
-              f"Explained in {DD}default-setup.md section 3.")
+              f"Explained in course/PRACTICE/01-harness-and-agents/default-setup.md section 3.")
     text_slide(prs, 2, "Why the course setup", [
         "**Your data stays with you:** notes, memory and skills are files on your own disk.",
         "**You set the limits:** which folders the agent may read, which it may write, which stay human-only.",
@@ -364,7 +363,7 @@ def build(out: Path = OUT_PPTX):
             "Read and write rights: the schema file (AGENTS.md) and the Hermes tool settings; raw sources are read-only, "
             "human-only pages are off limits for the agent.\n"
             "Switching: the same folder works with Hermes, Claude Code, Cursor or a plain editor. "
-            f"Details: {DD}default-setup.md section 3.")
+            f"Details: course/PRACTICE/01-harness-and-agents/default-setup.md section 3.")
 
     # Block 3
     text_slide(prs, 3, "What drives the build", [
@@ -373,7 +372,7 @@ def build(out: Path = OUT_PPTX):
         "It is a race: no single company can pause alone.",
         "Society did not ask for it. The growth logic and the race did.",
     ], source="Course script: visions, fears, regulation. Coxon, The Daily Show",
-       note="High priority, about 10 minutes for the four beats. Script: course/visions-fears-regulation.md.\n"
+       note="High priority, about 10 minutes for the four beats. Script: course/THEORY/06-danger-and-risk/visions-fears-regulation.md.\n"
             "Coxon (ex-OpenAI, Anthropic): day to day, the motive is getting there first. Utopia is mixed with ambition. (claim, interview)\n"
             "Technical scaling is real and runs in parallel to the money story.")
     img("16", "Bruegel: a tower built higher than anyone needs, by a ruler who cannot stop. Kunsthistorisches Museum Wien.")
@@ -400,11 +399,11 @@ def build(out: Path = OUT_PPTX):
         "+ regulations would slow down the race which benefits current leaders (Anthropic, OpenAI).",
         "The EU AI Act and the GDPR set rules for AI uses and personal data, also in your projects.",
     ], question="What would your rule for AI usage be?",
-       note="Law orientation for students: course/eu-ai-act-and-datenschutz.md (privacy input, Session 07).\n"
+       note="Law orientation for students: course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md (privacy input, Session 07).\n"
             "Compliance costs can favour incumbents. Distrust both self-regulation and hype-regulation.")
 
     # Block 4
-    spending_note = (f"High priority, about 12 minutes. Deep dive: {DD}bubble-economy.md\n"
+    spending_note = (f"High priority, about 12 minutes. Deep dive: course/THEORY/01-political-economy/bubble-economy.md\n"
                      "Per company 2026: Amazon about $220B, Alphabet $195 to 205B, Microsoft about $170B, Meta $135 to 145B.\n"
                      "With SpaceX/xAI: $803 to 828B (Business Insider, claim). Tooze: AI is about 36% of US business investment (claim).\n"
                      "Check the Austrian GDP figure (roughly $550B) before class.")
@@ -426,7 +425,7 @@ def build(out: Path = OUT_PPTX):
             "Read the curve as a story investors and analysts tell, not as a measured law. Gartner publishes new curves "
             "every year; many technologies never reach the plateau.\n"
             "Video: https://www.youtube.com/watch?v=uWnUnMphmPM\n"
-            f"Deep dive: {DD}bubble-economy.md section 6.")
+            f"Deep dive: course/THEORY/01-political-economy/bubble-economy.md section 6.")
     text_slide(prs, 4, "The spending", [
         "2026: Amazon, Alphabet, Microsoft and Meta plan $720 to 740 billion of capital spending.",
         "About three times 2024. More than Austria's whole economy produces in a year.",
@@ -489,7 +488,7 @@ def build(out: Path = OUT_PPTX):
               "Northern Pacific, Union Pacific and the Santa Fe all failed in 1893. The tracks stayed; banks such as "
               "J. P. Morgan bought and merged the lines cheaply.\n"
               "Point to the dense web in the northeast and the competing transcontinental lines. "
-              f"Deep dive: {DD}bubble-economy.md section 6.")
+              f"Deep dive: course/THEORY/01-political-economy/bubble-economy.md section 6.")
     img("33", "Bloomberg's map of circular deals, Oct 2025. Nvidia agrees to invest up to $100 billion in OpenAI, which buys "
               "Nvidia chips. OpenAI signs a $300 billion cloud deal with Oracle, which spends tens of billions on Nvidia chips. "
               "AMD gives OpenAI an option on up to 160 million AMD shares while OpenAI deploys 6 GW of AMD GPUs.\n"
@@ -512,7 +511,7 @@ def build(out: Path = OUT_PPTX):
             "The OpenAI, Anthropic and SpaceX listings would be larger than all post-war US IPOs combined: exit events for insiders (Kedrosky).\n"
             "Growth line: Bridgewater and J.P. Morgan put tech capex at 35 to 45% of US growth; Furman at about 92% "
             "for the first half of 2025 (claim). \"Almost all\" fits Furman's figure, not the others.\n"
-            f"Full list with timestamps: {DD}bubble-economy.md section 7.")
+            f"Full list with timestamps: course/THEORY/01-political-economy/bubble-economy.md section 7.")
     img("29", "How to read it. CAPE = the price of the S&P 500 divided by the average yearly profit of its companies over the "
               "past ten years, both adjusted for inflation. The ten years are only the averaging window, so one boom or one "
               "recession does not distort the profit figure. There is no threshold at 10.\n"
@@ -573,7 +572,7 @@ def build(out: Path = OUT_PPTX):
         "Half of US capacity sits in five regional clusters.",
         "To 2030, data centres drive almost half of US electricity-demand growth.",
     ], source="IEA, Energy and AI, 2025 (verified fact)",
-       note=f"High priority, about 7 minutes. Deep dive: {DD}ecology.md. Student input on ecology: Session 06.\n"
+       note=f"High priority, about 7 minutes. Deep dive: course/THEORY/03-ecology-infrastructure/ecology.md. Student input on ecology: Session 06.\n"
             "IEA base case: about 945 TWh by 2030, still under 3% of world use; US and China are 80% of the growth.\n"
             "Be Smart (claim): 4.7% of US electricity in 2024, maybe 7 to 12% by 2028.")
     img("11", "GW Ranch, Pecos County, West Texas: a planned AI campus with its own gas power plant. "
@@ -609,7 +608,7 @@ def build(out: Path = OUT_PPTX):
         "Rating model answers was outsourced to low-wage countries.",
         "Every answer you rate is more training work.",
     ], source="TIME, 2023 (verified fact). Richard Campbell, 2026 (claim)",
-       note=f"High priority, about 8 minutes. Deep dive: {DD}labour.md.\n"
+       note=f"High priority, about 8 minutes. Deep dive: course/THEORY/02-labour-authorship/labour.md.\n"
             "Sama, Kenya: content warning, the TIME piece describes graphic material.\n"
             "Data Workers' Inquiry: annotators and moderators describe their own work.\n"
             "Verdegem: a small, highly paid ML elite and a large hidden workforce.")
@@ -626,7 +625,7 @@ def build(out: Path = OUT_PPTX):
             "AI as a threat disciplines workers; some layoffs blamed on AI are AI washing.\n"
             "Acemoglu: about 20% of US tasks exposed, a quarter of those profitable; productivity at most +0.66% in ten years, GDP about +1.1%. "
             "Negative effects fall particularly on women with low levels of education.\n"
-            f"Details: {DD}labour.md section 2.")
+            f"Details: course/THEORY/02-labour-authorship/labour.md section 2.")
     text_slide(prs, 6, "Creative work and first jobs", [
         "Illustrators, translators and copywriters were hit first.",
         "Translators now check machine output, for lower rates. → **deskilling.**",
@@ -660,11 +659,11 @@ def build(out: Path = OUT_PPTX):
         "Flattening: the same generated look, the same generated concepts.",
         "Authorship: how to credit? How to value?",
         "Refusal: knowing when not to use AI is a skill and takes a lot of self discipline.",
-    ], note=f"Medium priority, about 5 minutes. Deep dive: {DD}media-art-workflows.md\n"
+    ], note=f"Medium priority, about 5 minutes. Deep dive: course/PRACTICE/07-creative-stacks/media-art-workflows.md\n"
             "Bring back the fears and hopes from the outdoor check-in.\n"
             "Flattening goes beyond style: a statistical model reproduces what is shown most online, not what exists. "
             "That average becomes a norm. Thesis for the Session 02 input: AI kills the underground and it kills diversity. "
-            f"{DD}flattening-and-the-norm.md\n"
+            f"course/THEORY/04-bias-flattening/flattening-and-the-norm.md\n"
             "OpenAI rolled back a GPT-4o update in April 2025 for being \"overly flattering\": the helpful voice is a product decision.")
 
     # Block 8
@@ -673,10 +672,10 @@ def build(out: Path = OUT_PPTX):
         "**Hermes Agent:** reads and writes that folder, with the tools you allow. (or alternatives…)",
         "**LLM Wiki:** sources, wiki pages and a schema that the agent keeps in order.",
         "**A model:** whatever access you prefer, can afford makes sense for you",
-    ], note=f"Deep dive with the diagram explained part by part: {DD}default-setup.md\n"
+    ], note=f"Deep dive with the diagram explained part by part: course/PRACTICE/01-harness-and-agents/default-setup.md\n"
             "Free model to start Hermes with: Nemotron 3 Ultra through OpenRouter's free tier (default-setup.md section 4).\n"
-            "Guides: course/howto-obsidian-setup-and-sync.md, course/howto-hermes-setup.md, course/llm-wiki-standard-files.md, "
-            "course/knowledge-store-options.md.")
+            "Guides: course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md, course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md, course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md, "
+            "course/PRACTICE/02-knowledge-bases/knowledge-store-options.md.")
     img("14", "Three rows, each part labelled in the margin. Architecture: raw sources (read only), the wiki (written by the "
               "agent), the schema (the rules). Operations: ingest (a source comes in), query (you ask), lint (the health "
               "check). Actors: the human curates and asks; the agent summarises, links and maintains.")
@@ -696,8 +695,8 @@ def build(out: Path = OUT_PPTX):
     ], question="Groups of four: pick a session by next week.",
        note="About 15 minutes per input, at the start of the session. Session 04 is project presentations, Session 08 the finals.\n"
             "Starting points: 02 flattening-and-the-norm.md; 03 research/local-gpu-hardware-for-llms.md and prompting-and-model-choice.md; "
-            "05 Hugging Face and OpenAI incident reports, July 2026; 06 ecology.md; 07 course/eu-ai-act-and-datenschutz.md.\n"
-            "List and sources: course/SESSIONS/01-welcome-and-landscape.md and course/course-rhythm.md.")
+            "05 Hugging Face and OpenAI incident reports, July 2026; 06 ecology.md; 07 course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md.\n"
+            "List and sources: course/SESSIONS/01-welcome-and-landscape.md and course/SESSIONS/overview/course-rhythm.md.")
     text_slide(prs, None, "Practices for this semester", [
         "A provenance note per project: which model, which tools, who decided (how), where it ran (local, cloud...). "
         "→ a protocol for me :)",
