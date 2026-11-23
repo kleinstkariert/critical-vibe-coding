@@ -6,7 +6,7 @@ canonical: true
 
 # How to: Obsidian setup and sync
 
-*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is not required to complete the course. See [minimum path](../../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* Obsidian is one example of a knowledge store. Phone sync is not required to complete the course. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux**.
 

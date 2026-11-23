@@ -9,7 +9,7 @@ canonical: true
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
-*reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
+*reference implementation.* Sebastian will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
 
 Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
 
@@ -105,7 +105,7 @@ Classroom bet for CVC: spend the semester on **wiki + schema + tools** (structur
 
 After the general frame, land in the course default.
 
-*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [minimum path](../minimum-path.md).
+*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [minimum path](../PROJECT-WORK/minimum-path.md).
 
 ### Why a folder wiki is harness, not "just notes"
 

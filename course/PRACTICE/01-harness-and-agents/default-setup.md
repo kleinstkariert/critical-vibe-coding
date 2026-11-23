@@ -22,7 +22,7 @@ canonical: true
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 
 

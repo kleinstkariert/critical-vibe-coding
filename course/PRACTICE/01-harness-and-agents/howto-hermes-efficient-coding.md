@@ -14,7 +14,7 @@ canonical: true
 
 # How-to. Set up Hermes for efficient coding
 
-*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../../minimum-path.md).
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 

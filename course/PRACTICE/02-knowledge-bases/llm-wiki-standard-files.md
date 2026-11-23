@@ -11,7 +11,7 @@ canonical: true
 
 # LLM Wiki — standard files and folders
 
-*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [minimum path](../../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This tree is the Hermes example. Your knowledge store can use other names. A full wiki file set is not required. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Source types: [references](../../syllabus/references.md#source-types). A label names the source kind. It is not independent verification. What lives in a Karpathy-style wiki directory. Labels: *technical suggestion*.
 

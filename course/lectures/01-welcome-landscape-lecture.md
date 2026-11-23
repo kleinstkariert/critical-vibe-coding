@@ -21,7 +21,7 @@ Speaker notes for Part B of [01 welcome and landscape](../SESSIONS/01-welcome-an
 
 
 
-Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../minimum-path.md).
+Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../PROJECT-WORK/minimum-path.md).
 
 This session introduces a personal manifesto on how each student wants to use AI in their practice. The manifesto is required. Students develop it through the course and hand it in at the end. It names no product. It is not a deliverable for this session.
 
@@ -575,7 +575,7 @@ The practices for the semester moved to the end of the session (after the studen
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../PROJECT-WORK/minimum-path.md).
 
 
 

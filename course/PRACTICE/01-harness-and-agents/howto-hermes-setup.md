@@ -6,7 +6,7 @@ canonical: true
 
 # How to: Hermes Agent setup
 
-*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [minimum path](../../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 

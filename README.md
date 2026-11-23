@@ -10,9 +10,9 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | Programme | Interface Cultures |
 | Language | English |
-| Required work | The [minimum path](course/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
+| Required work | The [minimum path](course/PROJECT-WORK/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
 | Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). Sebastian installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
-| Start here | [`course/minimum-path.md`](course/minimum-path.md) · [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
+| Start here | [`course/PROJECT-WORK/minimum-path.md`](course/PROJECT-WORK/minimum-path.md) · [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
 
 ---
 
@@ -20,7 +20,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 | Need | File |
 |---|---|
-| What you must do | [`course/minimum-path.md`](course/minimum-path.md) |
+| What you must do | [`course/PROJECT-WORK/minimum-path.md`](course/PROJECT-WORK/minimum-path.md) |
 | Install order + first week (*optional extension*) | [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md) |
 | Short syllabus / session map | [`course/syllabus/course-outline.md`](course/syllabus/course-outline.md) |
 | Full timeline + milestones | [`course/syllabus/timeline.md`](course/syllabus/timeline.md) |
@@ -32,7 +32,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 ## Session map (eight sessions; dates TBD)
 
-The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](course/minimum-path.md).
+The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](course/PROJECT-WORK/minimum-path.md).
 
 | # | Topic | Student input |
 |---|---|---|
@@ -51,7 +51,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 
 ## How-tos & concepts
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](course/minimum-path.md).
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](course/PROJECT-WORK/minimum-path.md).
 
 | Topic | File |
 |---|---|
@@ -84,7 +84,7 @@ Details: [`course/syllabus/timeline.md`](course/syllabus/timeline.md) · [`cours
 ## First steps (students)
 
 1. Star or watch this repo, or clone it.
-2. Read the [minimum path](course/minimum-path.md), then [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md).
+2. Read the [minimum path](course/PROJECT-WORK/minimum-path.md), then [`course/PRACTICE/install-order-and-first-week.md`](course/PRACTICE/install-order-and-first-week.md).
 3. Keep secrets (API keys) out of notes you share.
 
 No purchase is required. Alternatives are allowed. The install how-tos are an *optional extension*.

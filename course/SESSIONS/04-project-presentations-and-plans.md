@@ -9,7 +9,7 @@ canonical: true
 
 # Session 04. Midpoint: project presentations and semester plans
 
-The presentation is required. Show the system in [minimum path](../minimum-path.md): knowledge store, access boundary, model endpoint, tool set, verification method, and provenance. Hermes, a wiki file set, and lint are a *reference implementation*. They are *not required for assessment*.
+The presentation is required. Show the system in [minimum path](../PROJECT-WORK/minimum-path.md): knowledge store, access boundary, model endpoint, tool set, verification method, and provenance. Hermes, a wiki file set, and lint are a *reference implementation*. They are *not required for assessment*.
 
 Parent: [timeline](../syllabus/timeline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
 

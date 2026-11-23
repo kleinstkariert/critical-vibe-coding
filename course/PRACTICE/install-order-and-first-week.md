@@ -23,7 +23,7 @@ It names no product.
 Session 01 introduces it. You develop it through the meetings. You hand it in at the end.
 It is not week-1 homework.
 The technical object is a student-designed agentic production system.
-Read the [minimum path](../minimum-path.md) before the install list.
+Read the [minimum path](../PROJECT-WORK/minimum-path.md) before the install list.
 The manifesto, the minimum path, and the group input presentations are required.
 No purchase is required. Alternatives are allowed.
 Hermes is one *reference implementation*. Sebastian will install it with the class.
@@ -49,13 +49,13 @@ You build and run a **personal LLM-agent setup** while unpacking political-econo
 
 Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you can access. Twin tracks every week: technical + critical check-in.
 
-*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](../minimum-path.md). A structured wiki does not make the notes true: [what structure improves](02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
+*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](../PROJECT-WORK/minimum-path.md). A structured wiki does not make the notes true: [what structure improves](02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
 
 ---
 
 ## Install order (before / during weeks 1 to 3)
 
-*reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](../PROJECT-WORK/minimum-path.md).
 
 The course has **eight sessions**: [course-outline.md](../syllabus/course-outline.md).
 
@@ -76,7 +76,7 @@ Keep API keys out of synced notes.
 
 | Question | Go to |
 |---|---|
-| What must I do? | [../minimum-path.md](../minimum-path.md) |
+| What must I do? | [../PROJECT-WORK/minimum-path.md](../PROJECT-WORK/minimum-path.md) |
 | What happens each week? | [timeline.md](../syllabus/timeline.md) · [course-outline.md](../syllabus/course-outline.md) · [../SESSIONS/](../SESSIONS/) |
 | Midpoint / final deliverables? | [timeline.md](../syllabus/timeline.md) (milestones) |
 | Readings & links? | [references.md](../syllabus/references.md) · [links-from-clippings.md](../syllabus/links-from-clippings.md) |

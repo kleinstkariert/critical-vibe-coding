@@ -9,7 +9,7 @@ canonical: true
 
 # Session 03. Hardware paths, locally runnable models versus RAM, prompting, chat versus reasoning
 
-*advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
+*advanced path* for a local model or new hardware. *optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
 
 Parent: [timeline](../syllabus/timeline.md) · Outline: [course outline](../syllabus/course-outline.md) · Rhythm: [course rhythm](../syllabus/course-rhythm.md)
 

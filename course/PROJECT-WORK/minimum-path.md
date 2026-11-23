@@ -53,7 +53,7 @@ At best, this work is part of your own art project.
 ## Required: input presentations
 
 You also give one input presentation with your group.
-The topics and the sessions are in the [course rhythm](syllabus/course-rhythm.md).
+The topics and the sessions are in the [course rhythm](../syllabus/course-rhythm.md).
 One group presents in sessions 2, 3, 5, 6, and 7.
 
 The presentations in sessions 4 and 8 use the system above.

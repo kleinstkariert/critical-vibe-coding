@@ -40,7 +40,7 @@ After each meaningful change:
 
 ## Course stack defaults
 
-The technical object for students is a student-designed agentic production system. The required work is `course/minimum-path.md`: a personal manifesto, a knowledge store, an access boundary, a model endpoint, a tool set, a verification method, provenance, and a critical reflection. Input presentations are also required. No purchase is required. Alternatives are allowed.
+The technical object for students is a student-designed agentic production system. The required work is `course/PROJECT-WORK/minimum-path.md`: a personal manifesto, a knowledge store, an access boundary, a model endpoint, a tool set, a verification method, provenance, and a critical reflection. Input presentations are also required. No purchase is required. Alternatives are allowed.
 
 The names below are one *reference implementation* for class demos. They are not the assessed architecture. Claude Code, Cursor, OpenCode, local scripts, and other agents are valid systems.
 

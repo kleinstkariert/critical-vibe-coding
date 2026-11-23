@@ -12,7 +12,7 @@ canonical: true
 
 
 
-*optional extension* for coding across stacks, CAD/3D, and a bridge to another application. *not required for assessment.* Any one agent plus one folder meets [minimum path](../minimum-path.md). The privacy input is required. This session is still a proposal.
+*optional extension* for coding across stacks, CAD/3D, and a bridge to another application. *not required for assessment.* Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The privacy input is required. This session is still a proposal.
 
 
 

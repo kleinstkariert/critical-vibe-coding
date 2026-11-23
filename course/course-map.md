@@ -32,7 +32,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Session 01: Welcome and landscape slideshow](lectures/01-welcome-landscape-slideshow/README.md) | current | true |
 | [Session 02. Agent harness and Hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) | current | true |
 | [Session 02 slideshow (Obsidian Slides)](lectures/02-agent-harness-slideshow/README.md) | current | true |
-| [Minimum path](minimum-path.md) | current | true |
+| [Minimum path](PROJECT-WORK/minimum-path.md) | current | true |
 | [Session 01. Welcome and landscape](SESSIONS/01-welcome-and-landscape.md) | current | true |
 | [Session 02. Agent harness, wiki architecture, model landscape, Hermes install](SESSIONS/02-agent-harness-and-wiki-architecture.md) | current | true |
 | [Session 03. Hardware paths, locally runnable models, prompting, chat versus reasoning](SESSIONS/03-hardware-open-models-prompting.md) | current | true |

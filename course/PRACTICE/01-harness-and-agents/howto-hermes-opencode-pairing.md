@@ -14,7 +14,7 @@ canonical: true
 
 # How-to. Pair Hermes and OpenCode
 
-*reference implementation. Advanced path. Not required for assessment.* Pairing is one option. OpenCode alone is a valid system. See [minimum path](../../minimum-path.md).
+*reference implementation. Advanced path. Not required for assessment.* Pairing is one option. OpenCode alone is a valid system. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Use **Hermes** as the always-on assistant. Use **OpenCode** when a repository needs a strong coding loop.
 

@@ -14,7 +14,7 @@ canonical: true
 
 # How-to. Turn on the Hermes Docker sandbox
 
-*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [minimum path](../../minimum-path.md).
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 Short click-path only. For Docker concepts, mounts, and generic container flags, use [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) (§8 Docker, §9 Sandbox).
 

@@ -16,7 +16,7 @@ Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
-*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [minimum path](../../minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [minimum path](../../PROJECT-WORK/minimum-path.md).
 
 ---
 
