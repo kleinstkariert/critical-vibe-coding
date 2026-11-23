@@ -37,11 +37,11 @@ The README should link only to:
 
 - [[course/START-HERE]]
 - [[course/SEMINAR]]
-- [[course/THEORY]]
-- [[course/PRACTICE]]
-- [[course/SESSIONS]]
-- [[course/PROJECT-WORK]]
-- [[course/REFERENCES]]
+- [[course/THEORY/README|THEORY]]
+- [[course/PRACTICE/README|PRACTICE]]
+- [[course/SESSIONS/README|SESSIONS]]
+- [[course/PROJECT-WORK/README|PROJECT-WORK]]
+- [[course/REFERENCES/README|REFERENCES]]
 
 ## 2. `course/START-HERE.md`
 
