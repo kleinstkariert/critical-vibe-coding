@@ -10,7 +10,6 @@ tags:
   - deep-dive
   - labour
   - jobs
-audience: student
 canonical: true
 ---
 

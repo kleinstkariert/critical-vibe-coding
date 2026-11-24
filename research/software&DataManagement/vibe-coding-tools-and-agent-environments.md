@@ -6,7 +6,6 @@ tags:
   - research
   - tools
   - course
-audience: student
 status: current
 canonical: true
 ---

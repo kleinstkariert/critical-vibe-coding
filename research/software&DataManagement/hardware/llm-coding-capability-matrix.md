@@ -1,6 +1,5 @@
 ---
 title: LLM coding capability matrix, model fit on DIY setups and a Spark class system
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

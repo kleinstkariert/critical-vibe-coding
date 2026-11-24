@@ -7,7 +7,6 @@ tags:
   - kitegg
   - unlearn-gestaltung
   - obsidian
-audience: teacher
 status: current
 canonical: false
 ---

@@ -1,6 +1,5 @@
 ---
 title: Why this structure
-audience: student
 status: draft
 canonical: false
 ---

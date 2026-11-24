@@ -6,7 +6,6 @@ tags:
   - political-economy
   - regulation
   - labour
-audience: student
 status: current
 canonical: true
 ---

@@ -6,7 +6,6 @@ tags:
   - research
   - kitegg
   - infrastructure
-audience: teacher
 status: current
 canonical: false
 ---

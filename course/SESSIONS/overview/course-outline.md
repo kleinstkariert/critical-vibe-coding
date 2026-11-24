@@ -5,7 +5,6 @@ updated: 2026-11-10
 tags:
   - course
   - outline
-audience: student
 status: current
 canonical: true
 ---

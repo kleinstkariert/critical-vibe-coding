@@ -11,7 +11,6 @@ tags:
   - ecology
   - data-centers
   - energy
-audience: student
 canonical: true
 ---
 

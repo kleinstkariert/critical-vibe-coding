@@ -6,7 +6,6 @@ tags:
   - kitegg
   - course
   - comparison
-audience: teacher
 status: current
 canonical: false
 ---

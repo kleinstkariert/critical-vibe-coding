@@ -1,6 +1,5 @@
 ---
 title: DIY request draft, GPU teaching and project workstation
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

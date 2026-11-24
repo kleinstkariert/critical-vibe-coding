@@ -1,6 +1,5 @@
 ---
 title: Setup D, dual RTX 5090 (excluded)
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

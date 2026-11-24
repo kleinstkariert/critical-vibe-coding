@@ -1,6 +1,5 @@
 ---
 title: Recommended production system, GB10 / DGX Spark class, 128 GB / 2 TB (Acer Veriton GN100)
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

@@ -1,6 +1,5 @@
 ---
 title: START HERE
-audience: student
 status: draft
 canonical: false
 ---

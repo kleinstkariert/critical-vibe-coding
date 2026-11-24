@@ -1,6 +1,5 @@
 ---
 title: Course map
-audience: student
 status: current
 canonical: true
 last_verified: 2026-11-20

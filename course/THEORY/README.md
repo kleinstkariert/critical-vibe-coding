@@ -1,6 +1,5 @@
 ---
 title: Theory
-audience: student
 status: current
 canonical: true
 ---

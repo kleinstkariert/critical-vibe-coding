@@ -1,6 +1,5 @@
 ---
 title: Hardware research, DIY multi-GPU builds and a DGX Spark class system
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

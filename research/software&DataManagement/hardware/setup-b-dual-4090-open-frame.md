@@ -1,6 +1,5 @@
 ---
 title: Setup B, dual RTX 4090 (not recommended)
-audience: student
 status: current
 canonical: true
 date: 2026-10-29

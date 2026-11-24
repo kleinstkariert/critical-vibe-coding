@@ -1,6 +1,5 @@
 ---
 title: Refusal and alternatives
-audience: student
 status: current
 canonical: true
 ---

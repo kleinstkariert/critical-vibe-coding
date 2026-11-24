@@ -1,6 +1,5 @@
 ---
 title: Setup A, dual RTX 3090 open frame
-audience: student
 status: current
 canonical: true
 date: 2026-10-29
