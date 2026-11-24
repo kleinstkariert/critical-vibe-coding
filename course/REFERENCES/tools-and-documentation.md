@@ -1,6 +1,5 @@
 ---
 title: Tools and documentation
-audience: student
 status: current
 canonical: true
 ---

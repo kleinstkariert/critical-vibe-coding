@@ -1,6 +1,5 @@
 ---
 title: Peer courses
-audience: student
 status: current
 canonical: false
 ---

@@ -8,7 +8,6 @@ tags:
   - course
   - lecture
   - political-economy
-audience: student
 canonical: true
 ---
 

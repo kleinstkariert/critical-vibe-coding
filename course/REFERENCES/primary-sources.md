@@ -5,7 +5,6 @@ tags:
   - course
   - links
   - clippings
-audience: student
 status: current
 canonical: true
 ---

@@ -2,7 +2,6 @@
 title: Session 05. Vault practice, phone sync, Discord bridge, MCP
 session: 5
 updated: 2026-11-10
-audience: student
 status: current
 canonical: true
 ---

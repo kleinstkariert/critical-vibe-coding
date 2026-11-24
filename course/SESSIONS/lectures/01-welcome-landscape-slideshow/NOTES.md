@@ -1,5 +1,4 @@
 ---
-audience: teacher
 status: current
 canonical: false
 ---

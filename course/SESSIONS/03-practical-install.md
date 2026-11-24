@@ -2,7 +2,6 @@
 title: Session 03. Practical install
 session: 3
 updated: 2026-11-23
-audience: student
 status: current
 canonical: true
 ---

@@ -2,7 +2,6 @@
 title: Session 01. Welcome and landscape
 session: 1
 updated: 2026-11-10
-audience: student
 status: current
 canonical: true
 ---

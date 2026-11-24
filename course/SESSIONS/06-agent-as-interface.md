@@ -2,7 +2,6 @@
 title: Session 06. Agent as interface, as material, as canvas
 session: 6
 updated: 2026-11-10
-audience: student
 status: current
 canonical: true
 ---

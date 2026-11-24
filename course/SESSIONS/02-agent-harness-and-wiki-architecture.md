@@ -2,7 +2,6 @@
 title: Session 02. Agent harness, wiki architecture, model landscape, Hermes install
 session: 2
 updated: 2026-11-10
-audience: student
 status: current
 canonical: true
 ---

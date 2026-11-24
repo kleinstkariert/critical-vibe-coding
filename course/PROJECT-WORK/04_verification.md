@@ -1,6 +1,5 @@
 ---
 title: Verification
-audience: student
 status: current
 canonical: true
 ---

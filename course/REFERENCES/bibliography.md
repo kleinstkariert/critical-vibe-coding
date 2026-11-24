@@ -4,7 +4,6 @@ date: 2026-10-18
 tags:
   - course
   - references
-audience: student
 status: current
 canonical: true
 ---

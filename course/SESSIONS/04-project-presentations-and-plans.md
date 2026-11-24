@@ -2,7 +2,6 @@
 title: Session 04. Project presentations and semester plans (midpoint)
 session: 4
 updated: 2026-11-10
-audience: student
 status: current
 canonical: true
 ---

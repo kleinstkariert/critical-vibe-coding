@@ -1,6 +1,5 @@
 ---
 title: Provenance and process log
-audience: student
 status: current
 canonical: true
 ---

@@ -1,6 +1,5 @@
 ---
 title: Interface score
-audience: student
 status: current
 canonical: true
 ---

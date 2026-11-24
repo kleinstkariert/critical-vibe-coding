@@ -3,7 +3,6 @@ title: Session 08. Final presentations and closing check-in (proposal)
 session: 8
 status: proposal
 updated: 2026-11-10
-audience: student
 canonical: true
 ---
 

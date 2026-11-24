@@ -1,6 +1,5 @@
 ---
 title: Sessions
-audience: student
 status: current
 canonical: true
 ---

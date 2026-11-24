@@ -3,7 +3,6 @@ title: Session 07. Coding with agents across creative stacks (proposal)
 session: 7
 status: proposal
 updated: 2026-11-10
-audience: student
 canonical: true
 ---
 

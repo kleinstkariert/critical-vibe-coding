@@ -1,6 +1,5 @@
 ---
 title: References
-audience: student
 status: current
 canonical: true
 ---

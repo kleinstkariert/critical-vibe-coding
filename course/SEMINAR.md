@@ -1,6 +1,5 @@
 ---
 title: Seminar
-audience: student
 status: draft
 canonical: false
 ---

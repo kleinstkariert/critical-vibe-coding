@@ -1,6 +1,5 @@
 ---
 title: Project path
-audience: student
 status: current
 canonical: true
 ---

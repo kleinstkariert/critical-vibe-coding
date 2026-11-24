@@ -1,6 +1,5 @@
 ---
 title: Project work
-audience: student
 status: current
 canonical: true
 ---

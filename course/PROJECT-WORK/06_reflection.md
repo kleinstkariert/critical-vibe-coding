@@ -1,6 +1,5 @@
 ---
 title: Critical reflection
-audience: student
 status: current
 canonical: true
 ---

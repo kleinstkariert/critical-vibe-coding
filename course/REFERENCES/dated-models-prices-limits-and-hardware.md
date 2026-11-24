@@ -1,6 +1,5 @@
 ---
 title: Dated models, prices, limits and hardware
-audience: student
 status: current
 canonical: true
 ---

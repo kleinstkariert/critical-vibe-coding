@@ -4,7 +4,6 @@ session: 3
 format: obsidian-slides
 slot: 10:00 to 12:00
 css: cvc-slides
-audience: student
 status: current
 canonical: true
 ---
