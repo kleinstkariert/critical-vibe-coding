@@ -13,7 +13,7 @@ The reasons for the structure, and its doubts, are on [why this structure](why-t
 
 ## Summary
 
-- Changed paths against `main`: **164** (94 renamed, 51 added, 12 modified, 7 removed). Git pairs a rename only when the files stay at least 30% alike, so some heavily rewritten pages count as added.
+- Changed paths against `main`: **165** (94 renamed, 52 added, 12 modified, 7 removed). Git pairs a rename only when the files stay at least 30% alike, so some heavily rewritten pages count as added.
 - Moves use `git mv`. Each commit has at most 30 changed files. Links, wikilinks and inline paths were updated in the same commit group.
 - `course/sessions/` became `course/SESSIONS/` in two commits through a temporary name, because Windows and macOS folders ignore case.
 - Seven files were removed from the repo: four old 13-session files, the structure proposal and two Academic AI source files (a PDF and a PPTX). A copy of each is kept outside the repo. See "Removed files".
@@ -52,6 +52,9 @@ The reasons for the structure, and its doubts, are on [why this structure](why-t
 | Templates | New folder `course/templates/` with nine blank forms and an index. Blank tables moved out of the guide pages |
 | Tool comparison links | One link to the canonical comparison was added where Hermes is optional or alternatives are valid (see "Tool comparison audit") |
 | Deck speaker notes | The pptx and odp notes point to the moved hardware research note. Only the notes XML was patched |
+| Deck-note paths repaired | 16 distinct shorthand strings in the speaker notes of both Session 01 decks (17 places per deck) were replaced with exact current repo paths: 11 short `course/<name>.md` forms, 3 bare file names and 2 removed pages. `course/student-share-structure.md` now points to `course/templates/group-input-presentation.md`. `prompting-and-model-choice.md` now points to `course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md`. Only the notes XML was patched, at ZIP level. The pptx has 7 changed entries (`notesSlide3`, `10`, `13`, `17`, `52`, `54`, `55`) and 284 identical ones. The odp has 1 changed entry (`content.xml`) and 39 identical ones. The pptx still has 57 slides and the odp 56 pages |
+| Deck-note checker | `check-course-links.py` now also opens each lecture deck read-only and fails when a `.md` string in the notes is not an exact repo path (bare names, short forms, missing files and wrong case fail). `--decks-only` and `--no-decks` select the part. `AGENTS.md` describes it |
+| Wikilink filter | The name fallback of `find_note` skipped a folder name that never existed (`UnlearGestaltung`). It now skips `UnlearGestaltungAI_Mainz`, so a bare `[[vol1-approaching]]` fails and the full path resolves. The case check no longer uses `resolve()`, which hides wrong case on Windows. `course/scripts/test_check_course_links.py` holds 13 regression tests with fixtures built in a temporary folder |
 | API wording | Seven pages (`academic-ai-austria.md`, `install-order.md`, Session 02, `howto-hermes-setup.md`, the Session 02 slideshow note and the two hardware notes) now describe the Academic AI web chat for students and the administrator-managed API clients. The manual covers API clients. The restriction to certified employees is the course author's statement, marked as such |
 | Course map date | `generate-course-map.py` takes `--verified-on YYYY-MM-DD` (validated) and `--check`. The map was regenerated for 2026-11-24. `AGENTS.md` says how to regenerate |
 | Python cache | One accidental `.pyc` file was removed from the index. `.gitignore` now ignores Python caches |
@@ -248,6 +251,7 @@ The translation headers and the folder README say this. The V 2.0 link is for or
 - `course/SESSIONS/lectures/03-practical-install-slideshow/README.md`
 - `course/THEORY/07-refusal-and-alternatives/README.md`
 - `course/THEORY/README.md`
+- `course/scripts/test_check_course_links.py`
 - `course/templates/README.md`
 - `course/templates/critical-reflection.md`
 - `course/templates/final-presentation.md`
@@ -316,7 +320,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 
 | Check | Result | Pass 1 | Pass 2 |
 |---|---|---|---|
-| Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) |
+| Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks). The same run also checks deck notes | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks). The same run also checks deck notes |
 | Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After later edits: 1426 links, 0 broken | 123 Markdown files, 1426 relative links, 0 broken |
 | Stale old-path scan | PASS | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) |
 | Frontmatter scan (reader-label field, malformed blocks) | PASS | 0 reader-label fields, 0 malformed blocks | 0 reader-label fields, 0 malformed blocks |
@@ -325,12 +329,14 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | Duplicate canonical content scan | PASS (install-guide repetition dismissed) | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison |
 | Content loss scan against `origin/main` | PASS | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits |
 | Course map generator | PASS | 89 rows, 0 reader-label columns | 89 rows. One stale page title found and regenerated |
-| Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML |
+| Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | zip test OK (pptx 291 entries, odp 40), 57 slides and 56 pages, 0 old paths in notes XML. Non-note entries identical to the previous commit | zip test OK (pptx 291 entries, odp 40), 57 slides and 56 pages, 0 old paths in notes XML. Non-note entries identical to the previous commit |
+| Deck-note path check (exact repo paths, exact case) | PASS | 2 decks, 73 `.md` path strings in speaker notes, 0 bad (before the repair: 34 bad, 16 distinct) | 2 decks, 73 `.md` path strings in speaker notes, 0 bad (before the repair: 34 bad, 16 distinct) |
+| Checker regression tests (`test_check_course_links.py`) | PASS | 13 regression tests pass (bare wikilink into the Mainz tree fails, full path resolves, Markdown link with wrong case fails, deck-note fixtures) | 13 regression tests pass (bare wikilink into the Mainz tree fails, full path resolves, Markdown link with wrong case fails, deck-note fixtures) |
 | README entry points | PASS | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links |
 | Stub pages, `teacher` paths, lowercase `sessions` | PASS | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` |
 | Em dashes in new text | PASS (older em dashes dismissed) | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
 | Tracked binary scan (guideline originals removed) | PASS | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names |
-| Scripts compile | PASS | 5 files compile | 5 files compile |
+| Scripts compile | PASS | 6 files compile | 6 files compile |
 | Commit size and author | PASS | At most 30 files per commit. One author: `kleinstkariert` | At most 30 files per commit. One author: `kleinstkariert` |
 
 ## Remaining risks
@@ -338,7 +344,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 - The English translations rest on a German manual V 2.1 (09.09.2026) and a German presentation (October 2026). No public URL of V 2.1, and no publisher or public URL of the presentation, was found. The older official V 2.0 manual is linked for orientation only. The two source files are no longer in the repo. They stay in the Git history of main and outside the repo.
 - The two English translations were written for this branch. Nobody has compared them with the originals line by line. The manual figures appear as captions only. Check them before class.
 - The Academic AI API wording is the same on seven pages: `academic-ai-austria.md`, `install-order.md`, Session 02, `howto-hermes-setup.md`, the Session 02 slideshow note and the two hardware notes. The restriction to certified employees, and the statement that students cannot create or use API clients, is the course author's information. The manual does not contain it. Two lines in `research/software&DataManagement/hardware/spark-gb10-recommended-system.md` (justification point 4 and the letter text) speak of agent work that consumes Academic AI budgets. They were not changed and may need a second look.
-- The pptx and odp were patched in the speaker notes only. The odp has 56 pages and the pptx has 57 slides, so the two decks were not in sync before and still are not. Several notes use short paths such as `course/what-is-mcp.md` that never resolved. A full rebuild was not run, as AGENTS.md asks.
+- The pptx and odp were patched in the speaker notes only, at ZIP level. The odp has 56 pages and the pptx has 57 slides, so the two decks were not in sync before and still are not. The deck generators were not run, as AGENTS.md asks. The generator scripts and the decks can now disagree if somebody rebuilds a deck: a rebuild would drop the repaired note paths.
 - The ignored local folder `archive/` inside the first slideshow folder is not tracked. Move it by hand in each existing checkout.
 - The teacher vault is not updated. It still holds 19 vault-only files. Eight hardware notes are now also in the repo, so their vault originals are duplicates until the course author decides. Sync additively. A mirror-style sync would delete teacher-only files.
 - Hardware research lives under `research/software&DataManagement/hardware/`. The placement is a judgment call. The `&` in the folder name needs quoting in some shells and sync tools.
