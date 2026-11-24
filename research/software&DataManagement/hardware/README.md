@@ -126,7 +126,7 @@ These cautions apply to all DIY options. They are *technical suggestions*.
 | [Local GPU hardware for LLMs](../local-gpu-hardware-for-llms.md) | General research: memory math, ready-made machines, single-GPU tiers, how multi-GPU works, tutorials | Memory math and the multi-GPU explanation |
 | [How-to local LLM hardware](../../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | Student steps for software and a first machine | Setup steps |
 | [Dated models, prices, limits and hardware](../../../course/REFERENCES/dated-models-prices-limits-and-hardware.md) | Index of volatile claims with check dates | Row-level price tracking |
-| [Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) | What campus services offer | The "no API key for agents" background |
+| [Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai) | What campus services offer | Student web chat and administrator-managed API access |
 
 **Price ranges differ between notes.** The older general note gives "dual 3090 used workstation often €3–6k" and "dual 4090 new €5–9k+". This folder gives €4,990–6,750 for Setup A and €8,030–11,130 for Setup B. The older ranges record no basis. This folder's totals include invoiced dealers with warranty, a safety cage, 64 GB RAM, 2 TB NVMe and 10% contingency. Treat both as dated and compare them only with that in mind (*uncertainty*).
 
@@ -136,7 +136,7 @@ These cautions apply to all DIY options. They are *technical suggestions*.
 - No power figure is recorded for Setup D.
 - Model sizes in the capability matrix have no per-row source. Verify on Hugging Face at purchase time.
 - Board, CPU, PSU, fan and frame prices are estimates with no date.
-- The claim that a campus service has no API key for agents is not sourced in the Spark note. The course page on [Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) says the same, with its own caveats.
+- The claim that students cannot use Academic AI for agents rests on course-author information. The translated [manual](../../../course/REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#6-admin-functions) confirms administrator-managed API clients. It does not state the certified-employee or student restriction. See [API access in Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai).
 
 ## Reading order
 

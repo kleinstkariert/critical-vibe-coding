@@ -157,7 +157,7 @@ Ten minutes, honest access notes:
 - **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md).
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
 - **Local**: preview only. Hardware paths and memory math: Session [03](03-practical-install.md).
-- **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md). Say explicitly what students can and cannot use.
+- **European hosting**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend. **Austrian academic AI**: students have the web chat, not an agent endpoint for student projects. Administrators can create API clients. The course author states that this is restricted to certified employees and that students cannot create or use these clients: [API access in academic AI](../PRACTICE/03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai). Say explicitly what students can and cannot use.
 - Cloud or local, where the notes go: the flowchart in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §3. Privacy and AI Act pointer: [eu ai act and datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 
 ### The free-to-use endpoint for today

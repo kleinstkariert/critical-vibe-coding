@@ -423,7 +423,7 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 - Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  
-- Academic chat portals are usually **not** an agent API: [academic ai austria](../03-models-and-providers/academic-ai-austria.md)
+- Academic chat portals are usually **not** an agent API. For Academic AI at Kunstuni: students have the web chat. Administrators can create API clients. The course author states that this is restricted to certified employees and that students cannot create or use these clients: [API access in academic AI](../03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai)
 
 ---
 

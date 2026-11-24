@@ -505,9 +505,9 @@ A **model provider** is the service or program that runs the model.
 | **Proprietary cloud** | Strong agents, you pay, prompts leave your machine (OpenAI, Anthropic, Google, …) |
 | **Open weights, hosted** | Weights are public, but a host still runs them (Nemotron on OpenRouter is a free-to-use hosted endpoint: [default setup](../../../PRACTICE/01-harness-and-agents/default-setup.md) §4) |
 | **Local** | The model runs on your hardware. More privacy for the prompt. Needs enough memory. |
-| **Academic AU chat** | Campus chat UIs often have **no** agent API key. Do not expect Hermes to “just use” them. |
+| **Academic AU chat** | Students have the campus web chat. It is not an agent endpoint for student projects. Administrators can create API clients. Course-author information: only certified employees may, and students cannot create or use them. Do not expect Hermes to “just use” the chat. |
 
-Honesty note: [academic ai austria](../../../PRACTICE/03-models-and-providers/academic-ai-austria.md)
+Honesty note: [academic ai austria, API access](../../../PRACTICE/03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai)
 
 ---
 
