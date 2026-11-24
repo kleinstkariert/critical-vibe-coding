@@ -113,7 +113,7 @@ The old 13-session files were removed from the repository. Their reusable parts 
 
 ## Later changes on the same branch
 
-After the first move, we added material from two open pull requests: the install guides and the starter knowledge base from one, a tool comparison from the other. The comparison is now one canonical page in `research/`. We also removed the lecturer's first name from tracked text and file names, and merged the stub pages that had no content of their own. The full list is in the [migration report](../migrations/2026-structure-move.md).
+After the first move, we added material from two open pull requests: the install guides and the starter knowledge base from one, a tool comparison from the other. The comparison is now one canonical page in `research/`. We also removed the lecturer's first name from tracked text and file names, and merged the stub pages that had no content of their own. The full list is in the [migration report](structure-move-history.md).
 
 ## What we did not decide
 
