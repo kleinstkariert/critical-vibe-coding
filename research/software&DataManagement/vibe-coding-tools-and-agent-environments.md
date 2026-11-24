@@ -1,7 +1,7 @@
 ---
 title: Vibe-coding tools and agent environments, late 2026
 date: 2026-11-20
-updated: 2026-11-23
+updated: 2026-11-24
 tags:
   - research
   - tools
@@ -15,6 +15,8 @@ canonical: true
 This is the one course page that compares tools. Other pages link here. They do not copy it.
 
 Original check: **2026-11-20**. Second check, on **2026-11-23**, covered these items only: GitHub stars, licences and activity for every repository named below; Cursor, Claude, GitHub Copilot and Zed prices and plan pages; the Zed AI pages; and the AgentCraft repository. Every other row is as read on 2026-11-20. It was not read again.
+
+Third check, on **2026-11-24**: the Claude Code facts and prices; the Stack Overflow survey page (the numbers are unchanged); and, for the tools in the section "More major tools, added on 2026-11-24", the vendor pages, repository licence fields and GitHub stars. Stars in that section and in the Claude Code update were read from the GitHub API on 2026-11-24. Rows and sections outside those items are as read on 2026-11-20 or 2026-11-23. This check did not change them.
 
 This page is a map for students who are new to these tools. Prices, model names and quotas change. Open the linked page before you pay. Dated claims about install guides and models are on [dated models, prices, limits and hardware](../../course/REFERENCES/dated-models-prices-limits-and-hardware.md).
 
@@ -64,6 +66,7 @@ Short form of the course position: [what is harness](../../course/PRACTICE/01-ha
 | Terminal repo work | An agent in a project folder. It edits files and runs commands | Claude Code, OpenCode, Codex CLI, Aider, Gemini CLI |
 | Assistant and messaging | Notes, chat apps, tools, and work that can stay up | Hermes |
 | Multi-agent front end | One place that plans, assigns and reviews work by several agents | AgentCraft |
+| Cloud coding agent | A task runs on a remote machine. You review a diff or a pull request later | Codex cloud, Copilot in the cloud, Devin Cloud, Jules (see the section added on 2026-11-24) |
 
 *technical suggestion:* Hermes is the course default for the assistant job. Add a coding agent when a repository needs a deep edit. The pairing note above is the short version.
 
@@ -235,6 +238,20 @@ You pay Anthropic. Anthropic is the model lab. Anthropic's own compute cost is n
 
 Job: terminal repo work. It is the strongest "used in the past year" row in the survey above.
 
+**Update on 2026-11-24 (Claude Code)**
+
+The text above stays as read on 2026-11-20 and 2026-11-23. These points were read again or added on 2026-11-24.
+
+- *Category:* coding agent and harness. Anthropic is also the model lab, so the tool maker and the model provider are the same company.
+- *verified fact:* the overview says Claude Code runs in the terminal, in IDE extensions (VS Code and JetBrains), in a desktop app and in the browser. Most surfaces need a Claude subscription or an Anthropic Console account. The terminal CLI, VS Code and JetBrains also support third-party providers. https://code.claude.com/docs/en/overview (read 2026-11-24)
+- *verified fact (licence):* `LICENSE.md` in https://github.com/anthropics/claude-code reads "(c) Anthropic PBC. All rights reserved. Use is subject to Anthropic's Commercial Terms of Service." Closed licence. The agent is not open source. GitHub's licence field is empty. Stars: 156,920 (GitHub API, 2026-11-24).
+- *verified fact (model and provider options):* Claude models through a Claude plan or a Console API key. The gateway page names Amazon Bedrock, Google Cloud's Agent Platform and Microsoft Foundry as cloud routes. It also says Anthropic does not support routing Claude Code to non-Claude models through any gateway. https://code.claude.com/docs/en/llm-gateway (read 2026-11-24). *technical suggestion:* treat a local open-weight model as unsupported by Anthropic. The Ollama page named above is Ollama's own page.
+- *verified fact (course link):* Claude Code reads `CLAUDE.md` at session start. If a repository has an `AGENTS.md` for other agents, Claude Code can read that in place of a `CLAUDE.md`. This course repository has an `AGENTS.md`. https://code.claude.com/docs/en/overview (read 2026-11-24)
+- *verified fact (pricing, re-read):* https://claude.com/pricing on 2026-11-24 shows Free $0 with no Claude Code, Pro $20 per month ($17 per month with $200 paid up front for a year), Max $100, Ultra $200. Team and Enterprise plans include Claude Code too. The FAQ says Claude Code is included in all paid plans, shares the plan's limits, and can switch to pay-as-you-go API credits through a Console account. Prices exclude tax. API per-token rates are on the same page. They are not copied here, because the read lost the model names that go with the numbers.
+- *Student note:* the pricing page lists no individual student price. It lists an Education plan for a whole university (institution, students, faculty and staff). Whether the Kunstuni Linz has such a plan is **not known**. Free has no Claude Code.
+- *Reach:* Stack Overflow survey 65.5% (8,030), the top row (survey page read again on 2026-11-24).
+- *Date checked:* 2026-11-24.
+
 ### OpenCode
 
 *verified fact:* `anomalyco/opencode` is MIT (228,765 stars on 2026-11-23, default branch `dev`). The product page says the tool is free, that some models are free without an account, that you can connect local models, and that you can connect OpenAI, Anthropic, xAI and other providers. It also says ChatGPT Plus or Pro, and GitHub Copilot, can be used as logins. https://opencode.ai/product (read 2026-11-20)
@@ -288,6 +305,131 @@ Antigravity is Google's agent product (app, CLI and IDE extensions). It is the i
 You pay $0 inside the free quota. Google pays the compute. That cost is not published. Pro and Ultra overage can use AI credits at "standard Gemini Enterprise consumption pricing". You pay Google for those credits.
 
 *verified fact:* local models are documented for the Antigravity **SDK** (on-device LiteRT, or an OpenAI-compatible server such as Ollama). https://antigravity.google/docs/sdk/local-models/ That is a developer library. It is not the same switch as the signed-in CLI, which rejects bring-your-own-key on the plans page.
+
+---
+
+## More major tools, added on 2026-11-24
+
+This section adds tools that the survey ranks high and that the rows above did not cover. Each tool gets a category first. The categories are *editor*, *assistant* (suggestions and chat), *coding agent*, *cloud coding agent* (the task runs on a remote machine), *harness* and *model provider*. One product can be several. The category of the product, not of the company, goes in the table.
+
+Sources are vendor pages, official docs and repository metadata, read on **2026-11-24** as untrusted data. A statement on a vendor page is a *claim* unless this page says more. The survey page was read again on 2026-11-24 and shows the same numbers as on 2026-11-20. No tool in this section was installed or run. Price pages built with scripts can lose labels in a read. Where a label is missing, this page says so.
+
+| Tool | Category | Licence | Model access | Reach | What you pay (individual) |
+|---|---|---|---|---|---|
+| GitHub Copilot (CLI, cloud agent, app) | Assistant, coding agent, cloud coding agent. GitHub resells models of several labs. | Service: proprietary. `github/copilot-cli`: GitHub shows NOASSERTION. The licence text was not read. | Models by plan. The CLI also takes your own provider (see below). | Survey "GitHub Copilot" 58.7% (7,196), all surfaces. CLI repo stars: 11,467. | Free $0. Student $0. Pro $10. Pro+ $39. Max $100 per month. All plans include the CLI and the app. |
+| OpenAI Codex (app, IDE, cloud, CLI) | Coding agent from a model lab | CLI: Apache-2.0 (row above). App, IDE extension and cloud: product terms, not read. | ChatGPT plan or API key. CLI: local with `--oss`. | Survey "OpenAI Codex" 29.5% (3,620), more than the CLI. CLI stars: 136,321. | Included in ChatGPT Free (limited trial), Go, Plus, Pro, Business, Enterprise. |
+| Kiro (successor of Amazon Q Developer IDE plugins) | Editor with its own agent, plus CLI and web | Not confirmed. GitHub shows no licence on `kirodotdev/Kiro` (4,491 stars). What that repository holds was not checked. | Auto (a model mix) or a chosen model: GPT-5.6, Claude, Grok 4.7, open-weight. Local models: not confirmed. | Survey "Amazon Q Developer" 3.9% (476). Kiro is not a survey row. | Free $0 (50 credits per month). Pro $20. Pro+ $40. Pro Max $100. Power $200. |
+| JetBrains AI Assistant and Junie | AI Assistant: assistant in the editor. Junie: coding agent. The JetBrains IDEs are the editors. | Proprietary services. `JetBrains/junie`: NOASSERTION (574 stars). Licence text not read. | JetBrains credits for hosted models. Own keys, third-party and local models in AI Assistant. ACP agents without a JetBrains AI plan. | Survey "JetBrains AI" 12.8% (1,569). | AI Free $0 (3 credits per 30 days). AI Pro $10. AI Ultimate $30. Junie Lite free. See the label note below. |
+| Gemini Code Assist | Assistant, with an agent mode, managed through Google Cloud | Proprietary | Google models. Editions: Standard and Enterprise. | Survey 14.6% (1,789). Not the same as the Gemini CLI row. | Prices: **not on the pages read**. |
+| Google Jules | Cloud coding agent | Proprietary | Gemini models | Survey "Google Jules" 2.5% (307). | Free plan with a daily task cap. Paid through Google AI Pro or Ultra. |
+| Devin (Devin Cloud, Devin Desktop) | Cloud coding agent, and an editor (Devin Desktop, formerly Windsurf) | Proprietary | Models from several labs and open-source models. Own model SWE-2. "Use your ChatGPT plan". | Survey "Devin" 2.9% (360) and "Windsurf" 6.5% (796). | Free $0. Pro $20. Max $200. Teams $80 per month. |
+| Warp | Terminal environment with its own agent. It also hosts other agents. | Client repository: AGPL-3.0, with MIT for the UI crates. | Warp models, your own OpenAI, Anthropic or Google key, SuperGrok, or a custom OpenAI-compatible endpoint. | Survey 5.2% (641). Stars: 66,128. | Free $0. Build $20. Max $200. Business $50 per user per month. |
+| Kilo Code | Editor extension (VS Code, JetBrains) and CLI coding agent | MIT | Any model: your own keys, Ollama, LM Studio, or the Kilo Gateway. | Survey 3.2% (392). Stars: 28,109. | Software free. Usage billed separately. Teams $15 per user. Kilo Pass from $19 per month. |
+| Mistral Vibe | Coding agent (terminal) from a model lab | Apache-2.0 | Sign in with a Mistral account or an API key. Other providers and local models: not checked. | Survey "Mistral Vibe" 3.2% (393). Stars: 5,473. | **Not checked.** |
+| Pi | Harness, with a coding agent CLI | MIT | `/login` with a subscription or API key. A multi-provider library is in the repository. | Survey row "Pi" 4.4% (535), read as this project. Stars: 123,684. | **Not stated** in the README read. |
+
+### GitHub Copilot beyond the editor
+
+The VS Code section above covers Copilot in the editor and its prices. This part covers the other surfaces. Category: assistant, coding agent and cloud coding agent. GitHub is not the model lab for most models. It resells them.
+
+- *verified fact:* the plans page says all plans include the Copilot CLI and the Copilot app. The prices in this section's table match the VS Code section. The Business plan is $19 per granted seat per month and Enterprise is $39, with shared credit pools. https://docs.github.com/en/copilot/get-started/plans (read 2026-11-24)
+- *verified fact:* Copilot Student is free for a verified student. The plan table shows auto model selection only for Free and Student. The Student column also reads "Excludes third-party agents". Verified teachers and maintainers of popular open source projects may be eligible for free Copilot Pro.
+- *verified fact:* the model list on that page names models from Anthropic, Google, OpenAI, xAI, Moonshot (Kimi K3) and Microsoft (MAI Code). Treat every name as a snapshot. Pro, Pro+ and Max differ in which models they reach. The read lost the per-plan marks.
+- *verified fact (CLI):* https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli says the CLI is a terminal agent that edits files and runs commands. You can start a session in a cloud sandbox with `--cloud`, or use local sandboxing. The CLI can use your own provider through environment variables: an OpenAI-compatible endpoint, Azure OpenAI or Anthropic, including a local runtime such as Ollama. The model must support tool calling and streaming. A context window of at least 128k tokens is advised. On GitHub-hosted models, each interaction uses AI credits based on tokens. (read 2026-11-24)
+- *verified fact (cloud):* https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent says that from 28 October 2026 the new "Copilot in the cloud" experience is open to users with a paid plan. Free users keep the older chat. A session can run in a cloud sandbox, in a GitHub Actions runner, or in a remote environment. Copilot only works with repositories hosted on GitHub. In a GitHub Actions session, one task works on one repository, one branch and one pull request, and a session has a 59-minute limit. (read 2026-11-24)
+- *claim:* GitHub describes its own tests as showing cloud sandbox sessions finishing faster than GitHub Actions sessions. The test data is not on that page.
+- *Student note:* Copilot Student is the one free path in this section that GitHub states clearly. It needs verification as a student.
+- *Licence of the CLI:* the GitHub API shows no standard licence (NOASSERTION). The licence file was not read. Do not call the CLI open source from this page.
+
+### OpenAI Codex beyond the CLI
+
+The Codex CLI section above stays. Codex is also an app, an IDE extension and a cloud service, so it spans coding agent and model provider. OpenAI makes both the agent and the models.
+
+- *verified fact:* https://chatgpt.com/codex/pricing/ says Codex is included in ChatGPT Free, Go, Plus, Pro, Business and Enterprise plans. Free and Go get limited trial access. Plus lists the Codex app for macOS and Windows. A usage table gives message ranges per model for Plus and for Business. For an API key it says usage-based. The FAQ names $100 and $200 Pro plans. (read 2026-11-24)
+- *verified fact:* the IDE page says the extension works in Visual Studio Code, Cursor and Windsurf, and that Xcode and JetBrains IDEs have their own integrations. https://developers.openai.com/codex/ide (read 2026-11-24)
+- *verified fact:* the cloud page says each task has its own workspace and can run while your computer sleeps. You connect GitHub or GitLab. You review the changed files and then commit or open a pull request. https://developers.openai.com/codex/cloud (read 2026-11-24)
+- *uncertainty:* the app, IDE extension and cloud service licences were not read. Only the CLI is shown here as Apache-2.0.
+- *Student note:* there is no student price on the pages read. The Free plan is a limited trial.
+
+### Kiro and the end of Amazon Q Developer
+
+Category: Kiro is an editor with its own coding agent, plus a CLI and a web client. Amazon Q Developer was an assistant in editor plugins. CodeWhisperer was folded into Amazon Q Developer earlier.
+
+- *verified fact:* the AWS blog post of 30 April 2026 says Amazon Q Developer IDE plugins and paid subscriptions reach end of support on 30 April 2027. New Q Developer sign-ups were blocked from 15 May 2026. Existing Pro subscriptions can still add users. Q Developer in the AWS console and in first-party AWS experiences is not affected. The post tells users to move to Kiro. https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/ (read via search extract 2026-11-24)
+- *verified fact:* the AWS documentation says the Q Developer CLI was rebranded to Kiro. https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/upgrade-to-kiro.html · the CodeWhisperer note: https://docs.aws.amazon.com/codewhisperer/latest/userguide/whisper-legacy.html (read via search extract 2026-11-24)
+- *verified fact:* the Kiro migration page says Kiro IDE is built on the same VS Code foundation, and your extensions, themes and settings carry over. It lists features Q Developer plugins lacked: steering files, hooks, custom subagents, Powers, spec-driven development. https://kiro.dev/docs/upgrade-guides/migrating-from-q-developer/ (read via search extract 2026-11-24)
+- *verified fact (pricing):* https://kiro.dev/pricing/ on 2026-11-24 shows Free $0 with 50 credits per month, Pro $20, Pro+ $40, Pro Max $100 (5,000 credits) and Power $200 (10,000 credits). Add-on credits are $0.04 each on paid plans. Teams pay $20 per seat per month with 500 pooled credits per seat. The page prices exclude tax. The first upgrade to Pro gets the rest of the month free plus 500 trial credits valid for 12 months.
+- *verified fact (models):* the Free tier for social-login or AWS Builder ID sign-ins gets Claude Sonnet 4.5 and open-weight models such as DeepSeek 3.2, MiniMax M2.5, GLM-5 and Qwen3 Coder Next, with rate limits. Paid plans add premium models, including GPT-5.6 Sol, Claude Opus 5.5 and Grok 4.7. Some are not available in every country. By default Kiro uses "Auto", an agent that mixes models.
+- *verified fact (course link):* the pricing FAQ says use of a Kiro subscription through third-party automation harnesses, such as OpenClaw, that route requests outside Kiro's own interfaces is not permitted. A Kiro subscription is not a key you can place in Hermes.
+- *uncertainty:* the Kiro licence and the contents of the public `kirodotdev/Kiro` repository were not read. Do not call Kiro open source.
+- *Student note:* the Free tier is perpetual, with 50 credits per month. No separate student price was found.
+
+### JetBrains AI Assistant and Junie
+
+Category: AI Assistant is an assistant inside the JetBrains IDEs. Junie is JetBrains' coding agent. The IDEs are the editors. This section is about the AI parts.
+
+- *verified fact:* the licence page lists tiers AI Free, AI Pro, AI Ultimate and AI Enterprise. AI credits are used for cloud models. One credit equals $1 USD, charged in local currency. Credits reset every 30 days. You can buy top-up credits that last 12 months. https://www.jetbrains.com/help/ai-assistant/licensing-and-subscriptions.html (page dated 14 October 2026, read 2026-11-24)
+- *label note:* the page prints two price tables. The first reads AI Free $0 (3 credits per 30 days), AI Pro $10 (10 credits), AI Ultimate $30 (35 credits). The second reads AI Pro $20 (20 credits), AI Ultimate $60 (70 credits), AI Enterprise $60. The tab names were not in the read. This page reads the first table as individual and the second as organization. A third-party price tracker (AgentPickr) lists the $10 and $30 prices as individual store prices, checked 21 November 2026. *uncertainty:* confirm on the JetBrains store before you buy.
+- *verified fact:* the AI Free tier is not available in Android Studio, and not in the Community editions of PyCharm and IntelliJ IDEA. This matters for students who use those editions.
+- *verified fact:* the page says that you can use AI Assistant with your own API keys or with third-party and local models. In IDE 2025.3.2 and later you can install ACP agents from the ACP registry, and that does not need a JetBrains AI subscription.
+- *verified fact (Junie):* Junie Lite is a free baseline tier for every JetBrains account. It is powered today by OpenAI GPT-6 Luna, and JetBrains may change the model. It has no published quota. It is available in JetBrains Air and in the Junie CLI. It is not available inside AI Assistant. https://junie.jetbrains.com/docs/junie-lite.html (read via search extract 2026-11-24)
+- *verified fact:* `JetBrains/junie` shows 574 stars on 2026-11-24. GitHub shows NOASSERTION for the licence. Do not call Junie open source from this page.
+- *Student note:* a JetBrains student licence for the IDEs was not checked in this pass.
+
+### Gemini Code Assist and Jules
+
+Gemini CLI and Antigravity have their own sections above. This part covers two other Google products. Category: Gemini Code Assist is an assistant with an agent mode. Jules is a cloud coding agent.
+
+- *verified fact:* the Google overview says Gemini Code Assist comes in two editions, Standard and Enterprise, managed through Google Cloud. https://developers.google.com/gemini-code-assist/docs/overview (page updated 2026-10-09, read 2026-11-24)
+- *verified fact:* the quota page says agent mode and Gemini CLI share one request limit per user per day: 1,500 on Standard and 2,000 on Enterprise. It also lists 6,000 code requests per day and a 1,000,000-token context window for local codebase awareness. https://developers.google.com/gemini-code-assist/resources/quotas (read 2026-11-24). This is a Google Cloud quota page for the Cloud editions. It is not the individual plan of the Gemini CLI row above.
+- *uncertainty:* prices for Gemini Code Assist were not on the pages read. The survey row (14.6%, 1,789) is not the Gemini CLI.
+- *verified fact (Jules):* the plans page lists Free at 15 tasks per rolling 24 hours with 3 concurrent tasks, Jules in Pro at 100 tasks with 15 concurrent, and Jules in Ultra at 300 with 60. Paid plans come through Google AI Pro or Ultra, and the page says they were then limited to individual @gmail.com accounts. https://jules.google/docs/usage-limits/ (read 2026-11-24)
+- *uncertainty:* that Jules page names Gemini 2.5 Pro and Gemini 3 Pro. It has no date. The model names may be old. Read the live page before you plan around it.
+
+### Devin (Cognition)
+
+The Windsurf, now Devin Desktop section above stays. Devin is also a cloud coding agent (Devin Cloud), so it spans two categories: an editor, and a cloud coding agent that works on a remote machine.
+
+- *verified fact:* https://devin.ai/pricing (read 2026-11-24) lists Free $0 (a light quota, unlimited Tab and inline edits), Pro $20 per month (frontier and open-source models, Devin Cloud, extra usage at API pricing), Max $200 per month, Teams $80 per month (up to 100 users) and Enterprise on request. The page says Pro and above can "use your ChatGPT plan". The Free plan has no Devin Cloud mark in the read.
+- *verified fact:* the page names Cognition's own model SWE-2 and says it is free on Pro. It lists models from OpenAI, Claude, Gemini and "SpaceXAI", plus open-source models. That vendor spelling is copied as printed.
+- *uncertainty:* the earlier March 2026 post in the section above lists Teams at $40 per seat per month. The 2026-11-24 page shows Teams at $80 per month for up to 100 users. The two do not match. The newer page is the current claim. The earlier check said it found no newer price table. This read found one.
+- *Student note:* no student price was found on the pricing page.
+- *Reach:* survey "Devin" 2.9% (360) and "Windsurf" 6.5% (796). The survey still lists them as two rows.
+
+### Warp
+
+Category: a terminal environment that has its own agent. It also hosts agents from other makers.
+
+- *verified fact:* the repository README says Warp is an agentic development environment born out of the terminal. You can use Warp's coding agent or bring your own CLI agent, such as Claude Code, Codex or Gemini CLI. https://github.com/warpdotdev/warp (read 2026-11-24)
+- *verified fact (licence):* the README says the UI framework crates are MIT and the rest of the repository is AGPL-3.0. Stars: 66,128 (GitHub API, 2026-11-24). AGPL is copyleft. The hosted agent service is a separate product.
+- *verified fact (pricing):* https://www.warp.dev/pricing (read 2026-11-24) lists Free $0, Build $20 per month with $20 of agent usage at API rates, Max $200 per month with $200, and Business $50 per user per month with $20 per seat. The page also shows a $45 figure for Business. The billing period of that figure was not read. Add-on usage is available.
+- *verified fact (model access):* on the Free plan you can bring your own inference: your own OpenAI, Anthropic or Google key, a SuperGrok subscription, or a custom OpenAI-compatible endpoint. Warp's zero data retention terms cover Warp-provided inference only.
+- *Student note:* the Warp FAQ says Warp has no discounts for students. It recommends the Free plan with bring-your-own inference.
+
+### Kilo Code, Mistral Vibe and Pi
+
+These three are open-source agents from the survey list.
+
+- *Kilo Code. verified fact:* `Kilo-Org/kilocode` is MIT (28,109 stars on 2026-11-24). The pricing page says the VS Code, JetBrains and CLI extensions are free and open source, and work with any model. You can use your own keys, local models with Ollama or LM Studio, or the Kilo Gateway at provider rates. The page lists a 5% credit purchase fee, Kilo Pass from $19 per month, and Teams at $15 per user per month. https://kilo.ai/pricing (read 2026-11-24). *claim:* a line on that page says Kilo has been acquired by Anaconda. This check did not look for a second source.
+- *Mistral Vibe. verified fact:* `mistralai/mistral-vibe` is Apache-2.0 (5,473 stars on 2026-11-24). The README calls it an open-source coding agent for your terminal. You sign in with a Mistral account or an API key. It needs Python 3.12 or later. The project does not accept pull requests. You can turn telemetry off in `config.toml`. https://github.com/mistralai/mistral-vibe (README read 2026-11-24). Local models and prices: **not checked**.
+- *Pi. verified fact:* the repository https://github.com/badlogic/pi-mono (it now sits under `earendil-works/pi`) is MIT (123,684 stars on 2026-11-24). The README calls Pi a minimal, extensible agent harness. It skips sub-agents and plan mode, and you add them as extensions or packages. `/login` connects a subscription or API key. *verified fact (safety):* the README says Pi has no built-in permission system. It runs with the rights of the process that starts it. It advises a container or sandbox for stronger limits. *uncertainty:* the survey row "Pi" is read as this project. The survey page does not link the row to a repository. Zed's External Agents page (above) names a "Pi Coding Agent".
+
+### Survey rows not researched in this check
+
+These tools appear in the survey list. This check did not read their licence or model pages. The numbers are survey shares, not market share.
+
+| Survey row | Share | Note |
+|---|---|---|
+| Replit Agent | 2.3% (285) | A browser-based builder and agent. The pricing page shows two paid cards at $20 and $100 per month. The plan names were not in the read. |
+| Codium (Qodo) | 1.7% (206) | Not read. |
+| BLACKBOX AI | 1.6% (202) | Not read. |
+| Supermaven | 1.3% (158) | Not read. |
+| Trae | 1.3% (154) | Not read. A repository named `bytedance/trae-agent` exists. This check did not confirm that it is the same product. |
+| Augment Code | 1.2% (145) | Not read. |
+| Tabnine | 2.1% (257) | Not read. |
+| Sourcegraph Cody | 0.9% (114) | Not read. |
+
+*technical suggestion:* for this course, treat the table as a map, not a shortlist. A tool is valid for the project when the student can name its job, who bills it and what it may touch. Hermes stays optional. A free tier or a student plan, such as Copilot Student, Kiro Free, Junie Lite or Warp Free with your own key, is enough to test an idea. Check every price on the vendor page the day you pay.
 
 ---
 
@@ -370,5 +512,6 @@ The install notes use a Wanderloots-style tree: `SCHEMA.md`, `index.md`, `log.md
 - Stars are not users. No download counts are stated in this note.
 - Wholesale compute cost, when it is not on the vendor page, is written as not published. Do not invent it.
 - No install in these checks was run on a student laptop. No AgentCraft or Zed feature was run.
+- The tools added on 2026-11-24 were read from vendor pages, official docs and repository metadata only. Some pages were read through a search extract. Those are marked. Nothing was installed or run.
 
 *technical suggestion:* for the semester, start with Hermes and the vault. Add OpenCode, Cline, Zed with an external agent, or another coding agent when the task is a repository. Pick with the job table, not with the star count.
