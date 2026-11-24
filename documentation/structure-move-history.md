@@ -13,10 +13,10 @@ The reasons for the structure, and its doubts, are on [why this structure](why-t
 
 ## Summary
 
-- Changed paths against `main`: **164** (96 renamed, 51 added, 12 modified, 5 removed). Git pairs a rename only when the files stay at least 30% alike, so some heavily rewritten pages count as added.
+- Changed paths against `main`: **164** (94 renamed, 51 added, 12 modified, 7 removed). Git pairs a rename only when the files stay at least 30% alike, so some heavily rewritten pages count as added.
 - Moves use `git mv`. Each commit has at most 30 changed files. Links, wikilinks and inline paths were updated in the same commit group.
 - `course/sessions/` became `course/SESSIONS/` in two commits through a temporary name, because Windows and macOS folders ignore case.
-- Five files were removed from the repo: four old 13-session files and the structure proposal. A copy of each is kept outside the repo, in the teacher vault. See "Removed files".
+- Seven files were removed from the repo: four old 13-session files, the structure proposal and two Academic AI source files (a PDF and a PPTX). A copy of each is kept outside the repo. See "Removed files".
 - First series: the seminar-first layout, three draft entry points (`README.md`, `course/START-HERE.md`, `course/SEMINAR.md`), Session 03 as the practical install session, the install guides, the tool comparison as one canonical page, and the removal of the lecturer first name from tracked text and file names.
 - Second series: the changes listed in "Second series of moves".
 
@@ -83,8 +83,6 @@ Old path, then new path.
 | `course/setup/Local LLM Coding with Hermes.md` | `course/PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md` |
 | `course/minimum-path.md` | `course/PROJECT-WORK/01_minimum-path.md` |
 | `course/syllabus/references.md` | `course/REFERENCES/bibliography.md` |
-| `RichtlinienUndLeitblaetter/Benutzerhandbuch Academic AI 3.0 - V2.1.pdf` | `course/REFERENCES/guidelines-and-handbooks/academic-ai-benutzerhandbuch-v2-1-de.pdf` |
-| `RichtlinienUndLeitblaetter/Academic_AI_Vortrag_10_2026.pptx` | `course/REFERENCES/guidelines-and-handbooks/academic-ai-vortrag-10-2026-de.pptx` |
 | `course/syllabus/links-from-clippings.md` | `course/REFERENCES/primary-sources.md` |
 | `course/sessions/01-welcome-and-landscape.md` | `course/SESSIONS/01-welcome-and-landscape.md` |
 | `course/sessions/02-agent-harness-and-wiki-architecture.md` | `course/SESSIONS/02-agent-harness-and-wiki-architecture.md` |
@@ -209,14 +207,14 @@ Redundancy decisions:
 
 ## Guidelines and handbooks
 
-The two source documents came from a folder `RichtlinienUndLeitblaetter/` outside `course/`. They are now in `course/REFERENCES/guidelines-and-handbooks/`. Each has an English Markdown translation. A source file is removed only when an official online URL for that exact file is verified.
+The two source documents were in a folder `RichtlinienUndLeitblaetter/` outside `course/`. Each now has an English Markdown translation in `course/REFERENCES/guidelines-and-handbooks/`. The course author approved the removal of both source files from Git on 24 Nov 2026. Copies stay outside the repo. No public URL was verified for either source, and nobody has independently checked the translations against the originals.
 
-| Source | English Markdown | Official online URL | Original file |
+| Source used for the translation | English Markdown | Public source | Source file |
 |---|---|---|---|
-| Academic AI user manual, German, version V 2.1 of 09.09.2026 | `academic-ai-user-manual.md` | None found for V 2.1. The publisher serves V 2.0 (27.07.2026), a different version: `https://www.kunstuni-linz.at/fileadmin/media/KI/0726_Benutzerhandbuch_Academic_AI_3.0-V2.0.pdf` | Kept: `academic-ai-benutzerhandbuch-v2-1-de.pdf` |
-| Academic AI presentation, German, October 2026 | `academic-ai-presentation.md` | None found. The publisher is not stated in the file | Kept: `academic-ai-vortrag-10-2026-de.pptx` |
+| Academic AI user manual, German, version V 2.1 of 09.09.2026 | `academic-ai-user-manual.md` | No public URL of V 2.1 was found. The page links the older official V 2.0 (27.07.2026): `https://www.kunstuni-linz.at/fileadmin/media/KI/0726_Benutzerhandbuch_Academic_AI_3.0-V2.0.pdf` | Removed from Git (old path `RichtlinienUndLeitblaetter/Benutzerhandbuch Academic AI 3.0 - V2.1.pdf`) |
+| Academic AI presentation, German, October 2026 | `academic-ai-presentation.md` | No publisher and no public original URL were found | Removed from Git (old path `RichtlinienUndLeitblaetter/Academic_AI_Vortrag_10_2026.pptx`) |
 
-Both originals stay until the course author decides. No URL was invented. The translations say so in their headers.
+The translation headers and the folder README say this. The V 2.0 link is for orientation only and does not confirm the text of V 2.1. The files stay in the Git history of `main`.
 
 ## Added files
 
@@ -289,11 +287,14 @@ Both originals stay until the course author decides. No URL was invented. The tr
 
 ## Removed files
 
-The course author approved each removal. Five files are listed below.
+The course author approved each removal. Seven files are listed below.
 
 - The four `archive-13-session-plan` files were copied to the teacher vault first. The copies are byte-identical (SHA-256 checked). They sit outside the repo.
+- The two Academic AI source files (`RichtlinienUndLeitblaetter/`) are covered under "Guidelines and handbooks".
 - `course/teacher/potential-structure-change.md` is the structure proposal. The course author approved its removal on 24 Nov 2026. A copy stays in the teacher vault, outside the repo. Its reasoning is on [why this structure](why-this-structure.md).
 
+- `RichtlinienUndLeitblaetter/Academic_AI_Vortrag_10_2026.pptx`
+- `RichtlinienUndLeitblaetter/Benutzerhandbuch Academic AI 3.0 - V2.1.pdf`
 - `course/sessions/archive-13-session-plan/06-mcp-and-tools.md`
 - `course/sessions/archive-13-session-plan/10-authorship-labour-platforms.md`
 - `course/sessions/archive-13-session-plan/11-local-ecology-when-not.md`
@@ -314,7 +315,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | Check | Result | Pass 1 | Pass 2 |
 |---|---|---|---|
 | Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) |
-| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once | 123 Markdown files, 1425 relative links, 0 broken |
+| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After the two source files were removed: 1419 links, 0 broken | 123 Markdown files, 1419 relative links, 0 broken |
 | Stale old-path scan | PASS | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) |
 | Frontmatter scan (reader-label field, malformed blocks) | PASS | 0 reader-label fields, 0 malformed blocks | 0 reader-label fields, 0 malformed blocks |
 | Name scan (case-insensitive, text, file names, deck XML) | PASS | 0 in 129 text files, 159 file names and 2 deck packages | 0 in 129 text files, 159 file names and 2 deck packages |
@@ -326,12 +327,13 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | README entry points | PASS | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links |
 | Stub pages, `teacher` paths, lowercase `sessions` | PASS | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` |
 | Em dashes in new text | PASS with notes | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
+| Tracked binary scan (guideline originals removed) | PASS | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names |
 | Scripts compile | PASS | 5 files compile | 5 files compile |
 | Commit size and author | PASS | At most 30 files per commit. One author: `kleinstkariert` | At most 30 files per commit. One author: `kleinstkariert` |
 
 ## Remaining risks
 
-- The Academic AI user manual has no verified online copy of version V 2.1. The publisher serves V 2.0 only, a different version. The presentation has no found online source and no named publisher. Both original files stay in `course/REFERENCES/guidelines-and-handbooks/` until the course author decides.
+- The English translations rest on a German manual V 2.1 (09.09.2026) and a German presentation (October 2026). No public URL of V 2.1, and no publisher or public URL of the presentation, was found. The older official V 2.0 manual is linked for orientation only. The two source files are no longer in the repo. They stay in the Git history of main and outside the repo.
 - The two English translations were written for this branch. Nobody has compared them with the originals line by line. The manual figures appear as captions only. Check them before class.
 - The official manual says institution admins can create API clients, and it points to API documentation. `course/PRACTICE/03-models-and-providers/academic-ai-austria.md` and the install order say campus academic AI has no API for agents. This was not changed. Ask the campus admin.
 - The pptx and odp were patched in the speaker notes only. The odp has 56 pages and the pptx has 57 slides, so the two decks were not in sync before and still are not. Several notes use short paths such as `course/what-is-mcp.md` that never resolved. A full rebuild was not run, as AGENTS.md asks.
@@ -354,7 +356,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 
 ## Human approval required
 
-- Decide on the two original files in `course/REFERENCES/guidelines-and-handbooks/`: keep them, supply an official URL for V 2.1 and the presentation, or accept the V 2.0 manual URL and drop the PDF.
+- Supply an official URL for the V 2.1 manual or the presentation if one becomes known. Until then the pages keep their present wording.
 - Confirm the folder name `research/software&DataManagement/` and the placement of `hardware/` inside it.
 - Review the three entry points: `README.md`, `course/START-HERE.md`, `course/SEMINAR.md`.
 - Decide whether the removal of the four archive files and the structure proposal stays.
