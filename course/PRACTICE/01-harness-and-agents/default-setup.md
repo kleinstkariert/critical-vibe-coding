@@ -13,7 +13,6 @@ tags:
   - llm-wiki
   - hermes
   - obsidian
-audience: student
 canonical: true
 ---
 

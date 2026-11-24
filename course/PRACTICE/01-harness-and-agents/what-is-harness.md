@@ -4,7 +4,6 @@ date: 2026-10-20
 tags:
   - course
   - concepts
-audience: student
 status: current
 canonical: true
 ---

@@ -6,7 +6,6 @@ tags:
   - howto
   - install
   - macos
-audience: student
 status: current
 canonical: true
 ---

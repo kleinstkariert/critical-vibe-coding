@@ -5,7 +5,6 @@ tags:
   - course
   - howto
   - llm-wiki
-audience: student
 status: current
 canonical: true
 ---

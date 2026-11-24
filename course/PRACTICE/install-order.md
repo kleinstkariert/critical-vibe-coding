@@ -4,7 +4,6 @@ date: 2026-10-22
 tags:
   - course
   - students
-audience: student
 status: current
 canonical: true
 ---

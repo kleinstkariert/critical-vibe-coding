@@ -6,7 +6,6 @@ tags:
   - howto
   - install
   - linux
-audience: student
 status: current
 canonical: true
 ---

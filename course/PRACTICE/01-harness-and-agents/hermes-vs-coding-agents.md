@@ -8,7 +8,6 @@ tags:
   - cursor
   - claude-code
   - cowork
-audience: student
 status: current
 canonical: true
 ---

@@ -5,7 +5,6 @@ tags:
   - course
   - academic-ai
   - austria
-audience: student
 status: current
 canonical: true
 ---

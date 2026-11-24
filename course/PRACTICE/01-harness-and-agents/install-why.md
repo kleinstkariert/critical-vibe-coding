@@ -5,7 +5,6 @@ tags:
   - course
   - howto
   - install
-audience: student
 status: current
 canonical: true
 ---

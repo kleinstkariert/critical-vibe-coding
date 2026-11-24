@@ -6,7 +6,6 @@ tags:
   - howto
   - local-llm
   - hardware
-audience: student
 status: current
 canonical: true
 ---

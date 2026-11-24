@@ -1,6 +1,5 @@
 ---
 title: Practice
-audience: student
 status: current
 canonical: true
 ---

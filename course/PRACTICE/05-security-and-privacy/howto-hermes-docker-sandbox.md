@@ -7,7 +7,6 @@ tags:
   - hermes
   - docker
   - sandbox
-audience: student
 status: current
 canonical: true
 ---

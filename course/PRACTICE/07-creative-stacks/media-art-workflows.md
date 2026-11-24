@@ -10,7 +10,6 @@ tags:
   - deep-dive
   - media-art
   - authorship
-audience: student
 canonical: true
 ---
 

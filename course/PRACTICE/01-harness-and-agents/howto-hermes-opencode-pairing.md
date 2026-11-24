@@ -7,7 +7,6 @@ tags:
   - hermes
   - opencode
   - pairing
-audience: student
 status: current
 canonical: true
 ---

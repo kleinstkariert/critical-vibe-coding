@@ -6,7 +6,6 @@ tags:
   - howto
   - install
   - windows
-audience: student
 status: current
 canonical: true
 ---

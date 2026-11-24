@@ -6,7 +6,6 @@ tags:
   - howto
   - opencode
   - coding-agent
-audience: student
 status: current
 canonical: true
 ---

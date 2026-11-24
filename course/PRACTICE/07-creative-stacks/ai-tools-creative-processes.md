@@ -5,7 +5,6 @@ tags:
   - course
   - research
   - creative-ai
-audience: student
 status: current
 canonical: true
 ---

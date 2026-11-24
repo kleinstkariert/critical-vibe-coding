@@ -5,7 +5,6 @@ tags:
   - course
   - howto
   - harness
-audience: student
 status: current
 canonical: true
 ---

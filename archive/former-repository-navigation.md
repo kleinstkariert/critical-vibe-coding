@@ -1,6 +1,5 @@
 ---
 title: README before the seminar-first structure
-audience: archive
 status: deprecated
 canonical: false
 ---
