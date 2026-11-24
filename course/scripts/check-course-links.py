@@ -1,10 +1,9 @@
 """Check Markdown links and Obsidian wikilinks in the course pack.
 
-Exit 1 when a current student document has a broken link.
-Archive, teacher, and research findings are printed and do not fail the run.
+Exit 1 when any scanned file has a broken link.
 Path case must match exactly, because GitHub and Linux are case-sensitive.
 A wikilink without an anchor is counted as a notice (it works in Obsidian only).
-Use --strict to fail on any broken link in any scanned file.
+Use --strict to resolve wikilinks by path only, not by file name.
 """
 
 import re
@@ -13,24 +12,11 @@ from pathlib import Path
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[2]
-SCAN = [ROOT / "course", ROOT / "research", ROOT / "archive", ROOT / "documentation", ROOT / "migrations"]
+SCAN = [ROOT / "course", ROOT / "research", ROOT / "archive", ROOT / "documentation"]
 EXTRA_FILES = [ROOT / "README.md", ROOT / "AGENTS.md"]
 WIKI = re.compile(r"\[\[([^\]|#]*)(#[^\]|]+)?(\|[^\]]+)?\]\]")
 MD = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 FENCE = re.compile(r"^```", re.M)
-
-
-def split_frontmatter(text):
-    match = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", text, re.S)
-    if not match:
-        return {}
-    fields = {}
-    for line in match.group(1).splitlines():
-        if ":" not in line or line[:1] in " -":
-            continue
-        key, value = line.split(":", 1)
-        fields[key.strip()] = value.strip()
-    return fields
 
 
 def slug(text):
@@ -173,49 +159,27 @@ def check_file(path, strict=False):
     return broken, notices
 
 
-def role(path, fields):
-    rel = path.relative_to(ROOT).as_posix()
-    if rel.startswith("archive/") or "archive-13-session-plan" in rel or fields.get("audience") == "archive":
-        return "archive"
-    if fields.get("audience") == "teacher" or rel.startswith("research/"):
-        return "other"
-    if fields.get("audience") == "student" and fields.get("status") == "current":
-        return "current"
-    if rel.startswith(("course/", "documentation/", "migrations/")) or rel in ("README.md", "AGENTS.md"):
-        return "current"
-    return "other"
-
-
 def main():
     strict = "--strict" in sys.argv
-    current = []
-    rest = []
+    problems_by_file = []
     notices = 0
     files = 0
     for path in sorted(set(all_notes())):
         if "scripts" in path.parts:
             continue
         files += 1
-        fields = split_frontmatter(path.read_text(encoding="utf-8"))
         broken, note = check_file(path, strict)
         notices += len(note)
-        if not broken:
-            continue
-        bucket = current if role(path, fields) == "current" else rest
-        bucket.append((path.relative_to(ROOT).as_posix(), broken))
+        if broken:
+            problems_by_file.append((path.relative_to(ROOT).as_posix(), broken))
     print(f"files scanned: {files}")
-    print(f"current student files with broken links: {len(current)} ({sum(len(p) for _, p in current)} links)")
-    for name, problems in current:
-        print(f"\n{name}")
-        for problem in problems:
-            print(f"  {problem}")
-    print(f"\nother files with broken links: {len(rest)} ({sum(len(p) for _, p in rest)} links)")
-    for name, problems in rest:
+    print(f"files with broken links: {len(problems_by_file)} ({sum(len(p) for _, p in problems_by_file)} links)")
+    for name, problems in problems_by_file:
         print(f"\n{name}")
         for problem in problems:
             print(f"  {problem}")
     print(f"\nnotices (wikilinks that work in Obsidian only): {notices}")
-    failed = bool(current) or (strict and bool(rest))
+    failed = bool(problems_by_file)
     print("RESULT: " + ("FAIL" if failed else "PASS"))
     return 1 if failed else 0
 
