@@ -52,6 +52,8 @@ The reasons for the structure, and its doubts, are on [why this structure](why-t
 | Templates | New folder `course/templates/` with nine blank forms and an index. Blank tables moved out of the guide pages |
 | Tool comparison links | One link to the canonical comparison was added where Hermes is optional or alternatives are valid (see "Tool comparison audit") |
 | Deck speaker notes | The pptx and odp notes point to the moved hardware research note. Only the notes XML was patched |
+| API wording | `academic-ai-austria.md` and `install-order.md` now describe the Academic AI web chat for students and the administrator-managed API clients. The manual covers API clients. The restriction to certified employees is the course author's statement, marked as such |
+| Course map date | `generate-course-map.py` takes `--verified-on YYYY-MM-DD` (validated) and `--check`. The map was regenerated for 2026-11-24. `AGENTS.md` says how to regenerate |
 | Python cache | One accidental `.pyc` file was removed from the index. `.gitignore` now ignores Python caches |
 
 ## Renamed and moved files
@@ -315,18 +317,18 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | Check | Result | Pass 1 | Pass 2 |
 |---|---|---|---|
 | Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) |
-| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After the two source files were removed: 1419 links, 0 broken | 123 Markdown files, 1419 relative links, 0 broken |
+| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After later edits: 1424 links, 0 broken | 123 Markdown files, 1424 relative links, 0 broken |
 | Stale old-path scan | PASS | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) |
 | Frontmatter scan (reader-label field, malformed blocks) | PASS | 0 reader-label fields, 0 malformed blocks | 0 reader-label fields, 0 malformed blocks |
 | Name scan (case-insensitive, text, file names, deck XML) | PASS | 0 in 129 text files, 159 file names and 2 deck packages | 0 in 129 text files, 159 file names and 2 deck packages |
 | Local machine path scan | PASS | 0 (one match is the word OneDrive, a cloud product) | 0 (one match is the word OneDrive, a cloud product) |
-| Duplicate canonical content scan | PASS with notes | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison |
+| Duplicate canonical content scan | PASS (install-guide repetition dismissed) | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison |
 | Content loss scan against `origin/main` | PASS | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits |
 | Course map generator | PASS | 89 rows, 0 reader-label columns | 89 rows. One stale page title found and regenerated |
 | Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML |
 | README entry points | PASS | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links |
 | Stub pages, `teacher` paths, lowercase `sessions` | PASS | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` |
-| Em dashes in new text | PASS with notes | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
+| Em dashes in new text | PASS (older em dashes dismissed) | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
 | Tracked binary scan (guideline originals removed) | PASS | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names | Only the lecture deck pair (pptx, odp) remains as tracked document binaries. 0 guideline originals tracked, 0 references to their file names |
 | Scripts compile | PASS | 5 files compile | 5 files compile |
 | Commit size and author | PASS | At most 30 files per commit. One author: `kleinstkariert` | At most 30 files per commit. One author: `kleinstkariert` |
@@ -335,7 +337,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 
 - The English translations rest on a German manual V 2.1 (09.09.2026) and a German presentation (October 2026). No public URL of V 2.1, and no publisher or public URL of the presentation, was found. The older official V 2.0 manual is linked for orientation only. The two source files are no longer in the repo. They stay in the Git history of main and outside the repo.
 - The two English translations were written for this branch. Nobody has compared them with the originals line by line. The manual figures appear as captions only. Check them before class.
-- The official manual says institution admins can create API clients, and it points to API documentation. `course/PRACTICE/03-models-and-providers/academic-ai-austria.md` and the install order say campus academic AI has no API for agents. This was not changed. Ask the campus admin.
+- The API wording was corrected in `course/PRACTICE/03-models-and-providers/academic-ai-austria.md` and `course/PRACTICE/install-order.md`. The claim that the function is restricted to certified employees, and that students cannot create or use API clients, is the course author's statement. The manual does not contain it. Other pages still use the older short wording (usually no agent API key): `course/SESSIONS/02-agent-harness-and-wiki-architecture.md`, `course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md`, the Session 02 slideshow note, and the two hardware notes `research/software&DataManagement/hardware/spark-gb10-recommended-system.md` and `.../hardware/README.md`. They were not changed.
 - The pptx and odp were patched in the speaker notes only. The odp has 56 pages and the pptx has 57 slides, so the two decks were not in sync before and still are not. Several notes use short paths such as `course/what-is-mcp.md` that never resolved. A full rebuild was not run, as AGENTS.md asks.
 - The ignored local folder `archive/` inside the first slideshow folder is not tracked. Move it by hand in each existing checkout.
 - The teacher vault is not updated. It still holds 19 vault-only files. Eight hardware notes are now also in the repo, so their vault originals are duplicates until the course author decides. Sync additively. A mirror-style sync would delete teacher-only files.
@@ -349,10 +351,13 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 - Case-only rename: a case-sensitive file system or a Nextcloud sync client may keep the old lowercase folder next to `SESSIONS`. Check each checkout after the pull.
 - Pull requests 17 and 18 were not touched or closed. Their content is integrated here. Pull request 16 was not touched and may conflict with the new paths.
 - The course-repo-structure skill outside the repo still describes the old layout and the delete rule.
-- Older moved text still holds about 440 em dashes in 36 files. Two added pages carry old em dashes in titles of external works: `archive/former-repository-navigation.md` and `course/REFERENCES/peer-courses.md`. New text written for this branch has none.
-- The three OS install guides repeat many sentences on purpose, because each guide stands alone.
 - The eight session pages do not use one common template. This was not decided.
 - Placeholders such as `C:/path/to/lo-profile` and `C:/Windows/Fonts` remain. They are not machine paths of the teacher.
+
+## Dismissed findings
+
+- Em dashes in older moved text (about 446 in 36 files, and 24 in two added pages that keep titles of external works). The course author reviewed this and requires no action. Old prose is not rewritten.
+- Repeated sentences across the three OS install guides (Linux, macOS, Windows). Intentional, because each guide stands alone. The course author requires no action. The guides are not deduplicated.
 
 ## Human approval required
 

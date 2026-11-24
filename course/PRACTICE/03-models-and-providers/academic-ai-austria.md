@@ -23,13 +23,22 @@ Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-age
 
 | Path | Typical offer | Fits Hermes / agents? |
 |---|---|---|
-| **University chat / web portal** | Browser UI for a hosted model (campus login) | Usually **no** — no API key for agents |
+| **University chat / web portal** | Browser UI for a hosted model (campus login). Students use this | **No.** It is not an agent endpoint for student projects |
+| **Administrator-managed API client** (Academic AI) | Created by institution administrators, outside the web chat. See [API access](#api-access-in-academic-ai) | **Not for students.** Students cannot create or use it |
 | **Academic API / gateway** | Keyed endpoint for research projects | Rare; often proposal-gated |
 | **HPC / AI Factory GPU hours** | Train / fine-tune on EuroHPC or national systems | **Not** a drop-in ChatGPT replacement; batch jobs, not daily agent chat |
 | **Commercial API** (OpenAI, Anthropic, …) | Keys students buy or get via credits | Yes — default agent path in this course |
 | **Local / own hardware** | Run open weights yourself | Yes — see [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
-*requirement for class honesty:* If Kunstuni / UFG academic AI is **chat-only** and has **no agent API**, say so in session 2 (model landscape). Do not pretend Hermes can “just use” it.
+*requirement for class honesty:* For students, Kunstuni / UFG academic AI is the **web chat**. Say in session 2 (model landscape) that it is **not an agent endpoint for student projects**. Do not pretend Hermes can “just use” it. Administrator-managed API access exists, but students cannot use it. See [API access](#api-access-in-academic-ai).
+
+---
+
+## API access in Academic AI
+
+- **What the manual says.** Next to the web-based interface, institution administrators can create API clients that send requests to the server. The manual points to API documentation on a page named "Academic AI - ACOmarket - TU coLAB" and prints no URL. See the translated [admin functions, API clients](../../REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#6-admin-functions) and the [summary](../../REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#9-summary). The manual does not say who may act as administrator. It does not say whether the Kunstuni instance has API clients.
+- **What the course author states.** The function is restricted to certified employees. Students cannot create or use these API clients. This is the course author's statement of policy. The manual does not contain it, and we have not verified it.
+- **What this means for the course.** Students have the web chat. It is not an agent endpoint for student projects. Agent work uses a personal or commercial key, a hosted endpoint, or a local model.
 
 ---
 
@@ -38,7 +47,7 @@ Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-age
 *technical suggestion until verified:*
 
 - Students should plan on **personal / commercial API keys**, **EU-hosted commercial**, or **local models** for agent work.
-- Campus academic AI (if any) is a **bonus for interactive exploration**, not the agent backbone — unless we confirm an API or self-hosted endpoint.
+- Campus academic AI is a **bonus for interactive exploration** in the web chat, not the agent backbone. Students cannot use its administrator-managed API clients.
 - Kunstuniversität Linz is **not** listed among ASC free partner universities (TU Wien, Uni Wien, BOKU, Innsbruck, TU Graz, Uni Graz, JKU, …). Access to ASC would likely be **pay-per-use** or via a partner project — inquire; do not promise free HPC.
 
 ASC access overview: https://asc.ac.at/access/

@@ -16,7 +16,7 @@ canonical: true
 ## Order
 
 1. Knowledge store with **phone sync**: default Obsidian; **alternatives allowed**. See [knowledge store options](02-knowledge-bases/knowledge-store-options.md) and [Obsidian setup and sync](02-knowledge-bases/howto-obsidian-setup-and-sync.md).
-2. Note which **LLM access** you already have. Campus academic AI has **no API for agents**. See [academic AI in Austria](03-models-and-providers/academic-ai-austria.md).
+2. Note which **LLM access** you already have. Campus academic AI is a web chat for students. It is **not an agent endpoint for student projects**: administrators can create API clients (certified employees only, per the course author), and students cannot use them. See [API access in academic AI](03-models-and-providers/academic-ai-austria.md#api-access-in-academic-ai) and the [manual, admin functions](../REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#6-admin-functions).
 3. **Hermes Agent**, installed together in Session 03. A free-to-use hosted endpoint to start: Nemotron 3 Ultra on OpenRouter. See [Hermes setup](01-harness-and-agents/howto-hermes-setup.md) section 3. Words and the classroom route: [default setup](01-harness-and-agents/default-setup.md) section 4.
 4. Skim **harness**: [what is a harness](01-harness-and-agents/what-is-harness.md) (Session 02).
 5. Prompting and chat versus reasoning: [prompting guide](03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) (Session 03).

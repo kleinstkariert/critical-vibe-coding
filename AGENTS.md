@@ -35,6 +35,7 @@ After each meaningful change:
 
 1. Confirm markdown links resolve to existing files when you add wiki links.
 2. For code under `course/SESSIONS/lectures/**/`, do not run generators that rebuild decks unless asked.
+   The course map is not a deck. Run `python course/scripts/generate-course-map.py --check` after you change a page title, status or location. It writes nothing. If it reports STALE, regenerate with `python course/scripts/generate-course-map.py --verified-on YYYY-MM-DD` and use today's date. An invalid date stops the script and leaves the map unchanged.
 3. Report changed files and remaining risks.
 4. Stop after three failed repair attempts on the same check.
 
