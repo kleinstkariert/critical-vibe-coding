@@ -1,10 +1,10 @@
 ---
-title: README before the seminar-first structure
+title: Former repository navigation
 status: deprecated
 canonical: false
 ---
 
-This is a copy of the repository README from before the structure move of 2026. Links point to the new locations.
+This page is the navigation text that was the repository README before the structure move of 2026. It is kept for reference. Links point to the new locations. The current entry page is the [repository README](../README.md).
 
 # Critical Vibe Coding
 
@@ -18,7 +18,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Language | English |
 | Required work | The [minimum path](../course/PROJECT-WORK/01_minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
 | Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). The lecturer installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
-| Start here | [`../course/PROJECT-WORK/01_minimum-path.md`](../course/PROJECT-WORK/01_minimum-path.md) · [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md) |
+| Start here | [`../course/START-HERE.md`](../course/START-HERE.md) · [`../course/PROJECT-WORK/01_minimum-path.md`](../course/PROJECT-WORK/01_minimum-path.md) |
 
 ---
 
@@ -27,7 +27,7 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 | Need | File |
 |---|---|
 | What you must do | [`../course/PROJECT-WORK/01_minimum-path.md`](../course/PROJECT-WORK/01_minimum-path.md) |
-| Install order + first week (*optional extension*) | [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md) |
+| Install order (*optional extension*) | [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md) |
 | Short syllabus / session map | [`../course/SESSIONS/overview/course-outline.md`](../course/SESSIONS/overview/course-outline.md) |
 | Full timeline + milestones | [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview/timeline.md) |
 | Weekly session notes | [`../course/SESSIONS`](../course/SESSIONS) |
