@@ -45,7 +45,7 @@ That is a reason to try it. It is not proof that it works.
 
 ## One rule for all pages: position says purpose
 
-A page has no label for its reader. We removed the old `audience` field. A reader should learn what a page is for from three things: where it sits, its title, and its short description. A page keeps `status` and `canonical` only where they help, for example to mark a draft or the one page that holds a fact.
+A page has no label for its reader. We removed the old frontmatter field that named one. A reader should learn what a page is for from three things: where it sits, its title, and its short description. A page keeps `status` and `canonical` only where they help, for example to mark a draft or the one page that holds a fact.
 
 Weak point: this works only if the folders and titles are honest. If a note sits in the wrong folder, nothing else tells the reader.
 
