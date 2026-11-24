@@ -1,7 +1,7 @@
 """Regenerate course/course-map.md from the status fields of the documents.
 
-The map follows the folder layout. A page has no audience label.
-Its purpose comes from its folder, its title, and its short description.
+The map follows the folder layout.
+The purpose of a page comes from its folder, its title, and its short description.
 """
 
 import os

@@ -6,6 +6,8 @@ canonical: false
 
 # Why this structure
 
+This page gives the reasons and the doubts. It does not list moves or checks. The record of what moved, and what was checked, is [structure move history](structure-move-history.md).
+
 ## Status of this page
 
 This is a dynamic experiment. We do not know if this structure is good.
@@ -32,39 +34,27 @@ The two sit side by side. Neither one is a mandatory track.
 
 - The seminar (how we meet, how we talk) is the centre.
 - Theory and practice are two parallel resources for the seminar.
-- Project work is where each student documents their own practice.
+- Project work is where each student documents their own practice. Templates hold the blank forms.
 - Sessions are the timeline.
 - References hold sources and facts that change.
+- Research notes stay outside the course pages and are sorted by purpose.
 
 The idea comes from a proposal note. The note is no longer in the repository. Its reasoning is on this page.
 Students were asked about the change, and they wanted it.
 That is a reason to try it. It is not proof that it works.
 
-## The layout
+## One rule for all pages: position says purpose
 
-```text
-README.md
-course/
-  START-HERE.md
-  SEMINAR.md
-  THEORY/
-  PRACTICE/
-  SESSIONS/
-  PROJECT-WORK/
-  REFERENCES/
-research/
-research/externalReferences/UnlearGestaltungAI_Mainz/
-archive/
-documentation/
-migrations/
-```
+A page has no label for its reader. We removed the old `audience` field. A reader should learn what a page is for from three things: where it sits, its title, and its short description. A page keeps `status` and `canonical` only where they help, for example to mark a draft or the one page that holds a fact.
+
+Weak point: this works only if the folders and titles are honest. If a note sits in the wrong folder, nothing else tells the reader.
 
 ## Reasons, folder by folder
 
 These are arguments, not facts. Each one has a weak point.
 
-**README.** It links to seven pages only. We hoped a short list would show the shape of the course at once.
-Weak point: seven links may still be too many, and a reader may skip the seminar page.
+**README.** It links to a short list of pages. We hoped a short list would show the shape of the course at once.
+Weak point: a reader may still skip the seminar page.
 
 **START-HERE.** A short orientation page. It is not an install page.
 Weak point: it has to be short, and short pages leave things out.
@@ -78,48 +68,43 @@ The point is a common surface for discussion, not a fixed curriculum.
 Weak point: topics overlap. A note about data centres belongs to ecology, economy and labour at once. We had to choose one folder.
 
 **PRACTICE.** The technical notes, sorted by question: what can an agent do, how is knowledge organised, which model, where does it run, where can it read and write, how are tools connected, what about creative stacks, how is work checked.
-It also holds the install guides for Windows, Linux and macOS and the starter knowledge base. Session 03 uses them.
+It also holds the install guides and the [install order](../course/PRACTICE/install-order.md). That page only gives the order for the Hermes example. It does not repeat the course.
 We sorted by question because we did not want to suggest a mandatory setup path.
-Weak point: a beginner may miss a clear order. The old install-order page is still there for that reason.
+Weak point: a beginner may miss a clear order outside the install example.
 
-**SESSIONS.** The eight session notes stay the main timeline. Session 03 is a practical install session: check-in, student input, break, and an optional join-in install. It has no Docker baseline.
-We moved the syllabus pages (outline, rhythm, timeline, brief) and the lectures here, because they describe the meetings.
-Weak point: this makes the folder mixed. Slideshows and generators now live inside it.
-The proposal also asked for one template for all session pages. We did not do that yet.
+**SESSIONS.** The eight session notes stay the main timeline. Syllabus pages and lectures sit here, because they describe the meetings.
+Weak point: this makes the folder mixed. Slideshows and generators live inside it.
+We did not make one template for all session pages.
 
-**PROJECT-WORK.** The documents students need for their own practice.
-The minimum path is the required work. The project path covers proposal, midpoint and final in one page. Provenance includes the process log. Verification and reflection are short templates. The interface score is an optional scaffold for later.
-Weak point: the templates mostly link to older notes and add little new teaching. We may have merged pages that students would rather read apart.
+**PROJECT-WORK and templates.** The guide pages are numbered in the order a student meets them. The README explains the sequence. The blank forms are in a separate `templates/` folder, so that a guide page explains and a template only asks.
+Weak point: two folders mean two places to look. A numbered list also suggests an order that a student with another plan may not follow.
 
-**REFERENCES.** Bibliography, primary sources, peer courses, a tools and documentation page, and a dated page for models, prices, limits and hardware.
+**REFERENCES.** Bibliography, primary sources, peer courses, a tools and documentation page, a dated page for models, prices, limits and hardware, and English translations of guidelines and handbooks.
 Keeping unstable facts apart from the seminar texts should make updates easier.
-Weak point: the dated page holds only a first set of rows. Most volatile facts are still inside the older notes, and nobody owns the updates yet.
+Weak point: the dated page holds only a first set of rows, and nobody owns the updates yet. A translation can drift from its original.
 
-**research/ and research/externalReferences/UnlearGestaltungAI_Mainz/.** Both stay as they were. They are research material, not course pages.
-The proposal asked why the Mainz notes are not inside research. We did not answer that question. We left them where they were, because links point there.
+**research/.** Research notes sorted by main purpose, not by the words they contain. A note about a tool, a store or a machine is in `software&DataManagement/`. A note about what a technology does to people, work or the planet stays in `research/`. Notes by other groups are in `externalReferences/`.
+Weak point: some notes serve both purposes. We used the primary purpose, and the choice is partly arbitrary. The `&` in a folder name is unusual and can need care in some tools.
 
-**archive/.** The old README. Nothing is deleted from history.
+**archive/.** Old navigation text, kept for reference. Nothing is deleted from history.
 The old 13-session files were removed from the repository. Their reusable parts moved into current pages.
+
+**documentation/.** Why we did this, and the record of the move. We merged the old separate folder for the record into this one, because both explain the structure. They should not repeat each other: this page argues, the record states facts.
 
 ## Arguments against, and doubts
 
 - A new structure costs readers time. People who knew the old paths must learn new ones.
 - Technical and critical work are not really separate. Splitting them in folders may hide how they connect.
-- Numbered folders suggest an order, even if we say there is none.
+- Numbered folders and numbered files suggest an order, even if we say there is none.
 - Some files could sit in two places. Our choices are partly arbitrary.
-- We moved files and fixed links, but we did not rewrite the texts. Some old texts still describe the old layout.
+- We moved files and fixed links, but we did not rewrite most texts. Some old texts still describe the old layout.
 - The structure was designed by the teacher. Students approved the idea, but not each file location.
-
-## Later changes on the same branch
-
-After the first move, we added material from two open pull requests: the install guides and the starter knowledge base from one, a tool comparison from the other. The comparison is now one canonical page in `research/`. We also removed the lecturer's first name from tracked text and file names, and merged the stub pages that had no content of their own. The full list is in the [migration report](structure-move-history.md).
 
 ## What we did not decide
 
 - Whether all session pages should follow one template.
 - Whether the numbered topic folders in THEORY and PRACTICE should stay.
 - Who keeps the dated models, prices, limits and hardware page up to date, and how often.
-- Whether `research/` and the Mainz notes should be merged.
 
 ## What would make us change it
 
