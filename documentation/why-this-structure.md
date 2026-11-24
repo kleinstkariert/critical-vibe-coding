@@ -54,7 +54,7 @@ course/
   PROJECT-WORK/
   REFERENCES/
 research/
-UnlearGestaltungAI_Mainz/
+research/externalReferences/UnlearGestaltungAI_Mainz/
 archive/
 documentation/
 migrations/
@@ -96,7 +96,7 @@ Weak point: the templates mostly link to older notes and add little new teaching
 Keeping unstable facts apart from the seminar texts should make updates easier.
 Weak point: the dated page holds only a first set of rows. Most volatile facts are still inside the older notes, and nobody owns the updates yet.
 
-**research/ and UnlearGestaltungAI_Mainz/.** Both stay as they were. They are research material, not course pages.
+**research/ and research/externalReferences/UnlearGestaltungAI_Mainz/.** Both stay as they were. They are research material, not course pages.
 The proposal asked why the Mainz notes are not inside research. We did not answer that question. We left them where they were, because links point there.
 
 **archive/.** The old README. Nothing is deleted from history.

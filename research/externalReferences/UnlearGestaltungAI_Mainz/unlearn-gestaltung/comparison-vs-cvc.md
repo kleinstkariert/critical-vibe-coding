@@ -76,12 +76,12 @@ KITeGG’s “systems” are a **federation**: one mid-scale interactive GPU clo
 
 ## Published links that sharpen the contrast
 
-The URLs are in [links from clippings](../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation). The private clips stay in the teacher vault. This note does not copy them.
+The URLs are in [links from clippings](../../../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation). The private clips stay in the teacher vault. This note does not copy them.
 
 - Tooze on the AI arms race, and Tooze on AI regulation: political economy and regulation. KITeGG stays with design education and infrastructure.
 - *The Real Cost of AI Will Shock You*: a popular ecology frame for the Session 06 input. Pair it with Koch’s anti-greenwash paragraphs. Neither source is the only authority.
 - MIT Sloan, *A new look at the economics of AI* (Acemoglu): modest productivity. KITeGG rarely does the macro GDP debate.
-- [eu ai act and datenschutz](../../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
+- [eu ai act and datenschutz](../../../../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
 
 ## Related notes
 

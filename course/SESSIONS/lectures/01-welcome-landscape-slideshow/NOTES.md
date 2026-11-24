@@ -19,7 +19,7 @@ This folder holds the **deck and images only**. Open the canonical notes instead
 | Bubble research | `research/ai-bubble-productivity-datacenter.md` |
 | Ecology research | `research/data-centers-energy-ecology-economy.md` |
 | Jobs research | `research/ai-jobs-rising-tide-productivity.md` |
-| Un/learn Gestaltung notes | `UnlearGestaltungAI_Mainz/unlearn-gestaltung/00-index.md` |
+| Un/learn Gestaltung notes | `research/externalReferences/UnlearGestaltungAI_Mainz/unlearn-gestaltung/00-index.md` |
 
 Relative from this folder:
 
