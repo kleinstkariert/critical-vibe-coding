@@ -237,7 +237,7 @@ After the vocabulary, the black and white **agentic AI loop** the lecturer chose
 
 
 
-Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
+Full explanation: [default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §3. Hardware: Session [03](../03-practical-install.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 
 
@@ -591,7 +591,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 2. **Hermes Agent** pointed at that folder: [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
 
-3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md).
+3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md).
 
 4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4).
 
@@ -629,7 +629,7 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 | **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
 | **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 

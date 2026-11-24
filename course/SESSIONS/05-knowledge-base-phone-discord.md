@@ -54,7 +54,7 @@ Bridge to the practical: today students give their own agent new tools. What may
 
 Architecture recap only (point back): [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) · quality: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves)
 
-- Live: fill `SCHEMA.md` limits; run one ingest / query / lint cycle ([karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md))
+- Live: fill `SCHEMA.md` limits; run one ingest / query / lint cycle ([karpathy llm wiki and openclaw](../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md))
 - Tools: Hermes [llm-wiki skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) · optional Obsidian plugin [karpathywiki](https://community.obsidian.md/plugins/karpathywiki) ([references](../REFERENCES/bibliography.md))
 - What "personalising" means: skills, schema, folder rules, not fine-tuning on day one
 - Hybrid: agent-writable wiki folders versus human artistic voice pages

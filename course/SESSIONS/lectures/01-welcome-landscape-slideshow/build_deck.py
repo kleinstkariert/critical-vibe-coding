@@ -341,7 +341,7 @@ def build(out: Path = OUT_PPTX):
         "**Local:** private, offline, your own rules. Expensive hardware, smaller models, your own upkeep.",
         "→ The choice is technical, economic and political at once.",
     ], question="Has anyone used an agent that edits files, not only a chat?",
-       note="Session 03 goes deeper. Research: research/local-gpu-hardware-for-llms.md.\n"
+       note="Session 03 goes deeper. Research: research/software&DataManagement/local-gpu-hardware-for-llms.md.\n"
             "Second question if time: where is authorship if the agent writes half the patch?")
     img("27", "Two rows. Standard setup: ChatGPT, or Cursor with default settings. Only the window is on your side. "
               "ChatGPT keeps chats and memory on OpenAI's servers, and for personal accounts \"Improve the model for everyone\" "
@@ -694,7 +694,7 @@ def build(out: Path = OUT_PPTX):
         "**07** Privacy: what happens with your data?",
     ], question="Groups of four: pick a session by next week.",
        note="About 15 minutes per input, at the start of the session. Session 04 is project presentations, Session 08 the finals.\n"
-            "Starting points: 02 flattening-and-the-norm.md; 03 research/local-gpu-hardware-for-llms.md and prompting-and-model-choice.md; "
+            "Starting points: 02 flattening-and-the-norm.md; 03 research/software&DataManagement/local-gpu-hardware-for-llms.md and prompting-and-model-choice.md; "
             "05 Hugging Face and OpenAI incident reports, July 2026; 06 ecology.md; 07 course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md.\n"
             "List and sources: course/SESSIONS/01-welcome-and-landscape.md and course/SESSIONS/overview/course-rhythm.md.")
     text_slide(prs, None, "Practices for this semester", [

@@ -27,9 +27,9 @@ Session 01 lecture: [01 welcome landscape lecture](../lectures/01-welcome-landsc
 
 Session 02 harness + wiki + Hermes install: [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) · [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md)
 
-Structure versus model quality: [structure vs model quality](../../../research/structure-vs-model-quality.md)
+Structure versus model quality: [structure vs model quality](../../../research/software&DataManagement/structure-vs-model-quality.md)
 
-Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · session [03 practical install](../03-practical-install.md)
+Local GPU / Apple / DGX / multi-GPU: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · howto [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) · session [03 practical install](../03-practical-install.md)
 
 Academic AI (Austria): [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md)
 
@@ -75,7 +75,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 |---|---|---|---|
 | 1 | Welcome outdoors + political-economic lecture + setup proposal | (topics chosen) | [01 welcome and landscape](../01-welcome-and-landscape.md) |
 | 2 | **Agent harness** → LLM Wiki / Obsidian structure → model landscape; **install Hermes** | Flattening | [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) |
-| 3 | **Practical install**: optional join-in light Hermes Desktop install (no Docker); hardware paths, locally runnable models and prompting as reading | Closed versus open weights as power | [03 practical install](../03-practical-install.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| 3 | **Practical install**: optional join-in light Hermes Desktop install (no Docker); hardware paths, locally runnable models and prompting as reading | Closed versus open weights as power | [03 practical install](../03-practical-install.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 | 4 | **Midpoint:** project presentations; students' semester plans | none | [04 project presentations and plans](../04-project-presentations-and-plans.md) |
 | 5 | Vault practice; phone sync; Discord bridge; **MCP** | How dangerous is AI really? (Hugging Face incident) | [05 knowledge base phone discord](../05-knowledge-base-phone-discord.md) |
 | 6 | Agent as interface, as material, as canvas | The ecology of AI | [06 agent as interface](../06-agent-as-interface.md) |
@@ -119,7 +119,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 | Local hardware howto | [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 | Prompting guide | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
 | Course rhythm | [course rhythm](course-rhythm.md) |
-| Local hardware research | [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| Local hardware research | [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 | Course outline | [course outline](course-outline.md) |
 
 Primary URLs: [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · [Hermes llm-wiki](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) · [Obsidian plugin karpathywiki](https://community.obsidian.md/plugins/karpathywiki)

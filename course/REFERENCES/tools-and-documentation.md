@@ -9,11 +9,11 @@ canonical: true
 
 This page is a pointer. It does not compare tools.
 
-**One canonical comparison:** [Vibe-coding tools and agent environments, late 2026](../../research/vibe-coding-tools-and-agent-environments.md). It defines the words (assistant agent, coding agent, agent harness, environment, editor, orchestrator, protocol) and gives dated facts on licences, model access and prices. It includes Zed and AgentCraft. Open that page first.
+**One canonical comparison:** [Vibe-coding tools and agent environments, late 2026](../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md). It defines the words (assistant agent, coding agent, agent harness, environment, editor, orchestrator, protocol) and gives dated facts on licences, model access and prices. It includes Zed and AgentCraft. Open that page first.
 
 Why the course default is an assistant plus a coding agent: [Hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md). What a harness is: [What is a harness](../PRACTICE/01-harness-and-agents/what-is-harness.md).
 
-Prices and versions that change fast: [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md). Dated machine and build options: [hardware research](../../research/hardware/README.md).
+Prices and versions that change fast: [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md). Dated machine and build options: [hardware research](../../research/software&DataManagement/hardware/README.md).
 
 ## Official documentation
 

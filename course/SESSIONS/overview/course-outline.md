@@ -93,7 +93,7 @@ Install guides (Windows / macOS / Linux): [howto hermes setup](../../PRACTICE/01
 
 Creative AI tool survey (extra): [ai tools creative processes](../../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)
 
-Local hardware (Session 03): [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md)
+Local hardware (Session 03): [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md)
 
 Class rhythm: [course rhythm](course-rhythm.md)
 
@@ -110,7 +110,7 @@ Full list: [references](../../REFERENCES/bibliography.md).
 | Authorship & labour | [labour](../../THEORY/02-labour-authorship/labour.md) · jobs evidence [ai jobs rising tide productivity](../../../research/ai-jobs-rising-tide-productivity.md) |
 | Flattening, AI and patriarchy | [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 | Ecology / data centres / when not | [ecology](../../THEORY/03-ecology-infrastructure/ecology.md) · [data centers energy ecology economy](../../../research/data-centers-energy-ecology-economy.md); IEA; Be Smart overview video |
-| Local hardware / open weights | Session 03 + [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
+| Local hardware / open weights | Session 03 + [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 
 Peer-course patterns (not required texts): HKUST AMCC6500; Birkbeck Critical and Creative AI; HM Munich *Our Br00d*. See [timeline](timeline.md#peer-courses-web-research-2026-10-18).
 

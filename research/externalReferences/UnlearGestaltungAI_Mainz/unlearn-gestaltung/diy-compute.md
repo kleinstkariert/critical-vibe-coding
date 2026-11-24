@@ -25,7 +25,7 @@ tags:
 
 ## vs CVC hardware path
 
-- Aligns in spirit with CVC Session 03 DIY / research note Paths B–C and the dated build options in [hardware research](../../../hardware/README.md).
+- Aligns in spirit with CVC Session 03 DIY / research note Paths B–C and the dated build options in [hardware research](../../../software&DataManagement/hardware/README.md).
 - Still **multi-GPU rack server** for lab concurrency — larger than CVC’s default “Ollama on your laptop / one gaming GPU / optional Mac Studio or Spark.”
 - Useful citation when teaching **own metal without HGX money**.
 

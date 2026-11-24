@@ -288,7 +288,7 @@ Update IEA and pipeline numbers before class; both move quickly.
 - **Data centres as material politics** - [[../../../research/data-centers-energy-ecology-economy]] (~20 min after the pair). Optional prep video: Be Smart, *The Real Cost of AI Will Shock You* (https://www.youtube.com/watch?v=YgoiujmwLKI). CapEx twin: [[../../../research/ai-bubble-productivity-datacenter]]
 - Prefer **IEA** + Luccioni over vendor blogs
 - Local as political/aesthetic choice - utilisation, electricity, renting vs owning ([HM Munich Our Br00d](https://mediapool.hm.edu/media/dachmarke/dm_lokal/hm_international/sprachen/coursesinenglish_1/courses_in_english_ss_26/muc_dai_5/CiE_Kursbeschreibung_Our_Br00d_Technical_Development_of_Agentic_AI_in_Artistic_Research_Geaendert.pdf))
-- [SFPC handmade](https://sfpc.study/sessions/summer-26/handmade-datasets) + LLM Wiki small-base bet ([[../../../research/karpathy-llm-wiki-and-openclaw]])
+- [SFPC handmade](https://sfpc.study/sessions/summer-26/handmade-datasets) + LLM Wiki small-base bet ([[../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw]])
 - Checklist: when AI is useful / unnecessary (*requirement* from brief)
 
 ### Optional reading (pick one)

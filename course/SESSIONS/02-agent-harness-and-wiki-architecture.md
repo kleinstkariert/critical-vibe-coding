@@ -84,7 +84,7 @@ Emphasise: **harness engineering is design**. Choosing tools, schemas and kill s
 
 ### Why we invest in structure before model shopping
 
-Research check: [structure vs model quality](../../research/structure-vs-model-quality.md) · short version in [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md#why-structure-harness-often-beats-just-a-better-model).
+Research check: [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) · short version in [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md#why-structure-harness-often-beats-just-a-better-model).
 
 Teach carefully:
 
@@ -127,7 +127,7 @@ vault/  (or wiki/)
 ```
 
 Habits: ingest → query → **lint** ([what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md)). A structured wiki does not make the notes true: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
-Karpathy pattern: [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) · gist in [references](../REFERENCES/bibliography.md).
+Karpathy pattern: [karpathy llm wiki and openclaw](../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) · gist in [references](../REFERENCES/bibliography.md).
 
 ### Obsidian's job
 
@@ -192,11 +192,11 @@ If the install fails, label Model versus Harness on a product the student alread
 | What | Link |
 |---|---|
 | Course: what is a harness | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
-| Structure versus model quality (research) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
+| Structure versus model quality (research) | [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) |
 | LangChain: Anatomy of an agent harness | https://www.langchain.com/blog/the-anatomy-of-an-agent-harness |
 | LLM Wiki standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | What is lint | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
-| Karpathy research note | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
+| Karpathy research note | [karpathy llm wiki and openclaw](../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
 | Hermes install | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 | Hermes efficient coding (harness tips) | [howto hermes efficient coding](../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) · [agents md template](../PRACTICE/01-harness-and-agents/agents-md-template.md) |
 | Hermes vs coding agents (comparison) | [hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) |

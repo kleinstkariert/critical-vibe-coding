@@ -45,7 +45,7 @@ Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session)
 
 ## Student input (theory / humanities): Closed versus open weights as power
 
-Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10). **Not** a GPU shopping list.
+Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10). **Not** a GPU shopping list.
 
 ## The light install
 
@@ -75,7 +75,7 @@ Docker is an advanced workshop, not today's baseline: [howto hermes docker sandb
 
 ## Reading: hardware (formerly teacher input, Part A, about 10 min), *practice*
 
-1. Memory math (Q4 ≈ 0.5 GB per billion parameters): board table from [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)
+1. Memory math (Q4 ≈ 0.5 GB per billion parameters): board table from [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md)
 2. **Unified memory** (Apple, Spark) versus **VRAM** (GeForce) versus **multi-GPU split** (layer/tensor, not one big VRAM)
 3. Open models that make sense for agents (**tool calling** > raw chat), thinking off by default: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md#28-chat-versus-reasoning-models)
 4. Hermes paths: Local Models one-click · Ollama endpoint ([docs](https://hermes-agent.nousresearch.com/docs/user-guide/local-models))
@@ -87,7 +87,7 @@ Docker is an advanced workshop, not today's baseline: [howto hermes docker sandb
 - OpenAI Academy: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role
 - Agent habits: goals, constraints, file paths, "do not invent", verify; Hermes context: [agents md template](../PRACTICE/01-harness-and-agents/agents-md-template.md)
 - **Reasoning versus chat:** default instruct/flash with thinking **off**; escalate for hard multi-step tasks; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md#28-chat-versus-reasoning-models)
-- **Structure / harness versus model quality:** [structure vs model quality](../../research/structure-vs-model-quality.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · Session [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md)
+- **Structure / harness versus model quality:** [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · Session [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md)
 - *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a token-cost knob, not a status symbol
 
 ## Practice for later: hardware tracks (≥45 min)
@@ -122,8 +122,8 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 | Starter knowledge base | [starter knowledge base](../PRACTICE/02-knowledge-bases/starter-knowledge-base.md) |
 | Session 03 slides | [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md) |
 | Dated model and hardware claims | [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md) |
-| Research (ready-made, DIY, multi-GPU, models) | [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md) |
-| Dated build options (DIY multi-GPU, DGX Spark class) | [hardware research](../../research/hardware/README.md) |
+| Research (ready-made, DIY, multi-GPU, models) | [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
+| Dated build options (DIY multi-GPU, DGX Spark class) | [hardware research](../../research/software&DataManagement/hardware/README.md) |
 | Student howto | [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 | Hermes Local Models | https://hermes-agent.nousresearch.com/docs/user-guide/local-models |
 | Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |

@@ -75,7 +75,7 @@ EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../THEORY/05-
 AI creative tools survey: [ai tools creative processes](../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)  
 Session 01 lecture draft: [01 welcome landscape lecture](../SESSIONS/lectures/01-welcome-landscape-lecture.md)  
 Session 02 harness + wiki: [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md)  
-Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/local-gpu-hardware-for-llms.md)  
+Local GPU / Apple / DGX research: [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md)  
 Bubble / productivity / DC financing: [ai bubble productivity datacenter](../../research/ai-bubble-productivity-datacenter.md)  
 Data centres: energy, ecology, US/world economy (Session 01 Block 5; student input Session 06): [data centers energy ecology economy](../../research/data-centers-energy-ecology-economy.md)  
 Presentation style: [presentation style](../SESSIONS/lectures/presentation-style.md)
@@ -141,7 +141,7 @@ Appended 2026-11-11 from a teacher vault scan. Research note: [ai brains critica
 | Collectives markdown files | https://docs.nextcloud.com/server/stable/user_manual/en/collectives/markdown_files.html |
 | Context Agent + MCP endpoint | https://docs.nextcloud.com/server/stable/admin_manual/ai/app_context_agent.html |
 | Context Agent repo | https://github.com/nextcloud/context_agent |
-| Research note | [llmwiki obsidian vs nextcloud collectives](../../research/llmwiki-obsidian-vs-nextcloud-collectives.md) |
+| Research note | [llmwiki obsidian vs nextcloud collectives](../../research/software&DataManagement/llmwiki-obsidian-vs-nextcloud-collectives.md) |
 
 ## Peer courses (timeline inspiration)
 
@@ -168,7 +168,7 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 | Zyte — *Harness Engineering, part 1* | https://www.zyte.com/blog/harness-engineering-part-1-what-is-an-agent-harness-and-why-it-matters/ |
 | Course note | [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | Session 02 | [02 agent harness and wiki architecture](../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
-| Structure vs model quality (research check, SE + RAG) | [structure vs model quality](../../research/structure-vs-model-quality.md) |
+| Structure vs model quality (research check, SE + RAG) | [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) |
 | Wadhwa et al. — context ~70% / parametric ~30% *in answers* (not productivity) | https://arxiv.org/abs/2409.08435 |
 | Fan et al. — harness design for coding agents (SWE-Bench / Terminal-Bench) | https://arxiv.org/abs/2609.20804 |
 | Scaffold effect — harness as hidden variable | https://arxiv.org/abs/2607.22585 |
@@ -204,7 +204,7 @@ Appended 2026-10-18 after a URL check. The page loaded and the description match
 | Lint explained | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
 | `SCHEMA.md` / `index.md` / `log.md` / folders | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | Knowledge store options | [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) |
-| Karpathy vs OpenClaw research | [karpathy llm wiki and openclaw](../../research/karpathy-llm-wiki-and-openclaw.md) |
-| Obsidian vs Joplin | [obsidian vs joplin hermes llmwiki](../../research/obsidian-vs-joplin-hermes-llmwiki.md) |
+| Karpathy vs OpenClaw research | [karpathy llm wiki and openclaw](../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
+| Obsidian vs Joplin | [obsidian vs joplin hermes llmwiki](../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) |
 | AI / brains / critical thinking | [ai brains critical thinking](../../research/ai-brains-critical-thinking.md) |
 | Vault clippings → student links | [links from clippings](primary-sources.md) |
