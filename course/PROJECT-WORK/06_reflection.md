@@ -7,7 +7,7 @@ canonical: true
 
 # Critical reflection
 
-[Minimum path](minimum-path.md) asks for one short text on what the system did to the work. You present it in Session 08, see [project path](project-path.md).
+[Minimum path](01_minimum-path.md) asks for one short text on what the system did to the work. You present it in Session 08, see [project path](02_project-path.md).
 
 The text is in your own words. It names no required product. It can say that a tool was a bad fit, or that you chose not to use AI for a task. Doubt and refusal are valid positions.
 
@@ -39,4 +39,4 @@ Cite at least one primary source, from the deep dives or from the student inputs
 
 ## What to keep
 
-Keep the text short. Link to your [provenance note](provenance.md) and your [verification](verification.md) page for the facts. The reflection is for the judgement.
+Keep the text short. Link to your [provenance note](03_provenance.md) and your [verification](04_verification.md) page for the facts. The reflection is for the judgement.

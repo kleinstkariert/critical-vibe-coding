@@ -21,7 +21,7 @@ It names no product.
 Session 01 introduces it. You develop it through the meetings. You hand it in at the end.
 It is not week-1 homework.
 The technical object is a student-designed agentic production system.
-Read the [minimum path](../PROJECT-WORK/minimum-path.md) before the install list.
+Read the [minimum path](../PROJECT-WORK/01_minimum-path.md) before the install list.
 The manifesto, the minimum path, and the group input presentations are required.
 No purchase is required. Alternatives are allowed.
 Hermes is one *reference implementation*. The lecturer will install it with the class.
@@ -47,13 +47,13 @@ You build and run a **personal LLM-agent setup** while unpacking political-econo
 
 Default stack: **Hermes Agent** + **Obsidian** (LLM Wiki habits) + model(s) you can access. Twin tracks every week: technical + critical check-in.
 
-*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](../PROJECT-WORK/minimum-path.md). A structured wiki does not make the notes true: [what structure improves](02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
+*reference implementation.* The sentence above names one example. The assessed object is your own system. See the [minimum path](../PROJECT-WORK/01_minimum-path.md). A structured wiki does not make the notes true: [what structure improves](02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves).
 
 ---
 
 ## Install order (before / during weeks 1 to 3)
 
-*reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* The list below is one Hermes example. See the [minimum path](../PROJECT-WORK/01_minimum-path.md).
 
 The course has **eight sessions**: [course-outline.md](../SESSIONS/overview/course-outline.md).
 
@@ -61,7 +61,7 @@ The course has **eight sessions**: [course-outline.md](../SESSIONS/overview/cour
 2. Note which **LLM access** you already have. Campus academic AI has **no API for agents** → [academic-ai-austria.md](03-models-and-providers/academic-ai-austria.md)  
 3. **Hermes Agent**, installed together in session 2. A free-to-use hosted endpoint to start: Nemotron 3 Ultra on OpenRouter → [howto-hermes-setup.md](01-harness-and-agents/howto-hermes-setup.md) §3 · words and the classroom route: [default-setup.md](01-harness-and-agents/default-setup.md) §4  
 4. Skim **harness** → [what-is-harness.md](01-harness-and-agents/what-is-harness.md) (session 2)  
-5. Prompting / chat versus reasoning → [Prompting Guide for Critical Vibe Coding.md](03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  (session 3)
+5. Prompting / chat versus reasoning → [Prompting Guide for Critical Vibe Coding.md](03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)  (session 3)
 6. Optional **local** models / hardware → [howto-local-llm-hardware.md](04-local-and-cloud/howto-local-llm-hardware.md) (session 3)
 
 Keep API keys out of synced notes.
@@ -74,7 +74,7 @@ Keep API keys out of synced notes.
 
 | Question | Go to |
 |---|---|
-| What must I do? | [../PROJECT-WORK/minimum-path.md](../PROJECT-WORK/minimum-path.md) |
+| What must I do? | [../PROJECT-WORK/01_minimum-path.md](../PROJECT-WORK/01_minimum-path.md) |
 | What happens each week? | [timeline.md](../SESSIONS/overview/timeline.md) · [course-outline.md](../SESSIONS/overview/course-outline.md) · [../SESSIONS/](../SESSIONS/) |
 | Midpoint / final deliverables? | [timeline.md](../SESSIONS/overview/timeline.md) (milestones) |
 | Readings & links? | [references.md](../REFERENCES/bibliography.md) · [links-from-clippings.md](../REFERENCES/primary-sources.md) |

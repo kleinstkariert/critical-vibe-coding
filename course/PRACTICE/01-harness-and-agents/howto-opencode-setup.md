@@ -13,7 +13,7 @@ canonical: true
 
 # How-to. Set up OpenCode
 
-*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+*optional extension.* OpenCode is a valid system. It is *not required for assessment*. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 OpenCode is an **open-source coding agent** (MIT) by Anomaly. It is built for work inside a code repository: edits, diffs, commands, and review.
 

@@ -15,7 +15,7 @@ canonical: true
 
 # Hermes vs coding agents vs always-on assistants
 
-*reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation.* Hermes in the table below is one worked example of an open, multi-channel system. It is *not required for assessment*. It is not the natural or correct architecture. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
 

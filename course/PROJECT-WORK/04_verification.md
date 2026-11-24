@@ -7,7 +7,7 @@ canonical: true
 
 # Verification
 
-[Minimum path](minimum-path.md) asks for a verification method: how you check that the result is right. A method can be small. A test command is one. A careful human read is another. Comparing the result with the source is a third.
+[Minimum path](01_minimum-path.md) asks for a verification method: how you check that the result is right. A method can be small. A test command is one. A careful human read is another. Comparing the result with the source is a third.
 
 Write your method on one page. Fill in this table for each kind of task.
 
@@ -30,5 +30,5 @@ Write your method on one page. Fill in this table for each kind of task.
 
 ## Where to go deeper
 
-- The full verification loop, acceptance conditions and evidence: [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md#5-verification-loop)
-- The record of each check goes in the log: [provenance and process log](provenance.md)
+- The full verification loop, acceptance conditions and evidence: [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md#5-verification-loop)
+- The record of each check goes in the log: [provenance and process log](03_provenance.md)

@@ -16,7 +16,7 @@ canonical: true
 Student-facing. Deep research tables: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md). Session: [03 practical install](../../SESSIONS/03-practical-install.md).  
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. **No one must buy hardware for this course.**
 
-*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../../PROJECT-WORK/minimum-path.md).
+*advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 ---
 
@@ -109,7 +109,7 @@ NVLink (mostly older 3090 / workstation) helps tensor-parallel serving; **layer 
 | 48 GB (e.g. 2×24) | 70B Q4 split |
 | 64–128 GB unified | 70B Q4–Q8 comfortable |
 
-Thinking **off** for daily agent work — [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md#28-chat-versus-reasoning-models).
+Thinking **off** for daily agent work — [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/prompting-guide-for-critical-vibe-coding.md#28-chat-versus-reasoning-models).
 
 ---
 

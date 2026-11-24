@@ -17,9 +17,9 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 |---|---|
 | Programme | Interface Cultures |
 | Language | English |
-| Required work | The [minimum path](../course/PROJECT-WORK/minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
+| Required work | The [minimum path](../course/PROJECT-WORK/01_minimum-path.md): a student-designed agentic production system. A personal manifesto, developed through the course and handed in at the end. Input presentations are also required. |
 | Reference implementation | [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) + [Obsidian](https://obsidian.md/). The lecturer installs Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. |
-| Start here | [`../course/PROJECT-WORK/minimum-path.md`](../course/PROJECT-WORK/minimum-path.md) · [`../course/PRACTICE/install-order-and-first-week.md`](../course/PRACTICE/install-order-and-first-week.md) |
+| Start here | [`../course/PROJECT-WORK/01_minimum-path.md`](../course/PROJECT-WORK/01_minimum-path.md) · [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md) |
 
 ---
 
@@ -27,19 +27,19 @@ This GitHub repository is the **student-facing course pack** (syllabus, session 
 
 | Need | File |
 |---|---|
-| What you must do | [`../course/PROJECT-WORK/minimum-path.md`](../course/PROJECT-WORK/minimum-path.md) |
-| Install order + first week (*optional extension*) | [`../course/PRACTICE/install-order-and-first-week.md`](../course/PRACTICE/install-order-and-first-week.md) |
+| What you must do | [`../course/PROJECT-WORK/01_minimum-path.md`](../course/PROJECT-WORK/01_minimum-path.md) |
+| Install order + first week (*optional extension*) | [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md) |
 | Short syllabus / session map | [`../course/SESSIONS/overview/course-outline.md`](../course/SESSIONS/overview/course-outline.md) |
 | Full timeline + milestones | [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview/timeline.md) |
 | Weekly session notes | [`../course/SESSIONS`](../course/SESSIONS) |
 | References & readings | [`../course/REFERENCES/bibliography.md`](../course/REFERENCES/bibliography.md) |
-| Prompting + choosing models | [`../course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md`](../course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| Prompting + choosing models | [`../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md`](../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) |
 
 ---
 
 ## Session map (eight sessions; dates TBD)
 
-The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](../course/PROJECT-WORK/minimum-path.md).
+The tool names in this map are a *demonstration*. They are *not required for assessment*. See the [minimum path](../course/PROJECT-WORK/01_minimum-path.md).
 
 | # | Topic | Student input |
 |---|---|---|
@@ -58,7 +58,7 @@ Details: [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview
 
 ## How-tos & concepts
 
-*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](../course/PROJECT-WORK/minimum-path.md).
+*optional extension. Not required for assessment.* Any one agent plus one folder meets the [minimum path](../course/PROJECT-WORK/01_minimum-path.md).
 
 | Topic | File |
 |---|---|
@@ -91,7 +91,7 @@ Details: [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview
 ## First steps (students)
 
 1. Star or watch this repo, or clone it.
-2. Read the [minimum path](../course/PROJECT-WORK/minimum-path.md), then [`../course/PRACTICE/install-order-and-first-week.md`](../course/PRACTICE/install-order-and-first-week.md).
+2. Read the [minimum path](../course/PROJECT-WORK/01_minimum-path.md), then [`../course/PRACTICE/install-order.md`](../course/PRACTICE/install-order.md).
 3. Keep secrets (API keys) out of notes you share.
 
 No purchase is required. Alternatives are allowed. The install how-tos are an *optional extension*.

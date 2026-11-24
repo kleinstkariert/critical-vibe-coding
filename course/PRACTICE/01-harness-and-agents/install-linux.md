@@ -240,7 +240,7 @@ Read these, in this order, and keep them as links:
 2. A project copy for later: [agents md template](agents-md-template.md)
 3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [howto hermes setup](howto-hermes-setup.md) §5d
 4. Approvals stay on. The novice baseline is in section 6.
-5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) §12
+5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §12
 6. Stop after three failed repair attempts: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
 ## 6. Personal laptop
@@ -262,7 +262,7 @@ Docker is an advanced safety module. Use it as a demonstration or in a separate 
 
 Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
-- Do not run as root. Do not expose the gateway. [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) §14.
+- Do not run as root. Do not expose the gateway. [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §14.
 - Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
 
 Stop here. There is no Linux MCP example in this guide.

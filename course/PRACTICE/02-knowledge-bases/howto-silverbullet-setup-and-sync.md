@@ -6,7 +6,7 @@ canonical: true
 
 # How to: SilverBullet setup and sync
 
-*optional extension. Not required for assessment.* A sentence below calls Obsidian the class default. That names one knowledge store, not the assessment. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+*optional extension. Not required for assessment.* A sentence below calls Obsidian the class default. That names one knowledge store, not the assessment. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 Practical guide for **personal** SilverBullet / Hermes experiments on **Windows**, **macOS**, and **Linux**. Companion to [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) and [knowledge store options](knowledge-store-options.md).
 

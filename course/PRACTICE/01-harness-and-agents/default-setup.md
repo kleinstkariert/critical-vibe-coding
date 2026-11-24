@@ -22,7 +22,7 @@ canonical: true
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 
 
@@ -52,7 +52,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 | **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
 
-| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · Austrian academic access: [academic ai austria](../03-models-and-providers/academic-ai-austria.md) · local hardware: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) |
+| **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · Austrian academic access: [academic ai austria](../03-models-and-providers/academic-ai-austria.md) · local hardware: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) |
 
 | **Harness** | Everything around the model that you configure: tools, files, skills, rules. Next session. | [what is harness](what-is-harness.md) · [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) |
 
@@ -374,7 +374,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 
 
-1. Bookmark or clone the course GitHub: [START HERE](../install-order-and-first-week.md).
+1. Bookmark or clone the course GitHub: [START HERE](../install-order.md).
 
 2. Install a knowledge store with phone sync. Default Obsidian: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../02-knowledge-bases/knowledge-store-options.md).
 

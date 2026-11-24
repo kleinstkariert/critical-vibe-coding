@@ -7,7 +7,7 @@ canonical: true
 
 # Provenance and process log
 
-Provenance is the record of where a result came from. [Minimum path](minimum-path.md) asks for "a record of the task, the model, the tools, and the outcome". This page covers the project note and the running log in one place.
+Provenance is the record of where a result came from. [Minimum path](01_minimum-path.md) asks for "a record of the task, the model, the tools, and the outcome". This page covers the project note and the running log in one place.
 
 ## 1. Provenance note
 
@@ -36,7 +36,7 @@ Use the `log.md` file of your wiki: [llm wiki standard files](../PRACTICE/02-kno
 | Date | The day of the task |
 | Task | One line |
 | Mode | coding, production, or hybrid (see [AGENTS.md template](../PRACTICE/01-harness-and-agents/agents-md-template.md)) |
-| Checks | Which check ran, and PASS or FAIL. See [verification](verification.md) |
+| Checks | Which check ran, and PASS or FAIL. See [verification](04_verification.md) |
 | Human approval | What you approved, and what you rejected |
 | Remaining risks | What is still unchecked |
 

@@ -6,11 +6,11 @@ canonical: true
 
 # How to: Hermes Agent setup
 
-*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This page is the worked Hermes install. It is not the assessed system. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 
-Related: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [agents md template](agents-md-template.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md)
+Related: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [agents md template](agents-md-template.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md)
 
 *requirement:* phone sync of the **notes** is via Obsidian + cloud (see Obsidian how-to). Hermes usually runs on the **computer** and edits the local vault folder. The phone does not need Hermes installed.
 
@@ -32,7 +32,7 @@ Desktop docs: https://hermes-agent.nousresearch.com/docs/user-guide/desktop
 
 Docs: https://hermes-agent.nousresearch.com/docs/
 
-Architecture / security overview (course): [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)
+Architecture / security overview (course): [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 
@@ -323,7 +323,7 @@ WIKI_PATH=/absolute/path/to/MyVault/wiki
 | Layer | What students do in class | Safer hardening later |
 |---|---|---|
 | **Hermes `.env` paths** | Point `OBSIDIAN_VAULT_PATH` and `WIKI_PATH` at `MyVault/wiki` | A full-vault path is convenience mode, not recommended for private material |
-| **Docker / sandbox mounts** | Optional. Overview [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
+| **Docker / sandbox mounts** | Optional. Overview [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) recommends mounting only an `AgentShare/` tree into containers | Never mount `Private/`, finance, health, or credential folders into a coding container |
 
 The smoke test uses a new folder named `hermes-smoke-test` in your home folder. It does not use the vault. The vault path in `.env` is for later note work. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
 
@@ -421,7 +421,7 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 - Keys only in Hermes `.env`, never in synced vault notes.
 - Novice baseline: read the files first, use a disposable project, keep manual approvals on, give Hermes one narrow write folder, keep a Git or filesystem snapshot, and do not use a private vault.
 - Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md). Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
-- Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) §§8 to 9
+- Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  
 - Academic chat portals are usually **not** an agent API: [academic ai austria](../03-models-and-providers/academic-ai-austria.md)

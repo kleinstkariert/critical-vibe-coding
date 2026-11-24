@@ -890,7 +890,7 @@ For Hermes student projects:
 
 1. Put project rules in root `AGENTS.md` (or `.hermes.md`). Template: [agents md template](../01-harness-and-agents/agents-md-template.md).
 2. Name the mode when useful: `coding` | `production` | `hybrid`. See [howto hermes efficient coding](../01-harness-and-agents/howto-hermes-efficient-coding.md).
-3. Keep a verification command the agent must run. See [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md).
+3. Keep a verification command the agent must run. See [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md).
 4. Put lasting habits in skills or wiki schema. Keep the user message thin.
 
 Hermes loads project context in this order (first match wins among project types): `.hermes.md` → `AGENTS.override.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`.

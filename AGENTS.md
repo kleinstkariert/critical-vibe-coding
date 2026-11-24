@@ -12,7 +12,7 @@ Read this file before editing.
 ## Scope
 
 - Prefer edits under `course/` for student-facing materials.
-- Do not rewrite the lecturer's authored overview prose in `course/PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md` unless the lecturer asks.
+- Do not rewrite the lecturer's authored overview prose in `course/PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md` unless the lecturer asks.
 - Do not use em dashes. Prefer short sentences, commas, or colons.
 - Aim for STE ~80% on new agent-written text.
 
@@ -40,7 +40,7 @@ After each meaningful change:
 
 ## Course stack defaults
 
-The technical object for students is a student-designed agentic production system. The required work is `course/PROJECT-WORK/minimum-path.md`: a personal manifesto, a knowledge store, an access boundary, a model endpoint, a tool set, a verification method, provenance, and a critical reflection. Input presentations are also required. No purchase is required. Alternatives are allowed.
+The technical object for students is a student-designed agentic production system. The required work is `course/PROJECT-WORK/01_minimum-path.md`: a personal manifesto, a knowledge store, an access boundary, a model endpoint, a tool set, a verification method, provenance, and a critical reflection. Input presentations are also required. No purchase is required. Alternatives are allowed.
 
 The names below are one *reference implementation* for class demos. They are not the assessed architecture. Claude Code, Cursor, OpenCode, local scripts, and other agents are valid systems.
 

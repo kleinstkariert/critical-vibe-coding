@@ -4,7 +4,7 @@ status: current
 canonical: true
 ---
 
-*reference implementation. Optional extension. Not required for assessment.* This file is one worked Hermes example. It is not the assessed system. See the [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This file is one worked Hermes example. It is not the assessed system. See the [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 -> quick starter guide.
 
