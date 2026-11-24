@@ -25,6 +25,9 @@ import zipfile
 from pathlib import Path
 from urllib.parse import unquote
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from deck_note_paths import note_path_strings  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 SCAN = [ROOT / "course", ROOT / "research", ROOT / "archive", ROOT / "documentation"]
 EXTRA_FILES = [ROOT / "README.md", ROOT / "AGENTS.md"]
@@ -34,7 +37,6 @@ DECK_NOTE_IGNORE = set()
 WIKI = re.compile(r"\[\[([^\]|#]*)(#[^\]|]+)?(\|[^\]]+)?\]\]")
 MD = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 FENCE = re.compile(r"^```", re.M)
-MD_PATH = re.compile(r"(?<![\w./&:*~$%@\\-])[\w./&@-]*[\w&@-]\.md(?![\w/-]|\.\w)")
 
 A_NS = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
 P_NS = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
@@ -269,17 +271,6 @@ def deck_note_paragraphs(deck):
                 for notes in page.iter(ODF_PRES + "notes"):
                     for paragraph in notes.iter(ODF_TEXT + "p"):
                         yield f"page {number}", odf_text(paragraph)
-
-
-def note_path_strings(text):
-    """Return the .md path strings that one note paragraph contains."""
-    found = []
-    for match in MD_PATH.finditer(text):
-        token = match.group(0)
-        if token.startswith("./"):
-            token = token[2:]
-        found.append(token)
-    return found
 
 
 def check_deck_note_path(token, names):

@@ -4,16 +4,24 @@ Run: python course/scripts/test_check_course_links.py
 All fixtures are built in a temporary folder. No generated binary is committed.
 """
 
+import ast
 import importlib.util
+import sys
 import tempfile
 import unittest
 import zipfile
 from pathlib import Path
 
 SCRIPT = Path(__file__).with_name("check-course-links.py")
+sys.path.insert(0, str(SCRIPT.parent))
+import deck_note_paths as helper  # noqa: E402
+
 spec = importlib.util.spec_from_file_location("check_course_links", SCRIPT)
 checker = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(checker)
+
+REPO = SCRIPT.resolve().parents[2]
+SLIDESHOW = REPO / "course/SESSIONS/lectures/01-welcome-landscape-slideshow"
 
 MAINZ = "research/externalReferences/UnlearGestaltungAI_Mainz/unlearn-gestaltung"
 DECK_DIR = "course/SESSIONS/lectures/01-demo-slideshow"
@@ -203,6 +211,137 @@ class DeckNoteTests(TempRepo):
         make_pptx(self.root / DECK_DIR / "demo_Old.pptx", [["course/gone.md"]])
         problems, decks, _ = self.run_check()
         self.assertEqual((problems, decks), ([], 0))
+
+
+def string_constants(node):
+    return [sub.value for sub in ast.walk(node) if isinstance(sub, ast.Constant) and isinstance(sub.value, str)]
+
+
+def note_literals(tree):
+    """Collect the string constants that feed speaker notes in a generator script."""
+    found = []
+    for node in ast.walk(tree):
+        if isinstance(node, ast.keyword) and node.arg == "note":
+            found += string_constants(node.value)
+        elif isinstance(node, ast.Call) and getattr(node.func, "id", "") == "notes":
+            for arg in node.args[1:]:
+                found += string_constants(arg)
+        elif isinstance(node, ast.Assign):
+            if any(getattr(target, "id", "").endswith("note") for target in node.targets):
+                found += string_constants(node.value)
+    return found
+
+
+def calls_name(tree, name):
+    return any(
+        isinstance(node, ast.Call) and getattr(node.func, "id", "") == name for node in ast.walk(tree)
+    )
+
+
+class DeckNoteHelperTests(unittest.TestCase):
+    def test_sixteen_mappings_point_to_exact_files(self):
+        self.assertEqual(len(helper.NOTE_PATH_FIXES), 16)
+        for old, new in helper.NOTE_PATH_FIXES.items():
+            self.assertEqual(helper.fix_note_paths(old), new)
+            self.assertTrue(checker.is_file_exact(REPO / new), new)
+            self.assertEqual(helper.note_path_strings(old), [old], "the checker must see the old form")
+
+    def test_fix_is_idempotent_and_keeps_exact_paths(self):
+        for new in helper.NOTE_PATH_FIXES.values():
+            self.assertEqual(helper.fix_note_paths(new), new)
+        text = "Deep dive: course/THEORY/03-ecology-infrastructure/ecology.md, then ecology.md."
+        once = helper.fix_note_paths(text)
+        self.assertEqual(
+            once,
+            "Deep dive: course/THEORY/03-ecology-infrastructure/ecology.md, then "
+            "course/THEORY/03-ecology-infrastructure/ecology.md.",
+        )
+        self.assertEqual(helper.fix_note_paths(once), once)
+
+    def test_prose_and_urls_stay_as_written(self):
+        text = "All *.md files, https://example.org/ecology.md and ecology.mdx are not note paths."
+        self.assertEqual(helper.fix_note_paths(text), text)
+
+
+class GeneratorSourceTests(unittest.TestCase):
+    def parse(self, name):
+        return ast.parse((SLIDESHOW / name).read_text(encoding="utf-8"))
+
+    def test_note_literals_in_generators_are_exact_paths(self):
+        for name in ("build_deck.py", "patch_lecturer_edit.py"):
+            literals = note_literals(self.parse(name))
+            if name == "build_deck.py":
+                self.assertGreater(len(literals), 20, "the scan found too few notes")
+            for text in literals:
+                for token in helper.note_path_strings(text):
+                    self.assertTrue(
+                        checker.is_file_exact(REPO / token), f"{name}: note names {token}, which is not an exact repo path"
+                    )
+
+    def test_lecture_constant_is_an_exact_path(self):
+        tree = self.parse("build_deck.py")
+        values = [
+            node.value.value
+            for node in tree.body
+            if isinstance(node, ast.Assign)
+            and any(getattr(target, "id", "") == "LECTURE" for target in node.targets)
+        ]
+        self.assertEqual(len(values), 1)
+        self.assertTrue(checker.is_file_exact(REPO / values[0]))
+
+    def test_generators_use_the_shared_helper(self):
+        build = self.parse("build_deck.py")
+        self.assertTrue(calls_name(build, "fix_note_paths"))
+        patch = self.parse("patch_lecturer_edit.py")
+        self.assertTrue(calls_name(patch, "normalize_presentation_notes"))
+
+
+try:
+    from pptx import Presentation
+except ImportError:
+    Presentation = None
+
+
+@unittest.skipIf(Presentation is None, "python-pptx is not installed")
+class GeneratorOutputTests(unittest.TestCase):
+    def blank_deck(self, count):
+        prs = Presentation()
+        return prs, [prs.slides.add_slide(prs.slide_layouts[6]) for _ in range(count)]
+
+    def test_build_deck_notes_helper_writes_exact_paths(self):
+        build_spec = importlib.util.spec_from_file_location("build_deck_under_test", SLIDESHOW / "build_deck.py")
+        try:
+            build = importlib.util.module_from_spec(build_spec)
+            build_spec.loader.exec_module(build)
+        except ImportError:
+            self.skipTest("build_deck.py needs Pillow")
+        _, (slide,) = self.blank_deck(1)
+        build.notes(slide, "Guides: course/howto-hermes-setup.md and ecology.md.")
+        self.assertEqual(
+            slide.notes_slide.notes_text_frame.text,
+            "Guides: course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md and "
+            "course/THEORY/03-ecology-infrastructure/ecology.md.",
+        )
+
+    def test_normalize_presentation_notes(self):
+        prs, (first, second, third) = self.blank_deck(3)
+        first.notes_slide.notes_text_frame.text = "Read course/what-is-mcp.md.\nThen default-setup.md."
+        second.notes_slide.notes_text_frame.text = "Nothing to fix: AGENTS.md."
+        run_paragraph = third.notes_slide.notes_text_frame.paragraphs[0]
+        run_paragraph.add_run().text = "Split run: course/what-is-"
+        run_paragraph.add_run().text = "lint.md."
+        self.assertEqual(helper.normalize_presentation_notes(prs), 3)
+        self.assertEqual(
+            first.notes_slide.notes_text_frame.text,
+            "Read course/PRACTICE/06-mcp-and-tools/what-is-mcp.md.\n"
+            "Then course/PRACTICE/01-harness-and-agents/default-setup.md.",
+        )
+        self.assertEqual(second.notes_slide.notes_text_frame.text, "Nothing to fix: AGENTS.md.")
+        self.assertEqual(
+            third.notes_slide.notes_text_frame.text,
+            "Split run: course/PRACTICE/02-knowledge-bases/what-is-lint.md.",
+        )
+        self.assertEqual(helper.normalize_presentation_notes(prs), 0)
 
 
 if __name__ == "__main__":

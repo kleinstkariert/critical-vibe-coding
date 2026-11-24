@@ -29,6 +29,9 @@ from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT.parents[2] / "scripts"))
+from deck_note_paths import fix_note_paths  # noqa: E402
+
 IMG = ROOT / "images"
 OUT_PPTX = ROOT / "01-welcome-landscape.pptx"
 
@@ -193,7 +196,7 @@ def lines_box(slide, top, height, lines, size=20, space_after=10, left=LEFT, wid
 
 def notes(slide, text):
     tf = slide.notes_slide.notes_text_frame
-    tf.text = text.strip()
+    tf.text = fix_note_paths(text).strip()
 
 
 def text_slide(prs, block, beat, lines, *, question=None, source=None, note="", title=None, size=20):
@@ -673,7 +676,7 @@ def build(out: Path = OUT_PPTX):
         "**LLM Wiki:** sources, wiki pages and a schema that the agent keeps in order.",
         "**A model:** whatever access you prefer, can afford makes sense for you",
     ], note=f"Deep dive with the diagram explained part by part: course/PRACTICE/01-harness-and-agents/default-setup.md\n"
-            "Free model to start Hermes with: Nemotron 3 Ultra through OpenRouter's free tier (default-setup.md section 4).\n"
+            "Free model to start Hermes with: Nemotron 3 Ultra through OpenRouter's free tier (course/PRACTICE/01-harness-and-agents/default-setup.md section 4).\n"
             "Guides: course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md, course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md, course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md, "
             "course/PRACTICE/02-knowledge-bases/knowledge-store-options.md.")
     img("14", "Three rows, each part labelled in the margin. Architecture: raw sources (read only), the wiki (written by the "
@@ -694,8 +697,8 @@ def build(out: Path = OUT_PPTX):
         "**07** Privacy: what happens with your data?",
     ], question="Groups of four: pick a session by next week.",
        note="About 15 minutes per input, at the start of the session. Session 04 is project presentations, Session 08 the finals.\n"
-            "Starting points: 02 flattening-and-the-norm.md; 03 research/software&DataManagement/local-gpu-hardware-for-llms.md and prompting-and-model-choice.md; "
-            "05 Hugging Face and OpenAI incident reports, July 2026; 06 ecology.md; 07 course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md.\n"
+            "Starting points: 02 course/THEORY/04-bias-flattening/flattening-and-the-norm.md; 03 research/software&DataManagement/local-gpu-hardware-for-llms.md and course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md; "
+            "05 Hugging Face and OpenAI incident reports, July 2026; 06 course/THEORY/03-ecology-infrastructure/ecology.md; 07 course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md.\n"
             "List and sources: course/SESSIONS/01-welcome-and-landscape.md and course/SESSIONS/overview/course-rhythm.md.")
     text_slide(prs, None, "Practices for this semester", [
         "A provenance note per project: which model, which tools, who decided (how), where it ran (local, cloud...). "

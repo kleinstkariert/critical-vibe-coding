@@ -12,12 +12,15 @@ drops manual edits.
 
 import copy
 import io
+import sys
 from pathlib import Path
 
 from pptx import Presentation
 from pptx.util import Emu, Inches
 
 HERE = Path(__file__).parent
+sys.path.insert(0, str(HERE.resolve().parents[2] / "scripts"))
+from deck_note_paths import normalize_presentation_notes  # noqa: E402
 # Local-only inputs (not tracked). Teaching deck is OUT; keep archives off git.
 BASE = HERE / "archive" / "2026-11-11-1854-lecturer-edit-52-slides-old.pptx"
 DONOR = HERE / "archive" / "2026-11-11-1848-agent-build-55-slides-before-restore.pptx"
@@ -304,5 +307,6 @@ for e in order:
     sld.append(e)
 base.part.drop_rel(credits_el.rId)
 
+print(f"exact note paths: {normalize_presentation_notes(base)} paragraphs corrected")
 base.save(str(OUT))
 print(f"wrote {OUT.name}: {len(order)} slides")
