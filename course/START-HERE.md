@@ -46,7 +46,7 @@ Full list: [SESSIONS](SESSIONS/README.md). Milestones: [timeline](SESSIONS/overv
 - You can read them in any order. You may skip all of them.
 - The order for the Hermes install example is in [install order](PRACTICE/install-order.md). It is an *optional extension*.
 - Critical and humanities notes are in [THEORY](THEORY/README.md).
-- Sources and facts that change fast are in [REFERENCES](REFERENCES/README.md).
+- Sources and facts that change fast are in [REFERENCES](REFERENCES/README.md). Research notes are in the [research index](../research/README.md).
 
 ## Midpoint and final
 

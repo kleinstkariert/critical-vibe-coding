@@ -17,8 +17,6 @@ Critical Vibe Coding is a seminar about living and working with AI in media-art 
 - [PRACTICE](course/PRACTICE/README.md): technical notes
 - [SESSIONS](course/SESSIONS/README.md): the eight sessions
 - [PROJECT-WORK](course/PROJECT-WORK/README.md): documents for your own practice
-- [templates](course/templates/README.md): blank forms for the required documents
 - [REFERENCES](course/REFERENCES/README.md): sources and current facts
-- [research](research/README.md): research notes, including the [tool comparison](research/software&DataManagement/vibe-coding-tools-and-agent-environments.md)
 
 Public course materials for enrolled students and peers. Private teacher files are not published here. Drafts may change during the semester.

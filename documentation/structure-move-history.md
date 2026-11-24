@@ -323,7 +323,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | Content loss scan against `origin/main` | PASS | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits |
 | Course map generator | PASS | 89 rows, 0 reader-label columns | 89 rows. One stale page title found and regenerated |
 | Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML |
-| README entry points | PASS | 10 internal links, 0 wikilinks, 0 external links | 10 internal links, 0 wikilinks, 0 external links |
+| README entry points | PASS | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links | 7 internal links (START-HERE, SEMINAR, THEORY, PRACTICE, SESSIONS, PROJECT-WORK, REFERENCES), 0 wikilinks, 0 external links |
 | Stub pages, `teacher` paths, lowercase `sessions` | PASS | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` |
 | Em dashes in new text | PASS with notes | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
 | Scripts compile | PASS | 5 files compile | 5 files compile |
