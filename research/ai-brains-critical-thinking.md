@@ -10,9 +10,9 @@ tags:
 
 # AI, brains, and critical thinking
 
-Source types: [[../course/syllabus/references#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-11-11. Built from teacher vault clips (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *nuance / caveat* | *claim* | *technical suggestion*.
+Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-11-11. Built from teacher vault clips (created 2026-11-11) plus the MIT Media Lab preprint that HealthyGamerGG quotes. Labels: *nuance / caveat* | *claim* | *technical suggestion*.
 
-Curated course links: [[../course/syllabus/links-from-clippings]]. Bibliography: [[../course/syllabus/references]].
+Curated course links: [[../course/REFERENCES/primary-sources]]. Bibliography: [[../course/REFERENCES/bibliography]].
 
 ---
 
@@ -121,7 +121,7 @@ Lacuna (and APA) correctly re-anchor the debate:
 | Structured prompts over "do the whole essay" | APA / Gerlich: deliberate use can raise quality of thought |
 | Label *claim* vs *unverified lead* in every research note | Course style; also the metacognitive habit Fan says AI skips |
 
-Related course files: [[../course/setup/Prompting Guide for Critical Vibe Coding]] · [[../course/topics/visions-fears-regulation]] · [[../course/syllabus/links-from-clippings]]
+Related course files: [[../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding]] · [[../course/THEORY/06-danger-and-risk/visions-fears-regulation]] · [[../course/REFERENCES/primary-sources]]
 
 ---
 

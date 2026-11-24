@@ -1,0 +1,87 @@
+---
+title: un/learn Gestaltung vs Critical Vibe Coding
+date: 2026-11-04
+tags:
+  - research
+  - kitegg
+  - course
+  - comparison
+status: current
+canonical: false
+---
+
+# Comparison — un/learn / KITeGG vs Critical Vibe Coding
+
+**CVC anchors:** `course/SESSIONS/lectures/01-welcome-landscape-lecture.md`, `course/SESSIONS/01-welcome-and-landscape.md`, `course/SESSIONS/overview/course-outline.md`, `course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md`  
+**KITeGG anchors:** three *un/learn ai* PDFs + https://unlearn.gestaltung.ai/ + articles `xeci6a49`, `2gtmc7uq` (this folder)
+
+## Shared ground (not “different”)
+
+- Critical stance toward vendor AI myths; ecology and labour appear on both agendas.
+- Preference for **competence / appropriation** over pure cloud consumption (KITeGG bare-metal doctrine; CVC local/open options + political choice slide).
+- “When not to use AI” as an explicit question (Vol. 3 Editor’s Note; CVC Session 01 Block 7 "Refusal" and the kill switch in Session 06).
+- Design/art students as primary public; hybrid DE/EN materials OK.
+
+---
+
+## Differences from our course
+
+Striking contrasts only — bullets for lecture/prep use.
+
+### Scale & institutional form
+- **KITeGG:** ~4-year BMBF Verbund, **five Gestaltung schools**, shared MA pathway emerging, Summer/Winter schools, print trilogy.
+- **CVC:** one Interface Cultures seminar (8 × 120 min), **personal** midpoint/final setup as deliverable, not a multi-campus research programme.
+
+### Default technical object
+- **KITeGG:** shared **Kubernetes GPU cluster** (5×8 A100 class) + **site AI/robotics labs** + Jupyter/LLP services; students often meet AI through **lab + course service**, not a personal agent.
+- **CVC:** default stack **Hermes agent + Obsidian / LLM Wiki (+ MCP)**; agent = model + harness; authorship located in skills/tools/wiki.
+
+### Compute scale (the main Task B contrast)
+| | KITeGG (described) | CVC (planned) |
+|---|---|---|
+| Concurrent design | ~40 users/site, ~200 cluster-wide capacity planning | one student ↔ one agent session |
+| Hardware | institutional HGX A100 fleet (+ optional ~€3k DIY nodes) | optional laptop / 7–8B local / single GPU / rare Studio–Spark; **no purchase required** |
+| Ops | ≥1 FTE platform engineer + partner lab staff | student self-ops + teacher how-tos |
+| Cloud stance | strong **public bare-metal** preference for funded infra | cloud API allowed; local taught as option |
+
+### Pedagogy & “unlearn”
+- **KITeGG** brands **un/learning** and aesthetic practice (Physical AI, type, robotics, Critical AI Studies, student showcases as publication).
+- **CVC** twin tracks: political-economic landscape (bubble, visions/fears/regulation) **and** agent literacy; outdoor “group therapy” check-in; humanities group inputs from Session 2.
+
+### Publishing / knowledge form
+- **KITeGG:** PubPub + semantic chunk network + print books as research output.
+- **CVC:** course GitHub + personal LLM Wiki habit; knowledge store is **student infrastructure**, not a designed trilogy.
+
+### Session 01 specifically
+- CVC Block 2 teaches **model / chat product / agent** layers, tokens, hallucination, harness preview — vocabulary almost absent from *un/learn* front matter (their “agent” moment is more chatbot/multimodal in the Navigating phase, not Hermes-style tool loops).
+- CVC Block 4–5 (bubble / ecology seed) overlaps Koch’s cloud-capital and datacenter critique, but Koch embeds it inside **platform-engineering justification**; CVC embeds it in seminar discourse without building a cluster.
+
+---
+
+## Systems-scale contrast (one paragraph)
+
+KITeGG’s “systems” are a **federation**: one mid-scale interactive GPU cloud-on-prem, a custom teaching platform, and six thematically split labs that make AI tactile (objects, robots, sustainability materials, automation tools, art algorithms, design intuition). Critical Vibe Coding plans the opposite end of the same sovereignty spectrum: each student owns a **small agentic interface** to models and tools, with optional tiny local inference. Same distrust of locked cloud dependency; **different unit of infrastructure** (campus cluster + ateliers vs personal harness + wiki).
+
+## Session 01 mapping (where KITeGG echoes CVC blocks)
+
+| CVC Block (lecture.md) | KITeGG / unlearn echo | Do not collapse |
+|---|---|---|
+| 2 Model / product / agent | Weak in unlearn front matter — their “agent” moment is chatbot/multimodal (Vol. 2), not Hermes tool loops | Teach CVC vocabulary; cite unlearn only as contrast |
+| 3 Visions / fears / regulation | Koch cloud-capital / anti-greenwash; Critical AI Studies in Vol. 3 | CVC script is `course/visions-fears-regulation` + Stewart/Coxon/Ismail clips |
+| 4 Bubble / circular finance | Infrastructure-as-STS; public money → public capacity | CVC numbers from BIS / Tooze / Acemoglu research notes |
+| 5 Ecology seed | Koch ecology argument; lab sustainability themes; DC energy visibility | Deep dive = `course/THEORY/ecology` + `research/data-centers-energy-ecology-economy`; student input Session 06 |
+| 7 Refusal / when not | Vol. 3 Editor’s Note “when not to use” | CVC Block 7 "Refusal"; kill switch in Session 06 (the dedicated old Session 11 is archived) |
+| 8 Personal Hermes + Obsidian | Opposite unit: campus Jupyter/LLP + cluster | Same sovereignty spectrum, different scale |
+
+## Published links that sharpen the contrast
+
+The URLs are in [links from clippings](../../../../course/REFERENCES/primary-sources.md#bubble-economy-ecology-labour-regulation). The private clips stay in the teacher vault. This note does not copy them.
+
+- Tooze on the AI arms race, and Tooze on AI regulation: political economy and regulation. KITeGG stays with design education and infrastructure.
+- *The Real Cost of AI Will Shock You*: a popular ecology frame for the Session 06 input. Pair it with Koch’s anti-greenwash paragraphs. Neither source is the only authority.
+- MIT Sloan, *A new look at the economics of AI* (Acemoglu): modest productivity. KITeGG rarely does the macro GDP debate.
+- [eu ai act and datenschutz](../../../../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md): EU and Austria law orientation. The unlearn volumes are not a law handbook.
+
+## Related notes
+
+- [[00-index]] · [[systems-labs-overview]] · [[article-kitegg-cluster]] · [[article-how-to-kitegg]] · [[vol3-integrating]]

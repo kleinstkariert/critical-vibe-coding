@@ -1,11 +1,41 @@
-"""Regenerate course/course-map.md from teaching-document status fields."""
+"""Regenerate course/course-map.md from the status fields of the documents.
 
+The map follows the folder layout.
+The purpose of a page comes from its folder, its title, and its short description.
+
+Usage:
+    python course/scripts/generate-course-map.py --verified-on YYYY-MM-DD
+    python course/scripts/generate-course-map.py            (uses today's local date)
+    python course/scripts/generate-course-map.py --check    (writes nothing; exit 1 if the map is stale)
+
+The date is written to `last_verified` in the map. Pass it on purpose when you
+regenerate the map after a check. --check ignores the date line, so a check never
+changes the file.
+"""
+
+import argparse
+import datetime
+import os
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 COURSE = ROOT / "course"
 OUT = COURSE / "course-map.md"
+SCAN = [COURSE, ROOT / "archive", ROOT / "documentation"]
+
+GROUPS = [
+    ("Course entry pages", lambda parts: len(parts) == 2 and parts[0] == "course"),
+    ("Sessions", lambda parts: parts[:2] == ("course", "SESSIONS")),
+    ("Theory", lambda parts: parts[:2] == ("course", "THEORY")),
+    ("Practice", lambda parts: parts[:2] == ("course", "PRACTICE")),
+    ("Project work", lambda parts: parts[:2] == ("course", "PROJECT-WORK")),
+    ("Templates", lambda parts: parts[:2] == ("course", "templates")),
+    ("References", lambda parts: parts[:2] == ("course", "REFERENCES")),
+    ("Documentation", lambda parts: parts[0] == "documentation"),
+    ("Archive", lambda parts: parts[0] == "archive"),
+]
 
 
 def split_frontmatter(text):
@@ -32,96 +62,97 @@ def title_of(path, fields, body):
     return path.stem
 
 
-def main():
+DATE_FORMAT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+VERIFIED_LINE = re.compile(r"^last_verified: .*$", re.M)
+
+
+def parse_date(value):
+    if not DATE_FORMAT.match(value):
+        raise argparse.ArgumentTypeError(f"not a date in the form YYYY-MM-DD: {value!r}")
+    try:
+        return datetime.date.fromisoformat(value).isoformat()
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"not a real calendar date: {value!r}")
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="Regenerate course/course-map.md.")
+    parser.add_argument("--verified-on", type=parse_date, metavar="YYYY-MM-DD",
+                        help="date written to last_verified (default: today, local time)")
+    parser.add_argument("--check", action="store_true",
+                        help="write nothing; exit 1 if the map differs from the pages (date ignored)")
+    args = parser.parse_args(argv)
+    verified_on = args.verified_on or datetime.date.today().isoformat()
     rows = []
-    for path in sorted(COURSE.rglob("*.md")):
+    paths = []
+    for base in SCAN:
+        if base.exists():
+            paths.extend(base.rglob("*.md"))
+    for path in sorted(paths):
         if path == OUT or "scripts" in path.parts:
             continue
         text = path.read_text(encoding="utf-8")
         fields, body = split_frontmatter(text)
-        if "audience" not in fields or "status" not in fields:
+        if "status" not in fields:
             continue
-        rel = path.relative_to(COURSE).as_posix()
         rows.append(
             {
-                "rel": rel,
+                "parts": path.relative_to(ROOT).parts,
+                "rel": Path(os.path.relpath(path, COURSE)).as_posix(),
                 "title": title_of(path, fields, body),
-                "audience": fields.get("audience", ""),
                 "status": fields.get("status", ""),
                 "canonical": fields.get("canonical", ""),
             }
         )
 
-    def section(heading, pred):
-        picked = [row for row in rows if pred(row)]
-        lines = [f"## {heading}", ""]
-        if not picked:
-            lines.append("None.")
-            lines.append("")
-            return lines
-        lines.append("| Page | Status | Canonical |")
-        lines.append("|---|---|---|")
-        for row in picked:
-            lines.append(
-                f"| [{row['title']}]({row['rel']}) | {row['status']} | {row['canonical']} |"
-            )
-        lines.append("")
-        return lines
-
-    def proposal_section():
-        """Pin the structure proposal link first. A later run writes only the link."""
-        rel = "teacher/potential-structure-change.md"
-        row = next((item for item in rows if item["rel"] == rel), None)
-        title = row["title"] if row else "Potential Structure Change"
-        return [
-            f"[{title}]({rel})",
-            "",
-        ]
-
     out = [
         "---",
         "title: Course map",
-        "audience: student",
         "status: current",
         "canonical: true",
-        "last_verified: 2026-11-20",
+        f"last_verified: {verified_on}",
         "---",
         "",
         "# Course map",
         "",
-        "Generated from the status fields on teaching documents.",
+        "Generated from the status fields of the pages.",
+        "The map follows the folder layout. Each page is placed by its folder.",
         "Do not edit this file by hand.",
-        "Regenerate it with `python course/scripts/generate-course-map.py`.",
+        "Regenerate it with `python course/scripts/generate-course-map.py --verified-on YYYY-MM-DD`.",
         "",
     ]
-    out += proposal_section()
-    out += section(
-        "Current pages for students",
-        lambda row: row["audience"] == "student" and row["status"] == "current",
+    placed = set()
+    for heading, match in GROUPS:
+        picked = [row for row in rows if match(row["parts"])]
+        if not picked:
+            continue
+        out += [f"## {heading}", "", "| Page | Status | Canonical |", "|---|---|---|"]
+        for row in picked:
+            placed.add(row["rel"])
+            out.append(f"| [{row['title']}]({row['rel']}) | {row['status']} | {row['canonical']} |")
+        out.append("")
+    missing = [row for row in rows if row["rel"] not in placed]
+    if missing:
+        out += ["## Other pages", "", "| Page | Status | Canonical |", "|---|---|---|"]
+        for row in missing:
+            out.append(f"| [{row['title']}]({row['rel']}) | {row['status']} | {row['canonical']} |")
+        out.append("")
+    out.append(
+        "Research notes are listed in [the research index](../research/README.md). "
+        "Software and data-management research starts at "
+        "[its index](../research/software&DataManagement/README.md)."
     )
-    out += section(
-        "Teacher notes",
-        lambda row: row["audience"] == "teacher",
-    )
-    out += section(
-        "Archive",
-        lambda row: row["audience"] == "archive" or row["status"] == "deprecated",
-    )
-    other = [
-        row
-        for row in rows
-        if row["audience"] == "student" and row["status"] != "current"
-    ]
-    if other:
-        out += section("Other student pages", lambda row: row in other)
-    out.append("Research notes are listed in [the research index](../research/README.md).")
     out.append("")
     text = "\n".join(out)
-    if not text.endswith("\n"):
-        text += "\n"
+    if args.check:
+        current = OUT.read_bytes().decode("utf-8").replace("\r\n", "\n") if OUT.exists() else ""
+        same = VERIFIED_LINE.sub("", current) == VERIFIED_LINE.sub("", text)
+        print(f"{OUT.relative_to(ROOT)} is {'current' if same else 'STALE'} ({len(rows)} rows, date ignored)")
+        return 0 if same else 1
     OUT.write_bytes(text.encode("utf-8"))
-    print(f"wrote {OUT.relative_to(ROOT)} ({len(rows)} rows)")
+    print(f"wrote {OUT.relative_to(ROOT)} ({len(rows)} rows, last_verified {verified_on})")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

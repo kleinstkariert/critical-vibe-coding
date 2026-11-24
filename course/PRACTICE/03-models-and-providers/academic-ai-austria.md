@@ -1,0 +1,90 @@
+---
+title: Academic AI in Austria — access for this course
+date: 2026-10-21
+tags:
+  - course
+  - academic-ai
+  - austria
+status: current
+canonical: true
+---
+
+# Academic AI in Austria — access for this course
+
+*optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [minimum path](../../PROJECT-WORK/01_minimum-path.md). A line below that says "default agent path" names one example, not the assessment. Providers and tools are compared in the [tool comparison](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
+
+Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
+
+Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · service manual and slides in English: [guidelines and handbooks](../../REFERENCES/guidelines-and-handbooks/README.md).
+
+---
+
+## What “academic AI” means here
+
+| Path | Typical offer | Fits Hermes / agents? |
+|---|---|---|
+| **University chat / web portal** | Browser UI for a hosted model (campus login). Students use this | **No.** It is not an agent endpoint for student projects |
+| **Administrator-managed API client** (Academic AI) | Created by institution administrators, outside the web chat. See [API access](#api-access-in-academic-ai) | **Not for students.** Students cannot create or use it |
+| **Academic API / gateway** | Keyed endpoint for research projects | Rare; often proposal-gated |
+| **HPC / AI Factory GPU hours** | Train / fine-tune on EuroHPC or national systems | **Not** a drop-in ChatGPT replacement; batch jobs, not daily agent chat |
+| **Commercial API** (OpenAI, Anthropic, …) | Keys students buy or get via credits | Yes — default agent path in this course |
+| **Local / own hardware** | Run open weights yourself | Yes — see [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
+
+*requirement for class honesty:* For students, Kunstuni / UFG academic AI is the **web chat**. Say in session 2 (model landscape) that it is **not an agent endpoint for student projects**. Do not pretend Hermes can “just use” it. Administrator-managed API access exists, but students cannot use it. See [API access](#api-access-in-academic-ai).
+
+---
+
+## API access in Academic AI
+
+- **What the manual says.** Next to the web-based interface, institution administrators can create API clients that send requests to the server. The manual points to API documentation on a page named "Academic AI - ACOmarket - TU coLAB" and prints no URL. See the translated [admin functions, API clients](../../REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#6-admin-functions) and the [summary](../../REFERENCES/guidelines-and-handbooks/academic-ai-user-manual.md#9-summary). The manual does not say who may act as administrator. It does not say whether the Kunstuni instance has API clients.
+- **What the course author states.** The function is restricted to certified employees. Students cannot create or use these API clients. This is the course author's statement of policy. The manual does not contain it, and we have not verified it.
+- **What this means for the course.** Students have the web chat. It is not an agent endpoint for student projects. Agent work uses a personal or commercial key, a hosted endpoint, or a local model.
+
+---
+
+## Current working assumption (update after contacts)
+
+*technical suggestion until verified:*
+
+- Students should plan on **personal / commercial API keys**, **EU-hosted commercial**, or **local models** for agent work.
+- Campus academic AI is a **bonus for interactive exploration** in the web chat, not the agent backbone. Students cannot use its administrator-managed API clients.
+- Kunstuniversität Linz is **not** listed among ASC free partner universities (TU Wien, Uni Wien, BOKU, Innsbruck, TU Graz, Uni Graz, JKU, …). Access to ASC would likely be **pay-per-use** or via a partner project — inquire; do not promise free HPC.
+
+ASC access overview: https://asc.ac.at/access/
+
+---
+
+## AI Factory Austria (AI:AT) — check this
+
+National AI Factory under EuroHPC JU (AIT + Advanced Computing Austria + university consortium). English site: https://ai-at.eu/en/  
+*(German root https://ai-at.eu/ may be temporarily offline for PHP security patches — use `/en/`.)*
+
+### What they advertise (*institutional summary* from AI:AT English pages, research date 2026-10-21)
+
+- Free / facilitated access to **European HPC** (e.g. LUMI, Leonardo, MareNostrum 5, JUPITER) for AI training and fine-tuning  
+- Tracks such as **AI for Science**, Development, Playground, Fast Lane, Large Scale (GPU-hour bands and durations vary)  
+- Inference mainly for **testing**; **production hosting not supported** (per their infrastructure page)  
+- Contact: **info@ai-at.eu**  
+- Consortium includes TU Wien, Uni Wien, BOKU, Innsbruck, TU Graz, JKU, ISTA, ÖAW, … — **not** Kunstuni Linz as a named consortium partner on the About page (as of research date)
+
+HPC access service page: https://ai-at.eu/en/services/exclusive-access-to-the-european-hpc-infrastructure/  
+FAQ: https://ai-at.eu/en/faq/
+
+### Relevance for Critical Vibe Coding
+
+| Use | Fit |
+|---|---|
+| Fine-tune / train a small open-weight model for a semester project | Possible *if* a project application succeeds — weeks of lead time |
+| Daily Hermes agent chat | **Poor fit** — HPC is not a Chat Completions API for students |
+| Run “our own” weights on EU machines | Closer — still ops-heavy; not the class default |
+
+*technical suggestion:* Treat AI:AT as a **teacher/research contact** for optional advanced projects, not as week-2 install path.
+
+---
+
+## Classroom talking points
+
+1. Academic ≠ automatically agent-ready.  
+2. Sovereignty / EU compute is real — but **bureaucracy and job scripts**, not “paste key in Hermes.”  
+3. Course default remains: personal stack + optional local GPU + structure/harness ([what is harness](../01-harness-and-agents/what-is-harness.md)).  
+4. Privacy: sending student/artwork data to campus vs US cloud — pair with [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
