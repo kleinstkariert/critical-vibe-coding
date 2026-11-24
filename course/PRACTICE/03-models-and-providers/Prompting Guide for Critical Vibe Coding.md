@@ -880,7 +880,7 @@ Then turn it off again.
 
 Some models reject disable. Then use a cheaper non-reasoning twin for daily work.
 
-Local hardware and model size: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) · [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
+Local hardware and model size: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 ## 29. Hermes project context
 
@@ -948,7 +948,7 @@ Steal role, audience, and output structure. Then harden the pack into the Goal /
 
 Within a usable model tier, invest in wiki, schema, and tools before you pay for the next model upgrade.
 
-See [structure vs model quality](../../../research/structure-vs-model-quality.md) · [what is harness](../01-harness-and-agents/what-is-harness.md).
+See [structure vs model quality](../../../research/software&DataManagement/structure-vs-model-quality.md) · [what is harness](../01-harness-and-agents/what-is-harness.md).
 
 Campus academic chat is usually not the agent backend: [academic ai austria](academic-ai-austria.md).
 

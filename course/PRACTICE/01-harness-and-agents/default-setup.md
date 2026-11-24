@@ -50,7 +50,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 | **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [howto hermes setup](howto-hermes-setup.md) |
 
-| **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) |
+| **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
 
 | **Model** | Whatever access you already have (subscription, API key, campus access, or a local model later). | [Prompting Guide for Critical Vibe Coding](../03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · Austrian academic access: [academic ai austria](../03-models-and-providers/academic-ai-austria.md) · local hardware: [howto local llm hardware](../04-local-and-cloud/howto-local-llm-hardware.md) |
 
@@ -58,7 +58,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 
 
-Related: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) (Model Context Protocol: connecting the agent to other apps, Session 05) · [what is lint](../02-knowledge-bases/what-is-lint.md) (checking the wiki) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md).
+Related: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) (Model Context Protocol: connecting the agent to other apps, Session 05) · [what is lint](../02-knowledge-bases/what-is-lint.md) (checking the wiki) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md).
 
 
 

@@ -22,7 +22,7 @@ canonical: true
 | **SilverBullet Desktop** | Free personal/edu; Pro for work | Desktop only until Server sync |
 | **Joplin** | **Yes — AGPL** | **Yes** native apps + Nextcloud — but SQLite, weak for Hermes folder wiki |
 
-Detailed research: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md) · MCP: [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · How-tos: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md)
+Detailed research: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) · MCP: [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · How-tos: [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md)
 
 ---
 
@@ -136,4 +136,4 @@ Docs: https://silverbullet.md/ · Folders: https://docs.silverbullet.md/Folder
 3. **SilverBullet:** optional personal experiment if *you* run a Server; **not** the student path while phone sync is required and ops must stay light. How-to: [howto silverbullet setup and sync](howto-silverbullet-setup-and-sync.md).
 4. **Do not** pick Joplin only to learn MCP.
 
-Hybrid wiki reminder (personal media-art + engineering): agent maintains technical wiki pages; you keep artistic/project voice pages human-authored — see [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md).
+Hybrid wiki reminder (personal media-art + engineering): agent maintains technical wiki pages; you keep artistic/project voice pages human-authored — see [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md).

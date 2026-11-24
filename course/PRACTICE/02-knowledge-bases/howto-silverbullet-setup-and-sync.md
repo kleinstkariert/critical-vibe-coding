@@ -21,7 +21,7 @@ Practical guide for **personal** SilverBullet / Hermes experiments on **Windows*
 
 So: “open source” is accurate for the **server and the format (plain `.md` folder)**. Desktop is a native client with a personal/edu free tier, not the same as “the whole product is AGPL/MIT with no commercial tier.”
 
-Related: [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md) · Hermes is also MIT — see below in [knowledge store options](knowledge-store-options.md).
+Related: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) · Hermes is also MIT — see below in [knowledge store options](knowledge-store-options.md).
 
 ---
 

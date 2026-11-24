@@ -17,21 +17,21 @@ This is the one course page that compares tools. Other pages link here. They do 
 
 Original check: **2026-11-20**. Second check, on **2026-11-23**, covered these items only: GitHub stars, licences and activity for every repository named below; Cursor, Claude, GitHub Copilot and Zed prices and plan pages; the Zed AI pages; and the AgentCraft repository. Every other row is as read on 2026-11-20. It was not read again.
 
-This page is a map for students who are new to these tools. Prices, model names and quotas change. Open the linked page before you pay. Dated claims about install guides and models are on [dated models, prices, limits and hardware](../course/REFERENCES/dated-models-prices-limits-and-hardware.md).
+This page is a map for students who are new to these tools. Prices, model names and quotas change. Open the linked page before you pay. Dated claims about install guides and models are on [dated models, prices, limits and hardware](../../course/REFERENCES/dated-models-prices-limits-and-hardware.md).
 
-Labels: *verified fact* | *claim* | *uncertainty* | *technical suggestion*. A label names the source kind. It is not independent verification. See [bibliography](../course/REFERENCES/bibliography.md#source-types).
+Labels: *verified fact* | *claim* | *uncertainty* | *technical suggestion*. A label names the source kind. It is not independent verification. See [bibliography](../../course/REFERENCES/bibliography.md#source-types).
 
 Web pages and README files were read as untrusted data. A statement on a vendor page is a *claim* unless this page says it was checked in another way.
 
 This page does not replace the course how-tos:
 
-- Job split (harness, coding agent, always-on assistant): [hermes vs coding agents](../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md)
-- What a harness is: [what is harness](../course/PRACTICE/01-harness-and-agents/what-is-harness.md)
-- What MCP is: [what is mcp](../course/PRACTICE/06-mcp-and-tools/what-is-mcp.md)
-- Hermes install: [howto hermes setup](../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
-- OpenCode install: [howto opencode setup](../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md)
-- Pair Hermes with OpenCode: [howto hermes opencode pairing](../course/PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md)
-- Prompting: [Prompting Guide for Critical Vibe Coding](../course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+- Job split (harness, coding agent, always-on assistant): [hermes vs coding agents](../../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md)
+- What a harness is: [what is harness](../../course/PRACTICE/01-harness-and-agents/what-is-harness.md)
+- What MCP is: [what is mcp](../../course/PRACTICE/06-mcp-and-tools/what-is-mcp.md)
+- Hermes install: [howto hermes setup](../../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+- OpenCode install: [howto opencode setup](../../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md)
+- Pair Hermes with OpenCode: [howto hermes opencode pairing](../../course/PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md)
+- Prompting: [Prompting Guide for Critical Vibe Coding](../../course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
 
 ---
 
@@ -52,7 +52,7 @@ Many products fit more than one word. Use the job name first, then the product n
 | Protocol | A shared message format. **MCP** connects an agent to tools and data. **ACP** (Agent Client Protocol) connects an editor to an agent. They do different jobs. | MCP, ACP |
 | Model access | How you reach the model: a lab subscription, your own API key, a gateway, a hosted plan from the tool maker, or local open weights. | See the money section |
 
-Short form of the course position: [what is harness](../course/PRACTICE/01-harness-and-agents/what-is-harness.md) defines the harness. [hermes vs coding agents](../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) compares the job of an assistant with the job of a coding agent. This page adds the product facts.
+Short form of the course position: [what is harness](../../course/PRACTICE/01-harness-and-agents/what-is-harness.md) defines the harness. [hermes vs coding agents](../../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) compares the job of an assistant with the job of a coding agent. This page adds the product facts.
 
 ---
 
@@ -245,7 +245,7 @@ On a free OpenCode model, OpenCode says it stores data. On your own provider, th
 
 *uncertainty:* a docs file on the Git branch `dev`, not on `main`, describes optional plans named Go ($10 per month), Go Plus ($40) and Go Teams ($20 per member). The product FAQ quoted above does not list those prices. Check https://opencode.ai before you subscribe to anything beyond the free tool.
 
-Job: repo coding in the terminal, and also a desktop app. Course install: [howto opencode setup](../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md).
+Job: repo coding in the terminal, and also a desktop app. Course install: [howto opencode setup](../../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md).
 
 ### Codex CLI
 
@@ -321,13 +321,13 @@ AgentCraft is a different kind of tool. It does not edit code itself, and it is 
 
 - *claim (README and foreman README):* every task runs in its own git worktree. Nothing merges without your click. Agents never push, and the tool blocks git network access through git settings, not only a command filter. Risky commands become in-game permission prompts.
 - *verified fact (foreman README):* the document itself says the git block "is not a sandbox", because code an agent runs could drop the variables on purpose. This check did not test any of these controls.
-- *technical suggestion:* treat AgentCraft as a design example for the question "what does an interface for several agents look like". It fits [Session 06, agent as interface](../course/SESSIONS/06-agent-as-interface.md). It is not a recommended install for this course. It needs Java 25, Node 22, Minecraft: Java Edition and paid model access.
+- *technical suggestion:* treat AgentCraft as a design example for the question "what does an interface for several agents look like". It fits [Session 06, agent as interface](../../course/SESSIONS/06-agent-as-interface.md). It is not a recommended install for this course. It needs Java 25, Node 22, Minecraft: Java Edition and paid model access.
 
 ---
 
 ## Hermes (course harness)
 
-Hermes Agent is the course runtime. It is not an editor. It talks to tools, a vault and chat channels. It can edit code. The course does not use it as the deepest repo coder. Read [hermes vs coding agents](../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) for that split.
+Hermes Agent is the course runtime. It is not an editor. It talks to tools, a vault and chat channels. It can edit code. The course does not use it as the deepest repo coder. Read [hermes vs coding agents](../../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) for that split.
 
 | | |
 |---|---|
@@ -344,7 +344,7 @@ Optional Nous Portal, read on https://hermes-agent.nousresearch.com/ on 2026-11-
 
 ## Does the starter vault still fit these tools?
 
-The install notes use a Wanderloots-style tree: `SCHEMA.md`, `index.md`, `log.md`, `raw/`, `wiki/` and `private/`. The written starter is [starter knowledge base](../course/PRACTICE/02-knowledge-bases/starter-knowledge-base.md). The same three layers (sources, wiki pages, schema) are already in [karpathy llm wiki and openclaw](karpathy-llm-wiki-and-openclaw.md) and [llm wiki standard files](../course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md).
+The install notes use a Wanderloots-style tree: `SCHEMA.md`, `index.md`, `log.md`, `raw/`, `wiki/` and `private/`. The written starter is [starter knowledge base](../../course/PRACTICE/02-knowledge-bases/starter-knowledge-base.md). The same three layers (sources, wiki pages, schema) are already in [karpathy llm wiki and openclaw](karpathy-llm-wiki-and-openclaw.md) and [llm wiki standard files](../../course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md).
 
 **Tool-agnostic, and still right for every tool in this list**
 

@@ -1,6 +1,6 @@
 # Karpathy LLM Wiki — still current? vs human wiki / OpenClaw
 
-Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-15. Labels: *requirement*| *technical suggestion* | *anecdote*.
+Source types: [[../../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-15. Labels: *requirement*| *technical suggestion* | *anecdote*.
 
 ## Question
 

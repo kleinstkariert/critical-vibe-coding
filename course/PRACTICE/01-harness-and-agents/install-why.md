@@ -42,7 +42,7 @@ System memory is the normal RAM in the computer. Offload means Hermes puts part 
 
 A long context is a long chat plus the files the agent sends. A long context can make a model unusable even when the weights fit.
 
-*verified fact* from the course research note: a 27B to 34B model at 4-bit needs about 16 to 20 GB for the weights. Runtime, cache, and context need more. A practical machine for that class is a 24 GB graphics card, or 32 to 48 GB of unified memory. Source: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
+*verified fact* from the course research note: a 27B to 34B model at 4-bit needs about 16 to 20 GB for the weights. Runtime, cache, and context need more. A practical machine for that class is a 24 GB graphics card, or 32 to 48 GB of unified memory. Source: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 The Hermes catalog checked on 20 Nov 2026 has no 7B to 8B model. This course does not name a catalog id for that size.
 

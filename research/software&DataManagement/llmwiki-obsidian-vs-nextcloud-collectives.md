@@ -8,7 +8,7 @@ tags:
 
 # LLM Wiki + Obsidian vs Nextcloud Collectives + MCP
 
-Source types: [[../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Revised the same day after a scope clarification. Labels: *technical suggestion*.
+Source types: [[../../course/REFERENCES/bibliography#source-types]]. A label names the source kind. It is not independent verification. Research date: 2026-10-18. Revised the same day after a scope clarification. Labels: *technical suggestion*.
 
 Objective comparison of two ways to keep a knowledge base that an LLM can work on:
 

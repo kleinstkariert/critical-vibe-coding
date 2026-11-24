@@ -12,7 +12,7 @@ Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux*
 
 *requirement:* **Phone sync is mandatory** (work on computer, read/capture on phone). Course decision: **Obsidian** as the class note app — sync via personal cloud (e.g. Nextcloud) **without** each student running a server. Joplin is not kept only to practice MCP.
 
-Related: [knowledge store options](knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [obsidian vs joplin hermes llmwiki](../../../research/obsidian-vs-joplin-hermes-llmwiki.md) · [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)
+Related: [knowledge store options](knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) · [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)
 
 ## 1. Install and open a vault
 

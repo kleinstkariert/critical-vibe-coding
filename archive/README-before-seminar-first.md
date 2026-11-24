@@ -72,7 +72,7 @@ Details: [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview
 | Drivers / visions / fears / regulation | [`../course/THEORY/06-danger-and-risk/visions-fears-regulation.md`](../course/THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 | EU AI Act, and GDPR (separate topics) | [`course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions`](../course/THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions) |
 | Creative AI tools survey | [`../course/PRACTICE/07-creative-stacks/ai-tools-creative-processes.md`](../course/PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) |
-| Local GPU / Apple / DGX hardware | [`../research/local-gpu-hardware-for-llms.md`](../research/local-gpu-hardware-for-llms.md) |
+| Local GPU / Apple / DGX hardware | [`../research/software&DataManagement/local-gpu-hardware-for-llms.md`](../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
 ---
 
@@ -80,11 +80,11 @@ Details: [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview
 
 | Note | File |
 |---|---|
-| Structure / harness vs model quality | [`../research/structure-vs-model-quality.md`](../research/structure-vs-model-quality.md) |
+| Structure / harness vs model quality | [`../research/software&DataManagement/structure-vs-model-quality.md`](../research/software&DataManagement/structure-vs-model-quality.md) |
 | AI bubble, productivity, data centres (finance) | [`../research/ai-bubble-productivity-datacenter.md`](../research/ai-bubble-productivity-datacenter.md) |
 | AI jobs — rising tide / Canaries / junior productivity | [`../research/ai-jobs-rising-tide-productivity.md`](../research/ai-jobs-rising-tide-productivity.md) |
 | Data centres — energy, ecology, US/world economy | [`../research/data-centers-energy-ecology-economy.md`](../research/data-centers-energy-ecology-economy.md) |
-| Karpathy LLM Wiki | [`../research/karpathy-llm-wiki-and-openclaw.md`](../research/karpathy-llm-wiki-and-openclaw.md) |
+| Karpathy LLM Wiki | [`../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md`](../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
 
 ---
 

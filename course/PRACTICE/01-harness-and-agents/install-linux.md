@@ -165,7 +165,7 @@ Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text call
 4. Click Use only after that read.
 5. Stop when the label says the model is too big.
 
-Size bands and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md).
+Size bands and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 Free cloud models already listed for this course: [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
 

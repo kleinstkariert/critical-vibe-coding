@@ -19,7 +19,7 @@ canonical: true
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Fair comparison for Critical Vibe Coding. Labels: *claim* | *technical suggestion*.
 
-Related: [vibe-coding tools and agent environments](../../../research/vibe-coding-tools-and-agent-environments.md) (dated product facts) · [what is harness](what-is-harness.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes setup](howto-hermes-setup.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [howto opencode setup](howto-opencode-setup.md) · [howto hermes opencode pairing](howto-hermes-opencode-pairing.md) · slides [02 agent harness and hermes](../../SESSIONS/lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md)
+Related: [vibe-coding tools and agent environments](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md) (dated product facts) · [what is harness](what-is-harness.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes setup](howto-hermes-setup.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [howto opencode setup](howto-opencode-setup.md) · [howto hermes opencode pairing](howto-hermes-opencode-pairing.md) · slides [02 agent harness and hermes](../../SESSIONS/lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md)
 
 ---
 

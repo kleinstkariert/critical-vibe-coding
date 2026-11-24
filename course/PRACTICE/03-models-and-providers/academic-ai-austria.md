@@ -16,7 +16,7 @@ canonical: true
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 
-Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
+Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
 
 ---
 
@@ -28,7 +28,7 @@ Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-age
 | **Academic API / gateway** | Keyed endpoint for research projects | Rare; often proposal-gated |
 | **HPC / AI Factory GPU hours** | Train / fine-tune on EuroHPC or national systems | **Not** a drop-in ChatGPT replacement; batch jobs, not daily agent chat |
 | **Commercial API** (OpenAI, Anthropic, …) | Keys students buy or get via credits | Yes — default agent path in this course |
-| **Local / own hardware** | Run open weights yourself | Yes — see [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md) |
+| **Local / own hardware** | Run open weights yourself | Yes — see [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
 *requirement for class honesty:* If Kunstuni / UFG academic AI is **chat-only** and has **no agent API**, say so in session 2 (model landscape). Do not pretend Hermes can “just use” it.
 

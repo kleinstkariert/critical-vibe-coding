@@ -56,13 +56,13 @@ Those are harness jobs. Desired behaviour → harness feature (LangChain’s der
 | Verification | Lint pass, human review, tests before fab |
 | Context management | Small index + pull pages; don’t paste the whole vault |
 
-Deep structure: [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../02-knowledge-bases/what-is-lint.md) · Karpathy gist via [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md).
+Deep structure: [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../02-knowledge-bases/what-is-lint.md) · Karpathy gist via [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md).
 
 ---
 
 ## Why structure / harness often beats “just a better model”
 
-*technical suggestion for teaching:* In software-engineering-style agent work, **information structure + harness design** frequently move outcomes more than swapping to the next bigger LLM — *within a usable model tier*. Research note with citations: [structure vs model quality](../../../research/structure-vs-model-quality.md).
+*technical suggestion for teaching:* In software-engineering-style agent work, **information structure + harness design** frequently move outcomes more than swapping to the next bigger LLM — *within a usable model tier*. Research note with citations: [structure vs model quality](../../../research/software&DataManagement/structure-vs-model-quality.md).
 
 ### What is actually true
 

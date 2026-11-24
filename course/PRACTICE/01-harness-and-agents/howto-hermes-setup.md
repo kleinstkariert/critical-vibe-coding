@@ -10,7 +10,7 @@ canonical: true
 
 Practical guide for Critical Vibe Coding and personal use on **Windows**, **macOS**, and **Linux**. Hermes Agent is **MIT** open source (Nous Research). It is the **agent**, not the Hermes 4 chat models.
 
-Related: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [agents md template](agents-md-template.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md)
+Related: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [howto hermes efficient coding](howto-hermes-efficient-coding.md) · [agents md template](agents-md-template.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md)
 
 *requirement:* phone sync of the **notes** is via Obsidian + cloud (see Obsidian how-to). Hermes usually runs on the **computer** and edits the local vault folder. The phone does not need Hermes installed.
 

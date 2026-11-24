@@ -79,4 +79,4 @@ Class default remains **Hermes + folder wiki**; the plugin is an alternate / com
 - Midpoint (session 4): show a lint report as proof the setup is maintained  
 - Schema should say how often to lint and who approves mass fixes  
 
-Related: [llm wiki standard files](llm-wiki-standard-files.md) · [references](../../REFERENCES/bibliography.md) · [karpathy llm wiki and openclaw](../../../research/karpathy-llm-wiki-and-openclaw.md)
+Related: [llm wiki standard files](llm-wiki-standard-files.md) · [references](../../REFERENCES/bibliography.md) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md)

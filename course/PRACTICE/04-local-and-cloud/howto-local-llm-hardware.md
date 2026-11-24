@@ -13,7 +13,7 @@ canonical: true
 
 # How-to — Set up your own machine for local LLMs
 
-Student-facing. Deep research tables: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md). Session: [03 practical install](../../SESSIONS/03-practical-install.md).  
+Student-facing. Deep research tables: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md). Session: [03 practical install](../../SESSIONS/03-practical-install.md).  
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. **No one must buy hardware for this course.**
 
 *advanced path. Optional extension. Not required for assessment.* Any one agent plus one folder meets [minimum path](../../PROJECT-WORK/minimum-path.md).
@@ -71,7 +71,7 @@ Full guide: https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup
 | **NVIDIA DGX Spark**      | 64/128 GB coherent unified  | DGX OS + CUDA; cluster up to 4 via NVIDIA Sync |
 | AMD 128 GB mini-PC        | Unified-like capacity       | ROCm/Vulkan — more DIY                         |
 
-Buy for **GB of memory** and **quiet/power**, not FLOPS slides. Details: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md#2-path-a-ready-made-unified-coherent-memory)
+Buy for **GB of memory** and **quiet/power**, not FLOPS slides. Details: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md#2-path-a-ready-made-unified-coherent-memory)
 
 ---
 
@@ -91,11 +91,11 @@ Buy for **GB of memory** and **quiet/power**, not FLOPS slides. Details: [local 
 1. Motherboard with multiple PCIe slots + huge PSU.  
 2. `nvidia-smi` · `nvidia-smi topo -m`  
 3. Ollama auto-spread **or** llama.cpp `-sm layer` **or** vLLM `--tensor-parallel-size 2`  
-4. Tutorials: [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md#4-path-c-diy-multi-gpu-rack-workstation)
+4. Tutorials: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md#4-path-c-diy-multi-gpu-rack-workstation)
 
 NVLink (mostly older 3090 / workstation) helps tensor-parallel serving; **layer split over PCIe** is enough for one-user studio agents.
 
-*Institutional builds and the Spark comparison (optional reading, dated prices):* [hardware research](../../../research/hardware/README.md). The general comparison is in [local gpu hardware for llms](../../../research/local-gpu-hardware-for-llms.md#institutional-builds-and-the-dgx-spark-comparison).
+*Institutional builds and the Spark comparison (optional reading, dated prices):* [hardware research](../../../research/software&DataManagement/hardware/README.md). The general comparison is in [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md#institutional-builds-and-the-dgx-spark-comparison).
 
 ---
 

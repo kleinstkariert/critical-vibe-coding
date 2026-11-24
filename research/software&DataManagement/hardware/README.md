@@ -18,7 +18,7 @@ tags:
 
 This folder holds dated research on machines for local LLM work. It compares one ready-made system (a DGX Spark class machine) with four build options of consumer GPUs in an open frame. It also holds a model-fit table.
 
-**No one must buy hardware for this course.** These notes are optional reading and an advanced path. See [how-to local LLM hardware](../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) and [minimum path](../../course/PROJECT-WORK/minimum-path.md).
+**No one must buy hardware for this course.** These notes are optional reading and an advanced path. See [how-to local LLM hardware](../../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) and [minimum path](../../../course/PROJECT-WORK/minimum-path.md).
 
 ## Read this first: these numbers are dated
 
@@ -29,7 +29,7 @@ This folder holds dated research on machines for local LLM work. It compares one
 
 ## Evidence labels
 
-Labels follow the [source types](../../course/REFERENCES/bibliography.md#source-types) of the course. A label names the kind of source. It is not independent verification.
+Labels follow the [source types](../../../course/REFERENCES/bibliography.md#source-types) of the course. A label names the kind of source. It is not independent verification.
 
 | Label used here | Meaning | Source type |
 |---|---|---|
@@ -125,9 +125,9 @@ These cautions apply to all DIY options. They are *technical suggestions*.
 | Page | What it holds | Do not duplicate here |
 |---|---|---|
 | [Local GPU hardware for LLMs](../local-gpu-hardware-for-llms.md) | General research: memory math, ready-made machines, single-GPU tiers, how multi-GPU works, tutorials | Memory math and the multi-GPU explanation |
-| [How-to local LLM hardware](../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | Student steps for software and a first machine | Setup steps |
-| [Dated models, prices, limits and hardware](../../course/REFERENCES/dated-models-prices-limits-and-hardware.md) | Index of volatile claims with check dates | Row-level price tracking |
-| [Academic AI in Austria](../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) | What campus services offer | The "no API key for agents" background |
+| [How-to local LLM hardware](../../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | Student steps for software and a first machine | Setup steps |
+| [Dated models, prices, limits and hardware](../../../course/REFERENCES/dated-models-prices-limits-and-hardware.md) | Index of volatile claims with check dates | Row-level price tracking |
+| [Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) | What campus services offer | The "no API key for agents" background |
 
 **Price ranges differ between notes.** The older general note gives "dual 3090 used workstation often €3–6k" and "dual 4090 new €5–9k+". This folder gives €4,990–6,750 for Setup A and €8,030–11,130 for Setup B. The older ranges record no basis. This folder's totals include invoiced dealers with warranty, a safety cage, 64 GB RAM, 2 TB NVMe and 10% contingency. Treat both as dated and compare them only with that in mind (*uncertainty*).
 
@@ -137,7 +137,7 @@ These cautions apply to all DIY options. They are *technical suggestions*.
 - No power figure is recorded for Setup D.
 - Model sizes in the capability matrix have no per-row source. Verify on Hugging Face at purchase time.
 - Board, CPU, PSU, fan and frame prices are estimates with no date.
-- The claim that a campus service has no API key for agents is not sourced in the Spark note. The course page on [Academic AI in Austria](../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) says the same, with its own caveats.
+- The claim that a campus service has no API key for agents is not sourced in the Spark note. The course page on [Academic AI in Austria](../../../course/PRACTICE/03-models-and-providers/academic-ai-austria.md) says the same, with its own caveats.
 
 ## Reading order
 
