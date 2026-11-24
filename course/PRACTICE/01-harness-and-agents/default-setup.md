@@ -21,7 +21,7 @@ canonical: true
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../PROJECT-WORK/01_minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This note is the worked Hermes example of one system. The assessed system is [minimum path](../../PROJECT-WORK/01_minimum-path.md). Other tools are compared in the [tool comparison](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 
 
 
@@ -373,7 +373,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 
 
-1. Bookmark or clone the course GitHub: [START HERE](../install-order.md).
+1. Bookmark or clone the course GitHub: [START HERE](../../START-HERE.md).
 
 2. Install a knowledge store with phone sync. Default Obsidian: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../02-knowledge-bases/knowledge-store-options.md).
 

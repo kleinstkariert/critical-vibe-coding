@@ -10,25 +10,15 @@ Provenance is the record of where a result came from. [Minimum path](01_minimum-
 
 ## 1. Provenance note
 
-Write one short `provenance.md` per project, in your own words. Keep it in your knowledge store. Answer these questions.
+Write one short `provenance.md` per project, in your own words. Keep it in your knowledge store. Use the [template](../templates/provenance-note-and-log.md). It asks seven questions: the task, the model with version and date, the tools and MCP servers, who decided what, where it ran, who was paid and for what, and the outcome.
 
-| Question | Your answer |
-|---|---|
-| Which task did the agent do? | |
-| Which model? Name the version and the date. | |
-| Which tools, skills, and MCP servers? | |
-| Who decided what? Say where you decided and where the agent decided. | |
-| Where did it run? Local, cloud, or both. | |
-| Who was paid, and for what? Subscription, API key, none. | |
-| What was the outcome? Which files or works changed. | |
-
-The source of this list is the provenance note in the course lecture and in [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md). Session 04 asks for a draft. Session 08 asks for the final note.
+The source of the questions is the provenance note in the course lecture and in [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md). Session 04 asks for a draft. Session 08 asks for the final note.
 
 ## 2. Process log
 
 The process log is the running record. The note above is the summary of it.
 
-Use the `log.md` file of your wiki: [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md). It is append-only. Add one entry each time the agent does real work.
+Use the `log.md` file of your wiki, or part 2 of the [template](../templates/provenance-note-and-log.md): [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md). It is append-only. Add one entry each time the agent does real work.
 
 | Field | Example |
 |---|---|

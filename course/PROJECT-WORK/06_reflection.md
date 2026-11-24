@@ -38,4 +38,6 @@ Cite at least one primary source, from the deep dives or from the student inputs
 
 ## What to keep
 
+Use the [template](../templates/critical-reflection.md).
+
 Keep the text short. Link to your [provenance note](03_provenance.md) and your [verification](04_verification.md) page for the facts. The reflection is for the judgement.

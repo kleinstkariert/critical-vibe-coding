@@ -10,15 +10,7 @@ canonical: true
 
 An interface score is one page that says how your agent meets you and your work. Write what you intend, then compare it with what the system really does.
 
-| Part | Your answer |
-|---|---|
-| Roles. What the agent does, and what you do | |
-| Tools. What it can call. List the real tools | |
-| Memory. What it keeps, where, and for how long | |
-| Taboos. What it may not read, write, or decide | |
-| Human-only pages. Where your own voice lives | |
-| Kill switch. How you stop it, and when you should | |
-| When AI is unnecessary. A short checklist | |
+Use the [template](../templates/interface-score.md). It has seven parts: roles, tools, memory, taboos, human-only pages, kill switch, and a short checklist for when AI is unnecessary.
 
 ## Check the score against the system
 

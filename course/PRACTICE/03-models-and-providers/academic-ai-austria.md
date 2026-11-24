@@ -11,7 +11,7 @@ canonical: true
 
 # Academic AI in Austria — access for this course
 
-*optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [minimum path](../../PROJECT-WORK/01_minimum-path.md). A line below that says "default agent path" names one example, not the assessment.
+*optional extension* for a paid API key or a local model. *not required for assessment.* Any model endpoint meets [minimum path](../../PROJECT-WORK/01_minimum-path.md). A line below that says "default agent path" names one example, not the assessment. Providers and tools are compared in the [tool comparison](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 

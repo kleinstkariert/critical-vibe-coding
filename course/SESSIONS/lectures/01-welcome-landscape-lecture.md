@@ -602,7 +602,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-- Bookmark or clone the course GitHub: [START HERE](../../PRACTICE/install-order.md).
+- Bookmark or clone the course GitHub: [START HERE](../../START-HERE.md).
 
 - Install a knowledge store with phone sync (Obsidian by default; alternatives allowed).
 

@@ -41,6 +41,7 @@ Many products fit more than one word. Use the job name first, then the product n
 | Word | Meaning here | Examples |
 |---|---|---|
 | Model | The trained weights. A lab, a gateway or your own computer serves them. | Claude, GPT, Gemini, Qwen, Nemotron |
+| Model provider | The lab, gateway or host that serves a model and bills for it. | Anthropic, OpenAI, Google, OpenRouter, a local server |
 | Agent | A model that works in a loop: it reads, calls tools, checks the result, and repeats. | Any tool below |
 | Agent harness | The program around the model: loop, tools, permissions, memory and context handling. **Agent = model + harness.** | Hermes, Claude Code, OpenCode, Zed Agent |
 | Assistant agent | A harness built for long-lived personal work: notes, chat channels, schedules, tools. | Hermes |

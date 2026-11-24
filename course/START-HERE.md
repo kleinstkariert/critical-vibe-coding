@@ -16,7 +16,7 @@ This page is a short orientation. It is not an install page.
 - We read, talk and test. We also look at who gains and who pays when AI enters art and design.
 - Required work: a personal manifesto on how you want to use AI in your practice, the [minimum path](PROJECT-WORK/01_minimum-path.md), and one group input presentation.
 - The manifesto names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not week-1 homework.
-- The technical object is a student-designed agentic production system. Claude Code, Cursor, OpenCode, a local script, another agent, or no AI are all valid. Hermes is one *reference implementation* and a class *demonstration*. It is *not required for assessment*.
+- The technical object is a student-designed agentic production system. Claude Code, Cursor, OpenCode, a local script, another agent, or no AI are all valid. Hermes is one *reference implementation* and a class *demonstration*. It is *not required for assessment*. Compare the tools in the [tool comparison](../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 - No purchase is required. Alternatives are allowed.
 
 ## How we work together
@@ -44,7 +44,7 @@ Full list: [SESSIONS](SESSIONS/README.md). Milestones: [timeline](SESSIONS/overv
 
 - [PRACTICE](PRACTICE/README.md) sorts the notes by question: what an agent can do, how knowledge is organised, which model, where it runs, how tools connect, how work is checked.
 - You can read them in any order. You may skip all of them.
-- The earlier install-heavy start page is kept as [install order and first week](PRACTICE/install-order.md). It is an *optional extension*.
+- The order for the Hermes install example is in [install order](PRACTICE/install-order.md). It is an *optional extension*.
 - Critical and humanities notes are in [THEORY](THEORY/README.md).
 - Sources and facts that change fast are in [REFERENCES](REFERENCES/README.md).
 
@@ -55,7 +55,7 @@ Full list: [SESSIONS](SESSIONS/README.md). Milestones: [timeline](SESSIONS/overv
 | Midpoint | Session 4 | Project presentation, semester plan, and the system as it stands |
 | Final | Session 8 (proposal) | The architecture of your system, one artistic or research use, and a short critical reflection. Not a polished exhibition by default |
 
-Templates for your documents are in [PROJECT-WORK](PROJECT-WORK/README.md).
+The pages that explain each required document are in [PROJECT-WORK](PROJECT-WORK/README.md). Blank forms to copy are in [templates](templates/README.md).
 
 ## Questions and setup problems
 

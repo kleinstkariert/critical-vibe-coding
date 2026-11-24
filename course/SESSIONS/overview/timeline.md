@@ -36,7 +36,7 @@ EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../../THEORY/
 
 Prompting guide: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
 
-**Student start page:** [START HERE](../../PRACTICE/install-order.md) · **Required work:** [minimum path](../../PROJECT-WORK/01_minimum-path.md)
+**Student start page:** [START HERE](../../START-HERE.md) · **Required work:** [minimum path](../../PROJECT-WORK/01_minimum-path.md)
 
 **GitHub is the course pack** (public). Teams / UFG for announcements.
 

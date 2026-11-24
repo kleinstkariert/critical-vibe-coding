@@ -8,7 +8,7 @@ canonical: true
 
 # Session 03. Practical install: a light Hermes Desktop install, with hardware and prompting as reading
 
-*optional extension. Not required for assessment.* The install is a *demonstration* of one *reference implementation*. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/01_minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
+*optional extension. Not required for assessment.* The install is a *demonstration* of one *reference implementation*. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/01_minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4. Other tools are compared in the [tool comparison](../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md) · Slides: [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md)
 

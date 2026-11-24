@@ -20,6 +20,8 @@ The model is the intelligence; the harness is everything else that makes that in
 
 If you are not training or swapping the weights, you are designing the harness.
 
+Editors, assistants, coding agents and harnesses are compared in the [tool comparison](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
+
 ## What counts as harness
 
 | Piece | Role |

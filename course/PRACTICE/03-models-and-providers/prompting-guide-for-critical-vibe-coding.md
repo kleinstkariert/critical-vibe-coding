@@ -8,7 +8,7 @@ canonical: true
 
 This guide helps students write clear prompts for coding agents.
 
-It applies to Hermes, Claude Code, Cursor, and similar tools.
+It applies to Hermes, Claude Code, Cursor, and similar tools. The tools are compared in the [tool comparison](../../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 
 A prompt is an instruction that tells an agent what to do.
 

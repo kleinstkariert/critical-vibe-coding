@@ -8,17 +8,7 @@ canonical: true
 
 [Minimum path](01_minimum-path.md) asks for a verification method: how you check that the result is right. A method can be small. A test command is one. A careful human read is another. Comparing the result with the source is a third.
 
-Write your method on one page. Fill in this table for each kind of task.
-
-| Question | Your answer |
-|---|---|
-| Which task does this check cover? | |
-| Which check? A test command, a lint run, a diff you read, a comparison with the source, a second reader | |
-| Who runs it: you, the agent, or both? | |
-| What counts as a pass? | |
-| What do you keep as evidence? A log line, a screenshot, a diff | |
-| How many repairs may the agent try? | |
-| Who approves before the work is shared? | |
+Write your method on one page. Use the [template](../templates/verification-plan.md). Fill it in for each kind of task. It asks seven questions: which task the check covers, which check, who runs it, what counts as a pass, what evidence you keep, how many repairs the agent may try, and who approves before the work is shared.
 
 ## Rules the course uses
 

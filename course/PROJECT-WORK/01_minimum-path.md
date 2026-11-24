@@ -21,8 +21,9 @@ Hermes is one *reference implementation* of that system.
 The lecturer will install Hermes with the class.
 That install is a *demonstration*.
 It is *not required for assessment*.
-Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
+Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. Compare them in the [tool comparison](../../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 You do not need Hermes, Obsidian, phone sync, a local model, MCP, Discord, or a bridge to another application.
+Blank forms for the required documents are in [templates](../templates/README.md).
 
 ## Required: personal manifesto
 

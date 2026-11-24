@@ -81,7 +81,7 @@ If a conversation gets stuck, the instructor can stop it and ask each person for
 
 Technical demonstrations and workshops come after the break, in the practice block.
 They show one possible path. They are not required for assessment.
-See [PRACTICE](PRACTICE/README.md).
+See [PRACTICE](PRACTICE/README.md). Other tools are compared in the [tool comparison](../research/software&DataManagement/vibe-coding-tools-and-agent-environments.md).
 
 ## Confidentiality and care
 
