@@ -13,10 +13,10 @@ Why the structure looks like this, and why it may change: [why this structure](.
 
 ## Summary
 
-- Changed paths against `main`: **142** (81 renamed, 36 added, 21 modified, 4 removed).
+- Changed paths against `main`: **142** (80 renamed, 36 added, 21 modified, 5 removed).
 - Moves use `git mv`. Each move commit has at most 30 changed files. Links were updated in the same commit group.
 - `course/sessions/` became `course/SESSIONS/` in two commits through a temporary name, because Windows and macOS folders ignore case.
-- Four old 13-session files were removed from the repo after a copy was kept outside the repo in the teacher vault. See "Removed files".
+- Five files were removed from the repo: four old 13-session files and the structure proposal. A copy of each is kept outside the repo in the teacher vault. See "Removed files".
 - Three entry points are drafts: `README.md`, `course/START-HERE.md`, `course/SEMINAR.md`. They were the last commit of the first move series.
 - Later commits on the same branch: Session 03 became the practical install session (`03-practical-install.md`), the practical class material of pull request 17 was integrated, the tool comparison of pull request 18 became one canonical research page, old paths in deck speaker notes were patched, the lecturer first name was removed from tracked content and file names, and the stub pages were filled or merged.
 
@@ -29,7 +29,7 @@ Why the structure looks like this, and why it may change: [why this structure](.
 | `course/SESSIONS/` | Sessions 01 to 08, `overview/`, `lectures/` |
 | `course/PROJECT-WORK/` | Minimum path, project path (proposal, midpoint, final), provenance with process log, verification, reflection, interface score |
 | `course/REFERENCES/` | Bibliography, primary sources, peer courses, tools and documentation, dated models, prices, limits and hardware |
-| `archive/` | The structure proposal and the previous README |
+| `archive/` | The previous README |
 | `documentation/` | Why the structure looks like this |
 | `research/`, `UnlearGestaltungAI_Mainz/` | Not changed in place. Links inside were updated where needed |
 
@@ -39,7 +39,6 @@ Old path, then new path.
 
 | Old | New |
 |---|---|
-| `course/teacher/potential-structure-change.md` | `archive/potential-structure-change.md` |
 | `course/setup/agents-md-template.md` | `course/PRACTICE/01-harness-and-agents/agents-md-template.md` |
 | `course/lectures/01-welcome-landscape-deep-dives/default-setup.md` | `course/PRACTICE/01-harness-and-agents/default-setup.md` |
 | `course/concepts/hermes-vs-coding-agents.md` | `course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md` |
@@ -162,7 +161,8 @@ Redundancy decisions:
 
 - `course/teacher/` has no tracked file on this branch. 0 tracked paths contain `teacher` in a folder or file name.
 - Seven vault teacher notes have no copy in the repo (0 byte-identical, 0 shared text lines of length over 40 against any tracked Markdown file).
-- One teacher note is tracked on `main`: the structure proposal, now `archive/potential-structure-change.md` with `audience: teacher`. It was moved to `archive/` in the first series. It is identical to its vault copy. Decide whether it stays.
+- The structure proposal was the one teacher note tracked on `main`. It is removed from the repository (see Removed files). No tracked file has the path `course/teacher/` or a proposal path.
+- Six tracked files still have `audience: teacher` in their frontmatter. They are research and lecture notes, not teacher-vault copies: `research/README.md`, three notes in `UnlearGestaltungAI_Mainz/unlearn-gestaltung/`, `course/SESSIONS/lectures/presentation-style.md` and the slideshow `NOTES.md`. They were left as they are.
 
 ## Tool comparison audit
 
@@ -236,15 +236,22 @@ Redundancy decisions:
 
 ## Removed files
 
-The course author approved this removal. The four files below were copied to the teacher vault first. The copies are byte-identical (SHA-256 checked). They sit in a sibling folder next to the course folder, outside the repo. The removal is its own commit.
+The course author approved each removal. Five files are listed below.
+
+- The four `archive-13-session-plan` files were copied to the teacher vault first. The copies are byte-identical (SHA-256 checked). They sit in a sibling folder next to the course folder, outside the repo.
+- `course/teacher/potential-structure-change.md` is the structure proposal. The course author approved its removal on 24 Nov 2026. It was first moved to `archive/`, and then removed from the repository. Its reasoning is in `documentation/why-this-structure.md`. A copy stays in the teacher vault, outside the repo.
+
+Each removal is its own commit.
 
 - `course/sessions/archive-13-session-plan/06-mcp-and-tools.md`
 - `course/sessions/archive-13-session-plan/10-authorship-labour-platforms.md`
 - `course/sessions/archive-13-session-plan/11-local-ecology-when-not.md`
 - `course/sessions/archive-13-session-plan/README.md`
+- `course/teacher/potential-structure-change.md`
 
 Content that current pages relied on was moved first, then the files were removed:
 
+- The reasoning of the structure proposal is in `documentation/why-this-structure.md`. The proposal text is not kept in the repository.
 - The CAD and 3D servers table, the practical and the links from old Session 06 went verbatim to `course/PRACTICE/06-mcp-and-tools/what-is-mcp.md`. Sessions 05 and 07 now link there.
 - The prompts, readings and practical from old Session 10 went to `course/THEORY/02-labour-authorship/labour.md`.
 - The prompts, readings and practical from old Session 11 went to `course/THEORY/03-ecology-infrastructure/ecology.md`.
@@ -254,18 +261,18 @@ Content that current pages relied on was moved first, then the files were remove
 
 | Check | Result | Numbers |
 |---|---|---|
-| Link check, default mode, final tree | PASS | 100 files scanned. 0 broken links in current student files. 0 broken links in other files. 73 notices (wikilinks that only work in Obsidian). Before the move: 0 current, 7 other broken, 102 notices |
+| Link check, default mode, final tree | PASS | 99 files scanned. 0 broken links in current student files. 0 broken links in other files. 66 notices (wikilinks that only work in Obsidian). Before the move: 0 current, 7 other broken, 102 notices |
 | Link check, `--strict` | PASS | 0 broken links anywhere, including `archive/`, `research/`, `documentation/`, `migrations/`. Before the move: 54 broken links in 5 files. Every commit after the first series was checked before it was made |
 | Case-exact paths in links | PASS | The checker compares case. 0 case mismatches |
 | No lowercase `sessions` folder | PASS | 0 tracked files under `course/sessions/`. The on-disk folder is `SESSIONS` |
-| Course map generator | PASS | `generate-course-map.py` ran. 76 rows. It scans `course/`, `archive/`, `documentation/` |
+| Course map generator | PASS | `generate-course-map.py` ran. 75 rows. It scans `course/`, `archive/`, `documentation/` |
 | README has exactly 7 internal links | PASS | 7 links, 0 wikilinks, 0 external links. All 7 targets exist |
 | Stub pages | PASS | 0 pages with an empty body or the text "Stub". `course/REFERENCES/README.md` and `archive/README.md` are deliberate short indexes. `THEORY/07-refusal-and-alternatives/README.md` is a deliberate index |
 | Old paths in text | PASS | 0 matches for `course/sessions`, `course/lectures`, `course/setup`, `course/concepts`, `course/syllabus`, `course/teacher`, `current-claims`, `03-hardware-open-models-prompting`, `PROJECT-WORK/proposal`, `final`, `process-log` outside `archive/` and this report |
 | Old paths in deck speaker notes | PASS | 0 old-path strings in the 15 patched notes slides of the pptx and in the odp `content.xml`. Method: only the notes XML was rewritten, all other zip entries copied unchanged. `testzip` passed for both files. python-pptx still reads 57 slides. The odp (56 pages) was patched directly, not rebuilt from the pptx |
 | Lecturer first name removed | PASS | 0 case-insensitive matches in tracked file names, in tracked text and in deck XML. This report names the old script as `patch_<author-first-name>_edit.py`. Git history was not changed |
 | Hardware notes: paths, wikilinks, private markers | PASS | 0 local absolute paths, 0 wikilinks, 0 uses of vault, teacher or private, 0 em dashes in `research/hardware/` (8 files). The strict checker scans them |
-| Teacher notes outside Git | PASS | 0 tracked paths with teacher in the name. 7 vault teacher notes have no copy in the repo (byte and text-line checks). The eighth old teacher file is the structure proposal. It is tracked on `main` and now sits at `archive/potential-structure-change.md` |
+| Teacher notes outside Git | PASS | 0 tracked paths with teacher in the name. 7 vault teacher notes have no copy in the repo (byte and text-line checks). The eighth old teacher file, the structure proposal, was removed from the repo on 24 Nov 2026 with the course author's approval. No proposal path remains. Six other tracked files keep `audience: teacher` (research and lecture notes) |
 | Redundancy search | PASS | 0 repeated sentences across the hardware notes except link boilerplate. 0 sentences shared with other course or research pages. Overlap with older pages is by link |
 | Teacher machine paths in student text | PASS | 0 local absolute paths in tracked `.md` and `.py` files |
 | No em dashes in new text | PASS | 0 in text written for this branch. Moved and merged files keep their own wording, and some older lines still have em dashes |
@@ -281,7 +288,8 @@ The checker is `course/scripts/check-course-links.py`. It now scans `course/`, `
 - The teacher vault is not updated. The vault still holds 19 vault-only files. 8 hardware notes are now copied into the repo, so their vault originals are duplicates until the course author decides. Do not delete them without approval. Sync additively. A mirror-style sync would delete teacher-only files.
 - The hardware notes keep source inconsistencies and gaps as labels. They do not resolve them: a three-year cost total that differs between two sections of the Spark note, no source for two speed figures, no power figure for Setup D, no per-row source for model sizes, and parts prices that are estimates with no date. No price was rechecked.
 - The hardware pages contain procurement arguments (for example, claims about another department's machine and about a campus AI service). They were copied as written and marked as claims. Review them before you present them to students.
-- `archive/potential-structure-change.md` is a copy of a teacher note with `audience: teacher`. It was tracked on `main` and was moved, not added. Decide whether it stays in the repo.
+- The structure proposal text is gone from the repository. Only `documentation/why-this-structure.md` keeps its reasoning. A copy remains in the teacher vault. Old commits and `main` still hold it.
+- Six tracked files keep `audience: teacher` (`research/README.md`, three Mainz notes, `presentation-style.md`, slideshow `NOTES.md`). They are not teacher-vault copies. Change them only if you want no teacher-audience file in the repo.
 - About 24 wikilinks in teacher-only vault notes point to old paths. They break until the vault is updated.
 - Many moved pages still describe the old layout in their prose. Only links and paths were changed, as the safety rule requires.
 - The Session 03 page, the dated models, prices, limits and hardware page, and the PROJECT-WORK pages are new text written for this branch. They have not been tested in class.
@@ -300,7 +308,7 @@ The checker is `course/scripts/check-course-links.py`. It now scans `course/`, `
 ## Human approval required
 
 - Review and edit the three entry points: `README.md`, `course/START-HERE.md`, `course/SEMINAR.md`.
-- Decide whether the removal of the four archive files stays.
+- Decide whether the removal of the four archive files and of the structure proposal stays.
 - Merge. Nobody opened or merged a pull request from this branch.
 - Decide whether the teacher vault is synced, and how (additive only). Nothing was synced or deleted in the vault.
 - Pull requests 17 and 18 are superseded by the integrated content. Pull request 16 was not touched. Decide whether to close them.
