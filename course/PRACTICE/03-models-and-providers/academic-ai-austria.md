@@ -15,7 +15,7 @@ canonical: true
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. English course note. Official portals may be German/English. Labels: *technical suggestion* | *todo*.
 
-Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md).
+Use with: session [02 agent harness and wiki architecture](../../SESSIONS/02-agent-harness-and-wiki-architecture.md) (model landscape) · hardware [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · regulation [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md) · service manual and slides in English: [guidelines and handbooks](../../REFERENCES/guidelines-and-handbooks/README.md).
 
 ---
 
