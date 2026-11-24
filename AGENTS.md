@@ -34,7 +34,9 @@ Read this file before editing.
 After each meaningful change:
 
 1. Confirm markdown links resolve to existing files when you add wiki links.
+   Run `python course/scripts/check-course-links.py --strict`. It checks Markdown links, wikilinks, exact path case, and every `.md` path string in the speaker notes of the lecture decks (`.pptx` and `.odp`, read-only). Notes must name exact repo paths, such as `course/PRACTICE/02-knowledge-bases/what-is-lint.md`. Short forms and bare file names fail. Bare wikilinks never resolve into `research/externalReferences/UnlearGestaltungAI_Mainz`. Use `--decks-only` to run only the deck-note check. If you change the checker, run `python course/scripts/test_check_course_links.py`.
 2. For code under `course/SESSIONS/lectures/**/`, do not run generators that rebuild decks unless asked.
+   If a deck note names a wrong path, change only the note text inside the `.pptx` or `.odp` package (ZIP/XML level) and leave every other entry unchanged.
    The course map is not a deck. Run `python course/scripts/generate-course-map.py --check` after you change a page title, status or location. It writes nothing. If it reports STALE, regenerate with `python course/scripts/generate-course-map.py --verified-on YYYY-MM-DD` and use today's date. An invalid date stops the script and leaves the map unchanged.
 3. Report changed files and remaining risks.
 4. Stop after three failed repair attempts on the same check.
