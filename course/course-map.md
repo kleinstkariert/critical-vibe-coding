@@ -87,7 +87,6 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Potential Structure Change](../archive/potential-structure-change.md) | proposal | false |
 | [Sources (no duplicates here)](SESSIONS/lectures/01-welcome-landscape-slideshow/NOTES.md) | current | false |
 | [Presentation and writing style (Schaufler / Quadrature)](SESSIONS/lectures/presentation-style.md) | current | false |
 

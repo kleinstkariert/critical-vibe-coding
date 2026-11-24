@@ -37,7 +37,7 @@ The two sit side by side. Neither one is a mandatory track.
 - Sessions are the timeline.
 - References hold sources and facts that change.
 
-The idea comes from a proposal note. That note is kept in the [archive](../archive/potential-structure-change.md).
+The idea comes from a proposal note. The note is no longer in the repository. Its reasoning is on this page.
 Students were asked about the change, and they wanted it.
 That is a reason to try it. It is not proof that it works.
 
@@ -99,7 +99,7 @@ Weak point: the dated page holds only a first set of rows. Most volatile facts a
 **research/ and UnlearGestaltungAI_Mainz/.** Both stay as they were. They are research material, not course pages.
 The proposal asked why the Mainz notes are not inside research. We did not answer that question. We left them where they were, because links point there.
 
-**archive/.** Old structure and the old README. Nothing is deleted from history.
+**archive/.** The old README. Nothing is deleted from history.
 The old 13-session files were removed from the repository. Their reusable parts moved into current pages.
 
 ## Arguments against, and doubts

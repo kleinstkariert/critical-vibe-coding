@@ -9,8 +9,6 @@ This is a copy of the repository README from before the structure move of 2026. 
 
 # Critical Vibe Coding
 
-[Potential Structure Change](potential-structure-change.md)
-
 Interface Cultures (Kunstuniversität Linz) — seminar combining **hands-on LLM agents** with **critical inquiry** into authorship, labour, platforms, and ecology.
 
 This GitHub repository is the **student-facing course pack** (syllabus, session notes, how-tos, references). Clone it, browse on GitHub, or copy folders into your Obsidian vault.
