@@ -16,13 +16,13 @@ translation_date: 2026-11-23
 | Original title | *Academic AI Benutzerhandbuch* |
 | Publisher | ACOmarket GmbH (feedback: support@academic-ai.at) |
 | Version | AAI 3.0, manual V 2.1, dated 09.09.2026 |
-| Original file in this repository | [academic-ai-benutzerhandbuch-v2-1-de.pdf](academic-ai-benutzerhandbuch-v2-1-de.pdf) (42 pages, German) |
-| Official online URL of this exact version | **Not found.** See the notice below |
-| Official online URL of the earlier version V 2.0 (27.07.2026) | https://www.kunstuni-linz.at/fileadmin/media/KI/0726_Benutzerhandbuch_Academic_AI_3.0-V2.0.pdf |
+| Source used for this translation | German PDF, manual V 2.1, dated 09.09.2026, 42 pages. The file is not stored in this repository |
+| Public URL of V 2.1 | **None found.** See the notice below |
+| Official URL of the older version V 2.0 (27.07.2026) | https://www.kunstuni-linz.at/fileadmin/media/KI/0726_Benutzerhandbuch_Academic_AI_3.0-V2.0.pdf |
 
-**Notice on the source.** A web search on 2026-11-23 found one official online copy of this manual. It is hosted by Kunstuniversität Linz and is version V 2.0 of 27.07.2026. The file served HTTP 200 and was last modified on 29 July 2026. The version translated here is V 2.1 of 09.09.2026. The V 2.0 table of contents has no chapter 7.9 on the disclaimer. V 2.1 adds that chapter with figures 30 and 31, and it changes text, for example in sections 2.1 and 2.5. No online copy of V 2.1 was found, and the URL of V 2.0 is not the URL of this document. For that reason the original PDF stays in this repository until the course author decides.
+**Notice on the source.** This translation is based on the German manual V 2.1 dated 09.09.2026. No public URL of V 2.1 was found. The only official online copy found is the older version V 2.0 of 27.07.2026, hosted by Kunstuniversität Linz (link in the table). A web search on 2026-11-23 found it. The file served HTTP 200 and was last modified on 29 July 2026. The V 2.0 table of contents has no chapter 7.9 on the disclaimer. V 2.1 adds that chapter with figures 30 and 31, and it changes text, for example in sections 2.1 and 2.5. The V 2.0 link is given for orientation only. It is not the source of this translation, and it does not confirm the text of V 2.1.
 
-**Notice on the translation.** An AI agent translated this text from the German PDF. The publisher did not review it. The German original is the authoritative text. Section numbers follow the original. The original has 31 screenshots. They are not reproduced here. Each figure is listed with its caption and the numbered callouts of the original. Interface labels are given in English, with the German label in quotation marks where it helps. "Nutzer*innen" is rendered as "users". The text states the status of the system in September 2026. Check the current service before you rely on a detail.
+**Notice on the translation.** An AI agent translated this text from the German PDF. The publisher did not review it, and nobody has independently checked it against the original. The German original is the authoritative text. Section numbers follow the original. The original has 31 screenshots. They are not reproduced here. Each figure is listed with its caption and the numbered callouts of the original. Interface labels are given in English, with the German label in quotation marks where it helps. "Nutzer*innen" is rendered as "users". The text states the status of the system in September 2026. Check the current service before you rely on a detail.
 
 ## Contents
 

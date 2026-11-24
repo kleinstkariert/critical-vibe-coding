@@ -12,13 +12,13 @@ translation_date: 2026-11-23
 | Field | Value |
 |---|---|
 | Original title | Slide title: "Academic AI. Sicher, DSGVO- und AI-Act-konform mit Academic AI arbeiten. Ein Leitfaden für Studierende und Mitarbeiter*innen" |
-| Original file in this repository | [academic-ai-vortrag-10-2026-de.pptx](academic-ai-vortrag-10-2026-de.pptx) (49 slides, German) |
+| Source used for this translation | German PPTX, October 2026, 49 slides. The file is not stored in this repository |
 | File properties | Created 2026-08-19, last saved 2026-10-23. The author field only names the tool that made the file. No publisher is stated on the slides |
-| Official online URL | **Not found.** See the notice below |
+| Publisher and public original URL | **None found.** See the notice below |
 
-**Notice on the source.** The slides say they follow the Academic AI user manual V3.0 (see the first slide). The publisher of the slide deck is not stated. Web searches on 2026-11-23 found no online copy of this deck. They found a different Academic AI deck from an event on 8 October 2026 (hosted by an event system at events.asc.ac.at), and that deck has different slides. No official URL is given here, because none could be verified. For that reason the original PPTX stays in this repository until the course author decides.
+**Notice on the source.** The slides say they follow the Academic AI user manual V3.0 (see the first slide). The publisher of the slide deck is not stated. Web searches on 2026-11-23 found no online copy of this deck. They found a different Academic AI deck from an event on 8 October 2026 (hosted by an event system at events.asc.ac.at), and that deck has different slides. The October 2026 file was the source of this translation. No publisher and no public original URL were found, so no URL is given here.
 
-**Notice on the translation.** An AI agent translated the text of the slides from the German PPTX. Screenshots and images are not reproduced. Slides that hold only an image are marked. Speaker notes: the file has none. Most content repeats the [Academic AI user manual](academic-ai-user-manual.md). Where the slides and the manual differ, the manual is the more complete text. The slides add a few details, for example model names and the price examples on slide 11, which this translation does not check.
+**Notice on the translation.** An AI agent translated the text of the slides from the German PPTX. Nobody has independently checked the translation against the original. Screenshots and images are not reproduced. Slides that hold only an image are marked. Speaker notes: the file has none. Most content repeats the [Academic AI user manual](academic-ai-user-manual.md). Where the slides and the manual differ, the manual is the more complete text. The slides add a few details, for example model names and the price examples on slide 11, which this translation does not check.
 
 ## Slide 1. Title
 
