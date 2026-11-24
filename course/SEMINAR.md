@@ -69,7 +69,7 @@ First questions come from the topics of the student inputs and from [THEORY](THE
 
 You can take part with AI, with AI used critically, or without AI.
 Without AI, you can do research, investigative work, input presentations, and documentation of what you see.
-The required work is the same for everyone: the personal manifesto, the [minimum path](PROJECT-WORK/minimum-path.md), and one input.
+The required work is the same for everyone: the personal manifesto, the [minimum path](PROJECT-WORK/01_minimum-path.md), and one input.
 The minimum path does not require an AI tool. It asks you to name your choices and to give reasons.
 
 ## How disagreement is handled

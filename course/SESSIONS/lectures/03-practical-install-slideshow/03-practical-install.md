@@ -51,6 +51,6 @@ Why this order: [install why](../../../PRACTICE/01-harness-and-agents/install-wh
 | Project rules | [agents md template](../../../PRACTICE/01-harness-and-agents/agents-md-template.md) |
 | Novice safety baseline | the guide for your system, section 6 |
 | Docker sandbox | advanced workshop: [howto hermes docker sandbox](../../../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) |
-| Longer Hermes notes | [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) |
+| Longer Hermes notes | [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) |
 
 Session note: [03 practical install](../../03-practical-install.md)

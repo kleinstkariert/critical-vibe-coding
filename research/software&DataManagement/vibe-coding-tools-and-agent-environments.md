@@ -31,7 +31,7 @@ This page does not replace the course how-tos:
 - Hermes install: [howto hermes setup](../../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
 - OpenCode install: [howto opencode setup](../../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md)
 - Pair Hermes with OpenCode: [howto hermes opencode pairing](../../course/PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md)
-- Prompting: [Prompting Guide for Critical Vibe Coding](../../course/PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+- Prompting: [Prompting Guide for Critical Vibe Coding](../../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
 
 ---
 

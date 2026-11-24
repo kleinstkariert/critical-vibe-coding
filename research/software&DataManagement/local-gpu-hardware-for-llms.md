@@ -15,7 +15,7 @@ Source types: [[../../course/REFERENCES/bibliography#source-types]]. A label nam
 Prices move weekly — re-check before telling students a number. Currency roughly **USD/EUR street / MSRP class, mid–late 2026** unless noted.
 
 **Session home:** [[../../course/SESSIONS/03-practical-install]] · student howto [[../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware]]  
-Also pointed from: session [[../../course/SESSIONS/02-agent-harness-and-wiki-architecture]] (model landscape preview) · [[../../course/SESSIONS/06-agent-as-interface]] (ecology input, not build guide) · [[../../course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding]] §28 · [[../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware]].
+Also pointed from: session [[../../course/SESSIONS/02-agent-harness-and-wiki-architecture]] (model landscape preview) · [[../../course/SESSIONS/06-agent-as-interface]] (ecology input, not build guide) · [[../../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding]] §28 · [[../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware]].
 
 Hermes docs (software side): [Local Models](https://hermes-agent.nousresearch.com/docs/user-guide/local-models) · [Ollama guide](https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup) · [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
 
@@ -170,7 +170,7 @@ These rows are locally runnable models. The weights have to fit the machine. A f
 
 **Hermes-specific:** Desktop **Local Models** auto-picks quant vs your GPU; curated catalog + Hugging Face GGUF. Manual Ollama: raise context (`num_ctx` ≥ 64k for agent work), keep-alive, tool-capable model — see Hermes Ollama guide.
 
-**Thinking models:** Use instruct default; enable thinking only for hard tasks ([[../../course/PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding#28-chat-versus-reasoning-models]]).
+**Thinking models:** Use instruct default; enable thinking only for hard tasks ([[../../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding#28-chat-versus-reasoning-models]]).
 
 ---
 

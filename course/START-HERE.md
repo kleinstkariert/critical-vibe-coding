@@ -15,7 +15,7 @@ This page is a short orientation. It is not an install page.
 
 - Seminar of Interface Cultures. Eight sessions, each 10:00 to 12:00. Dates are to be decided. Language: English.
 - We read, talk and test. We also look at who gains and who pays when AI enters art and design.
-- Required work: a personal manifesto on how you want to use AI in your practice, the [minimum path](PROJECT-WORK/minimum-path.md), and one group input presentation.
+- Required work: a personal manifesto on how you want to use AI in your practice, the [minimum path](PROJECT-WORK/01_minimum-path.md), and one group input presentation.
 - The manifesto names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not week-1 homework.
 - The technical object is a student-designed agentic production system. Claude Code, Cursor, OpenCode, a local script, another agent, or no AI are all valid. Hermes is one *reference implementation* and a class *demonstration*. It is *not required for assessment*.
 - No purchase is required. Alternatives are allowed.
@@ -45,7 +45,7 @@ Full list: [SESSIONS](SESSIONS/README.md). Milestones: [timeline](SESSIONS/overv
 
 - [PRACTICE](PRACTICE/README.md) sorts the notes by question: what an agent can do, how knowledge is organised, which model, where it runs, how tools connect, how work is checked.
 - You can read them in any order. You may skip all of them.
-- The earlier install-heavy start page is kept as [install order and first week](PRACTICE/install-order-and-first-week.md). It is an *optional extension*.
+- The earlier install-heavy start page is kept as [install order and first week](PRACTICE/install-order.md). It is an *optional extension*.
 - Critical and humanities notes are in [THEORY](THEORY/README.md).
 - Sources and facts that change fast are in [REFERENCES](REFERENCES/README.md).
 

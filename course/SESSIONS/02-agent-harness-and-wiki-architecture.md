@@ -9,7 +9,7 @@ canonical: true
 
 # Session 02. Agent harness, LLM Wiki structure, model landscape, install Hermes
 
-*reference implementation.* The lecturer will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
+*reference implementation.* The lecturer will install Hermes with the class. That install is a *demonstration*. It is *not required for assessment*. The assessed object is the student-designed system in [minimum path](../PROJECT-WORK/01_minimum-path.md). Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems. The flattening input presentation is required.
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
@@ -105,7 +105,7 @@ Classroom bet for CVC: spend the semester on **wiki + schema + tools** (structur
 
 After the general frame, land in the course default.
 
-*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [minimum path](../PROJECT-WORK/minimum-path.md).
+*reference implementation.* "Course default" here means the Hermes example for this class. It is not the assessed system. See [minimum path](../PROJECT-WORK/01_minimum-path.md).
 
 ### Why a folder wiki is harness, not "just notes"
 
@@ -155,7 +155,7 @@ Students redraw this in their own words for homework.
 
 Ten minutes, honest access notes:
 
-- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md).
+- **Proprietary cloud** (OpenAI, Anthropic, Google): strongest models, paid, your data leaves. Choose by strengths: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md).
 - **Open weights** (Llama, Qwen, DeepSeek, Mistral, Nemotron): weights published; can run locally if small enough, or through a hosted provider. Closed versus open as power: student input in Session 03.
 - **Local**: preview only. Hardware paths and memory math: Session [03](03-practical-install.md).
 - **European hosting** and **Austrian academic AI**: usually no agent API key; HPC / AI Factory is not a daily Hermes backend: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md). Say explicitly what students can and cannot use.
@@ -202,11 +202,11 @@ If the install fails, label Model versus Harness on a product the student alread
 | Hermes vs coding agents (comparison) | [hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) |
 | OpenCode setup and Hermes pairing | [howto opencode setup](../PRACTICE/01-harness-and-agents/howto-opencode-setup.md) · [howto hermes opencode pairing](../PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) |
 | Session 02 Obsidian slides | [02 agent harness and hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) |
-| Architecture overview | [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) |
+| Architecture overview | [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) |
 | Hermes install (Desktop + CLI) | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
-| Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) |
+| Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) |
 | Flattening deep dive (student input) | [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 | Session 01 lecture (model versus product versus agent) | [01 welcome landscape lecture](lectures/01-welcome-landscape-lecture.md) |
 | Presentation style | [presentation style](lectures/presentation-style.md) |

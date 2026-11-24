@@ -9,7 +9,7 @@ canonical: true
 
 # Session 01. Welcome outdoors + political-economic lecture
 
-This session introduces a personal manifesto: how you want to use AI in your practice. It is required, with [minimum path](../PROJECT-WORK/minimum-path.md) and the input presentations. It names no product. You develop it through the course and hand it in at the end. It is not homework for this week.
+This session introduces a personal manifesto: how you want to use AI in your practice. It is required, with [minimum path](../PROJECT-WORK/01_minimum-path.md) and the input presentations. It names no product. You develop it through the course and hand it in at the end. It is not homework for this week.
 The stack named below is a *reference implementation* and a *demonstration*. Hermes is one way to build a student-designed agentic production system. The lecturer will install Hermes with the class. That install is *not required for assessment*. Claude Code, Cursor, OpenCode, a local script, or another agent are valid systems.
 The input-topic choice is required.
 
@@ -109,7 +109,7 @@ Groups of four (or two pairs) pick one session by next week. About 15 minutes at
 
 ## Homework
 
-- Bookmark / clone the **course GitHub**: [START HERE](../PRACTICE/install-order-and-first-week.md)
+- Bookmark / clone the **course GitHub**: [START HERE](../PRACTICE/install-order.md)
 - Install a knowledge store with **phone sync**: default Obsidian ([howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md)); **other options allowed** if they fit the course needs: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) (SilverBullet, etc.)
 - Note which LLM access you already have
 - Read the [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) or watch the [Beginner Setup Guide](https://www.youtube.com/watch?v=iXd0t60YmMw) ([references](../REFERENCES/bibliography.md)). If you do not want to use AI: you can do research, investigative work on AI and input lectures.

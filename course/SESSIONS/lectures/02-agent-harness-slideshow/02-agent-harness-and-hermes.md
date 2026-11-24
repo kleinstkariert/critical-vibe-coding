@@ -16,7 +16,7 @@ Critical Vibe Coding · 10:00(15) to 12:00(15)
 
 This deck teaches the setup path for today. You can follow it without other notes open. Links at the end point to full how-tos.
 
-*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [minimum path](../../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This deck is the worked Hermes example for the class install. See [minimum path](../../../PROJECT-WORK/01_minimum-path.md).
 
 ---
 
@@ -36,7 +36,7 @@ Today has two aims:
 - Understand how a model becomes a useful agent.
 - Start a safe Hermes setup.
 
-Full guides: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)
+Full guides: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 # Critical Vibe Coding
@@ -360,7 +360,7 @@ Minimum course rules:
 6. Require approval for destructive commands.
 7. Review the Git diff before you accept work.
 
-Overview: [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)  
+Overview: [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)  
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/security
 
 ---
@@ -395,7 +395,7 @@ Use it with limited mounts, non-root users, and network controls.
 This slide is a demonstration. Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
-[howto hermes docker sandbox](../../../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+[howto hermes docker sandbox](../../../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
 
 ---
 
@@ -622,7 +622,7 @@ Two different layers:
 
 Class smoke test uses the vault path in `.env`. Container mount rules are extra isolation for untrusted work.
 
-[howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)
+[howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 
@@ -657,7 +657,7 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 
 # References
 
-- [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)
+- [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)
 - [what is harness](../../../PRACTICE/01-harness-and-agents/what-is-harness.md) · [what is mcp](../../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · [academic ai austria](../../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · [howto local llm hardware](../../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md)
 - Karpathy LLM Wiki gist · LangChain harness anatomy
 - Session: [02 agent harness and wiki architecture](../../02-agent-harness-and-wiki-architecture.md)

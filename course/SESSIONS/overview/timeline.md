@@ -14,7 +14,7 @@ canonical: true
 
 Draft. Dates TBD. Labels: *requirement* | *technical suggestion* | *todo*.
 
-A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [minimum path](../../PROJECT-WORK/minimum-path.md) and the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *reference implementation* or an *optional extension*. They are *not required for assessment*.
+A personal manifesto on how you want to use AI in your practice is required. It names no product. Session 01 introduces it. You develop it through the course and hand it in at the end. It is not a week-1 deliverable. Also required: [minimum path](../../PROJECT-WORK/01_minimum-path.md) and the student input presentations. Hermes, phone sync, Discord, MCP, and local models in the map below are a *reference implementation* or an *optional extension*. They are *not required for assessment*.
 
 ## Short syllabus sheet
 
@@ -35,9 +35,9 @@ Academic AI (Austria): [academic ai austria](../../PRACTICE/03-models-and-provid
 
 EU AI Act, and GDPR (separate topics): [eu ai act and datenschutz](../../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md#decision-questions)
 
-Prompting guide: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+Prompting guide: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
 
-**Student start page:** [START HERE](../../PRACTICE/install-order-and-first-week.md) · **Required work:** [minimum path](../../PROJECT-WORK/minimum-path.md)
+**Student start page:** [START HERE](../../PRACTICE/install-order.md) · **Required work:** [minimum path](../../PROJECT-WORK/01_minimum-path.md)
 
 **GitHub is the course pack** (public). Teams / UFG for announcements.
 
@@ -55,7 +55,7 @@ Students learn to build and run their own powerful LLM-agent setups while unpack
 | **Critical / "group therapy"** | Check-in, political-economic framing, authorship and labour, ecological and regulatory claims |
 | **Agent as interface** | Setup, skills, knowledge base and tool wiring as artistic/technical material |
 
-The technical row names a *reference implementation*. The assessed system is tool-neutral. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+The technical row names a *reference implementation*. The assessed system is tool-neutral. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 ## Opening ritual (*requirement*)
 
@@ -117,7 +117,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 | What is **MCP** | [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | Hermes / Obsidian howtos | [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
 | Local hardware howto | [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
-| Prompting guide | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| Prompting guide | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) |
 | Course rhythm | [course rhythm](course-rhythm.md) |
 | Local hardware research | [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 | Course outline | [course outline](course-outline.md) |

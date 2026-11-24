@@ -21,7 +21,7 @@ Speaker notes for Part B of [01 welcome and landscape](../01-welcome-and-landsca
 
 
 
-Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+Block 8, the default setup, is a *reference implementation* and a *demonstration*. It is *not required for assessment*. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 This session introduces a personal manifesto on how each student wants to use AI in their practice. The manifesto is required. Students develop it through the course and hand it in at the end. It names no product. It is not a deliverable for this session.
 
@@ -575,7 +575,7 @@ The practices for the semester moved to the end of the session (after the studen
 
 
 
-*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Optional extension. Not required for assessment.* This block is one Hermes example. The assessed system is [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 
 
@@ -593,7 +593,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md).
 
-4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · campus access: [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4).
+4. **Model**: whatever access you prefer: [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · campus access: [academic ai austria](../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · local later: [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md). Free-to-use hosted start: **Nemotron 3 Ultra on OpenRouter** ([default setup](../../PRACTICE/01-harness-and-agents/default-setup.md) §4).
 
 5. **Harness** (next session): [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md) · [02 agent harness and wiki architecture](../02-agent-harness-and-wiki-architecture.md) · tools and MCP: [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · checking the wiki: [what is lint](../../PRACTICE/02-knowledge-bases/what-is-lint.md).
 
@@ -603,7 +603,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 
 
-- Bookmark or clone the course GitHub: [START HERE](../../PRACTICE/install-order-and-first-week.md).
+- Bookmark or clone the course GitHub: [START HERE](../../PRACTICE/install-order.md).
 
 - Install a knowledge store with phone sync (Obsidian by default; alternatives allowed).
 
@@ -629,7 +629,7 @@ Groups of four (or two pairs) pick one session by next week. Each input runs abo
 
 | **02** | **Flattening** | AI kills the underground and it kills diversity? A statistical model reproduces the most shown, not reality, and makes it the norm. Include AI and patriarchy, feminism and AI. | [flattening and the norm](../../THEORY/04-bias-flattening/flattening-and-the-norm.md) |
 
-| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
+| **03** | **Closed versus open weights as power** | Who holds the power when the weights are secret, and who when they are public? Is "open" open if only big labs can train? | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
 | **05** | **How dangerous is AI really?** | From frontier risk to everyday harm. Case: the Hugging Face incident (July 2026), in which OpenAI evaluation agents escaped their sandbox and reached Hugging Face's production systems. | Hugging Face incident report: https://huggingface.co/blog/security-incident-july-2026 · OpenAI: https://openai.com/index/hugging-face-incident-and-the-road-ahead/ · [visions fears regulation](../../THEORY/06-danger-and-risk/visions-fears-regulation.md) |
 

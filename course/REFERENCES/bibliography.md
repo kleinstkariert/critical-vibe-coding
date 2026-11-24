@@ -65,7 +65,7 @@ claim_scope: exact | paraphrase | interpretation
 Course how-to (Win / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)  
 Short syllabus sheet: [course outline](../SESSIONS/overview/course-outline.md)  
 What is a harness: [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)  
-Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)  
+Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)  
 Academic AI Austria: [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)  
 Drivers / visions / fears / regulation (Session 01, 10–15 min): [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)  
 AI jobs — rising tide, Canaries, productivity × experience: [ai jobs rising tide productivity](../../research/ai-jobs-rising-tide-productivity.md)  

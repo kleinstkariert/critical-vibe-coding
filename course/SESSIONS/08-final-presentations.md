@@ -12,7 +12,7 @@ canonical: true
 
 
 
-The final presentation is required. Show the system in [minimum path](../PROJECT-WORK/minimum-path.md): the architecture, one use, and the critical reflection. Hermes is a *reference implementation*. It is *not required for assessment*.
+The final presentation is required. Show the system in [minimum path](../PROJECT-WORK/01_minimum-path.md): the architecture, one use, and the critical reflection. Hermes is a *reference implementation*. It is *not required for assessment*.
 
 
 

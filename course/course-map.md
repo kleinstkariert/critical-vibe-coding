@@ -35,22 +35,22 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 | [Starter knowledge base](PRACTICE/02-knowledge-bases/starter-knowledge-base.md) | current | true |
 | [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
 | [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
-| [Prompting Guide for Critical Vibe Coding](PRACTICE/03-models-and-providers/Prompting Guide for Critical Vibe Coding.md) | current | true |
+| [Prompting Guide for Critical Vibe Coding](PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) | current | true |
 | [How-to — Local LLM hardware and software](PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | current | true |
 | [How-to. Hermes Docker sandbox click-path](PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) | current | true |
 | [What is an MCP?](PRACTICE/06-mcp-and-tools/what-is-mcp.md) | current | true |
 | [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |
-| [Verified coding](PRACTICE/08-verification-and-provenance/Local LLM Coding with Hermes.md) | current | true |
-| [START HERE — Critical Vibe Coding](PRACTICE/install-order-and-first-week.md) | current | true |
+| [Verified coding](PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) | current | true |
+| [START HERE — Critical Vibe Coding](PRACTICE/install-order.md) | current | true |
 | [Practice](PRACTICE/README.md) | current | true |
-| [Interface score](PROJECT-WORK/interface-score.md) | current | true |
-| [Minimum path](PROJECT-WORK/minimum-path.md) | current | true |
-| [Project path](PROJECT-WORK/project-path.md) | current | true |
-| [Provenance and process log](PROJECT-WORK/provenance.md) | current | true |
+| [Interface score](PROJECT-WORK/05_interface-score.md) | current | true |
+| [Minimum path](PROJECT-WORK/01_minimum-path.md) | current | true |
+| [Project path](PROJECT-WORK/02_project-path.md) | current | true |
+| [Provenance and process log](PROJECT-WORK/03_provenance.md) | current | true |
 | [Project work](PROJECT-WORK/README.md) | current | true |
-| [Critical reflection](PROJECT-WORK/reflection.md) | current | true |
-| [Verification](PROJECT-WORK/verification.md) | current | true |
+| [Critical reflection](PROJECT-WORK/06_reflection.md) | current | true |
+| [Verification](PROJECT-WORK/04_verification.md) | current | true |
 | [Critical Vibe Coding — references](REFERENCES/bibliography.md) | current | true |
 | [Dated models, prices, limits and hardware](REFERENCES/dated-models-prices-limits-and-hardware.md) | current | true |
 | [Peer courses](REFERENCES/peer-courses.md) | current | false |
@@ -94,7 +94,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [README before the seminar-first structure](../archive/README-before-seminar-first.md) | deprecated | false |
+| [README before the seminar-first structure](../archive/former-repository-navigation.md) | deprecated | false |
 | [Archive](../archive/README.md) | deprecated | false |
 
 ## Other student pages

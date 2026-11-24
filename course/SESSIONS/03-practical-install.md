@@ -9,7 +9,7 @@ canonical: true
 
 # Session 03. Practical install: a light Hermes Desktop install, with hardware and prompting as reading
 
-*optional extension. Not required for assessment.* The install is a *demonstration* of one *reference implementation*. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
+*optional extension. Not required for assessment.* The install is a *demonstration* of one *reference implementation*. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/01_minimum-path.md). The input on closed versus open weights is required. *Locally runnable* is defined in [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) §4.
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md) · Slides: [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md)
 
@@ -24,7 +24,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 - Join, if you want to, a light install: Hermes Desktop, one small model or one API key, one wiki folder. **Docker is not part of the baseline.**
 - Leave with a personal "fits / does not fit" note for local models
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
-- Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+- Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
 - **Chat / instruct versus reasoning**; thinking-off knobs (guide §28)
 
 ## Clock
@@ -45,7 +45,7 @@ Listen only: [course rhythm](overview/course-rhythm.md#1-check-in-every-session)
 
 ## Student input (theory / humanities): Closed versus open weights as power
 
-Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) · [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10). **Not** a GPU shopping list.
+Group (about 15 min). Who holds the power when the weights are secret, and who when they are public? Is "open" open if only a few labs can afford to train? Who can afford local privacy? Starting points: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md) · Verdegem's commons essay ([bubble economy](../THEORY/01-political-economy/bubble-economy.md) §10). **Not** a GPU shopping list.
 
 ## The light install
 
@@ -77,16 +77,16 @@ Docker is an advanced workshop, not today's baseline: [howto hermes docker sandb
 
 1. Memory math (Q4 ≈ 0.5 GB per billion parameters): board table from [local gpu hardware for llms](../../research/software&DataManagement/local-gpu-hardware-for-llms.md)
 2. **Unified memory** (Apple, Spark) versus **VRAM** (GeForce) versus **multi-GPU split** (layer/tensor, not one big VRAM)
-3. Open models that make sense for agents (**tool calling** > raw chat), thinking off by default: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md#28-chat-versus-reasoning-models)
+3. Open models that make sense for agents (**tool calling** > raw chat), thinking off by default: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md#28-chat-versus-reasoning-models)
 4. Hermes paths: Local Models one-click · Ollama endpoint ([docs](https://hermes-agent.nousresearch.com/docs/user-guide/local-models))
 
 ## Reading: prompting and chat versus reasoning (formerly teacher input, Part B, about 10 min), *practice*
 
-- **Prompting guide** (task structure, chat packs → agent briefs, reasoning/thinking, STE80): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md)
+- **Prompting guide** (task structure, chat packs → agent briefs, reasoning/thinking, STE80): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
 - ICAO prompting skills are retired. Use STE80 and plain English status words (guide §§26 to 27).
 - OpenAI Academy: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role
 - Agent habits: goals, constraints, file paths, "do not invent", verify; Hermes context: [agents md template](../PRACTICE/01-harness-and-agents/agents-md-template.md)
-- **Reasoning versus chat:** default instruct/flash with thinking **off**; escalate for hard multi-step tasks; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md#28-chat-versus-reasoning-models)
+- **Reasoning versus chat:** default instruct/flash with thinking **off**; escalate for hard multi-step tasks; cheap hybrids with a switch (Qwen3, DeepSeek hybrid, Gemini Flash `thinkingBudget: 0`): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md#28-chat-versus-reasoning-models)
 - **Structure / harness versus model quality:** [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) · [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md) · Session [02 agent harness and wiki architecture](02-agent-harness-and-wiki-architecture.md)
 - *Classroom line:* within a usable model tier, invest in wiki + schema + tools before paying for the next model upgrade; treat **thinking** as a token-cost knob, not a status symbol
 
@@ -129,5 +129,5 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 | Hermes + Ollama | https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup |
 | Ollama GPU | https://docs.ollama.com/gpu |
 | llama.cpp multi-GPU | https://github.com/ggml-org/llama.cpp/blob/master/docs/multi-gpu.md |
-| Prompting / thinking-off | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/Prompting%20Guide%20for%20Critical%20Vibe%20Coding.md) |
+| Prompting / thinking-off | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) |
 | Academic AI (not daily local) | [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) |

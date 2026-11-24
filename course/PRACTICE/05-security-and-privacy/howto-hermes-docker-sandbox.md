@@ -14,7 +14,7 @@ canonical: true
 
 # How-to. Turn on the Hermes Docker sandbox
 
-*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [minimum path](../../PROJECT-WORK/minimum-path.md).
+*reference implementation. Advanced path. Not required for assessment.* This page is one Hermes sandbox example. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
 This page is an advanced safety module. Use it as a demonstration or in a separate workshop. It is not the novice baseline.
 
@@ -22,7 +22,7 @@ The novice baseline is read-only inspection first, a disposable project, manual 
 
 Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
-Short click-path only. For Docker concepts, mounts, and generic container flags, use [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) (§8 Docker, §9 Sandbox).
+Short click-path only. For Docker concepts, mounts, and generic container flags, use [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) (§8 Docker, §9 Sandbox).
 
 Official Nous docs:
 
@@ -45,7 +45,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 ## 1. Prerequisites
 
-1. Install Docker for your OS (links in [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md) §8).
+1. Install Docker for your OS (links in [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §8).
 2. Confirm Docker works:
 
 ```bash
@@ -124,7 +124,7 @@ Do not set `approvals.mode: off` on a personal laptop unless you understand the 
 
 Review the Git diff after agent edits.
 
-Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)
+Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 
@@ -144,5 +144,5 @@ Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.m
 - https://hermes-agent.nousresearch.com/docs/user-guide/docker
 - https://hermes-agent.nousresearch.com/docs/user-guide/security
 - https://hermes-agent.nousresearch.com/docs/user-guide/configuration
-- [Local LLM Coding with Hermes](../08-verification-and-provenance/Local%20LLM%20Coding%20with%20Hermes.md)
+- [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
 - [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)

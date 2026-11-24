@@ -18,7 +18,7 @@ tags:
 
 This folder holds dated research on machines for local LLM work. It compares one ready-made system (a DGX Spark class machine) with four build options of consumer GPUs in an open frame. It also holds a model-fit table.
 
-**No one must buy hardware for this course.** These notes are optional reading and an advanced path. See [how-to local LLM hardware](../../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) and [minimum path](../../../course/PROJECT-WORK/minimum-path.md).
+**No one must buy hardware for this course.** These notes are optional reading and an advanced path. See [how-to local LLM hardware](../../../course/PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) and [minimum path](../../../course/PROJECT-WORK/01_minimum-path.md).
 
 ## Read this first: these numbers are dated
 

@@ -9,7 +9,7 @@ canonical: true
 
 # Session 05. Vault practice, phone sync, Discord bridge, MCP
 
-*optional extension. Not required for assessment.* Phone sync, Discord, and MCP are not required. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/minimum-path.md). The input on how dangerous AI is is required.
+*optional extension. Not required for assessment.* Phone sync, Discord, and MCP are not required. Any one agent plus one folder meets [minimum path](../PROJECT-WORK/01_minimum-path.md). The input on how dangerous AI is is required.
 
 Parent: [timeline](overview/timeline.md) · Rhythm: [course rhythm](overview/course-rhythm.md)
 
