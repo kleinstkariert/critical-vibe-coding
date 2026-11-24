@@ -313,21 +313,21 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 
 | Check | Result | Pass 1 | Pass 2 |
 |---|---|---|---|
-| Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | pending | pending |
-| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | pending | pending |
-| Stale old-path scan | PASS | pending | pending |
-| Frontmatter scan (reader-label field, malformed blocks) | PASS | pending | pending |
-| Name scan (case-insensitive, text, file names, deck XML) | PASS | pending | pending |
-| Local machine path scan | PASS | pending | pending |
-| Duplicate canonical content scan | PASS with notes | pending | pending |
-| Content loss scan against `origin/main` | PASS | pending | pending |
-| Course map generator | PASS | pending | pending |
-| Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | pending | pending |
-| README entry points | PASS | pending | pending |
-| Stub pages, `teacher` paths, lowercase `sessions` | PASS | pending | pending |
-| Em dashes in new text | PASS with notes | pending | pending |
-| Scripts compile | PASS | pending | pending |
-| Commit size and author | PASS | pending | pending |
+| Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) |
+| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once | 123 Markdown files, 1425 relative links, 0 broken |
+| Stale old-path scan | PASS | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) |
+| Frontmatter scan (reader-label field, malformed blocks) | PASS | 0 reader-label fields, 0 malformed blocks | 0 reader-label fields, 0 malformed blocks |
+| Name scan (case-insensitive, text, file names, deck XML) | PASS | 0 in 129 text files, 159 file names and 2 deck packages | 0 in 129 text files, 159 file names and 2 deck packages |
+| Local machine path scan | PASS | 0 (one match is the word OneDrive, a cloud product) | 0 (one match is the word OneDrive, a cloud product) |
+| Duplicate canonical content scan | PASS with notes | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison | 54 sentences repeated across files, mostly between the three OS install guides, by design. One page holds the tool comparison |
+| Content loss scan against `origin/main` | PASS | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits | 229 old lines are not in the new tree. All sit in rewritten entry pages, removed files, the Session 03 rewrite, name removal or link-label edits |
+| Course map generator | PASS | 89 rows, 0 reader-label columns | 89 rows. One stale page title found and regenerated |
+| Deck packages (zip test, python-pptx, old paths in notes XML) | PASS | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML | zip test OK (pptx 291 entries, odp 40), 57 slides, 0 old paths in notes XML |
+| README entry points | PASS | 10 internal links, 0 wikilinks, 0 external links | 10 internal links, 0 wikilinks, 0 external links |
+| Stub pages, `teacher` paths, lowercase `sessions` | PASS | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` | 0 stub pages, 0 `teacher` paths, 0 files under `course/sessions/` |
+| Em dashes in new text | PASS with notes | 0 in text written for this branch. 2 moved pages carry old ones | 0 in text written for this branch. 2 moved pages carry old ones |
+| Scripts compile | PASS | 5 files compile | 5 files compile |
+| Commit size and author | PASS | At most 30 files per commit. One author: `kleinstkariert` | At most 30 files per commit. One author: `kleinstkariert` |
 
 ## Remaining risks
 

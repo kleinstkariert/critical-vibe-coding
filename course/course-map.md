@@ -136,7 +136,7 @@ Regenerate it with `python course/scripts/generate-course-map.py`.
 
 | Page | Status | Canonical |
 |---|---|---|
-| [Structure move 2026, seminar-first layout](../documentation/structure-move-history.md) | draft | false |
+| [Structure move history](../documentation/structure-move-history.md) | draft | false |
 | [Why this structure](../documentation/why-this-structure.md) | draft | false |
 
 ## Archive
