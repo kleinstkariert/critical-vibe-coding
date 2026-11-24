@@ -317,7 +317,7 @@ Pass 1 ran in the working tree. Pass 2 ran independently in a fresh clone of the
 | Check | Result | Pass 1 | Pass 2 |
 |---|---|---|---|
 | Strict link check (links, wikilinks by path, heading anchors, exact case) | PASS | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) | 123 files, 0 broken links, 111 notices (Obsidian-only wikilinks) |
-| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After later edits: 1424 links, 0 broken | 123 Markdown files, 1424 relative links, 0 broken |
+| Independent link pass (separate script, GitHub heading slugs, exact case) | PASS | 123 Markdown files, 1423 relative links, 0 broken. A first run found 4 broken heading anchors, repaired once. After later edits: 1426 links, 0 broken | 123 Markdown files, 1426 relative links, 0 broken |
 | Stale old-path scan | PASS | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) | 3 pattern matches, all reviewed, 0 stale (one vault note name, two link labels) |
 | Frontmatter scan (reader-label field, malformed blocks) | PASS | 0 reader-label fields, 0 malformed blocks | 0 reader-label fields, 0 malformed blocks |
 | Name scan (case-insensitive, text, file names, deck XML) | PASS | 0 in 129 text files, 159 file names and 2 deck packages | 0 in 129 text files, 159 file names and 2 deck packages |
