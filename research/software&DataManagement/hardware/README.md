@@ -101,7 +101,7 @@ In short:
 
 ## Shared technical notes for the DIY builds
 
-- **Memory is split, not unified.** Software splits the model across cards. Two 24 GB cards give about 48 GB of weight capacity, not one 48 GB GPU. The longer explanation is in [local GPU hardware for LLMs](../local-gpu-hardware-for-llms.md#4-path-c-diy-multi-gpu-rack-workstation).
+- **Memory is split, not unified.** Software splits the model across cards. Two 24 GB cards give about 48 GB of weight capacity, not one 48 GB GPU. The longer explanation is in [local GPU hardware for LLMs](../local-gpu-hardware-for-llms.md#4-path-c--diy-multi-gpu-rack--workstation).
 - **Split mode.** llama.cpp layer split (`-sm layer`) is the default and works over PCIe. Tensor split (`-sm tensor`) is still experimental. An NVLink bridge is not needed for layer split.
 - **Power cables.** Use one PSU cable per GPU connector. Never daisy-chain GPU power cables. Power-limit the cards where practical, and meter consumption.
 - **Reasoning settings.** "Thinking off" applies only to models that support it. See the note in the [capability matrix](llm-coding-capability-matrix.md).

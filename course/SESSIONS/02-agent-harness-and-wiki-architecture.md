@@ -83,7 +83,7 @@ Emphasise: **harness engineering is design**. Choosing tools, schemas and kill s
 
 ### Why we invest in structure before model shopping
 
-Research check: [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) · short version in [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md#why-structure-harness-often-beats-just-a-better-model).
+Research check: [structure vs model quality](../../research/software&DataManagement/structure-vs-model-quality.md) · short version in [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md#why-structure--harness-often-beats-just-a-better-model).
 
 Teach carefully:
 

@@ -23,8 +23,8 @@ def slug(text):
     text = text.strip().lower()
     text = text.replace("'", "")
     text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
-    return text.strip("-")
+    text = re.sub(r"\s", "-", text)
+    return text
 
 
 def headings(text):
