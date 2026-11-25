@@ -62,6 +62,11 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 
 | Page | Status | Canonical |
 |---|---|---|
+| [Agent. LLM Wiki and Obsidian](PRACTICE/01-harness-and-agents/agent-install/01-llm-wiki-and-obsidian.md) | current | true |
+| [Agent. AGENTS.md and safety](PRACTICE/01-harness-and-agents/agent-install/02-agents-md-and-safety.md) | current | true |
+| [Agent. General skills and STE80](PRACTICE/01-harness-and-agents/agent-install/03-general-skills-ste.md) | current | true |
+| [Agent. vvvv skills and MCP](PRACTICE/01-harness-and-agents/agent-install/04-vvvv-skills-and-mcp.md) | current | true |
+| [Agent install pack](PRACTICE/01-harness-and-agents/agent-install/README.md) | current | true |
 | [Template. AGENTS.md for student projects](PRACTICE/01-harness-and-agents/agents-md-template.md) | current | true |
 | [Deep dive: Default setup](PRACTICE/01-harness-and-agents/default-setup.md) | current | true |
 | [Hermes vs coding agents vs always-on assistants](PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) | current | true |

@@ -56,6 +56,8 @@ Hermes keeps its files in `~/.hermes/`. Uninstall, WSL, and Docker notes: [advan
 
 ## 2. Add an OpenRouter key
 
+Hermes setup can offer a free start with the `nous/welcome` model (no account, no API key, once per OS user, when you answer setup in a terminal; not in a container, CI, or scripted run; shown only when available). Source: Hermes Quickstart, checked 25 Nov 2026: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart. Use that for early steps if it appears. Add OpenRouter when you need the class free NVIDIA route or more quota.
+
 The class default is OpenRouter with a free model. No card is needed for model ids that end in `:free`. Create a key at https://openrouter.ai/settings/keys. Free models: 20 requests a minute and 50 a day. Your prompts may be logged. Use public text only. [Free models](https://openrouter.ai/collections/free-models)
 
 If a Desktop window is open:
@@ -138,6 +140,10 @@ STOP if the paths point at a system folder or a private vault. Fix the paths bef
 You are done for class when the skill is listed and Hermes restarts.
 
 ## Next steps (advanced)
+
+After Hermes works, feed Hermes short files from the agent pack instead of the long human guides.
+
+- Agent pack (short files for Hermes; feed one at a time): [agent-install/](agent-install/README.md)
 
 One short line each. Do these at home, or when the teacher says so.
 
