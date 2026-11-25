@@ -54,16 +54,16 @@ Use path B.
 
 The Hermes install page does not publish a checksum for `install.sh` or `install.ps1`. A checksum is a short fingerprint of a file. This course does not invent one. Page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
 
-The script does check the uv tool it downloads. That check does not prove that `install.sh` or `install.ps1` is the file from the official page. Read the saved file.
+The script does check the uv tool it downloads. That check does not prove that `install.sh` or `install.ps1` is the file from the official page. Check the saved file.
 
-While you read, look for `curl`, `irm`, and `git clone` lines. The host should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, or `github.com`. Stop if you see a different host.
+While you check, look for `curl`, `irm`, and `git clone` lines. The host should be `hermes-agent.nousresearch.com`, `hermes-assets.nousresearch.com`, `github.com`, `api.github.com`, or `raw.githubusercontent.com/NousResearch/hermes-agent`. Stop if you see a different host. Official list of Hermes domains: https://hermes-agent.nousresearch.com/docs/getting-started/official-domains
 
 ### Windows
 
 #### Option A. Hermes Desktop (recommended UI)
 
-1. Open https://hermes-agent.nousresearch.com/desktop and download the Windows package, **or** install from the Microsoft Store listing linked there.
-2. Open the `.appinstaller` / MSIX with **Windows App Installer** (signed bundle). MSIX Desktop needs a recent Windows 11 build for the Store/MSIX path; source CLI still supports Windows 10.
+1. Open https://hermes-agent.nousresearch.com/desktop and download the Windows package, **or** install from the Microsoft Store listing linked there. Do not use the "Download .exe instead" button: it builds Hermes from source.
+2. Open the `.appinstaller` / MSIX with **Windows App Installer** (signed bundle). MSIX Desktop needs Windows 11 version 22H2 or later (Hermes Windows guide). The source CLI still supports Windows 10.
 3. First launch uses the same Hermes home as the CLI: `%LOCALAPPDATA%\hermes\`.
 4. Optional: if you already installed CLI only, run `hermes desktop` to build/launch the desktop shell against your existing config.
 
@@ -98,12 +98,17 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 curl.exe -fsSL https://hermes-agent.nousresearch.com/install.ps1 -o install.ps1
 ```
 
-4. Type `notepad install.ps1` and press Enter. Notepad opens the script.
-5. Read the script. Close Notepad.
-6. Type the next line and press Enter.
+4. Type the next line and press Enter. It lists every web host the script uses.
 
 ```powershell
-powershell -NoProfile -File .\install.ps1
+Select-String -Path .\install.ps1 -Pattern 'https?://[A-Za-z0-9.-]+' -AllMatches | ForEach-Object { $_.Matches.Value } | Sort-Object -Unique
+```
+
+   Expected on 25 Nov 2026: `https://api.github.com`, `https://github.com`, `https://hermes-assets.nousresearch.com`. Stop if you see any other host. The script has about 2,300 lines. You may also type `notepad install.ps1`, press Enter, and search for `irm` and `Invoke-WebRequest`.
+5. Windows blocks script files by default (execution policy `Restricted`, Microsoft docs). The next line allows scripts for this one window only. The script also installs a computer-use driver by default. You do not need it. The flag `-SkipComputerUse` leaves it out. Type the next line and press Enter.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -SkipComputerUse
 ```
 
 What the Windows script changes, from the Hermes install layout and from `install.ps1`, checked 20 Nov 2026:
@@ -282,7 +287,7 @@ You need **some** API / Portal access. Hermes itself is free/MIT; model usage is
 *technical suggestion* (page consulted 10 Nov 2026): **NVIDIA Nemotron 3 Ultra** through OpenRouter. The materials are openly distributed under OpenMDW-1.1. This route is a free-to-use hosted endpoint: $0 per token, tool calling, up to 1 million tokens of context.
 
 1. Create a free account and API key at https://openrouter.ai
-2. Add the key to the Hermes env file (`~/.hermes/.env`, on Windows `%LOCALAPPDATA%\hermes\.env`):
+2. Add the key to the Hermes env file (`~/.hermes/.env`, on Windows `%LOCALAPPDATA%\hermes\.env`). On Windows, open the file in Windows Terminal with `notepad "$env:LOCALAPPDATA\hermes\.env"`. If Notepad asks to create the file, click Yes. Click File, then Save. Do not use Save As.
 
    ```env
    OPENROUTER_API_KEY=your-key
@@ -290,7 +295,7 @@ You need **some** API / Portal access. Hermes itself is free/MIT; model usage is
 
 3. Run `hermes model`, choose OpenRouter, then the model `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
-Limits and privacy: 20 requests per minute and 50 per day on a free account. Prompts may be logged. The model is too large for most student machines. Keep private notes away from it until you have checked the data policy. The route is a hosted cloud service: [default setup](default-setup.md) §4. Fallback: the free plan of Nous Portal (`hermes setup --portal`). Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
+Limits and privacy: 20 requests per minute and 50 per day on a free account (these limits were not re-checked on 25 Nov 2026, not verified). Prompts may be logged. The model is too large for most student machines. Keep private notes away from it until you have checked the data policy. The route is a hosted cloud service: [default setup](default-setup.md) §4. Fallback: the free plan of Nous Portal (`hermes setup --portal`). The Hermes guide for this free tier mentions dates in June. The Nous route may be over: not verified. Hermes guide: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
 
 ---
 
@@ -327,7 +332,7 @@ WIKI_PATH=/absolute/path/to/MyVault/wiki
 The smoke test uses a new folder named `hermes-smoke-test` in your home folder. It does not use the vault. The vault path in `.env` is for later note work. Container `AgentShare` rules are **extra** isolation for untrusted or Docker runs. They do not replace Obsidian sync. Phone sync: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
 
 Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian  
-LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
+LLM Wiki skill (optional skill, not bundled; install with `hermes skills install official/research/llm-wiki`): https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki
 
 ---
 
@@ -418,7 +423,7 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 
 - Do not run as root. Do not expose the gateway publicly.
 - Keys only in Hermes `.env`, never in synced vault notes.
-- Novice baseline: read the files first, use a disposable project, keep manual approvals on, give Hermes one narrow write folder, keep a Git or filesystem snapshot, and do not use a private vault.
+- Novice baseline: read the files first, use a disposable project, and do not use a private vault. The default approval mode is `smart`. Type `hermes config set approvals.mode manual` to be asked before every dangerous shell command. Hermes asks only before dangerous shell commands. It writes files without asking, so make a Git or filesystem snapshot before a write task and check the changes after it. A narrow write folder is a habit, not a lock.
 - Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md). Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 - Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
@@ -446,7 +451,7 @@ The default `WIKI_PATH` is `MyVault/wiki`. A full-vault path is convenience mode
 Session habit: read schema + index + recent log before ingest/query/lint.
 
 Course notes: [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md) · [what is lint](../02-knowledge-bases/what-is-lint.md) · [references](../../REFERENCES/bibliography.md)  
-Skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki  
+Skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki  
 Karpathy gist: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f  
 Optional Obsidian plugin: https://community.obsidian.md/plugins/karpathywiki
 
@@ -497,5 +502,5 @@ Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 - Security: https://hermes-agent.nousresearch.com/docs/user-guide/security
 - Messaging: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/
 - Obsidian skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian
-- LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
+- LLM Wiki skill: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki
 - GitHub: https://github.com/NousResearch/hermes-agent
