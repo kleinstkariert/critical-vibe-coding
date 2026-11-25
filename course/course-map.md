@@ -87,6 +87,7 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 | [Starter knowledge base](PRACTICE/02-knowledge-bases/starter-knowledge-base.md) | current | true |
 | [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
 | [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
+| [Free cloud models for class](PRACTICE/03-models-and-providers/free-cloud-models-for-class.md) | current | true |
 | [How-to. Load one local model](PRACTICE/03-models-and-providers/howto-local-models.md) | current | true |
 | [Model types and local model tiers](PRACTICE/03-models-and-providers/model-types-and-local-model-tiers.md) | current | true |
 | [prompting-guide-for-critical-vibe-coding](PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) | current | true |

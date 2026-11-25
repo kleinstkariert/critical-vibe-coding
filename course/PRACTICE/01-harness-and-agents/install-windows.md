@@ -36,26 +36,32 @@ Hermes Agent is the program that uses a model to read files and call tools. Herm
 
 Hermes keeps its files in `%LOCALAPPDATA%\hermes\`. For the Store package this is not verified on a real machine. Older Windows, or no Store: [advanced Hermes config](howto-hermes-advanced-config.md#windows-cli).
 
-## 2. Add an OpenRouter key
+## 2. Add a free model path
 
-Hermes setup can offer a free start with the `nous/welcome` model (no account, no API key, once per OS user, when you answer setup in a terminal; not in a container, CI, or scripted run; shown only when available). Source: Hermes Quickstart, checked 25 Nov 2026: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart. Use that for early steps if it appears. Add OpenRouter when you need the class free NVIDIA route or more quota.
+Hermes setup can offer a free start with the `nous/welcome` model (no account, no API key, once per OS user, when you answer setup in a terminal; not in a container, CI, or scripted run; shown only when available). Source: Hermes Quickstart, checked 25 Nov 2026: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart. Use that for the first chat if it appears.
 
-The class default is OpenRouter with a free model. No card is needed for model ids that end in `:free`. Create a key at https://openrouter.ai/settings/keys. Free models: 20 requests a minute and 50 a day. Your prompts may be logged. Use public text only. [Free models](https://openrouter.ai/collections/free-models)
+**Optional and visible (best privacy):** run a model on your machine. In Hermes Desktop open **Settings → Providers → Local Models**, install the runtime, download a model that fits, then click **Use**. Full steps: [howto local models](../03-models-and-providers/howto-local-models.md). Do this after the smoke test if class time is short. Local models stay optional for assessment.
+
+**Class cloud path:** OpenRouter free models (ids that end in `:free`). No card is needed. Create a key at https://openrouter.ai/settings/keys. Free models: 20 requests a minute and 50 a day. Use public text only. Compare ethics, quota, and Hermes fit: [free cloud models for class](../03-models-and-providers/free-cloud-models-for-class.md). Live list: [OpenRouter free models](https://openrouter.ai/collections/free-models).
 
 1. In Hermes Desktop, open **Settings**, then **Providers**, then **OpenRouter**.
 2. Add your API key. Paste the key. Do not type it in a shell command.
-3. Set the main model to `nvidia/nemotron-3-ultra-550b-a55b:free` (class free OpenRouter NVIDIA route; checked 25 Nov 2026). Tell the teacher if your list shows a different free NVIDIA id.
+3. In your OpenRouter account privacy settings, turn off free-model training if you can (exact label: not verified). That skips hosts OpenRouter marks as may-train.
+4. Set the main model. Prefer one of these (*technical suggestion*, checked 25 Nov 2026):
+   - `google/gemma-4-26b-a4b-it:free` (open weights; better privacy tags than NVIDIA free on OpenRouter's table; Hermes fitness not verified)
+   - or `openrouter/free` (router picks a free model)
+   - still listed: `nvidia/nemotron-3-ultra-550b-a55b:free` (strong for agents, but the free quota **burns fast** with tool loops; OpenRouter marks NVIDIA as may train). Demoted as the class default. Prefer Gemma, `openrouter/free`, or a local model when you can.
 
-Menu labels: **Settings → Providers → OpenRouter → add API key**. Exact wording on screen is not verified. Other providers, cards, and limits: [providers and keys](howto-hermes-providers-and-keys.md). Terminal or `.env` file: that page only.
+Menu labels: **Settings → Providers → OpenRouter → add API key**. Exact wording on screen is not verified. Other providers, cards, and limits: [providers and keys](howto-hermes-providers-and-keys.md). Terminal or `.env` file: that page only (advanced).
 
 Do not put the key in the vault, in chat, or in Git. Why, and what to do after a leak: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets).
 
 ## 3. First chat and smoke test
 
-This test checks that the free OpenRouter model answers in chat. Do not point Hermes at your vault.
+This test checks that your free model answers in chat. Do not point Hermes at your vault.
 
-1. Set the main model to `nvidia/nemotron-3-ultra-550b-a55b:free` (or the free OpenRouter NVIDIA model you chose in section 2).
-2. Open a new chat in Hermes.
+1. Set the main model to the id you chose in section 2 (Gemma free, `openrouter/free`, Nemotron free, `nous/welcome`, or a local model).
+2. Open a new chat in Hermes Desktop (preferred). Terminal chat is advanced.
 3. Send this short prompt: Reply with one short sentence that says you work.
 4. Expect a short reply. Then continue with section 4.
 
@@ -89,6 +95,8 @@ Write-Output "$env:USERPROFILE\workspaces\llm-wiki\vault"
 
 ### 4b. Point Hermes at the same folder
 
+Desktop Settings for vault path fields: not verified. Use the `.env` steps below (advanced when Desktop has no path fields).
+
 Official docs: set `WIKI_PATH` for the LLM Wiki skill. If you also use the Obsidian skill, set `OBSIDIAN_VAULT_PATH` to the **same** folder. Both must be absolute paths.
 
 1. In the same normal terminal, type `notepad "$env:LOCALAPPDATA\hermes\.env"` and press Enter. If Notepad asks to create the file, click Yes.
@@ -105,6 +113,8 @@ WIKI_PATH=C:\Users\<username>\workspaces\llm-wiki\vault
 More path rules: [advanced Hermes config](howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder).
 
 ### 4c. Install the LLM Wiki skill
+
+Prefer Hermes Desktop if it shows Skills under Settings (path and labels: not verified). If Desktop has no Skills install UI, use the terminal commands below (advanced).
 
 1. In the same normal terminal, type:
 
@@ -124,11 +134,12 @@ You are done for class when the skill is listed and Hermes restarts.
 
 After Hermes works, feed Hermes short files from the agent pack instead of the long human guides.
 
+- Free cloud models (ethics and quota): [free cloud models for class](../03-models-and-providers/free-cloud-models-for-class.md)
+- Local models (Hermes Desktop Local Models first): [howto local models](../03-models-and-providers/howto-local-models.md)
 - Agent pack (short files for Hermes; feed one at a time): [agent-install/](agent-install/README.md)
 
 One short line each. Do these at home, or when the teacher says so.
 
-- Local models: [howto local models](../03-models-and-providers/howto-local-models.md)
 - Phone sync for the class vault (homework): [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md)
 - MCP examples (vvvv): [howto example mcp servers](../06-mcp-and-tools/howto-example-mcp-servers.md)
 - Docker sandbox: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)

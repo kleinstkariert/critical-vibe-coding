@@ -341,27 +341,31 @@ An OpenRouter deployment of these materials is not private, and it is not sovere
 
 
 
-*technical suggestion*, page consulted 10 Nov 2026:
+*technical suggestion*, re-checked 25 Nov 2026.
 
 
 
-**NVIDIA Nemotron 3 Ultra through OpenRouter's free tier**, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
+**Preferred free cloud pick for class:** OpenRouter `google/gemma-4-26b-a4b-it:free` (or `openrouter/free`), with free-model training denied in OpenRouter privacy when that control is available. Open weights (Apache 2.0). Comparison table: [free cloud models for class](../03-models-and-providers/free-cloud-models-for-class.md).
 
 
 
-- *institutional summary (OpenRouter, NVIDIA):* Released 4 June 2026. Weights published under OpenMDW-1.1, a permissive open licence. *claim (NVIDIA):* training data and recipes are published as well. That is more open model materials than most open-weight releases.
-
-- *institutional summary (OpenRouter):* This classroom path is a free-to-use hosted endpoint: $0 per token, tool calling, context up to 1 million tokens. Rate limits: 20 requests per minute, 50 requests per day (1,000 after a one-time credit purchase). Prompts may be logged. Hermes needs at least 64,000 tokens of context and tool calling.
-
-- *institutional summary (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
-
-- Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [providers and keys](howto-hermes-providers-and-keys.md) · OS beginner guides.
-
-- 550 billion parameters (55 billion active per step). Too large for most student machines. The privacy points in §3 apply.
+**Still listed, demoted:** **NVIDIA Nemotron 3 Ultra** through OpenRouter, model ID `nvidia/nemotron-3-ultra-550b-a55b:free`.
 
 
 
-Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use hosted models only, no payment) or a small locally runnable model through Ollama if your computer has the memory (Session 03).
+- *institutional summary (OpenRouter, NVIDIA):* Weights under OpenMDW-1.1. Strong agent marketing. Hermes has a dedicated free-tier guide.
+
+- *institutional summary (OpenRouter):* Free-to-use hosted endpoint: $0 per token, large context. Rate limits: 20 requests per minute, 50 requests per day (1,000 after US $10 credit). Agent tool loops burn the 50/day cap fast. OpenRouter marks NVIDIA as may train. Prefer Gemma, `openrouter/free`, or local when you care about quota or training.
+
+- Setup: Desktop **Settings → Providers → OpenRouter**, or `OPENROUTER_API_KEY` in the Hermes env file, then pick the model. Steps: [providers and keys](howto-hermes-providers-and-keys.md) · OS beginner guides.
+
+
+
+**Privacy-best optional path:** Hermes Desktop **Settings → Providers → Local Models**. [howto local models](../03-models-and-providers/howto-local-models.md).
+
+
+
+Fallbacks: `nous/welcome` (one-shot), Nous Portal (`hermes setup --portal`), or Ollama / LM Studio as alternates to Desktop Local Models (Session 03).
 
 
 

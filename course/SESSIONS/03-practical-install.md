@@ -63,12 +63,12 @@ What "light" means here:
 | Guide section | Light install |
 |---|---|
 | 1. Install Hermes Desktop (Linux: terminal install) | Do. Windows: check version first (Windows 11, 22H2 or later) |
-| 2. Add an OpenRouter key | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Free model, no card |
-| 3. First chat and smoke test | Do. Set the free OpenRouter NVIDIA model. Ask if it works. Expect a short reply. Stop here if time runs out |
+| 2. Add a free model path | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Prefer Gemma `:free` or `openrouter/free`. Nemotron free still listed but demoted (quota burns fast; may train). Optional visible: Settings → Providers → Local Models. Table: [free cloud models for class](../PRACTICE/03-models-and-providers/free-cloud-models-for-class.md) |
+| 3. First chat and smoke test | Do. Use the model from section 2. Ask if it works. Expect a short reply. Stop here if time runs out |
 | 4. Connect Obsidian, Hermes, and LLM Wiki | Do if time allows. Class folder `%USERPROFILE%\workspaces\llm-wiki\vault` (macOS/Linux: `~/workspaces/llm-wiki/vault`), set both env paths to that folder, install `official/research/llm-wiki`, check with `hermes skills list`. Phone sync is homework |
-| Advanced links at the end of each guide | Homework. Local models, phone sync, MCP, Docker, CLI, providers |
+| Advanced links at the end of each guide | Homework. Free-model table, local models, agent pack, phone sync, MCP, Docker, CLI, providers |
 
-The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. Section 4 then points Hermes at `%USERPROFILE%\workspaces\llm-wiki\vault` (or `~/workspaces/llm-wiki/vault`). STOP if Hermes names a private vault or a system folder.
+The first Hermes request (guide section 3) is a short chat check with the free model from section 2. It does not use the vault. Section 4 then points Hermes at `%USERPROFILE%\workspaces\llm-wiki\vault` (or `~/workspaces/llm-wiki/vault`). STOP if Hermes names a private vault or a system folder.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
@@ -120,7 +120,7 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 
 | What | Link |
 |---|---|
-| Install guides | [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) · [install why](../PRACTICE/01-harness-and-agents/install-why.md) · [providers and keys](../PRACTICE/01-harness-and-agents/howto-hermes-providers-and-keys.md) · [local models](../PRACTICE/03-models-and-providers/howto-local-models.md) |
+| Install guides | [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) · [install why](../PRACTICE/01-harness-and-agents/install-why.md) · [providers and keys](../PRACTICE/01-harness-and-agents/howto-hermes-providers-and-keys.md) · [free cloud models for class](../PRACTICE/03-models-and-providers/free-cloud-models-for-class.md) · [local models](../PRACTICE/03-models-and-providers/howto-local-models.md) |
 | Starter knowledge base | [starter knowledge base](../PRACTICE/02-knowledge-bases/starter-knowledge-base.md) |
 | Session 03 slides | [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md) |
 | Dated model and hardware claims | [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md) |

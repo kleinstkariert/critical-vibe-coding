@@ -11,6 +11,8 @@ For agents only. Humans use the OS install guides: [Windows](../install-windows.
 
 Feed **one file at a time**. Do not load the long human guides unless asked.
 
+Model pick (human page, short): prefer local or Gemma `:free`; Nemotron free burns quota and may train. [free cloud models for class](../../03-models-and-providers/free-cloud-models-for-class.md) · [howto local models](../../03-models-and-providers/howto-local-models.md).
+
 | File | Use when |
 |---|---|
 | [01-llm-wiki-and-obsidian.md](01-llm-wiki-and-obsidian.md) | Vault path, env keys, LLM Wiki skill |
