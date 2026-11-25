@@ -20,7 +20,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 
 ## Goals
 
-- Join, if you want to, a light install: Hermes Desktop (or Linux terminal), one OpenRouter free key in Settings, one first chat and smoke test. Local models, Obsidian, and MCP are advanced links. **Docker is not part of the baseline.**
+- Join, if you want to, a light install: Hermes Desktop (or Linux terminal), one OpenRouter free key in Settings, one first chat, then Obsidian + LLM Wiki pointed at a class `wiki/` folder. Local models, phone sync, and MCP are advanced or homework. **Docker is not part of the baseline.**
 - Leave with a personal "fits / does not fit" note for local models
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
 - Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
@@ -36,7 +36,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | **Optional join-in install**: light Hermes Desktop install, one guide for your system. No Docker. |
 
-The install runs in this order: Desktop, OpenRouter key, first chat and smoke test. If time runs out, stop after the smoke test. Finish advanced steps at home.
+The install runs in this order: Desktop, OpenRouter key, first chat, then Obsidian and LLM Wiki. If time runs out, stop after the chat smoke test. Finish the wiki connect at home.
 
 If you do not want to install, you can read the hardware section below, write the "fits / does not fit" note, or help a neighbour. The install is not required for assessment.
 
@@ -65,9 +65,10 @@ What "light" means here:
 | 1. Install Hermes Desktop (Linux: terminal install) | Do. Windows: check version first (Windows 11, 22H2 or later) |
 | 2. Add an OpenRouter key | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Free model, no card |
 | 3. First chat and smoke test | Do. Set the free OpenRouter NVIDIA model. Ask if it works. Expect a short reply. Stop here if time runs out |
-| Advanced links at the end of each guide | Homework. Local models, Obsidian, MCP, Docker, CLI, providers |
+| 4. Connect Obsidian, Hermes, and LLM Wiki | Do if time allows. Class vault + `wiki/` folder, set `WIKI_PATH` / `OBSIDIAN_VAULT_PATH`, install `official/research/llm-wiki`, check with `hermes skills list`. Phone sync is homework |
+| Advanced links at the end of each guide | Homework. Local models, phone sync, MCP, Docker, CLI, providers |
 
-The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. STOP if Hermes names the vault.
+The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. Section 4 then points Hermes at a class `wiki/` folder only. STOP if Hermes names a private vault.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
@@ -108,6 +109,7 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 
 ## Homework
 
+- Finish Obsidian + LLM Wiki connect if class time ran out (guide section 4)
 - Phone sync for the vault is homework: [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md)
 - Optional at home: a local model ([howto local models](../PRACTICE/03-models-and-providers/howto-local-models.md))
 - Finish the software setup at home if class time ran out (flipped: deep DIY reading at home): [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md)
