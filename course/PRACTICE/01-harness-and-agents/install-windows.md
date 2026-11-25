@@ -17,7 +17,7 @@ Follow this file from top to bottom. Do not open the Linux or macOS guides.
 ## Before you start
 
 - Windows 11, version 22H2 or later, for Hermes Desktop. Press the Windows key and R together, type `winver`, and press Enter to see your version.
-- About 5 GB of free disk space for Hermes (not verified). A local model needs 20 GB or more.
+- About 5 GB of free disk space for Hermes (not verified). A local model is optional. Its file is 3 to 20 GB, by model (section 2).
 - A web connection. A local model download is large. Do it at home.
 - You do not need administrator rights. Do not run Hermes as Administrator.
 - Section 3, path B needs a payment card. Path A does not.
@@ -50,59 +50,69 @@ More Windows notes, including the command-line installer: [howto hermes setup](h
 
 Hermes keeps its files in `%LOCALAPPDATA%\hermes\`. For the Store package this is not verified on a real machine. After you save a key in section 3, check that `%LOCALAPPDATA%\hermes\.env` exists.
 
-## 2. Load one local model
+## 2. Load one local model (optional)
 
-A local model runs on this computer. It does not need an API key.
+A local model runs on this computer. It does not need an API key. Nothing leaves your computer.
 
-In class, skip this section unless you have a 24 GB card. The Hermes list has no 7B to 8B model. The 27B model is about 18.5 GB to download. Do this section at home on a good connection. In class, go to section 3.
+This section is optional. The default for class is section 3, path A (a free OpenRouter model, no card). Do section 3 and the first test (section 3b) first. Come back here when the first test works, or at home on a good connection. A model file is 3 to 20 GB.
 
-VRAM is the memory on the graphics card. The room demo card is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. That card does not prove that a 27B model fits in 16 GB. 27B means 27 billion parameters. Your computer may have a different card.
+Small local models are weaker at agent tasks than cloud models. They make more mistakes with tool calls. They lose the thread of a long task sooner. They are often slower. Example from the Gemma 4 model card (vendor numbers, checked 25 Nov 2026): on the Tau2 tool-use test, the 31B model scores 76.9% and the E4B model scores 42.2%. Use a small model to learn how the parts fit. Do not expect it to match a cloud model.
 
-Use these sizes for the first local experiment:
+VRAM is the memory on the graphics card. The Windows test machine for this guide has an NVIDIA GeForce RTX 5080 with 16 GB of VRAM (Windows 11 Enterprise 25H2). Your computer may have a different card. Find your VRAM in Task Manager: open the Performance tab, then click your GPU, and read "Dedicated GPU memory".
 
-- 8 to 16 GB of VRAM: a 7B to 8B model
-- A 24 GB card: a 14B to 20B model
-- **Qwen3.8 27B** is an advanced model. It is not the first download.
+Pick a row for your VRAM. Sizes are download sizes from the model pages, checked 25 Nov 2026. All models in the table are marked "tools" on the Ollama or LM Studio pages. This course did not run any of them with Hermes on 25 Nov 2026 (not verified).
 
-System memory is the normal RAM in the computer. Offload means Hermes puts part of the model in that RAM. The model can run. It can also be slow.
+| VRAM | Example models (4-bit unless noted) | Download | Tool calls | Trade-offs |
+|---|---|---|---|---|
+| 8 GB | Qwen3.5 4B; Gemma 4 E4B | 3.3 GB; 6.6 GB | Yes; yes | Fast and small. Gemma 4 E4B is tight at 64K context. Weakest at multi-step work |
+| 12 GB | Gemma 4 12B; Qwen3.5 9B | 8.0 GB; 6.6 GB | Yes; yes | Good first choice. Less room for a long chat |
+| 16 GB | Gemma 4 12B or Qwen3.5 9B (8-bit); Gemma 4 26B A4B | 13 GB or 10 GB; 15.6 GB | Yes; yes | 8-bit is a little more exact. The 26B model may spill into system RAM and slow down |
+| 24 GB | Qwen3.8 27B (Hermes catalog); Gemma 4 31B | 16.5 GB (18.5 GB with image and draft files); 19 to 20 GB | Yes; yes | Best quality here. Big download. The Hermes Ollama guide names only Gemma 4 31B as reliable for tools |
 
-A long context is a long chat plus the files the agent sends. A long context can make a model unusable even when the weights fit.
+"Reasoning" models think before they answer. Gemma 4, Qwen3.5, and Qwen3.8 are marked as reasoning models. They use more tokens and take longer for each reply. Granite 4.1 (3B, 8B) has tool calls but no reasoning mark. Details, sources, and more models: [install why](install-why.md).
 
-The Hermes catalog checked on 25 Nov 2026 has no 7B to 8B model. This course does not invent a catalog id. Open the Local Models list and read the names there. Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
+Context is the chat plus the files the agent sends. Hermes needs at least 64,000 tokens of context for tool work. Hermes sets this for you only for models it loads itself. Ollama starts with 4,096 tokens when the card has less than 24 GB of VRAM, so you must raise it. A larger context also needs more VRAM. The sources do not give that size (not verified). Check the fit before you download or load.
+
+System memory is the normal RAM in the computer. Offload means part of the model sits in that RAM. The model can run. It can also be slow.
 
 Tool calling means the model asks Hermes to run a tool.
+
+Choose one route.
+
+Route 1, the Hermes catalog. The catalog has no small model. It lists Qwen3.8 27B first. It fits the 24 GB row. On 16 GB, the fit label can say the model uses system RAM. Hermes docs say 16 GB or more runs the 27B to 35B models at high quality. This course did not check that on the 5080 (not verified).
 
 1. In Hermes Desktop, open Settings.
 2. Open Providers.
 3. Open Local Models.
-4. Click Install runtime.
-5. Wait until the runtime finishes.
-6. Read each row name.
-7. If a row says 7B or 8B, read its text.
-8. Download that row when the text says agent or tool calling.
-9. Read the fit label before you click Use.
-10. Click Use when the label says the model fits.
-11. If the label says the model uses system RAM, stop. Use the API model in the next section.
-12. If the label says the model is too big, stop. Use the API model in the next section.
-13. If no 7B or 8B row is in the list, skip the local download. Use the API model in the next section.
+4. Click Install runtime. Wait until it finishes.
+5. Read the fit label on the Qwen3.8 27B row.
+6. Click Download only when the label says the model fits, or when it says "uses system RAM" and you accept the slowdown.
+7. Read the label again. Click Use.
+8. If the label says the model is too big, stop. Use route 2 or section 3.
 
-The same page has a Find more models box. It searches Hugging Face and shows a fit check for each file. Hermes does not test those models. We did not try this box in class (not verified for this course).
+Route 2, Find more models. The same page has a Find more models box. It searches Hugging Face and shows a fit check for each file. Search for a name from the table, for example `gemma-4-12b` or `qwen3.5-9b`. Pick a 4-bit file (`Q4_K_M` or similar) that the fit check marks green. Hermes picks the context window from the model file. Hermes did not test these models. This course did not try the box (not verified).
+
+Route 3, LM Studio. Hermes lists LM Studio as a model provider. LM Studio shows a size estimate before it loads a model. This exact order was not run on Windows for this course (not verified).
+
+1. Install LM Studio from https://lmstudio.ai/download.
+2. In LM Studio, search for a model from the table and download it. Example model id: `google/gemma-4-12b`.
+3. Open Windows Terminal. Check the fit: `lms load google/gemma-4-12b --context-length 64000 --estimate-only`
+4. If the estimate is more than your VRAM, choose a smaller model.
+5. Load the model: `lms load google/gemma-4-12b --context-length 64000`
+6. Start the server: `lms server start`
+7. In Windows Terminal, type `hermes model`. Choose LM Studio. Press Enter to use `http://localhost:1234/v1`. Pick the model.
+
+Ollama works too. Hermes needs a 64,000 token context there. Set it before you start the server. In PowerShell, type `$env:OLLAMA_CONTEXT_LENGTH = 64000` and then `ollama serve`. If the Ollama app already runs in the tray, quit it first, or the setting may not apply (not verified). Then type `ollama ps` and read the CONTEXT column. In `hermes model`, choose Custom endpoint and use `http://localhost:11434/v1`. The Ollama installer step on Windows is not described here (not verified).
 
 If a download is not done after 5 minutes, stop and go to section 3. On the first reply, a local model can stay silent for minutes. Hermes sends a large fixed prompt each time. This is expected.
 
-Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text calls it the best all-round agent model. The model file is about 16.5 GB. With the image file and the draft file, the download is about 18.5 GB.
+If the model prints raw tool text such as `{"name": ...}` instead of running the tool, the server is not set up for tool calls. Hermes docs say this is usually the server, not the model. Use section 3 for class.
 
-1. Read [install why](install-why.md) before you download this model.
-2. Read the fit label on the Qwen3.8 27B row.
-3. Download it only when the label says the model fits, or when the label says it uses system RAM and you accept the slowdown.
-4. Click Use only after that read.
-5. Stop when the label says the model is too big.
-
-Size bands and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
+Facts, sources, and the Qwen3.8 27B file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 Free cloud models already listed for this course: [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4. Section 3, path A, uses that free route.
 
-Local model docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
+Hermes local model docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
 
 ## 3. Connect a model
 
