@@ -17,9 +17,15 @@ canonical: true
 
 This page is an advanced safety module. Use it as a demonstration or in a separate workshop. It is not the novice baseline.
 
-The novice baseline is read-only inspection first, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. Those steps are in [install windows](../01-harness-and-agents/install-windows.md), [install linux](../01-harness-and-agents/install-linux.md), and [install mac](../01-harness-and-agents/install-mac.md), section 6.
+The novice baseline is read-only inspection first, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. Those steps are in [safe install rules](howto-hermes-safe-install-rules.md) and in section 6 of [install windows](../01-harness-and-agents/install-windows.md), [install linux](../01-harness-and-agents/install-linux.md), and [install mac](../01-harness-and-agents/install-mac.md).
 
 Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
+
+Privileges for Docker itself, from the Docker docs (checked 25 Nov 2026):
+
+- Windows: Docker Desktop has a per-user install that needs no administrator rights, and an all-users install that does. Some settings marked "Requires password" still ask for UAC. Enabling WSL 2 for the first time needs administrator rights. Membership of the `docker-users` group is equal to administrator rights on the host. Source: https://docs.docker.com/desktop/setup/install/windows-install
+- Linux: the `docker` group gives root-level privileges to its members. Source: https://docs.docker.com/engine/install/linux-postinstall/
+- macOS: not verified.
 
 Short click-path only. For Docker concepts, mounts, and generic container flags, use [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) (§8 Docker, §9 Sandbox).
 
@@ -111,7 +117,7 @@ terminal:
 
 Some tasks need network for package installs. Enable network only for that step.
 
-Hermes Docker containers apply hard flags such as capability drop and no-new-privileges. Still use a non-root workflow on the host and limited mounts. Details: security docs above.
+Hermes Docker containers apply hard flags such as capability drop and no-new-privileges. Still keep the host session unprivileged (no Administrator window on Windows, no root on macOS and Linux) and limit the mounts. Details: security docs above.
 
 ---
 

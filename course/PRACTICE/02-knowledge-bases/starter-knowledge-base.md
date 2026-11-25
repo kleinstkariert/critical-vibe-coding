@@ -82,7 +82,7 @@ The agent must not read: private/
 Do not read secret files (.env, keys, passwords).
 Do not put secrets in this vault.
 Do not delete files without approval.
-Do not run as root.
+Do not run with raised rights (no root on macOS and Linux, no Administrator window on Windows).
 Do not expose the gateway.
 Stop after three failed repair attempts.
 Ask before a command that deletes, sends, or installs.
@@ -93,7 +93,7 @@ Access table: see the course starter page that this file was copied from.
 Links for those lines, without pasting them again:
 
 - [AGENTS.md](../../../AGENTS.md) · [agents md template](../01-harness-and-agents/agents-md-template.md)
-- [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d
+- [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d · [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
 - Docker workshop, not the novice baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14
 - [howto hermes efficient coding](../01-harness-and-agents/howto-hermes-efficient-coding.md)

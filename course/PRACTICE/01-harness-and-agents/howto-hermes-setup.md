@@ -73,7 +73,7 @@ While you check, look for `curl`, `irm`, and `git clone` lines. The host should 
 2. Type `Windows Terminal`.
 3. Press Enter.
 4. If Windows Terminal is not in the list, type `PowerShell` and press Enter.
-5. You type at the blinking cursor. Do not start the window as Administrator.
+5. You type at the blinking cursor. Do not start the window as Administrator. An account in the Administrators group is fine, with a normal window and UAC on. The Windows script needs no admin rights (Hermes docs). Details: [install windows](install-windows.md#use-an-administrator-account-safely).
 
 The host must be `hermes-agent.nousresearch.com`. Stop if it is not.
 
@@ -142,7 +142,7 @@ Default data home: `%LOCALAPPDATA%\hermes\`
 #### Option A. Hermes Desktop (Apple Silicon, recommended UI)
 1. Download the macOS package from https://hermes-agent.nousresearch.com/desktop
 2. Open the DMG → copy `Hermes.app` to Applications.
-3. First launch may need System Settings → Privacy & Security approval if Gatekeeper blocks an unidentified developer build (follow on-screen / Nous notes).
+3. Hermes build notes say the macOS release is Developer ID signed and notarized. Check the app with `codesign` and `spctl` before the first start: [install mac](install-mac.md) §1. If Gatekeeper blocks the app, stop and check. Do not bypass it.
 4. Same agent core as CLI: config, keys, sessions, skills.
 
 #### Option B. CLI (Apple Silicon or when Desktop is unavailable)
@@ -413,7 +413,7 @@ hermes gateway setup
 ```
 
 Supported in Hermes docs include Telegram, Discord, Matrix, Signal (`signal-cli`), and others.  
-Always set allowlists / pairing on a personal laptop.  
+Always set allowlists / pairing on a personal laptop. Do not set up a gateway in class. What each system installs, and which step needs admin rights: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#7-the-messaging-gateway).  
 Index: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/  
 Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 
@@ -421,10 +421,13 @@ Signal: https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal
 
 ## 5d. Security (minimum)
 
-- Do not run as root. Do not expose the gateway publicly.
-- Keys only in Hermes `.env`, never in synced vault notes.
+The rules that all install guides share are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). Short list:
+
+- Windows: use a normal, non-elevated terminal. An Administrators-group account is fine. Do not start Hermes as Administrator. macOS and Linux: do not run as root, and use `sudo` only for a named system package step.
+- Do not expose the gateway publicly.
+- Keys only in Hermes `.env`, never in synced vault notes, and never typed into a shell command.
 - Novice baseline: read the files first, use a disposable project, and do not use a private vault. The default approval mode is `smart`. Type `hermes config set approvals.mode manual` to be asked before every dangerous shell command. Hermes asks only before dangerous shell commands. It writes files without asking, so make a Git or filesystem snapshot before a write task and check the changes after it. A narrow write folder is a habit, not a lock.
-- Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md). Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
+- Docker is an advanced safety module, not the two-hour baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - Concepts and mounts: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§8 to 9
 - Approvals + Git diff review. See overview security rules and https://hermes-agent.nousresearch.com/docs/user-guide/security  
 - Work / personal laptop guide: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine  

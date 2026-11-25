@@ -195,7 +195,7 @@ Security overview: https://hermes-agent.nousresearch.com/docs/user-guide/securit
 Laptop checklist:
 
 1. Approvals: prefer `manual` on a machine with employer or personal secrets
-2. `HERMES_WRITE_SAFE_ROOT` for the project (+ Hermes home if needed)
+2. `HERMES_WRITE_SAFE_ROOT` for the project, and your Hermes home as a second root. Without it, Hermes cannot write its own state. It limits the file tools only, not the terminal tool. The list separator on Windows: not verified. All shared rules: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
 3. Do not mount the full Obsidian vault into a coding container
 4. Messaging gateway: allowlists / pairing only
 
