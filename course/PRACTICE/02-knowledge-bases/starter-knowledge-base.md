@@ -64,7 +64,7 @@ Folder names are not a lock. The course states that in [Local LLM Coding with He
 | `private/` | Must not read. Must not write. | Journal, health, and finance stay here. |
 | Keys, passwords, `.env` | Must not read. | Do not put them in the vault, including `private/`. |
 
-Point `WIKI_PATH` at `MyVault/wiki`. The path steps are in [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder). A full-vault path is convenience mode, not recommended for private material.
+Class default folder: `%USERPROFILE%\workspaces\llm-wiki\vault` (macOS/Linux: `~/workspaces/llm-wiki/vault`). Point both `WIKI_PATH` and `OBSIDIAN_VAULT_PATH` at that folder. Path steps: [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder). Do not point Hermes at a private vault.
 
 ## SCHEMA.md stub
 

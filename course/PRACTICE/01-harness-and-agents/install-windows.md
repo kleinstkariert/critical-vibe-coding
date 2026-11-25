@@ -18,7 +18,7 @@ Follow this file from top to bottom. Do not open the Linux or macOS guides.
 
 - Windows 11, version 22H2 or later. Press the Windows key and R together, type `winver`, and press Enter.
 - Use a normal terminal. Do not choose "Run as administrator". An account in the Administrators group is fine with UAC on. Hermes needs no administrator rights.
-- Do not point Hermes at Documents, the Desktop, or a private vault. The class wiki folder comes in section 4.
+- Do not point Hermes at Program Files, Documents, Desktop, or a private vault. The class folder is `%USERPROFILE%\workspaces\llm-wiki\vault` (section 4).
 - About 5 GB of free disk space (not verified).
 - Safety rules, UAC facts, checks and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#windows-details). Why this order: [install why](install-why.md).
 
@@ -61,34 +61,46 @@ STOP if Hermes names your vault or starts reading folders you did not ask for. T
 
 ## 4. Connect Obsidian, Hermes, and LLM Wiki
 
-Obsidian is the note app. It opens a **vault** (a folder of Markdown files). Hermes is the agent. The **LLM Wiki** skill tells Hermes how to build and keep a wiki in one folder. Official skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki
+Obsidian is the note app. It opens a **vault** (a folder of Markdown files). Hermes is the agent. The **LLM Wiki** skill tells Hermes how to build and keep a wiki in that folder. Official skill docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki
 
-Use a **class vault**, not your private vault. Phone sync is homework: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
+Class default folder (user profile only, not Program Files):
 
-### 4a. Obsidian and the wiki folder
+`%USERPROFILE%\workspaces\llm-wiki\vault`
+
+Example: `C:\Users\<username>\workspaces\llm-wiki\vault`
+
+Why this path: it is your user space. Hermes can write files there without administrator rights. That keeps the rest of Windows safer. Do not use a private vault. Phone sync is homework: [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
+
+### 4a. Create the vault and open it in Obsidian
 
 1. Download Obsidian for Windows: https://obsidian.md/download
-2. Install it. Create a new vault for class, for example `ClassVault`. Do not open your private vault.
-3. Inside that vault, create a folder named `wiki` (or copy the starter tree from [starter knowledge base](../02-knowledge-bases/starter-knowledge-base.md)).
-4. In Obsidian, open the vault root (`ClassVault`). You browse notes there. Hermes will only be pointed at `wiki/`.
+2. Install it.
+3. Create the folders. Open a normal Windows Terminal (not Administrator). Type this block and press Enter:
 
-### 4b. Point Hermes at `wiki/`
-
-Hermes reads two paths from its env file. For class, set both to the **absolute** path of `wiki/` (not the whole vault, not `private/`).
-
-1. Open a normal Windows Terminal (not Administrator).
-2. Type `notepad "$env:LOCALAPPDATA\hermes\.env"` and press Enter. If Notepad asks to create the file, click Yes.
-3. Add these two lines. Replace the path with your real path. Do not add quote marks.
-
-```env
-OBSIDIAN_VAULT_PATH=C:\Users\you\ClassVault\wiki
-WIKI_PATH=C:\Users\you\ClassVault\wiki
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\workspaces\llm-wiki\vault" | Out-Null
+Write-Output "$env:USERPROFILE\workspaces\llm-wiki\vault"
 ```
 
-4. Click File, then Save. Do not use Save As.
-5. A path with spaces is not verified. If your path has spaces, tell the teacher.
+4. In Obsidian, choose **Open folder as vault** (exact label: not verified). Select that `vault` folder.
+5. Optional: copy the starter tree into this vault from [starter knowledge base](../02-knowledge-bases/starter-knowledge-base.md).
 
-Official docs: set `WIKI_PATH` for the LLM Wiki skill. If you also use the Obsidian skill, set `OBSIDIAN_VAULT_PATH` to the same folder. Source: the LLM Wiki skill page above. More path rules: [advanced Hermes config](howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder).
+### 4b. Point Hermes at the same folder
+
+Official docs: set `WIKI_PATH` for the LLM Wiki skill. If you also use the Obsidian skill, set `OBSIDIAN_VAULT_PATH` to the **same** folder. Both must be absolute paths.
+
+1. In the same normal terminal, type `notepad "$env:LOCALAPPDATA\hermes\.env"` and press Enter. If Notepad asks to create the file, click Yes.
+2. Add these two lines. Replace `<username>` with your Windows user name. Do not add quote marks.
+
+```env
+OBSIDIAN_VAULT_PATH=C:\Users\<username>\workspaces\llm-wiki\vault
+WIKI_PATH=C:\Users\<username>\workspaces\llm-wiki\vault
+```
+
+3. Click File, then Save. Do not use Save As.
+4. A path with spaces is not verified. If your user name has spaces, tell the teacher.
+
+More path rules: [advanced Hermes config](howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder).
 
 ### 4c. Install the LLM Wiki skill
 
@@ -102,7 +114,7 @@ hermes skills install official/research/llm-wiki
 3. Check it loaded. Type `hermes skills list` and press Enter. The list must show the LLM Wiki skill (name on screen: not verified; look for `llm-wiki`).
 4. Quit Hermes Desktop and open it again.
 
-STOP if you pointed the paths at a private vault, or at Documents / Desktop. Fix the paths before you chat about notes.
+STOP if the paths point at Program Files, Documents, Desktop, or a private vault. Fix the paths before you chat about notes.
 
 You are done for class when the skill is listed and Hermes restarts.
 

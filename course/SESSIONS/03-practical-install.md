@@ -65,10 +65,10 @@ What "light" means here:
 | 1. Install Hermes Desktop (Linux: terminal install) | Do. Windows: check version first (Windows 11, 22H2 or later) |
 | 2. Add an OpenRouter key | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Free model, no card |
 | 3. First chat and smoke test | Do. Set the free OpenRouter NVIDIA model. Ask if it works. Expect a short reply. Stop here if time runs out |
-| 4. Connect Obsidian, Hermes, and LLM Wiki | Do if time allows. Class vault + `wiki/` folder, set `WIKI_PATH` / `OBSIDIAN_VAULT_PATH`, install `official/research/llm-wiki`, check with `hermes skills list`. Phone sync is homework |
+| 4. Connect Obsidian, Hermes, and LLM Wiki | Do if time allows. Class folder `%USERPROFILE%\workspaces\llm-wiki\vault` (macOS/Linux: `~/workspaces/llm-wiki/vault`), set both env paths to that folder, install `official/research/llm-wiki`, check with `hermes skills list`. Phone sync is homework |
 | Advanced links at the end of each guide | Homework. Local models, phone sync, MCP, Docker, CLI, providers |
 
-The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. Section 4 then points Hermes at a class `wiki/` folder only. STOP if Hermes names a private vault.
+The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. Section 4 then points Hermes at `%USERPROFILE%\workspaces\llm-wiki\vault` (or `~/workspaces/llm-wiki/vault`). STOP if Hermes names a private vault or a system folder.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 

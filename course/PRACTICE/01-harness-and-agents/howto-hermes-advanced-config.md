@@ -93,22 +93,27 @@ Optional: `hermes desktop` after CLI install when a Desktop build exists for you
 
 Do this after the smoke test works. Phone sync stays in [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md).
 
-| Platform | Env file | Example |
+Class default (user space only; Hermes needs no admin or root to write here):
+
+| Platform | Folder | Env file |
 |---|---|---|
-| Windows | `%LOCALAPPDATA%\hermes\.env` | `WIKI_PATH=C:\path\to\MyVault\wiki` |
-| macOS / Linux | `~/.hermes/.env` | `WIKI_PATH=/path/to/MyVault/wiki` |
+| Windows | `%USERPROFILE%\workspaces\llm-wiki\vault` (example `C:\Users\<username>\workspaces\llm-wiki\vault`) | `%LOCALAPPDATA%\hermes\.env` |
+| macOS | `~/workspaces/llm-wiki/vault` (example `/Users/<username>/workspaces/llm-wiki/vault`) | `~/.hermes/.env` |
+| Linux | `~/workspaces/llm-wiki/vault` (example `/home/<username>/workspaces/llm-wiki/vault`) | `~/.hermes/.env` |
 
 ```env
-OBSIDIAN_VAULT_PATH=/absolute/path/to/MyVault/wiki
-WIKI_PATH=/absolute/path/to/MyVault/wiki
+OBSIDIAN_VAULT_PATH=/absolute/path/to/workspaces/llm-wiki/vault
+WIKI_PATH=/absolute/path/to/workspaces/llm-wiki/vault
 ```
 
+Official LLM Wiki skill: set `WIKI_PATH`. If you also use the Obsidian skill, set `OBSIDIAN_VAULT_PATH` to the **same** folder. Docs: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/research/research-llm-wiki
+
 - Use a real absolute path. File tools do not expand `$OBSIDIAN_VAULT_PATH` in path arguments.
-- Obsidian still opens the whole vault. These two Hermes paths point at `wiki/`.
+- Do not use Program Files or other system folders. Agent writes stay in your user profile.
 - A folder name is not a security boundary. Access table: [starter knowledge base](../02-knowledge-bases/starter-knowledge-base.md).
-- A full-vault path is convenience mode, not recommended for private material.
+- Do not point these paths at a private vault.
 - Restart Hermes after you change `.env`.
-- Optional skill: `hermes skills install official/research/llm-wiki`
+- Skill install: `hermes skills install official/research/llm-wiki`
 
 ## Skills (short)
 
