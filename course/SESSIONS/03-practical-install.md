@@ -1,7 +1,7 @@
 ---
 title: Session 03. Practical install
 session: 3
-updated: 2026-11-23
+updated: 2026-11-25
 status: current
 canonical: true
 ---
@@ -12,7 +12,7 @@ canonical: true
 
 Parent: [timeline](overview/timeline.md) · Outline: [course outline](overview/course-outline.md) · Rhythm: [course rhythm](overview/course-rhythm.md) · Slides: [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md)
 
-This session was first planned as "Hardware paths, locally runnable models, prompting, chat versus reasoning". The hardware and prompting sections stay in this file as reading and as practice for later. The live class is: check-in, the student input, a break, and then a light install that you can join or skip.
+This session was first planned as "Hardware paths, locally runnable models, prompting, chat versus reasoning". The hardware and prompting sections stay in this file as reading and as practice for later. The live class is: check-in, the student input, a bridge talk, a break, and then a light install that you can join or skip.
 
 **Buying hardware is optional**: this session teaches *how*, so students can choose later. Prompting and chat versus reasoning are in this file as reading.
 
@@ -20,7 +20,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 
 ## Goals
 
-- Join, if you want to, a light install: Hermes Desktop, one small model or one API key, one wiki folder. **Docker is not part of the baseline.**
+- Join, if you want to, a light install: Hermes Desktop, one cloud model (a free one, or an API key), one first test file, one wiki folder. A local model is for home. **Docker is not part of the baseline.**
 - Leave with a personal "fits / does not fit" note for local models
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
 - Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
@@ -35,6 +35,8 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 | **10:35 to 10:55** | Bridge: why this install, what is optional, and the safety baseline ([install why](../PRACTICE/01-harness-and-agents/install-why.md)) |
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | **Optional join-in install**: light Hermes Desktop install, one guide for your system. No Docker. |
+
+The install runs in this order: Desktop, model, first test, then the wiki folder. If time runs out, stop after the first test. Finish at home.
 
 If you do not want to install, you can read the hardware section below, write the "fits / does not fit" note, or help a neighbour. The install is not required for assessment.
 
@@ -60,15 +62,16 @@ What "light" means here:
 
 | Guide section | Light install |
 |---|---|
-| 1. Install Hermes Desktop | Do |
-| 2. Load one local model | Start with a small model (7B to 8B for 8 to 16 GB of VRAM). A 27B model is advanced |
-| 3. Connect an OpenAI API key | Do, if the local model is too big or too slow |
-| 4. Install Obsidian and the LLM wiki | Do. Hermes points at the `wiki/` folder, not the whole vault |
+| 1. Install Hermes Desktop | Do. Check your Windows version first (Windows 11, 22H2 or later) |
+| 2. Load one local model | Skip in class unless you have a 24 GB card. The Hermes list has no 7B to 8B model. A 27B model is about 18.5 GB to download. Do it at home on a good connection |
+| 3. Connect a model | Do. Pick one: a free OpenRouter model (no card), or an OpenAI API key (card needed) |
+| 3b. First test: one small file | Do. Stop here if time runs out |
+| 4. Install Obsidian and the LLM wiki | Do, without phone sync (homework). Hermes points at the `wiki/` folder, not the whole vault |
 | 5. Rules and the first `SCHEMA.md` | Do |
-| 6. Personal laptop | Do. Read-only first, a disposable folder, manual approvals, one write folder, a snapshot, no private vault |
-| 7. Example MCP (vvvv on Windows, TouchDesigner on macOS) | Skip unless time is left. Read the [MCP permissions rule](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) first |
+| 6. Personal laptop | Do. Read-only first, a disposable folder, command approvals set to manual, a copy or Git commit before writes, no private vault |
+| 7. Example MCP (vvvv on Windows, TouchDesigner on macOS) | Skip unless time is left. It needs Git, Node.js 22.20 or later, and a .NET SDK. Read the [MCP permissions rule](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) first |
 
-The first Hermes request reads one small file that you create in a disposable folder named `hermes-smoke-test`. It does not list the vault.
+The first Hermes request (guide section 3b) reads one small file that you create in a disposable folder named `hermes-smoke-test`. It does not list the vault.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
@@ -97,7 +100,7 @@ Pick **one** track (pairs OK):
 
 | Track | Do |
 |---|---|
-| **A: Laptop only** | Install Ollama or Hermes Local; pull ≤8B; one agent smoke test on the vault |
+| **A: Laptop only** | Install Ollama or Hermes Local; pull ≤8B; one agent smoke test on `hermes-smoke-test`, not on the vault |
 | **B: Has NVIDIA/Apple** | Pull the largest model that still feels interactive; note tokens per second + RAM |
 | **C: Paper design** | Spec a dual-GPU or Spark/Mac build from the research note + one tutorial link; no purchase |
 
@@ -109,6 +112,8 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 
 ## Homework
 
+- Phone sync for the vault is homework: [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md)
+- Optional at home: a local model (guide section 2)
 - Finish the software setup at home if class time ran out (flipped: deep DIY reading at home): [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md)
 - Optional: skim one multi-GPU tutorial linked in the research note
 - Prepare a short project idea for Session 04 (project presentations and semester plans)
