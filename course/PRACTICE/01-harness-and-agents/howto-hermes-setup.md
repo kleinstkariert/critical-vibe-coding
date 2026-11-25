@@ -104,7 +104,7 @@ curl.exe -fsSL https://hermes-agent.nousresearch.com/install.ps1 -o install.ps1
 Select-String -Path .\install.ps1 -Pattern 'https?://[A-Za-z0-9.-]+' -AllMatches | ForEach-Object { $_.Matches.Value } | Sort-Object -Unique
 ```
 
-   Expected on 25 Nov 2026: `https://api.github.com`, `https://github.com`, `https://hermes-assets.nousresearch.com`. Stop if you see any other host. The script has about 2,300 lines. You may also type `notepad install.ps1`, press Enter, and search for `irm` and `Invoke-WebRequest`.
+   Expected on 25 Nov 2026: `https://api.github.com`, `https://github.com`, `https://hermes-assets.nousresearch.com`. Stop if you see any other host. The script has about 1,800 lines (1,778 lines on 25 Nov 2026). You may also type `notepad install.ps1`, press Enter, and search for `irm` and `Invoke-WebRequest`.
 5. Windows blocks script files by default (execution policy `Restricted`, Microsoft docs). The next line allows scripts for this one window only. The script also installs a computer-use driver by default. You do not need it. The flag `-SkipComputerUse` leaves it out. Type the next line and press Enter.
 
 ```powershell
