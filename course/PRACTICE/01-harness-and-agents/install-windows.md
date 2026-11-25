@@ -34,6 +34,8 @@ Read the permissions and capability rule before section 7: [what is mcp](../06-m
 
 Many people use an account that belongs to the Administrators group. That is fine for this guide. A separate standard account is not required. Hermes does not need administrator rights.
 
+The rules that all systems share are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). This section keeps the Windows facts and the Windows checks.
+
 An administrator account has two tokens when User Account Control (UAC) is on. A token is the list of rights that a program gets. Windows starts Explorer and your normal terminal with the filtered token. That token works like a standard user. Windows uses the full token only when you approve a UAC prompt. Source: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/how-it-works (checked 25 Nov 2026).
 
 Know these limits:
@@ -74,22 +76,21 @@ Do these in order. A line that starts with STOP means: stop, do not continue, an
    - The Git for Windows installer. For an administrator account it asks for UAC and installs to `C:\Program Files\Git` (Git for Windows installer script). Hermes does not need it. You need it only for the `git clone` step in section 7.
    - Node.js: not verified.
    Read the UAC window. It must show a verified publisher. Click Yes for that one installer. Then close the installer. Go back to your normal terminal. Do not keep an elevated window open.
-8. Do not paste a secret in a terminal. PowerShell saves what you type in `%APPDATA%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt`. It skips lines with words like `password`, `token`, `apikey` and `secret`. It can still save a key. A line such as `hermes config set OPENROUTER_API_KEY ...` may be saved (not verified). Enter keys only in the Hermes Settings window or in the `.env` file (section 4, step 5). For this session, you can type `Set-PSReadLineOption -HistorySaveStyle SaveNothing`. If you did type a key in a terminal, delete the history file and make a new key at the provider. Source: https://learn.microsoft.com/en-us/powershell/module/psreadline/set-psreadlineoption
-9. Use manual approvals before the first task. Type `hermes config set approvals.mode manual` and press Enter. Then type `hermes config get approvals.mode`. The answer must be `manual`. The default is `smart`. Hermes still does not ask before it writes a file.
-10. Use the test folder only. Use `hermes-smoke-test` from section 3b. Do not point Hermes at Documents, the Desktop, a cloud-sync folder, or your private vault.
-11. Do not run `hermes gateway install` or set up messaging today. On Windows it registers a Scheduled Task and asks for UAC once (Hermes docs). You do not need it.
+8. Do not paste a secret in a terminal. Enter keys in the Hermes Settings window or in the `.env` file (section 4, step 5). PowerShell saves typed commands in a history file, and its filter can miss a key. For this window, you can type `Set-PSReadLineOption -HistorySaveStyle SaveNothing`. What to do after a leak: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets).
+9. Use manual approvals before the first task. Type `hermes config set approvals.mode manual`. Then type `hermes config get approvals.mode`. The answer must be `manual`. Hermes still does not ask before it writes a file. Details: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#6-approvals).
+10. Use the test folder only: `hermes-smoke-test` from section 3b. Not Documents, the Desktop, a cloud-sync folder, or your private vault. Details: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#4-the-test-folder).
+11. Do not run `hermes gateway install` or set up messaging today. On Windows it registers a Scheduled Task and asks for UAC once. Details: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#7-the-messaging-gateway).
 12. Do not update during the class. An update changes the package while you work.
 
 ### Rollback and uninstall
 
 1. Quit Hermes.
-2. Desktop package: open Windows Settings, then Apps, then Installed apps. Find Hermes and choose Uninstall. This removes the app. It does not remove your data. Hermes docs: "Data deletion is separate from package removal."
-3. Script install: type `hermes uninstall --dry-run` and read the list. Then type `hermes uninstall`. The default keeps your config and data. The command refuses to delete package-owned files.
-4. Do not use `--full` unless you want to delete your config, keys, chats and skills. `--full` removes all user data. Make a backup first (`hermes backup`). Do not delete the `%LOCALAPPDATA%\hermes` folder by hand.
-5. Delete the `hermes-smoke-test` folder yourself.
-6. Revoke the API key at the provider. Remove the lines you added to the `.env` file if you keep Hermes.
-7. If you did section 7, type `dotnet tool uninstall -g vvvv-mcp` (not verified). Remove the vvvv MCP block from `config.yaml`.
-8. If you installed .NET or Git, remove them in Windows Settings, Apps, Installed apps. The UAC prompt may appear again.
+2. Desktop package: open Windows Settings, then Apps, then Installed apps. Find Hermes and choose Uninstall. This removes the app. It does not remove your data.
+3. Script install: type `hermes uninstall --dry-run` and read the list. Then type `hermes uninstall`.
+4. Do not use `--full` unless you want to delete your config, keys, chats and skills. Make a backup first. All rules: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#9-rollback-and-uninstall).
+5. Delete the `hermes-smoke-test` folder yourself. Revoke the API key at the provider.
+6. If you did section 7, type `dotnet tool uninstall -g vvvv-mcp` (not verified). Remove the vvvv MCP block from `config.yaml`.
+7. If you installed .NET or Git, remove them in Windows Settings, Apps, Installed apps. The UAC prompt may appear again.
 
 Not verified, on a real Windows 11 Enterprise 25H2 machine: all of the items marked above, the label of every window, and whether company policy blocks sideloaded packages. Windows 11 has sideloading on by default (Microsoft Learn). If App Installer says it is blocked, STOP and use the Microsoft Store button. Do not change a policy to make it work.
 
@@ -265,8 +266,8 @@ Read these, in this order, and keep them as links:
 
 1. Course rules: [AGENTS.md](../../../AGENTS.md)
 2. A project copy for later: [agents md template](agents-md-template.md)
-3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [howto hermes setup](howto-hermes-setup.md) §5d
-4. Command approvals: see section 6. Hermes does not ask before it writes a file.
+3. Do not run Hermes as Administrator. Do not expose the gateway. Keys stay in the Hermes env file: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets)
+4. Command approvals: see section 6 and [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#6-approvals). Hermes does not ask before it writes a file.
 5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §12
 6. Stop after three failed repair attempts: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
@@ -274,22 +275,19 @@ Read these, in this order, and keep them as links:
 
 Security on a personal laptop matters. The agent can read your files and run commands.
 
-Use the current course guidance. Do not write a second security essay.
-
-The novice baseline:
+The rules for all systems are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). The novice baseline, in short:
 
 1. Start with a disposable folder, such as `hermes-smoke-test`. Ask for reading first.
-2. Hermes asks for approval only before dangerous shell commands. The default mode is `smart`. In `smart`, a helper model approves low-risk commands for you. To be asked every time, type `hermes config set approvals.mode manual`. Never set it to `off`.
-3. Hermes writes files without asking. Before you give it a write task, make a copy of the folder or a Git commit. A Git commit is a saved snapshot of a folder. After the task, look at what changed.
-4. Point `WIKI_PATH` at `wiki/` only. This is a habit. It does not stop Hermes from reading other folders. Do not point this work at a private vault.
+2. Use `manual` approvals: type `hermes config set approvals.mode manual`. The default is `smart`. Never set `off`.
+3. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
+4. Point `WIKI_PATH` at `wiki/` only. This is a habit, not a lock. Do not point this work at a private vault.
 5. Keep keys in the Hermes env file only.
 
-Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
+Docker is an advanced safety module, not the baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
-Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
+Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
 
-- Do not run as root. Do not expose the gateway. [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §14.
-- Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+Mounts, secrets, and the rule list: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14.
 
 ## 7. Example: vvvv skills and vvvv MCP
 

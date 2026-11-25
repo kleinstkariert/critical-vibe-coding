@@ -20,6 +20,14 @@ An MCP is a connector that lets Hermes talk to another program. The macOS exampl
 
 Read the permissions and capability rule before section 7: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
 
+## Account and privileges
+
+Use your normal macOS login account. Hermes needs no root and no `sudo`. Do not put `sudo` in front of a Hermes command. macOS has no UAC, so the Windows rules do not apply here. The rules that all systems share are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md).
+
+- If macOS asks for an administrator password when you copy `Hermes.app` to Applications, you can copy it to `~/Applications` instead. Hermes looks in both places when it updates (Hermes updating page). Updates from `~/Applications`: not verified.
+- The command-line install (Intel Mac) can run `brew install git` or `xcode-select --install` when Git is missing. This is the one step where macOS may ask for a password. Read the prompt first. Whether Apple's installer asks for one: not verified.
+- If macOS asks to let Hermes use Desktop, Documents, Downloads, Full Disk Access or Accessibility, click Don't Allow. The smoke test needs none of them (not verified).
+
 ## 1. Install Hermes Desktop
 
 You install Hermes on your own laptop.
@@ -32,8 +40,10 @@ Hermes Desktop is Apple Silicon only. An Intel Mac uses the command-line install
 
 1. Open https://hermes-agent.nousresearch.com/desktop and download the macOS package.
 2. Open the DMG. Copy `Hermes.app` to Applications.
-3. Open Hermes. If macOS blocks the app, use the on-screen Privacy and Security prompt.
-4. Do not run Hermes as root.
+3. Check the app before you open it. Open Terminal. Type `codesign --verify --deep --strict --verbose=2 /Applications/Hermes.app` and press Return. The output must end with `satisfies its Designated Requirement`. Then type `spctl --assess --type execute --verbose /Applications/Hermes.app` and press Return. It must say `accepted` and `source=Notarized Developer ID`. If you used `~/Applications`, change the path. Hermes build notes say the macOS release is Developer ID signed and notarized. The exact output on a Mac was not seen for this course (not verified). Stop if a check fails. Sources: https://github.com/NousResearch/hermes-agent/blob/main/apps/desktop/BUILDING.md and the `codesign` and `spctl` manual pages.
+4. Open Hermes. If macOS blocks the app, stop and run the two checks again. Click Open in Privacy and Security only after both checks pass.
+5. Do not run Hermes as root.
+6. To remove the Desktop app, quit Hermes and move `Hermes.app` to the Trash. Your data stays in `~/.hermes/`. All rules: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#9-rollback-and-uninstall).
 
 ### Intel Mac
 
@@ -95,6 +105,8 @@ What the script changes, from the Hermes install layout and from `install.sh`, c
 - Your Hermes data: `~/.hermes/`
 - Install log: `~/.hermes/logs/install.log`
 - A PATH line in `~/.zshrc` and `~/.zprofile` when your shell is zsh
+- `~/.hermes/.env` is set to owner-only access (mode 600)
+- If Git is missing: Homebrew installs Git, or Apple's Command Line Tools installer opens
 
 1. Type `source ~/.zshrc` and press Return.
 2. Type `hermes --help` and press Return.
@@ -251,8 +263,8 @@ Read these, in this order, and keep them as links:
 
 1. Course rules: [AGENTS.md](../../../AGENTS.md)
 2. A project copy for later: [agents md template](agents-md-template.md)
-3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [howto hermes setup](howto-hermes-setup.md) §5d
-4. Command approvals: see section 6. Hermes does not ask before it writes a file.
+3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets)
+4. Command approvals: see section 6 and [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#6-approvals). Hermes does not ask before it writes a file.
 5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §12
 6. Stop after three failed repair attempts: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
@@ -260,23 +272,19 @@ Read these, in this order, and keep them as links:
 
 Security on a personal laptop matters. The agent can read your files and run commands.
 
-Use the current course guidance. Do not write a second security essay.
+The rules for all systems are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). The novice baseline, in short:
 
-The novice baseline:
+1. Start with a disposable folder, such as `hermes-smoke-test`. Ask for reading first.
+2. Use `manual` approvals: type `hermes config set approvals.mode manual`. The default is `smart`. Never set `off`.
+3. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
+4. Point `WIKI_PATH` at `wiki/` only. This is a habit, not a lock. Do not point this work at a private vault.
+5. Keep keys in the Hermes env file only.
 
-1. Read the files first. Do not ask Hermes to edit them yet.
-2. Use a disposable project folder, such as `hermes-smoke-test`.
-3. Hermes asks for approval only before dangerous shell commands. The default mode is `smart`. In `smart`, a helper model approves low-risk commands for you. To be asked every time, type `hermes config set approvals.mode manual`. Never set it to `off`.
-4. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
-5. Give Hermes one narrow folder to work in. The default folder is `wiki/`. This is a habit, not a lock.
-6. Do not point this work at a private vault.
+Docker is an advanced safety module, not the baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
-Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
+Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
 
-Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
-
-- Do not run as root. Do not expose the gateway. [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §14.
-- Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+Mounts, secrets, and the rule list: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14.
 
 ## 7. Example: TouchDesigner MCP
 

@@ -18,6 +18,14 @@ This guide has no MCP example. An MCP is a connector that lets Hermes talk to an
 
 Read the permissions and capability rule before you add a server: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
 
+## Account and privileges
+
+Use your normal user. Hermes needs no root. Do not put `sudo` in front of a Hermes command or its installer. Do not run `curl ... | sudo bash`. Linux has no UAC, so the Windows rules do not apply here. The rules that all systems share are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md).
+
+- The command-line installer can ask for your password once. It runs `sudo -v` only when Node.js needs the `libatomic` package (Debian and Ubuntu: `libatomic1`) and your terminal can answer a prompt. This is the one named system step. If no prompt shows and Node.js fails, the installer prints the exact command to give to an administrator. Source: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+- Starting the gateway at boot needs `sudo`. Do not do this in class: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#7-the-messaging-gateway).
+- A user in the `docker` group has root-level privileges. Source: https://docs.docker.com/engine/install/linux-postinstall/
+
 ## 1. Install Hermes Desktop
 
 You install Hermes on your own laptop.
@@ -27,8 +35,8 @@ Hermes Agent is the program that uses a model to read files and call tools. Herm
 1. Open https://hermes-agent.nousresearch.com/desktop in your browser.
 2. Read the address bar. The host must be `hermes-agent.nousresearch.com`.
 3. Stop if the host is any other name.
-4. If that page offers a Linux download, save the file and open it. That file is a download you open.
-5. If the page has no Linux app, use a terminal for the command-line installer below.
+4. Hermes lists the command-line script as the Linux install. No release offers a Linux Desktop package yet (Hermes platform support page, checked 25 Nov 2026). If the page shows a Linux file anyway, do not open it. Ask the teacher.
+5. Use a terminal for the command-line installer below.
 
 A terminal is a window where you type commands.
 
@@ -88,6 +96,8 @@ What the script changes, from the Hermes install layout and from `install.sh`, c
 - Your Hermes data: `~/.hermes/`
 - Install log: `~/.hermes/logs/install.log`
 - A PATH line in `~/.bashrc` and `~/.profile` when your shell is bash
+- `~/.hermes/.env` is set to owner-only access (mode 600)
+- One `sudo -v` prompt, only if Node.js needs `libatomic` (see Account and privileges)
 
 1. Type `source ~/.bashrc` and press Enter.
 2. Type `hermes --help` and press Enter.
@@ -235,8 +245,8 @@ Read these, in this order, and keep them as links:
 
 1. Course rules: [AGENTS.md](../../../AGENTS.md)
 2. A project copy for later: [agents md template](agents-md-template.md)
-3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [howto hermes setup](howto-hermes-setup.md) §5d
-4. Command approvals: see section 6. Hermes does not ask before it writes a file.
+3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets)
+4. Command approvals: see section 6 and [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#6-approvals). Hermes does not ask before it writes a file.
 5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §12
 6. Stop after three failed repair attempts: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
@@ -244,22 +254,18 @@ Read these, in this order, and keep them as links:
 
 Security on a personal laptop matters. The agent can read your files and run commands.
 
-Use the current course guidance. Do not write a second security essay.
+The rules for all systems are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). The novice baseline, in short:
 
-The novice baseline:
+1. Start with a disposable folder, such as `hermes-smoke-test`. Ask for reading first.
+2. Use `manual` approvals: type `hermes config set approvals.mode manual`. The default is `smart`. Never set `off`.
+3. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
+4. Point `WIKI_PATH` at `wiki/` only. This is a habit, not a lock. Do not point this work at a private vault.
+5. Keep keys in the Hermes env file only.
 
-1. Read the files first. Do not ask Hermes to edit them yet.
-2. Use a disposable project folder, such as `hermes-smoke-test`.
-3. Hermes asks for approval only before dangerous shell commands. The default mode is `smart`. In `smart`, a helper model approves low-risk commands for you. To be asked every time, type `hermes config set approvals.mode manual`. Never set it to `off`.
-4. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
-5. Give Hermes one narrow folder to work in. The default folder is `wiki/`. This is a habit, not a lock.
-6. Do not point this work at a private vault.
+Docker is an advanced safety module, not the baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
-Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).
+Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
 
-Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
-
-- Do not run as root. Do not expose the gateway. [howto hermes setup](howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §14.
-- Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+Mounts, secrets, and the rule list: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14.
 
 Stop here. There is no Linux MCP example in this guide.
