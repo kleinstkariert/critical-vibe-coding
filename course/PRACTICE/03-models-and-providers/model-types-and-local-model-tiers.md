@@ -55,26 +55,50 @@ Sources, checked 25 Nov 2026:
 - Small local models are weaker: https://zed.dev/blog/local-ai-in-zed
 - The marks `tools`, `thinking`, `vision` and `cloud`: https://ollama.com/search
 
+### 1.1 Small, fast and light models
+
+These words describe one idea from different sides: a model that costs less to run.
+
+- Small language model (SLM): a model with a few billion parameters, such as 3B to 14B. It fits on one consumer card or a laptop.
+- Distilled model: a small "student" trained to copy a large "teacher" on a set of tasks. In one 2026 paper, a 4B student reached 77.9% task success on the ALFWorld benchmark. Its 72B teacher reached 87.1%. The student was 3.4 times faster. This is one paper and one benchmark.
+- Quantized model: the same model with its numbers stored in fewer bits. In llama.cpp, a 4-bit file (`Q4_K_M`) takes Llama 3.1 8B from 32.1 GB to 4.9 GB. The quality loss is small but measurable (about +0.18 perplexity on Llama 3 8B). Below 4 bits, quality drops faster. Hermes offers nothing below 4-bit in its own catalog.
+- "Flash", "Flash-Lite", "Haiku", "mini", "nano" and "lite" are hosted tiers. The vendor runs them and sells access. They are cheaper and faster than the top model of the same family, and weaker on hard tasks. They are not local.
+
+| Hosted small tier | Price per million tokens, in and out | Get |
+|---|---|---|
+| Gemini 3.5 Flash-Lite | US $0.30 and $2.50. A free tier exists | [model page](https://aistudio.google.com/docs/models/gemini-3.5-flash-lite) · [key](https://aistudio.google.com/apikey) |
+| Claude Haiku 5.5 | US $0.10 and $0.50, for prompts up to 100,000 tokens | [price page](https://platform.claude.com/docs/en/about-claude/pricing) · [key](https://platform.claude.com/settings/keys) |
+| OpenAI `gpt-6-luna` | US $0.10 and $0.50 | [model page](https://developers.openai.com/api/docs/models/gpt-6-luna) · [key](https://platform.openai.com/api-keys) |
+
+Why they matter for local use now:
+
+- A 16 GB card cannot hold a frontier model. It holds a 4-bit 9B to 12B file with room for context (section 2).
+- A local run has no per-token bill, no network wait, and no data that leaves the machine.
+- Small models fit narrow jobs that you can check: sort, extract, rewrite, route. A common design is a small model first and a large model for the hard cases (westack.ai, below).
+- Agent work needs many tool calls and a long context. Small models do worse there (section 4 and the Tau2 numbers in section 2.2).
+
+Sources, checked 25 Nov 2026: https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md (sizes), https://koboldcpp.net/docs/models/gguf-and-quantization/ (below Q4), https://westack.ai/blog/small-language-models-on-device (what small models do well), https://arxiv.org/html/2606.29961v1 (distillation, preprint), https://link.springer.com/article/10.1007/s43684-026-00130-7 (4-bit quantization study), and the vendor price pages in the table. The Gemini, Claude and OpenAI prices were read on the vendor pages. This course did not run these hosted models.
+
 ## 2. Local model tiers: 8, 12, 16 and 24 GB
 
 VRAM is the memory on the graphics card. The Windows test machine for this course has an NVIDIA GeForce RTX 5080 with 16 GB of VRAM. It uses the 16 GB set below. Sizes are download sizes of 4-bit files unless the row says 8-bit. Hermes needs a context of at least 64,000 tokens, and that needs extra VRAM. The sources do not give that number (not verified). The rules and steps are in [why this install](../01-harness-and-agents/install-why.md).
 
-All models below carry the `tools` mark on their Ollama or LM Studio page. This course did not run any of them with Hermes (not verified).
+Each row has a direct link to get the model. All models below carry the `tools` mark on their Ollama or LM Studio page. This course did not run any of them with Hermes (not verified).
 
-| Tier | Model | Labels | Download | Context |
-|---|---|---|---|---|
-| 8 GB | Qwen3.5 4B | reasoning, vision | 3.3 GB | 256K |
-| 8 GB | Gemma 4 E4B | instruction, reasoning, vision and audio | 6.6 GB (Ollama), 5.9 GB (LM Studio) | 128K |
-| 8 GB | Granite 4.1 3B | instruction, text only, no reasoning mark | 2.1 GB | 128K |
-| 12 GB | Gemma 4 12B | instruction, reasoning, vision | 8.0 GB (Ollama), 7.4 GB (LM Studio) | 256K |
-| 12 GB | Qwen3.5 9B | reasoning, vision, dense | 6.6 GB (Ollama), 7.0 GB (LM Studio) | 256K |
-| 12 GB | Granite 4.1 8B | instruction, text only, no reasoning mark | 5.3 GB | 128K |
-| 16 GB (5080 set) | Qwen3.5 9B, 8-bit | as above | 10 GB | 256K |
-| 16 GB (5080 set) | Gemma 4 12B, 8-bit | as above | 13 GB | 256K |
-| 16 GB (5080 set) | MiMo V2.6 9B | coding and agent tuned, reasoning, vision | 6.6 to 8.7 GB | 256K |
-| 16 GB (5080 set) | Gemma 4 26B A4B | MoE, reasoning, vision | 15.6 GB (LM Studio), 16 to 19 GB (Ollama) | 256K |
-| 24 GB | Qwen3.8 27B | reasoning, vision, dense | 16.1 GB (LM Studio), 16.5 GB (Hermes catalog, 18.5 GB with image and draft files), 18 GB (Ollama) | 256K |
-| 24 GB | Gemma 4 31B | dense, reasoning, vision | 19 to 20 GB | 256K |
+| Tier | Model | Labels | Download | Context | Get |
+|---|---|---|---|---|---|
+| 8 GB | Qwen3.5 4B | reasoning, vision | 3.3 GB | 256K | [Ollama](https://ollama.com/library/qwen3.5:4b) · [LM Studio](https://lmstudio.ai/models/qwen3.5) |
+| 8 GB | Gemma 4 E4B | instruction, reasoning, vision and audio | 6.6 GB (Ollama), 5.9 GB (LM Studio) | 128K | [Ollama](https://ollama.com/library/gemma4:e4b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
+| 8 GB | Granite 4.1 3B | instruction, text only, no reasoning mark | 2.1 GB | 128K | [Ollama](https://ollama.com/library/granite4.1:3b) · [LM Studio](https://lmstudio.ai/models/granite-4.1) |
+| 12 GB | Gemma 4 12B | instruction, reasoning, vision | 8.0 GB (Ollama), 7.4 GB (LM Studio) | 256K | [Ollama](https://ollama.com/library/gemma4:12b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
+| 12 GB | Qwen3.5 9B | reasoning, vision, dense | 6.6 GB (Ollama), 7.0 GB (LM Studio) | 256K | [Ollama](https://ollama.com/library/qwen3.5:9b) · [LM Studio](https://lmstudio.ai/models/qwen3.5) |
+| 12 GB | Granite 4.1 8B | instruction, text only, no reasoning mark | 5.3 GB | 128K | [Ollama](https://ollama.com/library/granite4.1:8b) · [LM Studio](https://lmstudio.ai/models/granite-4.1) |
+| 16 GB (5080 set) | Qwen3.5 9B, 8-bit | as above | 10 GB | 256K | [Ollama](https://ollama.com/library/qwen3.5:9b-q8_0) |
+| 16 GB (5080 set) | Gemma 4 12B, 8-bit | as above | 13 GB | 256K | [Ollama](https://ollama.com/library/gemma4:12b-it-q8_0) |
+| 16 GB (5080 set) | MiMo V2.6 9B | coding and agent tuned, reasoning, vision | 6.6 to 8.7 GB | 256K | [Ollama](https://ollama.com/library/mimo-v2.6:9b) · [Hugging Face](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B) |
+| 16 GB (5080 set) | Gemma 4 26B A4B | MoE, reasoning, vision | 15.6 GB (LM Studio), 16 to 19 GB (Ollama) | 256K | [Ollama](https://ollama.com/library/gemma4:26b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
+| 24 GB | Qwen3.8 27B | reasoning, vision, dense | 16.1 GB (LM Studio), 16.5 GB (Hermes catalog, 18.5 GB with image and draft files), 18 GB (Ollama) | 256K | [Hermes catalog](https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json) · [Ollama](https://ollama.com/library/qwen3.8:27b) · [LM Studio](https://lmstudio.ai/models/qwen3.8) |
+| 24 GB | Gemma 4 31B | dense, reasoning, vision | 19 to 20 GB | 256K | [Ollama](https://ollama.com/library/gemma4:31b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
 
 On 16 GB, the Gemma 4 26B A4B file is about as large as the VRAM. Part of it will sit in system RAM, and the model will slow down. Qwen3.8 27B can be tried on 16 GB too. Its fit label in Hermes may say it uses system RAM (not verified on the 5080).
 
