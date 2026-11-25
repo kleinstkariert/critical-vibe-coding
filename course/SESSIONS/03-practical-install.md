@@ -64,10 +64,10 @@ What "light" means here:
 |---|---|
 | 1. Install Hermes Desktop (Linux: terminal install) | Do. Windows: check version first (Windows 11, 22H2 or later) |
 | 2. Add an OpenRouter key | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Free model, no card |
-| 3. First chat and smoke test | Do. Stop here if time runs out |
+| 3. First chat and smoke test | Do. Set the free OpenRouter NVIDIA model. Ask if it works. Expect a short reply. Stop here if time runs out |
 | Advanced links at the end of each guide | Homework. Local models, Obsidian, MCP, Docker, CLI, providers |
 
-The first Hermes request (guide section 3) reads one small file that you create in a disposable folder named `hermes-smoke-test`. It does not list the vault.
+The first Hermes request (guide section 3) is a short chat check with the free OpenRouter NVIDIA model. It does not use the vault. STOP if Hermes names the vault.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
@@ -96,7 +96,7 @@ Pick **one** track (pairs OK):
 
 | Track | Do |
 |---|---|
-| **A: Laptop only** | Follow [howto local models](../PRACTICE/03-models-and-providers/howto-local-models.md); pull a small model that lists tool calls (about 4B to 12B, [table](../PRACTICE/01-harness-and-agents/install-why.md#small-models-that-list-tool-calls)); one agent smoke test on `hermes-smoke-test`, not on the vault |
+| **A: Laptop only** | Follow [howto local models](../PRACTICE/03-models-and-providers/howto-local-models.md); pull a small model that lists tool calls (about 4B to 12B, [table](../PRACTICE/01-harness-and-agents/install-why.md#small-models-that-list-tool-calls)); one short chat check, not on the vault |
 | **B: Has NVIDIA/Apple** | Pull the largest model that still feels interactive; note tokens per second + RAM |
 | **C: Paper design** | Spec a dual-GPU or Spark/Mac build from the research note + one tutorial link; no purchase |
 

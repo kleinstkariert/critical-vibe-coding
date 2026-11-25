@@ -20,7 +20,7 @@ Follow this file from top to bottom. Do not open the Windows or macOS guides.
 - The installer can ask for your password once when Node.js needs `libatomic` (Debian and Ubuntu: `libatomic1`). Source: https://hermes-agent.nousresearch.com/docs/getting-started/installation
 - Do not start the gateway at boot in class. That needs `sudo`.
 - No release offers a Linux Desktop package yet (Hermes platform support page, checked 25 Nov 2026). You use the terminal installer in section 1. If a Desktop window opens later, use it for the key step.
-- Work only in the test folder `hermes-smoke-test` (section 3). Do not use your vault.
+- Do not point Hermes at your vault in class.
 - Safety rules and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). Why this order: [install why](install-why.md).
 
 ## 1. Install Hermes (terminal)
@@ -70,16 +70,14 @@ Do not put the key in the vault, in chat, or in Git. Why, and what to do after a
 
 ## 3. First chat and smoke test
 
-This test checks the model and one file read. It does not use your notes.
+This test checks that the free OpenRouter model answers in chat. Do not point Hermes at your vault.
 
-1. Open a terminal.
-2. Type `mkdir "$HOME/hermes-smoke-test"` and press Enter.
-3. Type `printf '%s\n' 'The smoke test file says hello.' > "$HOME/hermes-smoke-test/note.txt"` and press Enter.
-4. Type `echo "$HOME/hermes-smoke-test/note.txt"` and press Enter. Copy that path.
-5. In Hermes (Desktop chat, or type `hermes` in the terminal), paste this request. Put your copied path in place of PATH: Read only this file: PATH. Reply with the one sentence in that file. Do not open any other folder.
-6. The reply must be: The smoke test file says hello. If Hermes names your vault or another folder, STOP.
+1. Set the main model to `nvidia/nemotron-3-ultra-550b-a55b:free` (or the free OpenRouter NVIDIA model you chose in section 2).
+2. Open a new chat in Hermes.
+3. Send this short prompt: Reply with one short sentence that says you work.
+4. Expect a short reply. You are done for class when you get one.
 
-You are done for class when the reply is correct.
+STOP if Hermes names your vault or starts reading folders you did not ask for. Tell the teacher.
 
 ## Next steps (advanced)
 
@@ -90,7 +88,7 @@ One short line each. Do these at home, or when the teacher says so.
 - MCP examples: [howto example mcp servers](../06-mcp-and-tools/howto-example-mcp-servers.md)
 - Docker sandbox: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - Efficient coding harness: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
-- CLI details, vault paths, skills, gateway: [advanced Hermes config](howto-hermes-advanced-config.md)
+- CLI details, vault paths, skills, gateway; optional later file write test (not the vault): [advanced Hermes config](howto-hermes-advanced-config.md)
 - Providers and keys (all rows, `.env`): [providers and keys](howto-hermes-providers-and-keys.md)
 - Uninstall and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#9-rollback-and-uninstall)
 - Why this order: [install why](install-why.md)

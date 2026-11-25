@@ -18,7 +18,7 @@ Follow this file from top to bottom. Do not open the Linux or macOS guides.
 
 - Windows 11, version 22H2 or later. Press the Windows key and R together, type `winver`, and press Enter.
 - Use a normal terminal. Do not choose "Run as administrator". An account in the Administrators group is fine with UAC on. Hermes needs no administrator rights.
-- Work only in the test folder `hermes-smoke-test` (section 3). Do not use Documents, the Desktop, or your vault.
+- Do not point Hermes at Documents, the Desktop, or your vault in class.
 - About 5 GB of free disk space (not verified).
 - Safety rules, UAC facts, checks and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#windows-details). Why this order: [install why](install-why.md).
 
@@ -50,24 +50,14 @@ Do not put the key in the vault, in chat, or in Git. Why, and what to do after a
 
 ## 3. First chat and smoke test
 
-This test checks the model and one file read. It does not use your notes.
+This test checks that the free OpenRouter model answers in chat. Do not point Hermes at your vault.
 
-1. Click the Start button, type `Windows Terminal`, and press Enter. If it is not in the list, type `PowerShell` and press Enter. Do not start it as Administrator.
-2. Type this block and press Enter:
+1. Set the main model to `nvidia/nemotron-3-ultra-550b-a55b:free` (or the free OpenRouter NVIDIA model you chose in section 2).
+2. Open a new chat in Hermes.
+3. Send this short prompt: Reply with one short sentence that says you work.
+4. Expect a short reply. You are done for class when you get one.
 
-```powershell
-New-Item -ItemType Directory -Force "$HOME\hermes-smoke-test" | Out-Null
-Set-Content -Path "$HOME\hermes-smoke-test\note.txt" -Value "The smoke test file says hello."
-Write-Output "$HOME\hermes-smoke-test\note.txt"
-```
-
-3. Select the path that the last line prints and copy it.
-4. In Hermes, open a new chat. Paste this request. Put your copied path in place of PATH: Read only this file: PATH. Reply with the one sentence in that file. Do not open any other folder.
-5. The reply must be: The smoke test file says hello. If Hermes names your vault or another folder, STOP and tell the teacher.
-
-If you prefer File Explorer: click the address bar, type `%USERPROFILE%`, press Enter, then create the folder `hermes-smoke-test` and the file `note.txt` there. Windows may hide file extensions, so check that the name is not `note.txt.txt`.
-
-You are done for class when the reply is correct.
+STOP if Hermes names your vault or starts reading folders you did not ask for. Tell the teacher.
 
 ## Next steps (advanced)
 
@@ -78,7 +68,7 @@ One short line each. Do these at home, or when the teacher says so.
 - MCP examples (vvvv): [howto example mcp servers](../06-mcp-and-tools/howto-example-mcp-servers.md)
 - Docker sandbox: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - Efficient coding harness: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
-- CLI install, vault paths, skills, gateway: [advanced Hermes config](howto-hermes-advanced-config.md)
+- CLI install, vault paths, skills, gateway; optional later file write test (not the vault): [advanced Hermes config](howto-hermes-advanced-config.md)
 - Providers and keys (all rows, `.env`): [providers and keys](howto-hermes-providers-and-keys.md)
 - Uninstall and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#9-rollback-and-uninstall)
 - Why this order: [install why](install-why.md)
