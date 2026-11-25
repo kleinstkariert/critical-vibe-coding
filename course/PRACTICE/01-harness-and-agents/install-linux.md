@@ -182,9 +182,9 @@ You create an OpenAI API key. You do not reuse the ChatGPT password as a key.
 4. Run `hermes model`.
 5. Choose the OpenAI API provider.
 6. Paste the key when Hermes asks. Hermes stores it in `~/.hermes/.env`.
-7. Choose the model `gpt-5.4-mini`.
+7. Choose a small model from the list. We suggest `gpt-6.1-terra`. The cheapest choice is `gpt-6-luna`.
 
-`gpt-5.4-mini` is the suggested model. Hermes lists it under the OpenAI API provider. On the OpenAI price page, checked 20 Nov 2026, this mini model is US $0.75 per million input tokens and US $4.50 per million output tokens. Price page: https://developers.openai.com/api/docs/pricing
+On the OpenAI price page, checked 25 Nov 2026 (standard tier, short context), `gpt-6.1-terra` costs US $1.00 per million input tokens and US $5.00 per million output tokens. `gpt-6-luna` costs US $0.10 and US $0.50. Whether Hermes lists these models: not verified. Price page: https://developers.openai.com/api/docs/pricing
 
 Plus fact: https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
 
@@ -236,7 +236,7 @@ Read these, in this order, and keep them as links:
 1. Course rules: [AGENTS.md](../../../AGENTS.md)
 2. A project copy for later: [agents md template](agents-md-template.md)
 3. Do not run as root. Do not expose the gateway. Keys stay in the Hermes env file: [howto hermes setup](howto-hermes-setup.md) §5d
-4. Approvals stay on. The novice baseline is in section 6.
+4. Command approvals: see section 6. Hermes does not ask before it writes a file.
 5. Secrets stay out of the vault: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §12
 6. Stop after three failed repair attempts: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
@@ -250,9 +250,9 @@ The novice baseline:
 
 1. Read the files first. Do not ask Hermes to edit them yet.
 2. Use a disposable project folder, such as `hermes-smoke-test`.
-3. Keep manual approvals on. Review the diff before you accept an edit.
-4. Give Hermes one narrow folder to write in. The default folder is `wiki/`.
-5. Make a Git commit, or copy the folder, before you accept edits.
+3. Hermes asks for approval only before dangerous shell commands. The default mode is `smart`. In `smart`, a helper model approves low-risk commands for you. To be asked every time, type `hermes config set approvals.mode manual`. Never set it to `off`.
+4. Hermes writes files without asking. Before a write task, make a Git commit or copy the folder. After the task, look at what changed.
+5. Give Hermes one narrow folder to work in. The default folder is `wiki/`. This is a habit, not a lock.
 6. Do not point this work at a private vault.
 
 Docker is an advanced safety module. Use it as a demonstration or in a separate workshop: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md).

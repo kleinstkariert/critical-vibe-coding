@@ -17,7 +17,7 @@ canonical: true
 
 This page is an advanced safety module. Use it as a demonstration or in a separate workshop. It is not the novice baseline.
 
-The novice baseline is read-only inspection first, a disposable project, manual approvals, a narrowly scoped write directory, a Git or filesystem snapshot, and no private vault. Those steps are in [install windows](../01-harness-and-agents/install-windows.md), [install linux](../01-harness-and-agents/install-linux.md), and [install mac](../01-harness-and-agents/install-mac.md), section 6.
+The novice baseline is read-only inspection first, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. Those steps are in [install windows](../01-harness-and-agents/install-windows.md), [install linux](../01-harness-and-agents/install-linux.md), and [install mac](../01-harness-and-agents/install-mac.md), section 6.
 
 Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
@@ -117,7 +117,7 @@ Hermes Docker containers apply hard flags such as capability drop and no-new-pri
 
 ## 4. Approvals
 
-Keep approvals on for dangerous actions while you learn.
+Hermes asks for approval only before dangerous shell commands. The default mode is `smart`. In `smart`, a helper model approves low-risk commands for you. To be asked every time, type `hermes config set approvals.mode manual`. Hermes does not ask before it writes a file. Docker limits what the container can see. It does not add a prompt for file writes.
 
 Do not set `approvals.mode: off` on a personal laptop unless you understand the risk.
 
@@ -133,7 +133,7 @@ Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.m
 - [ ] `terminal.backend` is `docker`
 - [ ] Only required folders are mounted
 - [ ] Network is off unless the task needs it
-- [ ] Approvals stay on for class work
+- [ ] Approval mode is `manual` or `smart`, not `off`
 - [ ] Diff reviewed before you accept changes
 
 ---
