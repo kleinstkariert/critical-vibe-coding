@@ -107,23 +107,21 @@ Edge cases, including WSL and Docker, stay in [howto hermes setup](howto-hermes-
 
 Hermes keeps its files in `~/.hermes/`.
 
-## 2. Load one local model
+## 2. Load one local model (optional)
 
-A local model runs on this computer. It does not need an API key.
+A local model runs on this computer. It does not need an API key. A local model is optional.
 
 VRAM is the memory on the graphics card. The room demo card is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. That card does not prove that a 27B model fits in 16 GB. 27B means 27 billion parameters. Your computer may have a different card.
 
-Use these sizes for the first local experiment:
+Small local models are weaker at agent tasks than cloud models. They make more mistakes with tool calls and lose the thread of a long task sooner. Pick a model for your VRAM tier from the table in [install why](install-why.md#small-models-that-list-tool-calls). Every model in that table lists tool calls. **Qwen3.8 27B** is the Hermes catalog model. It fits a 24 GB card.
 
-- 8 to 16 GB of VRAM: a 7B to 8B model
-- A 24 GB card: a 14B to 20B model
-- **Qwen3.8 27B** is an advanced model. It is not the first download.
+Hermes needs at least 64,000 tokens of context for tool work. Hermes sets this for models it loads itself. For LM Studio or Ollama, see [install why](install-why.md#what-hermes-needs).
 
 System memory is the normal RAM in the computer. Offload means Hermes puts part of the model in that RAM. The model can run. It can also be slow.
 
 A long context is a long chat plus the files the agent sends. A long context can make a model unusable even when the weights fit.
 
-The Hermes catalog checked on 20 Nov 2026 has no 7B to 8B model. This course does not invent a catalog id. Open the Local Models list and read the names there. Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
+The Hermes catalog checked on 25 Nov 2026 has no model smaller than 27B. The Local Models page also has a Find more models box. It searches Hugging Face and shows a fit check for each file. Use it for a small model. Hermes does not test those models. This course did not try the box (not verified). Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
 
 Tool calling means the model asks Hermes to run a tool.
 
@@ -148,13 +146,13 @@ Use one path. Use Path A when Hermes Desktop is open. Use Path B when you have o
 ### Choose the row
 
 1. Read each row name.
-2. If a row says 7B or 8B, read its text.
-3. Download that row when the text says agent or tool calling.
+2. For a small model, type a name from the table in install why into the Find more models box. Pick a 4-bit file that the fit check marks green.
+3. Download a model only when it lists tool calls.
 4. Read the fit label before you click Use.
 5. Click Use when the label says the model fits.
 6. If the label says the model uses system RAM, stop. Use the API model in the next section.
 7. If the label says the model is too big, stop. Use the API model in the next section.
-8. If no 7B or 8B row is in the list, skip the local download. Use the API model in the next section.
+8. If you find no model that fits, skip the local download. Use the API model in the next section.
 
 Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text calls it the best all-round agent model.
 
@@ -164,7 +162,7 @@ Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text call
 4. Click Use only after that read.
 5. Stop when the label says the model is too big.
 
-Size bands and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
+Models by VRAM tier, sources, and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
 Free cloud models already listed for this course: [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
 
