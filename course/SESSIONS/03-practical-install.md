@@ -20,7 +20,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 
 ## Goals
 
-- Join, if you want to, a light install: Hermes Desktop, one cloud model (a free one, or an API key), one first test file, one wiki folder. A local model is for home. **Docker is not part of the baseline.**
+- Join, if you want to, a light install: Hermes Desktop, one cloud model (a free one, or an API key), one first test file, one wiki folder. A local model is optional: do it after the first test, or at home. **Docker is not part of the baseline.**
 - Leave with a personal "fits / does not fit" note for local models
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
 - Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
@@ -63,7 +63,7 @@ What "light" means here:
 | Guide section | Light install |
 |---|---|
 | 1. Install Hermes Desktop | Do. Check your Windows version first (Windows 11, 22H2 or later) |
-| 2. Load one local model | Skip in class unless you have a 24 GB card. The Hermes list has no 7B to 8B model. A 27B model is about 18.5 GB to download. Do it at home on a good connection |
+| 2. Load one local model | Optional. Do it after the first test works, or at home. Pick a model for your VRAM from the table in the guide: about 4B to 12B for 8 to 16 GB. Small models are weaker at agent tasks. A download is 3 to 20 GB |
 | 3. Connect a model | Do. Pick one: a free OpenRouter model (no card), or an OpenAI API key (card needed) |
 | 3b. First test: one small file | Do. Stop here if time runs out |
 | 4. Install Obsidian and the LLM wiki | Do, without phone sync (homework). Hermes points at the `wiki/` folder, not the whole vault |
@@ -100,7 +100,7 @@ Pick **one** track (pairs OK):
 
 | Track | Do |
 |---|---|
-| **A: Laptop only** | Install Ollama or Hermes Local; pull ≤8B; one agent smoke test on `hermes-smoke-test`, not on the vault |
+| **A: Laptop only** | Install LM Studio, Ollama, or Hermes Local; pull a small model that lists tool calls (about 4B to 12B, [table](../PRACTICE/01-harness-and-agents/install-why.md#small-models-that-list-tool-calls)); one agent smoke test on `hermes-smoke-test`, not on the vault |
 | **B: Has NVIDIA/Apple** | Pull the largest model that still feels interactive; note tokens per second + RAM |
 | **C: Paper design** | Spec a dual-GPU or Spark/Mac build from the research note + one tutorial link; no purchase |
 
