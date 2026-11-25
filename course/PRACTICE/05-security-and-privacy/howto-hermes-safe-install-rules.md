@@ -17,7 +17,7 @@ canonical: true
 
 Facts were checked on 25 Nov 2026. A line marked *not verified* was not tested on a real machine. Read the source again before you rely on it.
 
-OS guides: [Windows](../01-harness-and-agents/install-windows.md) · [macOS](../01-harness-and-agents/install-mac.md) · [Linux](../01-harness-and-agents/install-linux.md). Advanced: [Docker sandbox](howto-hermes-docker-sandbox.md).
+Provider and key table: in section 3 of each OS guide. OS guides: [Windows](../01-harness-and-agents/install-windows.md) · [macOS](../01-harness-and-agents/install-mac.md) · [Linux](../01-harness-and-agents/install-linux.md). Advanced: [Docker sandbox](howto-hermes-docker-sandbox.md).
 
 ## 1. What protects you, and what does not
 
@@ -48,7 +48,7 @@ Keep these facts apart. A rule for one system is not a rule for another.
 | macOS | Your normal login account | Terminal as your user | A password prompt for a system step that you can name (see below) | `sudo` or root for Hermes or its installer |
 | Linux | Your normal user | A terminal as your user | One `sudo` for a named system package step (see below) | `curl ... \| sudo bash`, `sudo hermes`, root |
 
-Windows: details and the checks are in [install windows](../01-harness-and-agents/install-windows.md#use-an-administrator-account-safely). Hermes needs no elevation. UAC is Windows only. Do not copy that language to macOS or Linux.
+Windows: Hermes needs no elevation. The details and the checks are in "Windows details" below. UAC is Windows only. Do not copy that language to macOS or Linux.
 
 macOS: Hermes needs no root. Two steps can ask for a password:
 
@@ -57,7 +57,49 @@ macOS: Hermes needs no root. Two steps can ask for a password:
 
 Linux: the command-line installer can run `sudo -v` once, only when Node.js needs the `libatomic` package and your terminal can answer a prompt (script text and Hermes install page). Read the prompt. Enter your password for that one step. Do not put `sudo` in front of the installer.
 
-Sources: https://hermes-agent.nousresearch.com/docs/getting-started/installation, https://hermes-agent.nousresearch.com/docs/user-guide/windows-native
+### Windows details
+
+An account in the Administrators group has two tokens when User Account Control (UAC) is on. A token is the list of rights that a program gets. Windows starts Explorer and your normal terminal with the filtered token. That token works like a standard user. Windows uses the full token only when you approve a UAC prompt. Source: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/how-it-works (checked 25 Nov 2026).
+
+Know these limits:
+
+- Microsoft calls a standard account the more secure way to run Windows. An administrator account in Admin Approval Mode is a supported second choice. For work with real data, a standard daily account is the better habit.
+- UAC is not a security boundary. Microsoft says so: https://learn.microsoft.com/en-us/archive/blogs/e7/update-on-uac
+- Hermes runs as your Windows user, with or without a UAC prompt. A normal terminal can still read and change your own files. Hermes approvals are a guardrail for honest mistakes. They are not a sandbox.
+- Some Windows 11 computers use "Administrator protection". It is off by default. Microsoft says that a security baseline can turn it on. With it, an elevated program runs as a hidden second account with its own profile. Anything you install in an elevated window may land in that other profile. This is one more reason to install without elevation. Source: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/administrator-protection/ (whether it is on for the test computer: not verified).
+
+What each install method does, checked 25 Nov 2026:
+
+| | Hermes Desktop (MSIX, `.appinstaller`) | Hermes Desktop (Microsoft Store) | Command-line script `install.ps1` |
+|---|---|---|---|
+| Scope | Per user (Microsoft: MSIX installs per user) | Per user, Store-owned | Per user |
+| Needs elevation | No (not verified on a real machine) | No (not verified on a real machine) | No. Hermes docs say "No admin rights required". The script has no administrator check or UAC call |
+| Program files | Inside the package. Windows keeps package files under `C:\Program Files\WindowsApps` and locks them | The same | `%LOCALAPPDATA%\hermes\hermes-agent\` |
+| Your data | `%LOCALAPPDATA%\hermes\` (Hermes docs; not verified for the Store package) | The same | `%LOCALAPPDATA%\hermes\` |
+| Signature | Signed bundle. Publisher in the build files: `CN=Nous Research Inc.` | Store signs it. Publisher name: not verified | None on the script. It checks the SHA-256 hash of the uv and Git files that it downloads. Hermes publishes no checksum for `install.ps1` (not found) |
+| Hosts | Hermes download page | Microsoft Store | `github.com`, `api.github.com`, `hermes-assets.nousresearch.com` (script text). Later steps may use more hosts (not verified) |
+| Update | The Update control in Hermes, through Windows App Installer | Microsoft Store | `hermes update` |
+| Remove | Windows Settings, Apps, Installed apps | The same | `hermes uninstall` |
+| Changes to PATH | Execution aliases (`hermes`, `hermes-agent`, `hermes-acp`) | The same | Your user `Path` only |
+
+Sources: https://hermes-agent.nousresearch.com/docs/getting-started/installation, https://hermes-agent.nousresearch.com/docs/user-guide/windows-native, https://hermes-agent.nousresearch.com/docs/getting-started/updating, the Hermes desktop build notes (`apps/desktop/BUILDING.md` in the Hermes repository), and Microsoft: https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
+
+Checks on Windows. A line that starts with STOP means: stop, do not continue, and tell the teacher.
+
+1. Keep UAC on. Search the Start menu for "Change User Account Control settings". Leave the slider at its default. Do not choose "Never notify". With that setting Windows still gives you a split token but approves every elevation for you (Microsoft Win32 UAC page).
+2. Open a normal Windows Terminal. Type `whoami /groups | Select-String "Mandatory Label"` and press Enter. The line must say `Medium Mandatory Level`. STOP if it says `High Mandatory Level`. Close the window and open a normal one.
+3. Check the host name in the address bar of the download page: `hermes-agent.nousresearch.com`. STOP if it is another host.
+4. Read the Windows App Installer window before you click Install. The publisher must be Nous Research. How the window shows the publisher: not verified. STOP if the publisher is another name, or if the file is not signed.
+5. After the install, type `Get-AppxPackage *hermes* | Format-List Name, Publisher, SignatureKind, InstallLocation` in the normal terminal. For the `.appinstaller` package, expect a Publisher that contains `CN=Nous Research Inc.`. The value of `SignatureKind` is not verified. Write down what you see.
+6. STOP if any UAC prompt appears while you install or start Hermes Desktop. No official page says Hermes Desktop needs one. Click No.
+7. Elevate only for a named step. In the install guide, only the vvvv example may ask for UAC:
+   - The .NET SDK installer. Microsoft says the native installer installs system-wide and needs administrator rights.
+   - The Git for Windows installer. For an administrator account it asks for UAC and installs to `C:\Program Files\Git` (Git for Windows installer script). Hermes does not need it. You need it only for the `git clone` step in the example.
+   - Node.js: not verified.
+
+   Read the UAC window. It must show a verified publisher. Click Yes for that one installer. Then close the installer and go back to your normal terminal. Do not keep an elevated window open.
+
+Not verified, on a real Windows 11 Enterprise 25H2 machine: the items marked above, the label of every window, and whether company policy blocks sideloaded packages. Windows 11 has sideloading on by default (Microsoft Learn). If App Installer says it is blocked, STOP and use the Microsoft Store button. Do not change a policy to make it work.
 
 ## 3. Check the download
 
@@ -144,7 +186,7 @@ Whether an update needs elevation: not verified. Source: https://hermes-agent.no
 4. `--full` also deletes your config, keys, chats and skills. `--data` deletes data and keeps the program. Use them only on purpose. Make a backup first: `hermes backup`. Do not delete the data folder by hand. A custom `HERMES_HOME` can sit elsewhere, and package removal does not touch it. Hermes: "Data deletion is separate from package removal."
 5. Delete the `hermes-smoke-test` folder yourself.
 6. Revoke the API key at the provider. Remove the key lines from the `.env` file if you keep Hermes.
-7. Remove what you added in the example sections (for example the vvvv MCP block in `config.yaml`).
+7. Remove what you added in the example sections. For the vvvv example: type `dotnet tool uninstall -g vvvv-mcp` (not verified) and delete the vvvv block in `config.yaml`. Remove .NET or Git in Windows Settings, Apps, Installed apps. A UAC prompt can appear again.
 
 Sources: https://hermes-agent.nousresearch.com/docs/getting-started/updating, https://hermes-agent.nousresearch.com/docs/user-guide/windows-native
 
