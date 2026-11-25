@@ -14,17 +14,14 @@ canonical: true
 
 Follow this file from top to bottom. Do not open the Windows or macOS guides.
 
-This guide has no MCP example. An MCP is a connector that lets Hermes talk to another program. External software and MCP servers are examples only. You can add a program you prefer later. What an MCP is: [what is mcp](../06-mcp-and-tools/what-is-mcp.md). Why this order: [install why](install-why.md).
+## Before you start
 
-Read the permissions and capability rule before you add a server: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
-
-## Account and privileges
-
-Use your normal user. Hermes needs no root. Do not put `sudo` in front of a Hermes command or its installer. Do not run `curl ... | sudo bash`. Linux has no UAC, so the Windows rules do not apply here. The rules that all systems share are on one page: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md).
-
-- The command-line installer can ask for your password once. It runs `sudo -v` only when Node.js needs the `libatomic` package (Debian and Ubuntu: `libatomic1`) and your terminal can answer a prompt. This is the one named system step. If no prompt shows and Node.js fails, the installer prints the exact command to give to an administrator. Source: https://hermes-agent.nousresearch.com/docs/getting-started/installation
-- Starting the gateway at boot needs `sudo`. Do not do this in class: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#7-the-messaging-gateway).
-- A user in the `docker` group has root-level privileges. Source: https://docs.docker.com/engine/install/linux-postinstall/
+- Use your normal user. Hermes needs no root. Do not put `sudo` in front of a Hermes command or its installer. Do not run `curl ... | sudo bash`. Linux has no UAC, so the Windows rules do not apply here.
+- The installer can ask for your password once. It runs `sudo -v` only when Node.js needs the `libatomic` package (Debian and Ubuntu: `libatomic1`) and your terminal can answer a prompt. If no prompt shows and Node.js fails, the installer prints the exact command to give to an administrator. Source: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+- Do not start the gateway at boot in class. That needs `sudo`. A user in the `docker` group has root-level privileges: https://docs.docker.com/engine/install/linux-postinstall/
+- No release offers a Linux Desktop package yet (Hermes platform support page, checked 25 Nov 2026). You use the terminal installer in section 1.
+- Work only in the test folder `hermes-smoke-test` (section 4). Do not use your vault.
+- Safety rules and rollback: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). Why this order: [install why](install-why.md).
 
 ## 1. Install Hermes Desktop
 
@@ -119,88 +116,52 @@ Hermes keeps its files in `~/.hermes/`.
 
 ## 2. Load one local model (optional)
 
-A local model runs on this computer. It does not need an API key. A local model is optional.
+Do this after the first test in section 4 works, or at home. A local model runs on this computer. It needs no key and no card, and nothing leaves your computer. Small models are weaker at agent work than cloud models. Why, and more models: [model types and local model tiers](../03-models-and-providers/model-types-and-local-model-tiers.md).
 
-VRAM is the memory on the graphics card. The room demo card is an NVIDIA GeForce RTX 4080 Super with 16 GB of VRAM. That card does not prove that a 27B model fits in 16 GB. 27B means 27 billion parameters. Your computer may have a different card.
+VRAM is the memory on the graphics card. Pick a row at or below your VRAM. Sizes are from the model pages (checked 25 Nov 2026). This course did not run these models with Hermes (not verified).
 
-Small local models are weaker at agent tasks than cloud models. They make more mistakes with tool calls and lose the thread of a long task sooner. Pick a model for your VRAM tier from the table in [install why](install-why.md#small-models-that-list-tool-calls). Every model in that table lists tool calls. **Qwen3.8 27B** is the Hermes catalog model. It fits a 24 GB card.
+| VRAM | Model | Download | Get |
+|---|---|---|---|
+| 8 GB | Qwen3.5 4B | 3.3 GB | [Ollama](https://ollama.com/library/qwen3.5:4b) · [LM Studio](https://lmstudio.ai/models/qwen3.5) |
+| 8 GB | Granite 4.1 3B | 2.1 GB | [Ollama](https://ollama.com/library/granite4.1:3b) · [LM Studio](https://lmstudio.ai/models/granite-4.1) |
+| 12 GB | Gemma 4 12B | 8.0 GB | [Ollama](https://ollama.com/library/gemma4:12b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
+| 12 GB | Qwen3.5 9B | 6.6 GB | [Ollama](https://ollama.com/library/qwen3.5:9b) · [LM Studio](https://lmstudio.ai/models/qwen3.5) |
+| 16 GB | Gemma 4 12B, 8-bit | 13 GB | [Ollama](https://ollama.com/library/gemma4:12b-it-q8_0) |
+| 16 GB | MiMo V2.6 9B | 6.6 to 8.7 GB | [Ollama](https://ollama.com/library/mimo-v2.6:9b) · [Hugging Face](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B) |
+| 16 GB | Gemma 4 26B A4B (tight, may use system RAM) | 16 to 19 GB | [Ollama](https://ollama.com/library/gemma4:26b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
+| 24 GB | Qwen3.8 27B | 16.5 GB | [Hermes catalog](https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json) · [Ollama](https://ollama.com/library/qwen3.8:27b) · [LM Studio](https://lmstudio.ai/models/qwen3.8) |
+| 24 GB | Gemma 4 31B | 19 to 20 GB | [Ollama](https://ollama.com/library/gemma4:31b) · [LM Studio](https://lmstudio.ai/models/gemma-4) |
 
-Hermes needs at least 64,000 tokens of context for tool work. Hermes sets this for models it loads itself. For LM Studio or Ollama, see [install why](install-why.md#what-hermes-needs).
+1. Hermes Desktop, if it is open: click Settings, then Providers, then Local Models, then Install runtime. Terminal only: type `hermes model`, choose Local models, and follow the prompt that installs the runtime.
+2. Read the fit label on a model row. Click Download only when the label says the model fits. Then click Use. The Hermes catalog lists only Qwen3.8 27B (24 GB row). For the other rows, use the Find more models box, LM Studio, or Ollama: [install why](install-why.md#local-runtime-steps).
+3. Hermes needs a context of at least 64,000 tokens. If the label says the model uses system RAM or is too big, or the model prints raw tool text, stop and go to section 3.
 
-System memory is the normal RAM in the computer. Offload means Hermes puts part of the model in that RAM. The model can run. It can also be slow.
+Linux note from the Hermes docs: NVIDIA CUDA needs a CUDA 13 driver for the managed runtime. If the runtime refuses the GPU, stop. Do not install a random driver. Hermes local model docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
 
-A long context is a long chat plus the files the agent sends. A long context can make a model unusable even when the weights fit.
+## 3. Connect a model provider and key
 
-The Hermes catalog checked on 25 Nov 2026 has no model smaller than 27B. The Local Models page also has a Find more models box. It searches Hugging Face and shows a fit check for each file. Use it for a small model. Hermes does not test those models. This course did not try the box (not verified). Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
+Hermes needs one model. Choose one row. The class default is OpenRouter with a free model and no card: [howto hermes setup](howto-hermes-setup.md) §3.
 
-Tool calling means the model asks Hermes to run a tool.
+| Provider | Get a key | Card needed | Key name in the env file | Notes |
+|---|---|---|---|---|
+| OpenRouter, free route | [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys) | No, for models whose id ends in `:free` | `OPENROUTER_API_KEY` | Free models: 20 requests a minute and 50 a day. After you buy US $10 of credit, 1,000 a day. Your prompts may be logged. [Free models](https://openrouter.ai/collections/free-models) |
+| OpenAI API | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | Yes. Prepaid credit | `OPENAI_API_KEY` | ChatGPT Plus has no API credit. [Billing help](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform) |
+| Anthropic (Claude API) | [platform.claude.com/settings/keys](https://platform.claude.com/settings/keys) | Yes. Prepaid credit. A key without credit fails | `ANTHROPIC_API_KEY` | Hermes cannot log in with a Claude Pro plan. Use a key. [Billing help](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage) |
+| Google Gemini | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | No, for the free tier | `GOOGLE_API_KEY` (or `GEMINI_API_KEY`) | Google can use free-tier prompts to improve its products. Hermes docs: a free key can run out after a few agent turns. [Billing](https://aistudio.google.com/docs/billing) |
+| Nous Portal | [portal.nousresearch.com](https://portal.nousresearch.com) | Subscription. Card: not verified | None. Log in with `hermes model` | One login for many models. Price: not verified |
+| Local, with Ollama or LM Studio | [ollama.com/download](https://ollama.com/download) or [lmstudio.ai/download](https://lmstudio.ai/download) | No | None | Section 2 |
 
-Use one path. Use Path A when Hermes Desktop is open. Use Path B when you have only a terminal.
+Key pages ask you to sign in. The links load (checked 25 Nov 2026). The page labels can change (not verified). Hermes supports more providers: [Hermes providers](https://hermes-agent.nousresearch.com/docs/integrations/providers).
 
-### Path A. Hermes Desktop
+Enter the key in one of these ways. Never type a key in a shell command.
 
-1. Click Settings.
-2. Open Providers.
-3. Open Local Models.
-4. Click Install runtime.
-5. Wait until the runtime finishes.
+1. In Hermes Desktop, if it is open: open Settings, then Providers, then the API keys part. Choose the provider and paste the key. The exact menu labels can differ (not verified).
+2. Or type `hermes model` and paste the key at its prompt.
+3. Or open the env file in a text editor. Type `nano ~/.hermes/.env` and press Return. Add one line with the key name from the table, for example `OPENROUTER_API_KEY=your-key`. Press Control and O, then Return, then Control and X.
+4. Choose a small model that says it supports tools. Tell the teacher the name you chose.
+5. Set a spend limit if the provider has one. Revoke the key after the class. A free cloud model can log your prompts: use public text only.
 
-### Path B. Terminal
-
-1. Open a terminal the way section 1 says.
-2. Type `hermes model` and press Enter.
-3. Choose Local models.
-4. Follow the prompt that installs the runtime.
-5. Wait until the runtime finishes.
-
-### Choose the row
-
-1. Read each row name.
-2. For a small model, type a name from the table in install why into the Find more models box. Pick a 4-bit file that the fit check marks green.
-3. Download a model only when it lists tool calls.
-4. Read the fit label before you click Use.
-5. Click Use when the label says the model fits.
-6. If the label says the model uses system RAM, stop. Use the API model in the next section.
-7. If the label says the model is too big, stop. Use the API model in the next section.
-8. If you find no model that fits, skip the local download. Use the API model in the next section.
-
-Advanced model: **Qwen3.8 27B**, catalog id `qwen3.8-27b`. The catalog text calls it the best all-round agent model.
-
-1. Read [install why](install-why.md) before you download this model.
-2. Read the fit label on the Qwen3.8 27B row.
-3. Download it only when the label says the model fits, or when the label says it uses system RAM and you accept the slowdown.
-4. Click Use only after that read.
-5. Stop when the label says the model is too big.
-
-Models by VRAM tier, sources, and file sizes: [install why](install-why.md). Research note: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
-
-Free cloud models already listed for this course: [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3. Do not copy that list. Do not send private notes through a free cloud model until you have read §4.
-
-Local model docs: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
-
-Linux note from those docs: NVIDIA CUDA needs a CUDA 13 driver for the managed runtime. If the runtime refuses the GPU, stop. Do not install a random driver.
-
-## 3. Connect an OpenAI API key
-
-ChatGPT Plus does not include OpenAI API credits.
-
-You create an OpenAI API key. You do not reuse the ChatGPT password as a key.
-
-1. Open https://platform.openai.com/api-keys and create a key.
-2. Open API billing from https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform and add a payment method.
-3. Set a low spend limit before the first run.
-4. Run `hermes model`.
-5. Choose the OpenAI API provider.
-6. Paste the key when Hermes asks. Hermes stores it in `~/.hermes/.env`.
-7. Choose a small model from the list. We suggest `gpt-6.1-terra`. The cheapest choice is `gpt-6-luna`.
-
-On the OpenAI price page, checked 25 Nov 2026 (standard tier, short context), `gpt-6.1-terra` costs US $1.00 per million input tokens and US $5.00 per million output tokens. `gpt-6-luna` costs US $0.10 and US $0.50. Whether Hermes lists these models: not verified. Price page: https://developers.openai.com/api/docs/pricing
-
-Plus fact: https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
-
-Hermes can also log in with a ChatGPT subscription for Codex models (`hermes model`, then ChatGPT or Codex Subscription). That login is not an API key. The Hermes docs do not yet say which Plus limits it uses. Create the API key. Provider page: https://hermes-agent.nousresearch.com/docs/integrations/providers
-
-Do not put the key in the vault, in chat, or in Git.
+Hermes stores the key in `~/.hermes/.env`. Do not put the key in the vault, in chat, or in Git. Why, and what to do after a leak: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#5-secrets). The first test is in section 4.
 
 ## 4. Install Obsidian and the LLM wiki
 
@@ -268,4 +229,4 @@ Work and personal machine notes from Hermes: https://hermes-agent.nousresearch.c
 
 Mounts, secrets, and the rule list: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14.
 
-Stop here. There is no Linux MCP example in this guide.
+Stop here. There is no Linux MCP example in this guide. An MCP is a connector that lets Hermes talk to another program. External software and MCP servers are examples only. What an MCP is, and the permissions rule: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
