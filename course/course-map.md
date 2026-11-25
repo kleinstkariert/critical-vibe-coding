@@ -65,9 +65,10 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 | [Template. AGENTS.md for student projects](PRACTICE/01-harness-and-agents/agents-md-template.md) | current | true |
 | [Deep dive: Default setup](PRACTICE/01-harness-and-agents/default-setup.md) | current | true |
 | [Hermes vs coding agents vs always-on assistants](PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) | current | true |
+| [How-to. Advanced Hermes config](PRACTICE/01-harness-and-agents/howto-hermes-advanced-config.md) | current | true |
 | [How-to. Hermes for efficient coding](PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) | current | true |
 | [How-to. Pair Hermes and OpenCode](PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) | current | true |
-| [How to: Hermes Agent setup](PRACTICE/01-harness-and-agents/howto-hermes-setup.md) | current | true |
+| [How-to. Hermes providers and keys](PRACTICE/01-harness-and-agents/howto-hermes-providers-and-keys.md) | current | true |
 | [How-to. OpenCode setup](PRACTICE/01-harness-and-agents/howto-opencode-setup.md) | current | true |
 | [Install guide. Linux](PRACTICE/01-harness-and-agents/install-linux.md) | current | true |
 | [Install guide. macOS](PRACTICE/01-harness-and-agents/install-mac.md) | current | true |
@@ -81,11 +82,13 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 | [Starter knowledge base](PRACTICE/02-knowledge-bases/starter-knowledge-base.md) | current | true |
 | [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
 | [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
+| [How-to. Load one local model](PRACTICE/03-models-and-providers/howto-local-models.md) | current | true |
 | [Model types and local model tiers](PRACTICE/03-models-and-providers/model-types-and-local-model-tiers.md) | current | true |
 | [prompting-guide-for-critical-vibe-coding](PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) | current | true |
 | [How-to — Local LLM hardware and software](PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | current | true |
 | [How-to. Hermes Docker sandbox click-path](PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) | current | true |
 | [Safe install rules for Hermes](PRACTICE/05-security-and-privacy/howto-hermes-safe-install-rules.md) | current | true |
+| [How-to. Example MCP servers (vvvv and TouchDesigner)](PRACTICE/06-mcp-and-tools/howto-example-mcp-servers.md) | current | true |
 | [What is an MCP?](PRACTICE/06-mcp-and-tools/what-is-mcp.md) | current | true |
 | [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |
