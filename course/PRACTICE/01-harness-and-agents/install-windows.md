@@ -19,7 +19,7 @@ Follow this file from top to bottom. Do not open the Linux or macOS guides.
 - Windows 11, version 22H2 or later, for Hermes Desktop. Press the Windows key and R together, type `winver`, and press Enter to see your version.
 - About 5 GB of free disk space for Hermes (not verified). A local model is optional. Its file is 3 to 20 GB, by model (section 2).
 - A web connection. A local model download is large. Do it at home.
-- You do not need administrator rights. Do not run Hermes as Administrator.
+- You do not need administrator rights. Do not run Hermes as Administrator. If your account belongs to the Administrators group, read "Use an administrator account safely" before section 1.
 - Section 3, path B needs a payment card. Path A does not.
 - Section 7 only: Git for Windows (https://git-scm.com/downloads/win), Node.js 22.20 or later, and a .NET SDK. Section 7 gives the details.
 - Optional: update your graphics driver before you use a local model. The minimum driver version on Windows is not verified.
@@ -29,6 +29,69 @@ External software and MCP servers in this file are examples. You can replace the
 An MCP is a connector that lets Hermes talk to another program. The Windows example is vvvv. vvvv is a live visual programming environment.
 
 Read the permissions and capability rule before section 7: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
+
+## Use an administrator account safely
+
+Many people use an account that belongs to the Administrators group. That is fine for this guide. A separate standard account is not required. Hermes does not need administrator rights.
+
+An administrator account has two tokens when User Account Control (UAC) is on. A token is the list of rights that a program gets. Windows starts Explorer and your normal terminal with the filtered token. That token works like a standard user. Windows uses the full token only when you approve a UAC prompt. Source: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/how-it-works (checked 25 Nov 2026).
+
+Know these limits:
+
+- Microsoft calls a standard account the more secure way to run Windows. An administrator account in Admin Approval Mode is a supported second choice. For work with real data, a standard daily account is the better habit.
+- UAC is not a security boundary. Microsoft says so: https://learn.microsoft.com/en-us/archive/blogs/e7/update-on-uac
+- Hermes runs as your Windows user, with or without a UAC prompt. A normal terminal can still read and change your own files. Hermes approvals are a guardrail for honest mistakes. They are not a sandbox. Source: https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine
+- Some Windows 11 computers use "Administrator protection". It is off by default. Microsoft says that a security baseline can turn it on. With it, an elevated program runs as a hidden second account with its own profile. Anything you install in an elevated window may land in that other profile. This is one more reason to install without elevation. Source: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/administrator-protection/ (whether it is on for the test computer: not verified).
+
+What each install method does, checked 25 Nov 2026:
+
+| | Hermes Desktop (MSIX, `.appinstaller`) | Hermes Desktop (Microsoft Store) | Command-line script `install.ps1` |
+|---|---|---|---|
+| Scope | Per user (Microsoft: MSIX installs per user) | Per user, Store-owned | Per user |
+| Needs elevation | No (not verified on a real machine) | No (not verified on a real machine) | No. Hermes docs say "No admin rights required". The script has no administrator check or UAC call |
+| Program files | Inside the package. Windows keeps package files under `C:\Program Files\WindowsApps` and locks them | The same | `%LOCALAPPDATA%\hermes\hermes-agent\` |
+| Your data | `%LOCALAPPDATA%\hermes\` (Hermes docs; not verified for the Store package) | The same | `%LOCALAPPDATA%\hermes\` |
+| Signature | Signed bundle. Publisher in the build files: `CN=Nous Research Inc.` | Store signs it. Publisher name: not verified | None on the script. It checks the SHA-256 hash of the uv and Git files that it downloads. Hermes publishes no checksum for `install.ps1` (not found) |
+| Hosts | Hermes download page | Microsoft Store | `github.com`, `api.github.com`, `hermes-assets.nousresearch.com` (script text). Later steps may use more hosts (not verified) |
+| Update | The Update control in Hermes, through Windows App Installer | Microsoft Store | `hermes update` |
+| Remove | Windows Settings, Apps, Installed apps | The same | `hermes uninstall` |
+| Changes to PATH | Execution aliases (`hermes`, `hermes-agent`, `hermes-acp`) | The same | Your user `Path` only |
+
+Sources: https://hermes-agent.nousresearch.com/docs/getting-started/installation, https://hermes-agent.nousresearch.com/docs/user-guide/windows-native, https://hermes-agent.nousresearch.com/docs/getting-started/updating, the Hermes desktop build notes (`apps/desktop/BUILDING.md` in the Hermes repository), and Microsoft: https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
+
+### Test-run checklist
+
+Do these in order. A line that starts with STOP means: stop, do not continue, and tell the teacher.
+
+1. Keep UAC on. Search the Start menu for "Change User Account Control settings". Leave the slider at its default. Do not choose "Never notify". With that setting Windows still gives you a split token but approves every elevation for you (Microsoft Win32 UAC page).
+2. Open a normal Windows Terminal, as in section 3b. Do not choose "Run as administrator". Check it. Type `whoami /groups | Select-String "Mandatory Label"` and press Enter. The line must say `Medium Mandatory Level`. STOP if it says `High Mandatory Level`. Close the window and open a normal one.
+3. Install Hermes Desktop from the official page (section 1). Check the host name in the address bar: `hermes-agent.nousresearch.com`. STOP if it is another host.
+4. Read the Windows App Installer window before you click Install. It shows the app name and the publisher. The publisher must be Nous Research. How the window shows the publisher: not verified. STOP if the publisher is another name, or if the file is not signed.
+5. After the install, type this in the normal terminal and press Enter: `Get-AppxPackage *hermes* | Format-List Name, Publisher, SignatureKind, InstallLocation`. For the `.appinstaller` package, expect a Publisher that contains `CN=Nous Research Inc.`. The value of `SignatureKind` is not verified. Write down what you see.
+6. STOP if any UAC prompt appears while you install or start Hermes Desktop. No official page says Hermes Desktop needs one. Click No.
+7. Elevate only for a named step. In this guide, only section 7 may ask for UAC:
+   - The .NET SDK installer. Microsoft says the native installer installs system-wide and needs administrator rights.
+   - The Git for Windows installer. For an administrator account it asks for UAC and installs to `C:\Program Files\Git` (Git for Windows installer script). Hermes does not need it. You need it only for the `git clone` step in section 7.
+   - Node.js: not verified.
+   Read the UAC window. It must show a verified publisher. Click Yes for that one installer. Then close the installer. Go back to your normal terminal. Do not keep an elevated window open.
+8. Do not paste a secret in a terminal. PowerShell saves what you type in `%APPDATA%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt`. It skips lines with words like `password`, `token`, `apikey` and `secret`. It can still save a key. A line such as `hermes config set OPENROUTER_API_KEY ...` may be saved (not verified). Enter keys only in the Hermes Settings window or in the `.env` file (section 4, step 5). For this session, you can type `Set-PSReadLineOption -HistorySaveStyle SaveNothing`. If you did type a key in a terminal, delete the history file and make a new key at the provider. Source: https://learn.microsoft.com/en-us/powershell/module/psreadline/set-psreadlineoption
+9. Use manual approvals before the first task. Type `hermes config set approvals.mode manual` and press Enter. Then type `hermes config get approvals.mode`. The answer must be `manual`. The default is `smart`. Hermes still does not ask before it writes a file.
+10. Use the test folder only. Use `hermes-smoke-test` from section 3b. Do not point Hermes at Documents, the Desktop, a cloud-sync folder, or your private vault.
+11. Do not run `hermes gateway install` or set up messaging today. On Windows it registers a Scheduled Task and asks for UAC once (Hermes docs). You do not need it.
+12. Do not update during the class. An update changes the package while you work.
+
+### Rollback and uninstall
+
+1. Quit Hermes.
+2. Desktop package: open Windows Settings, then Apps, then Installed apps. Find Hermes and choose Uninstall. This removes the app. It does not remove your data. Hermes docs: "Data deletion is separate from package removal."
+3. Script install: type `hermes uninstall --dry-run` and read the list. Then type `hermes uninstall`. The default keeps your config and data. The command refuses to delete package-owned files.
+4. Do not use `--full` unless you want to delete your config, keys, chats and skills. `--full` removes all user data. Make a backup first (`hermes backup`). Do not delete the `%LOCALAPPDATA%\hermes` folder by hand.
+5. Delete the `hermes-smoke-test` folder yourself.
+6. Revoke the API key at the provider. Remove the lines you added to the `.env` file if you keep Hermes.
+7. If you did section 7, type `dotnet tool uninstall -g vvvv-mcp` (not verified). Remove the vvvv MCP block from `config.yaml`.
+8. If you installed .NET or Git, remove them in Windows Settings, Apps, Installed apps. The UAC prompt may appear again.
+
+Not verified, on a real Windows 11 Enterprise 25H2 machine: all of the items marked above, the label of every window, and whether company policy blocks sideloaded packages. Windows 11 has sideloading on by default (Microsoft Learn). If App Installer says it is blocked, STOP and use the Microsoft Store button. Do not change a policy to make it work.
 
 ## 1. Install Hermes Desktop
 
@@ -43,7 +106,7 @@ Check your Windows version first. Press the Windows key and R together, type `wi
 3. Do not click "Download .exe instead". That file builds Hermes from source. It takes much longer.
 4. If you downloaded the `.appinstaller` file, open it with Windows App Installer.
 5. Open Hermes from the Start menu.
-6. Do not run Hermes as Administrator.
+6. Do not run Hermes as Administrator. Start it from the Start menu, as a normal user.
 7. On first start, Hermes asks you to choose a layout and a provider. Choose Basic. "Choose provider later" is fine. You set the model in section 3.
 
 More Windows notes, including the command-line installer: [howto hermes setup](howto-hermes-setup.md) §2. Install page: https://hermes-agent.nousresearch.com/docs/getting-started/installation
