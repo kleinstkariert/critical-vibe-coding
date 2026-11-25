@@ -82,7 +82,17 @@ For a small model, use one of these:
 2. LM Studio. Hermes lists it as a model provider.
 3. Ollama, with a custom endpoint.
 
-The steps are in your operating-system guide, section 2.
+The short steps are in your operating-system guide, section 2. The runtime steps are below.
+
+### Local runtime steps
+
+*technical suggestion*. This order was not run on a real machine for this course (not verified).
+
+LM Studio. Install it from https://lmstudio.ai/download. Search for a model from the table and download it. In a terminal, check the fit, for example `lms load google/gemma-4-12b --context-length 64000 --estimate-only`. If the estimate is more than your VRAM, choose a smaller model. Then load it with `lms load google/gemma-4-12b --context-length 64000` and start the server with `lms server start`. Type `hermes model`, choose LM Studio, press Enter to use `http://localhost:1234/v1`, and pick the model.
+
+Ollama. Hermes needs a 64,000 token context there. Set it before you start the server. Windows PowerShell: `$env:OLLAMA_CONTEXT_LENGTH = 64000`, then `ollama serve`. macOS and Linux: `OLLAMA_CONTEXT_LENGTH=64000 ollama serve`. If the Ollama app already runs in the tray or menu bar, quit it first, or the setting may not apply (not verified). Type `ollama ps` and read the CONTEXT column. In `hermes model`, choose Custom endpoint and use `http://localhost:11434/v1`.
+
+On the first reply, a local model can stay silent for minutes. Hermes sends a large fixed prompt each time. This is expected. If a download is not done after 5 minutes, use a cloud model.
 
 Catalog file: https://github.com/NousResearch/hermes-agent/blob/main/hermes_cli/local_runtime/catalog.json
 
@@ -103,11 +113,9 @@ Sources, checked 25 Nov 2026:
 
 Free cloud models already chosen for this course are not listed again here. Read [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3.
 
-## The API key
+## The model provider and key
 
-A local model can be too big for a laptop, or too slow for a short task. An API model is the fallback that still supports tool calling.
-
-ChatGPT Plus does not include OpenAI API credits. Create an OpenAI API key and select a small model. Details and the model name are in your operating-system guide. Provider page: https://hermes-agent.nousresearch.com/docs/integrations/providers
+A local model can be too big for a laptop, or too slow for a short task. A cloud model is the fallback that still supports tool calling. No single provider is the course default. Each OS guide, section 3, has one short table: OpenRouter (with a free route), OpenAI, Anthropic, Google, Nous Portal, and local. The table gives the key page, whether a card is needed, and one safe way to enter the key. Provider list: https://hermes-agent.nousresearch.com/docs/integrations/providers
 
 ## Obsidian and the wiki
 

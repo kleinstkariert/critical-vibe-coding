@@ -64,7 +64,7 @@ What "light" means here:
 |---|---|
 | 1. Install Hermes Desktop | Do. Check your Windows version first (Windows 11, 22H2 or later) |
 | 2. Load one local model | Optional. Do it after the first test works, or at home. Pick a model for your VRAM from the table in the guide: about 4B to 12B for 8 to 16 GB. Small models are weaker at agent tasks. A download is 3 to 20 GB |
-| 3. Connect a model | Do. Pick one: a free OpenRouter model (no card), or an OpenAI API key (card needed) |
+| 3. Connect a model provider and key | Do. Pick one row from the table: a free OpenRouter model (no card), or a provider key (a card is usually needed) |
 | 3b. First test: one small file | Do. Stop here if time runs out |
 | 4. Install Obsidian and the LLM wiki | Do, without phone sync (homework). Hermes points at the `wiki/` folder, not the whole vault |
 | 5. Rules and the first `SCHEMA.md` | Do |

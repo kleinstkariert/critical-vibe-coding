@@ -73,7 +73,7 @@ While you check, look for `curl`, `irm`, and `git clone` lines. The host should 
 2. Type `Windows Terminal`.
 3. Press Enter.
 4. If Windows Terminal is not in the list, type `PowerShell` and press Enter.
-5. You type at the blinking cursor. Do not start the window as Administrator. An account in the Administrators group is fine, with a normal window and UAC on. The Windows script needs no admin rights (Hermes docs). Details: [install windows](install-windows.md#use-an-administrator-account-safely).
+5. You type at the blinking cursor. Do not start the window as Administrator. An account in the Administrators group is fine, with a normal window and UAC on. The Windows script needs no admin rights (Hermes docs). Details: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md#windows-details).
 
 The host must be `hermes-agent.nousresearch.com`. Stop if it is not.
 
@@ -280,7 +280,7 @@ Or configure another provider:
 hermes model
 ```
 
-You need **some** API / Portal access. Hermes itself is free/MIT; model usage is separate.
+You need **some** API / Portal access. Hermes itself is free/MIT; model usage is separate. No provider is the default. A short table of providers, key pages, and card needs is in section 3 of your OS guide: [install windows](install-windows.md#3-connect-a-model-provider-and-key), [install mac](install-mac.md#3-connect-a-model-provider-and-key), [install linux](install-linux.md#3-connect-a-model-provider-and-key).
 
 ### Free-to-use endpoint used in class (Session 02)
 
