@@ -36,7 +36,8 @@ Page created 23 Nov 2026. The rows were copied from the course guides with their
 | Claim | Checked | Source | Scope | Independence |
 |---|---|---|---|---|
 | ChatGPT Plus does not include OpenAI API credits. An API key is a separate account with its own billing. | 20 Nov 2026 | [What is ChatGPT Plus](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus) | OpenAI plans only | *vendor documentation* |
-| `gpt-5.4-mini` costs US $0.75 per million input tokens and US $4.50 per million output tokens. Hermes lists it under the OpenAI API provider. | 20 Nov 2026 | [OpenAI price page](https://developers.openai.com/api/docs/pricing) | One model, list price. Taxes, tiers, batch and cached prices are not covered | *vendor price page* |
+| OpenAI standard API list prices per million tokens, input and output, short context: `gpt-6-luna` US $0.10 and $0.50. `gpt-6.1-terra` US $1.00 and $5.00. `gpt-6.2-sol` US $2.00 and $10.00. `gpt-6.2-astra` US $8.00 and $40.00. | 25 Nov 2026 | [OpenAI price page](https://developers.openai.com/api/docs/pricing) | Standard tier, short context. Batch, flex, fast, long-context and cached prices differ. Taxes are not covered | *vendor price page* |
+| `gpt-5.4-mini` is still on the price page, in the table of older models: US $0.75 input and $4.50 output per million tokens. The newest family is `gpt-6.x`. Which OpenAI models the Hermes model picker lists on 25 Nov 2026: not verified. | 25 Nov 2026 | [OpenAI price page](https://developers.openai.com/api/docs/pricing) | Older model, list price. Taxes, tiers, batch and cached prices are not covered | *vendor price page* |
 | Hermes can log in with a ChatGPT subscription for Codex models. That login is not an API key. The Hermes docs do not say which Plus limits it uses. | 20 Nov 2026 | [Hermes providers](https://hermes-agent.nousresearch.com/docs/integrations/providers) | Hermes docs on that date | *vendor documentation* |
 
 ## Hardware and fit
