@@ -85,6 +85,7 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 | [prompting-guide-for-critical-vibe-coding](PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) | current | true |
 | [How-to — Local LLM hardware and software](PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | current | true |
 | [How-to. Hermes Docker sandbox click-path](PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) | current | true |
+| [Safe install rules for Hermes](PRACTICE/05-security-and-privacy/howto-hermes-safe-install-rules.md) | current | true |
 | [What is an MCP?](PRACTICE/06-mcp-and-tools/what-is-mcp.md) | current | true |
 | [AI tools for creative processes — research list](PRACTICE/07-creative-stacks/ai-tools-creative-processes.md) | current | true |
 | [Deep dive: Media-art workflows](PRACTICE/07-creative-stacks/media-art-workflows.md) | current | true |

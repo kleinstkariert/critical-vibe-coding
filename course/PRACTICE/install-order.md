@@ -30,6 +30,7 @@ Keep API keys out of synced notes.
 |---|---|
 | Hermes Desktop on Windows, Linux or macOS | [install-windows.md](01-harness-and-agents/install-windows.md) · [install-linux.md](01-harness-and-agents/install-linux.md) · [install-mac.md](01-harness-and-agents/install-mac.md) |
 | Why this order | [install-why.md](01-harness-and-agents/install-why.md) |
+| Safety rules that all install guides share | [safe install rules](05-security-and-privacy/howto-hermes-safe-install-rules.md) |
 | First folders and `SCHEMA.md` | [starter knowledge base](02-knowledge-bases/starter-knowledge-base.md) |
 | Local GPU, Mac, DGX, multi-GPU | [local LLM hardware](04-local-and-cloud/howto-local-llm-hardware.md) · [hardware research](../../research/software&DataManagement/local-gpu-hardware-for-llms.md) |
 
