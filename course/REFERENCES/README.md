@@ -13,6 +13,7 @@ canonical: true
 | [Peer courses](peer-courses.md) | Other seminars we learn from |
 | [Tools and documentation](tools-and-documentation.md) | Pointer to the canonical tool comparison, plus official documentation links |
 | [Dated models, prices, limits and hardware](dated-models-prices-limits-and-hardware.md) | Where volatile facts live |
+| [Model types and local model tiers](../PRACTICE/03-models-and-providers/model-types-and-local-model-tiers.md) | Model types, 8 to 24 GB local models, apps, and who builds and sells them |
 | [Guidelines and handbooks](guidelines-and-handbooks/README.md) | English translations of guidelines and handbooks, each with its official source |
 
 Research notes: [research index](../../research/README.md).

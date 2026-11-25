@@ -2,7 +2,7 @@
 title: Course map
 status: current
 canonical: true
-last_verified: 2026-11-24
+last_verified: 2026-11-25
 ---
 
 # Course map
@@ -81,6 +81,7 @@ Regenerate it with `python course/scripts/generate-course-map.py --verified-on Y
 | [Starter knowledge base](PRACTICE/02-knowledge-bases/starter-knowledge-base.md) | current | true |
 | [What is “lint” in an LLM Wiki?](PRACTICE/02-knowledge-bases/what-is-lint.md) | current | true |
 | [Academic AI in Austria — access for this course](PRACTICE/03-models-and-providers/academic-ai-austria.md) | current | true |
+| [Model types and local model tiers](PRACTICE/03-models-and-providers/model-types-and-local-model-tiers.md) | current | true |
 | [prompting-guide-for-critical-vibe-coding](PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) | current | true |
 | [How-to — Local LLM hardware and software](PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) | current | true |
 | [How-to. Hermes Docker sandbox click-path](PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) | current | true |

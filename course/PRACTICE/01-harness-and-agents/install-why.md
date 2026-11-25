@@ -27,7 +27,7 @@ The notes stay on your laptop. The phone copy is a separate sync. That path is [
 
 ## The local model
 
-A local model runs on a computer you control. It is optional. The default for class is a free cloud model ([howto hermes setup](howto-hermes-setup.md) §3). A local model is a home project.
+A local model runs on a computer you control. It is optional. The default for class is a free cloud model ([howto hermes setup](howto-hermes-setup.md) §3). A local model is a home project. For model types, task fit, apps and who builds and sells each model, see [model types and local model tiers](../03-models-and-providers/model-types-and-local-model-tiers.md).
 
 Small local models are weaker at agent tasks than cloud models. They make more tool-call mistakes, lose the thread of a long task sooner, and are often slower. *verified fact*, vendor numbers from the Gemma 4 model card, checked 25 Nov 2026: on the Tau2 tool-use test the 31B model scores 76.9%, the 26B A4B model 68.2%, the E4B model 42.2%, and the E2B model 24.5%. No Tau2 number is listed for the 12B model (not verified). Use a small model to learn how the parts fit.
 
