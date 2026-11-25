@@ -88,7 +88,7 @@ Rhythm and student groups: [course rhythm](course-rhythm.md). Tables the eight s
 | Protocol for apps | [MCP](https://modelcontextprotocol.io/) (Model Context Protocol) | Calendar, browser, **CAD/3D**, etc. Session 05. Permissions and capability boundary: [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary). |
 | Optional | Discord bridge; Nextcloud Context Agent (one MCP) | Not required student infra |
 
-Install guides (Windows / macOS / Linux): [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · optional [howto silverbullet setup and sync](../../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md)
+Install guides: [Windows](../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../PRACTICE/01-harness-and-agents/install-linux.md) · [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · optional [howto silverbullet setup and sync](../../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md)
 
 Creative AI tool survey (extra): [ai tools creative processes](../../PRACTICE/07-creative-stacks/ai-tools-creative-processes.md)
 

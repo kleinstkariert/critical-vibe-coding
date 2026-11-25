@@ -114,7 +114,7 @@ Decision of 9 Nov 2026: eight sessions. Plans the eight sessions replace are rem
 | References | [references](../../REFERENCES/bibliography.md) |
 | What is a **harness** | [what is harness](../../PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | What is **MCP** | [what is mcp](../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
-| Hermes / Obsidian howtos | [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
+| Hermes / Obsidian howtos | [Windows](../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../PRACTICE/01-harness-and-agents/install-linux.md) · [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
 | Local hardware howto | [howto local llm hardware](../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md) |
 | Prompting guide | [Prompting Guide for Critical Vibe Coding](../../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) |
 | Course rhythm | [course rhythm](course-rhythm.md) |

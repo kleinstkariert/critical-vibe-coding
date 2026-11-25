@@ -316,10 +316,10 @@ class GeneratorOutputTests(unittest.TestCase):
         except ImportError:
             self.skipTest("build_deck.py needs Pillow")
         _, (slide,) = self.blank_deck(1)
-        build.notes(slide, "Guides: course/howto-hermes-setup.md and ecology.md.")
+        build.notes(slide, "Guides: course/PRACTICE/01-harness-and-agents/install-windows.md and ecology.md.")
         self.assertEqual(
             slide.notes_slide.notes_text_frame.text,
-            "Guides: course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md and "
+            "Guides: course/PRACTICE/01-harness-and-agents/install-windows.md and "
             "course/THEORY/03-ecology-infrastructure/ecology.md.",
         )
 

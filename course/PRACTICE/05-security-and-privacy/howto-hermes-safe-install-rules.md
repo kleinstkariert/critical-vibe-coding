@@ -17,7 +17,7 @@ canonical: true
 
 Facts were checked on 25 Nov 2026. A line marked *not verified* was not tested on a real machine. Read the source again before you rely on it.
 
-Provider and key table: in section 3 of each OS guide. OS guides: [Windows](../01-harness-and-agents/install-windows.md) · [macOS](../01-harness-and-agents/install-mac.md) · [Linux](../01-harness-and-agents/install-linux.md). Advanced: [Docker sandbox](howto-hermes-docker-sandbox.md).
+Provider and key table: [providers and keys](../01-harness-and-agents/howto-hermes-providers-and-keys.md). OS beginner guides: [Windows](../01-harness-and-agents/install-windows.md) · [macOS](../01-harness-and-agents/install-mac.md) · [Linux](../01-harness-and-agents/install-linux.md). Advanced: [Docker sandbox](howto-hermes-docker-sandbox.md).
 
 ## 1. What protects you, and what does not
 

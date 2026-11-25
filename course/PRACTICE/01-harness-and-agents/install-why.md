@@ -27,7 +27,7 @@ The notes stay on your laptop. The phone copy is a separate sync. That path is [
 
 ## The local model
 
-A local model runs on a computer you control. It is optional. The default for class is a free cloud model ([howto hermes setup](howto-hermes-setup.md) §3). A local model is a home project. For model types, task fit, apps and who builds and sells each model, see [model types and local model tiers](../03-models-and-providers/model-types-and-local-model-tiers.md).
+A local model runs on a computer you control. It is optional. The default for class is a free cloud model ([providers and keys](howto-hermes-providers-and-keys.md)). A local model is a home project: [howto local models](../03-models-and-providers/howto-local-models.md). For model types, task fit, apps and who builds and sells each model, see [model types and local model tiers](../03-models-and-providers/model-types-and-local-model-tiers.md).
 
 Small local models are weaker at agent tasks than cloud models. They make more tool-call mistakes, lose the thread of a long task sooner, and are often slower. *verified fact*, vendor numbers from the Gemma 4 model card, checked 25 Nov 2026: on the Tau2 tool-use test the 31B model scores 76.9%, the 26B A4B model 68.2%, the E4B model 42.2%, and the E2B model 24.5%. No Tau2 number is listed for the 12B model (not verified). Use a small model to learn how the parts fit.
 
@@ -82,7 +82,7 @@ For a small model, use one of these:
 2. LM Studio. Hermes lists it as a model provider.
 3. Ollama, with a custom endpoint.
 
-The short steps are in your operating-system guide, section 2. The runtime steps are below.
+The short steps are in [howto local models](../03-models-and-providers/howto-local-models.md). The runtime steps are below.
 
 ### Local runtime steps
 
@@ -111,11 +111,11 @@ Sources, checked 25 Nov 2026:
 - LM Studio pages: https://lmstudio.ai/models/gemma-4 and https://lmstudio.ai/models/qwen3.5 and https://lmstudio.ai/models/granite-4.1
 - LM Studio and Hermes: https://lmstudio.ai/docs/integrations/hermes
 
-Free cloud models already chosen for this course are not listed again here. Read [default setup](default-setup.md) §4 and [howto hermes setup](howto-hermes-setup.md) §3.
+Free cloud models already chosen for this course are not listed again here. Read [default setup](default-setup.md) §4 and [providers and keys](howto-hermes-providers-and-keys.md).
 
 ## The model provider and key
 
-A local model can be too big for a laptop, or too slow for a short task. A cloud model is the fallback that still supports tool calling. No single provider is the course default. Each OS guide, section 3, has one short table: OpenRouter (with a free route), OpenAI, Anthropic, Google, Nous Portal, and local. The table gives the key page, whether a card is needed, and one safe way to enter the key. Provider list: https://hermes-agent.nousresearch.com/docs/integrations/providers
+A local model can be too big for a laptop, or too slow for a short task. A cloud model is the fallback that still supports tool calling. No single provider is the course default. The beginner guides use OpenRouter in Desktop Settings. The full table (key pages, cards, `.env`) is in [providers and keys](howto-hermes-providers-and-keys.md). Provider list: https://hermes-agent.nousresearch.com/docs/integrations/providers
 
 ## Obsidian and the wiki
 
@@ -134,18 +134,18 @@ The course already wrote those rules. Use them. Do not start a second security e
 - Course repo rules: [AGENTS.md](../../../AGENTS.md)
 - Project copy: [agents md template](agents-md-template.md)
 - The safety rules that all install guides share, in one place: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
-- Short Hermes limits: [howto hermes setup](howto-hermes-setup.md) §5d
-- Personal-laptop baseline: read-only inspection, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. The steps are in the safe install rules and in your operating-system guide, section 6. On Windows, an Administrators-group account is fine if you use a normal, non-elevated terminal. Hermes needs no elevation on any system.
+- Short Hermes limits: [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
+- Personal-laptop baseline: read-only inspection, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. The steps are in the [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md). On Windows, an Administrators-group account is fine if you use a normal, non-elevated terminal. Hermes needs no elevation on any system.
 - Docker is an advanced safety module, not the two-hour baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - Mounts, secrets, and the rule list: [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14
 - Repair limit and the coding loop: [howto hermes efficient coding](howto-hermes-efficient-coding.md)
 
 ## Examples, not requirements
 
-vvvv on Windows, and TouchDesigner on macOS, show one external program and one MCP. An MCP is a connector that lets Hermes talk to another program.
+vvvv on Windows, and TouchDesigner on macOS, show one external program and one MCP. An MCP is a connector that lets Hermes talk to another program. Steps: [howto example mcp servers](../06-mcp-and-tools/howto-example-mcp-servers.md).
 
 Read the permissions and capability rule before you add a server: [what is mcp](../06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary).
 
-Those programs are examples. You can replace them with a program you already use. Linux has no MCP example in its guide for the same reason: the connector is optional.
+Those programs are examples. You can replace them with a program you already use. The connector is optional.
 
 What an MCP is: [what is mcp](../06-mcp-and-tools/what-is-mcp.md).

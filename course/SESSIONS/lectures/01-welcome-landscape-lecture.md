@@ -588,7 +588,7 @@ Practical. **Deep dive with the diagram explained part by part:** [default setup
 
 1. **Knowledge store** with phone sync. Default Obsidian: [howto obsidian setup and sync](../../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md). Alternatives: [knowledge store options](../../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../../PRACTICE/02-knowledge-bases/howto-silverbullet-setup-and-sync.md).
 
-2. **Hermes Agent** pointed at that folder: [howto hermes setup](../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux). Installed together in Session 02.
+2. **Hermes Agent** pointed at that folder: [Windows](../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../PRACTICE/01-harness-and-agents/install-linux.md). Installed together in Session 02.
 
 3. **LLM Wiki** structure (sources, wiki, schema): [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) · what that structure improves: [llm wiki standard files](../../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) · Obsidian versus Joplin: [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md).
 

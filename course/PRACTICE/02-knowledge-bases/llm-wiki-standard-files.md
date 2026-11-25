@@ -129,7 +129,7 @@ Same idea; do not mix two layouts in one folder without teaching the agent.
 | Obsidian plugin `karpathywiki` | https://community.obsidian.md/plugins/karpathywiki · https://github.com/GD4AI/obsidian-llm-wiki | Ingest/query/lint inside Obsidian; Apache-2.0 |
 | Dexio guide | https://dexio.wiki/guides/llm-wiki-obsidian/ | Obsidian-oriented walkthrough |
 
-Setup in this repo: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) · [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [references](../../REFERENCES/bibliography.md)
+Setup in this repo: [Windows](../01-harness-and-agents/install-windows.md) · [macOS](../01-harness-and-agents/install-mac.md) · [Linux](../01-harness-and-agents/install-linux.md) · [howto obsidian setup and sync](howto-obsidian-setup-and-sync.md) · [references](../../REFERENCES/bibliography.md)
 
 ## What structure improves
 

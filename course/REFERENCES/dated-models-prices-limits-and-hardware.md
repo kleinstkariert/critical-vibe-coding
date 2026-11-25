@@ -59,16 +59,16 @@ Page created 23 Nov 2026. The rows were copied from the course guides with their
 |---|---|---|---|---|
 | Hermes Desktop is Apple Silicon only. Intel Macs use the command-line script or another machine. | 18 Oct 2026 | [Hermes install docs](https://hermes-agent.nousresearch.com/docs/getting-started/installation) | macOS Desktop package | *vendor documentation* |
 | The Hermes install page publishes no checksum for `install.sh` or `install.ps1`. The course does not invent one. | 20 Nov 2026 | [Hermes install docs](https://hermes-agent.nousresearch.com/docs/getting-started/installation) | The two scripts only | *vendor documentation* |
-| The scripts' changes to the system, listed per system. | 20 Nov 2026 | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) §2 (Windows, macOS, Linux) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) §1 · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) §1 | Read from the script text and the install layout on that date | *course author's reading of vendor scripts* |
+| The scripts' changes to the system, listed per system. | 20 Nov 2026 | [advanced Hermes config](../PRACTICE/01-harness-and-agents/howto-hermes-advanced-config.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) §1 · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) §1 | Read from the script text and the install layout on that date | *course author's reading of vendor scripts* |
 | The OpenCode install script at `https://opencode.ai/v2/install` publishes no checksum of itself. Release v2.3.2 has a `SHA256SUMS` file for archives, from v2.2.0 on. That file does not check the script. | 20 Nov 2026 | [OpenCode release v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2) | Archives only | *vendor documentation* |
-| TDMCP, the official TouchDesigner MCP from Derivative, is in public beta. Its README names the local URL `http://127.0.0.1:13316/mcp`. | 20 Nov 2026 | [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) §7 | One example MCP | *vendor documentation* |
+| TDMCP, the official TouchDesigner MCP from Derivative, is in public beta. Its README names the local URL `http://127.0.0.1:13316/mcp`. | 20 Nov 2026 | [howto example mcp servers](../PRACTICE/06-mcp-and-tools/howto-example-mcp-servers.md) | One example MCP | *vendor documentation* |
 
 ## Where other volatile facts live
 
 These notes keep their own dates. They are not copied here.
 
 - Academic AI access in Austria (research date 21 Oct 2026): [Academic AI in Austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md)
-- Install commands and endpoints: [Hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) and [Default setup](../PRACTICE/01-harness-and-agents/default-setup.md)
+- Install commands and endpoints: [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [Default setup](../PRACTICE/01-harness-and-agents/default-setup.md)
 - Legal timelines: [EU AI Act and Datenschutz](../THEORY/05-privacy-regulation/eu-ai-act-and-datenschutz.md)
 - Data centre and investment figures: [Data centres, energy, ecology](../../research/data-centers-energy-ecology-economy.md) and [Economy and the AI bubble](../THEORY/01-political-economy/bubble-economy.md)
 

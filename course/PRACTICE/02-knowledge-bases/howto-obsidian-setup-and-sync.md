@@ -11,7 +11,7 @@ Practical guide for Critical Vibe Coding on **Windows**, **macOS**, and **Linux*
 
 *requirement:* **Phone sync is mandatory** (work on computer, read/capture on phone). Course decision: **Obsidian** as the class note app — sync via personal cloud (e.g. Nextcloud) **without** each student running a server. Joplin is not kept only to practice MCP.
 
-Related: [knowledge store options](knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) · [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)
+Related: [knowledge store options](knowledge-store-options.md) · [what is mcp](../06-mcp-and-tools/what-is-mcp.md) · [obsidian vs joplin hermes llmwiki](../../../research/software&DataManagement/obsidian-vs-joplin-hermes-llmwiki.md) · [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md)
 
 ## 1. Install and open a vault
 
@@ -114,7 +114,7 @@ Fits: **Windows / macOS / Linux + phone**, university or personal Nextcloud.
 ## 5. Checklist before an agent (Hermes / Cursor) uses the vault
 
 - [ ] Vault path is a real folder of `.md` files on the machine where the agent runs
-- [ ] Agent config points at that path with an **OS-correct absolute path** (see [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md))
+- [ ] Agent config points at that path with an **OS-correct absolute path** (see [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder))
 - [ ] Sync is settled so phone and computer do not fight (one sync method)
 - [ ] LLM Wiki layout (if used): `raw/`, schema, `index.md`, agent-writable folders — see research notes
 - [ ] Secrets (API keys) not stored in synced notes

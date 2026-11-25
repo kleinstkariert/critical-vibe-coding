@@ -44,7 +44,7 @@ Related: [obsidian vs joplin hermes llmwiki](../../../research/software&DataMana
 2. Open or create a **folder** as a space, e.g.:
    - Windows: `C:\path\to\silverbullet-space`
    - macOS / Linux: `~/Nextcloud/silverbullet-space` or `~/silverbullet-space`
-3. You now have plain `.md` files. Point Hermes at that **absolute** folder path ([howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)).
+3. You now have plain `.md` files. Point Hermes at that **absolute** folder path ([advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder)).
 
 **Sync later:** connect this space to a Server (section 4) when you want the phone.
 

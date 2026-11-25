@@ -47,7 +47,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 
 | **Knowledge store** | A folder of plain Markdown notes, synced to your phone. Default: Obsidian. Alternatives are fine if they keep plain files. | [howto obsidian setup and sync](../02-knowledge-bases/howto-obsidian-setup-and-sync.md) · options: [knowledge store options](../02-knowledge-bases/knowledge-store-options.md) · SilverBullet: [howto silverbullet setup and sync](../02-knowledge-bases/howto-silverbullet-setup-and-sync.md) |
 
-| **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [howto hermes setup](howto-hermes-setup.md) |
+| **Agent** | Hermes Agent (Nous Research, MIT licence). Runs on your computer, reads and writes the notes folder, uses tools and skills. | [Windows](install-windows.md) · [macOS](install-mac.md) · [Linux](install-linux.md) |
 
 | **Structure** | The LLM Wiki pattern: sources, wiki pages and a schema the agent follows. A structured base does not make the notes true. | [llm wiki standard files](../02-knowledge-bases/llm-wiki-standard-files.md#what-structure-improves) · background: [karpathy llm wiki and openclaw](../../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
 
@@ -355,7 +355,7 @@ An OpenRouter deployment of these materials is not private, and it is not sovere
 
 - *institutional summary (Hermes docs):* Nous Research is part of NVIDIA's Nemotron Coalition, and the Hermes docs carry a dedicated guide for this free tier.
 
-- Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [howto hermes setup](howto-hermes-setup.md).
+- Setup: create a free OpenRouter account and key, put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, run `hermes model`, choose OpenRouter and the model ID above. Keep the key out of your notes. Steps: [providers and keys](howto-hermes-providers-and-keys.md) · OS beginner guides.
 
 - 550 billion parameters (55 billion active per step). Too large for most student machines. The privacy points in §3 apply.
 
@@ -381,7 +381,7 @@ Fallbacks: the free plan of Nous Portal (`hermes setup --portal`, free-to-use ho
 
 4. Read Karpathy's LLM Wiki gist or watch the beginner setup guide linked in [references](../../REFERENCES/bibliography.md). If you do not want to use AI: you can do research, investigative work on AI and input lectures.
 
-5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([howto hermes setup](howto-hermes-setup.md)). Otherwise we install it together in Session 02.
+5. Optional, if you are ready: install Hermes Agent and point it at your notes folder ([Windows](install-windows.md) · [macOS](install-mac.md) · [Linux](install-linux.md)). Otherwise we install it together in Session 03.
 
 6. Choose your student-input group and session ([01 welcome landscape lecture](../../SESSIONS/lectures/01-welcome-landscape-lecture.md#Student inputs: choose a topic)).
 

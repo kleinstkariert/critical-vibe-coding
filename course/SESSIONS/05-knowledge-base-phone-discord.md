@@ -85,6 +85,6 @@ Permissions and capability boundary: [what is mcp](../PRACTICE/06-mcp-and-tools/
 
 ## Materials
 
-- [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
+- [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [advanced Hermes config](../PRACTICE/01-harness-and-agents/howto-hermes-advanced-config.md) · [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md) · [Hermes Discord setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
 - MCP: [what is mcp](../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · official intro https://modelcontextprotocol.io/docs/getting-started/intro · Hermes MCP https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp · full MCP session with CAD/3D table (archived): [06 mcp and tools](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#cad-and-3d-servers-table-from-retired-session-06)
 - Student input: Hugging Face and OpenAI incident reports (above) · [visions fears regulation](../THEORY/06-danger-and-risk/visions-fears-regulation.md)

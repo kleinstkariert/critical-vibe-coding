@@ -20,7 +20,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 
 ## Goals
 
-- Join, if you want to, a light install: Hermes Desktop, one cloud model (a free one, or an API key), one first test file, one wiki folder. A local model is optional: do it after the first test, or at home. **Docker is not part of the baseline.**
+- Join, if you want to, a light install: Hermes Desktop (or Linux terminal), one OpenRouter free key in Settings, one first chat and smoke test. Local models, Obsidian, and MCP are advanced links. **Docker is not part of the baseline.**
 - Leave with a personal "fits / does not fit" note for local models
 - Map three hardware paths: **ready-made unified** (Apple / DGX Spark) · **single GPU DIY** · **multi-GPU rack** (split ≠ fused RAM)
 - Prompting habits for agents: [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)
@@ -36,7 +36,7 @@ This session was first planned as "Hardware paths, locally runnable models, prom
 | **10:55 to 11:05** | Break |
 | **11:05 to 12:00** | **Optional join-in install**: light Hermes Desktop install, one guide for your system. No Docker. |
 
-The install runs in this order: Desktop, model, first test, then the wiki folder. If time runs out, stop after the first test. Finish at home.
+The install runs in this order: Desktop, OpenRouter key, first chat and smoke test. If time runs out, stop after the smoke test. Finish advanced steps at home.
 
 If you do not want to install, you can read the hardware section below, write the "fits / does not fit" note, or help a neighbour. The install is not required for assessment.
 
@@ -62,16 +62,12 @@ What "light" means here:
 
 | Guide section | Light install |
 |---|---|
-| 1. Install Hermes Desktop | Do. Check your Windows version first (Windows 11, 22H2 or later) |
-| 2. Load one local model | Optional. Do it after the first test works, or at home. Pick a model for your VRAM from the table in the guide: about 4B to 12B for 8 to 16 GB. Small models are weaker at agent tasks. A download is 3 to 20 GB |
-| 3. Connect a model provider and key | Do. Pick one row from the table: a free OpenRouter model (no card), or a provider key (a card is usually needed) |
-| 3b. First test: one small file | Do. Stop here if time runs out |
-| 4. Install Obsidian and the LLM wiki | Do, without phone sync (homework). Hermes points at the `wiki/` folder, not the whole vault |
-| 5. Rules and the first `SCHEMA.md` | Do |
-| 6. Personal laptop | Do. Read-only first, a disposable folder, command approvals set to manual, a copy or Git commit before writes, no private vault |
-| 7. Example MCP (vvvv on Windows, TouchDesigner on macOS) | Skip unless time is left. It needs Git, Node.js 22.20 or later, and a .NET SDK. Read the [MCP permissions rule](../PRACTICE/06-mcp-and-tools/what-is-mcp.md#permissions-and-capability-boundary) first |
+| 1. Install Hermes Desktop (Linux: terminal install) | Do. Windows: check version first (Windows 11, 22H2 or later) |
+| 2. Add an OpenRouter key | Do. Path: Settings → Providers → OpenRouter → add API key (labels not verified). Free model, no card |
+| 3. First chat and smoke test | Do. Stop here if time runs out |
+| Advanced links at the end of each guide | Homework. Local models, Obsidian, MCP, Docker, CLI, providers |
 
-The first Hermes request (guide section 3b) reads one small file that you create in a disposable folder named `hermes-smoke-test`. It does not list the vault.
+The first Hermes request (guide section 3) reads one small file that you create in a disposable folder named `hermes-smoke-test`. It does not list the vault.
 
 Docker is an advanced workshop, not today's baseline: [howto hermes docker sandbox](../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md).
 
@@ -100,7 +96,7 @@ Pick **one** track (pairs OK):
 
 | Track | Do |
 |---|---|
-| **A: Laptop only** | Install LM Studio, Ollama, or Hermes Local; pull a small model that lists tool calls (about 4B to 12B, [table](../PRACTICE/01-harness-and-agents/install-why.md#small-models-that-list-tool-calls)); one agent smoke test on `hermes-smoke-test`, not on the vault |
+| **A: Laptop only** | Follow [howto local models](../PRACTICE/03-models-and-providers/howto-local-models.md); pull a small model that lists tool calls (about 4B to 12B, [table](../PRACTICE/01-harness-and-agents/install-why.md#small-models-that-list-tool-calls)); one agent smoke test on `hermes-smoke-test`, not on the vault |
 | **B: Has NVIDIA/Apple** | Pull the largest model that still feels interactive; note tokens per second + RAM |
 | **C: Paper design** | Spec a dual-GPU or Spark/Mac build from the research note + one tutorial link; no purchase |
 
@@ -113,7 +109,7 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 ## Homework
 
 - Phone sync for the vault is homework: [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md)
-- Optional at home: a local model (guide section 2)
+- Optional at home: a local model ([howto local models](../PRACTICE/03-models-and-providers/howto-local-models.md))
 - Finish the software setup at home if class time ran out (flipped: deep DIY reading at home): [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md)
 - Optional: skim one multi-GPU tutorial linked in the research note
 - Prepare a short project idea for Session 04 (project presentations and semester plans)
@@ -122,7 +118,7 @@ Howto: [howto local llm hardware](../PRACTICE/04-local-and-cloud/howto-local-llm
 
 | What | Link |
 |---|---|
-| Install guides | [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) · [install why](../PRACTICE/01-harness-and-agents/install-why.md) |
+| Install guides | [install windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [install linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [install mac](../PRACTICE/01-harness-and-agents/install-mac.md) · [install why](../PRACTICE/01-harness-and-agents/install-why.md) · [providers and keys](../PRACTICE/01-harness-and-agents/howto-hermes-providers-and-keys.md) · [local models](../PRACTICE/03-models-and-providers/howto-local-models.md) |
 | Starter knowledge base | [starter knowledge base](../PRACTICE/02-knowledge-bases/starter-knowledge-base.md) |
 | Session 03 slides | [03 practical install slides](lectures/03-practical-install-slideshow/03-practical-install.md) |
 | Dated model and hardware claims | [dated models, prices, limits and hardware](../REFERENCES/dated-models-prices-limits-and-hardware.md) |

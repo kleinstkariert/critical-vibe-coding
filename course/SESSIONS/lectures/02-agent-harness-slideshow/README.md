@@ -40,5 +40,5 @@ Obsidian Slides uses reveal.js. Default scale is too large (~2.5em) and clips ta
 `cssclasses` on the note do **not** style the presentation view. Use the vault snippet.
 
 Session plan: [02 agent harness and wiki architecture](../../02-agent-harness-and-wiki-architecture.md)  
-Install: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · Efficient coding: [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)  
+Install: [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · Efficient coding: [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)  
 Plugin help: https://obsidian.md/help/plugins/slides

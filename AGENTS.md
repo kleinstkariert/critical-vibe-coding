@@ -49,7 +49,7 @@ The names below are one *reference implementation* for class demos. They are not
 
 - Reference implementation for class demos: **Hermes Agent** (MIT). Cursor, Claude Code, and OpenCode are valid systems for repo work.
 - Notes example: Obsidian vault + phone sync (see `course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md`). A plain Markdown folder meets the knowledge store.
-- Hermes install guide: `course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md`.
+- Hermes beginner install: pick your OS guide under `course/PRACTICE/01-harness-and-agents/` (`install-windows.md`, `install-mac.md`, `install-linux.md`). Advanced: providers, config, local models, Docker, safe-install rules.
 - Coding harness example: `course/PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md`.
 - Comparison: `course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md`.
 

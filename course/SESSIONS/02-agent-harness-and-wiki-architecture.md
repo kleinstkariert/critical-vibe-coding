@@ -170,7 +170,7 @@ Ten minutes, honest access notes:
 
 ## Practical: install Hermes (≥45 min)
 
-1. Install Hermes on student machines: [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) (Windows, macOS, Linux).
+1. Install Hermes on student machines: pick the OS beginner guide ([Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md)).
 2. Create a free OpenRouter account and key. Put it in `~/.hermes/.env` as `OPENROUTER_API_KEY`, never in the vault.
 3. `hermes model` → OpenRouter → `nvidia/nemotron-3-ultra-550b-a55b:free` (or the student's own access).
 4. Point Hermes at the Obsidian vault path (`WIKI_PATH` / `OBSIDIAN_VAULT_PATH`).
@@ -181,7 +181,7 @@ If the install fails, label Model versus Harness on a product the student alread
 
 ## Homework
 
-- Finish the Hermes install and smoke test if class time ran out: [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+- Finish the Hermes install and smoke test if class time ran out: [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md)
 - One-page diagram: Model / Harness / Wiki folders (phone photo OK)
 - Skim the Karpathy gist **or** the LangChain harness article (pick one)
 - Next week: hardware paths, locally runnable models, prompting, chat versus reasoning ([03 practical install](03-practical-install.md))
@@ -196,13 +196,13 @@ If the install fails, label Model versus Harness on a product the student alread
 | LLM Wiki standard files | [llm wiki standard files](../PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md) |
 | What is lint | [what is lint](../PRACTICE/02-knowledge-bases/what-is-lint.md) |
 | Karpathy research note | [karpathy llm wiki and openclaw](../../research/software&DataManagement/karpathy-llm-wiki-and-openclaw.md) |
-| Hermes install | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
+| Hermes install | [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md) · https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 | Hermes efficient coding (harness tips) | [howto hermes efficient coding](../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) · [agents md template](../PRACTICE/01-harness-and-agents/agents-md-template.md) |
 | Hermes vs coding agents (comparison) | [hermes vs coding agents](../PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md) |
 | OpenCode setup and Hermes pairing | [howto opencode setup](../PRACTICE/01-harness-and-agents/howto-opencode-setup.md) · [howto hermes opencode pairing](../PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md) |
 | Session 02 Obsidian slides | [02 agent harness and hermes](lectures/02-agent-harness-slideshow/02-agent-harness-and-hermes.md) |
 | Architecture overview | [Local LLM Coding with Hermes](../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) |
-| Hermes install (Desktop + CLI) | [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) |
+| Hermes install (Desktop + CLI) | [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md) · [advanced config](../PRACTICE/01-harness-and-agents/howto-hermes-advanced-config.md) |
 | Hermes providers | https://hermes-agent.nousresearch.com/docs/integrations/providers |
 | Free-to-use endpoint (OpenRouter) | https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free |
 | Model choice, academic access | [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md) · [academic ai austria](../PRACTICE/03-models-and-providers/academic-ai-austria.md) |

@@ -61,7 +61,7 @@ claim_scope: exact | paraphrase | interpretation
 | Discord setup (bot, DMs vs mention-only channels, per-user sessions). Added 2026-10-18. *institutional summary*. The page loaded. The claims were not independently verified. | https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord |
 | Installation | https://hermes-agent.nousresearch.com/docs/getting-started/installation |
 
-Course how-to (Win / macOS / Linux): [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)  
+Course how-to (Win / macOS / Linux): [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md)  
 Short syllabus sheet: [course outline](../SESSIONS/overview/course-outline.md)  
 What is a harness: [what is harness](../PRACTICE/01-harness-and-agents/what-is-harness.md)  
 Prompting guide (chat versus reasoning, STE80, Hermes context): [Prompting Guide for Critical Vibe Coding](../PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)  

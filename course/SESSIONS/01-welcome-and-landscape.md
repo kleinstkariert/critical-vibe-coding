@@ -90,7 +90,7 @@ Short Q&A after each block. High priority: **Blocks 3, 4, 5 and 6** (drivers and
 5. **Ecology** (high): electricity, gas, water, neighbours. [ecology](../THEORY/03-ecology-infrastructure/ecology.md). Student input: Session 06.
 6. **Labour** (high): hidden work, the IMF's 40% and its critics, creative jobs, first jobs, the Luddites. [labour](../THEORY/02-labour-authorship/labour.md).
 7. **Media-art workflows:** five pressures and practices; flattening. [media art workflows](../PRACTICE/07-creative-stacks/media-art-workflows.md) · [flattening and the norm](../THEORY/04-bias-flattening/flattening-and-the-norm.md).
-8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free-to-use hosted endpoint. [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) · [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [howto hermes setup](../PRACTICE/01-harness-and-agents/howto-hermes-setup.md). Alternatives: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md).
+8. **Default setup (preview):** Obsidian, Hermes, LLM Wiki, a free-to-use hosted endpoint. [default setup](../PRACTICE/01-harness-and-agents/default-setup.md) · [howto obsidian setup and sync](../PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) · [Windows](../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../PRACTICE/01-harness-and-agents/install-linux.md). Alternatives: [knowledge store options](../PRACTICE/02-knowledge-bases/knowledge-store-options.md).
 
 *Q&A after each point: collect open questions for the student inputs.*
 

@@ -29,7 +29,7 @@ This page does not replace the course how-tos:
 - Job split (harness, coding agent, always-on assistant): [hermes vs coding agents](../../course/PRACTICE/01-harness-and-agents/hermes-vs-coding-agents.md)
 - What a harness is: [what is harness](../../course/PRACTICE/01-harness-and-agents/what-is-harness.md)
 - What MCP is: [what is mcp](../../course/PRACTICE/06-mcp-and-tools/what-is-mcp.md)
-- Hermes install: [howto hermes setup](../../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+- Hermes install: [Windows](../../course/PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../course/PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../course/PRACTICE/01-harness-and-agents/install-linux.md)
 - OpenCode install: [howto opencode setup](../../course/PRACTICE/01-harness-and-agents/howto-opencode-setup.md)
 - Pair Hermes with OpenCode: [howto hermes opencode pairing](../../course/PRACTICE/01-harness-and-agents/howto-hermes-opencode-pairing.md)
 - Prompting: [Prompting Guide for Critical Vibe Coding](../../course/PRACTICE/03-models-and-providers/prompting-guide-for-critical-vibe-coding.md)

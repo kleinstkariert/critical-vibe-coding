@@ -677,7 +677,7 @@ def build(out: Path = OUT_PPTX):
         "**A model:** whatever access you prefer, can afford makes sense for you",
     ], note=f"Deep dive with the diagram explained part by part: course/PRACTICE/01-harness-and-agents/default-setup.md\n"
             "Free model to start Hermes with: Nemotron 3 Ultra through OpenRouter's free tier (course/PRACTICE/01-harness-and-agents/default-setup.md section 4).\n"
-            "Guides: course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md, course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md, course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md, "
+            "Guides: course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md, course/PRACTICE/01-harness-and-agents/install-windows.md, course/PRACTICE/02-knowledge-bases/llm-wiki-standard-files.md, "
             "course/PRACTICE/02-knowledge-bases/knowledge-store-options.md.")
     img("14", "Three rows, each part labelled in the margin. Architecture: raw sources (read only), the wiki (written by the "
               "agent), the schema (the rules). Operations: ingest (a source comes in), query (you ask), lint (the health "

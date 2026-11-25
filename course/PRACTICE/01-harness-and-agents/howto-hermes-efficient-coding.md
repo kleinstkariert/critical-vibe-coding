@@ -15,7 +15,7 @@ canonical: true
 
 *reference implementation. Advanced path. Not required for assessment.* This page is one Hermes coding example. See [minimum path](../../PROJECT-WORK/01_minimum-path.md).
 
-Complement to [howto hermes setup](howto-hermes-setup.md). That guide installs Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
+Complement to the OS beginner guides ([Windows](install-windows.md) · [macOS](install-mac.md) · [Linux](install-linux.md)) and [advanced Hermes config](howto-hermes-advanced-config.md). Those pages install Hermes. This guide sets a **coding harness**: project rules, verification, skills, and repair limits.
 
 Source types: [references](../../REFERENCES/bibliography.md#source-types). A label names the source kind. It is not independent verification. Labels: *technical suggestion*. Writing style target: STE ~80%.
 
@@ -58,7 +58,7 @@ Put the mode line in `AGENTS.md` or in the first chat message. Template: [agents
 
 ## 1. Install Hermes first
 
-Follow [howto hermes setup](howto-hermes-setup.md) until `hermes` runs and a model answers.
+Follow your OS beginner guide until `hermes` runs and a model answers.
 
 Minimum for coding agents (*technical suggestion*):
 
@@ -251,7 +251,7 @@ Session 02 places the same bet: **wiki + schema + tools** before model shopping.
 
 ## 9. Checklist
 
-- [ ] Hermes install done ([howto hermes setup](howto-hermes-setup.md)), Desktop or CLI
+- [ ] Hermes install done (OS beginner guide), Desktop or CLI
 - [ ] Model has tool calling + large enough context
 - [ ] `AGENTS.md` (or `.hermes.md`) at repo root ([agents md template](agents-md-template.md))
 - [ ] One verify command the agent must run
@@ -285,7 +285,7 @@ If most rows fail, fix `AGENTS.md` and `scripts/verify` before you chase a bigge
 
 | What | Link |
 |---|---|
-| Hermes install (course) | [howto hermes setup](howto-hermes-setup.md) |
+| Hermes install (course) | [Windows](install-windows.md) · [macOS](install-mac.md) · [Linux](install-linux.md) |
 | Hermes docs | https://hermes-agent.nousresearch.com/docs/ |
 | Context files | https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files |
 | Skills guide | https://hermes-agent.nousresearch.com/docs/guides/work-with-skills |

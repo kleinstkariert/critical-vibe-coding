@@ -35,7 +35,7 @@ Today has two aims:
 - Understand how a model becomes a useful agent.
 - Start a safe Hermes setup.
 
-Full guides: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
+Full guides: [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 # Critical Vibe Coding
@@ -265,7 +265,7 @@ It can:
 
 **Hermes Desktop** is a native app UI for the **same** agent. It feels closer to Cursor or Claude Cowork than a raw terminal.
 
-Install: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · Desktop: https://hermes-agent.nousresearch.com/desktop
+Install: [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · Desktop: https://hermes-agent.nousresearch.com/desktop
 
 ---
 
@@ -394,7 +394,7 @@ Use it with limited mounts, non-root users, and network controls.
 This slide is a demonstration. Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
 Docs: https://hermes-agent.nousresearch.com/docs/user-guide/docker  
-[howto hermes docker sandbox](../../../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+[howto hermes docker sandbox](../../../PRACTICE/05-security-and-privacy/howto-hermes-docker-sandbox.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md)
 
 ---
 
@@ -570,7 +570,7 @@ Limits on a free account are low (rate and daily caps change; check OpenRouter).
 
 Fallback: Nous Portal free-to-use hosted models via `hermes setup --portal`, or your own paid key, or a locally runnable model.
 
-Details: [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+Details: [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md)
 
 ---
 
@@ -621,7 +621,7 @@ Two different layers:
 
 Class smoke test uses the vault path in `.env`. Container mount rules are extra isolation for untrusted work.
 
-[howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
+[Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 
@@ -635,7 +635,7 @@ Class smoke test uses the vault path in `.env`. Container mount rules are extra 
 
 If install runs long, finish as homework. Draw Model / Harness / Wiki on paper if the machine fails.
 
-[howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md)
+[Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md)
 
 ---
 
@@ -650,13 +650,13 @@ If install runs long, finish as homework. Draw Model / Harness / Wiki on paper i
 3. Skim the Karpathy LLM Wiki gist **or** the LangChain harness article.
 4. Optional: copy [agents md template](../../../PRACTICE/01-harness-and-agents/agents-md-template.md) into a personal project as `AGENTS.md`.
 
-[howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) · [agents md template](../../../PRACTICE/01-harness-and-agents/agents-md-template.md)
+[Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md) · [agents md template](../../../PRACTICE/01-harness-and-agents/agents-md-template.md)
 
 ---
 
 # References
 
-- [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [howto hermes setup](../../../PRACTICE/01-harness-and-agents/howto-hermes-setup.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)
+- [Local LLM Coding with Hermes](../../../PRACTICE/08-verification-and-provenance/local-llm-coding-with-hermes.md) · [Windows](../../../PRACTICE/01-harness-and-agents/install-windows.md) · [macOS](../../../PRACTICE/01-harness-and-agents/install-mac.md) · [Linux](../../../PRACTICE/01-harness-and-agents/install-linux.md) · [howto hermes efficient coding](../../../PRACTICE/01-harness-and-agents/howto-hermes-efficient-coding.md)
 - [what is harness](../../../PRACTICE/01-harness-and-agents/what-is-harness.md) · [what is mcp](../../../PRACTICE/06-mcp-and-tools/what-is-mcp.md) · [academic ai austria](../../../PRACTICE/03-models-and-providers/academic-ai-austria.md) · [howto local llm hardware](../../../PRACTICE/04-local-and-cloud/howto-local-llm-hardware.md)
 - Karpathy LLM Wiki gist · LangChain harness anatomy
 - Session: [02 agent harness and wiki architecture](../../02-agent-harness-and-wiki-architecture.md)

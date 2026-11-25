@@ -62,7 +62,7 @@ Details: [`../course/SESSIONS/overview/timeline.md`](../course/SESSIONS/overview
 | Topic | File |
 |---|---|
 | Obsidian + phone sync (Win / macOS / Linux) | [`../course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md`](../course/PRACTICE/02-knowledge-bases/howto-obsidian-setup-and-sync.md) |
-| Hermes Agent setup | [`../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md`](../course/PRACTICE/01-harness-and-agents/howto-hermes-setup.md) |
+| Hermes Agent setup | [`../course/PRACTICE/01-harness-and-agents/install-windows.md`](../course/PRACTICE/01-harness-and-agents/install-windows.md) (pick OS guide) |
 | What is a **harness**? | [`../course/PRACTICE/01-harness-and-agents/what-is-harness.md`](../course/PRACTICE/01-harness-and-agents/what-is-harness.md) |
 | What is **MCP**? | [`../course/PRACTICE/06-mcp-and-tools/what-is-mcp.md`](../course/PRACTICE/06-mcp-and-tools/what-is-mcp.md) |
 | What is **lint** (LLM Wiki)? | [`../course/PRACTICE/02-knowledge-bases/what-is-lint.md`](../course/PRACTICE/02-knowledge-bases/what-is-lint.md) |

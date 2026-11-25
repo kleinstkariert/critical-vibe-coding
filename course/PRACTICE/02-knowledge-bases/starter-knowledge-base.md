@@ -64,7 +64,7 @@ Folder names are not a lock. The course states that in [Local LLM Coding with He
 | `private/` | Must not read. Must not write. | Journal, health, and finance stay here. |
 | Keys, passwords, `.env` | Must not read. | Do not put them in the vault, including `private/`. |
 
-Point `WIKI_PATH` at `MyVault/wiki`. The path steps are in [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §4. A full-vault path is convenience mode, not recommended for private material.
+Point `WIKI_PATH` at `MyVault/wiki`. The path steps are in [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md#point-hermes-at-a-wiki-folder). A full-vault path is convenience mode, not recommended for private material.
 
 ## SCHEMA.md stub
 
@@ -93,7 +93,7 @@ Access table: see the course starter page that this file was copied from.
 Links for those lines, without pasting them again:
 
 - [AGENTS.md](../../../AGENTS.md) · [agents md template](../01-harness-and-agents/agents-md-template.md)
-- [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d · [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
+- [safe install rules](../05-security-and-privacy/howto-hermes-safe-install-rules.md)
 - Docker workshop, not the novice baseline: [howto hermes docker sandbox](../05-security-and-privacy/howto-hermes-docker-sandbox.md)
 - [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md) §§9 to 14
 - [howto hermes efficient coding](../01-harness-and-agents/howto-hermes-efficient-coding.md)

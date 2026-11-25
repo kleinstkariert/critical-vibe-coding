@@ -17,7 +17,7 @@ canonical: true
 
 This page is an advanced safety module. Use it as a demonstration or in a separate workshop. It is not the novice baseline.
 
-The novice baseline is read-only inspection first, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. Those steps are in [safe install rules](howto-hermes-safe-install-rules.md) and in section 6 of [install windows](../01-harness-and-agents/install-windows.md), [install linux](../01-harness-and-agents/install-linux.md), and [install mac](../01-harness-and-agents/install-mac.md).
+The novice baseline is read-only inspection first, a disposable project, command approvals (the default mode is `smart`; type `hermes config set approvals.mode manual` to be asked every time), a Git or filesystem snapshot before write tasks (Hermes writes files without asking), a narrow work folder as a habit, and no private vault. Those steps are in [safe install rules](howto-hermes-safe-install-rules.md). The beginner OS guides link there after the smoke test.
 
 Docker adds filesystem sharing, path translation, ownership, network, performance, GPU access, images, and Windows/macOS virtualisation, so it is not the two-hour baseline.
 
@@ -57,7 +57,7 @@ Source types: [references](../../REFERENCES/bibliography.md#source-types). A lab
 docker version
 ```
 
-3. Keep Hermes installed on the host for this path: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)
+3. Keep Hermes installed on the host for this path: your OS beginner guide, or [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md)
 
 ---
 
@@ -129,7 +129,7 @@ Do not set `approvals.mode: off` on a personal laptop unless you understand the 
 
 Review the Git diff after agent edits.
 
-Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md) §5d · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
+Course rules: [safe install rules](howto-hermes-safe-install-rules.md) · [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
 
 ---
 
@@ -150,4 +150,4 @@ Course rules: [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.m
 - https://hermes-agent.nousresearch.com/docs/user-guide/security
 - https://hermes-agent.nousresearch.com/docs/user-guide/configuration
 - [Local LLM Coding with Hermes](../08-verification-and-provenance/local-llm-coding-with-hermes.md)
-- [howto hermes setup](../01-harness-and-agents/howto-hermes-setup.md)
+- [OS beginner guides](../01-harness-and-agents/install-windows.md) · [advanced Hermes config](../01-harness-and-agents/howto-hermes-advanced-config.md)
