@@ -1,6 +1,6 @@
 ---
 title: Why this install
-date: 2026-11-20
+date: 2026-11-25
 tags:
   - course
   - howto
@@ -43,7 +43,7 @@ A long context is a long chat plus the files the agent sends. A long context can
 
 *verified fact* from the course research note: a 27B to 34B model at 4-bit needs about 16 to 20 GB for the weights. Runtime, cache, and context need more. A practical machine for that class is a 24 GB graphics card, or 32 to 48 GB of unified memory. Source: [local gpu hardware for llms](../../../research/software&DataManagement/local-gpu-hardware-for-llms.md).
 
-The Hermes catalog checked on 20 Nov 2026 has no 7B to 8B model. This course does not name a catalog id for that size.
+The Hermes catalog checked on 25 Nov 2026 has no 7B to 8B model. This course does not name a catalog id for that size.
 
 1. In Hermes Desktop, open Settings.
 2. Open Providers.
@@ -58,7 +58,7 @@ Tool calling means the model asks Hermes to run a tool. Download a row only when
 
 ### Advanced model
 
-*verified fact*, checked 20 Nov 2026: the catalog lists **Qwen3.8 27B** first. The catalog id is `qwen3.8-27b`. The catalog text calls it the best all-round agent model. The 4-bit weights file `UD-Q4_K_M` is about 15.3 GB. The same entry also downloads an image file and a draft file. Those three files are about 17.3 GB before the context cache.
+*verified fact*, checked 25 Nov 2026: the catalog lists **Qwen3.8 27B** first. The catalog id is `qwen3.8-27b`. The catalog text calls it the best all-round agent model. The 4-bit weights file `UD-Q4_K_M` is about 16.5 GB (15.3 GiB). The same entry also downloads an image file and a draft file. Those three files are about 18.5 GB (17.3 GiB) before the context cache.
 
 This model is advanced. It is not the first download. Use it only when the fit label says it fits, or when the label says it uses system RAM and you accept the slowdown.
 
